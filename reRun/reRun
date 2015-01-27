@@ -1,0 +1,88 @@
+#!/bin/bash
+#set -x
+usage="Usage: 
+reRun -s <caseID> [-t <apk(default), wgt>] [-k webdriver] to re-run the case
+reRun -e <caseID> to edit the entry html
+"
+
+function runTest()
+{
+ctsDir=/home/tizen/00_yunfei/work_tizen/tmp/rerun/crosswalk-test-suite/webapi
+suiteXmlDir=`grep "id=\"$caseID\"" -rl $ctsDir/*/tests.xml|grep -v "tct-manual-w3c-tests"`
+if [ $? -ne 0 ];then
+    echo "Did not find $caseID in all tests.xml "
+    exit 1
+fi
+suite=$(basename $(dirname $suiteXmlDir))
+rm -fr /tmp/rerun
+mkdir -p /tmp/rerun
+if [ "$run_type" = "apk" ];then
+    $ctsDir/../tools/build/pack.py -t apk -m embedded -a x86 -d /tmp/rerun -s $ctsDir/$suite --pkg-version=rerun
+elif [ "$run_type" = "wgt" ];then
+    $ctsDir/../tools/build/pack.py -t wgt -d /tmp/rerun -s $ctsDir/$suite --pkg-version=rerun
+fi
+zipPkg=`ls /tmp/rerun/|grep $suite`
+unzip /tmp/rerun/$zipPkg -d /tmp/rerun/1
+cd /tmp/rerun/1/opt/$suite
+./inst.py -u
+./inst.py
+if [ "$wd_opt" != "" ];then
+    wd_opt="-k $wd_opt -e xwalk"
+fi
+if [ "$run_type" = "apk" ];then
+    testkit-lite -f $PWD/tests.xml --comm androidmobile --id $caseID $wd_opt
+elif [ "$run_type" = "wgt" ];then
+    #testkit-lite -f $PWD/tests.xml --comm tizenmobile --id $caseID $wd_opt --testenvs 'wd-debugip=10.239.255.226:9333 wd-url=http://127.0.0.1:9515'
+    echo "testkit-lite -f $PWD/tests.xml --comm tizenmobile --id $caseID $wd_opt --testenvs 'wd-debugip=10.239.255.226:9333 wd-url=http://127.0.0.1:9515'"
+fi
+
+}
+
+function showTest()
+{
+ctsDir=/home/tizen/00_yunfei/work_tizen/tmp/rerun/crosswalk-test-suite/webapi
+suiteXmlDir=`grep "id=\"$caseID\"" -rl $ctsDir/*/tests.xml|grep -v "tct-manual-w3c-tests"`
+if [ $? -ne 0 ];then
+    echo "Did not find $caseID in all tests.xml "
+    exit 1
+fi
+suite=$(basename $(dirname $suiteXmlDir))
+files=`stats.py -f $suiteXmlDir -r $caseID|sed -e "s|\/opt|$ctsDir|g"|awk '{print $2" "$3}'`
+file_dir=`dirname "$files"`
+echo $file_dir
+cd $file_dir
+echo $files
+files=${files%%\?*}
+vim -O $files 
+}
+
+
+if [ $# -eq 0 ];then
+    echo "$usage"
+fi
+wd_opt=""
+run_type="apk"
+doRun="False"
+doEdit="False"
+while getopts t:s:e:k:h o
+do
+    case "$o" in
+    k) wd_opt=$OPTARG;;
+    t) run_type=$OPTARG;;
+    s) caseID=$OPTARG
+       doRun="True";;
+       #runTest;;
+    e) caseID=$OPTARG
+       doEdit="True";;
+       #showTest;;
+    h) echo "$usage";;
+    *) echo "$usage"
+       exit 1;;
+    esac
+done
+
+[ $doRun = "True" ] && runTest
+[ $doEdit = "True" ] && showTest
+
+
+
