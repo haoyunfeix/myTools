@@ -1,0 +1,3 @@
+on disk:[/home/tizen/00_yunfei/temp/nightly.db]
+sql:[ “select]
+Got error: near " “select": syntax error, exit
