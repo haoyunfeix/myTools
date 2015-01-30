@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <?xml-stylesheet type="text/xsl" href="testresult.xsl"?>
+<test_definition><environment build_id="" device_id="E6OKCY549771" device_model="" device_name="N/A" host="Linux-3.13.0-39-generic-x86_64-with-Ubuntu-12.04-precise" lite_version="3.1.13" manufacturer="" resolution="N/A" screen_size="N/A"><other /></environment>
+<summary test_plan_name="Empty test_plan_name"><start_at>2015-01-29_07_37_34</start_at><end_at>2015-01-29_07_37_52</end_at></summary>
+  <suite category="Supplementary APIs" name="tct-fullscreen-nonw3c-tests" widget="webapi-noneservice-tests">
+    <set name="FullScreen" set_debug_msg="N/A" type="js">
+      <testcase component="Supplementary APIs/Fullscreen API - Mozilla (Partial)" execution_type="auto" id="FullScreen_cancelFullScreen_exists" purpose="Check if FullScreen has cancelFullScreen method" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-fullscreen-nonw3c-tests/fullscreen/FullScreen_cancelFullScreen_exists.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-29 07:38:25</start><end>2015-01-29 07:38:25</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Supplementary APIs/Fullscreen API - Mozilla (Partial)" execution_type="auto" id="FullScreen_fullScreenEnabled_exists" purpose="Check if document has fullScreenEnabled attribute" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-fullscreen-nonw3c-tests/fullscreen/FullScreen_fullScreenEnabled_exists.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-29 07:38:25</start><end>2015-01-29 07:38:25</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Supplementary APIs/Fullscreen API - Mozilla (Partial)" execution_type="auto" id="FullScreen_fullScreenKeyboardInputAllowed_exists" purpose="Check if document has fullScreenKeyboardInputAllowed attribute" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-fullscreen-nonw3c-tests/fullscreen/FullScreen_fullScreenKeyboardInputAllowed_exists.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-29 07:38:25</start><end>2015-01-29 07:38:25</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Supplementary APIs/Fullscreen API - Mozilla (Partial)" execution_type="auto" id="FullScreen_fullscreen_exists" purpose="Check if document has fullScreen attribute" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-fullscreen-nonw3c-tests/fullscreen/FullScreen_fullscreen_exists.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-29 07:38:25</start><end>2015-01-29 07:38:25</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Supplementary APIs/Fullscreen API - Mozilla (Partial)" execution_type="auto" id="FullScreen_onfullscreenchange_exists" purpose="Check if Element has onfullscreenchange attribute" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-fullscreen-nonw3c-tests/fullscreen/FullScreen_onfullscreenchange_exists.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-29 07:38:25</start><end>2015-01-29 07:38:26</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Supplementary APIs/Fullscreen API - Mozilla (Partial)" execution_type="auto" id="FullScreen_requestFullScreen_exists" purpose="Check if Element has requestFullScreen method" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-fullscreen-nonw3c-tests/fullscreen/FullScreen_requestFullScreen_exists.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-29 07:38:26</start><end>2015-01-29 07:38:26</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Supplementary APIs/Fullscreen API - Mozilla (Partial)" execution_type="auto" id="FullScreen_fullScreenEnabled_readonly" purpose="Check if document.fullScreenEnabled is readonly" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-fullscreen-nonw3c-tests/fullscreen/FullScreen_fullScreenEnabled_readonly.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-29 07:38:26</start><end>2015-01-29 07:38:26</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Supplementary APIs/Fullscreen API - Mozilla (Partial)" execution_type="auto" id="FullScreen_fullScreenEnabled_type" purpose="Check if document.fullScreenEnabled type is boolean" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-fullscreen-nonw3c-tests/fullscreen/FullScreen_fullScreenEnabled_type.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-29 07:38:26</start><end>2015-01-29 07:38:26</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Supplementary APIs/Fullscreen API - Mozilla (Partial)" execution_type="auto" id="FullScreen_fullScreenKeyboardInputAllowed_readonly" purpose="Check if document.fullScreenKeyboardInputAllowed is readonly" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-fullscreen-nonw3c-tests/fullscreen/FullScreen_fullScreenKeyboardInputAllowed_readonly.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-29 07:38:26</start><end>2015-01-29 07:38:26</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Supplementary APIs/Fullscreen API - Mozilla (Partial)" execution_type="auto" id="FullScreen_fullScreenKeyboardInputAllowed_type" purpose="Check if the type of document.fullScreenKeyboardInputAllowed is boolean" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-fullscreen-nonw3c-tests/fullscreen/FullScreen_fullScreenKeyboardInputAllowed_type.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-29 07:38:26</start><end>2015-01-29 07:38:26</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Supplementary APIs/Fullscreen API - Mozilla (Partial)" execution_type="auto" id="FullScreen_fullscreen_readonly" purpose="Check if document.fullScreen is readonly" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-fullscreen-nonw3c-tests/fullscreen/FullScreen_fullscreen_readonly.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-29 07:38:26</start><end>2015-01-29 07:38:26</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Supplementary APIs/Fullscreen API - Mozilla (Partial)" execution_type="auto" id="FullScreen_fullScreen_type" purpose="Check if the type of FullScreen.fullScreen is boolean" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-fullscreen-nonw3c-tests/fullscreen/FullScreen_fullScreen_type.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-29 07:38:26</start><end>2015-01-29 07:38:26</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+  </suite>
+</test_definition>

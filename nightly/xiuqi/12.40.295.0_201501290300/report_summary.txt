@@ -1,0 +1,33 @@
+Test Objective
+-----------------------
+Objective in crosswalk nightly automation testing is to provide a quick quality status for Crosswalk supporting W3C Web APIs, Device APIs and Runtime features on Multiple OS and platforms, such as Tizen, Android.
+
+Image Location
+-----------------------
+Crosswalk for Android: 12.40.295.0 (https://download.01.org/crosswalk/releases/crosswalk/android/canary/12.40.295.0/crosswalk-12.40.295.0.zip)
+
+Test Device & Operating System
+-----------------------
+ASUS MeMO Pad 8 K011 - Android Image version: 4.4.2
+
+Summary
+-----------------------
+Total TCs: 11615 , Passed: 9774 , Failed: 846 , Blocked: 995 , Run%: 91% , Pass%: 84%
+
+------------ Web API ------------
+Total TCs: 11615 , Passed: 9774 , Failed: 846 , Blocked: 995 , Run%: 91% , Pass%: 84%
+
+Summary Cordova
+-----------------------
+Total TCs: 11615 , Passed: 10241 , Failed: 649 , Blocked: 725 , Run%: 94% , Pass%: 88%
+
+------------ Web API ------------
+Total TCs: 11615 , Passed: 10241 , Failed: 649 , Blocked: 725 , Run%: 94% , Pass%: 88%
+
+
+Details
+-----------------------
+Please review the attachment file.
+
+Thanks,
+Crosswalk QA team
