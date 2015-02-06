@@ -5,9 +5,9 @@ reRun -s <caseID> [-t <apk(default), wgt>] [-k webdriver] to re-run the case
 reRun -e <caseID> to edit the entry html
 "
 
+ctsDir=/home/yunfei/00_yunfei/work_space/tmp/rerun/crosswalk-test-suite/webapi
 function runTest()
 {
-ctsDir=/home/tizen/00_yunfei/work_tizen/tmp/rerun/crosswalk-test-suite/webapi
 suiteXmlDir=`grep "id=\"$caseID\"" -rl $ctsDir/*/tests.xml|grep -v "tct-manual-w3c-tests"`
 if [ $? -ne 0 ];then
     echo "Did not find $caseID in all tests.xml "
@@ -40,7 +40,6 @@ fi
 
 function showTest()
 {
-ctsDir=/home/tizen/00_yunfei/work_tizen/tmp/rerun/crosswalk-test-suite/webapi
 suiteXmlDir=`grep "id=\"$caseID\"" -rl $ctsDir/*/tests.xml|grep -v "tct-manual-w3c-tests"`
 if [ $? -ne 0 ];then
     echo "Did not find $caseID in all tests.xml "
