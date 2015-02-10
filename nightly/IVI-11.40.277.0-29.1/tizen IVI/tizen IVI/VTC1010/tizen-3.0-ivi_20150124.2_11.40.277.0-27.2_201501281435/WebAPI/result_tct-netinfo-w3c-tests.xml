@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <?xml-stylesheet type="text/xsl" href="testresult.xsl"?>
+<test_definition><environment build_id="" device_id="10.239.52.31:26101" device_model="" device_name="ivi_box&#10;" host="Linux-3.2.0-29-generic-pae-i686-with-Ubuntu-12.04-precise" lite_version="3.1.13" manufacturer="" resolution="" screen_size=""><other /></environment>
+<summary test_plan_name="Empty test_plan_name"><start_at>2015-01-28_18_00_11</start_at><end_at>2015-01-28_18_00_26</end_at></summary>
+  <suite category="W3C/HTML5 APIs" name="tct-netinfo-w3c-tests">
+    <set name="NetworkInfo" set_debug_msg="N/A" type="js">
+      <testcase component="W3C_HTML5 APIs/Device/The Network Information API" execution_type="auto" id="Navigator_connection" purpose="Check if the navigator.connection attribute exists, readonly and type of NetworkInformation" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-netinfo-w3c-tests/netinfo/Navigator_connection.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 10:05:16</start><end>2015-01-28 10:05:16</end><stdout>[Message] *Check if the navigator.connection attribute exists, readonly and type of NetworkInformation: assert_true: the navigator.connection attribute exists expected true got false</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/The Network Information API" execution_type="auto" id="NetworkInformation_type" purpose="Check if the NetworkInformation.type attribute exists, readonly and type of string" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-netinfo-w3c-tests/netinfo/NetworkInformation_type.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 10:05:16</start><end>2015-01-28 10:05:16</end><stdout>[Message] *Check if the NetworkInformation.type attribute exists, readonly and type of string: Cannot use 'in' operator to search for 'type' in undefined(stack: TypeError: Cannot use 'in' operator to search for 'type' in undefined\n    at Object.&lt;anonymous&gt; (app://w3cnetinfo.webapiw3cnetinfotests/opt/tct-netinfo-w3c-tests/netinfo/NetworkInformation_type.html:44:27)\n    at Object.Test.step (app://w3cnetinfo.webapiw3cnetinfotests/opt/tct-netinfo-w3c-tests/resources/testharness.js:1176:25)\n    at test (app://w3cnetinfo.webapiw3cnetinfotests/opt/tct-netinfo-w3c-tests/resources/testharness.js:428:18)\n    at app://w3cnetinfo.webapiw3cnetinfotests/opt/tct-netinfo-w3c-tests/netinfo/NetworkInformation_type.html:42:1)</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/The Network Information API" execution_type="auto" id="NetworkInformation_onchange" purpose="Check if the NetworkInformation.onchange attribute exists, readonly and type of object" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-netinfo-w3c-tests/netinfo/NetworkInformation_onchange.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 10:05:16</start><end>2015-01-28 10:05:17</end><stdout>[Message] *Check if the NetworkInformation.onchange attribute exists, readonly and type of object: Cannot use 'in' operator to search for 'onchange' in undefined(stack: TypeError: Cannot use 'in' operator to search for 'onchange' in undefined\n    at Object.&lt;anonymous&gt; (app://w3cnetinfo.webapiw3cnetinfotests/opt/tct-netinfo-w3c-tests/netinfo/NetworkInformation_onchange.html:46:31)\n    at Object.Test.step (app://w3cnetinfo.webapiw3cnetinfotests/opt/tct-netinfo-w3c-tests/resources/testharness.js:1176:25)\n    at test (app://w3cnetinfo.webapiw3cnetinfotests/opt/tct-netinfo-w3c-tests/resources/testharness.js:428:18)\n    at app://w3cnetinfo.webapiw3cnetinfotests/opt/tct-netinfo-w3c-tests/netinfo/NetworkInformation_onchange.html:44:1)</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/The Network Information API" execution_type="auto" id="NetworkInformation_downlinkMax" purpose="Check if the NetworkInformation.downlinkMax attribute exists, readonly and type of number" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-netinfo-w3c-tests/netinfo/NetworkInformation_downlinkMax.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 10:05:17</start><end>2015-01-28 10:05:17</end><stdout>[Message] *Check if the NetworkInformation.downlinkMax attribute exists, readonly and type of number: Cannot use 'in' operator to search for 'downlinkMax' in undefined(stack: TypeError: Cannot use 'in' operator to search for 'downlinkMax' in undefined\n    at Object.&lt;anonymous&gt; (app://w3cnetinfo.webapiw3cnetinfotests/opt/tct-netinfo-w3c-tests/netinfo/NetworkInformation_downlinkMax.html:44:34)\n    at Object.Test.step (app://w3cnetinfo.webapiw3cnetinfotests/opt/tct-netinfo-w3c-tests/resources/testharness.js:1176:25)\n    at test (app://w3cnetinfo.webapiw3cnetinfotests/opt/tct-netinfo-w3c-tests/resources/testharness.js:428:18)\n    at app://w3cnetinfo.webapiw3cnetinfotests/opt/tct-netinfo-w3c-tests/netinfo/NetworkInformation_downlinkMax.html:42:1)</stdout><stderr /></result_info></testcase>
+    </set>
+  </suite>
+</test_definition>

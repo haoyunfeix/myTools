@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <?xml-stylesheet type="text/xsl" href="testresult.xsl"?>
+<test_definition><environment build_id="" device_id="localhost" device_model="" device_name="N/A" host="Linux-3.13.0-39-generic-x86_64-with-Ubuntu-12.04-precise" lite_version="3.1.13" manufacturer="" resolution="N/A" screen_size="N/A"><other /></environment>
+<summary test_plan_name="Empty test_plan_name"><start_at>2015-02-05_18_04_51</start_at><end_at>2015-02-05_18_06_25</end_at></summary>
+  <suite category="Crosswalk WRT" name="wrt-packagemgt-android-tests">
+    <set name="packagemgt" set_debug_msg="N/A" type="script">
+      <testcase component="Crosswalk WRT/Package Management" execution_type="auto" id="Crosswalk_WebApp_Update_SameVersion" purpose="Validate if Crosswalk support web apps could be updated by the same version successfully" result="PASS">
+        <description>
+          <test_script_entry>/opt/wrt-packagemgt-android-tests/packagemgt/Crosswalk_WebApp_Update_SameVersion.sh</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-05 18:04:58</start><end>2015-02-05 18:05:18</end><stdout><![CDATA[Success
+\nSuccess
+\nSuccess
+\n]]></stdout><stderr><![CDATA[5941 KB/s (22292817 bytes in 3.664s)\n5375 KB/s (22292817 bytes in 4.049s)\n]]></stderr></result_info></testcase>
+      <testcase component="Crosswalk WRT/Package Management" execution_type="auto" id="Crosswalk_WebApp_Install" purpose="Validate if Crosswalk support web apps could be installed successfully" result="PASS">
+        <description>
+          <test_script_entry>/opt/wrt-packagemgt-android-tests/packagemgt/Crosswalk_WebApp_Install.sh</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-05 18:05:18</start><end>2015-02-05 18:05:27</end><stdout><![CDATA[Success
+\nSuccess
+\n]]></stdout><stderr><![CDATA[9353 KB/s (22292817 bytes in 2.327s)\n]]></stderr></result_info></testcase>
+      <testcase component="Crosswalk WRT/Package Management" execution_type="auto" id="Crosswalk_WebApp_Uninstall_viaTerminal" purpose="Validate if Crosswalk support web apps could be uninstalled successfully" result="PASS">
+        <description>
+          <test_script_entry>/opt/wrt-packagemgt-android-tests/packagemgt/Crosswalk_WebApp_Uninstall_viaTerminal.sh</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-05 18:05:27</start><end>2015-02-05 18:05:53</end><stdout><![CDATA[Success
+\n]]></stdout><stderr><![CDATA[6074 KB/s (22292817 bytes in 3.584s)\n]]></stderr></result_info></testcase>
+      <testcase component="Crosswalk WRT/Package Management" execution_type="auto" id="Crosswalk_WebApp_Launch_viaTerminal" purpose="Validate Crosswalk support that web app could be launched successfully" result="PASS">
+        <description>
+          <test_script_entry>/opt/wrt-packagemgt-android-tests/packagemgt/Crosswalk_WebApp_Launch_viaTerminal.sh</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-05 18:05:53</start><end>2015-02-05 18:06:07</end><stdout><![CDATA[Success
+\nStarting: Intent { act=android.intent.action.View cmp=org.xwalk.packagemgt/.PackagemgtActivity }
+\nSuccess
+\n]]></stdout><stderr><![CDATA[5909 KB/s (22292817 bytes in 3.683s)\n]]></stderr></result_info></testcase>
+      <testcase component="Crosswalk WRT/Package Management" execution_type="auto" id="Crosswalk_WebApp_Close_viaTerminal" purpose="Validate Crosswalk support that web app could be closed successfully" result="PASS">
+        <description>
+          <test_script_entry>/opt/wrt-packagemgt-android-tests/packagemgt/Crosswalk_WebApp_Close_viaTerminal.sh</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-05 18:06:07</start><end>2015-02-05 18:06:24</end><stdout><![CDATA[Success
+\nStarting: Intent { act=android.intent.action.View cmp=org.xwalk.packagemgt/.PackagemgtActivity }
+\nSuccess
+\n]]></stdout><stderr><![CDATA[9285 KB/s (22292817 bytes in 2.344s)\n]]></stderr></result_info></testcase>
+    </set>
+  </suite>
+</test_definition>

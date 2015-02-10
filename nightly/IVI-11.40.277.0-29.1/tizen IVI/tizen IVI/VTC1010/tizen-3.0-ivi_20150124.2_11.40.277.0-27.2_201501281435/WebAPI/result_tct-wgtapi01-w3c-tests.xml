@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <?xml-stylesheet type="text/xsl" href="testresult.xsl"?>
+<test_definition><environment build_id="" device_id="10.239.52.31:26101" device_model="" device_name="ivi_box&#10;" host="Linux-3.2.0-29-generic-pae-i686-with-Ubuntu-12.04-precise" lite_version="3.1.13" manufacturer="" resolution="" screen_size=""><other /></environment>
+<summary test_plan_name="Empty test_plan_name"><start_at>2015-01-28_20_11_39</start_at><end_at>2015-01-28_20_30_27</end_at></summary>
+  <suite category="W3C/HTML5 APIs" name="tct-wgtapi01-w3c-tests">
+    <set name="ag" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_ag" purpose="Test if widget.description is set correctly." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:16:47</start><end>2015-01-28 12:16:47</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nltr37" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_i18nltr37" purpose="Test that LTR direction does not apply to the email attribute of the author element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:16:58</start><end>2015-01-28 12:16:59</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nrlo03" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_i18nrlo03" purpose="Test that RLO direction applies to the description element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:17:09</start><end>2015-01-28 12:17:10</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nrlo04" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_i18nrlo04" purpose="Test that RLO direction applies to the author element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:17:19</start><end>2015-01-28 12:17:20</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nrlo11" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_i18nrlo11" purpose="Test that nested RLO and LRO directions apply within the description element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:17:29</start><end>2015-01-28 12:17:30</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nrlo12" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_i18nrlo12" purpose="Test that nested RLO and LRO directions apply within the author element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:17:39</start><end>2015-01-28 12:17:40</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nrlo36" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_i18nrlo36" purpose="Test that RLO direction does not apply to the href attribute of the author element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:17:50</start><end>2015-01-28 12:17:50</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nrlo37" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_i18nrlo37" purpose="Test that RLO direction does not apply to the email attribute of the author element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:17:59</start><end>2015-01-28 12:18:00</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="name_attrtype" set_debug_msg="N/A" type="wrt">
+    <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_name_attrtype" purpose="Test if the attribute 'name' is on the window." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:18:09</start><end>2015-01-28 12:18:10</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+  </set>
+  <set name="NoInterfaceObject" set_debug_msg="N/A" type="wrt">
+    <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_NoInterfaceObject" purpose="Test that a UA correctly implements the NoInterfaceObject extended attribute." result="FAIL">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>FAIL</actual_result><start>2015-01-28 12:18:19</start><end>2015-01-28 12:18:20</end><stdout>[Message] *Test that a UA correctly implements the NoInterfaceObject extended attribute.: Widget is not defined(stack: ReferenceError: Widget is not defined\n    at Object.&lt;anonymous&gt; (app://mfapgpkzdg.nointerfaceobject/test_index.html:48:49)\n    at Object.Test.step (app://mfapgpkzdg.nointerfaceobject/resources/testharness.js:1121:25)\n    at test (app://mfapgpkzdg.nointerfaceobject/resources/testharness.js:414:18)\n    at app://mfapgpkzdg.nointerfaceobject/test_index.html:47:8)</stdout><stderr /></result_info></testcase>
+  </set>
+  <set name="preferences_attrexists" set_debug_msg="N/A" type="wrt">
+    <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_preferences_attrexists" purpose="Test if the UA has an attribute called 'preferences' on the window." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:18:30</start><end>2015-01-28 12:18:30</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+  </set>
+  <set name="preferences_attrreadonly" set_debug_msg="N/A" type="wrt">
+    <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_preferences_attrreadonly" purpose="Test if the attribute 'preferences' is readonly on the window." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:18:40</start><end>2015-01-28 12:18:40</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+  </set>
+  <set name="return-proper-strings" set_debug_msg="N/A" type="wrt">
+    <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_return-proper-strings" purpose="Test that upon getting any of the attributes from the attributes column of the configuration attributes table, a user agent must return the corresponding value from the 'Values in Table of Configuration Defaults' column." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:18:50</start><end>2015-01-28 12:18:50</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+  </set>
+  <set name="shortName_attrexists" set_debug_msg="N/A" type="wrt">
+    <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_shortName_attrexists" purpose="Test if the UA has an attribute called 'shortName' on the window." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:19:00</start><end>2015-01-28 12:19:00</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+  </set>
+  <set name="shortName_attrreadonly" set_debug_msg="N/A" type="wrt">
+    <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_shortName_attrreadonly" purpose="Test if the attribute 'shortName' is readonly on the window." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:19:10</start><end>2015-01-28 12:19:10</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+  </set>
+  <set name="shortName_attrtype" set_debug_msg="N/A" type="wrt">
+    <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_shortName_attrtype" purpose="Test if the type of attribute 'shortName' is string on the window." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:19:20</start><end>2015-01-28 12:19:20</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+  </set>
+  <set name="version_attrexists" set_debug_msg="N/A" type="wrt">
+    <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_version_attrexists" purpose="Test if the UA has an attribute called 'version' on the window." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:19:30</start><end>2015-01-28 12:19:30</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+  </set>
+  <set name="version_attrreadonly" set_debug_msg="N/A" type="wrt">
+    <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_version_attrreadonly" purpose="Test if the attribute 'version' is readonly on the window." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:19:40</start><end>2015-01-28 12:19:40</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+  </set>
+  <set name="version_attrtype" set_debug_msg="N/A" type="wrt">
+    <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_version_attrtype" purpose="Test if the type of attribute 'version' is string on the window." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:19:50</start><end>2015-01-28 12:19:50</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+  </set>
+  <set name="width_attrexists" set_debug_msg="N/A" type="wrt">
+    <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_width_attrexists" purpose="Test if the UA has an attribute called 'width' on the window." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:20:00</start><end>2015-01-28 12:20:00</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+  </set>
+  <set name="width_attrreadonly" set_debug_msg="N/A" type="wrt">
+    <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_width_attrreadonly" purpose="Test if the attribute 'width' is readonly on the window." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:20:10</start><end>2015-01-28 12:20:10</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+  </set>
+  <set name="width_attrtype" set_debug_msg="N/A" type="wrt">
+    <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_width_attrtype" purpose="Test if the type of attribute 'width' is number on the window." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:20:20</start><end>2015-01-28 12:20:20</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+  </set>
+    <set name="i18nrtl03" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_i18nrtl03" purpose="Test that RTL direction applies to the description element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:20:30</start><end>2015-01-28 12:20:30</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nrtl04" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_i18nrtl04" purpose="Test that RTL direction applies to the author element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:20:40</start><end>2015-01-28 12:20:40</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nrtl07" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_i18nrtl07" purpose="Test that RTL direction applies to the span element within the description element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:20:50</start><end>2015-01-28 12:20:50</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nrtl08" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_i18nrtl08" purpose="Test that RTL direction applies to the span element within the author element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:21:00</start><end>2015-01-28 12:21:00</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nrtl11" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_i18nrtl11" purpose="Test that nested RTL and RTL directions apply within the description element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:21:10</start><end>2015-01-28 12:21:10</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nrtl12" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_i18nrtl12" purpose="Test that nested RTL and RTL directions apply within the author element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:21:20</start><end>2015-01-28 12:21:20</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nrtl36" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_i18nrtl36" purpose="Test that RTL direction does not apply to the href attribute of the author element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:21:30</start><end>2015-01-28 12:21:31</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nrtl37" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_i18nrtl37" purpose="Test that RTL direction does not apply to the email attribute of the author element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:21:40</start><end>2015-01-28 12:21:40</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="id_attrexists" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_id_attrexists" purpose="Test if the UA has an attribute called 'id' on the window." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:21:50</start><end>2015-01-28 12:21:51</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="id_attrreadonly" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_id_attrreadonly" purpose="Test if the attribute 'id' is readonly on the window." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:22:00</start><end>2015-01-28 12:22:01</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="id_attrtype" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_id_attrtype" purpose="Test if the type of attribute 'id' is string on the window." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:22:10</start><end>2015-01-28 12:22:11</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="name_attrexists" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_name_attrexists" purpose="Test if the UA has an attribute called 'name' on the window." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:22:20</start><end>2015-01-28 12:22:21</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="name_attrreadonly" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_name_attrreadonly" purpose="Test if the attribute 'name' is readonly on the window." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:22:30</start><end>2015-01-28 12:22:31</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="author_attrtype" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_author_attrtype" purpose="Test if the type of attribute 'author' is string on the window." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:22:41</start><end>2015-01-28 12:22:41</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="ax" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_ax" purpose="Test if the UA initializes the preferences attribute and not fire the storage event." result="FAIL">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>FAIL</actual_result><start>2015-01-28 12:22:51</start><end>2015-01-28 12:22:51</end><stdout>[Message] *Tests if the UA initializes the preferences attribute according to spec: assert_equals: expected (string) "pass1" but got (undefined) undefined</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="description_attrexists" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_description_attrexists" purpose="Test if the UA has an attribute called 'description' on the window." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:23:01</start><end>2015-01-28 12:23:01</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="description_attrreadonly" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_description_attrreadonly" purpose="Test if the attribute 'description' is readonly on the window." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:23:11</start><end>2015-01-28 12:23:11</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="description_attrtype" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_description_attrtype" purpose="Test if the type of attribute 'description' is string on the window." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:23:21</start><end>2015-01-28 12:23:21</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="height_attrexists" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_height_attrexists" purpose="Test if the UA has an attribute called 'height' on the window." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:23:31</start><end>2015-01-28 12:23:31</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="height_attrreadonly" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_height_attrreadonly" purpose="Test if the attribute 'height' is readonly on the window." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:23:41</start><end>2015-01-28 12:23:41</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="height_attrtype" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_height_attrtype" purpose="Test if the type of attribute 'height' is number on the window." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:23:51</start><end>2015-01-28 12:23:51</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nlro03" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_i18nlro03" purpose="Test that LRO direction applies to the description element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:24:01</start><end>2015-01-28 12:24:01</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nlro04" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_i18nlro04" purpose="Test that LRO direction applies to the author element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:24:11</start><end>2015-01-28 12:24:11</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nlro07" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_i18nlro07" purpose="Test that LRO direction applies to the span element within the description element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:24:21</start><end>2015-01-28 12:24:21</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nlro08" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_i18nlro08" purpose="Test that LRO direction applies to the span element within the author element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:24:31</start><end>2015-01-28 12:24:31</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nlro11" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_i18nlro11" purpose="Test that nested LRO and RLO directions apply within the description element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:24:41</start><end>2015-01-28 12:24:41</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nlro12" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_i18nlro12" purpose="Test that nested LRO and RLO directions apply within the author element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:24:51</start><end>2015-01-28 12:24:51</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="aa" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_aa" purpose="Test if the UA has an attribute called 'widget' on the window object." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:25:01</start><end>2015-01-28 12:25:01</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="ab" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_ab" purpose="Test if the UA initializes the preferences attribute according to the spec." result="FAIL">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>FAIL</actual_result><start>2015-01-28 12:25:11</start><end>2015-01-28 12:25:11</end><stdout>[Message] *All preferences were set correctly.: assert_true: Test undefined failed by throwing the following exception: '[object Object]' expected true got false</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="ad" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_ad" purpose="Test if widget.author is set correctly." result="FAIL">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>FAIL</actual_result><start>2015-01-28 12:25:21</start><end>2015-01-28 12:25:21</end><stdout>[Message] *widget.author was set correctly.: assert_true: Test undefined failed by throwing the following exception: [object Object] expected true got false</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="ae" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_ae" purpose="Test if widget.authorEmail is set correctly." result="FAIL">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>FAIL</actual_result><start>2015-01-28 12:25:31</start><end>2015-01-28 12:25:31</end><stdout>[Message] *widget.authorEmail was set correctly.: assert_true: Test undefined failed by throwing the following exception: [object Object] expected true got false</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="af" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_af" purpose="Test if widget.authorHref is set correctly." result="FAIL">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>FAIL</actual_result><start>2015-01-28 12:25:41</start><end>2015-01-28 12:25:41</end><stdout>[Message] *widget.authorHref was set correctly: assert_true: Test undefined failed by throwing the following exception: [object Object] expected true got false</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="ah" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_ah" purpose="Test if widget.id is set correctly." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:25:51</start><end>2015-01-28 12:25:51</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="aj" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_aj" purpose="Test if widget.version is set correctly." result="FAIL">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>FAIL</actual_result><start>2015-01-28 12:26:01</start><end>2015-01-28 12:26:02</end><stdout>[Message] *widget.version was set correctly.: assert_true: Test undefined failed by throwing the following exception: [object Object] expected true got false</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="ak" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_ak" purpose="Test if widget.shortName is set correctly." result="FAIL">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>FAIL</actual_result><start>2015-01-28 12:26:11</start><end>2015-01-28 12:26:12</end><stdout>[Message] *widget.shortName was set correctly.: assert_true: Test undefined failed by throwing the following exception: [object Object] expected true got false</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="ao" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_ao" purpose="Test that the user agent returns a number as the value type of widget width." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:26:21</start><end>2015-01-28 12:26:22</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="ap" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_ap" purpose="Test that the user agent returns a number as the value type of widget height." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:26:31</start><end>2015-01-28 12:26:32</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="ar" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_ar" purpose="Test that the UA throws a NO_MODIFICATION_ALLOWED_ERR when trying to set a readonly key." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:26:41</start><end>2015-01-28 12:26:42</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="as" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_as" purpose="Test that the UA throws a NO_MODIFICATION_ALLOWED_ERR when trying to invoke removeItem on a readonly key." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:26:51</start><end>2015-01-28 12:26:52</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="at" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_at" purpose="Test that the UA does not throw a NO_MODIFICATION_ALLOWED_ERR when clear() is invoked." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:27:01</start><end>2015-01-28 12:27:02</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="author_attrexists" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_author_attrexists" purpose="Test if the UA has an attribute called 'author' on the window." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:27:12</start><end>2015-01-28 12:27:12</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="author_attrreadonly" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_author_attrreadonly" purpose="Test if the attribute 'author' is readonly on the window." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:27:22</start><end>2015-01-28 12:27:22</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="authorEmail_attrexists" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_authorEmail_attrexists" purpose="Test if the UA has an attribute called 'authorEmail' on the window." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:27:32</start><end>2015-01-28 12:27:32</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="authorEmail_attrreadonly" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_authorEmail_attrreadonly" purpose="Test if the attribute 'authorEmail' is readonly on the window." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:27:42</start><end>2015-01-28 12:27:42</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="authorEmail_attrtype" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_authorEmail_attrtype" purpose="Test if the type of attribute 'authorEmail' is string on the window." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:27:52</start><end>2015-01-28 12:27:52</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="authorHref_attrexists" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_authorHref_attrexists" purpose="Test if the UA has an attribute called 'authorHref' on the window." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:28:02</start><end>2015-01-28 12:28:02</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="authorHref_attrreadonly" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_authorHref_attrreadonly" purpose="Test if the attribute 'authorHref' is readonly on the window." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:28:12</start><end>2015-01-28 12:28:12</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="authorHref_attrtype" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_authorHref_attrtype" purpose="Test if the type of attribute 'authorHref' is string on the window." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:28:22</start><end>2015-01-28 12:28:22</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nltr03" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="i18nltr03" purpose="Test that LTR direction applies to the description element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:28:32</start><end>2015-01-28 12:28:32</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nltr04" set_debug_msg="N/A" type="wrt">   
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="i18nltr04" purpose="Test that LTR direction applies to the author element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:28:42</start><end>2015-01-28 12:28:42</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nltr07" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="i18nltr07" purpose="Test that LTR direction applies to the span element within the description element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:28:52</start><end>2015-01-28 12:28:52</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>   
+    <set name="i18nltr08" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="i18nltr08" purpose="Test that LTR direction applies to the span element within the author element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:29:02</start><end>2015-01-28 12:29:02</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nltr11" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="i18nltr11" purpose="Test that nested LTR and RTL directions apply within the description element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:29:12</start><end>2015-01-28 12:29:12</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>   
+    <set name="i18nltr12" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="i18nltr12" purpose="Test that nested LTR and RTL directions apply within the author element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:29:22</start><end>2015-01-28 12:29:22</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nltr36" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="i18nltr36" purpose="Test that LTR direction does not apply to the href attribute of the author element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:29:32</start><end>2015-01-28 12:29:32</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nlro36" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="i18nlro36" purpose="Test that LRO direction does not apply to the href attribute of the author element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:29:42</start><end>2015-01-28 12:29:43</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nlro37" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="i18nlro37" purpose="Test that LRO direction does not apply to the email attribute of the author element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:29:52</start><end>2015-01-28 12:29:52</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nltr41" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_i18nltr41" purpose="Test that LTR direction does not apply to the id attribute of the widget element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:30:03</start><end>2015-01-28 12:30:03</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nltr42" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_i18nltr42" purpose="Test that LTR direction applies to the version attribute of the widget element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:30:13</start><end>2015-01-28 12:30:13</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nrlo01" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_i18nrlo01" purpose="Test that RLO direction applies to the name element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:30:23</start><end>2015-01-28 12:30:23</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nrlo02" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_i18nrlo02" purpose="Test that RLO direction applies to the short attribute of the name element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:30:33</start><end>2015-01-28 12:30:33</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nrlo14" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_i18nrlo14" purpose="Test that RLO direction is inherited by the name element from the widget element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:30:43</start><end>2015-01-28 12:30:43</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nrlo15" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_i18nrlo15" purpose="Test that RLO direction is inherited by the short attribute of the name element from the widget element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:30:53</start><end>2015-01-28 12:30:53</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nrlo16" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_i18nrlo16" purpose="Test that RLO direction is inherited by the description element from the widget element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:31:03</start><end>2015-01-28 12:31:03</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nrlo17" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_i18nrlo17" purpose="Test that RLO direction is inherited by the author element from the widget element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:31:13</start><end>2015-01-28 12:31:13</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nrlo41" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_i18nrlo41" purpose="Test that RLO direction does not apply to the id attribute of widget element." result="N/A">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>N/A</actual_result><start /><end /><stdout /><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nrlo42" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_i18nrlo42" purpose="Test that RLO direction applies to the version attribute of the widget element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:31:55</start><end>2015-01-28 12:32:05</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nrtl01" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_i18nrtl01" purpose="Test that RTL direction applies to the name element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:32:19</start><end>2015-01-28 12:32:20</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nrtl02" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_i18nrtl02" purpose="Test that RTL direction applies to the short attribute of the name element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:32:32</start><end>2015-01-28 12:32:33</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nrtl14" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_i18nrtl14" purpose="Test that RTL direction is inherited by the name element from the widget element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:32:43</start><end>2015-01-28 12:32:44</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nrtl15" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_i18nrtl15" purpose="Test that RTL direction is inherited by the short attribute of the name element from the widget element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:32:54</start><end>2015-01-28 12:32:55</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nrtl16" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_i18nrtl16" purpose="Test that RTL direction is inherited by the description element from the widget element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:33:06</start><end>2015-01-28 12:33:07</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nrtl17" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_i18nrtl17" purpose="Test that RTL direction is inherited by the author element from the widget element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:33:18</start><end>2015-01-28 12:33:18</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nrtl41" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_i18nrtl41" purpose="Test that RTL direction does not apply to the id attribute of the widget element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:33:28</start><end>2015-01-28 12:33:28</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nrtl42" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_i18nrtl42" purpose="Test that RTL direction applies to the version attribute of the widget element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:33:38</start><end>2015-01-28 12:33:38</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nlro16" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_i18nlro16" purpose="Test that LRO direction is inherited by the description element from the widget element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:33:48</start><end>2015-01-28 12:33:48</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nlro17" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="WidgetInterface_i18nlro17" purpose="Test that LRO direction is inherited by the author element from the widget element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:33:58</start><end>2015-01-28 12:33:58</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nlro41" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="i18nlro41" purpose="Test that LRO direction does not apply to the id attribute of the widget element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:34:08</start><end>2015-01-28 12:34:08</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nlro42" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="i18nlro42" purpose="Test that LRO direction applies to the version attribute of the widget element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:34:18</start><end>2015-01-28 12:34:18</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nltr01" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="i18nltr01" purpose="Test that LTR direction applies to the name element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:34:28</start><end>2015-01-28 12:34:28</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nltr02" set_debug_msg="N/A" type="wrt"> 
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="i18nltr02" purpose="Test that LTR direction applies to the short attribute of the name element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:34:38</start><end>2015-01-28 12:34:38</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nltr14" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="i18nltr14" purpose="Test that LTR direction is inherited by the name element from the widget element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:34:48</start><end>2015-01-28 12:34:48</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nltr15" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="i18nltr15" purpose="Test that LTR direction is inherited by the short attribute of the name element from the widget element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:34:58</start><end>2015-01-28 12:34:58</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nltr16" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="i18nltr16" purpose="Test that LTR direction is inherited by the description element from the widget element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:35:08</start><end>2015-01-28 12:35:08</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="i18nltr17" set_debug_msg="N/A" type="wrt">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Interface" execution_type="auto" id="i18nltr17" purpose="Test that LTR direction is inherited by the author element from the widget element." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-01-28 12:35:18</start><end>2015-01-28 12:35:18</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+  </suite>
+</test_definition>

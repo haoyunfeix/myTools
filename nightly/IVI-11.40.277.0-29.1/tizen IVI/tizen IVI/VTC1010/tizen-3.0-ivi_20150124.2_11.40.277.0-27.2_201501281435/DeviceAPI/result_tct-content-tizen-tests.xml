@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <?xml-stylesheet type="text/xsl" href="testresult.xsl"?>
+<test_definition><environment build_id="" device_id="10.239.52.31:26101" device_model="" device_name="ivi_box&#10;" host="Linux-3.2.0-29-generic-pae-i686-with-Ubuntu-12.04-precise" lite_version="3.1.13" manufacturer="" resolution="" screen_size=""><other /></environment>
+<summary test_plan_name="Empty test_plan_name"><start_at>2015-01-28_22_08_27</start_at><end_at>2015-01-28_22_10_15</end_at></summary>
+  <suite category="Tizen Web Device APIs" extension="crosswalk" name="tct-content-tizen-tests">
+    <set name="Content" set_debug_msg="N/A" type="js">
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManagerObject_content_exist" purpose="Check if content attribute exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManagerObject_content_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:13:33</start><end>2015-01-28 14:13:33</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_updateBatch_exist" purpose="Check if updateBatch exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_updateBatch_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:13:33</start><end>2015-01-28 14:13:33</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_update_exist" purpose="Check if update exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_update_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:13:34</start><end>2015-01-28 14:13:34</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_getDirectories_exist" purpose="Check if getDirectories method exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_getDirectories_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:13:34</start><end>2015-01-28 14:13:34</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_find_exist" purpose="Check if find exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_find_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:13:34</start><end>2015-01-28 14:13:35</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_find" onload_delay="30" purpose="Check if ContentManager find method with optional error callback is invoked properly" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_find.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:13:35</start><end>2015-01-28 14:13:35</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_getDirectories" onload_delay="30" purpose="Check if ContentManager getDirectories method with only non-optional arguments is invoked properly" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_getDirectories.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:13:35</start><end>2015-01-28 14:13:36</end><stdout>[Message] *ContentManager_getDirectories: assert_greater_than: directories item is not found expected a number greater than 0 but got 0</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_update" onload_delay="30" purpose="Check if update() method works properly" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_update.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:13:36</start><end>2015-01-28 14:13:37</end><stdout>[Message] *ContentManager_update: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_updateBatch" onload_delay="30" purpose="Check if updateBatch() method works properly" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_updateBatch.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:13:37</start><end>2015-01-28 14:13:38</end><stdout>[Message] *ContentManager_updateBatch: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="Content_type_AUDIO" onload_delay="30" purpose="Check if Content type value is AUDIO for find method with filter AUDIO" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/Content_type_AUDIO.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:13:38</start><end>2015-01-28 14:13:39</end><stdout>[Message] *Content_type_AUDIO: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_update_description" onload_delay="30" purpose="Check if update() properly updates description attribute of first found item" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_update_description.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:13:39</start><end>2015-01-28 14:13:40</end><stdout>[Message] *ContentManager_update_description: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_updateBatch_description" onload_delay="30" purpose="Check if updateBatch() method updates properly description of found content" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_updateBatch_description.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:13:40</start><end>2015-01-28 14:13:41</end><stdout>[Message] *ContentManager_updateBatch_description: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="Content_type_IMAGE" onload_delay="30" purpose="Check if Content type value is IMAGE for find method with filter IMAGE" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/Content_type_IMAGE.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:13:41</start><end>2015-01-28 14:13:42</end><stdout>[Message] *Content_type_IMAGE: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="Content_type_VIDEO" onload_delay="30" purpose="Check if Content type value is VIDEO for find method with filter VIDEO" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/Content_type_VIDEO.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:13:42</start><end>2015-01-28 14:13:43</end><stdout>[Message] *Content_type_VIDEO: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_find_nullableArgs" onload_delay="30" purpose="Check if Content find method performs successCallback when all optional arguments are null" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_find_nullableArgs.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:13:43</start><end>2015-01-28 14:13:43</end><stdout>[Message] *ContentManager_find_nullableArgs: assert_greater_than: media item is not found expected a number greater than 0 but got 0</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="VideoContent_notexist" purpose="Check if VideoContent cannot be called in new expression and as a function or in new expression" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/VideoContent_notexist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:13:43</start><end>2015-01-28 14:13:44</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="Content_notexist" purpose="Check if Content cannot be called in new expression and as a function or in new expression" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/Content_notexist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:13:44</start><end>2015-01-28 14:13:44</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ImageContent_notexist" purpose="Check if ImageContent cannot be called in new expression and as a function or in new expression" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ImageContent_notexist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:13:44</start><end>2015-01-28 14:13:44</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentDirectoryArraySuccessCallback_notexist" purpose="Check if ContentDirectoryArraySuccessCallback cannot be called in new expression and as a function or in new expression" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentDirectoryArraySuccessCallback_notexist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:13:44</start><end>2015-01-28 14:13:44</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentScanSuccessCallback_notexist" purpose="Check if ContentScanSuccessCallback cannot be called in new expression and as a function or in new expression" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentScanSuccessCallback_notexist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:13:44</start><end>2015-01-28 14:13:45</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_notexist" purpose="Check if ContentManager cannot be called in new expression and as a function or in new expression" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_notexist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:13:45</start><end>2015-01-28 14:13:45</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_extend" purpose="Check if content object can have new properties added" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_extend.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:13:45</start><end>2015-01-28 14:13:45</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_update_missarg" purpose="Check if update method called with missing non-optional argument throws an exception" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_update_missarg.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:13:45</start><end>2015-01-28 14:13:45</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_update_content_TypeMismatch" onload_delay="30" purpose="Check if update throws exception when content is incorrect" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_update_content_TypeMismatch.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:13:45</start><end>2015-01-28 14:13:46</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_updateBatch_missarg" purpose="Check if updateBatch method called with missing non-optional argument throws an exception" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_updateBatch_missarg.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:13:46</start><end>2015-01-28 14:13:46</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_updateBatch_contents_TypeMismatch" onload_delay="30" purpose="Check if updateBatch throws exception when contents is incorrect" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_updateBatch_contents_TypeMismatch.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:13:46</start><end>2015-01-28 14:13:47</end><stdout>[Message] *ContentManager_updateBatch_contents_TypeMismatch: assert_throws: Given incorrect contents. function "function () {\n                tizen.content.update(conten..." did not throw</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_updateBatch_successCallback_TypeMismatch" onload_delay="30" purpose="Check if updateBatch throws exception when successCallback is incorrect" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_updateBatch_successCallback_TypeMismatch.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:13:47</start><end>2015-01-28 14:13:47</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_updateBatch_successCallback_invalid_cb" purpose="Check if updateBatch throws exception when success callback is invalid" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_updateBatch_successCallback_invalid_cb.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:13:47</start><end>2015-01-28 14:13:47</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_updateBatch_errorCallback_TypeMismatch" onload_delay="30" purpose="Check if updateBatch throws exception when errorCallback is incorrect" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_updateBatch_errorCallback_TypeMismatch.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:13:47</start><end>2015-01-28 14:13:48</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_updateBatch_errorCallback_invalid_cb" onload_delay="30" purpose="Check if updateBatch throws exception when errorCallback is invalid" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_updateBatch_errorCallback_invalid_cb.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:13:48</start><end>2015-01-28 14:13:48</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_getDirectories_missarg" purpose="Check if getDirectories method called with missing non-optional argument throws an exception" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_getDirectories_missarg.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:13:48</start><end>2015-01-28 14:13:48</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_getDirectories_successCallback_invalid_cb" purpose="Check if getDirectories throws exception when success callback is incorrect" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_getDirectories_successCallback_invalid_cb.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:13:48</start><end>2015-01-28 14:13:49</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_getDirectories_successCallback_TypeMismatch" onload_delay="30" purpose="Check if getDirectories throws exception when successCallback is invalid" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_getDirectories_successCallback_TypeMismatch.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:13:49</start><end>2015-01-28 14:13:49</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_getDirectories_errorCallback_TypeMismatch" onload_delay="30" purpose="Check if getDirectories throws exception when errorCallback is incorrect" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_getDirectories_errorCallback_TypeMismatch.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:13:49</start><end>2015-01-28 14:13:49</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_getDirectories_errorCallback_invalid_cb" onload_delay="30" purpose="Check if getDirectories throws exception when errorCallback is invalid" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_getDirectories_errorCallback_invalid_cb.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:13:49</start><end>2015-01-28 14:13:49</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_find_missarg" purpose="Check if find method called with missing non-optional argument throws an exception" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_find_missarg.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:13:49</start><end>2015-01-28 14:13:50</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_find_successCallback_TypeMismatch" onload_delay="30" purpose="Check if find throws exception when successCallback is incorrect" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_find_successCallback_TypeMismatch.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:13:50</start><end>2015-01-28 14:13:50</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_find_successCallback_invalid_cb" purpose="Check if find throws exception when success callback is invalid" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_find_successCallback_invalid_cb.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:13:50</start><end>2015-01-28 14:13:50</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_find_errorCallback_TypeMismatch" onload_delay="30" purpose="Check if find throws exception when errorCallback is incorrect" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_find_errorCallback_TypeMismatch.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:13:50</start><end>2015-01-28 14:13:50</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_find_errorCallback_invalid_cb" onload_delay="30" purpose="Check if find throws exception when errorCallback is invalid" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_find_errorCallback_invalid_cb.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:13:50</start><end>2015-01-28 14:13:50</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_scanFile_exist" purpose="Check if scanFile method exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_scanFile_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:13:50</start><end>2015-01-28 14:13:51</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_scanFile_successCallback_TypeMismatch" onload_delay="30" purpose="Check if scanFile throws exception when successCallback is invalid" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_scanFile_successCallback_TypeMismatch.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:13:51</start><end>2015-01-28 14:13:51</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_scanFile_successCallback_invalid_cb" purpose="Check if scanFile throws exception when success callback is incorrect" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_scanFile_successCallback_invalid_cb.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:13:51</start><end>2015-01-28 14:13:51</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_scanFile_errorCallback_TypeMismatch" onload_delay="30" purpose="Check if scanFile throws exception when errorCallback is invalid" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_scanFile_errorCallback_TypeMismatch.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:13:51</start><end>2015-01-28 14:13:51</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_scanFile_errorCallback_invalid_cb" onload_delay="30" purpose="Check if scanFile throws exception when errorCallback is incorrect" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_scanFile_errorCallback_invalid_cb.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:13:51</start><end>2015-01-28 14:13:52</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_setChangeListener_exist" purpose="Check if setChangeListener exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_setChangeListener_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:13:52</start><end>2015-01-28 14:13:52</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentArraySuccessCallback_notexist" purpose="Check if ContentArraySuccessCallback cannot be called in new expression and as a function or in new expression" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentArraySuccessCallback_notexist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:13:52</start><end>2015-01-28 14:13:52</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentDirectory_notexist" purpose="Check if ContentDirectory cannot be called in new expression and as a function or in new expression" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentDirectory_notexist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:13:52</start><end>2015-01-28 14:13:52</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentChangeCallback_notexist" purpose="Check if ContentChangeCallback cannot be called in new expression and as a function or in new expression" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentChangeCallback_notexist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:13:52</start><end>2015-01-28 14:13:53</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="AudioContentLyrics_notexist" purpose="Check if AudioContentLyrics cannot be called in new expression and as a function or in new expression" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/AudioContentLyrics_notexist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:13:53</start><end>2015-01-28 14:13:53</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="AudioContent_notexist" purpose="Check if AudioContent cannot be called in new expression and as a function or in new expression" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/AudioContent_notexist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:13:53</start><end>2015-01-28 14:13:53</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_setChangeListener_missarg" purpose="Check if setChangeListener method called with missing non-optional argument throws an exception" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_setChangeListener_missarg.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:13:53</start><end>2015-01-28 14:13:54</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_setChangeListener_changeCallback_TypeMismatch" onload_delay="30" purpose="Check if setChangeListener throws exception when changeCallback is incorrect" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_setChangeListener_changeCallback_TypeMismatch.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:13:54</start><end>2015-01-28 14:13:54</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_setChangeListener_changeCallback_invalid_cb" onload_delay="30" purpose="Check if setChangeListener throws exception when changeCallback is invalid listener" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_setChangeListener_changeCallback_invalid_cb.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:13:54</start><end>2015-01-28 14:13:54</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_unsetChangeListener_exist" purpose="Check if unsetChangeListener exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_unsetChangeListener_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:13:54</start><end>2015-01-28 14:13:54</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ImageContent_extend" onload_delay="30" purpose="Check if ImageContent can have new properties added" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ImageContent_extend.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:13:54</start><end>2015-01-28 14:13:55</end><stdout>[Message] *ImageContent_extend: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ImageContent_geolocation_attribute" onload_delay="30" purpose="Check if ImageContent have geolocation attribute with proper type and is writeable" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ImageContent_geolocation_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:13:55</start><end>2015-01-28 14:13:56</end><stdout>[Message] *ImageContent_geolocation_attribute: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ImageContent_width_attribute" onload_delay="30" purpose="Check if ImageContent have width attribute with proper type, and is readonly" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ImageContent_width_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:13:56</start><end>2015-01-28 14:13:57</end><stdout>[Message] *ImageContent_width_attribute: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ImageContent_height_attribute" onload_delay="30" purpose="Check if ImageContent have height attribute with proper type and is readonly" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ImageContent_height_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:13:57</start><end>2015-01-28 14:13:57</end><stdout>[Message] *ImageContent_height_attribute: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ImageContent_orientation_attribute" onload_delay="30" purpose="Check if ImageContent have orientation attribute with proper type is writeable and not nullable" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ImageContent_orientation_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:13:57</start><end>2015-01-28 14:13:58</end><stdout>[Message] *ImageContent_orientation_attribute: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentDirectoryArraySuccessCallback_onsuccess" onload_delay="30" purpose="Check if ContentDirectoryArraySuccessCallback onsuccess is called and if its arguments have proper type" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentDirectoryArraySuccessCallback_onsuccess.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:13:58</start><end>2015-01-28 14:13:59</end><stdout>[Message] *ContentDirectoryArraySuccessCallback_onsuccess: assert_greater_than: directories were not found expected a number greater than 0 but got 0</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentScanSuccessCallback_onsuccess" onload_delay="30" purpose="Check if ContentScanSuccessCallback onsuccess is called and if its arguments have proper type" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentScanSuccessCallback_onsuccess.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:13:59</start><end>2015-01-28 14:14:00</end><stdout>[Message] *ContentScanSuccessCallback_onsuccess: assert_greater_than: media item is not found expected a number greater than 0 but got 0</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="Content_extend" onload_delay="30" purpose="Check if Content can have new properties added" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/Content_extend.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:00</start><end>2015-01-28 14:14:01</end><stdout>[Message] *Content_extend: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="Content_editableAttributes_attribute" onload_delay="30" purpose="Check if Content have editableAttributes attribute with proper type and is readonly" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/Content_editableAttributes_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:01</start><end>2015-01-28 14:14:02</end><stdout>[Message] *Content_editableAttributes_attribute: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="Content_id_attribute" onload_delay="30" purpose="Check if Content have id attribute with proper type, and is readonly" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/Content_id_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:02</start><end>2015-01-28 14:14:02</end><stdout>[Message] *Content_id_attribute: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="Content_name_attribute" onload_delay="30" purpose="Check if Content have name attribute with proper type is writeable and not nullable" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/Content_name_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:02</start><end>2015-01-28 14:14:03</end><stdout>[Message] *Content_name_attribute: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="Content_type_attribute" onload_delay="30" purpose="Check if Content have type attribute with proper type and is readonly" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/Content_type_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:03</start><end>2015-01-28 14:14:04</end><stdout>[Message] *Content_type_attribute: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="Content_mimeType_attribute" onload_delay="30" purpose="Check if Content have mimeType attribute with proper mimeType, and is readonly" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/Content_mimeType_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:04</start><end>2015-01-28 14:14:05</end><stdout>[Message] *Content_mimeType_attribute: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="Content_title_attribute" onload_delay="30" purpose="Check if Content have title attribute with proper type and is readonly" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/Content_title_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:05</start><end>2015-01-28 14:14:06</end><stdout>[Message] *Content_title_attribute: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="Content_contentURI_attribute" onload_delay="30" purpose="Check if Content have contentURI attribute with proper contentURI and is readonly" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/Content_contentURI_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:06</start><end>2015-01-28 14:14:06</end><stdout>[Message] *Content_contentURI_attribute: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="Content_thumbnailURIs_attribute" onload_delay="30" purpose="Check if Content have thumbnailURIs attribute with proper type and is readonly" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/Content_thumbnailURIs_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:06</start><end>2015-01-28 14:14:07</end><stdout>[Message] *Content_thumbnailURIs_attribute: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="Content_releaseDate_attribute" onload_delay="30" purpose="Check if Content have releaseDate attribute with proper type and is readonly" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/Content_releaseDate_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:07</start><end>2015-01-28 14:14:08</end><stdout>[Message] *Content_releaseDate_attribute: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="Content_modifiedDate_attribute" onload_delay="30" purpose="Check if Content have modifiedDate attribute with proper type and is readolny" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/Content_modifiedDate_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:08</start><end>2015-01-28 14:14:09</end><stdout>[Message] *Content_modifiedDate_attribute: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="Content_size_attribute" onload_delay="30" purpose="Check if Content have size attribute with proper type and is readonly" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/Content_size_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:09</start><end>2015-01-28 14:14:10</end><stdout>[Message] *Content_size_attribute: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="Content_description_attribute" onload_delay="30" purpose="Check if Content have description attribute with proper type and is writeable" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/Content_description_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:10</start><end>2015-01-28 14:14:10</end><stdout>[Message] *Content_description_attribute: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="Content_rating_attribute" onload_delay="30" purpose="Check if Content have rating attribute with proper type, range, is writeable and not nullable" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/Content_rating_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:10</start><end>2015-01-28 14:14:11</end><stdout>[Message] *Content_rating_attribute: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_find_with_errorCallback" onload_delay="30" purpose="Check if find called with optional errorCallback is properly invoked" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_find_with_errorCallback.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:14:11</start><end>2015-01-28 14:14:12</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_find_with_directoryId" onload_delay="30" purpose="Check if find called with optional directoryId is properly invoked" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_find_with_directoryId.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:12</start><end>2015-01-28 14:14:13</end><stdout>[Message] *ContentManager_find_with_directoryId: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_find_with_filter" onload_delay="30" purpose="Check if find called with optional filter is properly invoked" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_find_with_filter.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:14:13</start><end>2015-01-28 14:14:14</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_find_with_sortMode" onload_delay="30" purpose="Check if find called with optional sortMode is properly invoked" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_find_with_sortMode.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:14:14</start><end>2015-01-28 14:14:15</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_find_with_count" onload_delay="30" purpose="Check if find called with optional count is properly invoked" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_find_with_count.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:15</start><end>2015-01-28 14:14:16</end><stdout>[Message] *ContentManager_find_with_count: assert_equals: unexpected result expected 1 but got 0</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_find_with_offset" onload_delay="30" purpose="Check if find called with optional offset is properly invoked" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_find_with_offset.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:16</start><end>2015-01-28 14:14:16</end><stdout>[Message] *ContentManager_find_with_offset:  </stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_getDirectories_with_errorCallback" onload_delay="30" purpose="Check if getDirectories called with optional errorCallback is invoked properly" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_getDirectories_with_errorCallback.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:14:16</start><end>2015-01-28 14:14:17</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_find_filter_TypeMismatch" onload_delay="30" purpose="Check if find throws exception when filter is incorrect" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_find_filter_TypeMismatch.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:14:17</start><end>2015-01-28 14:14:17</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_find_sortMode_TypeMismatch" onload_delay="30" purpose="Check if find throws exception when sortMode is incorrect" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_find_sortMode_TypeMismatch.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:14:17</start><end>2015-01-28 14:14:17</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_find_sortMode_invalid_obj" onload_delay="30" purpose="Check if find throws exception when sortMode is a simple object" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_find_sortMode_invalid_obj.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:17</start><end>2015-01-28 14:14:17</end><stdout>[Message] *ContentManager_find_sortMode_invalid_obj: assert_throws: Given incorrect sortMode. function "function () {\n            tizen.content.find(successCallb..." did not throw</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_unsetChangeListener_extra_argument" purpose="Check if unsetChangeListener method can be invoked with extra argument" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_unsetChangeListener_extra_argument.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:14:18</start><end>2015-01-28 14:14:18</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentArraySuccessCallback_onsuccess" onload_delay="30" purpose="Check if ContentArraySuccessCallback onsuccess is called and if its arguments have proper type" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentArraySuccessCallback_onsuccess.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:18</start><end>2015-01-28 14:14:18</end><stdout>[Message] *ContentArraySuccessCallback_onsuccess: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_scanFile" onload_delay="30" purpose="Check if scanFile methods works properly" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_scanFile.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:18</start><end>2015-01-28 14:14:19</end><stdout>[Message] *ContentManager_scanFile: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_scanFile_with_errorCallback" onload_delay="30" purpose="Check if scanFile called with optional errorCallback is invoked properly" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_scanFile_with_errorCallback.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:19</start><end>2015-01-28 14:14:20</end><stdout>[Message] *ContentManager_scanFile_with_errorCallback: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_scanFile_with_successCallback" onload_delay="30" purpose="Check if scanFile called with optional successCallback is invoked properly" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_scanFile_with_successCallback.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:20</start><end>2015-01-28 14:14:21</end><stdout>[Message] *ContentManager_scanFile_with_successCallback: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_unsetChangeListener" onload_delay="30" purpose="Check if unsetChangeListener method called with non-optional arguments does what it should" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_unsetChangeListener.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:21</start><end>2015-01-28 14:14:22</end><stdout>[Message] *ContentManager_unsetChangeListener: assert_greater_than: media item is not found expected a number greater than 0 but got 0</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="VideoContent_extend" onload_delay="30" purpose="Check if VideoContent can have new properties added" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/VideoContent_extend.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:22</start><end>2015-01-28 14:14:23</end><stdout>[Message] *VideoContent_extend: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="VideoContent_geolocation_attribute" onload_delay="30" purpose="Check if VideoContent have geolocation attribute with proper type and is writeable" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/VideoContent_geolocation_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:23</start><end>2015-01-28 14:14:24</end><stdout>[Message] *VideoContent_geolocation_attribute: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="VideoContent_height_attribute" onload_delay="30" purpose="Check if VideoContent have height attribute with proper type and is readonly" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/VideoContent_height_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:24</start><end>2015-01-28 14:14:24</end><stdout>[Message] *VideoContent_height_attribute: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="VideoContent_width_attribute" onload_delay="30" purpose="Check if VideoContent have width attribute with proper type and is readonly" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/VideoContent_width_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:24</start><end>2015-01-28 14:14:25</end><stdout>[Message] *VideoContent_width_attribute: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="VideoContent_duration_attribute" onload_delay="30" purpose="Check if VideoContent have duration attribute with proper type and is readonly" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/VideoContent_duration_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:25</start><end>2015-01-28 14:14:26</end><stdout>[Message] *VideoContent_duration_attribute: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="VideoContent_album_attribute" onload_delay="30" purpose="Check if VideoContent have album attribute with proper type and is readonly" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/VideoContent_album_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:26</start><end>2015-01-28 14:14:27</end><stdout>[Message] *VideoContent_album_attribute: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="VideoContent_artists_attribute" onload_delay="30" purpose="Check if VideoContent have artists attribute with proper type and is readonly" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/VideoContent_artists_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:27</start><end>2015-01-28 14:14:28</end><stdout>[Message] *VideoContent_artists_attribute: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentChangeCallback_oncontentadded" onload_delay="30" purpose="Check if ContentChangeCallback oncontentadded is called and if its arguments have proper type" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentChangeCallback_oncontentadded.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:28</start><end>2015-01-28 14:14:29</end><stdout>[Message] *ContentChangeCallback_oncontentadded: assert_unreached: Failed to copy a file to /home/app/content/ContentChangeCallback_oncontentadded.png with message: IOError Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentChangeCallback_oncontentremoved" onload_delay="30" purpose="Check if ContentChangeCallback oncontentremoved is called and if its arguments have proper type" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentChangeCallback_oncontentremoved.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:29</start><end>2015-01-28 14:14:39</end><stdout>[Message] *ContentChangeCallback_oncontentremoved: assert_unreached: Failed to copy a file to /home/app/content/ContentChangeCallback_oncontentremoved.png Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentChangeCallback_oncontentupdated" onload_delay="30" purpose="Check if ContentChangeCallback oncontentupdated is called and if its arguments have proper type" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentChangeCallback_oncontentupdated.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:39</start><end>2015-01-28 14:14:40</end><stdout>[Message] *ContentChangeCallback_oncontentupdated: assert_greater_than: media item is not found expected a number greater than 0 but got 0</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_updateBatch_with_errorCallback" onload_delay="30" purpose="Check if updateBatch called with optional errorCallback is invoked properly" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_updateBatch_with_errorCallback.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:40</start><end>2015-01-28 14:14:41</end><stdout>[Message] *ContentManager_updateBatch_with_errorCallback: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_updateBatch_with_successCallback" onload_delay="30" purpose="Check if updateBatch called with optional successCallback is invoked properly" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_updateBatch_with_successCallback.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:41</start><end>2015-01-28 14:14:41</end><stdout>[Message] *ContentManager_updateBatch_with_successCallback: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="AudioContent_album_attribute" onload_delay="30" purpose="Check if AudioContent have album attribute with proper type and is readonly" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/AudioContent_album_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:42</start><end>2015-01-28 14:14:42</end><stdout>[Message] *AudioContent_album_attribute: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="AudioContent_artists_attribute" onload_delay="30" purpose="Check if AudioContent have artists attribute with proper type and is readonly" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/AudioContent_artists_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:42</start><end>2015-01-28 14:14:43</end><stdout>[Message] *AudioContent_artists_attribute: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="AudioContent_bitrate_attribute" onload_delay="30" purpose="Check if AudioContent have bitrate attribute with proper type, readonly" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/AudioContent_bitrate_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:43</start><end>2015-01-28 14:14:44</end><stdout>[Message] *AudioContent_bitrate_attribute: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="AudioContent_duration_attribute" onload_delay="30" purpose="Check if AudioContent have duration attribute with proper type and is readonly" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/AudioContent_duration_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:44</start><end>2015-01-28 14:14:45</end><stdout>[Message] *AudioContent_duration_attribute: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="AudioContent_extend" onload_delay="30" purpose="Check if AudioContent can have new properties added" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/AudioContent_extend.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:45</start><end>2015-01-28 14:14:45</end><stdout>[Message] *AudioContent_extend: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="AudioContent_trackNumber_attribute" onload_delay="30" purpose="Check if AudioContent have trackNumber attribute with proper type, readonly, nullable" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/AudioContent_trackNumber_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:45</start><end>2015-01-28 14:14:46</end><stdout>[Message] *AudioContent_trackNumber_attribute: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="AudioContent_genres_attribute" onload_delay="30" purpose="Check if AudioContent have genres attribute with proper type, readonly" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/AudioContent_genres_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:46</start><end>2015-01-28 14:14:47</end><stdout>[Message] *AudioContent_genres_attribute: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="AudioContent_composers_attribute" onload_delay="30" purpose="Check if AudioContent have composers attribute with proper type and is readonly" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/AudioContent_composers_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:47</start><end>2015-01-28 14:14:48</end><stdout>[Message] *AudioContent_composers_attribute: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="AudioContent_copyright_attribute" onload_delay="30" purpose="Check if AudioContent have copyright attribute with proper type and is readonly" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/AudioContent_copyright_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:48</start><end>2015-01-28 14:14:48</end><stdout>[Message] *AudioContent_copyright_attribute: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="AudioContent_lyrics_attribute" onload_delay="30" purpose="Check if AudioContent have lyrics attribute with proper type and is readonly" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/AudioContent_lyrics_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:49</start><end>2015-01-28 14:14:49</end><stdout>[Message] *AudioContent_lyrics_attribute: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="AudioContentLyrics_extend" onload_delay="30" purpose="Check if AudioContentLyrics can have new properties added" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/AudioContentLyrics_extend.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:49</start><end>2015-01-28 14:14:50</end><stdout>[Message] *AudioContentLyrics_extend: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="AudioContentLyrics_type_attribute" onload_delay="30" purpose="Check if AudioContentLyrics have type attribute with proper type and is readonly" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/AudioContentLyrics_type_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:50</start><end>2015-01-28 14:14:51</end><stdout>[Message] *AudioContentLyrics_type_attribute: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="AudioContentLyrics_timestamps_attribute" onload_delay="30" purpose="Check if AudioContentLyrics have timestamps attribute with proper type and is readonly" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/AudioContentLyrics_timestamps_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:51</start><end>2015-01-28 14:14:52</end><stdout>[Message] *AudioContentLyrics_timestamps_attribute: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="AudioContentLyrics_texts_attribute" onload_delay="30" purpose="Check if AudioContentLyrics have texts attribute with proper type and is readonly" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/AudioContentLyrics_texts_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:52</start><end>2015-01-28 14:14:53</end><stdout>[Message] *AudioContentLyrics_texts_attribute: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentDirectory_extend" onload_delay="30" purpose="Check if ContentDirectory can have new properties added" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentDirectory_extend.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:53</start><end>2015-01-28 14:14:54</end><stdout>[Message] *ContentDirectory_extend: assert_greater_than: directories were not found expected a number greater than 0 but got 0</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentDirectory_id_attribute" onload_delay="30" purpose="Check if ContentDirectory have id attribute with proper type, and is readonly" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentDirectory_id_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:54</start><end>2015-01-28 14:14:55</end><stdout>[Message] *ContentDirectory_id_attribute: assert_greater_than: directories were not found expected a number greater than 0 but got 0</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentDirectory_directoryURI_attribute" onload_delay="30" purpose="Check if ContentDirectory have directoryURI attribute with proper type and is readonly" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentDirectory_directoryURI_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:55</start><end>2015-01-28 14:14:56</end><stdout>[Message] *ContentDirectory_directoryURI_attribute: assert_greater_than: directories were not found expected a number greater than 0 but got 0</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentDirectory_title_attribute" onload_delay="30" purpose="Check if ContentDirectory have title attribute with proper type, readonly, not null" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentDirectory_title_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:56</start><end>2015-01-28 14:14:56</end><stdout>[Message] *ContentDirectory_title_attribute: assert_greater_than: directories were not found expected a number greater than 0 but got 0</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentDirectory_modifiedDate_attribute" onload_delay="30" purpose="Check if ContentDirectory have modifiedDate attribute with proper type and is readonly" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentDirectory_modifiedDate_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:57</start><end>2015-01-28 14:14:57</end><stdout>[Message] *ContentDirectory_modifiedDate_attribute: assert_greater_than: directories were not found expected a number greater than 0 but got 0</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentDirectory_storageType_attribute" onload_delay="30" purpose="Check if ContentDirectory have storageType attribute with proper type, readonly, not null" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentDirectory_storageType_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:57</start><end>2015-01-28 14:14:58</end><stdout>[Message] *ContentDirectory_storageType_attribute: assert_greater_than: directories were not found expected a number greater than 0 but got 0</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_update_name" onload_delay="30" purpose="Check if update() properly updates name attribute of first found item" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_update_name.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:58</start><end>2015-01-28 14:14:59</end><stdout>[Message] *ContentManager_update_name: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_update_video_geolocation" onload_delay="30" purpose="Check if update() properly updates geolocation attribute of first found video item" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_update_video_geolocation.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:14:59</start><end>2015-01-28 14:14:59</end><stdout>[Message] *ContentManager_update_video_geolocation: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_update_image_geolocation" onload_delay="30" purpose="Check if update() properly updates geolocation attribute of first found image item" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_update_image_geolocation.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:15:00</start><end>2015-01-28 14:15:00</end><stdout>[Message] *ContentManager_update_image_geolocation: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_update_image_orientation" onload_delay="30" purpose="Check if update() properly updates orientation attribute of first found image item" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_update_image_orientation.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:15:00</start><end>2015-01-28 14:15:01</end><stdout>[Message] *ContentManager_update_image_orientation: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_updateBatch_name" onload_delay="30" purpose="Check if updateBatch() properly updates name attributes of multiple image items" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_updateBatch_name.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:15:01</start><end>2015-01-28 14:15:02</end><stdout>[Message] *ContentManager_updateBatch_name: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_updateBatch_video_geolocation" onload_delay="30" purpose="Check if updateBatch() properly updates name attributes of multiple video items" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_updateBatch_video_geolocation.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:15:02</start><end>2015-01-28 14:15:03</end><stdout>[Message] *ContentManager_updateBatch_video_geolocation: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_updateBatch_image_geolocation" onload_delay="30" purpose="Check if updateBatch() properly updates geolocation attributes of multiple image items" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_updateBatch_image_geolocation.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:15:03</start><end>2015-01-28 14:15:04</end><stdout>[Message] *ContentManager_updateBatch_image_geolocation: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_updateBatch_image_orientation" onload_delay="30" purpose="Check if updateBatch() properly updates orientation attributes of multiple image items" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_updateBatch_image_orientation.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:15:04</start><end>2015-01-28 14:15:04</end><stdout>[Message] *ContentManager_updateBatch_image_orientation: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_setChangeListener" onload_delay="30" purpose="Check if setChangeListener method works properly" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_setChangeListener.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:15:04</start><end>2015-01-28 14:15:05</end><stdout>[Message] *ContentManager_setChangeListener: assert_greater_than: media item is not found expected a number greater than 0 but got 0</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManager_updateBatch_without_callback" onload_delay="30" purpose="Check if updateBatch called without callback is invoked properly" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManager_updateBatch_without_callback.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:15:05</start><end>2015-01-28 14:15:06</end><stdout>[Message] *ContentManager_updateBatch_without_callback: assert_unreached: setup_contents fails: DATABASE_ERR with message:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Content/Content" execution_type="auto" id="ContentManagerObject_notexist" purpose="Check if ContentManagerObject cannot be called in new expression" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-content-tizen-tests/content/ContentManagerObject_notexist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:15:06</start><end>2015-01-28 14:15:06</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+  </suite>
+</test_definition>

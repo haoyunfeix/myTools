@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <?xml-stylesheet type="text/xsl" href="testresult.xsl"?>
+<test_definition><environment build_id="" device_id="10.239.52.31:26101" device_model="" device_name="ivi_box&#10;" host="Linux-3.2.0-29-generic-pae-i686-with-Ubuntu-12.04-precise" lite_version="3.1.13" manufacturer="" resolution="" screen_size=""><other /></environment>
+<summary test_plan_name="Empty test_plan_name"><start_at>2015-01-28_22_44_46</start_at><end_at>2015-01-28_22_45_15</end_at></summary>
+  <suite category="Tizen Web Device APIs" extension="crosswalk" name="tct-systemsetting-tizen-tests">
+    <set name="SystemSetting" set_debug_msg="N/A" type="js">
+      <testcase component="Tizen Device APIs/System/SystemSetting" execution_type="auto" id="SystemSettingManager_getProperty_exist" purpose="Check if exists of getProperty" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-systemsetting-tizen-tests/systemsetting/SystemSettingManager_getProperty_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:49:51</start><end>2015-01-28 14:49:52</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/System/SystemSetting" execution_type="auto" id="SystemSettingManager_setProperty_exist" purpose="Check if exists of setProperty" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-systemsetting-tizen-tests/systemsetting/SystemSettingManager_setProperty_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:49:52</start><end>2015-01-28 14:49:52</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/System/SystemSetting" execution_type="auto" id="SystemSettingManager_extend" purpose="Check if SystemSettingManager is extendable" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-systemsetting-tizen-tests/systemsetting/SystemSettingManager_extend.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:49:52</start><end>2015-01-28 14:49:52</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/System/SystemSetting" execution_type="auto" id="SystemSettingManager_getProperty_HOME_SCREEN" purpose="Check if getProperty works for HOME_SCREEN" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-systemsetting-tizen-tests/systemsetting/SystemSettingManager_getProperty_HOME_SCREEN.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:49:52</start><end>2015-01-28 14:49:53</end><stdout>[Message] *SystemSettingManager_getProperty_HOME_SCREEN: assert_unreached: Should not be here: UnknownError:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/System/SystemSetting" execution_type="auto" id="SystemSettingManager_getProperty_INCOMING_CALL" purpose="Check if getProperty works for INCOMING_CALL" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-systemsetting-tizen-tests/systemsetting/SystemSettingManager_getProperty_INCOMING_CALL.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:49:53</start><end>2015-01-28 14:49:53</end><stdout>[Message] *SystemSettingManager_getProperty_INCOMING_CALL: assert_unreached: Should not be here: UnknownError:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/System/SystemSetting" execution_type="auto" id="SystemSettingManager_getProperty_type_TypeMismatch" purpose="Check if getProperty throws exception when type is incorrect" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-systemsetting-tizen-tests/systemsetting/SystemSettingManager_getProperty_type_TypeMismatch.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:49:53</start><end>2015-01-28 14:49:54</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/System/SystemSetting" execution_type="auto" id="SystemSettingManager_getProperty_LOCK_SCREEN" purpose="Check if getProperty works for LOCK_SCREEN" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-systemsetting-tizen-tests/systemsetting/SystemSettingManager_getProperty_LOCK_SCREEN.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:49:54</start><end>2015-01-28 14:49:54</end><stdout>[Message] *SystemSettingManager_getProperty_LOCK_SCREEN: assert_unreached: Should not be here: UnknownError:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/System/SystemSetting" execution_type="auto" id="SystemSettingManager_getProperty_no_errorCallback" purpose="Check if getProperty works without error callback" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/tct-systemsetting-tizen-tests/systemsetting/SystemSettingManager_getProperty_no_errorCallback.html</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 14:49:54</start><end>2015-01-28 14:49:57</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/System/SystemSetting" execution_type="auto" id="SystemSettingManager_setProperty_HOME_SCREEN" purpose="Check if setProperty works for HOME_SCREEN" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-systemsetting-tizen-tests/systemsetting/SystemSettingManager_setProperty_HOME_SCREEN.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:49:58</start><end>2015-01-28 14:49:58</end><stdout>[Message] *SystemSettingManager_setProperty_HOME_SCREEN: assert_unreached: getProperty() error: UnknownError:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/System/SystemSetting" execution_type="auto" id="SystemSettingManager_setProperty_INCOMING_CALL" purpose="Check if setProperty works for INCOMING_CALL" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-systemsetting-tizen-tests/systemsetting/SystemSettingManager_setProperty_INCOMING_CALL.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:49:58</start><end>2015-01-28 14:49:59</end><stdout>[Message] *SystemSettingManager_setProperty_INCOMING_CALL: assert_unreached: getProperty() error: UnknownError:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/System/SystemSetting" execution_type="auto" id="SystemSettingManager_setProperty_errorCallback_invalid_cb" purpose="Check if setProperty throws exception when error callback is invalid" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-systemsetting-tizen-tests/systemsetting/SystemSettingManager_setProperty_errorCallback_invalid_cb.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:49:59</start><end>2015-01-28 14:49:59</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/System/SystemSetting" execution_type="auto" id="SystemSettingManager_setProperty_successCallback_invalid_cb" purpose="Check if setProperty throws exception when success callback is invalid" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-systemsetting-tizen-tests/systemsetting/SystemSettingManager_setProperty_successCallback_invalid_cb.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:49:59</start><end>2015-01-28 14:49:59</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/System/SystemSetting" execution_type="auto" id="SystemSettingManager_setProperty_type_TypeMismatch" purpose="Check if setProperty throws exception when type is incorrect" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-systemsetting-tizen-tests/systemsetting/SystemSettingManager_setProperty_type_TypeMismatch.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:49:59</start><end>2015-01-28 14:49:59</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/System/SystemSetting" execution_type="auto" id="SystemSettingManager_setProperty_LOCK_SCREEN" purpose="Check if setProperty works for LOCK_SCREEN" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-systemsetting-tizen-tests/systemsetting/SystemSettingManager_setProperty_LOCK_SCREEN.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:49:59</start><end>2015-01-28 14:50:00</end><stdout>[Message] *SystemSettingManager_setProperty_LOCK_SCREEN: assert_unreached: getProperty() error: UnknownError:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/System/SystemSetting" execution_type="auto" id="SystemSettingManager_setProperty_no_errorCallback" purpose="Check if setProperty works for home_screen without error_callback" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-systemsetting-tizen-tests/systemsetting/SystemSettingManager_setProperty_no_errorCallback.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:50:00</start><end>2015-01-28 14:50:01</end><stdout>[Message] *SystemSettingManager_setProperty_no_errorCallback: assert_unreached: getProperty() error: UnknownError:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/System/SystemSetting" execution_type="auto" id="SystemSettingManager_setProperty_NOTIFICATION_EMAIL" purpose="Check if setProperty works for NOTIFICATION_EMAIL" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-systemsetting-tizen-tests/systemsetting/SystemSettingManager_setProperty_NOTIFICATION_EMAIL.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:50:01</start><end>2015-01-28 14:50:01</end><stdout>[Message] *SystemSettingManager_setProperty_NOTIFICATION_EMAIL: assert_unreached: getProperty() error: UnknownError:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/System/SystemSetting" execution_type="auto" id="SystemSettingManager_notexist" purpose="Check if SystemSettingManage doesn't exist" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-systemsetting-tizen-tests/systemsetting/SystemSettingManager_notexist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:50:01</start><end>2015-01-28 14:50:02</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/System/SystemSetting" execution_type="auto" id="SystemSettingObject_notexist" purpose="Check if SystemSettingObject is undefined" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-systemsetting-tizen-tests/systemsetting/SystemSettingObject_notexist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:50:02</start><end>2015-01-28 14:50:02</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/System/SystemSetting" execution_type="auto" id="SystemSettingSuccessCallback_notexist" purpose="Check if SystemSettingSuccessCallback doesn't exist" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-systemsetting-tizen-tests/systemsetting/SystemSettingSuccessCallback_notexist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:50:02</start><end>2015-01-28 14:50:02</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/System/SystemSetting" execution_type="auto" id="SystemSettingManager_getProperty_NOTIFICATION_EMAIL" purpose="Check if getProperty works for NOTIFICATION_EMAIL" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-systemsetting-tizen-tests/systemsetting/SystemSettingManager_getProperty_NOTIFICATION_EMAIL.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:50:02</start><end>2015-01-28 14:50:03</end><stdout>[Message] *SystemSettingManager_getProperty_NOTIFICATION_EMAIL: assert_unreached: Should not be here: UnknownError:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/System/SystemSetting" execution_type="auto" id="SystemSettingManager_in_tizen" purpose="Check if tizen.systemsetting can be overwritten" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-systemsetting-tizen-tests/systemsetting/SystemSettingManager_in_tizen.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:50:03</start><end>2015-01-28 14:50:03</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/System/SystemSetting" execution_type="auto" id="SystemSettingSuccessCallback_onsuccess" purpose="Check if SystemSettingSuccessCallback works" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/tct-systemsetting-tizen-tests/systemsetting/SystemSettingSuccessCallback_onsuccess.html</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 14:50:03</start><end>2015-01-28 14:50:06</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/System/SystemSetting" execution_type="auto" id="SystemSettingManager_setProperty_successCallback_TypeMismatch" purpose="Check if setProperty throws exception when successCallback is incorrect" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-systemsetting-tizen-tests/systemsetting/SystemSettingManager_setProperty_successCallback_TypeMismatch.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:50:06</start><end>2015-01-28 14:50:06</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/System/SystemSetting" execution_type="auto" id="SystemSettingManager_setProperty_missarg" purpose="Check if setProperty throws exception when non-optional argument is missing" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-systemsetting-tizen-tests/systemsetting/SystemSettingManager_setProperty_missarg.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:50:06</start><end>2015-01-28 14:50:06</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/System/SystemSetting" execution_type="auto" id="SystemSettingManager_setProperty_errorCallback_TypeMismatch" purpose="Check if setProperty throws exception when errorCallback is incorrect" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-systemsetting-tizen-tests/systemsetting/SystemSettingManager_setProperty_errorCallback_TypeMismatch.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:50:06</start><end>2015-01-28 14:50:07</end><stdout>[Message] *SystemSettingManager_setProperty_errorCallback_TypeMismatch: assert_unreached: getDeviceValueErrorCallback: UnknownError:  Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/System/SystemSetting" execution_type="auto" id="SystemSettingManager_getProperty_missarg" purpose="Check if getProperty throws exception when non-optional argument is missing" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-systemsetting-tizen-tests/systemsetting/SystemSettingManager_getProperty_missarg.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:50:07</start><end>2015-01-28 14:50:07</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/System/SystemSetting" execution_type="auto" id="SystemSettingManager_getProperty_successCallback_TypeMismatch" purpose="Check if getProperty throws exception when successCallback is incorrect" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-systemsetting-tizen-tests/systemsetting/SystemSettingManager_getProperty_successCallback_TypeMismatch.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:50:07</start><end>2015-01-28 14:50:07</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/System/SystemSetting" execution_type="auto" id="SystemSettingManager_getProperty_errorCallback_TypeMismatch" purpose="Check if getProperty throws exception when errorCallback is incorrect" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-systemsetting-tizen-tests/systemsetting/SystemSettingManager_getProperty_errorCallback_TypeMismatch.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:50:07</start><end>2015-01-28 14:50:07</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/System/SystemSetting" execution_type="auto" id="SystemSettingManager_getProperty_errorCallback_invalid_cb" purpose="Check if getProperty throws exception when error callback is invalid" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-systemsetting-tizen-tests/systemsetting/SystemSettingManager_getProperty_errorCallback_invalid_cb.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:50:07</start><end>2015-01-28 14:50:08</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/System/SystemSetting" execution_type="auto" id="SystemSettingManager_getProperty_successCallback_invalid_cb" purpose="Check if getProperty throws exception when success callback is invalid" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-systemsetting-tizen-tests/systemsetting/SystemSettingManager_getProperty_successCallback_invalid_cb.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:50:08</start><end>2015-01-28 14:50:08</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+  </suite>
+</test_definition>

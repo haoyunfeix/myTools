@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <?xml-stylesheet type="text/xsl" href="testresult.xsl"?>
+<test_definition><environment build_id="" device_id="10.239.52.31:26101" device_model="" device_name="ivi_box&#10;" host="Linux-3.2.0-29-generic-pae-i686-with-Ubuntu-12.04-precise" lite_version="3.1.13" manufacturer="" resolution="" screen_size=""><other /></environment>
+<summary test_plan_name="Empty test_plan_name"><start_at>2015-01-29_02_37_24</start_at><end_at>2015-01-29_03_11_46</end_at></summary>
+  <suite category="DLNA" extension="crosswalk" name="webapi-mediarenderer-tizen-tests">
+    <set name="mediarenderer" set_debug_msg="N/A" type="js">
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="Navigator_mediaRenderer" onload_delay="30" purpose="Check if readonly Navigator.mediaRenderer exists and type of object" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/Navigator_mediaRenderer.html?total_num=2&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 18:42:30</start><end>2015-01-28 18:42:31</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="Navigator_mediaRenderer_basic" onload_delay="30" purpose="Check if Navigator.mediaRenderer is valid" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/Navigator_mediaRenderer.html?total_num=2&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 18:42:31</start><end>2015-01-28 18:42:31</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaRendererManager_scanNetwork" onload_delay="30" purpose="Check if MediaRendererManager.scanNetwork exists and type of function" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaRendererManager.html?total_num=3&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 18:42:31</start><end>2015-01-28 18:42:31</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaRendererManager_onrendererfound" onload_delay="30" purpose="Check if MediaRendererManager.onrendererfound exists and type of event" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaRendererManager.html?total_num=3&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 18:42:31</start><end>2015-01-28 18:42:31</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaRendererManager_onrendererlost" onload_delay="30" purpose="Check if MediaRendererManager.onrendererlost exists and type of event" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaRendererManager.html?total_num=3&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 18:42:31</start><end>2015-01-28 18:42:31</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaRendererEvent_renderer" onload_delay="30" purpose="Check if the readonly attribute renderer of MediaRendererEvent exists and type of object" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaRendererEvent_renderer.html?total_num=2&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 18:42:31</start><end>2015-01-28 18:43:01</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaRendererEvent_renderer_basic" onload_delay="30" purpose="Check if MediaRendererEvent.renderer is valid" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaRendererEvent_renderer.html?total_num=2&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 18:43:01</start><end>2015-01-28 18:43:31</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaRendererIdEvent_id" onload_delay="30" purpose="Check if the readonly attribute id of MediaRendererIdEvent exists and type of string" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaRendererIdEvent_id.html?total_num=2&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 18:43:31</start><end>2015-01-28 18:44:01</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaRendererIdEvent_id_basic" onload_delay="30" purpose="Check if MediaRendererIdEvent.id is valid" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaRendererIdEvent_id.html?total_num=2&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 18:44:02</start><end>2015-01-28 18:44:32</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaRenderer_id" onload_delay="30" purpose="Check if readonly MediaRenderer.id exists and type of string" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaRenderer.html?total_num=31&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 18:44:32</start><end>2015-01-28 18:45:02</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaRenderer_id_basic" onload_delay="30" purpose="Check if MediaRenderer.id is valid" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaRenderer.html?total_num=31&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 18:45:02</start><end>2015-01-28 18:45:32</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaRenderer_friendlyName" onload_delay="30" purpose="Check if readonly MediaRenderer.friendlyName exists and type of string" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaRenderer.html?total_num=31&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 18:45:32</start><end>2015-01-28 18:46:02</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaRenderer_friendlyName_basic" onload_delay="30" purpose="Check if MediaRenderer.friendlyName is valid" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaRenderer.html?total_num=31&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 18:46:02</start><end>2015-01-28 18:46:32</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaRenderer_manufacturer" onload_delay="30" purpose="Check if readonly MediaRenderer.manufacturer exists and type of string" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaRenderer.html?total_num=31&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 18:46:32</start><end>2015-01-28 18:47:02</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaRenderer_manufacturer_basic" onload_delay="30" purpose="Check if MediaRenderer.manufacturer is valid" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaRenderer.html?total_num=31&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 18:47:02</start><end>2015-01-28 18:47:32</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaRenderer_manufacturerURL" onload_delay="30" purpose="Check if readonly MediaRenderer.manufacturerURL exists and type of string" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaRenderer.html?total_num=31&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 18:47:32</start><end>2015-01-28 18:48:02</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaRenderer_manufacturerURL_basic" onload_delay="30" purpose="Check if MediaRenderer.manufacturerURL is valid" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaRenderer.html?total_num=31&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 18:48:02</start><end>2015-01-28 18:48:33</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaRenderer_modelDescription" onload_delay="30" purpose="Check if readonly MediaRenderer.modelDescription exists and type of string" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaRenderer.html?total_num=31&amp;amp;locator_key=id&amp;amp;value=9</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 18:48:33</start><end>2015-01-28 18:49:03</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaRenderer_modelDescription_basic" onload_delay="30" purpose="Check if MediaRenderer.modelDescription is valid" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaRenderer.html?total_num=31&amp;amp;locator_key=id&amp;amp;value=10</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 18:49:03</start><end>2015-01-28 18:49:33</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaRenderer_modelName" onload_delay="30" purpose="Check if readonly MediaRenderer.modelName exists and type of string" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaRenderer.html?total_num=31&amp;amp;locator_key=id&amp;amp;value=11</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 18:49:33</start><end>2015-01-28 18:50:03</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaRenderer_modelName_basic" onload_delay="30" purpose="Check if MediaRenderer.modelName is valid" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaRenderer.html?total_num=31&amp;amp;locator_key=id&amp;amp;value=12</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 18:50:03</start><end>2015-01-28 18:50:33</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaRenderer_modelNumber" onload_delay="30" purpose="Check if readonly MediaRenderer.modelNumber exists and type of string" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaRenderer.html?total_num=31&amp;amp;locator_key=id&amp;amp;value=13</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 18:50:33</start><end>2015-01-28 18:51:03</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaRenderer_modelNumber_basic" onload_delay="30" purpose="Check if MediaRenderer.modelNumber is valid" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaRenderer.html?total_num=31&amp;amp;locator_key=id&amp;amp;value=14</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 18:51:03</start><end>2015-01-28 18:51:33</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaRenderer_serialNumber" onload_delay="30" purpose="Check if readonly MediaRenderer.serialNumber exists and type of string" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaRenderer.html?total_num=31&amp;amp;locator_key=id&amp;amp;value=15</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 18:51:33</start><end>2015-01-28 18:52:03</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaRenderer_serialNumber_basic" onload_delay="30" purpose="Check if MediaRenderer.serialNumber is valid" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaRenderer.html?total_num=31&amp;amp;locator_key=id&amp;amp;value=16</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 18:52:03</start><end>2015-01-28 18:52:33</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaRenderer_UDN" onload_delay="30" purpose="Check if readonly MediaRenderer.UDN exists and type of string" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaRenderer.html?total_num=31&amp;amp;locator_key=id&amp;amp;value=17</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 18:52:33</start><end>2015-01-28 18:53:03</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaRenderer_UDN_basic" onload_delay="30" purpose="Check if MediaRenderer.UDN is valid" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaRenderer.html?total_num=31&amp;amp;locator_key=id&amp;amp;value=18</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 18:53:03</start><end>2015-01-28 18:53:33</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaRenderer_presentationURL" onload_delay="30" purpose="Check if readonly MediaRenderer.presentationURL exists and type of string" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaRenderer.html?total_num=31&amp;amp;locator_key=id&amp;amp;value=19</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 18:53:33</start><end>2015-01-28 18:54:04</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaRenderer_presentationURL_basic" onload_delay="30" purpose="Check if MediaRenderer.presentationURL is valid" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaRenderer.html?total_num=31&amp;amp;locator_key=id&amp;amp;value=20</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 18:54:04</start><end>2015-01-28 18:54:34</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaRenderer_iconURL" onload_delay="30" purpose="Check if readonly MediaRenderer.iconURL exists and type of string" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaRenderer.html?total_num=31&amp;amp;locator_key=id&amp;amp;value=21</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 18:54:34</start><end>2015-01-28 18:55:04</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaRenderer_iconURL_basic" onload_delay="30" purpose="Check if MediaRenderer.iconURL is valid" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaRenderer.html?total_num=31&amp;amp;locator_key=id&amp;amp;value=22</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 18:55:04</start><end>2015-01-28 18:55:34</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaRenderer_deviceType" onload_delay="30" purpose="Check if readonly MediaRenderer.deviceType exists and type of string" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaRenderer.html?total_num=31&amp;amp;locator_key=id&amp;amp;value=23</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 18:55:34</start><end>2015-01-28 18:56:04</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaRenderer_deviceType_basic" onload_delay="30" purpose="Check if MediaRenderer.deviceType is valid" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaRenderer.html?total_num=31&amp;amp;locator_key=id&amp;amp;value=24</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 18:56:04</start><end>2015-01-28 18:56:34</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaRenderer_protocolInfo" onload_delay="30" purpose="Check if readonly MediaRenderer.protocolInfo exists and type of string" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaRenderer.html?total_num=31&amp;amp;locator_key=id&amp;amp;value=25</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 18:56:34</start><end>2015-01-28 18:57:04</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaRenderer_protocolInfo_basic" onload_delay="30" purpose="Check if MediaRenderer.protocolInfo is valid" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaRenderer.html?total_num=31&amp;amp;locator_key=id&amp;amp;value=26</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 18:57:04</start><end>2015-01-28 18:57:34</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaRenderer_controller" onload_delay="30" purpose="Check if readonly MediaRenderer.controller exists and type of mediaController" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaRenderer.html?total_num=31&amp;amp;locator_key=id&amp;amp;value=27</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 18:57:34</start><end>2015-01-28 18:58:04</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaRenderer_controller_basic" onload_delay="30" purpose="Check if MediaRenderer.controller is valid" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaRenderer.html?total_num=31&amp;amp;locator_key=id&amp;amp;value=28</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 18:58:04</start><end>2015-01-28 18:58:34</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaRenderer_openURI" onload_delay="30" purpose="Check if MediaRenderer.openURI exists and type of function" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaRenderer.html?total_num=31&amp;amp;locator_key=id&amp;amp;value=29</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 18:58:34</start><end>2015-01-28 18:59:04</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaRenderer_prefetchURI" onload_delay="30" purpose="Check if MediaRenderer.prefetchURI exists and type of function" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaRenderer.html?total_num=31&amp;amp;locator_key=id&amp;amp;value=30</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 18:59:04</start><end>2015-01-28 18:59:35</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaRenderer_cancel" onload_delay="30" purpose="Check if MediaRenderer.cancel exists and type of function" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaRenderer.html?total_num=31&amp;amp;locator_key=id&amp;amp;value=31</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 18:59:35</start><end>2015-01-28 19:00:05</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaController_playbackStatus" onload_delay="30" purpose="Check if readonly MediaController.playbackStatus exists and type of string" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaController.html?total_num=22&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 19:00:05</start><end>2015-01-28 19:00:35</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaController_playbackStatus_basic" onload_delay="30" purpose="Check if MediaController.playbackStatus is valid" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaController.html?total_num=22&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 19:00:35</start><end>2015-01-28 19:01:05</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaController_muted" onload_delay="30" purpose="Check if readonly MediaController.muted exists and type of boolean" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaController.html?total_num=22&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 19:01:05</start><end>2015-01-28 19:01:35</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaController_muted_basic" onload_delay="30" purpose="Check if MediaController.muted is valid" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaController.html?total_num=22&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 19:01:35</start><end>2015-01-28 19:02:05</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaController_volume" onload_delay="30" purpose="Check if readonly MediaController.volume exists and type of number" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaController.html?total_num=22&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 19:02:05</start><end>2015-01-28 19:02:35</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaController_volume_basic" onload_delay="30" purpose="Check if MediaController.volume is valid" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaController.html?total_num=22&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 19:02:35</start><end>2015-01-28 19:03:05</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaController_track" onload_delay="30" purpose="Check if readonly MediaController.track exists and type of number" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaController.html?total_num=22&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 19:03:05</start><end>2015-01-28 19:03:35</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaController_track_basic" onload_delay="30" purpose="Check if MediaController.track is valid" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaController.html?total_num=22&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 19:03:35</start><end>2015-01-28 19:04:06</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaController_speed" onload_delay="30" purpose="Check if readonly MediaController.speed exists and type of number" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaController.html?total_num=22&amp;amp;locator_key=id&amp;amp;value=9</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 19:04:06</start><end>2015-01-28 19:04:36</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaController_speed_basic" onload_delay="30" purpose="Check if MediaController.speed is valid" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaController.html?total_num=22&amp;amp;locator_key=id&amp;amp;value=10</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 19:04:36</start><end>2015-01-28 19:05:06</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaController_playSpeeds" onload_delay="30" purpose="Check if readonly MediaController.playSpeeds exists and type of object" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaController.html?total_num=22&amp;amp;locator_key=id&amp;amp;value=11</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 19:05:06</start><end>2015-01-28 19:05:36</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaController_playSpeeds_basic" onload_delay="30" purpose="Check if MediaController.playSpeeds is valid" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaController.html?total_num=22&amp;amp;locator_key=id&amp;amp;value=12</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 19:05:36</start><end>2015-01-28 19:06:06</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaController_play" onload_delay="30" purpose="Check if MediaController.play exists and type of function" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaController.html?total_num=22&amp;amp;locator_key=id&amp;amp;value=13</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 19:06:06</start><end>2015-01-28 19:06:36</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaController_pause" onload_delay="30" purpose="Check if MediaController.pause exists and type of function" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaController.html?total_num=22&amp;amp;locator_key=id&amp;amp;value=14</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 19:06:36</start><end>2015-01-28 19:07:06</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaController_stop" onload_delay="30" purpose="Check if MediaController.stop exists and type of function" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaController.html?total_num=22&amp;amp;locator_key=id&amp;amp;value=15</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 19:07:06</start><end>2015-01-28 19:07:36</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaController_next" onload_delay="30" purpose="Check if MediaController.next exists and type of function" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaController.html?total_num=22&amp;amp;locator_key=id&amp;amp;value=16</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 19:07:36</start><end>2015-01-28 19:08:06</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaController_previous" onload_delay="30" purpose="Check if MediaController.previous exists and type of function" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaController.html?total_num=22&amp;amp;locator_key=id&amp;amp;value=17</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 19:08:06</start><end>2015-01-28 19:08:37</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaController_mute" onload_delay="30" purpose="Check if MediaController.mute exists and type of function" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaController.html?total_num=22&amp;amp;locator_key=id&amp;amp;value=18</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 19:08:37</start><end>2015-01-28 19:09:07</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaController_setSpeed" onload_delay="30" purpose="Check if MediaController.setSpeed exists and type of function" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaController.html?total_num=22&amp;amp;locator_key=id&amp;amp;value=19</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 19:09:07</start><end>2015-01-28 19:09:37</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaController_setVolume" onload_delay="30" purpose="Check if MediaController.setVolume exists and type of function" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaController.html?total_num=22&amp;amp;locator_key=id&amp;amp;value=20</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 19:09:37</start><end>2015-01-28 19:10:07</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaController_gotoTrack" onload_delay="30" purpose="Check if MediaController.gotoTrack exists and type of function" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaController.html?total_num=22&amp;amp;locator_key=id&amp;amp;value=21</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 19:10:07</start><end>2015-01-28 19:10:37</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaController_onstatuschanged" onload_delay="30" purpose="Check if MediaController.onstatuschanged exists and type of event" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaController.html?total_num=22&amp;amp;locator_key=id&amp;amp;value=22</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 19:10:37</start><end>2015-01-28 19:11:07</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaControllerStatusEvent_playbackStatus" onload_delay="30" purpose="Check if readonly MediaControllerStatusEvent.playbackStatus exists and type of string" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaControllerStatusEvent.html?total_num=10&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 19:11:07</start><end>2015-01-28 19:11:37</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaControllerStatusEvent_playbackStatus_basic" onload_delay="30" purpose="Check if MediaControllerStatusEvent.playbackStatus is valid" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaControllerStatusEvent.html?total_num=10&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 19:11:37</start><end>2015-01-28 19:12:07</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaControllerStatusEvent_muted" onload_delay="30" purpose="Check if readonly MediaControllerStatusEvent.muted exists and type of boolean" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaControllerStatusEvent.html?total_num=10&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 19:12:07</start><end>2015-01-28 19:12:37</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaControllerStatusEvent_muted_basic" onload_delay="30" purpose="Check if MediaControllerStatusEvent.muted is valid" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaControllerStatusEvent.html?total_num=10&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 19:12:37</start><end>2015-01-28 19:13:07</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaControllerStatusEvent_volume" onload_delay="30" purpose="Check if readonly MediaControllerStatusEvent.volume exists and type of number" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaControllerStatusEvent.html?total_num=10&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 19:13:07</start><end>2015-01-28 19:13:38</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaControllerStatusEvent_volume_basic" onload_delay="30" purpose="Check if MediaControllerStatusEvent.volume is valid" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaControllerStatusEvent.html?total_num=10&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 19:13:38</start><end>2015-01-28 19:14:08</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaControllerStatusEvent_track" onload_delay="30" purpose="Check if readonly MediaControllerStatusEvent.track exists and type of number" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaControllerStatusEvent.html?total_num=10&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 19:14:08</start><end>2015-01-28 19:14:38</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaControllerStatusEvent_track_basic" onload_delay="30" purpose="Check if MediaControllerStatusEvent.track is valid" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaControllerStatusEvent.html?total_num=10&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 19:14:38</start><end>2015-01-28 19:15:08</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaControllerStatusEvent_speed" onload_delay="30" purpose="Check if readonly MediaControllerStatusEvent.speed exists and type of number" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaControllerStatusEvent.html?total_num=10&amp;amp;locator_key=id&amp;amp;value=9</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 19:15:08</start><end>2015-01-28 19:15:38</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaControllerStatusEvent_speed_basic" onload_delay="30" purpose="Check if MediaControllerStatusEvent.speed is valid" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaControllerStatusEvent.html?total_num=10&amp;amp;locator_key=id&amp;amp;value=10</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 19:15:38</start><end>2015-01-28 19:16:08</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Common APIs/DLNA Media Renderer API" execution_type="auto" id="MediaController_volume_range" onload_delay="30" purpose="Check if MediaController.volume range from 0 to 1" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-mediarenderer-tizen-tests/mediarenderer/MediaController_volume_range.html</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-01-28 19:16:08</start><end>2015-01-28 19:16:38</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+    </set>
+  </suite>
+</test_definition>

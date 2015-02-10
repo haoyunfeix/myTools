@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <?xml-stylesheet type="text/xsl" href="testresult.xsl"?>
+<test_definition><environment build_id="" device_id="10.239.52.31:26101" device_model="" device_name="ivi_box&#10;" host="Linux-3.2.0-29-generic-pae-i686-with-Ubuntu-12.04-precise" lite_version="3.1.13" manufacturer="" resolution="" screen_size=""><other /></environment>
+<summary test_plan_name="Empty test_plan_name"><start_at>2015-01-28_21_13_29</start_at><end_at>2015-01-28_21_15_55</end_at></summary>
+  <suite category="Tizen WRT Core Spec" name="tct-pm-wrt-tests">
+    <set name="PackageManagement" set_debug_msg="N/A" type="script">
+      <testcase component="Tizen WRT Core Spec/Package Management" execution_type="auto" id="PKManagement_PackagedAPP_Install" purpose="Check if Packaged Web Application can be installed successfully." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">app_user@/home/app/content/tct/opt/tct-pm-wrt-tests/scripts/wrt_pm_WRTInstaller.sh Sample-widget.wgt</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 21:13:36</start><end>2015-01-28 21:13:39</end><stdout><![CDATA[path is /home/app/content/tct/opt/tct-pm-wrt-tests/Sample-widget.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1smt007] key[start] val[install]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1smt007] key[end] val[ok]
+\nspend time for pkgcmd is [2429]ms
+\nThe widget is installed successfully
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1smt007] key[start] val[uninstall]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1smt007] key[end] val[ok]
+\nspend time for pkgcmd is [605]ms
+\nreturncode=0
+\n]]></stdout><stderr><![CDATA[]]></stderr></result_info></testcase>
+      <testcase component="Tizen WRT Core Spec/Package Management" execution_type="auto" id="PKManagement_APP_WithW3CFormat_Install" purpose="Check if Web Application which is packed with WGT format can be installed successfully." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">app_user@/home/app/content/tct/opt/tct-pm-wrt-tests/scripts/wrt_pm_WRTInstaller.sh Sample-widget.wgt</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 21:13:39</start><end>2015-01-28 21:13:43</end><stdout><![CDATA[path is /home/app/content/tct/opt/tct-pm-wrt-tests/Sample-widget.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1smt007] key[start] val[install]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1smt007] key[end] val[ok]
+\nspend time for pkgcmd is [2402]ms
+\nThe widget is installed successfully
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1smt007] key[start] val[uninstall]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1smt007] key[end] val[ok]
+\nspend time for pkgcmd is [610]ms
+\nreturncode=0
+\n]]></stdout><stderr><![CDATA[]]></stderr></result_info></testcase>
+      <testcase component="Tizen WRT Core Spec/Package Management" execution_type="auto" id="PKManagement_PackagedZIPFile_with_WGT_extention_Install" purpose="Check if the widget that is renamed with the same extension 'WGT' can be installed successfully." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">app_user@/home/app/content/tct/opt/tct-pm-wrt-tests/scripts/wrt_pm_Install_changename.sh</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 21:13:43</start><end>2015-01-28 21:13:46</end><stdout><![CDATA[path is /home/app/content/tct/opt/tct-pm-wrt-tests/test-widget-testing.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1tes005] key[start] val[install]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1tes005] key[end] val[ok]
+\nspend time for pkgcmd is [2395]ms
+\nThe widget is installed successfully
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1tes005] key[start] val[uninstall]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1tes005] key[end] val[ok]
+\nspend time for pkgcmd is [617]ms
+\nThe widget is uninstalled successfully
+\nThe widget is installed successfully
+\nreturncode=0
+\n]]></stdout><stderr><![CDATA[]]></stderr></result_info></testcase>
+      <testcase component="Tizen WRT Core Spec/Package Management" execution_type="auto" id="PKManagement_InstallFailed_Inform" purpose="Check if user is informed when the Web Application cannot be installed." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">app_user@/home/app/content/tct/opt/tct-pm-wrt-tests/scripts/wrt_pm_InstallerFail.sh test-broken-widget.wgt</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 21:13:46</start><end>2015-01-28 21:13:46</end><stdout><![CDATA[path is /home/app/content/tct/opt/tct-pm-wrt-tests/test-broken-widget.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[/home/app/content/tct/opt/tct-pm-wrt-tests/test-broken-widget.wgt] key[end] val[fail]
+\nprocessing result : FATAL_ERROR [61] failed
+\nspend time for pkgcmd is [104]ms
+\nThe widget is not installed successfully
+\nreturncode=0
+\n]]></stdout><stderr><![CDATA[]]></stderr></result_info></testcase>
+      <testcase component="Tizen WRT Core Spec/Package Management" execution_type="auto" id="PKManagement_WRTVersionLower_Install_1" purpose="Check if WRT can update the widget when the widget has been installed." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">app_user@/home/app/content/tct/opt/tct-pm-wrt-tests/scripts/wrt_pm_Install_TwoWidget.sh</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 21:13:46</start><end>2015-01-28 21:13:52</end><stdout><![CDATA[path is /home/app/content/tct/opt/tct-pm-wrt-tests/Sample-widget.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1smt007] key[start] val[install]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1smt007] key[end] val[ok]
+\nspend time for pkgcmd is [2409]ms
+\nThe widget is installed successfully
+\npath is /home/app/content/tct/opt/tct-pm-wrt-tests/Sample-widget.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1smt007] key[start] val[update]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1smt007] key[end] val[ok]
+\nspend time for pkgcmd is [2602]ms
+\nThe widget is installed successfully
+\nThe widget is able to be updated when the widget has been installed.
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1smt007] key[start] val[uninstall]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1smt007] key[end] val[ok]
+\nspend time for pkgcmd is [602]ms
+\nThe widget is uninstalled successfully
+\nreturncode=0
+\n]]></stdout><stderr><![CDATA[]]></stderr></result_info></testcase>
+      <testcase component="Tizen WRT Core Spec/Package Management" execution_type="auto" id="PKManagement_sidedLoaded_Update_AppId" purpose="Check if Web Applications with same Tizen AppID and Widget ID can be updated successfully." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0" timeout="150">app_user@/home/app/content/tct/opt/tct-pm-wrt-tests/scripts/wrt_pm_Install_Update_Widget.sh</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 21:13:52</start><end>2015-01-28 21:14:02</end><stdout><![CDATA[path is /home/app/content/tct/opt/tct-pm-wrt-tests/WIdgetIDAppID-same1.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wai008] key[start] val[install]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wai008] key[end] val[ok]
+\nspend time for pkgcmd is [2414]ms
+\nThe widget is installed successfully
+\npath is /home/app/content/tct/opt/tct-pm-wrt-tests/WIdgetIDAppID-same2.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wai008] key[start] val[update]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wai008] key[end] val[ok]
+\nspend time for pkgcmd is [2805]ms
+\nThe widget is installed successfully
+\nThe widget is able to be updated when the widget has been installed.
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wai008] key[start] val[uninstall]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wai008] key[end] val[ok]
+\nspend time for pkgcmd is [435]ms
+\nThe widget is uninstalled successfully
+\nThe widget is not installed
+\npath is /home/app/content/tct/opt/tct-pm-wrt-tests/WIdgetIDAppID-same2.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wai008] key[start] val[install]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wai008] key[end] val[ok]
+\nspend time for pkgcmd is [2426]ms
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wai008] key[start] val[uninstall]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wai008] key[end] val[ok]
+\nspend time for pkgcmd is [638]ms
+\nThe widget is uninstalled successfully
+\nThe two widgets are uninstalled successfully
+\nreturncode=0
+\n]]></stdout><stderr><![CDATA[]]></stderr></result_info></testcase>
+      <testcase component="Tizen WRT Core Spec/Package Management" execution_type="auto" id="PKManagement_DifferentWidgetID_Update" purpose="Check if Web Applications with same Tizen AppID and different Widget IDs can be updated successfully." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">app_user@/home/app/content/tct/opt/tct-pm-wrt-tests/scripts/wrt_pm_WidgetID_Update.sh</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 21:14:02</start><end>2015-01-28 21:14:08</end><stdout><![CDATA[path is /home/app/content/tct/opt/tct-pm-wrt-tests/WIdgetIDAppID-same1.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wai008] key[start] val[install]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wai008] key[end] val[ok]
+\nspend time for pkgcmd is [2407]ms
+\nThe widget is installed successfully
+\npath is /home/app/content/tct/opt/tct-pm-wrt-tests/WIdgetIDAppID-different.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wai008] key[start] val[update]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wai008] key[end] val[ok]
+\nspend time for pkgcmd is [2619]ms
+\nThe widget is installed successfully
+\nThe widget is able to be updated.
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wai008] key[start] val[uninstall]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wai008] key[end] val[ok]
+\nspend time for pkgcmd is [605]ms
+\nThe widget is uninstalled successfully
+\nreturncode=0
+\n]]></stdout><stderr><![CDATA[]]></stderr></result_info></testcase>
+      <testcase component="Tizen WRT Core Spec/Package Management" execution_type="auto" id="PKManagement_dataStored_Update" purpose="Check if Web Application resources inside of widget are erased after updated." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">app_user@/home/app/content/tct/opt/tct-pm-wrt-tests/scripts/wrt_pm_dataStored_Update.sh</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 21:14:08</start><end>2015-01-28 21:14:17</end><stdout><![CDATA[path is /home/app/content/tct/opt/tct-pm-wrt-tests/widget-version-1.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[start] val[install]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[end] val[ok]
+\nspend time for pkgcmd is [2408]ms
+\nThe widget is installed successfully
+\nThe widget is launched successfully
+\npath is /home/app/content/tct/opt/tct-pm-wrt-tests/widget-version-1-1.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[start] val[update]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[end] val[ok]
+\nspend time for pkgcmd is [2637]ms
+\nThe widget is installed successfully
+\nthe case is pass because the folder data dose not exist!
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[start] val[uninstall]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[end] val[ok]
+\nspend time for pkgcmd is [524]ms
+\nThe widget is uninstalled successfully
+\nThe widget is not installed
+\npath is /home/app/content/tct/opt/tct-pm-wrt-tests/widget-version-1-1.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[start] val[install]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[end] val[ok]
+\nspend time for pkgcmd is [2404]ms
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[start] val[uninstall]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[end] val[ok]
+\nspend time for pkgcmd is [608]ms
+\nThe widget is uninstalled successfully
+\nThe two widgets are uninstalled successfully
+\nreturncode=0
+\n]]></stdout><stderr><![CDATA[]]></stderr></result_info></testcase>
+      <testcase component="Tizen WRT Core Spec/Package Management" execution_type="auto" id="PKManagement_WebApp_Uninstall" purpose="Check if Web Application can be un-installed successfully." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">app_user@/home/app/content/tct/opt/tct-pm-wrt-tests/scripts/wrt_pm_Uninstaller.sh Sample-widget.wgt</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 21:14:17</start><end>2015-01-28 21:14:18</end><stdout><![CDATA[The widget is uninstalled successfully
+\nreturncode=0
+\n]]></stdout><stderr><![CDATA[]]></stderr></result_info></testcase>
+      <testcase component="Tizen WRT Core Spec/Package Management" execution_type="auto" id="uninstallation-application-erased" purpose="Check if all Web Application resources and data (Tizen settings, widget preferences, cookies, local storage) should be erased after uninstalled." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">app_user@/home/app/content/tct/opt/tct-pm-wrt-tests/scripts/wrt_pm_uninstallation_application_erased.sh</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 21:14:18</start><end>2015-01-28 21:14:21</end><stdout><![CDATA[path is /home/app/content/tct/opt/tct-pm-wrt-tests/uninstallation-application-erased.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1uae011] key[start] val[install]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1uae011] key[end] val[ok]
+\nspend time for pkgcmd is [2418]ms
+\nThe widget is installed successfully
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1uae011] key[start] val[uninstall]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1uae011] key[end] val[ok]
+\nspend time for pkgcmd is [625]ms
+\nthe case is pass because the folder data dose not exist!
+\nreturncode=0
+\n]]></stdout><stderr><![CDATA[]]></stderr></result_info></testcase>
+      <testcase component="Tizen WRT Core Spec/Package Management" execution_type="auto" id="PKManagement_OfflineInstall_uninstalling" purpose="Check if UA can install and uninstall different applications offline at the same time." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">app_user@/home/app/content/tct/opt/tct-pm-wrt-tests/scripts/wrt_pm_OfflineInstall_uninstalling.sh</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 21:14:21</start><end>2015-01-28 21:14:27</end><stdout><![CDATA[path is /home/app/content/tct/opt/tct-pm-wrt-tests/Sample-widget.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1smt007] key[start] val[install]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1smt007] key[end] val[ok]
+\nspend time for pkgcmd is [2408]ms
+\nThe widget is installed successfully
+\npath is /home/app/content/tct/opt/tct-pm-wrt-tests/test-widget.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1tes005] key[start] val[install]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1tes005] key[end] val[ok]
+\nspend time for pkgcmd is [2424]ms
+\nThe widget is installed successfully
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1smt007] key[start] val[uninstall]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1smt007] key[end] val[ok]
+\nspend time for pkgcmd is [632]ms
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1tes005] key[start] val[uninstall]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1tes005] key[end] val[ok]
+\nspend time for pkgcmd is [448]ms
+\nreturncode=0
+\n]]></stdout><stderr><![CDATA[]]></stderr></result_info></testcase>
+      <testcase component="Tizen WRT Core Spec/Package Management" execution_type="auto" id="PKManagement_OfflineInstall_updating" purpose="Check if UA can install and update different applications offline at the same time." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0" timeout="150">app_user@/home/app/content/tct/opt/tct-pm-wrt-tests/scripts/wrt_pm_OfflineInstall_updating.sh</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 21:14:27</start><end>2015-01-28 21:14:40</end><stdout><![CDATA[path is /home/app/content/tct/opt/tct-pm-wrt-tests/widget-version-1.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[start] val[install]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[end] val[ok]
+\nspend time for pkgcmd is [2417]ms
+\nThe widget is installed successfully
+\npath is /home/app/content/tct/opt/tct-pm-wrt-tests/Sample-widget.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1smt007] key[start] val[install]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1smt007] key[end] val[ok]
+\nspend time for pkgcmd is [2612]ms
+\nThe widget is installed successfully
+\npath is /home/app/content/tct/opt/tct-pm-wrt-tests/widget-version-1-1.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[start] val[update]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[end] val[ok]
+\nspend time for pkgcmd is [2616]ms
+\nThe widget is installed successfully
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[start] val[uninstall]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[end] val[ok]
+\nspend time for pkgcmd is [612]ms
+\nThe widget is uninstalled successfully
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1smt007] key[start] val[uninstall]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1smt007] key[end] val[ok]
+\nspend time for pkgcmd is [430]ms
+\nThe widget is uninstalled successfully
+\nThe widget is not installed
+\npath is /home/app/content/tct/opt/tct-pm-wrt-tests/widget-version-1-1.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[start] val[install]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[end] val[ok]
+\nspend time for pkgcmd is [2426]ms
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[start] val[uninstall]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[end] val[ok]
+\nspend time for pkgcmd is [469]ms
+\nThe widget is uninstalled successfully
+\nThe three widgets are uninstalled successfully
+\nreturncode=0
+\n]]></stdout><stderr><![CDATA[]]></stderr></result_info></testcase>
+      <testcase component="Tizen WRT Core Spec/Package Management" execution_type="auto" id="PKManagement_Inform_Uninstall_Running" purpose="Check if the WebApp can be uninstalled during running." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">app_user@/home/app/content/tct/opt/tct-pm-wrt-tests/scripts/wrt_pm_Uninstall_Running.sh Sample-widget.wgt</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 21:14:40</start><end>2015-01-28 21:14:43</end><stdout><![CDATA[path is /home/app/content/tct/opt/tct-pm-wrt-tests/Sample-widget.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1smt007] key[start] val[install]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1smt007] key[end] val[ok]
+\nspend time for pkgcmd is [2413]ms
+\nThe widget is installed successfully
+\nThe widget is launched successfully
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1smt007] key[start] val[uninstall]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1smt007] key[end] val[ok]
+\nspend time for pkgcmd is [437]ms
+\nreturncode=0
+\n]]></stdout><stderr><![CDATA[]]></stderr></result_info></testcase>
+      <testcase component="Tizen WRT Core Spec/Package Management" execution_type="auto" id="PKManagement_Uninstall_Inform" purpose="Check if user will be informed failure of uninstallation when the WebApp has been uninstalled." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">app_user@/home/app/content/tct/opt/tct-pm-wrt-tests/scripts/wrt_pm_Uninstall_Inform.sh</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 21:14:43</start><end>2015-01-28 21:14:47</end><stdout><![CDATA[path is /home/app/content/tct/opt/tct-pm-wrt-tests/Sample-widget.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1smt007] key[start] val[install]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1smt007] key[end] val[ok]
+\nspend time for pkgcmd is [2435]ms
+\nThe widget is installed successfully
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1smt007] key[start] val[uninstall]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1smt007] key[end] val[ok]
+\nspend time for pkgcmd is [607]ms
+\ninformed failure of uninstallation successfully!
+\nreturncode=0
+\n]]></stdout><stderr><![CDATA[]]></stderr></result_info></testcase>
+      <testcase component="Tizen WRT Core Spec/Package Management" execution_type="auto" id="WebApp_OfflineUpdate_ReUpdate" purpose="Check if application could be updated when the application is running." result="PASS">
+        <description>
+          <test_script_entry timeout="90">app_user@/home/app/content/tct/opt/tct-pm-wrt-tests/scripts/wrt_pm_OfflineUpdate_ReUpdate.sh</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 21:14:47</start><end>2015-01-28 21:14:56</end><stdout><![CDATA[path is /home/app/content/tct/opt/tct-pm-wrt-tests/widget-version-1.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[start] val[install]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[end] val[ok]
+\nspend time for pkgcmd is [2417]ms
+\nThe widget is installed successfully
+\npath is /home/app/content/tct/opt/tct-pm-wrt-tests/widget-version-1-1.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[start] val[update]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[end] val[ok]
+\nspend time for pkgcmd is [2620]ms
+\nThe widget is installed successfully
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[start] val[uninstall]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[end] val[ok]
+\nspend time for pkgcmd is [467]ms
+\nThe widget is uninstalled successfully
+\nThe widget is not installed
+\npath is /home/app/content/tct/opt/tct-pm-wrt-tests/widget-version-1.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[start] val[install]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[end] val[ok]
+\nspend time for pkgcmd is [2412]ms
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[start] val[uninstall]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[end] val[ok]
+\nspend time for pkgcmd is [617]ms
+\nThe widget is uninstalled successfully
+\nThe two widgets are uninstalled successfully
+\nreturncode=0
+\n]]></stdout><stderr><![CDATA[]]></stderr></result_info></testcase>
+      <testcase component="Tizen WRT Core Spec/Package Management" execution_type="auto" id="WebApp_OfflineUpdate_TwoApp" purpose="Check if package management can upgrade(offline) two webapps respectively." result="PASS">
+        <description>
+          <test_script_entry timeout="150">app_user@/home/app/content/tct/opt/tct-pm-wrt-tests/scripts/wrt_pm_OfflineUpdate_TwoApp.sh</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 21:14:56</start><end>2015-01-28 21:15:18</end><stdout><![CDATA[path is /home/app/content/tct/opt/tct-pm-wrt-tests/widget-version-1.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[start] val[install]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[end] val[ok]
+\nspend time for pkgcmd is [2430]ms
+\nThe widget is installed successfully
+\npath is /home/app/content/tct/opt/tct-pm-wrt-tests/widget-version-1-1.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[start] val[update]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[end] val[ok]
+\nspend time for pkgcmd is [2631]ms
+\nThe widget is installed successfully
+\npath is /home/app/content/tct/opt/tct-pm-wrt-tests/widget-version-2.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt009] key[start] val[install]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt009] key[end] val[ok]
+\nspend time for pkgcmd is [2614]ms
+\nThe widget is installed successfully
+\npath is /home/app/content/tct/opt/tct-pm-wrt-tests/widget-version-2-1.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt009] key[start] val[update]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt009] key[end] val[ok]
+\nspend time for pkgcmd is [2696]ms
+\nThe widget is installed successfully
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt009] key[start] val[uninstall]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt009] key[end] val[ok]
+\nspend time for pkgcmd is [602]ms
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[start] val[uninstall]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[end] val[ok]
+\nspend time for pkgcmd is [453]ms
+\nThe widget is uninstalled successfully
+\nThe widget is not installed
+\npath is /home/app/content/tct/opt/tct-pm-wrt-tests/widget-version-1-1.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[start] val[install]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[end] val[ok]
+\nspend time for pkgcmd is [2403]ms
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[start] val[uninstall]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[end] val[ok]
+\nspend time for pkgcmd is [620]ms
+\nThe widget is uninstalled successfully
+\nThe widget is not installed
+\npath is /home/app/content/tct/opt/tct-pm-wrt-tests/widget-version-2.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt009] key[start] val[install]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt009] key[end] val[ok]
+\nspend time for pkgcmd is [2420]ms
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt009] key[start] val[uninstall]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt009] key[end] val[ok]
+\nspend time for pkgcmd is [440]ms
+\nThe widget is uninstalled successfully
+\nThe widget is not installed
+\npath is /home/app/content/tct/opt/tct-pm-wrt-tests/widget-version-2-1.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt009] key[start] val[install]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt009] key[end] val[ok]
+\nspend time for pkgcmd is [2410]ms
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt009] key[start] val[uninstall]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt009] key[end] val[ok]
+\nspend time for pkgcmd is [609]ms
+\nThe widget is uninstalled successfully
+\nreturncode=0
+\n]]></stdout><stderr><![CDATA[]]></stderr></result_info></testcase>
+      <testcase component="Tizen WRT Core Spec/Package Management" execution_type="auto" id="PKManagement_OfflineUpdate_MultiApp" purpose="Check if package management can upgrade(offline) multiple webapps respectively." result="PASS">
+        <description>
+          <test_script_entry timeout="150">app_user@/home/app/content/tct/opt/tct-pm-wrt-tests/scripts/wrt_pm_OfflineUpdate_MultiApp.sh</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 21:15:18</start><end>2015-01-28 21:15:51</end><stdout><![CDATA[path is /home/app/content/tct/opt/tct-pm-wrt-tests/widget-version-1.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[start] val[install]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[end] val[ok]
+\nspend time for pkgcmd is [2397]ms
+\nThe widget is installed successfully
+\npath is /home/app/content/tct/opt/tct-pm-wrt-tests/widget-version-1-1.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[start] val[update]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[end] val[ok]
+\nspend time for pkgcmd is [2763]ms
+\nThe widget is installed successfully
+\npath is /home/app/content/tct/opt/tct-pm-wrt-tests/widget-version-2.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt009] key[start] val[install]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt009] key[end] val[ok]
+\nspend time for pkgcmd is [2430]ms
+\nThe widget is installed successfully
+\npath is /home/app/content/tct/opt/tct-pm-wrt-tests/widget-version-2-1.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt009] key[start] val[update]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt009] key[end] val[ok]
+\nspend time for pkgcmd is [2774]ms
+\nThe widget is installed successfully
+\npath is /home/app/content/tct/opt/tct-pm-wrt-tests/widget-version-3.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt010] key[start] val[install]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt010] key[end] val[ok]
+\nspend time for pkgcmd is [2396]ms
+\nThe widget is installed successfully
+\npath is /home/app/content/tct/opt/tct-pm-wrt-tests/widget-version-3-1.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt010] key[start] val[update]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt010] key[end] val[ok]
+\nspend time for pkgcmd is [2616]ms
+\nThe widget is installed successfully
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt010] key[start] val[uninstall]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt010] key[end] val[ok]
+\nspend time for pkgcmd is [454]ms
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt009] key[start] val[uninstall]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt009] key[end] val[ok]
+\nspend time for pkgcmd is [452]ms
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[start] val[uninstall]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[end] val[ok]
+\nspend time for pkgcmd is [452]ms
+\nThe widget is uninstalled successfully
+\nThe widget is not installed
+\npath is /home/app/content/tct/opt/tct-pm-wrt-tests/widget-version-1-1.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[start] val[install]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[end] val[ok]
+\nspend time for pkgcmd is [2425]ms
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[start] val[uninstall]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt006] key[end] val[ok]
+\nspend time for pkgcmd is [579]ms
+\nThe widget is uninstalled successfully
+\nThe widget is not installed
+\npath is /home/app/content/tct/opt/tct-pm-wrt-tests/widget-version-2.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt009] key[start] val[install]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt009] key[end] val[ok]
+\nspend time for pkgcmd is [2414]ms
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt009] key[start] val[uninstall]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt009] key[end] val[ok]
+\nspend time for pkgcmd is [641]ms
+\nThe widget is uninstalled successfully
+\nThe widget is not installed
+\npath is /home/app/content/tct/opt/tct-pm-wrt-tests/widget-version-2-1.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt009] key[start] val[install]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt009] key[end] val[ok]
+\nspend time for pkgcmd is [2421]ms
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt009] key[start] val[uninstall]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt009] key[end] val[ok]
+\nspend time for pkgcmd is [465]ms
+\nThe widget is uninstalled successfully
+\nThe widget is not installed
+\npath is /home/app/content/tct/opt/tct-pm-wrt-tests/widget-version-3.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt010] key[start] val[install]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt010] key[end] val[ok]
+\nspend time for pkgcmd is [2427]ms
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt010] key[start] val[uninstall]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt010] key[end] val[ok]
+\nspend time for pkgcmd is [640]ms
+\nThe widget is uninstalled successfully
+\nThe widget is not installed
+\npath is /home/app/content/tct/opt/tct-pm-wrt-tests/widget-version-3-1.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt010] key[start] val[install]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt010] key[end] val[ok]
+\nspend time for pkgcmd is [2413]ms
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt010] key[start] val[uninstall]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1wvt010] key[end] val[ok]
+\nspend time for pkgcmd is [624]ms
+\nThe widget is uninstalled successfully
+\nreturncode=0
+\n]]></stdout><stderr><![CDATA[]]></stderr></result_info></testcase>
+      <testcase component="Tizen WRT Core Spec/Package Management" execution_type="auto" id="feature-element-be-ignored" purpose="Check if the 'feature' element should be ignored during installation process." result="PASS">
+        <description>
+          <test_script_entry timeout="90">app_user@/home/app/content/tct/opt/tct-pm-wrt-tests/scripts/wrt_pm_WRTInstaller.sh feature-element-be-ignored.wgt</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 21:15:51</start><end>2015-01-28 21:15:54</end><stdout><![CDATA[path is /home/app/content/tct/opt/tct-pm-wrt-tests/feature-element-be-ignored.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1apm018] key[start] val[install]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1apm018] key[end] val[ok]
+\nspend time for pkgcmd is [2443]ms
+\nThe widget is installed successfully
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1apm018] key[start] val[uninstall]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt1apm018] key[end] val[ok]
+\nspend time for pkgcmd is [428]ms
+\nreturncode=0
+\n]]></stdout><stderr><![CDATA[]]></stderr></result_info></testcase>
+      <testcase component="Tizen WRT Core Spec/Package Management" execution_type="auto" id="web-api-version" purpose="Check if WRT should abort installation when the version of Tizen Web API supported by the WRT is lower than the minimum version required by the Web Application." result="PASS">
+        <description>
+          <test_script_entry timeout="90">app_user@/home/app/content/tct/opt/tct-pm-wrt-tests/scripts/wrt_pm_InstallerFail.sh web-api-version.wgt</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 21:15:54</start><end>2015-01-28 21:15:55</end><stdout><![CDATA[path is /home/app/content/tct/opt/tct-pm-wrt-tests/web-api-version.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[/home/app/content/tct/opt/tct-pm-wrt-tests/web-api-version.wgt] key[end] val[fail]
+\nprocessing result : FATAL_ERROR [61] failed
+\nspend time for pkgcmd is [97]ms
+\nThe widget is not installed successfully
+\nreturncode=0
+\n]]></stdout><stderr><![CDATA[]]></stderr></result_info></testcase>
+    </set>
+  </suite>
+</test_definition>

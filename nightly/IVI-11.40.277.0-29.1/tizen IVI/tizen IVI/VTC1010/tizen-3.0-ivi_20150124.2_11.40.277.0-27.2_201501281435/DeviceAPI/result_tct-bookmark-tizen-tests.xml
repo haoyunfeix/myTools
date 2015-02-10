@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <?xml-stylesheet type="text/xsl" href="testresult.xsl"?>
+<test_definition><environment build_id="" device_id="10.239.52.31:26101" device_model="" device_name="ivi_box&#10;" host="Linux-3.2.0-29-generic-pae-i686-with-Ubuntu-12.04-precise" lite_version="3.1.13" manufacturer="" resolution="" screen_size=""><other /></environment>
+<summary test_plan_name="Empty test_plan_name"><start_at>2015-01-28_22_07_40</start_at><end_at>2015-01-28_22_08_09</end_at></summary>
+  <suite category="Tizen Web Device APIs" extension="crosswalk" name="tct-bookmark-tizen-tests">
+    <set name="Bookmark" set_debug_msg="N/A" type="js">
+      <testcase component="Tizen Device APIs/Social/Bookmark" execution_type="auto" id="BookmarkFolder_exist" purpose="Check if BookmarkFolder exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkFolder_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:12:46</start><end>2015-01-28 14:12:46</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Social/Bookmark" execution_type="auto" id="BookmarkFolder_parent_attribute" purpose="Check if attribute parent of BookmarkFolder exists, has type BookmarkFolder and is readonly" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkFolder_parent_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:12:46</start><end>2015-01-28 14:12:47</end><stdout>[Message] *BookmarkFolder_parent_attribute: assert_equals: parent can be modified expected "testfolder2" but got "testfolder3"</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Social/Bookmark" execution_type="auto" id="BookmarkFolder_title_attribute" purpose="Check if attribute title of BookmarkFolder exists, has type DOMString and is readonly" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkFolder_title_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:12:47</start><end>2015-01-28 14:12:48</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Social/Bookmark" execution_type="auto" id="BookmarkItem_exist" purpose="Check if BookmarkItem exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkItem_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:12:48</start><end>2015-01-28 14:12:48</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Social/Bookmark" execution_type="auto" id="BookmarkItem_parent_attribute" purpose="Check if attribute parent of BookmarkItem exists, has type BookmarkFolder and is readonly" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkItem_parent_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 14:12:48</start><end>2015-01-28 14:12:48</end><stdout>[Message] *BookmarkItem_parent_attribute: assert_equals: parent can be modified expected "testfolder" but got "folder2"</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Social/Bookmark" execution_type="auto" id="BookmarkItem_title_attribute" purpose="Check if attribute title of BookmarkItem exists, has type DOMString and is readonly" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkItem_title_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:12:49</start><end>2015-01-28 14:12:49</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Social/Bookmark" execution_type="auto" id="BookmarkItem_url_attribute" purpose="Check if attribute url of BookmarkItem exists, has type DOMString and is readonly" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkItem_url_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:12:49</start><end>2015-01-28 14:12:49</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Social/Bookmark" execution_type="auto" id="BookmarkManagerObject_notexist" purpose="Check if interface BookmarkManagerObject exists, it should not" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkManagerObject_notexist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:12:49</start><end>2015-01-28 14:12:49</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Social/Bookmark" execution_type="auto" id="BookmarkManager_add_exist" purpose="Check if method add of BookmarkManager exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkManager_add_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:12:49</start><end>2015-01-28 14:12:50</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Social/Bookmark" execution_type="auto" id="BookmarkManager_get_exist" purpose="Check if method get of BookmarkManager exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkManager_get_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:12:50</start><end>2015-01-28 14:12:50</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Social/Bookmark" execution_type="auto" id="BookmarkManager_notexist" purpose="Check if interface BookmarkManager exists, it should not" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkManager_notexist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:12:50</start><end>2015-01-28 14:12:50</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Social/Bookmark" execution_type="auto" id="BookmarkManager_remove_exist" purpose="Check if method remove of BookmarkManager exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkManager_remove_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:12:50</start><end>2015-01-28 14:12:50</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Social/Bookmark" execution_type="auto" id="Tizen_bookmark_exist" purpose="Check if Tizen implements interface BookmarkManagerObject and has attribute bookmark" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/Tizen_bookmark_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:12:50</start><end>2015-01-28 14:12:51</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Social/Bookmark" execution_type="auto" id="BookmarkManager_get" purpose="Check if BookmarkManager get method works properly" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkManager_get.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:12:51</start><end>2015-01-28 14:12:52</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Social/Bookmark" execution_type="auto" id="BookmarkManager_add" purpose="Check if BookmarkManager add method works properly" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkManager_add.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:12:52</start><end>2015-01-28 14:12:52</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Social/Bookmark" execution_type="auto" id="BookmarkManager_remove" purpose="Check if BookmarkManager remove method works properly" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkManager_remove.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:12:52</start><end>2015-01-28 14:12:53</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Social/Bookmark" execution_type="auto" id="BookmarkManager_add_missarg" purpose="Check if add method with missing non-optional argument works" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkManager_add_missarg.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:12:53</start><end>2015-01-28 14:12:53</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Social/Bookmark" execution_type="auto" id="BookmarkManager_add_with_parentFolder" purpose="Check if BookmarkManager add method with optional parentFolder attribute works properly" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkManager_add_with_parentFolder.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:12:53</start><end>2015-01-28 14:12:53</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Social/Bookmark" execution_type="auto" id="BookmarkManager_get_with_parentFolder" purpose="Check if BookmarkManager get method with optional parentFolder argument works properly" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkManager_get_with_parentFolder.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:12:54</start><end>2015-01-28 14:12:54</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Social/Bookmark" execution_type="auto" id="BookmarkManager_get_with_recursive" purpose="Check if BookmarkManager get method with optional recursive argument works properly" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkManager_get_with_recursive.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:12:54</start><end>2015-01-28 14:12:55</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Social/Bookmark" execution_type="auto" id="BookmarkManager_get_parentFolder_TypeMismatch" purpose="Check argument parentFolder conversions exception" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkManager_get_parentFolder_TypeMismatch.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:12:55</start><end>2015-01-28 14:12:55</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Social/Bookmark" execution_type="auto" id="BookmarkManager_get_parentFolder_invalid_obj" purpose="Check if the parameter parentFolder which is in get method is invalid" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkManager_get_parentFolder_invalid_obj.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:12:55</start><end>2015-01-28 14:12:56</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Social/Bookmark" execution_type="auto" id="BookmarkManager_add_bookmark_TypeMismatch" purpose="Check argument bookmark conversions exception in add method" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkManager_add_bookmark_TypeMismatch.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:12:56</start><end>2015-01-28 14:12:56</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Social/Bookmark" execution_type="auto" id="BookmarkManager_add_parentFolder_TypeMismatch" purpose="Check argument parentFolder conversions exception in add method" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkManager_add_parentFolder_TypeMismatch.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:12:56</start><end>2015-01-28 14:12:57</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Social/Bookmark" execution_type="auto" id="BookmarkManager_add_parentFolder_invalid_obj" purpose="Check if the parameter parentFolder which is in add method is invalid" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkManager_add_parentFolder_invalid_obj.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:12:57</start><end>2015-01-28 14:12:57</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Social/Bookmark" execution_type="auto" id="BookmarkManager_remove_with_bookmark" purpose="Check if BookmarkManager remove method with optional bookmark attribute works properly" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkManager_remove_with_bookmark.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:12:57</start><end>2015-01-28 14:12:58</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Social/Bookmark" execution_type="auto" id="BookmarkManager_remove_bookmark_TypeMismatch" purpose="Check argument bookmark conversions exception in remove method" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkManager_remove_bookmark_TypeMismatch.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:12:58</start><end>2015-01-28 14:12:58</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Social/Bookmark" execution_type="auto" id="BookmarkManager_in_tizen" purpose="Check if bookmark exists in tizen" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkManager_in_tizen.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:12:58</start><end>2015-01-28 14:12:59</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Social/Bookmark" execution_type="auto" id="BookmarkManager_extend" purpose="Test whether the BookmarkManager object can have new attribute added" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkManager_extend.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:12:59</start><end>2015-01-28 14:12:59</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Social/Bookmark" execution_type="auto" id="BookmarkItem_constructor" purpose="Check if the values of the attributes are equal to the arguments passed" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkItem_constructor.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:12:59</start><end>2015-01-28 14:12:59</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Social/Bookmark" execution_type="auto" id="BookmarkFolder_constructor" purpose="Check if the values of the attributes are equal to the arguments passed for BookmarkFolder" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkFolder_constructor.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:12:59</start><end>2015-01-28 14:12:59</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Social/Bookmark" execution_type="auto" id="BookmarkItem_extend" purpose="Test whether the BookmarkItem object can have new attribute added" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkItem_extend.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:12:59</start><end>2015-01-28 14:12:59</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Social/Bookmark" execution_type="auto" id="BookmarkFolder_extend" purpose="Test whether the BookmarkFolder object can have new attribute added" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkFolder_extend.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:12:59</start><end>2015-01-28 14:13:00</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Social/Bookmark" execution_type="auto" id="BookmarkManager_add_invalid" purpose="Check if BookmarkManager add method reports error given wrong bookmarks" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkManager_add_invalid.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:13:00</start><end>2015-01-28 14:13:00</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Social/Bookmark" execution_type="auto" id="BookmarkManager_get_parentFolder_NotFound" purpose="Check if BookmarkManager::get() method throws exception when called with non-existing folder" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkManager_get_parentFolder_NotFound.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:13:00</start><end>2015-01-28 14:13:01</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/Social/Bookmark" execution_type="auto" id="BookmarkManager_remove_bookmarkFolder" purpose="Check if BookmarkManager::remove() method throws InvalidValuesError and NotFoundError" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-bookmark-tizen-tests/bookmark/BookmarkManager_remove_bookmarkFolder.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:13:01</start><end>2015-01-28 14:13:01</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+  </suite>
+</test_definition>

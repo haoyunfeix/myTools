@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <?xml-stylesheet type="text/xsl" href="testresult.xsl"?>
+<test_definition><environment build_id="" device_id="localhost" device_model="" device_name="N/A" host="Linux-3.2.0-29-generic-pae-i686-with-Ubuntu-12.04-precise" lite_version="3.1.13" manufacturer="" resolution="N/A" screen_size="N/A"><other /></environment>
+<summary test_plan_name="Empty test_plan_name"><start_at>2015-01-28_21_23_40</start_at><end_at>2015-01-28_21_24_09</end_at></summary>
+  <suite category="Crosswalk WRT" name="wrt-packertool-tizen-tests">
+    <set name="tizen" set_debug_msg="N/A" type="script">
+      <testcase component="Crosswalk WRT/Packer Tool" execution_type="auto" id="Crosswalk_Tizen_Packaging_Tool_Create_test" purpose="Check crosswalk packer could be create web app successfully" result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/wrt-packertool-tizen-tests/packertool/Crosswalk_Tizen_Packaging_Tool_Create_test.sh</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 21:23:47</start><end>2015-01-28 21:23:54</end><stdout><![CDATA[Start to generate RSA key\nFinished generating RSA key, saved as key.pem\nAdding resources from /home/qawt/xw-att-nightly/test-env/VTC1010/tests/opt/wrt-packertool-tizen-tests/packertool/../diffid_same_version_tests/ into package.\nGenerated package successfully.\nGenerating XPK package: diffid_same_version_tests.xpk\nGenerated new XPK package diffid_same_version_tests.xpk successfully.\nPass\n]]></stdout><stderr><![CDATA[]]></stderr></result_info></testcase>
+      <testcase component="Crosswalk WRT/Packer Tool" execution_type="auto" id="Crosswalk_Tizen_Packaging_Tool_Install_test" purpose="Check crosswalk packed app could be installed successfully" result="FAIL">
+        <description>
+        <test_script_entry test_script_expected_result="0">/opt/wrt-packertool-tizen-tests/packertool/Crosswalk_Tizen_Packaging_Tool_Install_test.sh</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 21:23:54</start><end>2015-01-28 21:24:01</end><stdout><![CDATA[local\nMACRO_DEVICE_ID\nStart to generate RSA key\nFinished generating RSA key, saved as key.pem\nAdding resources from /home/qawt/xw-att-nightly/test-env/VTC1010/tests/opt/wrt-packertool-tizen-tests/packertool/../diffid_same_version_tests/ into package.\nGenerated package successfully.\nGenerating XPK package: diffid_same_version_tests.xpk\nGenerated new XPK package diffid_same_version_tests.xpk successfully.\nPass\n]]></stdout><stderr><![CDATA[ssh: Could not resolve hostname MACRO_DEVICE_ID: Name or service not known
+\nlost connection\nssh: Could not resolve hostname MACRO_DEVICE_ID: Name or service not known
+\nlost connection\nssh: Could not resolve hostname MACRO_DEVICE_ID: Name or service not known
+\n]]></stderr></result_info></testcase>
+      <testcase component="Crosswalk WRT/Packer Tool" execution_type="auto" id="Crosswalk_Tizen_Packaging_Tool_Uninstall_test" purpose="Check crosswalk packed app could be uninstalled successfully" result="FAIL">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/wrt-packertool-tizen-tests/packertool/Crosswalk_Tizen_Packaging_Tool_Uninstall_test.sh</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 21:24:01</start><end>2015-01-28 21:24:09</end><stdout><![CDATA[local\nMACRO_DEVICE_ID\nStart to generate RSA key\nFinished generating RSA key, saved as key.pem\nAdding resources from /home/qawt/xw-att-nightly/test-env/VTC1010/tests/opt/wrt-packertool-tizen-tests/packertool/../diffid_same_version_tests/ into package.\nGenerated package successfully.\nGenerating XPK package: diffid_same_version_tests.xpk\nGenerated new XPK package diffid_same_version_tests.xpk successfully.\nPass\n]]></stdout><stderr><![CDATA[ssh: Could not resolve hostname MACRO_DEVICE_ID: Name or service not known
+\nlost connection\nssh: Could not resolve hostname MACRO_DEVICE_ID: Name or service not known
+\nlost connection\nssh: Could not resolve hostname MACRO_DEVICE_ID: Name or service not known
+\n]]></stderr></result_info></testcase>
+    </set>
+  </suite>
+</test_definition>

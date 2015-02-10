@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <?xml-stylesheet type="text/xsl" href="testresult.xsl"?>
+<test_definition><environment build_id="" device_id="E6OKCY410686" device_model="" device_name="N/A" host="Linux-3.13.0-39-generic-x86_64-with-Ubuntu-12.04-precise" lite_version="3.1.13" manufacturer="" resolution="N/A" screen_size="N/A"><other /></environment>
+<summary test_plan_name="Empty test_plan_name"><start_at>2015-02-05_08_56_49</start_at><end_at>2015-02-05_08_56_58</end_at></summary>
+  <suite category="W3C/HTML5 APIs" name="tct-netinfo-w3c-tests" widget="webapi-noneservice-tests">
+    <set name="NetworkInfo" type="js">
+      <testcase component="W3C_HTML5 APIs/Device/The Network Information API" execution_type="auto" id="Navigator_connection" purpose="Check if the navigator.connection attribute exists, readonly and type of NetworkInformation" result="N/A">
+        <description>
+          <test_script_entry>/opt/tct-netinfo-w3c-tests/netinfo/Navigator_connection.html</test_script_entry>
+        </description>
+      <result_info><actual_result>N/A</actual_result><start /><end /><stdout /><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/The Network Information API" execution_type="auto" id="NetworkInformation_type" purpose="Check if the NetworkInformation.type attribute exists, readonly and type of string" result="N/A">
+        <description>
+          <test_script_entry>/opt/tct-netinfo-w3c-tests/netinfo/NetworkInformation_type.html</test_script_entry>
+        </description>
+      <result_info><actual_result>N/A</actual_result><start /><end /><stdout /><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/The Network Information API" execution_type="auto" id="NetworkInformation_onchange" purpose="Check if the NetworkInformation.onchange attribute exists, readonly and type of object" result="N/A">
+        <description>
+          <test_script_entry>/opt/tct-netinfo-w3c-tests/netinfo/NetworkInformation_onchange.html</test_script_entry>
+        </description>
+      <result_info><actual_result>N/A</actual_result><start /><end /><stdout /><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/The Network Information API" execution_type="auto" id="NetworkInformation_downlinkMax" purpose="Check if the NetworkInformation.downlinkMax attribute exists, readonly and type of number" result="N/A">
+        <description>
+          <test_script_entry>/opt/tct-netinfo-w3c-tests/netinfo/NetworkInformation_downlinkMax.html</test_script_entry>
+        </description>
+      <result_info><actual_result>N/A</actual_result><start /><end /><stdout /><stderr /></result_info></testcase>
+    </set>
+  </suite>
+</test_definition>

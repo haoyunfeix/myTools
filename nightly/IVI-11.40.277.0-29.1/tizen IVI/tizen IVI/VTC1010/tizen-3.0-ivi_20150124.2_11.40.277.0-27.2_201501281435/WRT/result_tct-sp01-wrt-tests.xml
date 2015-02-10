@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <?xml-stylesheet type="text/xsl" href="testresult.xsl"?>
+<test_definition><environment build_id="" device_id="10.239.52.31:26101" device_model="" device_name="ivi_box&#10;" host="Linux-3.2.0-29-generic-pae-i686-with-Ubuntu-12.04-precise" lite_version="3.1.13" manufacturer="" resolution="" screen_size=""><other /></environment>
+<summary test_plan_name="Empty test_plan_name"><start_at>2015-01-28_21_18_19</start_at><end_at>2015-01-28_21_18_35</end_at></summary>
+  <suite category="Tizen WRT Core Spec" name="tct-sp01-wrt-tests">
+    <set name="storage-cookies-check" set_debug_msg="N/A" type="wrt">
+      <testcase component="Tizen WRT Core Spec/Web Application Security and Privacy" execution_type="auto" id="storage-cookies-check" purpose="Check if Application has its own cookie database." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 13:23:26</start><end>2015-01-28 13:23:26</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+  </suite>
+</test_definition>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <?xml-stylesheet type="text/xsl" href="testresult.xsl"?>
+<test_definition><environment build_id="" device_id="10.239.52.31:26101" device_model="" device_name="ivi_box&#10;" host="Linux-3.2.0-29-generic-pae-i686-with-Ubuntu-12.04-precise" lite_version="3.1.13" manufacturer="" resolution="" screen_size=""><other /></environment>
+<summary test_plan_name="Empty test_plan_name"><start_at>2015-01-28_20_44_13</start_at><end_at>2015-01-28_20_44_44</end_at></summary>
+  <suite category="W3C/HTML5 APIs" name="tct-widget02-w3c-tests">
+    <set name="WidgetPackaging" set_debug_msg="N/A" type="script">
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Packaging and XML Configuration" execution_type="auto" id="WidgetPackaging_d9" purpose="Test that the user agent skips a content element that points to a non-existing file and shouldn't read the following content element." result="PASS">
+        <description>
+          <test_script_entry timeout="90">app_user@/home/app/content/tct/opt/tct-widget02-w3c-tests/scripts/w3c_widget_installfail.sh d9.wgt</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 20:44:21</start><end>2015-01-28 20:44:23</end><stdout><![CDATA[path is /home/app/content/tct/opt/tct-widget02-w3c-tests/widgetpackaging/w3c/d9.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[GCGAwkfaun] key[start] val[install]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[GCGAwkfaun] key[end] val[ok]
+\nspend time for pkgcmd is [2409]ms
+\nFail to install the widget!
+\nreturncode=0
+\n]]></stdout><stderr><![CDATA[]]></stderr></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Packaging and XML Configuration" execution_type="auto" id="WidgetPackaging_dl" purpose="Test if the UA can verify a cryptographic zip archive." result="PASS">
+        <description>
+          <test_script_entry timeout="90">app_user@/home/app/content/tct/opt/tct-widget02-w3c-tests/scripts/w3c_widget_installfail.sh dl.wgt</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 20:44:23</start><end>2015-01-28 20:44:24</end><stdout><![CDATA[path is /home/app/content/tct/opt/tct-widget02-w3c-tests/widgetpackaging/w3c/dl.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[/home/app/content/tct/opt/tct-widget02-w3c-tests/widgetpackaging/w3c/dl.wgt] key[end] val[fail]
+\nprocessing result : FATAL_ERROR [61] failed
+\nspend time for pkgcmd is [273]ms
+\nFail to install the widget!
+\nreturncode=0
+\n]]></stdout><stderr><![CDATA[]]></stderr></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Packaging and XML Configuration" execution_type="auto" id="WidgetPackaging_dlocignore00" purpose="Test that an empty defaultlocale attribute is ignored (and does not cause the widget to be treated as an invalid one)." result="FAIL">
+        <description>
+          <test_script_entry timeout="90">app_user@/home/app/content/tct/opt/tct-widget02-w3c-tests/scripts/w3c_widget_launch.sh dlocignore00.wgt</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 20:44:24</start><end>2015-01-28 20:44:27</end><stdout><![CDATA[path is /home/app/content/tct/opt/tct-widget02-w3c-tests/widgetpackaging/w3c/dlocignore00.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[vMSWvpGIyt] key[start] val[install]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[vMSWvpGIyt] key[end] val[ok]
+\nspend time for pkgcmd is [2434]ms
+\nFail to install the widget!
+\nreturncode=1
+\n]]></stdout><stderr><![CDATA[]]></stderr></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Packaging and XML Configuration" execution_type="auto" id="WidgetPackaging_bh" purpose="Test that the UA only checks the config files in the root of the widget package which are not in a locale folder." result="PASS">
+        <description>
+          <test_script_entry timeout="90">app_user@/home/app/content/tct/opt/tct-widget02-w3c-tests/scripts/w3c_widget_installfail.sh bh.wgt</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 20:44:27</start><end>2015-01-28 20:44:27</end><stdout><![CDATA[path is /home/app/content/tct/opt/tct-widget02-w3c-tests/widgetpackaging/w3c/bh.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[/home/app/content/tct/opt/tct-widget02-w3c-tests/widgetpackaging/w3c/bh.wgt] key[end] val[fail]
+\nprocessing result : FATAL_ERROR [61] failed
+\nspend time for pkgcmd is [270]ms
+\nFail to install the widget!
+\nreturncode=0
+\n]]></stdout><stderr><![CDATA[]]></stderr></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Packaging and XML Configuration" execution_type="auto" id="WidgetPackaging_bu" purpose="Test that the user agent rejects malformed XML." result="PASS">
+        <description>
+          <test_script_entry timeout="90">app_user@/home/app/content/tct/opt/tct-widget02-w3c-tests/scripts/w3c_widget_installfail.sh bu.wgt</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 20:44:27</start><end>2015-01-28 20:44:28</end><stdout><![CDATA[path is /home/app/content/tct/opt/tct-widget02-w3c-tests/widgetpackaging/w3c/bu.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[/home/app/content/tct/opt/tct-widget02-w3c-tests/widgetpackaging/w3c/bu.wgt] key[end] val[fail]
+\nprocessing result : FATAL_ERROR [61] failed
+\nspend time for pkgcmd is [106]ms
+\nFail to install the widget!
+\nreturncode=0
+\n]]></stdout><stderr><![CDATA[]]></stderr></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Packaging and XML Configuration" execution_type="auto" id="WidgetPackaging_c1" purpose="Test if the UA can treat file names in the default start files table case-sensitively (and the file is named 'INdeX.html' in a locale folder)." result="PASS">
+        <description>
+          <test_script_entry timeout="90">app_user@/home/app/content/tct/opt/tct-widget02-w3c-tests/scripts/w3c_widget_installfail.sh c1.wgt</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 20:44:28</start><end>2015-01-28 20:44:30</end><stdout><![CDATA[path is /home/app/content/tct/opt/tct-widget02-w3c-tests/widgetpackaging/w3c/c1.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[pvgdYtB8Eg] key[start] val[install]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[pvgdYtB8Eg] key[end] val[ok]
+\nspend time for pkgcmd is [2416]ms
+\nFail to install the widget!
+\nreturncode=0
+\n]]></stdout><stderr><![CDATA[]]></stderr></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Packaging and XML Configuration" execution_type="auto" id="WidgetPackaging_c2" purpose="Test if the UA can treat file names in the default start files table case-sensitively (and the file is named 'INdeX.HTM' in a locale folder)." result="PASS">
+        <description>
+          <test_script_entry timeout="90">app_user@/home/app/content/tct/opt/tct-widget02-w3c-tests/scripts/w3c_widget_installfail.sh c2.wgt</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 20:44:30</start><end>2015-01-28 20:44:33</end><stdout><![CDATA[path is /home/app/content/tct/opt/tct-widget02-w3c-tests/widgetpackaging/w3c/c2.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[TIhjUOxPhF] key[start] val[install]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[TIhjUOxPhF] key[end] val[ok]
+\nspend time for pkgcmd is [2603]ms
+\nFail to install the widget!
+\nreturncode=0
+\n]]></stdout><stderr><![CDATA[]]></stderr></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Packaging and XML Configuration" execution_type="auto" id="WidgetPackaging_c3" purpose="Test if the UA can treat file names in the default start files table case-sensitively (and the file is named 'INdeX.htm' in the root of the widget package)." result="PASS">
+        <description>
+          <test_script_entry timeout="90">app_user@/home/app/content/tct/opt/tct-widget02-w3c-tests/scripts/w3c_widget_installfail.sh c3.wgt</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 20:44:33</start><end>2015-01-28 20:44:36</end><stdout><![CDATA[path is /home/app/content/tct/opt/tct-widget02-w3c-tests/widgetpackaging/w3c/c3.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[huyM6WQs2K] key[start] val[install]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[huyM6WQs2K] key[end] val[ok]
+\nspend time for pkgcmd is [2610]ms
+\nFail to install the widget!
+\nreturncode=0
+\n]]></stdout><stderr><![CDATA[]]></stderr></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Packaging and XML Configuration" execution_type="auto" id="WidgetPackaging_aa" purpose="Test that the UA rejects configuration documents that don't have correct widget element." result="PASS">
+        <description>
+          <test_script_entry timeout="90">app_user@/home/app/content/tct/opt/tct-widget02-w3c-tests/scripts/w3c_widget_installfail.sh aa.wgt</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 20:44:36</start><end>2015-01-28 20:44:37</end><stdout><![CDATA[path is /home/app/content/tct/opt/tct-widget02-w3c-tests/widgetpackaging/w3c/aa.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[/home/app/content/tct/opt/tct-widget02-w3c-tests/widgetpackaging/w3c/aa.wgt] key[end] val[fail]
+\nprocessing result : FATAL_ERROR [61] failed
+\nspend time for pkgcmd is [286]ms
+\nFail to install the widget!
+\nreturncode=0
+\n]]></stdout><stderr><![CDATA[]]></stderr></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Packaging and XML Configuration" execution_type="auto" id="WidgetPackaging_ab" purpose="Test that the UA rejects configuration documents that in an invalid widget." result="PASS">
+        <description>
+          <test_script_entry timeout="90">app_user@/home/app/content/tct/opt/tct-widget02-w3c-tests/scripts/w3c_widget_installfail.sh ab.wgt</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 20:44:37</start><end>2015-01-28 20:44:37</end><stdout><![CDATA[path is /home/app/content/tct/opt/tct-widget02-w3c-tests/widgetpackaging/w3c/ab.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[/home/app/content/tct/opt/tct-widget02-w3c-tests/widgetpackaging/w3c/ab.wgt] key[end] val[fail]
+\nprocessing result : FATAL_ERROR [61] failed
+\nspend time for pkgcmd is [93]ms
+\nFail to install the widget!
+\nreturncode=0
+\n]]></stdout><stderr><![CDATA[]]></stderr></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Packaging and XML Configuration" execution_type="auto" id="WidgetPackaging_ac" purpose="Test that the UA rejects configuration documents that don't have correct widget element at the root." result="PASS">
+        <description>
+          <test_script_entry timeout="90">app_user@/home/app/content/tct/opt/tct-widget02-w3c-tests/scripts/w3c_widget_installfail.sh ac.wgt</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 20:44:37</start><end>2015-01-28 20:44:38</end><stdout><![CDATA[path is /home/app/content/tct/opt/tct-widget02-w3c-tests/widgetpackaging/w3c/ac.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[/home/app/content/tct/opt/tct-widget02-w3c-tests/widgetpackaging/w3c/ac.wgt] key[end] val[fail]
+\nprocessing result : FATAL_ERROR [61] failed
+\nspend time for pkgcmd is [102]ms
+\nFail to install the widget!
+\nreturncode=0
+\n]]></stdout><stderr><![CDATA[]]></stderr></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Packaging and XML Configuration" execution_type="auto" id="WidgetPackaging_b0" purpose="Test if the UA can treat file names in the default start files table case-sensitively." result="PASS">
+        <description>
+          <test_script_entry timeout="90">app_user@/home/app/content/tct/opt/tct-widget02-w3c-tests/scripts/w3c_widget_installfail.sh b0.wgt</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 20:44:38</start><end>2015-01-28 20:44:41</end><stdout><![CDATA[path is /home/app/content/tct/opt/tct-widget02-w3c-tests/widgetpackaging/w3c/b0.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[FNtPjHdLsc] key[start] val[install]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[FNtPjHdLsc] key[end] val[ok]
+\nspend time for pkgcmd is [2422]ms
+\nFail to install the widget!
+\nreturncode=0
+\n]]></stdout><stderr><![CDATA[]]></stderr></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Packaging and XML Configuration" execution_type="auto" id="WidgetPackaging_bg" purpose="Test that the UA only checks config files in the root of the widget package which are not in an arbitrary folder." result="PASS">
+        <description>
+          <test_script_entry timeout="90">app_user@/home/app/content/tct/opt/tct-widget02-w3c-tests/scripts/w3c_widget_installfail.sh bg.wgt</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 20:44:41</start><end>2015-01-28 20:44:41</end><stdout><![CDATA[path is /home/app/content/tct/opt/tct-widget02-w3c-tests/widgetpackaging/w3c/bg.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[/home/app/content/tct/opt/tct-widget02-w3c-tests/widgetpackaging/w3c/bg.wgt] key[end] val[fail]
+\nprocessing result : FATAL_ERROR [61] failed
+\nspend time for pkgcmd is [273]ms
+\nFail to install the widget!
+\nreturncode=0
+\n]]></stdout><stderr><![CDATA[]]></stderr></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Packaging and XML Configuration" execution_type="auto" id="WidgetPackaging_do" purpose="Test if the UA can verify a zip archive." result="PASS">
+        <description>
+          <test_script_entry timeout="90">app_user@/home/app/content/tct/opt/tct-widget02-w3c-tests/scripts/w3c_widget_installfail.sh split.wgt.001</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 20:44:41</start><end>2015-01-28 20:44:42</end><stdout><![CDATA[path is /home/app/content/tct/opt/tct-widget02-w3c-tests/widgetpackaging/w3c/split.wgt.001
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[/home/app/content/tct/opt/tct-widget02-w3c-tests/widgetpackaging/w3c/split.wgt.001] key[end] val[fail]
+\nprocessing result : FATAL_ERROR [61] failed
+\nspend time for pkgcmd is [94]ms
+\nFail to install the widget!
+\nreturncode=0
+\n]]></stdout><stderr><![CDATA[]]></stderr></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Packaging and XML Configuration" execution_type="auto" id="WidgetPackaging_dp" purpose="Test if the UA can verify an invalid zip archive." result="PASS">
+        <description>
+          <test_script_entry timeout="90">app_user@/home/app/content/tct/opt/tct-widget02-w3c-tests/scripts/w3c_widget_installfail.sh dp.wgt</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 20:44:42</start><end>2015-01-28 20:44:42</end><stdout><![CDATA[path is /home/app/content/tct/opt/tct-widget02-w3c-tests/widgetpackaging/w3c/dp.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[/home/app/content/tct/opt/tct-widget02-w3c-tests/widgetpackaging/w3c/dp.wgt] key[end] val[fail]
+\nprocessing result : FATAL_ERROR [61] failed
+\nspend time for pkgcmd is [109]ms
+\nFail to install the widget!
+\nreturncode=0
+\n]]></stdout><stderr><![CDATA[]]></stderr></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Packaging and XML Configuration" execution_type="auto" id="WidgetPackaging_dq" purpose="Test if the UA can verify config.exe document correctly." result="PASS">
+        <description>
+          <test_script_entry timeout="90">app_user@/home/app/content/tct/opt/tct-widget02-w3c-tests/scripts/w3c_widget_installfail.sh dq.wgt</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 20:44:42</start><end>2015-01-28 20:44:43</end><stdout><![CDATA[path is /home/app/content/tct/opt/tct-widget02-w3c-tests/widgetpackaging/w3c/dq.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[/home/app/content/tct/opt/tct-widget02-w3c-tests/widgetpackaging/w3c/dq.wgt] key[end] val[fail]
+\nprocessing result : FATAL_ERROR [61] failed
+\nspend time for pkgcmd is [105]ms
+\nFail to install the widget!
+\nreturncode=0
+\n]]></stdout><stderr><![CDATA[]]></stderr></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Widget/Widget Packaging and XML Configuration" execution_type="auto" id="WidgetPackaging_dw" purpose="Test if the UA can verify CoNfIG.xml document correctly." result="PASS">
+        <description>
+          <test_script_entry timeout="90">app_user@/home/app/content/tct/opt/tct-widget02-w3c-tests/scripts/w3c_widget_installfail.sh dw.wgt</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 20:44:43</start><end>2015-01-28 20:44:43</end><stdout><![CDATA[path is /home/app/content/tct/opt/tct-widget02-w3c-tests/widgetpackaging/w3c/dw.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[/home/app/content/tct/opt/tct-widget02-w3c-tests/widgetpackaging/w3c/dw.wgt] key[end] val[fail]
+\nprocessing result : FATAL_ERROR [61] failed
+\nspend time for pkgcmd is [96]ms
+\nFail to install the widget!
+\nreturncode=0
+\n]]></stdout><stderr><![CDATA[]]></stderr></result_info></testcase>
+      </set>
+  </suite>
+</test_definition>

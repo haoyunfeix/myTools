@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <?xml-stylesheet type="text/xsl" href="testresult.xsl"?>
+<test_definition><environment build_id="" device_id="E6OKCY549771" device_model="" device_name="N/A" host="Linux-3.13.0-39-generic-x86_64-with-Ubuntu-12.04-precise" lite_version="3.1.13" manufacturer="" resolution="N/A" screen_size="N/A"><other /></environment>
+<summary test_plan_name="Empty test_plan_name"><start_at>2015-02-05_06_48_49</start_at><end_at>2015-02-05_06_53_16</end_at></summary>
+  <suite category="W3C/HTML5 APIs" name="tct-filewriterapi-w3c-tests" widget="webapi-noneservice-tests">
+    <set name="FileWriter" set_debug_msg="N/A" type="js">
+      <testcase component="W3C_HTML5 APIs/Storage/File API: Writer (Partial)" execution_type="auto" id="FileSaver_abort_exist" purpose="Check if FileSaver.abort exists" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileSaver_abort_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-05 06:49:48</start><end>2015-02-05 06:49:49</end><stdout>[Message] *File Writer Test: FileSaver_abort_exist: assert_true: SecurityError expected true got false</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Storage/File API: Writer (Partial)" execution_type="auto" id="FileWriter_abort_normal" purpose="Check if FileSaver.abort method is normal" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileWriter_abort_normal.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-05 06:49:49</start><end>2015-02-05 06:49:49</end><stdout>[Message] *File Writer Test: FileWriter_abort_normal: assert_unreached: SecurityError:It was determined that certain files are unsafe for access within a Web application, or that too many calls are being made on file resources. Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Storage/File API: Writer (Partial)" execution_type="auto" id="Blob_append_blob_size" purpose="Check if the Blob append an exist blob, then compare its value with blob.Size which is 4" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/Blob_append_blob_size.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-05 06:49:49</start><end>2015-02-05 06:49:49</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Storage/File API: Writer (Partial)" execution_type="auto" id="FileSaver_DONE_exist" purpose="Check if FileSaver.DONE exists" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileSaver_DONE_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-05 06:49:49</start><end>2015-02-05 06:49:50</end><stdout>[Message] *File Writer Test: FileSaver_DONE_exist: assert_true: SecurityError expected true got false</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Storage/File API: Writer (Partial)" execution_type="auto" id="FileSaver_error_exist" purpose="Check if FileSaver.error exists" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileSaver_error_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-05 06:49:50</start><end>2015-02-05 06:49:51</end><stdout>[Message] *File Writer Test: FileSaver_error_exist: assert_true: SecurityError expected true got false</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Storage/File API: Writer (Partial)" execution_type="auto" id="FileSaver_INIT_exist" purpose="Check if FileSaver.INIT exists" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileSaver_INIT_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-05 06:49:51</start><end>2015-02-05 06:49:51</end><stdout>[Message] *File Writer Test: FileSaver_INIT_exist: assert_true: SecurityError expected true got false</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Storage/File API: Writer (Partial)" execution_type="auto" id="FileWriterSync_length_normal" purpose="Check if FileWriterSync.length attribute is normal" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileWriterSync_length_normal.html</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-02-05 06:49:51</start><end>2015-02-05 06:49:54</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Storage/File API: Writer (Partial)" execution_type="auto" id="FileSaver_onabort_exist" purpose="Check if FileSaver.onabort exists" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileSaver_onabort_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-05 06:49:54</start><end>2015-02-05 06:49:55</end><stdout>[Message] *File Writer Test: FileSaver_onabort_exist: assert_true: SecurityError expected true got false</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Storage/File API: Writer (Partial)" execution_type="auto" id="FileSaver_onerror_exist" purpose="Check if FileSaver.onerror attribute exists" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileSaver_onerror_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-05 06:49:55</start><end>2015-02-05 06:49:56</end><stdout>[Message] *File Writer Test: FileSaver_onerror_exist: assert_true: SecurityError expected true got false</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Storage/File API: Writer (Partial)" execution_type="auto" id="FileSaver_onprogress_exist" purpose="Check if FileSaver.onprogress attribute exists" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileSaver_onprogress_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-05 06:49:56</start><end>2015-02-05 06:49:56</end><stdout>[Message] *File Writer Test: FileSaver_onprogress_exist: assert_true: SecurityError expected true got false</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Storage/File API: Writer (Partial)" execution_type="auto" id="FileSaver_onwrite_exist" purpose="Check if FileSaver.onwrite attribute exists" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileSaver_onwrite_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-05 06:49:56</start><end>2015-02-05 06:49:57</end><stdout>[Message] *File Writer Test: FileSaver_onwrite_exist: assert_true: SecurityError expected true got false</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Storage/File API: Writer (Partial)" execution_type="auto" id="FileSaver_onwriteend_exist" purpose="Check if FileSaver.onwriteend attribute exists" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileSaver_onwriteend_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-05 06:49:57</start><end>2015-02-05 06:49:57</end><stdout>[Message] *File Writer Test: FileSaver_onwriteend_exist: assert_true: SecurityError expected true got false</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Storage/File API: Writer (Partial)" execution_type="auto" id="FileSaver_onwritestart_exist" purpose="Check if FileSaver.onwritestart attribute exists" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileSaver_onwritestart_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-05 06:49:57</start><end>2015-02-05 06:49:58</end><stdout>[Message] *File Writer Test: FileSaver_onwritestart_exist: assert_true: SecurityError expected true got false</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Storage/File API: Writer (Partial)" execution_type="auto" id="FileWriterSync_position_normal" purpose="Check if FileWriterSync.position attribute is normal" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileWriterSync_position_normal.html</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-02-05 06:49:58</start><end>2015-02-05 06:50:01</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Storage/File API: Writer (Partial)" execution_type="auto" id="FileSaver_readyState_exist" purpose="Check if FileSaver.readyState attribute exists" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileSaver_readyState_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-02-05 06:50:01</start><end>2015-02-05 06:51:41</end><stdout>Time is out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Storage/File API: Writer (Partial)" execution_type="auto" id="FileWriterSync_seek_normal" purpose="Check if FileWriterSync.seek method is normal" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileWriterSync_seek_normal.html</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-02-05 06:51:48</start><end>2015-02-05 06:51:51</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Storage/File API: Writer (Partial)" execution_type="auto" id="FileWriter_seek_normal" purpose="Check if FileSaver.seek method is normal" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileWriter_seek_normal.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-05 06:51:51</start><end>2015-02-05 06:51:52</end><stdout>[Message] *File Writer Test: FileWriter_seek_normal: assert_unreached: SecurityError:It was determined that certain files are unsafe for access within a Web application, or that too many calls are being made on file resources. Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Storage/File API: Writer (Partial)" execution_type="auto" id="FileWriterSync_truncate_normal" purpose="Check if FileWriterSync.truncate method is normal" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileWriterSync_truncate_normal.html</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-02-05 06:51:52</start><end>2015-02-05 06:51:55</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Storage/File API: Writer (Partial)" execution_type="auto" id="FileWriter_truncate_normal" purpose="Check if FileWriter.truncate method is normal" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileWriter_truncate_normal.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-05 06:51:55</start><end>2015-02-05 06:51:56</end><stdout>[Message] *FileWriter Test: FileWriter_truncate_normal: assert_unreached: SecurityError:It was determined that certain files are unsafe for access within a Web application, or that too many calls are being made on file resources. Reached unreachable code</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Storage/File API: Writer (Partial)" execution_type="auto" id="FileWriterSync_write_normal" purpose="Check if FileWriterSync.write method is normal" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileWriterSync_write_normal.html</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-02-05 06:51:56</start><end>2015-02-05 06:51:59</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Storage/File API: Writer (Partial)" execution_type="auto" id="FileWriter_write_normal" purpose="Check if FileWriter.write method is normal" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileWriter_write_normal.html</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-02-05 06:51:59</start><end>2015-02-05 06:53:39</end><stdout>Time is out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Storage/File API: Writer (Partial)" execution_type="auto" id="FileSaver_WRITING_exist" purpose="Check if FileSaver.WRITING exists" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileSaver_WRITING_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-05 06:53:44</start><end>2015-02-05 06:53:45</end><stdout>[Message] *File Writer Test: FileSaver_WRITING_exist: assert_true: SecurityError expected true got false</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Storage/File API: Writer (Partial)" execution_type="auto" id="Blob_constructor_visible_in_window" purpose="Check if Blob constructor must be visible when the script's global object is a Window object" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/Blob_constructor_visible_in_window.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-05 06:53:45</start><end>2015-02-05 06:53:45</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Storage/File API: Writer (Partial)" execution_type="auto" id="Blob_getBlob_string_type" purpose="Check if Blob() method set 'text/plain', then compare blob.type is 'text/plain'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/Blob_getBlob_string_type.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-05 06:53:45</start><end>2015-02-05 06:53:45</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Storage/File API: Writer (Partial)" execution_type="auto" id="FileSaver_const_DONE_type" purpose="Check if the type of const DONE is number" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileSaver_const_DONE_type.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-05 06:53:45</start><end>2015-02-05 06:53:46</end><stdout>[Message] *File Writer Test: FileSaver_const_DONE_type: assert_true: SecurityError expected true got false</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Storage/File API: Writer (Partial)" execution_type="auto" id="FileSaver_const_INIT_type" purpose="Check if the type of const INIT is number" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileSaver_const_INIT_type.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-05 06:53:46</start><end>2015-02-05 06:53:46</end><stdout>[Message] *File Writer Test: FileSaver_const_INIT_type: assert_true: SecurityError expected true got false</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Storage/File API: Writer (Partial)" execution_type="auto" id="FileSaver_error_type" purpose="Check if the type of FileSaver.error is DOMError" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileSaver_error_type.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-05 06:53:46</start><end>2015-02-05 06:53:47</end><stdout>[Message] *File Writer Test: FileSaver_error_type: assert_equals: The type of FileSaver.error expected "[object DOMError]" but got "[object FileError]"</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Storage/File API: Writer (Partial)" execution_type="auto" id="FileSaver_onabort_event_type" purpose="Ckeck if the event type of FileSaver.onabort is abort" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileSaver_onabort_event_type.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-05 06:53:47</start><end>2015-02-05 06:53:48</end><stdout>[Message] *File Writer Test: FileSaver_onabort_event_type: assert_true: SecurityError expected true got false</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Storage/File API: Writer (Partial)" execution_type="auto" id="FileWriter_length_normal" purpose="Check if the value of FileWriter.length attribute is normal" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileWriter_length_normal.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-05 06:53:48</start><end>2015-02-05 06:53:48</end><stdout>[Message] *File Writer Test: FileWriter_length_normal: assert_true: SecurityError expected true got false</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Storage/File API: Writer (Partial)" execution_type="auto" id="FileWriter_position_normal" purpose="Check if the value of FileWriter.position attribute is normal" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FileWriter_position_normal.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-05 06:53:48</start><end>2015-02-05 06:53:49</end><stdout>[Message] *File Writer Test: FileWriter_position_normal: assert_true: SecurityError expected true got false</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Storage/File API: Writer (Partial)" execution_type="auto" id="FW_FileError_code_readonly" purpose="Check if FW_FileError.code attribute is readonly" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FW_FileError_code_readonly.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-05 06:53:49</start><end>2015-02-05 06:53:49</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Storage/File API: Writer (Partial)" execution_type="auto" id="FW_FileError_code_type" purpose="Check if FileError.code attribute is type number" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FW_FileError_code_type.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-05 06:53:49</start><end>2015-02-05 06:53:50</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Storage/File API: Writer (Partial)" execution_type="auto" id="FW_FileError_const_ABORT_ERR" purpose="Check if the const FileError.ABORT_ERR is equal 3 in FileWriter module" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FW_FileError_const_ABORT_ERR.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-05 06:53:50</start><end>2015-02-05 06:53:51</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Storage/File API: Writer (Partial)" execution_type="auto" id="FW_FileError_const_ABORT_ERR_type" purpose="Check if the type of FileError.ABORT_ERR is number in FileWriter module" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FW_FileError_const_ABORT_ERR_type.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-05 06:53:51</start><end>2015-02-05 06:53:51</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Storage/File API: Writer (Partial)" execution_type="auto" id="FW_FileError_const_ENCODING_ERR" purpose="Check if the const FileError.ENCODING_ERR is equal 5 in FileWriter module" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FW_FileError_const_ENCODING_ERR.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-05 06:53:51</start><end>2015-02-05 06:53:52</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Storage/File API: Writer (Partial)" execution_type="auto" id="FW_FileError_const_ENCODING_ERR_type" purpose="Check if the type of FileError.ENCODING_ERR is numberin in FileWriter module" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FW_FileError_const_ENCODING_ERR_type.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-05 06:53:52</start><end>2015-02-05 06:53:52</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Storage/File API: Writer (Partial)" execution_type="auto" id="FW_FileError_const_INVALID_STATE_ERR" purpose="Check if the const FileError.INVALID_STATE_ERR is equal 7 in FileWriter module" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FW_FileError_const_INVALID_STATE_ERR.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-05 06:53:52</start><end>2015-02-05 06:53:53</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Storage/File API: Writer (Partial)" execution_type="auto" id="FW_FileError_const_INVALID_STATE_ERR_type" purpose="Check if the type of FileError.INVALID_STATE_ERR is number in FileWriter module" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FW_FileError_const_INVALID_STATE_ERR_type.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-05 06:53:53</start><end>2015-02-05 06:53:53</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Storage/File API: Writer (Partial)" execution_type="auto" id="FW_FileError_const_NO_MODIFICATION_ALLOWED_ERR" purpose="Check if the const FileError.NO_MODIFICATION_ALLOWED_ERR is equal 6 in FileWriter module" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FW_FileError_const_NO_MODIFICATION_ALLOWED_ERR.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-05 06:53:53</start><end>2015-02-05 06:53:54</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Storage/File API: Writer (Partial)" execution_type="auto" id="FW_FileError_const_NO_MODIFICATION_ALLOWED_ERR_type" purpose="Check if the type of FileError.NO_MODIFICATION_ALLOWED_ERR is number in FileWriter module" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FW_FileError_const_NO_MODIFICATION_ALLOWED_ERR_type.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-05 06:53:54</start><end>2015-02-05 06:53:55</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Storage/File API: Writer (Partial)" execution_type="auto" id="FW_FileError_const_NOT_FOUND_ERR" purpose="Check if the const FileError.NOT_FOUND_ERR is equal 1 in FileWriter module" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FW_FileError_const_NOT_FOUND_ERR.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-05 06:53:55</start><end>2015-02-05 06:53:55</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Storage/File API: Writer (Partial)" execution_type="auto" id="FW_FileError_const_NOT_FOUND_ERR_type" purpose="Check if the type of FileError.NOT_FOUND_ERR is number in FileWriter module" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FW_FileError_const_NOT_FOUND_ERR_type.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-05 06:53:55</start><end>2015-02-05 06:53:56</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Storage/File API: Writer (Partial)" execution_type="auto" id="FW_FileError_const_NOT_READABLE_ERR" purpose="Check if the const FileError.NOT_READABLE_ERR is equal 4 in FileWriter module" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FW_FileError_const_NOT_READABLE_ERR.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-05 06:53:56</start><end>2015-02-05 06:53:56</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Storage/File API: Writer (Partial)" execution_type="auto" id="FW_FileError_const_NOT_READABLE_ERR_type" purpose="Check if the type of FileError.NOT_READABLE_ERR is number in FileWriter module" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FW_FileError_const_NOT_READABLE_ERR_type.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-05 06:53:56</start><end>2015-02-05 06:53:57</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Storage/File API: Writer (Partial)" execution_type="auto" id="FW_FileError_const_SECURITY_ERR" purpose="Check if the const FileError.SECURITY_ERR is equal 2 in FileWriter module" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FW_FileError_const_SECURITY_ERR.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-05 06:53:57</start><end>2015-02-05 06:53:58</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Storage/File API: Writer (Partial)" execution_type="auto" id="FW_FileError_const_SECURITY_ERR_type" purpose="Check if the type of FileError.SECURITY_ERR is number in FileWriter module" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FW_FileError_const_SECURITY_ERR_type.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-05 06:53:58</start><end>2015-02-05 06:53:58</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Storage/File API: Writer (Partial)" execution_type="auto" id="FW_FileError_const_SYNTAX_ERR" purpose="Check if the const FileError.SYNTAX_ERR is equal 8 in FileWriter module" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FW_FileError_const_SYNTAX_ERR.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-05 06:53:58</start><end>2015-02-05 06:53:59</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Storage/File API: Writer (Partial)" execution_type="auto" id="FW_FileError_const_SYNTAX_ERR_type" purpose="Check if the type of FileError.SYNTAX_ERR is number in FileWriter module" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-filewriterapi-w3c-tests/filewriterapi/FW_FileError_const_SYNTAX_ERR_type.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-05 06:53:59</start><end>2015-02-05 06:53:59</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+  </suite>
+</test_definition>

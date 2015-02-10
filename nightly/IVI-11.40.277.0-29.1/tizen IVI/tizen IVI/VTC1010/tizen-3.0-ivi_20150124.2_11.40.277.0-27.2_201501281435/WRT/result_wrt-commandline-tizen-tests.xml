@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <?xml-stylesheet type="text/xsl" href="testresult.xsl"?>
+<test_definition><environment build_id="" device_id="10.239.52.31:26101" device_model="" device_name="ivi_box&#10;" host="Linux-3.2.0-29-generic-pae-i686-with-Ubuntu-12.04-precise" lite_version="3.1.13" manufacturer="" resolution="" screen_size=""><other /></environment>
+<summary test_plan_name="Empty test_plan_name"><start_at>2015-01-28_21_21_55</start_at><end_at>2015-01-28_21_22_31</end_at></summary>
+  <suite category="Crosswalk WRT" name="wrt-commandline-tizen-tests">
+    <set name="commandline" set_debug_msg="N/A" type="script">
+      <testcase component="Crosswalk WRT/Command Line" execution_type="auto" id="Crosswalk_BackEnd_PkgcmdInstall" purpose="Validate the backend pkgcmd can install webapp" result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">app_user@/home/app/content/tct/opt/wrt-commandline-tizen-tests/commandline/Crosswalk_BackEnd_PkgcmdInstall.sh</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 21:22:02</start><end>2015-01-28 21:22:07</end><stdout><![CDATA[val[ok]
+\ninstall webapp ok
+\nreturncode=0
+\n]]></stdout><stderr><![CDATA[]]></stderr></result_info></testcase>
+      <testcase component="Crosswalk WRT/Command Line" execution_type="auto" id="Crosswalk_BackEnd_PkgcmdReInstall" purpose="Validate the backend pkgcmd can re-install webapp" result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">app_user@/home/app/content/tct/opt/wrt-commandline-tizen-tests/commandline/Crosswalk_BackEnd_PkgcmdReInstall.sh</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 21:22:07</start><end>2015-01-28 21:22:14</end><stdout><![CDATA[val[ok]
+\ninstall webapp ok
+\nPass
+\nreturncode=0
+\n]]></stdout><stderr><![CDATA[]]></stderr></result_info></testcase>      
+      <testcase component="Crosswalk WRT/Command Line" execution_type="auto" id="Crosswalk_BackEnd_PkgcmdListApp" purpose="Validate the backend pkgcmd can list all webapp" result="FAIL">
+        <description>
+          <test_script_entry test_script_expected_result="0">app_user@/home/app/content/tct/opt/wrt-commandline-tizen-tests/commandline/Crosswalk_BackEnd_PkgcmdListApp.sh</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 21:22:14</start><end>2015-01-28 21:22:18</end><stdout><![CDATA[val[ok]
+\nlist wgt webapp fail
+\nreturncode=1
+\n]]></stdout><stderr><![CDATA[]]></stderr></result_info></testcase>
+      <testcase component="Crosswalk WRT/Command Line" execution_type="auto" id="Crosswalk_BackEnd_PkgcmdUninstall" purpose="Validate the backend pkgcmd can uninstall webapp" result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">app_user@/home/app/content/tct/opt/wrt-commandline-tizen-tests/commandline/Crosswalk_BackEnd_PkgcmdUninstall.sh</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 21:22:18</start><end>2015-01-28 21:22:24</end><stdout><![CDATA[val[ok]
+\nuninstall webapp ok
+\nreturncode=0
+\n]]></stdout><stderr><![CDATA[]]></stderr></result_info></testcase>
+      <testcase component="Crosswalk WRT/Command Line" execution_type="auto" id="Crosswalk_Feature_Flags_list-feature-flags" purpose="Validate Crosswalk support '--list-feature-flags' flag successfully" result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">app_user@/home/app/content/tct/opt/wrt-commandline-tizen-tests/commandline/Crosswalk_Feature_Flags_list-feature-flags.sh</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 21:22:24</start><end>2015-01-28 21:22:26</end><stdout><![CDATA[[0128/132717:ERROR:browser_main_loop.cc(164)] Running without the SUID sandbox! See https://code.google.com/p/chromium/wiki/LinuxSUIDSandboxDevelopment for more information on developing with the sandbox on.
+\n[0128/132718:INFO:desktop_factory_wayland.cc(17)] Ozone: DesktopFactoryWayland
+\nFailed to create random directory /tmp/pulseaudio/pulse-W7P5jftCU9ry: No such file or directory
+\n[0128/132718:INFO:audio_manager_pulse.cc(258)] Failed to connect to the context.  Error: Connection refused
+\n[0128/132718:ERROR:gpu_info_collector_ozone.cc(11)] Not implemented reached in std::string gpu::CollectDriverVersionNVidia()
+\n[0128/132718:INFO:desktop_factory_wayland.cc(17)] Ozone: DesktopFactoryWayland
+\nerror: XDG_RUNTIME_DIR not set in the environment.
+\n[0128/132718:ERROR:display.cc(87)] WaylandDisplay failed to initialize hardware
+\n[0128/132718:FATAL:ozone_platform_wayland.cc(102)] failed to initialize display hardware
+\nerror: XDG_RUNTIME_DIR not set in the environment.
+\n[0128/132718:ERROR:bus.cc(591)] Failed to get the ownership of org.crosswalkproject.Runtime1: 
+\n[0128/132718:ERROR:tizen_platform_sensor.cc(104)] Connection to accelerometer sensor failed
+\n[0128/132718:ERROR:tizen_platform_sensor.cc(118)] Connection to gyroscope sensor failed
+\nAvailable Command ---------------------------------------------------------------------------------------------------------------- --disable-sysapps --disable-raw-sockets --disable-device-capabilities --disable-storage --enable-dialog
+\nlist features ok
+\nreturncode=0
+\n]]></stdout><stderr><![CDATA[]]></stderr></result_info></testcase>
+      <testcase component="Crosswalk WRT/Command Line" execution_type="auto" id="Crosswalk_Launcher_List_Apps" purpose="Validate Crosswalk support Chinese language successfully" result="FAIL">
+        <description>
+          <test_script_entry test_script_expected_result="0">app_user@/home/app/content/tct/opt/wrt-commandline-tizen-tests/commandline/Crosswalk_Launcher_List_Apps.sh</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 21:22:26</start><end>2015-01-28 21:22:30</end><stdout><![CDATA[val[ok]
+\nlist wgt webapp fail
+\nreturncode=1
+\n]]></stdout><stderr><![CDATA[]]></stderr></result_info></testcase>
+      <testcase component="Crosswalk WRT/Command Line" execution_type="auto" id="Crosswalk_Xwalk_Backend_PackageFileInvalid_Apps" purpose="check xwalk_backend -i processing when empty parameters passed to xwalk_backend " result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">app_user@/home/app/content/tct/opt/wrt-commandline-tizen-tests/commandline/Crosswalk_Xwalk_Backend_PackageFileInvalid_Apps.sh</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 21:22:30</start><end>2015-01-28 21:22:30</end><stdout><![CDATA[When package file is valid, the xwalk_backend processes correctly.
+\nreturncode=0
+\n]]></stdout><stderr><![CDATA[]]></stderr></result_info></testcase>
+      <testcase component="Crosswalk WRT/Command Line" execution_type="auto" id="Crosswalk_Xwalk_Backend_PackageIdInvalid_Apps" purpose="check xwalk_backend -r processing when empty parameters passed to xwalk_backend " result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">app_user@/home/app/content/tct/opt/wrt-commandline-tizen-tests/commandline/Crosswalk_Xwalk_Backend_PackageIdInvalid_Apps.sh</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 21:22:30</start><end>2015-01-28 21:22:30</end><stdout><![CDATA[When packageId is valid, the xwalk_backend processes correctly.
+\nreturncode=0
+\n]]></stdout><stderr><![CDATA[]]></stderr></result_info></testcase>
+    </set>
+  </suite>
+</test_definition>

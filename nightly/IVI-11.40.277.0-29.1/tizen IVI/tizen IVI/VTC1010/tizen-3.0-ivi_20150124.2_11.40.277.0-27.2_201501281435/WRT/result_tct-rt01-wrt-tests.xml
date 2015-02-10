@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <?xml-stylesheet type="text/xsl" href="testresult.xsl"?>
+<test_definition><environment build_id="" device_id="10.239.52.31:26101" device_model="" device_name="ivi_box&#10;" host="Linux-3.2.0-29-generic-pae-i686-with-Ubuntu-12.04-precise" lite_version="3.1.13" manufacturer="" resolution="" screen_size=""><other /></environment>
+<summary test_plan_name="Empty test_plan_name"><start_at>2015-01-28_21_16_16</start_at><end_at>2015-01-28_21_18_13</end_at></summary>
+  <suite category="Tizen WRT Core Spec" extension="crosswalk" name="tct-rt01-wrt-tests">
+    <set name="dom-events-audio-onerror" set_debug_msg="N/A" type="wrt">
+      <testcase component="Tizen WRT Core Spec/Web Application Runtime" execution_type="auto" id="dom-events-audio-onerror" purpose="Check if WRT supports W3C DOM onerror event for audio lable." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 13:21:23</start><end>2015-01-28 13:21:24</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="dom-events-video-onerror" set_debug_msg="N/A" type="wrt">
+      <testcase component="Tizen WRT Core Spec/Web Application Runtime" execution_type="auto" id="dom-events-video-onerror" purpose="Check if WRT supports W3C DOM onerror event for video lable." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 13:21:33</start><end>2015-01-28 13:21:34</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="other-uri-XMLHttpRequest-get" set_debug_msg="N/A" type="wrt">
+      <testcase component="Tizen WRT Core Spec/Web Application Runtime" execution_type="auto" id="other-uri-XMLHttpRequest-get" purpose="Check if WRT returns a response when the request is a [HTTP] GET request." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 13:21:43</start><end>2015-01-28 13:21:44</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="other-uri-XMLHttpRequest-get-false" set_debug_msg="N/A" type="wrt">
+      <testcase component="Tizen WRT Core Spec/Web Application Runtime" execution_type="auto" id="other-uri-XMLHttpRequest-get-false" purpose="Check if WRT returns a [HTTP] 501 Not Implemented response when the request is a synchronous [HTTP] GET request." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 13:21:53</start><end>2015-01-28 13:21:53</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="other-uri-XMLHttpRequest-head" set_debug_msg="N/A" type="wrt">
+      <testcase component="Tizen WRT Core Spec/Web Application Runtime" execution_type="auto" id="other-uri-XMLHttpRequest-head" purpose="Check if WRT returns a [HTTP] 501 Not Implemented response when the request is a [HTTP] HEAD request." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 13:22:03</start><end>2015-01-28 13:22:04</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="other-uri-XMLHttpRequest-head-false" set_debug_msg="N/A" type="wrt">
+      <testcase component="Tizen WRT Core Spec/Web Application Runtime" execution_type="auto" id="other-uri-XMLHttpRequest-head-false" purpose="Check if WRT returns a [HTTP] 501 Not Implemented response when the request is a synchronous [HTTP] HEAD request." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 13:22:13</start><end>2015-01-28 13:22:14</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="other-uri-XMLHttpRequest-invalid" set_debug_msg="N/A" type="wrt">
+      <testcase component="Tizen WRT Core Spec/Web Application Runtime" execution_type="auto" id="other-uri-XMLHttpRequest-invalid" purpose="Check if WRT throws an exception when the request is an invalid request." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 13:22:23</start><end>2015-01-28 13:22:24</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="other-uri-XMLHttpRequest-null" set_debug_msg="N/A" type="wrt">
+      <testcase component="Tizen WRT Core Spec/Web Application Runtime" execution_type="auto" id="other-uri-XMLHttpRequest-null" purpose="Check if WRT throws an exception when the request is a null request." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 13:22:34</start><end>2015-01-28 13:22:34</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="other-uri-XMLHttpRequest-post" set_debug_msg="N/A" type="wrt">
+      <testcase component="Tizen WRT Core Spec/Web Application Runtime" execution_type="auto" id="other-uri-XMLHttpRequest-post" purpose="Check if WRT returns a response when the request is a [HTTP] POST request." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 13:22:44</start><end>2015-01-28 13:22:44</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="other-uri-XMLHttpRequest-post-false" set_debug_msg="N/A" type="wrt">
+      <testcase component="Tizen WRT Core Spec/Web Application Runtime" execution_type="auto" id="other-uri-XMLHttpRequest-post-false" purpose="Check if WRT returns a [HTTP] 501 Not Implemented response when the request is a synchronous [HTTP] POST request." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 13:22:54</start><end>2015-01-28 13:22:54</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="lifecycle-hide-running-app" type="wrt">
+    </set>
+    <set name="lifecycle-load-event" set_debug_msg="N/A" type="wrt">
+      <testcase component="Tizen WRT Core Spec/Web Application Runtime" execution_type="auto" id="lifecycle-load-event" purpose="Check if WRT supports W3C DOM load event" result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">test_index.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 13:23:04</start><end>2015-01-28 13:23:04</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+  </suite>
+</test_definition>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <?xml-stylesheet type="text/xsl" href="testresult.xsl"?>
+<test_definition><environment build_id="" device_id="10.239.52.31:26101" device_model="" device_name="ivi_box&#10;" host="Linux-3.2.0-29-generic-pae-i686-with-Ubuntu-12.04-precise" lite_version="3.1.13" manufacturer="" resolution="" screen_size=""><other /></environment>
+<summary test_plan_name="Empty test_plan_name"><start_at>2015-01-28_21_18_41</start_at><end_at>2015-01-28_21_18_52</end_at></summary>
+  <suite category="Tizen WRT Core Spec" name="tct-sp02-wrt-tests">
+    <set name="SecurityPrivacy" set_debug_msg="N/A" type="script">
+      <testcase component="Tizen WRT Core Spec/Web Application Security and Privacy" execution_type="auto" id="private_localstorage_check" purpose="Check that Application has its own localStorage space." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">app_user@/home/app/content/tct/opt/tct-sp02-wrt-tests/scripts/wrt_sp02_localstorage_check.sh</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 21:18:48</start><end>2015-01-28 21:18:51</end><stdout><![CDATA[path is /home/app/content/tct/opt/tct-sp02-wrt-tests/private_localstorage_check.wgt
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt5plc001] key[start] val[install]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt5plc001] key[end] val[ok]
+\nspend time for pkgcmd is [2437]ms
+\nThe widget is installed successfully!
+\nApplication has its own localStorage space
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt5plc001] key[start] val[uninstall]
+\n__return_cb req_id[1] pkg_type[wgt] pkgid[wrt5plc001] key[end] val[ok]
+\nspend time for pkgcmd is [619]ms
+\nreturncode=0
+\n]]></stdout><stderr><![CDATA[]]></stderr></result_info></testcase>
+    </set>
+  </suite>
+</test_definition>

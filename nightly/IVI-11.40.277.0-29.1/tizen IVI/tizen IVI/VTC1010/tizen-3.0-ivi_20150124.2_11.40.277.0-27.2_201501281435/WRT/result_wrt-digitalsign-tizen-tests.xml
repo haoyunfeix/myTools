@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <?xml-stylesheet type="text/xsl" href="testresult.xsl"?>
+<test_definition><environment build_id="" device_id="10.239.52.31:26101" device_model="" device_name="ivi_box&#10;" host="Linux-3.2.0-29-generic-pae-i686-with-Ubuntu-12.04-precise" lite_version="3.1.13" manufacturer="" resolution="" screen_size=""><other /></environment>
+<summary test_plan_name="Empty test_plan_name"><start_at>2015-01-28_21_22_37</start_at><end_at>2015-01-28_21_22_46</end_at></summary>
+  <suite category="Crosswalk WRT" name="wrt-digitalsign-tizen-tests">
+    <set name="rtcoreauto" set_debug_msg="N/A" type="script">
+      <testcase component="Crosswalk WRT/Digital Signature" execution_type="auto" id="Crosswalk_Digital_Signature_Error" purpose="Validate if the app can install with a bad Digital Signature" result="FAIL">
+        <description>
+          <test_script_entry>app_user@/home/app/content/tct/opt/wrt-digitalsign-tizen-tests/digitalsign/Crosswalk_Digital_Signature_Error.sh </test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 21:22:45</start><end>2015-01-28 21:22:45</end><stdout><![CDATA[setting xwalk service mode fail
+\nreturncode=1
+\n]]></stdout><stderr><![CDATA[]]></stderr></result_info></testcase>
+      <testcase component="Crosswalk WRT/Digital Signature" execution_type="auto" id="Crosswalk_Digital_Signature_Package" purpose="Validate if the app can install with the correct Digital Signature" result="FAIL">
+        <description>
+          <test_script_entry>app_user@/home/app/content/tct/opt/wrt-digitalsign-tizen-tests/digitalsign/Crosswalk_Digital_Signature_Package.sh </test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-01-28 21:22:45</start><end>2015-01-28 21:22:45</end><stdout><![CDATA[setting xwalk service mode fail
+\nreturncode=1
+\n]]></stdout><stderr><![CDATA[]]></stderr></result_info></testcase>
+    </set>
+  </suite>
+</test_definition>

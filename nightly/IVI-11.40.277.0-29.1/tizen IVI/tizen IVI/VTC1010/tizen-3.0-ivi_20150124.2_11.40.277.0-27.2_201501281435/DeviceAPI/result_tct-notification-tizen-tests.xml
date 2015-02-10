@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <?xml-stylesheet type="text/xsl" href="testresult.xsl"?>
+<test_definition><environment build_id="" device_id="10.239.52.31:26101" device_model="" device_name="ivi_box&#10;" host="Linux-3.2.0-29-generic-pae-i686-with-Ubuntu-12.04-precise" lite_version="3.1.13" manufacturer="" resolution="" screen_size=""><other /></environment>
+<summary test_plan_name="Empty test_plan_name"><start_at>2015-01-28_22_36_53</start_at><end_at>2015-01-28_22_37_30</end_at></summary>
+  <suite category="Tizen Web Device APIs" extension="crosswalk" name="tct-notification-tizen-tests">
+    <set name="Notification" set_debug_msg="N/A" type="js">
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="NotificationManager_post_exist" purpose="Check if method post which in NotificationManager interface exists." result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_post_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:41:58</start><end>2015-01-28 14:41:58</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="NotificationManager_update_exist" purpose="Check if method update which in NotificationManager interface exists." result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_update_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:41:58</start><end>2015-01-28 14:41:58</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="NotificationManager_remove_exist" purpose="Check if method remove which in NotificationManager interface exists." result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_remove_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:41:58</start><end>2015-01-28 14:41:59</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="NotificationManager_removeAll_exist" purpose="Check if method removeAll which in NotificationManager interface exists." result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_removeAll_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:41:59</start><end>2015-01-28 14:41:59</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="NotificationManager_get_exist" purpose="Check if method get which in NotificationManager interface exists." result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_get_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:41:59</start><end>2015-01-28 14:41:59</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="NotificationManager_getAll_exist" purpose="Check if method getAll which in NotificationManager interface exists." result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_getAll_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:41:59</start><end>2015-01-28 14:41:59</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="NotificationManager_get" purpose="Check if the parameter NotificationManager which in get method ok" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_get.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:41:59</start><end>2015-01-28 14:42:00</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="NotificationManager_remove" purpose="Check if the parameter NotificationManager which in remove method ok" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_remove.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:00</start><end>2015-01-28 14:42:01</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="NotificationManager_update" purpose="Check if the parameter NotificationManager which in update method ok" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_update.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:01</start><end>2015-01-28 14:42:01</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="NotificationManager_in_tizen" purpose="Check if the readonly attribute notification" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_in_tizen.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:01</start><end>2015-01-28 14:42:01</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="NotificationManager_update_notposted" purpose="Check whether calling update() method with notification not posted earlier throws an exception" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_update_notposted.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:01</start><end>2015-01-28 14:42:02</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="StatusNotification_constructor_minargs" purpose="Check if StatusNotification's constructor works with minimal arguments" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_constructor_minargs.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:02</start><end>2015-01-28 14:42:02</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="StatusNotification_constructor_notificationInitDict_partial" purpose="Check if StatusNotification's constructor works with partial attributes in notificationInitDict" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_constructor_notificationInitDict_partial.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:02</start><end>2015-01-28 14:42:02</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="StatusNotification_constructor_notificationInitDict_partial_extra" purpose="Check if StatusNotification's constructor works with additional attributes in notificationInitDict" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_constructor_notificationInitDict_partial_extra.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:02</start><end>2015-01-28 14:42:02</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="StatusNotification_appid_attribute" purpose="Check if attribute appid of StatusNotification exists, has appropriate type" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_appid_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:02</start><end>2015-01-28 14:42:03</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="StatusNotification_appControl_attribute" purpose="Check if attribute appControl of StatusNotification exists, has appropriate type" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_appControl_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:03</start><end>2015-01-28 14:42:03</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="StatusNotification_vibration_attribute" purpose="Check if attribute vibration of StatusNotification exists, has appropriate type" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_vibration_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:03</start><end>2015-01-28 14:42:03</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="StatusNotification_iconPath_attribute" purpose="Check if attribute iconPath of StatusNotification exists, has appropriate type" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_iconPath_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:03</start><end>2015-01-28 14:42:03</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="StatusNotification_soundPath_attribute" purpose="Check if attribute soundPath of StatusNotification exists, has appropriate type" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_soundPath_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:03</start><end>2015-01-28 14:42:04</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="StatusNotification_statusType_attribute" purpose="Check if attribute statusType of StatusNotification exists, has appropriate type" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_statusType_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:04</start><end>2015-01-28 14:42:04</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="Notification_content_attribute" purpose="Check if attribute content of Notification exists, has appropriate type" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/Notification_content_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:04</start><end>2015-01-28 14:42:04</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="Notification_postedTime_attribute" purpose="Check if attribute postedTime of Notification exists, has appropriate type" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/Notification_postedTime_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:04</start><end>2015-01-28 14:42:05</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="Notification_title_attribute" purpose="Check if attribute title of Notification exists, has appropriate type" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/Notification_title_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:05</start><end>2015-01-28 14:42:05</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="Notification_id_attribute" purpose="Check if attribute id of Notification exists, has appropriate type" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/Notification_id_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:05</start><end>2015-01-28 14:42:05</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="Notification_type_attribute" purpose="Check if attribute type of Notification exists, has appropriate type" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/Notification_type_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:05</start><end>2015-01-28 14:42:06</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="NotificationManager_post_ONGOING" purpose="Check if NotificationManager.post method works properly with ONGOING statusType" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_post_ONGOING.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:06</start><end>2015-01-28 14:42:06</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="NotificationManager_post_PROGRESS" purpose="Check if NotificationManager.post method works properly with PROGRESS statusType" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_post_PROGRESS.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:06</start><end>2015-01-28 14:42:06</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="NotificationManager_post_SIMPLE" purpose="Check if NotificationManager.post method works properly with SIMPLE statusType" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_post_SIMPLE.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:06</start><end>2015-01-28 14:42:07</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="NotificationManager_removeAll" purpose="Check if NotificationManager.removeAll works properly" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_removeAll.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:07</start><end>2015-01-28 14:42:08</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="NotificationManager_getAll" purpose="Check if NotificationManager.getAll method works" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_getAll.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:08</start><end>2015-01-28 14:42:09</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="NotificationManager_notexist" purpose="Check if NotificationManager does not exist" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_notexist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:09</start><end>2015-01-28 14:42:09</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="NotificationObject_notexist" purpose="Check if NotificationObject does not exist" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationObject_notexist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:09</start><end>2015-01-28 14:42:09</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="Notification_notexist" purpose="Check if Notification does not exist" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/Notification_notexist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:09</start><end>2015-01-28 14:42:09</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="NotificationManager_extend" purpose="Check if NotificationManager is extendable" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_extend.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:09</start><end>2015-01-28 14:42:10</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="StatusNotification_extend" purpose="Check if StatusNotification is extendable" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_extend.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:10</start><end>2015-01-28 14:42:10</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="NotificationDetailInfo_exist" purpose="Check if NotificationDetailInfo exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationDetailInfo_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:10</start><end>2015-01-28 14:42:10</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="StatusNotification_exist" purpose="Check if StatusNotification exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:10</start><end>2015-01-28 14:42:10</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="NotificationDetailInfo_extend" purpose="Check if NotificationDetailInfo is extendable" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationDetailInfo_extend.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:10</start><end>2015-01-28 14:42:10</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="NotificationDetailInfo_constructor" purpose="Check if NotificationDetailInfo's constructor works." result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationDetailInfo_constructor.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:10</start><end>2015-01-28 14:42:10</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="NotificationDetailInfo_subText_attribute" purpose="Check for NotificationDetailInfo.subText attribute." result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationDetailInfo_subText_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:10</start><end>2015-01-28 14:42:11</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="NotificationDetailInfo_constructor_minargs" purpose="Check if NotificationDetailInfo's constructor works with non-optional arguments." result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationDetailInfo_constructor_minargs.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:11</start><end>2015-01-28 14:42:11</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="NotificationDetailInfo_mainText_attribute" purpose="Check for NotificationDetailInfo.mainText attribute." result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationDetailInfo_mainText_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:11</start><end>2015-01-28 14:42:11</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="StatusNotification_constructor_ONGOING_BYTE" purpose="Check if StatusNotification's constructor works for statusType=ONGOING and progressType=BYTE" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_constructor_ONGOING_BYTE.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:11</start><end>2015-01-28 14:42:11</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="StatusNotification_constructor_ONGOING_PERCENTAGE" purpose="Check if StatusNotification's constructor works for statusType=ONGOING and progressType=PERCENTAGE" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_constructor_ONGOING_PERCENTAGE.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:11</start><end>2015-01-28 14:42:11</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="StatusNotification_constructor_PROGRESS_BYTE" purpose="Check if StatusNotification's constructor works for statusType=PROGRESS and progressType=BYTE" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_constructor_PROGRESS_BYTE.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:11</start><end>2015-01-28 14:42:12</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="StatusNotification_constructor_PROGRESS_PERCENTAGE" purpose="Check if StatusNotification's constructor works for statusType=PROGRESS and progressType=PERCENTAGE" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_constructor_PROGRESS_PERCENTAGE.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:12</start><end>2015-01-28 14:42:12</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="StatusNotification_constructor_SIMPLE_BYTE" purpose="Check if StatusNotification's constructor works for statusType=SIMPLE and progressType=BYTE" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_constructor_SIMPLE_BYTE.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:12</start><end>2015-01-28 14:42:12</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="StatusNotification_constructor_SIMPLE_PERCENTAGE" purpose="Check if StatusNotification's constructor works for statusType=SIMPLE and progressType=PERCENTAGE" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_constructor_SIMPLE_PERCENTAGE.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:12</start><end>2015-01-28 14:42:12</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="StatusNotification_constructor_THUMBNAIL_BYTE" purpose="Check if StatusNotification's constructor works for statusType=THUMBNAIL and progressType=BYTE" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_constructor_THUMBNAIL_BYTE.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:12</start><end>2015-01-28 14:42:13</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="StatusNotification_constructor_THUMBNAIL_PERCENTAGE" purpose="Check if StatusNotification's constructor works for statusType=THUMBNAIL and progressType=PERCENTAGE" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_constructor_THUMBNAIL_PERCENTAGE.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:13</start><end>2015-01-28 14:42:13</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="StatusNotification_constructor_progessValue_-1_BYTE" purpose="Check if StatusNotification's constructor works for progressValue=-1 and progressType=BYTE" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_constructor_progessValue_-1_BYTE.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:13</start><end>2015-01-28 14:42:13</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="StatusNotification_constructor_progessValue_0_BYTE" purpose="Check if StatusNotification's constructor works for progressValue=0 and progressType=BYTE" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_constructor_progessValue_0_BYTE.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:13</start><end>2015-01-28 14:42:13</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="StatusNotification_constructor_progessValue_0_PERCENTAGE" purpose="Check if StatusNotification's constructor works for progressValue=0 and progressType=PERCENTAGE" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_constructor_progessValue_0_PERCENTAGE.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:13</start><end>2015-01-28 14:42:14</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="StatusNotification_constructor_progessValue_max_BYTE" purpose="Check if StatusNotification's constructor works for progressValue=max and progressType=BYTE" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_constructor_progessValue_max_BYTE.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:14</start><end>2015-01-28 14:42:14</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="StatusNotification_constructor_invalid_backgroundImagePath" purpose="Check if constructor accepts incorrect backgroundImagePath" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_constructor_invalid_backgroundImagePath.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:14</start><end>2015-01-28 14:42:14</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="StatusNotification_constructor_invalid_iconPath" purpose="Check if constructor accepts incorrect iconPath" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_constructor_invalid_iconPath.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:14</start><end>2015-01-28 14:42:14</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="StatusNotification_constructor_invalid_soundPath" purpose="Check if constructor accepts incorrect soundPath" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_constructor_invalid_soundPath.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:14</start><end>2015-01-28 14:42:15</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="StatusNotification_constructor_invalid_subIconPath" purpose="Check if constructor accepts incorrect subIconPath" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_constructor_invalid_subIconPath.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:15</start><end>2015-01-28 14:42:15</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="StatusNotification_subIconPath_attribute" purpose="Check if attribute subIconPath of StatusNotification exists, has appropriate type" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_subIconPath_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:15</start><end>2015-01-28 14:42:15</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="StatusNotification_constructor_invalid_thumbnails" purpose="Check if constructor accepts incorrect thumbnails" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_constructor_invalid_thumbnails.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:15</start><end>2015-01-28 14:42:15</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="StatusNotification_detailInfo_attribute" purpose="Check if attribute detailInfo of StatusNotification exists, has appropriate type" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_detailInfo_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:15</start><end>2015-01-28 14:42:16</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="StatusNotification_number_attribute" purpose="Check if attribute number of StatusNotification exists, has appropriate type" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_number_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:16</start><end>2015-01-28 14:42:16</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="StatusNotification_backgroundImagePath_attribute" purpose="Check if attribute backgroundImagePath of StatusNotification exists, has appropriate type" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_backgroundImagePath_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:16</start><end>2015-01-28 14:42:16</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="StatusNotification_thumbnails_attribute" purpose="Check if attribute thumbnails of StatusNotification exists, has appropriate type" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_thumbnails_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:16</start><end>2015-01-28 14:42:16</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="StatusNotification_progressType_attribute" purpose="Check if attribute progressType of StatusNotification exists, has appropriate type" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_progressType_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:16</start><end>2015-01-28 14:42:17</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="StatusNotification_progressValue_attribute_BYTE" purpose="Check if attribute progressValue of StatusNotification exists, has appropriate type for BYTE progressType" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_progressValue_attribute_BYTE.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:17</start><end>2015-01-28 14:42:17</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="StatusNotification_progressValue_attribute_PERCENTAGE" purpose="Check if attribute progressValue of StatusNotification exists, has appropriate type for PERCENTAGE progressType" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_progressValue_attribute_PERCENTAGE.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:17</start><end>2015-01-28 14:42:17</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="StatusNotification_constructor_progessValue_100_PERCENTAGE" purpose="Check if StatusNotification's constructor works for progressValue=100 and progressType=PERCENTAGE" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_constructor_progessValue_100_PERCENTAGE.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:17</start><end>2015-01-28 14:42:17</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="StatusNotification_constructor_number_max" purpose="Check if constructor accepts max number." result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_constructor_number_max.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:17</start><end>2015-01-28 14:42:18</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="StatusNotification_constructor_number_min" purpose="Check if constructor accepts min number." result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_constructor_number_min.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:18</start><end>2015-01-28 14:42:18</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="NotificationManager_post_THUMBNAIL" purpose="Check if NotificationManager.post method works properly with THUMBNAIL statusType" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_post_THUMBNAIL.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:18</start><end>2015-01-28 14:42:18</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="NotificationManager_post_misarg" purpose="Check with missing non-optional argument - NotificationManager.post" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_post_misarg.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:18</start><end>2015-01-28 14:42:19</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="NotificationManager_post_notification_TypeMismatch" purpose="Check type conversions for notification argument of NotificationManager.post method" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_post_notification_TypeMismatch.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:19</start><end>2015-01-28 14:42:19</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="NotificationManager_update_misarg" purpose="Check if update method is not accepting invocation without argument" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_update_misarg.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:19</start><end>2015-01-28 14:42:19</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="NotificationManager_update_notification_TypeMismatch" purpose="Check if update throws exception when argument is incorrect" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_update_notification_TypeMismatch.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:19</start><end>2015-01-28 14:42:19</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="NotificationManager_getAll_extra_argument" purpose="Check if method getAll of NotificationManager accepts extra argument" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_getAll_extra_argument.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:19</start><end>2015-01-28 14:42:20</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="NotificationManager_removeAll_extra_argument" purpose="Check if method removeAll of NotificationManager accepts extra argument" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/NotificationManager_removeAll_extra_argument.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:20</start><end>2015-01-28 14:42:20</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="StatusNotification_ledColor_attribute" purpose="Check if attribute ledColor of StatusNotification exists, has appropriate type" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_ledColor_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:20</start><end>2015-01-28 14:42:20</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="StatusNotification_ledOffPeriod_attribute" purpose="Check if attribute ledOffPeriod of StatusNotification exists, has appropriate type" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_ledOffPeriod_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:20</start><end>2015-01-28 14:42:20</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="StatusNotification_ledOnPeriod_attribute" purpose="Check if attribute ledOnPeriod of StatusNotification exists, has appropriate type" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/StatusNotification_ledOnPeriod_attribute.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:20</start><end>2015-01-28 14:42:21</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Tizen Device APIs/User Interface/Notification" execution_type="auto" id="Notification_extend" purpose="Check if Notification can be extended" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-notification-tizen-tests/notification/Notification_extend.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-01-28 14:42:21</start><end>2015-01-28 14:42:21</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+  </suite>
+</test_definition>
