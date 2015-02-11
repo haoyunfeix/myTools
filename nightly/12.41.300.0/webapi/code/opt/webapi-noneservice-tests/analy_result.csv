@@ -1,0 +1,2 @@
+Suite_name,Total,Total_auto,Total_auto_webdriver,Total_manual,P0,P0_auto,P0_auto_webdriver,P0_manual,P1,P1_auto,P1_auto_webdriver,P1_manual,P2,P2_auto,P2_auto_webdriver,P2_manual,P3,P3_auto,P3_auto_webdriver,P3_manual,Integrated_Upstream_TCs,Upstream_Resource
+webapi-contactsmanager-w3c-tests 144 144 0 0 0 0 0 0 127 127 0 0 17 17 0 0 0 0 0 0 0 

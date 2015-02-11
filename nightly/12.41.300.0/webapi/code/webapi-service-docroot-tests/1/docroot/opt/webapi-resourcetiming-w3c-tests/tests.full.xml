@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./testcase.xsl"?>
+<test_definition>
+  <suite category="W3C/HTML5 APIs" name="webapi-resourcetiming-w3c-tests">
+    <set name="resourcetiming" type="js">
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="resource_frame_initiator_type" priority="P2" purpose="Test checks that the frame initiator type is represented" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_frame_initiator_type.html?total_num=3&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="initiatorType" element_type="attribute" interface="Performance" section="Performance and Optimization" specification="Resource Timing" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="resource_ignore_data_url" priority="P3" purpose="Test checks that resources with data: URIs aren't present in the Resource Timing buffer" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_ignore_data_url.html?total_num=3&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="performance_defined" priority="P1" purpose="Test checks that window.performance is defined" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_timing.html?total_num=21&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="Performance" element_type="attribute" interface="window" section="Performance and Optimization" specification="Resource Timing" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="performance_getEntriesByName_defined" priority="P1" purpose="Test checks that window.performance.getEntriesByName is defined" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_timing.html?total_num=21&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="getEntriesByName" element_type="method" interface="Performance" section="Performance and Optimization" specification="Resource Timing" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="performance_getEntriesByType_defined" priority="P1" purpose="Test checks that window.performance.getEntriesByType is defined" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_timing.html?total_num=21&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="getEntriesByType" element_type="method" interface="Performance" section="Performance and Optimization" specification="Resource Timing" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="performance_getEntries_defined" priority="P1" purpose="Test checks that window.performance.getEntries is defined" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_timing.html?total_num=21&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="getEntries" element_type="method" interface="Performance" section="Performance and Optimization" specification="Resource Timing" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="performance_returns_PerformanceEntry_xml" priority="P3" purpose="Test checks that window.performance.getEntriesByName('http://.../resource_timing_test0.xml') returns a PerformanceEntry object" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_timing.html?total_num=21&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="performance_returns_PerformanceEntry_png" priority="P3" purpose="Test checks that window.performance.getEntriesByName('resource_timing_test0.png') returns a PerformanceEntry object" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_timing.html?total_num=21&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="performance_PerformanceEntry_attribute_correct" priority="P3" purpose="Test checks that PerformanceEntry has correct name, initiatorType, startTime, and duration" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_timing.html?total_num=21&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="performance_PerformanceEntry_attribute_correct_order_png" priority="P3" purpose="Test checks that PerformanceEntry('/resource_timing_test0.png') has correct order of timing attributes" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_timing.html?total_num=21&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="performance_PerformanceEntry_object_same_png" priority="P3" purpose="Test checks that PerformanceEntry object is the same when calling via getEntriesByName('/resource_timing_test0.png')" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_timing.html?total_num=21&amp;amp;locator_key=id&amp;amp;value=9</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="performance_PerformanceEntry_css" priority="P3" purpose="Test checks that window.performance.getEntriesByName('resource_timing_test0.css') returns a PerformanceEntry object" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_timing.html?total_num=21&amp;amp;locator_key=id&amp;amp;value=10</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="performance_PerformanceEntry_css_correct_attribute" priority="P3" purpose="Test checks that PerformanceEntry returned by window.performance.getEntriesByName('resource_timing_test0.css') has correct name, initiatorType, startTime, and duration." status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_timing.html?total_num=21&amp;amp;locator_key=id&amp;amp;value=11</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="performance_PerformanceEntry_css_correct_attribute_order_css" priority="P3" purpose="Test checks that PerformanceEntry(resource_timing_test0.css) has correct order of timing attributes." status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_timing.html?total_num=21&amp;amp;locator_key=id&amp;amp;value=12</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="performance_PerformanceEntry_same_css" priority="P3" purpose="Test checks that PerformanceEntry object is the same when calling via getEntriesByName('/resource_timing_test0.css') and getEntriesByName('/resource_timing_test0.css', 'resource')" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_timing.html?total_num=21&amp;amp;locator_key=id&amp;amp;value=13</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="performance_return_PerformanceEntry_html" priority="P3" purpose="Test checks that window.performance.getEntriesByName('/resource_timing_test0.html') returns a PerformanceEntry object" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_timing.html?total_num=21&amp;amp;locator_key=id&amp;amp;value=14</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="performance_PerformanceEntry_correct_attribute_html" priority="P3" purpose="Test checks that PerformanceEntry returned by window.performance.getEntriesByName('/resource_timing_test0.html') has correct name, initiatorType, startTime, and duration" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_timing.html?total_num=21&amp;amp;locator_key=id&amp;amp;value=15</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="performance_PerformanceEntry_correct_attribute_order_html" priority="P3" purpose="Test checks that PerformanceEntry('http://127.0.0.1http://.../resource_timing_test0.html') has correct order of timing attributes." status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_timing.html?total_num=21&amp;amp;locator_key=id&amp;amp;value=16</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="performance_PerformanceEntry_same_html" priority="P3" purpose="Test checks that PerformanceEntry object is the same when calling via getEntriesByName('/resource_timing_test0.html')" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_timing.html?total_num=21&amp;amp;locator_key=id&amp;amp;value=17</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="performance_returns_PerformanceEntry_js" priority="P3" purpose="Test checks that window.performance.getEntriesByName('/resource_timing_test0.js') returns a PerformanceEntry object" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_timing.html?total_num=21&amp;amp;locator_key=id&amp;amp;value=18</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="performance_PerformanceEntry_correct_attribute_js" priority="P3" purpose="Test checks that PerformanceEntry returned by window.performance.getEntriesByName('/resource_timing_test0.js') has correct name, initiatorType, startTime, and duration" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_timing.html?total_num=21&amp;amp;locator_key=id&amp;amp;value=19</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="performance_PerformanceEntry_correct_attribute_order_js" priority="P3" purpose="Test checks that PerformanceEntry('/resource_timing_test0.js') has correct order of timing attributes." status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_timing.html?total_num=21&amp;amp;locator_key=id&amp;amp;value=20</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="performance_PerformanceEntry_same_js" priority="P3" purpose="Test checks that PerformanceEntry object is the same when calling via getEntriesByName('/resource_timing_test0.js')" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_timing.html?total_num=21&amp;amp;locator_key=id&amp;amp;value=21</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      
+
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="performanceEntry_match_one" priority="P2" purpose="Test checks that Only 1 PerformanceEntry should match" status="ready" type="compliance">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_attribute_order.html?total_num=13&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="getEntriesByName" element_type="method" interface="Performance" section="Performance and Optimization" specification="Resource Timing" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="redirectStart_value_zero" priority="P2" purpose="Test checks that redirectStart should be 0" status="ready" type="compliance">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_attribute_order.html?total_num=13&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="redirectStart" element_type="attribute" interface="PerformanceResourceTiming" section="Performance and Optimization" specification="Resource Timing" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="redirectEnd_value_zero" priority="P2" purpose="Test checks that redirectEnd should be 0" status="ready" type="compliance">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_attribute_order.html?total_num=13&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="redirectEnd" element_type="attribute" interface="PerformanceResourceTiming" section="Performance and Optimization" specification="Resource Timing" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="fetchStart_value_non-zero" priority="P2" purpose="Test checks that fetchStart should be non-zero" status="ready" type="compliance">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_attribute_order.html?total_num=13&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="fetchStart" element_type="attribute" interface="PerformanceResourceTiming" section="Performance and Optimization" specification="Resource Timing" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="domainLookupStart_greater_or_equal_fetchStart" priority="P2" purpose="Test checks that domainLookupStart should be greater than or equal to fetchStart" status="ready" type="compliance">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_attribute_order.html?total_num=13&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="domainLookupStart" element_type="attribute" interface="PerformanceResourceTiming" section="Performance and Optimization" specification="Resource Timing" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="domainLookupEnd_greater_or_equal_domainLookupStart" priority="P2" purpose="Test checks that domainLookupEnd should be greater than or equal to domainLookupStart" status="ready" type="compliance">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_attribute_order.html?total_num=13&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="domainLookupEnd" element_type="attribute" interface="PerformanceResourceTiming" section="Performance and Optimization" specification="Resource Timing" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="connectStart_greater_or_equal_domainLookupEnd" priority="P2" purpose="Test checks that connectStart should be greater than or equal to domainLookupEnd" status="ready" type="compliance">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_attribute_order.html?total_num=13&amp;amp;locator_key=id&amp;amp;value=9</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="connectStart" element_type="attribute" interface="PerformanceResourceTiming" section="Performance and Optimization" specification="Resource Timing" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="connectEnd_greater_or_equal_connectStart" priority="P2" purpose="Test checks that connectEnd should be greater than or equal to connectStart" status="ready" type="compliance">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_attribute_order.html?total_num=13&amp;amp;locator_key=id&amp;amp;value=10</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="connectEnd" element_type="attribute" interface="PerformanceResourceTiming" section="Performance and Optimization" specification="Resource Timing" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="requestStart_greater_or_equal_connectEnd" priority="P2" purpose="Test checks that requestStart should be greater than or equal to connectEnd" status="ready" type="compliance">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_attribute_order.html?total_num=13&amp;amp;locator_key=id&amp;amp;value=11</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="requestStart" element_type="attribute" interface="PerformanceResourceTiming" section="Performance and Optimization" specification="Resource Timing" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="responseStart_greater_or_equal_requestStart" priority="P2" purpose="Test checks that responseStart should be greater than or equal to requestStart" status="ready" type="compliance">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_attribute_order.html?total_num=13&amp;amp;locator_key=id&amp;amp;value=12</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="responseStart" element_type="attribute" interface="PerformanceResourceTiming" section="Performance and Optimization" specification="Resource Timing" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="responseEnd_greater_or_equal_responseStart" priority="P2" purpose="Test checks that responseEnd should be greater than or equal to responseStart" status="ready" type="compliance">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_attribute_order.html?total_num=13&amp;amp;locator_key=id&amp;amp;value=13</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="responseEnd" element_type="attribute" interface="PerformanceResourceTiming" section="Performance and Optimization" specification="Resource Timing" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="resource_cached_not_Modified" priority="P3" purpose="Test checks that a 304 Not Modified resource appears in the buffer" status="ready" type="compliance">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_cached.html?total_num=3&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="resource_connection_reuse" priority="P3" purpose="Test checks that connectStart and connectEnd are the same when a connection is reused" status="ready" type="compliance">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_connection_reuse.html?total_num=4&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="resource_dynamic_insertion_type_link" priority="P3" purpose="Test checks that the link initiator type is represented even when dynamically inserted" status="ready" type="compliance">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_dynamic_insertion.html?total_num=5&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="resource_dynamic_insertion_type_img" priority="P3" purpose="Test checks that the img initiator type is represented even when dynamically inserted" status="ready" type="compliance">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_dynamic_insertion.html?total_num=5&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="resource_dynamic_insertion_type_iframe" priority="P3" purpose="Test checks that the iframe initiator type is represented even when dynamically inserted" status="ready" type="compliance">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_dynamic_insertion.html?total_num=5&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="resource_iframe_self_navigation" priority="P3" purpose="Test checks that iframes that navigate themselves don't appear in the buffer" status="ready" type="compliance">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_iframe_self_navigation.html?total_num=3&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="resource_ignore_failures" priority="P3" purpose="Test checks that failed resources aren't present in the Resource Timing buffer" status="ready" type="compliance">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_ignore_failures.html?total_num=3&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="resource_initiator_types_001" priority="P3" purpose="Test checks that this initiator type('resources/Ahem.ttf') is represented" status="ready" type="compliance">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_initiator_types.html?total_num=18&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="resource_initiator_types_002" priority="P3" purpose="Test checks that this initiator type('resources/1x1-blue.png') is represented" status="ready" type="compliance">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_initiator_types.html?total_num=18&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="resource_initiator_types_003" priority="P3" purpose="Test checks that this initiator type('resources/blank_page_green.htm') is represented" status="ready" type="compliance">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_initiator_types.html?total_num=18&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="resource_initiator_types_004" priority="P3" purpose="Test checks that this initiator type('resources/empty_script.js') is represented" status="ready" type="compliance">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_initiator_types.html?total_num=18&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="resource_initiator_types_005" priority="P3" purpose="Test checks that this initiator type('resources/generate_resource.cgi?types=css id=embed') is represented" status="ready" type="compliance">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_initiator_types.html?total_num=18&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="resource_initiator_types_006" priority="P3" purpose="Test checks that this initiator type('resources/generate_resource.cgi?types=css id=n1') is represented" status="ready" type="compliance">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_initiator_types.html?total_num=18&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="resource_initiator_types_007" priority="P3" purpose="Test checks that this initiator type('resources/generate_resource.cgi?types=font id=n1') is represented" status="ready" type="compliance">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_initiator_types.html?total_num=18&amp;amp;locator_key=id&amp;amp;value=9</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="resource_initiator_types_008" priority="P3" purpose="Test checks that this initiator type('resources/generate_resource.cgi?types=image id=1') is represented" status="ready" type="compliance">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_initiator_types.html?total_num=18&amp;amp;locator_key=id&amp;amp;value=10</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="resource_initiator_types_009" priority="P3" purpose="Test checks that this initiator type('resources/generate_resource.cgi?types=image id=2') is represented" status="ready" type="compliance">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_initiator_types.html?total_num=18&amp;amp;locator_key=id&amp;amp;value=11</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="resource_initiator_types_010" priority="P3" purpose="Test checks that this initiator type('resources/generate_resource.cgi?types=image id=async_xhr') is represented" status="ready" type="compliance">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_initiator_types.html?total_num=18&amp;amp;locator_key=id&amp;amp;value=12</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="resource_initiator_types_011" priority="P3" purpose="Test checks that this initiator type('resources/generate_resource.cgi?types=image id=body') is represented" status="ready" type="compliance">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_initiator_types.html?total_num=18&amp;amp;locator_key=id&amp;amp;value=13</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="resource_initiator_types_012" priority="P3" purpose="Test checks that this initiator type('resources/generate_resource.cgi?types=image id=input') is represented" status="ready" type="compliance">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_initiator_types.html?total_num=18&amp;amp;locator_key=id&amp;amp;value=14</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="resource_initiator_types_013" priority="P3" purpose="Test checks that this initiator type('resources/generate_resource.cgi?types=image id=n1') is represented" status="ready" type="compliance">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_initiator_types.html?total_num=18&amp;amp;locator_key=id&amp;amp;value=15</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="resource_initiator_types_014" priority="P3" purpose="Test checks that this initiator type('resources/generate_resource.cgi?types=image id=object') is represented" status="ready" type="compliance">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_initiator_types.html?total_num=18&amp;amp;locator_key=id&amp;amp;value=16</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="resource_initiator_types_015" priority="P3" purpose="Test checks that this initiator type('resources/generate_resource.cgi?types=image id=poster') is represented" status="ready" type="compliance">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_initiator_types.html?total_num=18&amp;amp;locator_key=id&amp;amp;value=17</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="resource_initiator_types_016" priority="P3" purpose="Test checks that this initiator type('resources/nested.css') is represented" status="ready" type="compliance">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_initiator_types.html?total_num=18&amp;amp;locator_key=id&amp;amp;value=18</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="resource_redirects_initiatorType_link" priority="P3" purpose="Test checks that resource is expected to have initiatorType link" status="ready" type="compliance">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_redirects.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="resource_redirects_initiatorType_script" priority="P3" purpose="Test checks that resource is expected to have initiatorType script" status="ready" type="compliance">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_redirects.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="resource_redirects_img" priority="P3" purpose="Test checks that resource redirect img is expected to be in the Resource Timing buffer" status="ready" type="compliance">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_redirects.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="resource_redirects_script" priority="P3" purpose="Test checks that resource redirect script is expected to be in the Resource Timing buffer" status="ready" type="compliance">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_redirects.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="resource_reparenting" priority="P3" purpose="Test checks that reparenting an element doesn't change the initiator document" status="ready" type="compliance">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_reparenting.html?total_num=3&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="resource_script_types_001" priority="P3" purpose="Test checks that this type of script('resources/generate_resource.cgi?types=script id=1') loads is reported with the correct initiator" status="ready" type="compliance">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_script_types.html?total_num=11&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="resource_script_types_002" priority="P3" purpose="Test checks that this type of script('resources/generate_resource.cgi?types=script id=2') loads is reported with the correct initiator" status="ready" type="compliance">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_script_types.html?total_num=11&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="resource_script_types_003" priority="P3" purpose="Test checks that this type of script('resources/generate_resource.cgi?types=script id=3') loads is reported with the correct initiator" status="ready" type="compliance">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_script_types.html?total_num=11&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="resource_script_types_004" priority="P3" purpose="Test checks that this type of script('resources/generate_resource.cgi?types=script id=4') loads is reported with the correct initiator" status="ready" type="compliance">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_script_types.html?total_num=11&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="resource_script_types_005" priority="P3" purpose="Test checks that this type of script('resources/generate_resource.cgi?types=script id=5') loads is reported with the correct initiator" status="ready" type="compliance">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_script_types.html?total_num=11&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="resource_script_types_006" priority="P3" purpose="Test checks that this type of script('resources/generate_resource.cgi?types=script id=6') loads is reported with the correct initiator" status="ready" type="compliance">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_script_types.html?total_num=11&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="resource_script_types_007" priority="P3" purpose="Test checks that this type of script('resources/generate_resource.cgi?types=script id=7') loads is reported with the correct initiator" status="ready" type="compliance">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_script_types.html?total_num=11&amp;amp;locator_key=id&amp;amp;value=9</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="resource_script_types_008" priority="P3" purpose="Test checks that this type of script('resources/generate_resource.cgi?types=script id=8') loads is reported with the correct initiator" status="ready" type="compliance">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_script_types.html?total_num=11&amp;amp;locator_key=id&amp;amp;value=10</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="resource_script_types_009" priority="P3" purpose="Test checks that this type of script('resources/generate_resource.cgi?types=script id=9') loads is reported with the correct initiator" status="ready" type="compliance">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_script_types.html?total_num=11&amp;amp;locator_key=id&amp;amp;value=11</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" interface="Performance" section="Performance and Optimization" specification="Resource Timing" usage="true" />
+            <spec_url>http://www.w3.org/TR/resource-timing/#performanceresourcetiming</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+    </set>
+  </suite>
+</test_definition>

@@ -1,0 +1,1632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./testcase.xsl"?>
+<test_definition>
+  <suite widget="webapi-noneservice-tests" category="W3C/HTML5 APIs" name="webapi-webrtc-w3c-tests">
+    <set name="idlharness" type="js">
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="WebRTC_idlhaness_test" priority="P1" purpose="This test validates the WebIDL included in the WebRTC specification" status="designed" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/WebRTC_idlharness.html</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="TBD" element_type="TBD" interface="TBD" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+    </set>
+    <set name="webRTC_basic" type="js">
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_localDescription_basic" priority="P1" purpose="Check if readonly RTCPeerConnection.localDescription exists and type of object" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection_basic.html?total_num=30&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="localDescription" element_type="property" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_remoteDescription_basic" priority="P1" purpose="Check if readonly RTCPeerConnection.remoteDescription exists and type of object" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection_basic.html?total_num=30&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="remoteDescription" element_type="property" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_signalingState_basic" priority="P1" purpose="Check if readonly RTCPeerConnection.signalingState exists and type of string" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection_basic.html?total_num=30&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="signalingState" element_type="property" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_iceGatheringState_basic" priority="P1" purpose="Check if readonly RTCPeerConnection.iceGatheringState exists and type of string" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection_basic.html?total_num=30&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="iceGatheringState" element_type="property" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_iceConnectionState_basic" priority="P1" purpose="Check if readonly RTCPeerConnection.iceConnectionState exists and type of string" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection_basic.html?total_num=30&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="iceConnectionState" element_type="property" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_onnegotiationneeded_basic" priority="P1" purpose="Check if RTCPeerConnection.onnegotiationneeded exists" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection_basic.html?total_num=30&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="onnegotiationneeded" element_type="event" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_onicecandidate_basic" priority="P1" purpose="Check if RTCPeerConnection.onicecandidate exists" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection_basic.html?total_num=30&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="onicecandidate" element_type="event" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_onsignalingstatechange_basic" priority="P1" purpose="Check if RTCPeerConnection.onsignalingstatechange exists" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection_basic.html?total_num=30&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="onsignalingstatechange" element_type="event" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_onaddstream_basic" priority="P1" purpose="Check if RTCPeerConnection.onaddstream exists" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection_basic.html?total_num=30&amp;amp;locator_key=id&amp;amp;value=9</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="onaddstream" element_type="event" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_onremovestream_basic" priority="P1" purpose="Check if RTCPeerConnection.onremovestream exists" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection_basic.html?total_num=30&amp;amp;locator_key=id&amp;amp;value=10</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="onremovestream" element_type="event" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_oniceconnectionstatechange_basic" priority="P1" purpose="Check if RTCPeerConnection.oniceconnectionstatechange exists" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection_basic.html?total_num=30&amp;amp;locator_key=id&amp;amp;value=11</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="oniceconnectionstatechange" element_type="event" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_ondatachannel_basic" priority="P1" purpose="Check if RTCPeerConnection.ondatachannel exists" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection_basic.html?total_num=30&amp;amp;locator_key=id&amp;amp;value=12</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="ondatachannel" element_type="event" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_createOffer_basic" priority="P1" purpose="Check if RTCPeerConnection.createOffer exists and type of function" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection_basic.html?total_num=30&amp;amp;locator_key=id&amp;amp;value=13</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="createOffer" element_type="method" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_createAnswer_basic" priority="P1" purpose="Check if RTCPeerConnection.createAnswer exists and type of function" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection_basic.html?total_num=30&amp;amp;locator_key=id&amp;amp;value=14</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="createAnswer" element_type="method" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_setLocalDescription_basic" priority="P1" purpose="Check if RTCPeerConnection.setLocalDescription exists and type of function" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection_basic.html?total_num=30&amp;amp;locator_key=id&amp;amp;value=15</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="setLocalDescription" element_type="method" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_setRemoteDescription_basic" priority="P1" purpose="Check if RTCPeerConnection.setRemoteDescription exists and type of function" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection_basic.html?total_num=30&amp;amp;locator_key=id&amp;amp;value=16</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="setRemoteDescription" element_type="method" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_updateIce_basic" priority="P1" purpose="Check if RTCPeerConnection.updateIce exists and type of function" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection_basic.html?total_num=30&amp;amp;locator_key=id&amp;amp;value=17</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="updateIce" element_type="method" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_addIceCandidate_basic" priority="P1" purpose="Check if RTCPeerConnection.addIceCandidate exists and type of function" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection_basic.html?total_num=30&amp;amp;locator_key=id&amp;amp;value=18</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="addIceCandidate" element_type="method" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_getLocalStreams_basic" priority="P1" purpose="Check if RTCPeerConnection.getLocalStreams exists and type of function" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection_basic.html?total_num=30&amp;amp;locator_key=id&amp;amp;value=19</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="getLocalStreams" element_type="method" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_getRemoteStreams_basic" priority="P1" purpose="Check if RTCPeerConnection.getRemoteStreams exists and type of function" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection_basic.html?total_num=30&amp;amp;locator_key=id&amp;amp;value=20</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="getRemoteStreams" element_type="method" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_getStreamById_basic" priority="P1" purpose="Check if RTCPeerConnection.getStreamById exists and type of function" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection_basic.html?total_num=30&amp;amp;locator_key=id&amp;amp;value=21</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="getStreamById" element_type="method" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_addStream_basic" priority="P1" purpose="Check if RTCPeerConnection.addStream exists and type of function" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection_basic.html?total_num=30&amp;amp;locator_key=id&amp;amp;value=22</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="addStream" element_type="method" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_removeStream_basic" priority="P1" purpose="Check if RTCPeerConnection.removeStream exists and type of function" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection_basic.html?total_num=30&amp;amp;locator_key=id&amp;amp;value=23</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="removeStream" element_type="method" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_close_basic" priority="P1" purpose="Check if RTCPeerConnection.close exists and type of function" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection_basic.html?total_num=30&amp;amp;locator_key=id&amp;amp;value=24</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="close" element_type="method" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_createDataChannel_basic" priority="P1" purpose="Check if RTCPeerConnection.createDataChannel exists and type of function" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection_basic.html?total_num=30&amp;amp;locator_key=id&amp;amp;value=25</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="createDataChannel" element_type="method" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_getStats_basic" priority="P1" purpose="Check if RTCPeerConnection.getStats exists and type of function" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection_basic.html?total_num=30&amp;amp;locator_key=id&amp;amp;value=26</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="getStats" element_type="method" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_peerIdentity_basic" priority="P1" purpose="Check if the readonly attribute peerIdentity of RTCPeerConnection exists and type of RTCIdentityAssertion" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection_basic.html?total_num=30&amp;amp;locator_key=id&amp;amp;value=27</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="peerIdentity" element_type="property" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_onidentityresult_basic" priority="P1" purpose="Check if RTCPeerConnection.onidentityresult exists" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection_basic.html?total_num=30&amp;amp;locator_key=id&amp;amp;value=28</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="onidentityresult" element_type="event" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_setIdentityProvider_basic" priority="P1" purpose="Check if RTCPeerConnection.setIdentityProvider exists and type of function" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection_basic.html?total_num=30&amp;amp;locator_key=id&amp;amp;value=29</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="setIdentityProvider" element_type="method" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_getIdentityAssertion_basic" priority="P1" purpose="Check if RTCPeerConnection.getIdentityAssertion exists and type of function" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection_basic.html?total_num=30&amp;amp;locator_key=id&amp;amp;value=30</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="getIdentityAssertion" element_type="method" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCSdpError_sdpLineNumber_basic" priority="P1" purpose="Check if the readonly attribute sdpLineNumber of RTCSdpError exists and type of number" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCSdpError_sdpLineNumber_basic.html</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="sdpLineNumber" element_type="property" interface="RTCSdpError" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcsdperror</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCSessionDescription_type_basic" priority="P1" purpose="Check if RTCSessionDescription.type exists and type of string" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCSessionDescription_basic.html?total_num=2&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="type" element_type="property" interface="RTCSessionDescription" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcsessiondescription-class</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCSessionDescription_sdp_basic" priority="P1" purpose="Check if RTCSessionDescription.sdp exists and type of string" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCSessionDescription_basic.html?total_num=2&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="sdp" element_type="property" interface="RTCSessionDescription" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcsessiondescription-class</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCIceCandidate_candidate_basic" priority="P1" purpose="Check if RTCIceCandidate.candidate exists and type of string" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCIceCandidate_basic.html?total_num=3&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="candidate" element_type="property" interface="RTCIceCandidate" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcicecandidate-type</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCIceCandidate_sdpMid_basic" priority="P1" purpose="Check if RTCIceCandidate.sdpMid exists and type of string" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCIceCandidate_basic.html?total_num=3&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="sdpMid" element_type="property" interface="RTCIceCandidate" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcicecandidate-type</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCIceCandidate_sdpMLineIndex_basic" priority="P1" purpose="Check if RTCIceCandidate.sdpMLineIndex exists and type of number" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCIceCandidate_basic.html?total_num=3&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="sdpMLineIndex" element_type="property" interface="RTCIceCandidate" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcicecandidate-type</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnectionIceEvent_candidate_basic" priority="P1" purpose="Check if the readonly attribute candidate of RTCPeerConnectionIceEvent exists and type of string" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnectionIceEvent_candidate_basic.html</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="candidate" element_type="event" interface="RTCPeerConnectionIceEvent" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnectioniceevent</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCDataChannel_label_basic" priority="P1" purpose="Check if readonly RTCDataChannel.label exists and type of string" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCDataChannel_basic.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="label" element_type="property" interface="RTCDataChannel" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdatachannel</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCDataChannel_ordered_basic" priority="P1" purpose="Check if readonly RTCDataChannel.ordered exists and type of boolean" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCDataChannel_basic.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="ordered" element_type="property" interface="RTCDataChannel" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdatachannel</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCDataChannel_maxRetransmitTime_basic" priority="P1" purpose="Check if readonly RTCDataChannel.maxRetransmitTime exists and type of number" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCDataChannel_basic.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="maxRetransmitTime" element_type="property" interface="RTCDataChannel" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdatachannel</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCDataChannel_maxRetransmits_basic" priority="P1" purpose="Check if readonly RTCDataChannel.maxRetransmits exists and type of number" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCDataChannel_basic.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="maxRetransmits" element_type="property" interface="RTCDataChannel" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdatachannel</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCDataChannel_protocol_basic" priority="P1" purpose="Check if readonly RTCDataChannel.protocol exists and type of string" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCDataChannel_basic.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="protocol" element_type="property" interface="RTCDataChannel" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdatachannel</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCDataChannel_negotiated_basic" priority="P1" purpose="Check if readonly RTCDataChannel.negotiated exists and type of boolean" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCDataChannel_basic.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="negotiated" element_type="property" interface="RTCDataChannel" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdatachannel</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCDataChannel_id_basic" priority="P1" purpose="Check if readonly RTCDataChannel.id exists and type of number" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCDataChannel_basic.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="id" element_type="property" interface="RTCDataChannel" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdatachannel</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCDataChannel_readyState_basic" priority="P1" purpose="Check if readonly RTCDataChannel.readyState exists and type of string" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCDataChannel_basic.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="readyState" element_type="property" interface="RTCDataChannel" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdatachannel</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCDataChannel_bufferedAmount_basic" priority="P1" purpose="Check if readonly RTCDataChannel.bufferedAmount exists and type of number" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCDataChannel_basic.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=9</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="bufferedAmount" element_type="property" interface="RTCDataChannel" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdatachannel</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCDataChannel_binaryType_basic" priority="P1" purpose="Check if RTCDataChannel.binaryType exists and type of string" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCDataChannel_basic.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=10</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="binaryType" element_type="property" interface="RTCDataChannel" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdatachannel</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCDataChannel_onopen_basic" priority="P1" purpose="Check if RTCDataChannel.onopen exists" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCDataChannel_basic.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=11</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="onopen" element_type="event" interface="RTCDataChannel" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdatachannel</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCDataChannel_onerror_basic" priority="P1" purpose="Check if RTCDataChannel.onerror exists" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCDataChannel_basic.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=12</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="onerror" element_type="event" interface="RTCDataChannel" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdatachannel</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCDataChannel_onclose_basic" priority="P1" purpose="Check if RTCDataChannel.onclose exists" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCDataChannel_basic.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=13</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="onclose" element_type="event" interface="RTCDataChannel" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdatachannel</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCDataChannel_onmessage_basic" priority="P1" purpose="Check if RTCDataChannel.onmessage exists" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCDataChannel_basic.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=14</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="onmessage" element_type="event" interface="RTCDataChannel" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdatachannel</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCDataChannel_close_basic" priority="P1" purpose="Check if RTCDataChannel.close exists and type of function" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCDataChannel_basic.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=15</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="close" element_type="method" interface="RTCDataChannel" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdatachannel</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCDataChannel_send_basic" priority="P1" purpose="Check if RTCDataChannel.send exists and type of function" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCDataChannel_basic.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=16</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="send" element_type="method" interface="RTCDataChannel" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdatachannel</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCDataChannelEvent_channel_basic" priority="P1" purpose="Check if the readonly attribute channel of RTCDataChannelEvent exists and type of RTCDataChannel" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCDataChannelEvent_channel_basic.html</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="channel" element_type="event" interface="RTCDataChannelEvent" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdatachannelevent</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_createDTMFSender_basic" priority="P1" purpose="Check if RTCPeerConnection.createDTMFSender exists and type of function" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection_createDTMFSender_basic.html</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="createDTMFSender" element_type="method" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface-extensions</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCDTMFSender_canInsertDTMF_basic" priority="P1" purpose="Check if readonly RTCDTMFSender.canInsertDTMF exists and type of boolean" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCDTMFSender_basic.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="canInsertDTMF" element_type="property" interface="RTCDTMFSender" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdtmfsender</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCDTMFSender_track_basic" priority="P1" purpose="Check if readonly RTCDTMFSender.track exists and type of mediaStreamTrack" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCDTMFSender_basic.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="track" element_type="property" interface="RTCDTMFSender" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdtmfsender</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCDTMFSender_toneBuffer_basic" priority="P1" purpose="Check if readonly RTCDTMFSender.toneBuffer exists and type of string" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCDTMFSender_basic.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="toneBuffer" element_type="property" interface="RTCDTMFSender" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdtmfsender</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCDTMFSender_duration_basic" priority="P1" purpose="Check if readonly RTCDTMFSender.duration exists and type of number" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCDTMFSender_basic.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="duration" element_type="property" interface="RTCDTMFSender" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdtmfsender</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCDTMFSender_interToneGap_basic" priority="P1" purpose="Check if readonly RTCDTMFSender.interToneGap exists and type of number" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCDTMFSender_basic.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="interToneGap" element_type="property" interface="RTCDTMFSender" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdtmfsender</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCDTMFSender_ontonechange_basic" priority="P1" purpose="Check if RTCDTMFSender.ontonechange exists" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCDTMFSender_basic.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="ontonechange" element_type="event" interface="RTCDTMFSender" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdtmfsender</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCDTMFSender_insertDTMF_basic" priority="P1" purpose="Check if RTCDTMFSender.insertDTMF exists and type of function" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCDTMFSender_basic.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="insertDTMF" element_type="method" interface="RTCDTMFSender" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdtmfsender</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCDTMFToneChangeEvent_tone_basic" priority="P1" purpose="Check if the readonly attribute tone of RTCDTMFToneChangeEvent exists and type of string" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCDTMFToneChangeEvent_tone_basic.html</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="tone" element_type="property" interface="RTCDTMFToneChangeEvent" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdtmftonechangeevent</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCStatsReport_RTCStats_basic" priority="P1" purpose="Check if RTCStatsReport.RTCStats exists and type of function" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCStatsReport_RTCStats_basic.html</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="RTCStats" element_type="property" interface="RTCStatsReport" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcstatsreport-object</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCIdentityEvent_assertion_basic" priority="P1" purpose="Check if the attribute assertion of RTCIdentityEvent exists and type of string" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCIdentityEvent_assertion_basic.html</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="assertion" element_type="property" interface="RTCIdentityEvent" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcidentityevent-type</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="MediaStreamEvent_stream_basic" priority="P1" purpose="Check if the readonly attribute stream of MediaStreamEvent exists and type of MediaStream" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/MediaStreamEvent_stream_basic.html</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="stream" element_type="property" interface="MediaStreamEvent" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#mediastreamevent</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+    </set>
+    <set name="WebRTC" type="js">
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCDataChannel_binaryType_init_value" priority="P1" purpose="Check if the setting of RTCDataChannel.binaryType is normally" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCDataChannel.html?total_num=10&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="binaryType" element_type="property" interface="RTCDataChannel" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdatachannel</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCDataChannel_bufferedAmount_init_value" priority="P1" purpose="Check if the RTCDataChannel.bufferedAmount init value is 0" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCDataChannel.html?total_num=10&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="bufferedAmount" element_type="property" interface="RTCDataChannel" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdatachannel</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCDataChannel_id" priority="P1" purpose="Check if the setting of RTCDataChannel.id is normally" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCDataChannel.html?total_num=10&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="id" element_type="property" interface="RTCDataChannel" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdatachannel</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCDataChannel_label" priority="P1" purpose="Check if the setting of RTCDataChannel.label is normally" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCDataChannel.html?total_num=10&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="label" element_type="property" interface="RTCDataChannel" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdatachannel</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCDataChannel_maxRetransmits" priority="P1" purpose="Check if the setting of RTCDataChannel.maxRetransmits is normally" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCDataChannel.html?total_num=10&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="maxRetransmits" element_type="property" interface="RTCDataChannel" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdatachannel</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCDataChannel_maxRetransmitTime" priority="P1" purpose="Check if the setting of RTCDataChannel.maxRetransmitTime is normally" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCDataChannel.html?total_num=10&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="maxRetransmitTime" element_type="property" interface="RTCDataChannel" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdatachannel</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCDataChannel_negotiated" priority="P1" purpose="Check if the setting of RTCDataChannel.negotiated is normally" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCDataChannel.html?total_num=10&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="negotiated" element_type="property" interface="RTCDataChannel" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdatachannel</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCDataChannel_ordered" priority="P1" purpose="Check if the setting of RTCDataChannel.ordered is normally" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCDataChannel.html?total_num=10&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="ordered" element_type="property" interface="RTCDataChannel" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdatachannel</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCDataChannel_protocol" priority="P1" purpose="Check if the setting of RTCDataChannel.protocol is normally" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCDataChannel.html?total_num=10&amp;amp;locator_key=id&amp;amp;value=9</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="protocol" element_type="property" interface="RTCDataChannel" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdatachannel</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCDataChannel_readyState" priority="P1" purpose="Check if the setting of RTCDataChannel.readyState is normally" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCDataChannel.html?total_num=10&amp;amp;locator_key=id&amp;amp;value=10</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="readyState" element_type="property" interface="RTCDataChannel" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdatachannel</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_addIceCandidate_method" priority="P1" purpose="Check if the method of addIceCandidate is valid" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection.html?total_num=11&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="addIceCandidate" element_type="method" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_createDTMFSender" priority="P1" purpose="Check if the setting of RTCPeerConnection.createDTMFSender is normally" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection.html?total_num=11&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="createDTMFSender" element_type="property" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#idl-def-RTCDataChannelEvent</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_close_method" priority="P1" purpose="Check if the method of close is valid" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection.html?total_num=11&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="close" element_type="method" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#idl-def-RTCDataChannelEvent</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_createDataChannel_method" priority="P1" purpose="Check if the method of RTCPeerConnection.createDataChannel is valid" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection.html?total_num=11&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="createDataChannel" element_type="method" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_getLocalStreams_method" priority="P1" purpose="Check if the method of setLocalDescription is valid" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection.html?total_num=11&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="getLocalStreams" element_type="method" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_iceConnectionState_init_value" priority="P1" purpose="Check if the init value of RTCPeerConnection.iceConnectionState is new" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection.html?total_num=11&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="iceConnectionState" element_type="property" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_iceGatheringState_init_value" priority="P1" purpose="Check if the init value of RTCPeerConnection.iceGatheringState is new" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection.html?total_num=11&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="iceGatheringState" element_type="property" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_localDescription_init_value" priority="P1" purpose="Check if the init value of RTCPeerConnection.localDescription is null" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection.html?total_num=11&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="localDescription" element_type="property" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_remoteDescription_init_value" priority="P1" purpose="Check if the init value of RTCPeerConnection.remoteDescription is null" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection.html?total_num=11&amp;amp;locator_key=id&amp;amp;value=9</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="remoteDescription" element_type="property" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_signalingState_init_value" priority="P1" purpose="Check if the init value of RTCPeerConnection.signalingState is stable" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection.html?total_num=11&amp;amp;locator_key=id&amp;amp;value=10</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="signalingState" element_type="property" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_signalingState_closed_value" priority="P1" purpose="Check if when the close() method is invoked, the signalingState value is closed" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection.html?total_num=11&amp;amp;locator_key=id&amp;amp;value=11</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="signalingState" element_type="property" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_updateIce_method" priority="P1" purpose="Check if the method of updateIce is valid" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection_updateIce_method.html</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="updateIce" element_type="method" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCSessionDescription_sdp" priority="P1" purpose="Check if the the setting of RTCSessionDescription.sdp is normally" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCSessionDescription.html?total_num=2&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="sdp" element_type="property" interface="RTCSessionDescription" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCSessionDescription_type" priority="P1" purpose="Check if the the setting of RTCSessionDescription.type is normally" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCSessionDescription.html?total_num=2&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="type" element_type="property" interface="RTCSessionDescription" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_datachannel_event" priority="P1" purpose="Check if the event of datachannel is valid" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection_datachannel_event.html</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="datachannel" element_type="event" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#idl-def-RTCDataChannelEvent</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_iceconnectionstatechange_event" priority="P1" purpose="Check if the event of iceconnectionstatechange is valid" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection_iceconnectionstatechange_event.html</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="iceconnectionstatechange" element_type="event" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#idl-def-RTCDataChannelEvent</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_signalingstatechange_event" priority="P1" purpose="Check if the event of signalingstatechange is valid" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection_signalingstatechange_event.html</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="signalingstatechange" element_type="event" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#idl-def-RTCDataChannelEvent</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnectionIceEvent_candidate" priority="P1" purpose="Check if the setting of RTCPeerConnectionIceEvent.candidate is normally" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnectionIceEvent_candidate.html</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="candidate" element_type="property" interface="RTCPeerConnectionIceEvent" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#idl-def-RTCDataChannelEvent</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCDTMFSender_canInsertDTMF" priority="P1" purpose="Check if the setting of RTCDTMFSender.canInsertDTMF is normally" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCDTMFSender_canInsertDTMF.html</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="canInsertDTMF" element_type="property" interface="RTCDTMFSender" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#idl-def-RTCDataChannelEvent</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_getLocalStreams" priority="P1" purpose="Check if the RTCPeerConnection.getLocalStreams() return a sequence of MediaStream objects" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection_getLocalStreams.html</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="getLocalStreams" element_type="method" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#widl-RTCPeerConnection-getLocalStreams-sequence-MediaStream</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_getRemoteStreams" priority="P1" purpose="Check if the RTCPeerConnection.getRemoteStreams() return a sequence of MediaStream objects" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection_getRemoteStreams.html</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="getRemoteStreams" element_type="method" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#widl-RTCPeerConnection-getRemoteStreams-sequence-MediaStream</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_EventHandler_1" priority="P1" purpose="Check if the RTCPeerConnection.onnegotiationneeded is valid" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection_EventHandler.html</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="onnegotiationneeded" element_type="attribute" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#interface-definition?total_num=6&amp;amp;locator_key=id&amp;amp;value=1</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_EventHandler_2" priority="P1" purpose="Check if the RTCPeerConnection.onicecandidate is valid" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection_EventHandler.html</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="onicecandidate" element_type="attribute" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#interface-definition?total_num=6&amp;amp;locator_key=id&amp;amp;value=2</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_EventHandler_3" priority="P1" purpose="Check if the RTCPeerConnection.onsignalingstatechange is valid" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection_EventHandler.html</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="onsignalingstatechange" element_type="attribute" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#interface-definition?total_num=6&amp;amp;locator_key=id&amp;amp;value=3</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_EventHandler_4" priority="P1" purpose="Check if the RTCPeerConnection.onaddstream is valid" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection_EventHandler.html</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="onaddstream" element_type="attribute" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#interface-definition?total_num=6&amp;amp;locator_key=id&amp;amp;value=4</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_EventHandler_5" priority="P1" purpose="Check if the RTCPeerConnection.onremovestream is valid" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection_EventHandler.html</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="onremovestream" element_type="attribute" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#interface-definition?total_num=6&amp;amp;locator_key=id&amp;amp;value=5</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_EventHandler_6" priority="P1" purpose="Check if the RTCPeerConnection.oniceconnectionstatechange is valid" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection_EventHandler.html</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="oniceconnectionstatechange" element_type="attribute" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#interface-definition?total_num=6&amp;amp;locator_key=id&amp;amp;value=6</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_setIdentityProvider" priority="P1" purpose="Check if the RTCPeerConnection.setIdentityProvider is valid" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection_setIdentityProvider.html</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="setIdentityProvider" element_type="method" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#widl-RTCPeerConnection-setIdentityProvider-void-DOMString-provider-DOMString-protocol-DOMString-username</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_getIdentityAssertion" priority="P1" purpose="Check if the RTCPeerConnection.getIdentityAssertion is valid" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection_getIdentityAssertion.html</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="getIdentityAssertion" element_type="method" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#widl-RTCPeerConnection-getIdentityAssertion-void</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection_close" priority="P1" purpose="Check if the RTCPeerConnection.close is valid" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/RTCPeerConnection_close.html</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="close" element_type="method" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#widl-RTCPeerConnection-close-void</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCIceCandidate_1" priority="P1" purpose="Check if if the new RTCIceCandidate " status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/blink/RTCIceCandidate.html?total_num=13&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="constructor" element_type="constructor" interface="RTCIceCandidate" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcicecandidate-type</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCIceCandidate_2" priority="P1" purpose="Check if candidate" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/blink/RTCIceCandidate.html?total_num=13&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="candidate" element_type="attribute" interface="RTCIceCandidate" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcicecandidate-type</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCIceCandidate_3" priority="P1" purpose="Check if sdpMid" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/blink/RTCIceCandidate.html?total_num=13&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="candidate" element_type="attribute" interface="RTCIceCandidate" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcicecandidate-type</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCIceCandidate_4" priority="P1" purpose="Check if sdpMLineIndex" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/blink/RTCIceCandidate.html?total_num=13&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="candidate" element_type="attribute" interface="RTCIceCandidate" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcicecandidate-type</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCIceCandidate_6" priority="P1" purpose="Check if new RTCIceCandidate(initializer)" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/blink/RTCIceCandidate.html?total_num=13&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="constructor" element_type="constructor" interface="RTCIceCandidate" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcicecandidate-type</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCIceCandidate_7" priority="P1" purpose="Check if initializer candidate" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/blink/RTCIceCandidate.html?total_num=13&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="candidate" element_type="method" interface="RTCIceCandidate" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcicecandidate-type</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCIceCandidate_8" priority="P1" purpose="Check if initializer sdpMid" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/blink/RTCIceCandidate.html?total_num=13&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="candidate" element_type="method" interface="RTCIceCandidate" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcicecandidate-type</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCIceCandidate_9" priority="P1" purpose="Check if initializer sdpMLineIndex" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/blink/RTCIceCandidate.html?total_num=13&amp;amp;locator_key=id&amp;amp;value=9</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="candidate" element_type="method" interface="RTCIceCandidate" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcicecandidate-type</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCIceCandidate_10" priority="P1" purpose="Check if RTCIceCandidate({})" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/blink/RTCIceCandidate.html?total_num=13&amp;amp;locator_key=id&amp;amp;value=10</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="constructor" element_type="constructor" interface="RTCIceCandidate" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcicecandidate-type</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCIceCandidate_11" priority="P1" purpose="Check if RTCIceCandidate({})" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/blink/RTCIceCandidate.html?total_num=13&amp;amp;locator_key=id&amp;amp;value=11</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="constructor" element_type="constructor" interface="RTCIceCandidate" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcicecandidate-type</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCIceCandidate_12" priority="P1" purpose="Check if RTCIceCandidate('foobar')" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/blink/RTCIceCandidate.html?total_num=13&amp;amp;locator_key=id&amp;amp;value=12</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="constructor" element_type="constructor" interface="RTCIceCandidate" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcicecandidate-type</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection-AddRemoveStream" priority="P2" purpose="Check if RTCPeerConnection [add|remove]Stream" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/blink/RTCPeerConnection-AddRemoveStream.html</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="[add|remove]Stream" element_type="method" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection-createAnswer" priority="P2" purpose="Check if RTCPeerConnection createAnswer" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/blink/RTCPeerConnection-createAnswer.html</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="createAnswer" element_type="method" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#widl-RTCPeerConnection-createAnswer-void-RTCSessionDescriptionCallback-successCallback-RTCPeerConnectionErrorCallback-failureCallback-MediaConstraints-constraints</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection-createOffer" priority="P2" purpose="Check if RTCPeerConnection createOffer" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/blink/RTCPeerConnection-createOffer.html</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="createOffer" element_type="method" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#widl-RTCPeerConnection-createOffer-void-RTCSessionDescriptionCallback-successCallback-RTCPeerConnectionErrorCallback-failureCallback-MediaConstraints-constraints</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection-datachannel-1" priority="P1" purpose="Check that connecting is the initial state of a RTCDataChannel object created with createDataChannel()" status="approved" type="compliance" onload_delay="10">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/blink/RTCPeerConnection-datachannel.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="createDataChannel" element_type="method" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdatachannel</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection-datachannel-2" priority="P1" purpose="Check that RTCPeerConnection.createDataChannel('label1') creates an ordered datachannel" status="approved" type="compliance" onload_delay="10">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/blink/RTCPeerConnection-datachannel.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="createDataChannel" element_type="method" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdatachannel</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection-datachannel-3" priority="P1" purpose="Check that RTCPeerConnection.createDataChannel('label2', {}) creates an ordered datachannel" status="approved" type="compliance" onload_delay="10">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/blink/RTCPeerConnection-datachannel.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="createDataChannel" element_type="method" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdatachannel</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection-datachannel-4" priority="P1" purpose="Check that RTCPeerConnection.createDataChannel('label3', {ordered:true}) creates an ordered datachannel" status="approved" type="compliance" onload_delay="10">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/blink/RTCPeerConnection-datachannel.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="createDataChannel" element_type="method" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdatachannel</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection-datachannel-5" priority="P1" purpose="Check that RTCPeerConnection.createDataChannel('label3', {ordered:false}) creates a non-ordered datachannel" status="approved" type="compliance" onload_delay="10">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/blink/RTCPeerConnection-datachannel.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="createDataChannel" element_type="method" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdatachannel</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection-datachannel-6" priority="P1" purpose="Check that RTCPeerConnection.createDataChannel('label3', {maxRetransmits:0}) creates a non-ordered datachannel" status="approved" type="compliance" onload_delay="10">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/blink/RTCPeerConnection-datachannel.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="createDataChannel" element_type="method" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdatachannel</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection-datachannel-7" priority="P1" purpose="Check that RTCPeerConnection.createDataChannel('label3', {maxRetransmitTime:0}) creates a non-ordered datachannel" status="approved" type="compliance" onload_delay="10">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/blink/RTCPeerConnection-datachannel.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="createDataChannel" element_type="method" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdatachannel</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection-dtmf" priority="P2" purpose="Check if the method RTCDTMFSender of RTCPeerConnection" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/blink/RTCPeerConnection-dtmf.html</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="RTCDTMFSender" element_type="method" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdtmfsender</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection-ice" priority="P2" purpose="Check if the method addIceCandidate of RTCPeerConnection" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/blink/RTCPeerConnection-ice.html</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="addIceCandidate" element_type="method" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection-localDescription" priority="P2" purpose="Check if the method localDescription of RTCPeerConnection" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/blink/RTCPeerConnection-localDescription.html</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="localDescription" element_type="method" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#widl-RTCPeerConnection-setLocalDescription-void-RTCSessionDescription-description-VoidFunction-successCallback-RTCPeerConnectionErrorCallback-failureCallback</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection-remoteDescription" priority="P2" purpose="Check if the method remoteDescription of RTCPeerConnection" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/blink/RTCPeerConnection-remoteDescription.html</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="remoteDescription" element_type="method" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#widl-RTCPeerConnection-setRemoteDescription-void-RTCSessionDescription-description-VoidFunction-successCallback-RTCPeerConnectionErrorCallback-failureCallback</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection-onnegotiationneeded" priority="P1" purpose="Check if the attribute onnegotiationneeded of RTCPeerConnection" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/blink/RTCPeerConnection-onnegotiationneeded.html</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="onnegotiationneeded" element_type="attribute" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#widl-RTCPeerConnection-onnegotiationneeded</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection-state" priority="P1" purpose="Check if the attribute signalingState of RTCPeerConnection" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/blink/RTCPeerConnection-state.html</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="signalingState" element_type="attribute" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#widl-RTCPeerConnection-signalingState</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+      <testcase component="W3C_HTML5 APIs/Communication/WebRTC" execution_type="auto" id="RTCPeerConnection-stats_1" priority="P1" purpose="Check if the constructor of RTCPeerConnection" status="approved" type="compliance">
+        <description>
+          <test_script_entry>/opt/webapi-webrtc-w3c-tests/webrtc/blink/RTCPeerConnection-stats.html?total_num=2&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+        </description>
+        <specs>
+          <spec>
+            <spec_assertion category="W3C API Specifications" element_name="constructor" element_type="constructor" interface="RTCPeerConnection" section="Networking" specification="WebRTC" />
+            <spec_url>http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface-extensions-2</spec_url>
+            <spec_statement />
+          </spec>
+        </specs>
+      </testcase>
+    </set>
+  </suite>
+</test_definition>
