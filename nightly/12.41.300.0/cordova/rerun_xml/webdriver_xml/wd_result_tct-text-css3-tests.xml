@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <?xml-stylesheet type="text/xsl" href="testresult.xsl"?>
+<test_definition><environment build_id="" device_id="E5OKCYC13257" device_model="" device_name="N/A" host="Linux-3.2.0-23-generic-x86_64-with-Ubuntu-12.04-precise" lite_version="3.1.12" manufacturer="" resolution="N/A" screen_size="N/A"><other /></environment>
+<summary test_plan_name="Empty test_plan_name"><start_at>2015-02-12_12_45_17</start_at><end_at>2015-02-12_12_55_35</end_at></summary>
+  <suite category="W3C/HTML5 APIs" name="tct-text-css3-tests" widget="webapi-noneservice-tests">
+    <set name="Text-ref" set_debug_msg="N/A" type="ref">
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Text Module Level 3 (Partial)" execution_type="auto" id="css3_TextEffects_tests_entry5" purpose="Check that the CSS white-space:nowrap and clear float are identical" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/tct-text-css3-tests/text/webkit/nowrap-clear-float.html</test_script_entry>
+          <refer_test_script_entry timeout="90">/opt/tct-text-css3-tests/text/reference/nowrap-clear-float-ref.html</refer_test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-02-12 12:45:29</start><end>2015-02-12 12:55:29</end><stdout /><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Text Module Level 3 (Partial)" execution_type="auto" id="css3_TextEffects_tests_entry6" purpose="To check the CSS white-space:pre-wrap is rendered properly" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-text-css3-tests/text/webkit/pre-wrap-line-test.html</test_script_entry>
+          <refer_test_script_entry timeout="90">/opt/tct-text-css3-tests/text/reference/pre-wrap-line-test-ref.html</refer_test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-12 12:55:29</start><end /><stdout /><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Text Module Level 3 (Partial)" execution_type="auto" id="CSS3TextEffects_text-align_start" purpose="Check if the 'text-align' property set to 'start' on a block element aligns the text to the start edge" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-text-css3-tests/text/csswg/text-align-006.html</test_script_entry>
+          <refer_test_script_entry timeout="90">/opt/tct-text-css3-tests/text/csswg/text-align-006-ref.html</refer_test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-12 12:55:31</start><end /><stdout /><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Text Module Level 3 (Partial)" execution_type="auto" id="CSS3TextEffects_text-align_end" purpose="Check if the 'text-align' property set to 'end' on a block element aligns the text to the end edge" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-text-css3-tests/text/csswg/text-align-007.html</test_script_entry>
+          <refer_test_script_entry timeout="90">/opt/tct-text-css3-tests/text/csswg/text-align-007-ref.html</refer_test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-12 12:55:31</start><end /><stdout /><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Text Module Level 3 (Partial)" execution_type="auto" id="CSS3TextEffects_text-align_matchparent" purpose="Check if the 'text-align' property set to 'match-parent' on a block element behaves the same as 'inherit'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-text-css3-tests/text/csswg/text-align-008.html</test_script_entry>
+          <refer_test_script_entry timeout="90">/opt/tct-text-css3-tests/text/csswg/text-align-007-ref.html</refer_test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-12 12:55:32</start><end /><stdout /><stderr /></result_info></testcase>
+    </set>
+  </suite>
+</test_definition>

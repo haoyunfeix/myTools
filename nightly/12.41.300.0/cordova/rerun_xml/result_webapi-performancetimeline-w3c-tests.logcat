@@ -1,0 +1,389 @@
+--------- beginning of /dev/log/main
+02-12 11:05:36.870 D/AndroidRuntime(27182): 
+02-12 11:05:36.870 D/AndroidRuntime(27182): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-12 11:05:36.870 D/AndroidRuntime(27182): CheckJNI is OFF
+02-12 11:05:36.870 I/AndroidRuntime(27182): Kernel Release Version: 3.10.20-gf818079
+02-12 11:05:36.870 I/dalvikvm(27182): No library specified. The standard exception handler will be used
+02-12 11:05:36.870 I/dalvikvm(27182): 
+02-12 11:05:36.870 I/dalvikvm(27182): +++++++++++++ Using PCG. +++++++++++++++++++++
+02-12 11:05:36.880 D/dalvikvm(27182): Trying to load lib libjavacore.so 0x0
+02-12 11:05:36.880 D/dalvikvm(27182): Added shared lib libjavacore.so 0x0
+02-12 11:05:36.880 D/dalvikvm(27182): Trying to load lib libnativehelper.so 0x0
+02-12 11:05:36.880 D/dalvikvm(27182): Added shared lib libnativehelper.so 0x0
+02-12 11:05:36.880 D/dalvikvm(27182): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-12 11:05:36.890 D/dalvikvm(27182): Extra Options: not specified
+02-12 11:05:36.900 D/dalvikvm(27182): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+02-12 11:05:36.970 E/memtrack(27182): Couldn't load memtrack module (No such file or directory)
+02-12 11:05:36.970 E/android.os.Debug(27182): failed to load memtrack module: -2
+02-12 11:05:37.020 D/AndroidRuntime(27182): Calling main entry com.android.commands.am.Am
+02-12 11:05:37.040 D/AndroidRuntime(27182): Shutting down VM
+02-12 11:05:37.040 D/dalvikvm(27182): GC_CONCURRENT freed 112K, 16% free 666K/792K, paused 0ms+0ms, total 1ms
+--------- beginning of /dev/log/system
+02-12 11:05:37.040 I/ActivityManager(  504): Force stopping org.xwalk.webapi_noneservice_tests appid=10259 user=0: from pid 27182
+02-12 11:05:37.050 D/dalvikvm(27182): Compiler shutdown in progress - discarding request
+02-12 11:05:37.050 D/dalvikvm(27182): Compiler shutdown in progress - discarding request
+02-12 11:05:37.050 D/dalvikvm(27182): Compiler shutdown in progress - discarding request
+02-12 11:05:37.050 D/dalvikvm(27182): Compiler shutdown in progress - discarding request
+02-12 11:05:37.050 D/dalvikvm(27182): Compiler shutdown in progress - discarding request
+02-12 11:05:37.050 D/dalvikvm(27182): Compiler shutdown in progress - discarding request
+02-12 11:05:37.050 D/dalvikvm(27182): Compiler shutdown in progress - discarding request
+02-12 11:05:37.050 D/dalvikvm(27182): Compiler shutdown in progress - discarding request
+02-12 11:05:37.050 D/dalvikvm(27182): Compiler shutdown in progress - discarding request
+02-12 11:05:37.050 D/dalvikvm(27182): Compiler shutdown in progress - discarding request
+02-12 11:05:37.050 D/dalvikvm(27182): Compiler shutdown in progress - discarding request
+02-12 11:05:37.050 D/dalvikvm(27182): Compiler shutdown in progress - discarding request
+02-12 11:05:37.050 D/dalvikvm(27182): Compiler shutdown in progress - discarding request
+02-12 11:05:37.050 D/dalvikvm(27182): Compiler shutdown in progress - discarding request
+02-12 11:05:37.050 D/dalvikvm(27182): Compiler shutdown in progress - discarding request
+02-12 11:05:37.050 D/dalvikvm(27182): Compiler shutdown in progress - discarding request
+02-12 11:05:37.050 D/dalvikvm(27182): Compiler shutdown in progress - discarding request
+02-12 11:05:37.050 D/dalvikvm(27182): Compiler shutdown in progress - discarding request
+02-12 11:05:37.050 D/dalvikvm(27182): Compiler shutdown in progress - discarding request
+02-12 11:05:37.050 D/dalvikvm(27182): Compiler shutdown in progress - discarding request
+02-12 11:05:37.050 D/dalvikvm(27182): Compiler shutdown in progress - discarding request
+02-12 11:05:37.050 D/dalvikvm(27182): Compiler shutdown in progress - discarding request
+02-12 11:05:37.050 D/dalvikvm(27182): Compiler shutdown in progress - discarding request
+02-12 11:05:37.050 D/dalvikvm(27182): Compiler shutdown in progress - discarding request
+02-12 11:05:37.050 D/dalvikvm(27182): Compiler shutdown in progress - discarding request
+02-12 11:05:37.050 D/dalvikvm(27182): Compiler shutdown in progress - discarding request
+02-12 11:05:37.050 D/dalvikvm(27182): Compiler shutdown in progress - discarding request
+02-12 11:05:37.050 D/dalvikvm(27182): Compiler shutdown in progress - discarding request
+02-12 11:05:37.050 D/dalvikvm(27182): Compiler shutdown in progress - discarding request
+02-12 11:05:37.050 D/dalvikvm(27182): Compiler shutdown in progress - discarding request
+02-12 11:05:37.050 D/dalvikvm(27182): Compiler shutdown in progress - discarding request
+02-12 11:05:37.050 D/dalvikvm(27182): Compiler shutdown in progress - discarding request
+02-12 11:05:37.050 D/dalvikvm(27182): Compiler shutdown in progress - discarding request
+02-12 11:05:37.050 D/dalvikvm(27182): Compiler shutdown in progress - discarding request
+02-12 11:05:37.050 D/dalvikvm(27182): Compiler shutdown in progress - discarding request
+02-12 11:05:37.050 D/dalvikvm(27182): Compiler shutdown in progress - discarding request
+02-12 11:05:37.050 D/dalvikvm(27182): Compiler shutdown in progress - discarding request
+02-12 11:05:37.050 D/dalvikvm(27182): Compiler shutdown in progress - discarding request
+02-12 11:05:37.050 D/dalvikvm(27182): Compiler shutdown in progress - discarding request
+02-12 11:05:37.050 D/dalvikvm(27182): Compiler shutdown in progress - discarding request
+02-12 11:05:37.050 D/dalvikvm(27182): Compiler shutdown in progress - discarding request
+02-12 11:05:37.050 D/dalvikvm(27182): Compiler shutdown in progress - discarding request
+02-12 11:05:37.050 D/dalvikvm(27182): Compiler shutdown in progress - discarding request
+02-12 11:05:37.050 D/dalvikvm(27182): Compiler shutdown in progress - discarding request
+02-12 11:05:37.050 D/dalvikvm(27182): Compiler shutdown in progress - discarding request
+02-12 11:05:37.050 D/dalvikvm(27182): Compiler shutdown in progress - discarding request
+02-12 11:05:37.050 D/dalvikvm(27182): Compiler shutdown in progress - discarding request
+02-12 11:05:37.050 D/dalvikvm(27182): Compiler shutdown in progress - discarding request
+02-12 11:05:37.700 D/AndroidRuntime(27193): 
+02-12 11:05:37.700 D/AndroidRuntime(27193): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-12 11:05:37.700 D/AndroidRuntime(27193): CheckJNI is OFF
+02-12 11:05:37.700 I/AndroidRuntime(27193): Kernel Release Version: 3.10.20-gf818079
+02-12 11:05:37.700 I/dalvikvm(27193): No library specified. The standard exception handler will be used
+02-12 11:05:37.700 I/dalvikvm(27193): 
+02-12 11:05:37.700 I/dalvikvm(27193): +++++++++++++ Using PCG. +++++++++++++++++++++
+02-12 11:05:37.720 D/dalvikvm(27193): Trying to load lib libjavacore.so 0x0
+02-12 11:05:37.720 D/dalvikvm(27193): Added shared lib libjavacore.so 0x0
+02-12 11:05:37.720 D/dalvikvm(27193): Trying to load lib libnativehelper.so 0x0
+02-12 11:05:37.720 D/dalvikvm(27193): Added shared lib libnativehelper.so 0x0
+02-12 11:05:37.720 D/dalvikvm(27193): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-12 11:05:37.730 D/dalvikvm(27193): Extra Options: not specified
+02-12 11:05:37.750 D/dalvikvm(27193): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+02-12 11:05:37.840 E/memtrack(27193): Couldn't load memtrack module (No such file or directory)
+02-12 11:05:37.840 E/android.os.Debug(27193): failed to load memtrack module: -2
+02-12 11:05:37.870 D/AndroidRuntime(27193): Calling main entry com.android.commands.am.Am
+02-12 11:05:37.900 D/AndroidRuntime(27193): Shutting down VM
+02-12 11:05:37.900 D/dalvikvm(27193): GC_CONCURRENT freed 117K, 15% free 702K/824K, paused 0ms+0ms, total 1ms
+02-12 11:05:37.900 I/ActivityManager(  504): START u0 {flg=0x10000000 cmp=org.xwalk.webapi_noneservice_tests/.webapi_noneservice_testsActivity} from pid 27193
+02-12 11:05:37.910 D/dalvikvm(27193): Compiler shutdown in progress - discarding request
+02-12 11:05:37.910 D/dalvikvm(27193): Compiler shutdown in progress - discarding request
+02-12 11:05:37.910 D/dalvikvm(27193): Compiler shutdown in progress - discarding request
+02-12 11:05:37.910 D/dalvikvm(27193): Compiler shutdown in progress - discarding request
+02-12 11:05:37.910 D/dalvikvm(27193): Compiler shutdown in progress - discarding request
+02-12 11:05:37.910 D/dalvikvm(27193): Compiler shutdown in progress - discarding request
+02-12 11:05:37.910 D/dalvikvm(27193): Compiler shutdown in progress - discarding request
+02-12 11:05:37.910 D/dalvikvm(27193): Compiler shutdown in progress - discarding request
+02-12 11:05:37.910 D/dalvikvm(27193): Compiler shutdown in progress - discarding request
+02-12 11:05:37.910 D/dalvikvm(27193): Compiler shutdown in progress - discarding request
+02-12 11:05:37.910 D/dalvikvm(27193): Compiler shutdown in progress - discarding request
+02-12 11:05:37.910 D/dalvikvm(27193): Compiler shutdown in progress - discarding request
+02-12 11:05:37.910 D/dalvikvm(27193): Compiler shutdown in progress - discarding request
+02-12 11:05:37.910 D/dalvikvm(27193): Compiler shutdown in progress - discarding request
+02-12 11:05:37.910 D/dalvikvm(27193): Compiler shutdown in progress - discarding request
+02-12 11:05:37.910 D/dalvikvm(27193): Compiler shutdown in progress - discarding request
+02-12 11:05:37.910 D/dalvikvm(27193): Compiler shutdown in progress - discarding request
+02-12 11:05:37.910 D/dalvikvm(27193): Compiler shutdown in progress - discarding request
+02-12 11:05:37.910 D/dalvikvm(27193): Compiler shutdown in progress - discarding request
+02-12 11:05:37.910 D/dalvikvm(27193): Compiler shutdown in progress - discarding request
+02-12 11:05:37.910 D/dalvikvm(27193): Compiler shutdown in progress - discarding request
+02-12 11:05:37.910 D/dalvikvm(27193): Compiler shutdown in progress - discarding request
+02-12 11:05:37.910 D/dalvikvm(27193): Compiler shutdown in progress - discarding request
+02-12 11:05:37.910 D/dalvikvm(27193): Compiler shutdown in progress - discarding request
+02-12 11:05:37.910 D/dalvikvm(27193): Compiler shutdown in progress - discarding request
+02-12 11:05:37.910 D/dalvikvm(27193): Compiler shutdown in progress - discarding request
+02-12 11:05:37.910 D/dalvikvm(27193): Compiler shutdown in progress - discarding request
+02-12 11:05:37.910 D/dalvikvm(27193): Compiler shutdown in progress - discarding request
+02-12 11:05:37.910 D/dalvikvm(27193): Compiler shutdown in progress - discarding request
+02-12 11:05:37.910 D/dalvikvm(27193): Compiler shutdown in progress - discarding request
+02-12 11:05:37.910 D/dalvikvm(27193): Compiler shutdown in progress - discarding request
+02-12 11:05:37.910 D/dalvikvm(27193): Compiler shutdown in progress - discarding request
+02-12 11:05:37.910 D/dalvikvm(27193): Compiler shutdown in progress - discarding request
+02-12 11:05:37.910 D/dalvikvm(27193): Compiler shutdown in progress - discarding request
+02-12 11:05:37.910 D/dalvikvm(27193): Compiler shutdown in progress - discarding request
+02-12 11:05:37.910 D/dalvikvm(27193): Compiler shutdown in progress - discarding request
+02-12 11:05:37.910 D/dalvikvm(27193): Compiler shutdown in progress - discarding request
+02-12 11:05:37.910 D/dalvikvm(27193): Compiler shutdown in progress - discarding request
+02-12 11:05:37.910 D/dalvikvm(27193): Compiler shutdown in progress - discarding request
+02-12 11:05:37.910 D/dalvikvm(27193): Compiler shutdown in progress - discarding request
+02-12 11:05:37.910 D/dalvikvm(27193): Compiler shutdown in progress - discarding request
+02-12 11:05:37.910 D/dalvikvm(27193): Compiler shutdown in progress - discarding request
+02-12 11:05:37.910 D/dalvikvm(27193): Compiler shutdown in progress - discarding request
+02-12 11:05:37.910 D/dalvikvm(27193): Compiler shutdown in progress - discarding request
+02-12 11:05:37.910 D/dalvikvm(27193): Compiler shutdown in progress - discarding request
+02-12 11:05:37.910 D/dalvikvm(27193): Compiler shutdown in progress - discarding request
+02-12 11:05:37.910 D/dalvikvm(27193): Compiler shutdown in progress - discarding request
+02-12 11:05:38.450 D/AndroidRuntime(27204): 
+02-12 11:05:38.450 D/AndroidRuntime(27204): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-12 11:05:38.450 D/AndroidRuntime(27204): CheckJNI is OFF
+02-12 11:05:38.450 I/AndroidRuntime(27204): Kernel Release Version: 3.10.20-gf818079
+02-12 11:05:38.460 I/dalvikvm(27204): No library specified. The standard exception handler will be used
+02-12 11:05:38.460 I/dalvikvm(27204): 
+02-12 11:05:38.460 I/dalvikvm(27204): +++++++++++++ Using PCG. +++++++++++++++++++++
+02-12 11:05:38.460 D/dalvikvm(27204): Trying to load lib libjavacore.so 0x0
+02-12 11:05:38.460 D/dalvikvm(27204): Added shared lib libjavacore.so 0x0
+02-12 11:05:38.460 D/dalvikvm(27204): Trying to load lib libnativehelper.so 0x0
+02-12 11:05:38.460 D/dalvikvm(27204): Added shared lib libnativehelper.so 0x0
+02-12 11:05:38.460 D/dalvikvm(27204): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-12 11:05:38.460 D/dalvikvm(27204): Extra Options: not specified
+02-12 11:05:38.480 D/dalvikvm(27204): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+02-12 11:05:38.550 E/memtrack(27204): Couldn't load memtrack module (No such file or directory)
+02-12 11:05:38.550 E/android.os.Debug(27204): failed to load memtrack module: -2
+02-12 11:05:38.580 D/AndroidRuntime(27204): Calling main entry com.android.commands.am.Am
+02-12 11:05:38.610 I/ActivityManager(  504): START u0 {flg=0x10000000 cmp=org.xwalk.webapi_noneservice_tests/.webapi_noneservice_tests} from pid 27204
+02-12 11:05:38.620 D/AndroidRuntime(27204): Shutting down VM
+02-12 11:05:38.620 V/WeatherTimeProvider( 1511): widget on Visibility Changed
+02-12 11:05:38.620 I/SecurityManagerService(  621): SMS received security event: App[START/org.xwalk.webapi_noneservice_tests]
+02-12 11:05:38.620 D/dalvikvm(27204): GC_CONCURRENT freed 114K, 16% free 701K/832K, paused 0ms+0ms, total 1ms
+02-12 11:05:38.620 D/dalvikvm(27204): Compiler shutdown in progress - discarding request
+02-12 11:05:38.620 D/dalvikvm(27204): Compiler shutdown in progress - discarding request
+02-12 11:05:38.620 D/dalvikvm(27204): Compiler shutdown in progress - discarding request
+02-12 11:05:38.620 D/dalvikvm(27204): Compiler shutdown in progress - discarding request
+02-12 11:05:38.620 D/dalvikvm(27204): Compiler shutdown in progress - discarding request
+02-12 11:05:38.620 D/dalvikvm(27204): Compiler shutdown in progress - discarding request
+02-12 11:05:38.620 D/dalvikvm(27204): Compiler shutdown in progress - discarding request
+02-12 11:05:38.620 D/dalvikvm(27204): Compiler shutdown in progress - discarding request
+02-12 11:05:38.620 D/dalvikvm(27204): Compiler shutdown in progress - discarding request
+02-12 11:05:38.620 D/dalvikvm(27204): Compiler shutdown in progress - discarding request
+02-12 11:05:38.620 D/dalvikvm(27204): Compiler shutdown in progress - discarding request
+02-12 11:05:38.620 D/dalvikvm(27204): Compiler shutdown in progress - discarding request
+02-12 11:05:38.620 D/dalvikvm(27204): Compiler shutdown in progress - discarding request
+02-12 11:05:38.620 D/dalvikvm(27204): Compiler shutdown in progress - discarding request
+02-12 11:05:38.620 D/dalvikvm(27204): Compiler shutdown in progress - discarding request
+02-12 11:05:38.620 D/dalvikvm(27204): Compiler shutdown in progress - discarding request
+02-12 11:05:38.620 D/dalvikvm(27204): Compiler shutdown in progress - discarding request
+02-12 11:05:38.620 D/dalvikvm(27204): Compiler shutdown in progress - discarding request
+02-12 11:05:38.620 D/dalvikvm(27204): Compiler shutdown in progress - discarding request
+02-12 11:05:38.620 D/dalvikvm(27204): Compiler shutdown in progress - discarding request
+02-12 11:05:38.620 D/dalvikvm(27204): Compiler shutdown in progress - discarding request
+02-12 11:05:38.620 D/dalvikvm(27204): Compiler shutdown in progress - discarding request
+02-12 11:05:38.620 D/dalvikvm(27204): Compiler shutdown in progress - discarding request
+02-12 11:05:38.620 D/dalvikvm(27204): Compiler shutdown in progress - discarding request
+02-12 11:05:38.620 D/dalvikvm(27204): Compiler shutdown in progress - discarding request
+02-12 11:05:38.620 D/dalvikvm(27204): Compiler shutdown in progress - discarding request
+02-12 11:05:38.620 D/dalvikvm(27204): Compiler shutdown in progress - discarding request
+02-12 11:05:38.620 D/dalvikvm(27204): Compiler shutdown in progress - discarding request
+02-12 11:05:38.620 D/dalvikvm(27204): Compiler shutdown in progress - discarding request
+02-12 11:05:38.620 D/dalvikvm(27204): Compiler shutdown in progress - discarding request
+02-12 11:05:38.620 D/dalvikvm(27204): Compiler shutdown in progress - discarding request
+02-12 11:05:38.620 D/dalvikvm(27204): Compiler shutdown in progress - discarding request
+02-12 11:05:38.620 D/dalvikvm(27204): Compiler shutdown in progress - discarding request
+02-12 11:05:38.620 D/dalvikvm(27204): Compiler shutdown in progress - discarding request
+02-12 11:05:38.620 D/dalvikvm(27204): Compiler shutdown in progress - discarding request
+02-12 11:05:38.620 D/dalvikvm(27204): Compiler shutdown in progress - discarding request
+02-12 11:05:38.620 D/dalvikvm(27204): Compiler shutdown in progress - discarding request
+02-12 11:05:38.620 D/dalvikvm(27204): Compiler shutdown in progress - discarding request
+02-12 11:05:38.620 D/dalvikvm(27204): Compiler shutdown in progress - discarding request
+02-12 11:05:38.620 D/dalvikvm(27204): Compiler shutdown in progress - discarding request
+02-12 11:05:38.620 D/dalvikvm(27204): Compiler shutdown in progress - discarding request
+02-12 11:05:38.620 D/dalvikvm(27204): Compiler shutdown in progress - discarding request
+02-12 11:05:38.620 D/dalvikvm(27204): Compiler shutdown in progress - discarding request
+02-12 11:05:38.620 D/dalvikvm(27204): Compiler shutdown in progress - discarding request
+02-12 11:05:38.620 D/dalvikvm(27204): Compiler shutdown in progress - discarding request
+02-12 11:05:38.620 D/dalvikvm(27204): Compiler shutdown in progress - discarding request
+02-12 11:05:38.630 D/dalvikvm(27216): Late-enabling CheckJNI
+02-12 11:05:38.630 D/dalvikvm(27216): Try to disable coredump for pid 27216
+02-12 11:05:38.630 D/dalvikvm(27216): Process 27216 nice name: org.xwalk.webapi_noneservice_tests
+02-12 11:05:38.630 D/dalvikvm(27216): Extra Options: not specified
+02-12 11:05:38.630 I/ActivityManager(  504): Start proc org.xwalk.webapi_noneservice_tests for activity org.xwalk.webapi_noneservice_tests/.webapi_noneservice_tests: pid=27216 uid=10259 gids={50259, 3003, 1028, 1015}
+02-12 11:05:38.640 D/WindowManager(  504): adjustConfigurationLw, config:{1.0 ?mcc?mnc ?locale ?layoutDir sw600dp w600dp h888dp 213dpi lrg port ?uimode ?night finger -keyb/v/h -nav/v} mLidState:1 mHasDockFeature:false mHasKeyboardFeature:false mHasHallSensorFeature:true config.hardKeyboardHidden:2
+02-12 11:05:38.640 I/ActivityManager(  504): [TopPkgCurBat]	NowPkgName[org.xwalk.webapi_noneservice_tests]	Battery[95]	TimeTick[1423710338658]	OldPkgName[com.asus.launcher]
+02-12 11:05:38.660 D/        (  675): Surface destroy: ANDROID_NATIVE_WINDOW_MAGIC
+02-12 11:05:38.670 D/dalvikvm(  980): GC_EXPLICIT freed 360K, 10% free 6531K/7224K, paused 0ms+3ms, total 18ms
+02-12 11:05:38.690 I/CordovaLog(27216): Changing log level to DEBUG(3)
+02-12 11:05:38.690 D/CordovaActivity(27216): CordovaActivity.init()
+02-12 11:05:38.690 D/dalvikvm(27216): Trying to load lib /data/app-lib/org.xwalk.webapi_noneservice_tests-1/libxwalkcore.so 0x43d81ab0
+02-12 11:05:38.700 D/dalvikvm(27216): Added shared lib /data/app-lib/org.xwalk.webapi_noneservice_tests-1/libxwalkcore.so 0x43d81ab0
+02-12 11:05:38.700 I/LibraryLoader(27216): Time to load native libraries: 12 ms (timestamps 5176-5188)
+02-12 11:05:38.700 I/LibraryLoader(27216): Expected native library version number "",actual native library version number ""
+02-12 11:05:38.730 I/LibraryLoader(27216): Expected native library version number "",actual native library version number ""
+02-12 11:05:38.730 I/chromium(27216): [INFO:library_loader_hooks.cc(112)] Chromium logging enabled: level = 0, default verbosity = 0
+02-12 11:05:38.730 I/BrowserStartupController(27216): Initializing chromium process, singleProcess=true
+02-12 11:05:38.990 D/ImageWallpaper(  566): onVisibilityChanged: mVisible, visible=true, false
+02-12 11:05:38.990 D/ImageWallpaper(  566): Visibility changed to visible=false
+02-12 11:05:38.990 D/ImageWallpaper(  566): Suppressed drawFrame since redraw is not needed and offsets have not changed.
+02-12 11:05:39.110 W/chromium(27216): [WARNING:dns_config_service_posix.cc(293)] Failed to read DnsConfig.
+02-12 11:05:39.120 W/AudioManagerAndroid(27216): Requires BLUETOOTH permission
+02-12 11:05:39.120 I/ufoGralloc(27216): Hello, this is UFO GRALLOC/Intel Corporation
+02-12 11:05:39.130 D/        (27216): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-12 11:05:39.130 D/        (27216): droid_create_context : config id = 1 conf->NativeVisualID=1
+02-12 11:05:39.130 D/        (27216): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-12 11:05:39.130 I/        (27216): Requested context : GLES 2.0
+02-12 11:05:39.150 W/chromium(27216): [WARNING:proxy_service.cc(899)] PAC support disabled because there is no system implementation
+02-12 11:05:39.150 W/dalvikvm(27216): VFY: unable to find class referenced in signature (Landroid/view/inputmethod/CursorAnchorInfo;)
+02-12 11:05:39.150 I/dalvikvm(27216): Could not find method android.view.inputmethod.InputMethodManager.updateCursorAnchorInfo, referenced from method org.chromium.content.browser.input.InputMethodManagerWrapper.updateCursorAnchorInfo
+02-12 11:05:39.150 W/dalvikvm(27216): VFY: unable to resolve virtual method 1368: Landroid/view/inputmethod/InputMethodManager;.updateCursorAnchorInfo (Landroid/view/View;Landroid/view/inputmethod/CursorAnchorInfo;)V
+02-12 11:05:39.150 D/dalvikvm(27216): VFY: replacing opcode 0x6e at 0x000a
+02-12 11:05:39.200 E/cutils  (  163): Failed to mkdirat(/Removable/MicroSD): Read-only file system
+02-12 11:05:39.200 W/ContextImpl(27216): Failed to ensure directory: /Removable/MicroSD/Android/data/org.xwalk.webapi_noneservice_tests/cache
+02-12 11:05:39.200 D/CordovaActivity(27216): CordovaActivity.createViews()
+02-12 11:05:39.200 W/Vold    (  163): Returning OperationFailed - no handler for errno 30
+02-12 11:05:39.210 D/CordovaWebView(27216): >>> loadUrl(file:///android_asset/www/index.html)
+02-12 11:05:39.210 D/PluginManager(27216): init()
+02-12 11:05:39.210 E/chromium(27216): [ERROR:unix_domain_server_socket_posix.cc(106)] Not implemented reached in virtual int net::UnixDomainServerSocket::GetLocalAddress(net::IPEndPoint*) const
+02-12 11:05:39.210 E/cutils  (  163): Failed to mkdirat(/Removable/MicroSD): Read-only file system
+02-12 11:05:39.210 W/ContextImpl(27216): Failed to ensure directory: /Removable/MicroSD/Android/data/org.xwalk.webapi_noneservice_tests/files
+02-12 11:05:39.210 E/cutils  (  163): Failed to mkdirat(/Removable/MicroSD): Read-only file system
+02-12 11:05:39.210 W/ContextImpl(27216): Failed to ensure directory: /Removable/MicroSD/Android/data/org.xwalk.webapi_noneservice_tests/cache
+02-12 11:05:39.210 D/CordovaWebView(27216): >>> loadUrlNow()
+02-12 11:05:39.210 I/dalvikvm(27216): Could not find method android.app.Activity.finishAndRemoveTask, referenced from method org.chromium.base.ApiCompatibilityUtils.finishAndRemoveTask
+02-12 11:05:39.210 W/dalvikvm(27216): VFY: unable to resolve virtual method 6: Landroid/app/Activity;.finishAndRemoveTask ()V
+02-12 11:05:39.210 D/dalvikvm(27216): VFY: replacing opcode 0x6e at 0x0006
+02-12 11:05:39.210 I/dalvikvm(27216): Could not find method android.os.PowerManager.isInteractive, referenced from method org.chromium.base.ApiCompatibilityUtils.isInteractive
+02-12 11:05:39.210 W/dalvikvm(27216): VFY: unable to resolve virtual method 874: Landroid/os/PowerManager;.isInteractive ()Z
+02-12 11:05:39.210 D/dalvikvm(27216): VFY: replacing opcode 0x6e at 0x000e
+02-12 11:05:39.210 W/Vold    (  163): Returning OperationFailed - no handler for errno 30
+02-12 11:05:39.210 W/Vold    (  163): Returning OperationFailed - no handler for errno 30
+02-12 11:05:39.220 I/dalvikvm(27216): Could not find method android.view.Window.getNavigationBarColor, referenced from method org.chromium.base.ApiCompatibilityUtils.setStatusBarColor
+02-12 11:05:39.220 W/dalvikvm(27216): VFY: unable to resolve virtual method 1268: Landroid/view/Window;.getNavigationBarColor ()I
+02-12 11:05:39.220 D/dalvikvm(27216): VFY: replacing opcode 0x6e at 0x0010
+02-12 11:05:39.220 I/dalvikvm(27216): Could not find method android.view.Window.setStatusBarColor, referenced from method org.chromium.base.ApiCompatibilityUtils.setStatusBarColor
+02-12 11:05:39.220 W/dalvikvm(27216): VFY: unable to resolve virtual method 1274: Landroid/view/Window;.setStatusBarColor (I)V
+02-12 11:05:39.220 D/dalvikvm(27216): VFY: replacing opcode 0x6e at 0x0019
+02-12 11:05:39.220 E/dalvikvm(27216): Could not find class 'android.app.ActivityManager$TaskDescription', referenced from method org.chromium.base.ApiCompatibilityUtils.setTaskDescription
+02-12 11:05:39.220 W/dalvikvm(27216): VFY: unable to resolve new-instance 13 (Landroid/app/ActivityManager$TaskDescription;) in Lorg/chromium/base/ApiCompatibilityUtils;
+02-12 11:05:39.220 D/dalvikvm(27216): VFY: replacing opcode 0x22 at 0x0006
+02-12 11:05:39.220 D/dalvikvm(27216): DexOpt: unable to opt direct call 0x002f at 0x08 in Lorg/chromium/base/ApiCompatibilityUtils;.setTaskDescription
+02-12 11:05:39.220 I/chromium(27216): [INFO:xwalk_extension_renderer_controller.cc(47)] EXTENSION PROCESS DISABLED.
+02-12 11:05:39.220 D/CordovaActivity(27216): Resuming the App
+02-12 11:05:39.240 D/SoftKeyboardDetect(27216): Ignore this event
+02-12 11:05:39.250 D/        (27216): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-12 11:05:39.250 D/        (27216): droid_create_context : config id = 1 conf->NativeVisualID=1
+02-12 11:05:39.250 D/        (27216): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-12 11:05:39.250 I/        (27216): Requested context : GLES 2.0
+02-12 11:05:39.260 D/        (27216): droid_create_context : config id = 5 conf->NativeVisualID=1
+02-12 11:05:39.260 D/        (27216): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-12 11:05:39.260 I/        (27216): Requested context : GLES 2.0
+02-12 11:05:39.280 D/        (27216): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-12 11:05:39.280 D/OpenGLRenderer(27216): Enabling debug mode 0
+02-12 11:05:39.280 D/CordovaActivity(27216): onMessage(onPageStarted,file:///android_asset/www/index.html)
+02-12 11:05:39.280 W/BindingManager(27216): Cannot call determinedVisibility() - never saw a connection for the pid: 27216
+02-12 11:05:39.290 D/XT9IME  (  722): new subtype :zh_CN ,pinyin
+02-12 11:05:39.290 D/SoftKeyboardDetect(27216): Ignore this event
+02-12 11:05:39.320 D/BatteryStatsImpl(  504): noteStopWakeLocked system isFromForeground = false
+02-12 11:05:39.330 I/ActivityManager(  504): Displayed org.xwalk.webapi_noneservice_tests/.webapi_noneservice_tests: +710ms
+02-12 11:05:39.330 D/CordovaActivity(27216): onMessage(onPageFinished,file:///android_asset/www/index.html)
+02-12 11:05:40.340 D/CordovaActivity(27216): onMessage(onPageStarted,file:///android_asset/www/index_real.html?testprefix=./)
+02-12 11:05:40.410 W/BindingManager(27216): Cannot call determinedVisibility() - never saw a connection for the pid: 27216
+02-12 11:05:40.610 I/chromium(27216): [INFO:CONSOLE(0)] "Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check http://xhr.spec.whatwg.org/.", source:  (0)
+02-12 11:05:40.670 D/CordovaActivity(27216): onMessage(onPageFinished,file:///android_asset/www/index_real.html?testprefix=./)
+02-12 11:05:41.340 D/CordovaActivity(27216): onMessage(spinner,stop)
+02-12 11:05:41.360 D/        (27216): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-12 11:05:41.360 D/        (27216): droid_create_context : config id = 1 conf->NativeVisualID=1
+02-12 11:05:41.360 D/        (27216): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-12 11:05:41.360 I/        (27216): Requested context : GLES 2.0
+02-12 11:05:41.390 D/        (27216): Swap interval set to = 1 value
+02-12 11:05:41.420 D/        (27216): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-12 11:05:41.420 D/        (27216): droid_create_context : config id = 1 conf->NativeVisualID=1
+02-12 11:05:41.420 D/        (27216): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-12 11:05:41.420 I/        (27216): Requested context : GLES 2.0
+02-12 11:05:42.670 D/CordovaActivity(27216): onMessage(spinner,stop)
+02-12 11:05:43.770 W/ufoGralloc(  171): registerBuffer() handle 0xb8bfb1d0/65 didn't require registration
+02-12 11:05:43.780 D/CordovaActivity(27216): Paused the application!
+02-12 11:05:43.780 D/CordovaWebView(27216): Handle the pause
+02-12 11:05:43.790 D/WindowManager(  504): adjustConfigurationLw, config:{1.0 ?mcc?mnc ?locale ?layoutDir sw600dp w600dp h888dp 213dpi lrg port ?uimode ?night finger -keyb/v/h -nav/v} mLidState:1 mHasDockFeature:false mHasKeyboardFeature:false mHasHallSensorFeature:true config.hardKeyboardHidden:2
+02-12 11:05:43.790 I/ActivityManager(  504): [TopPkgCurBat]	NowPkgName[com.asus.launcher]	Battery[95]	TimeTick[1423710343803]	OldPkgName[org.xwalk.webapi_noneservice_tests]
+02-12 11:05:43.800 I/chromium(27216): [INFO:CONSOLE(1)] "exception firing pause event from native", source:  (1)
+02-12 11:05:43.800 V/WeatherTimeProvider( 1511): widget on Visibility Changed
+02-12 11:05:43.810 D/        (  675): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-12 11:05:43.810 W/IInputConnectionWrapper(27216): showStatusIcon on inactive InputConnection
+02-12 11:05:43.810 D/XT9IME  (  722): new subtype :zh_CN ,pinyin
+02-12 11:05:43.840 D/ImageWallpaper(  566): onVisibilityChanged: mVisible, visible=false, true
+02-12 11:05:43.840 D/ImageWallpaper(  566): Visibility changed to visible=true
+02-12 11:05:43.850 D/BatteryStatsImpl(  504): noteStopWakeLocked system isFromForeground = false
+02-12 11:05:43.850 D/ImageWallpaper(  566): Suppressed drawFrame since redraw is not needed and offsets have not changed.
+02-12 11:05:43.860 D/        (27216): Surface destroy: ANDROID_NATIVE_WINDOW_MAGIC
+02-12 11:05:43.860 D/        (27216): Surface destroy: ANDROID_NATIVE_WINDOW_MAGIC
+02-12 11:05:44.270 W/SurfaceFlinger(  171): couldn't log to binary event log: overflow.
+02-12 11:05:44.270 D/        (27216): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-12 11:05:44.280 D/CordovaActivity(27216): CordovaActivity.onDestroy()
+02-12 11:05:44.280 D/CordovaWebView(27216): >>> loadUrlNow()
+02-12 11:05:44.290 W/ScreenOrientationListener(27216): Removing an inexistent observer!
+02-12 11:05:44.890 D/AndroidRuntime(27337): 
+02-12 11:05:44.890 D/AndroidRuntime(27337): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-12 11:05:44.890 D/AndroidRuntime(27337): CheckJNI is OFF
+02-12 11:05:44.890 I/AndroidRuntime(27337): Kernel Release Version: 3.10.20-gf818079
+02-12 11:05:44.890 I/dalvikvm(27337): No library specified. The standard exception handler will be used
+02-12 11:05:44.890 I/dalvikvm(27337): 
+02-12 11:05:44.890 I/dalvikvm(27337): +++++++++++++ Using PCG. +++++++++++++++++++++
+02-12 11:05:44.900 D/dalvikvm(27337): Trying to load lib libjavacore.so 0x0
+02-12 11:05:44.900 D/dalvikvm(27337): Added shared lib libjavacore.so 0x0
+02-12 11:05:44.900 D/dalvikvm(27337): Trying to load lib libnativehelper.so 0x0
+02-12 11:05:44.900 D/dalvikvm(27337): Added shared lib libnativehelper.so 0x0
+02-12 11:05:44.900 D/dalvikvm(27337): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-12 11:05:44.910 D/dalvikvm(27337): Extra Options: not specified
+02-12 11:05:44.920 D/dalvikvm(27337): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+02-12 11:05:44.990 E/memtrack(27337): Couldn't load memtrack module (No such file or directory)
+02-12 11:05:44.990 E/android.os.Debug(27337): failed to load memtrack module: -2
+02-12 11:05:45.030 D/AndroidRuntime(27337): Calling main entry com.android.commands.am.Am
+02-12 11:05:45.050 I/ActivityManager(  504): Force stopping org.xwalk.webapi_noneservice_tests appid=10259 user=0: from pid 27337
+02-12 11:05:45.050 I/SecurityManagerService(  621): SMS received security event: App[STOP/org.xwalk.webapi_noneservice_tests]
+02-12 11:05:45.050 I/ActivityManager(  504): Killing 27216:org.xwalk.webapi_noneservice_tests/u0a259 (adj 9): stop org.xwalk.webapi_noneservice_tests
+02-12 11:05:45.060 D/AndroidRuntime(27337): Shutting down VM
+02-12 11:05:45.070 D/dalvikvm(27337): GC_CONCURRENT freed 112K, 16% free 666K/792K, paused 0ms+1ms, total 2ms
+02-12 11:05:45.070 D/dalvikvm(27337): Compiler shutdown in progress - discarding request
+02-12 11:05:45.070 D/dalvikvm(27337): Compiler shutdown in progress - discarding request
+02-12 11:05:45.070 D/dalvikvm(27337): Compiler shutdown in progress - discarding request
+02-12 11:05:45.070 D/dalvikvm(27337): Compiler shutdown in progress - discarding request
+02-12 11:05:45.070 D/dalvikvm(27337): Compiler shutdown in progress - discarding request
+02-12 11:05:45.070 D/dalvikvm(27337): Compiler shutdown in progress - discarding request
+02-12 11:05:45.070 D/dalvikvm(27337): Compiler shutdown in progress - discarding request
+02-12 11:05:45.070 D/dalvikvm(27337): Compiler shutdown in progress - discarding request
+02-12 11:05:45.070 D/dalvikvm(27337): Compiler shutdown in progress - discarding request
+02-12 11:05:45.070 D/dalvikvm(27337): Compiler shutdown in progress - discarding request
+02-12 11:05:45.070 D/dalvikvm(27337): Compiler shutdown in progress - discarding request
+02-12 11:05:45.070 D/dalvikvm(27337): Compiler shutdown in progress - discarding request
+02-12 11:05:45.070 D/dalvikvm(27337): Compiler shutdown in progress - discarding request
+02-12 11:05:45.070 D/dalvikvm(27337): Compiler shutdown in progress - discarding request
+02-12 11:05:45.070 D/dalvikvm(27337): Compiler shutdown in progress - discarding request
+02-12 11:05:45.070 D/dalvikvm(27337): Compiler shutdown in progress - discarding request
+02-12 11:05:45.070 D/dalvikvm(27337): Compiler shutdown in progress - discarding request
+02-12 11:05:45.070 D/dalvikvm(27337): Compiler shutdown in progress - discarding request
+02-12 11:05:45.070 D/dalvikvm(27337): Compiler shutdown in progress - discarding request
+02-12 11:05:45.070 D/dalvikvm(27337): Compiler shutdown in progress - discarding request
+02-12 11:05:45.070 D/dalvikvm(27337): Compiler shutdown in progress - discarding request
+02-12 11:05:45.070 D/dalvikvm(27337): Compiler shutdown in progress - discarding request
+02-12 11:05:45.070 D/dalvikvm(27337): Compiler shutdown in progress - discarding request
+02-12 11:05:45.070 D/dalvikvm(27337): Compiler shutdown in progress - discarding request
+02-12 11:05:45.070 D/dalvikvm(27337): Compiler shutdown in progress - discarding request
+02-12 11:05:45.070 D/dalvikvm(27337): Compiler shutdown in progress - discarding request
+02-12 11:05:45.070 D/dalvikvm(27337): Compiler shutdown in progress - discarding request
+02-12 11:05:45.070 D/dalvikvm(27337): Compiler shutdown in progress - discarding request
+02-12 11:05:45.070 D/dalvikvm(27337): Compiler shutdown in progress - discarding request
+02-12 11:05:45.070 D/dalvikvm(27337): Compiler shutdown in progress - discarding request
+02-12 11:05:45.070 D/dalvikvm(27337): Compiler shutdown in progress - discarding request
+02-12 11:05:45.070 D/dalvikvm(27337): Compiler shutdown in progress - discarding request
+02-12 11:05:45.070 D/dalvikvm(27337): Compiler shutdown in progress - discarding request
+02-12 11:05:45.070 D/dalvikvm(27337): Compiler shutdown in progress - discarding request
+02-12 11:05:45.070 D/dalvikvm(27337): Compiler shutdown in progress - discarding request
+02-12 11:05:45.070 D/dalvikvm(27337): Compiler shutdown in progress - discarding request
+02-12 11:05:45.070 D/dalvikvm(27337): Compiler shutdown in progress - discarding request
+02-12 11:05:45.070 D/dalvikvm(27337): Compiler shutdown in progress - discarding request
+02-12 11:05:45.070 D/dalvikvm(27337): Compiler shutdown in progress - discarding request
+02-12 11:05:45.070 D/dalvikvm(27337): Compiler shutdown in progress - discarding request
+02-12 11:05:45.070 D/dalvikvm(27337): Compiler shutdown in progress - discarding request
+02-12 11:05:45.070 D/dalvikvm(27337): Compiler shutdown in progress - discarding request
+02-12 11:05:45.070 D/dalvikvm(27337): Compiler shutdown in progress - discarding request
+02-12 11:05:45.070 D/dalvikvm(27337): Compiler shutdown in progress - discarding request

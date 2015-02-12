@@ -1,0 +1,16 @@
+testkit-lite -e xwalk -A --comm androidmobile -k webdriver -f $PWD/tct-3dtransforms-css3-tests.tests.xml --set 3DTransforms-ref -o ../../../rerun_xml/webdriver_xml/wd_result_tct-3dtransforms-css3-tests.xml
+testkit-lite -e xwalk -A --comm androidmobile -k webdriver -f $PWD/tct-audio-html5-tests.tests.xml --set Audio-ref -o ../../../rerun_xml/webdriver_xml/wd_result_tct-audio-html5-tests.xml
+testkit-lite -e xwalk -A --comm androidmobile -k webdriver -f $PWD/tct-backgrounds-css3-tests.tests.xml --set Backgrounds-ref -o ../../../rerun_xml/webdriver_xml/wd_result_tct-backgrounds-css3-tests.xml
+testkit-lite -e xwalk -A --comm androidmobile -k webdriver -f $PWD/tct-colors-css3-tests.tests.xml --set Colors-ref -o ../../../rerun_xml/webdriver_xml/wd_result_tct-colors-css3-tests.xml
+testkit-lite -e xwalk -A --comm androidmobile -k webdriver -f $PWD/tct-flexiblebox-css3-tests.tests.xml --set reftest -o ../../../rerun_xml/webdriver_xml/wd_result_tct-flexiblebox-css3-tests.xml
+testkit-lite -e xwalk -A --comm androidmobile -k webdriver -f $PWD/tct-fonts-css3-tests.tests.xml --set Fonts-ref -o ../../../rerun_xml/webdriver_xml/wd_result_tct-fonts-css3-tests.xml
+testkit-lite -e xwalk -A --comm androidmobile -k webdriver -f $PWD/tct-multicolumn-css3-tests.tests.xml --set MultiColumn-ref -o ../../../rerun_xml/webdriver_xml/wd_result_tct-multicolumn-css3-tests.xml
+testkit-lite -e xwalk -A --comm androidmobile -k webdriver -f $PWD/tct-svg-html5-tests.tests.xml --set SVG-REF -o ../../../rerun_xml/webdriver_xml/wd_result_tct-svg-html5-tests.xml
+testkit-lite -e xwalk -A --comm androidmobile -k webdriver -f $PWD/tct-text-css3-tests.tests.xml --set Text-ref -o ../../../rerun_xml/webdriver_xml/wd_result_tct-text-css3-tests.xml
+testkit-lite -e xwalk -A --comm androidmobile -k webdriver -f $PWD/tct-extra-html5-tests.tests.xml --set extra-ref browsers-bdd dom-bdd xhtml5-bdd -o ../../../rerun_xml/webdriver_xml/wd_result_tct-extra-html5-tests.xml
+testkit-lite -e xwalk -A --comm androidmobile -k webdriver -f $PWD/tct-webstorage-w3c-tests.tests.xml --set webstorage-bdd -o ../../../rerun_xml/webdriver_xml/wd_result_tct-webstorage-w3c-tests.xml
+
+
+testkit-lite -e xwalk -A --comm androidmobile -k webdriver -f $PWD/tct-canvas-html5-tests.tests.xml --set Canvas-ref -o ../../../rerun_xml/webdriver_xml/wd_result_tct-canvas-html5-tests.xml
+testkit-lite -e xwalk -A --comm androidmobile -k webdriver -f $PWD/tct-csp-w3c-tests.tests.xml --set csp-ref -o ../../../rerun_xml/webdriver_xml/wd_result_tct-csp-w3c-tests.xml
+

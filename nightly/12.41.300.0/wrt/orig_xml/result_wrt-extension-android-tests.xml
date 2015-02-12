@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <?xml-stylesheet type="text/xsl" href="testresult.xsl"?>
+<test_definition><environment build_id="" device_id="localhost" device_model="" device_name="N/A" host="Linux-3.13.0-39-generic-x86_64-with-Ubuntu-12.04-precise" lite_version="3.1.13" manufacturer="" resolution="N/A" screen_size="N/A"><other /></environment>
+<summary test_plan_name="Empty test_plan_name"><start_at>2015-02-10_07_54_53</start_at><end_at>2015-02-10_07_56_35</end_at></summary>
+  <suite category="Crosswalk WRT" name="wrt-extension-android-tests">
+    <set name="extension" set_debug_msg="N/A" type="script">
+      <testcase component="Crosswalk WRT/Extension System" execution_type="auto" id="Crosswalk_EmbeddedMode_Extension_Install" purpose="Validate if Crosswalk support the external extension install in the embedded mode" result="PASS">
+        <description>
+          <test_script_entry>/opt/wrt-extension-android-tests/extension/Crosswalk_EmbeddedMode_Extension_Install.sh</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-10 07:55:00</start><end>2015-02-10 07:55:10</end><stdout><![CDATA[Success
+\nSuccess
+\n]]></stdout><stderr><![CDATA[5908 KB/s (22403779 bytes in 3.703s)\n]]></stderr></result_info></testcase>
+      <testcase component="Crosswalk WRT/Extension System" execution_type="auto" id="Crosswalk_EmbeddedMode_Extension_Launch_viaTerminal" purpose="Validate if Crosswalk support the external extension launch in the embedded mode" result="PASS">
+        <description>
+          <test_script_entry>/opt/wrt-extension-android-tests/extension/Crosswalk_EmbeddedMode_Extension_Launch_viaTerminal.sh</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-10 07:55:10</start><end>2015-02-10 07:55:29</end><stdout><![CDATA[Success
+\nStarting: Intent { act=android.intent.action.View cmp=org.xwalk.extension_permission_contacts_tests/.ExtensionPermissionContactsTestsActivity }
+\nSuccess
+\n]]></stdout><stderr><![CDATA[6340 KB/s (22403779 bytes in 3.450s)\n]]></stderr></result_info></testcase>
+      <testcase component="Crosswalk WRT/Extension System" execution_type="auto" id="Crosswalk_EmbeddedMode_Extension_Uninstall_viaTerminal" purpose="Validate if Crosswalk support the external extension uninstall in the embedded mode" result="PASS">
+        <description>
+          <test_script_entry>/opt/wrt-extension-android-tests/extension/Crosswalk_EmbeddedMode_Extension_Uninstall_viaTerminal.sh</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-10 07:55:29</start><end>2015-02-10 07:55:57</end><stdout><![CDATA[Success
+\n]]></stdout><stderr><![CDATA[5372 KB/s (22403779 bytes in 4.072s)\n]]></stderr></result_info></testcase>
+      <testcase component="Crosswalk WRT/Extension System" execution_type="auto" id="Crosswalk_EmbeddedMode_Extension_Close_viaTerminal" purpose="Validate if Crosswalk support the external extension close in the embedded mode" result="PASS">
+        <description>
+          <test_script_entry>/opt/wrt-extension-android-tests/extension/Crosswalk_EmbeddedMode_Extension_Close_viaTerminal.sh</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-10 07:55:57</start><end>2015-02-10 07:56:06</end><stdout><![CDATA[Success
+\n]]></stdout><stderr><![CDATA[5607 KB/s (22403779 bytes in 3.901s)\n]]></stderr></result_info></testcase>
+      <testcase component="Crosswalk WRT/Extension System" execution_type="auto" id="Crosswalk_EmbeddedMode_Extension_XwalkRuntimeLibUninstall_viaTerminal" purpose="Validate if Crosswalk support the external extension in the embedded mode with runtimelib uninstall" result="PASS">
+        <description>
+          <test_script_entry>/opt/wrt-extension-android-tests/extension/Crosswalk_EmbeddedMode_Extension_XwalkRuntimeLibUninstall_viaTerminal.sh</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-10 07:56:06</start><end>2015-02-10 07:56:34</end><stdout><![CDATA[Success
+\nSuccess
+\nSuccess
+\nStarting: Intent { act=android.intent.action.View cmp=org.xwalk.extension_permission_contacts_tests/.ExtensionPermissionContactsTestsActivity }
+\nSuccess
+\n]]></stdout><stderr><![CDATA[6088 KB/s (22433041 bytes in 3.598s)\n7189 KB/s (22403779 bytes in 3.043s)\n]]></stderr></result_info></testcase>
+    </set>
+  </suite>
+</test_definition>
