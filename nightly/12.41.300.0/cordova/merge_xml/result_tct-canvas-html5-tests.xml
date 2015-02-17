@@ -4230,11 +4230,11 @@
           <test_script_entry>/opt/tct-canvas-html5-tests/canvas/canvas_width_type.html</test_script_entry>
         </description>
       <result_info><actual_result>PASS</actual_result><start>2015-02-10 08:59:20</start><end>2015-02-10 08:59:20</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
-      <testcase component="W3C_HTML5 APIs/Graphics/HTML Canvas 2D Context (Partial)" execution_type="auto" id="canvasgradient_addColorStop_INDEX_SIZE_ERR" purpose="Check if the offset is less than 0, greater than 1, infinite, or NaN, then an INDEX_SIZE_ERR exception must be raised" result="PASS">
+      <testcase component="W3C_HTML5 APIs/Graphics/HTML Canvas 2D Context (Partial)" execution_type="auto" id="canvasgradient_addColorStop_INDEX_SIZE_ERR" purpose="Check if the offset is less than 0, greater than 1, infinite, or NaN, then an INDEX_SIZE_ERR exception must be raised" result="FAIL">
         <description>
           <test_script_entry>/opt/tct-canvas-html5-tests/canvas/canvasgradient_addColorStop_INDEX_SIZE_ERR.html</test_script_entry>
         </description>
-      <result_info><actual_result>PASS</actual_result><start>2015-02-10 08:59:20</start><end>2015-02-10 08:59:20</end><stdout>[Message] *Canvas Test: canvasgradient_addColorStop_INDEX_SIZE_ERR 2: assert_equals: throw an INDEX_SIZE_ERR exception expected (number) 1 but got (undefined) undefined *Canvas Test: canvasgradient_addColorStop_INDEX_SIZE_ERR 3: assert_equals: throw an INDEX_SIZE_ERR exception expected (number) 1 but got (undefined) undefined</stdout><stderr /></result_info></testcase>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-10 08:59:20</start><end>2015-02-10 08:59:20</end><stdout>[Message] *Canvas Test: canvasgradient_addColorStop_INDEX_SIZE_ERR 2: assert_equals: throw an INDEX_SIZE_ERR exception expected (number) 1 but got (undefined) undefined *Canvas Test: canvasgradient_addColorStop_INDEX_SIZE_ERR 3: assert_equals: throw an INDEX_SIZE_ERR exception expected (number) 1 but got (undefined) undefined</stdout><stderr /></result_info></testcase>
       <testcase component="W3C_HTML5 APIs/Graphics/HTML Canvas 2D Context (Partial)" execution_type="auto" id="canvasgradient_addColorStop_exsit" purpose="Check if canvasgradient.addColorStop is exists" result="PASS">
         <description>
           <test_script_entry>/opt/tct-canvas-html5-tests/canvas/canvasgradient_addColorStop_exsit.html</test_script_entry>

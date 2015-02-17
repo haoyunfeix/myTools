@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <?xml-stylesheet type="text/xsl" href="testresult.xsl"?>
+<test_definition><environment build_id="" device_id="E6OKCY410686" device_model="" device_name="N/A" host="Linux-3.13.0-39-generic-x86_64-with-Ubuntu-12.04-precise" lite_version="3.1.13" manufacturer="" resolution="N/A" screen_size="N/A"><other /></environment>
+<summary test_plan_name="Empty test_plan_name"><start_at>2015-02-13_08_12_32</start_at><end_at>2015-02-13_08_12_53</end_at></summary>
+  <suite category="W3C/HTML5 APIs" name="tct-pagevisibility-w3c-tests" widget="webapi-noneservice-tests">
+    <set name="PageVisibility" set_debug_msg="N/A" type="js">
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Page Visibility" execution_type="auto" id="test_attributes_exist_1" purpose="Check if document.hidden is defined and not null" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-pagevisibility-w3c-tests/pagevisibility/w3c/test_attributes_exist.html?total_num=4&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-02-13 08:12:44</start><end>2015-02-13 08:12:45</end><stdout /><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Page Visibility" execution_type="auto" id="test_attributes_exist_2" purpose="Check if document.visibilityState is defined and not null" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-pagevisibility-w3c-tests/pagevisibility/w3c/test_attributes_exist.html?total_num=4&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-02-13 08:12:45</start><end>2015-02-13 08:12:45</end><stdout /><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Page Visibility" execution_type="auto" id="test_child_document_4" purpose="Check if document.hidden is defined for frame with no style attribute" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-pagevisibility-w3c-tests/pagevisibility/w3c/test_child_document.html?total_num=14&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-02-13 08:12:45</start><end>2015-02-13 08:12:46</end><stdout /><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Page Visibility" execution_type="auto" id="test_child_document_5" purpose="Check if document.visibilityState is defined for frame with no style attribute" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-pagevisibility-w3c-tests/pagevisibility/w3c/test_child_document.html?total_num=14&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-02-13 08:12:46</start><end>2015-02-13 08:12:46</end><stdout /><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Page Visibility" execution_type="auto" id="test_child_document_6" purpose="Check if document.visibilityState for frame with no style attribute that is equals to visible" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-pagevisibility-w3c-tests/pagevisibility/w3c/test_child_document.html?total_num=14&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-02-13 08:12:46</start><end>2015-02-13 08:12:46</end><stdout /><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Page Visibility" execution_type="auto" id="test_child_document_8" purpose="Check if document.hidden is defined for frame with 'display:none' style" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-pagevisibility-w3c-tests/pagevisibility/w3c/test_child_document.html?total_num=14&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-02-13 08:12:46</start><end>2015-02-13 08:12:47</end><stdout /><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Page Visibility" execution_type="auto" id="test_child_document_9" purpose="Check if document.visibilityState is defined for frame with 'display:none' style" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-pagevisibility-w3c-tests/pagevisibility/w3c/test_child_document.html?total_num=14&amp;amp;locator_key=id&amp;amp;value=9</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-02-13 08:12:47</start><end>2015-02-13 08:12:47</end><stdout /><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Page Visibility" execution_type="auto" id="test_child_document_10" purpose="Check if document.visibilityState for frame with 'display:none' style that is equals to visible" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-pagevisibility-w3c-tests/pagevisibility/w3c/test_child_document.html?total_num=14&amp;amp;locator_key=id&amp;amp;value=10</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-02-13 08:12:47</start><end>2015-02-13 08:12:47</end><stdout /><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Page Visibility" execution_type="auto" id="test_child_document_12" purpose="Check if document.hidden is defined for frame with 'visibility:hidden' style" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-pagevisibility-w3c-tests/pagevisibility/w3c/test_child_document.html?total_num=14&amp;amp;locator_key=id&amp;amp;value=12</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-02-13 08:12:47</start><end>2015-02-13 08:12:48</end><stdout /><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Page Visibility" execution_type="auto" id="test_child_document_13" purpose="Check if document.visibilityState is defined for frame with 'visibility:hidden' style" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-pagevisibility-w3c-tests/pagevisibility/w3c/test_child_document.html?total_num=14&amp;amp;locator_key=id&amp;amp;value=13</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-02-13 08:12:48</start><end>2015-02-13 08:12:48</end><stdout /><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Page Visibility" execution_type="auto" id="test_child_document_14" purpose="Check if document.visibilityState for frame with 'visibility:hidden' style that is equals to visible" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-pagevisibility-w3c-tests/pagevisibility/w3c/test_child_document.html?total_num=14&amp;amp;locator_key=id&amp;amp;value=14</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-02-13 08:12:48</start><end>2015-02-13 08:12:49</end><stdout /><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Page Visibility" execution_type="auto" id="test_default_view_3" purpose="Check if windowless subdocument generated for test has a null default view" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-pagevisibility-w3c-tests/pagevisibility/w3c/test_default_view.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-02-13 08:12:49</start><end>2015-02-13 08:12:49</end><stdout /><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Page Visibility" execution_type="auto" id="test_default_view_4" purpose="Check if document.hidden is definedwindowless subdocument" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-pagevisibility-w3c-tests/pagevisibility/w3c/test_default_view.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-02-13 08:12:49</start><end>2015-02-13 08:12:49</end><stdout /><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Page Visibility" execution_type="auto" id="test_default_view_5" purpose="Check if document.visibilityState is definedwindowless subdocument" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-pagevisibility-w3c-tests/pagevisibility/w3c/test_default_view.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-02-13 08:12:49</start><end>2015-02-13 08:12:50</end><stdout /><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Page Visibility" execution_type="auto" id="test_default_view_6" purpose="Check if hidden is equals to true for windowless subdocuments with a null default view" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-pagevisibility-w3c-tests/pagevisibility/w3c/test_default_view.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-02-13 08:12:50</start><end>2015-02-13 08:12:50</end><stdout /><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Page Visibility" execution_type="auto" id="test_default_view_7" purpose="Check if visibilityState is equals to hidden for windowless subdocuments with a null default view" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-pagevisibility-w3c-tests/pagevisibility/w3c/test_default_view.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-02-13 08:12:50</start><end>2015-02-13 08:12:50</end><stdout /><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Page Visibility" execution_type="auto" id="test_read_only_3" purpose="Check if document.hidden is readonly" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-pagevisibility-w3c-tests/pagevisibility/w3c/test_read_only.html?total_num=4&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-02-13 08:12:50</start><end>2015-02-13 08:12:51</end><stdout /><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Page Visibility" execution_type="auto" id="test_read_only_4" purpose="Check if document.visibilityState is readonly" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-pagevisibility-w3c-tests/pagevisibility/w3c/test_read_only.html?total_num=4&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-02-13 08:12:51</start><end>2015-02-13 08:12:51</end><stdout /><stderr /></result_info></testcase>
+      </set>
+  </suite>
+</test_definition>

@@ -10742,3 +10742,1345 @@
 02-12 15:50:25.760 E/AndroidProtocolHandler(31844): Unable to open asset URL: file:///android_asset/www//opt/tct-webstorage-w3c-tests/webstorage/Storage_keys_numeric.html
 02-12 15:50:25.770 W/BindingManager(31844): Cannot call determinedVisibility() - never saw a connection for the pid: 31844
 02-12 15:50:25.820 W/BindingManager(31844): Cannot call determinedVisibility() - never saw a connection for the pid: 31844
+--------- beginning of /dev/log/main
+02-13 10:08:19.149 I/WindowManager(  504): interceptPowerKeyDown: key down event: handled: set timeout to 4000 ms
+02-13 10:08:19.149 I/WindowManager(  504): Screen turning on...
+02-13 10:08:19.149 D/Sensors (  504): kxtj2.cpp: set enable, handle is 0
+--------- beginning of /dev/log/system
+02-13 10:08:19.149 I/PowerManagerService(  504): Waking up from sleep...
+02-13 10:08:19.149 D/BrightnessHandler(  504): com.android.server.power.HardwareHandler@21f1a348 setBrightness=255, 0
+02-13 10:08:19.159 D/Sensors (  504): kxtj2.cpp: enable set 1
+02-13 10:08:19.159 D/Sensors (  504): kxtj2.cpp: mEnabled = 1
+02-13 10:08:19.159 D/Sensors (  504): kxtj2.cpp: set delay, handle is 0
+02-13 10:08:19.159 V/KeyguardServiceDelegate(  504): onScreenTurnedOn(showListener = com.android.internal.policy.impl.PhoneWindowManager$22@21f75e60)
+02-13 10:08:19.169 D/EVENT_THREAD(  183): void CEventThread::run() POLLIN event on Fd (1)
+02-13 10:08:19.169 D/EVENT_THREAD(  183): void CEventThread::run() Do poll with timeout: -1
+02-13 10:08:19.189 D/AudioHardwareALSA(  183): setParameters
+02-13 10:08:19.189 D/RouteManager(  183): doSetParameters: key value pair screen_state=on, {+++ RECONSIDER ROUTING +++} due to External parameter change
+02-13 10:08:19.189 D/RouteManager(  183): reconsiderRouting
+02-13 10:08:19.189 D/EVENT_THREAD(  183): void CEventThread::trig(uint16_t): in
+02-13 10:08:19.189 D/EVENT_THREAD(  183): void CEventThread::trig(uint16_t): out
+02-13 10:08:19.189 D/RouteManager(  183): doReconsiderRouting:       Platform Changes:
+02-13 10:08:19.189 D/RouteManager(  183): doReconsiderRouting:          -Platform Screen State = On [has changed]
+02-13 10:08:19.189 D/EVENT_THREAD(  183): void CEventThread::run() Do poll with timeout: -1
+02-13 10:08:19.189 I/WifiHW  (  504): CMD: IFNAME=wlan0 SET pno 0
+02-13 10:08:19.199 D/RouteManager(  183): reconsiderRouting: DONE
+02-13 10:08:19.199 D/wpa_supplicant(  651): RX ctrl_iface - hexdump(len=9): 53 45 54 20 70 6e 6f 20 30
+02-13 10:08:19.199 D/wpa_supplicant(  651): wlan0: Control interface command 'SET pno 0'
+02-13 10:08:19.199 D/wpa_supplicant(  651): CTRL_IFACE SET 'pno'='0'
+02-13 10:08:19.199 D/AlarmManager(  504): Removed alarm Alarm{2201b970 type 2 android} type:ELAPSED_REALTIME_WAKEUP
+02-13 10:08:19.199 V/KeyguardServiceDelegate(  504): **** SHOWN CALLED ****
+02-13 10:08:19.199 D/AlarmManager(  504): Added alarm Alarm{21fe35a8 type 0 android} type:RTC_WAKEUP when: At 15-2-13 上午10:30 repeatInterval: 0h:30m:0.0s
+02-13 10:08:19.199 I/WindowManager(  504): Lock screen displayed!
+02-13 10:08:19.209 D/BrightnessHandler(  504): com.android.server.power.HardwareHandler@21f1a348 setBrightness=255, 0
+02-13 10:08:19.209 D/BrightnessHandler(  504): com.android.server.power.HardwareHandler@21f1a348 setBrightness=255, 0
+02-13 10:08:19.209 D/AlarmManager(  504): Added alarm Alarm{21fe0d18 type 0 com.wandoujia.phoenix2} type:RTC_WAKEUP when: At 15-2-13 下午8:13
+02-13 10:08:19.209 D/AlarmManager(  504): Added alarm Alarm{21fe0570 type 0 com.android.providers.calendar} type:RTC_WAKEUP when: At 15-2-14 上午7:34
+02-13 10:08:19.219 D/wpa_supplicant(  651): nl80211: Sched scan stop sent (ret=0)
+02-13 10:08:19.219 D/wpa_supplicant(  651): wlan0: Setting scan request: 0 sec 0 usec
+02-13 10:08:19.219 D/wpa_supplicant(  651): wlan0: Setting scan request: 0 sec 0 usec
+02-13 10:08:19.219 D/wpa_supplicant(  651): wlan0: Starting AP scan for wildcard SSID
+02-13 10:08:19.219 D/wpa_supplicant(  651): WPS: Building WPS IE for Probe Request
+02-13 10:08:19.219 D/wpa_supplicant(  651): WPS:  * Version (hardcoded 0x10)
+02-13 10:08:19.219 D/wpa_supplicant(  651): WPS:  * Request Type
+02-13 10:08:19.219 D/wpa_supplicant(  651): WPS:  * Config Methods (4288)
+02-13 10:08:19.219 D/wpa_supplicant(  651): WPS:  * UUID-E
+02-13 10:08:19.219 D/wpa_supplicant(  651): WPS:  * Primary Device Type
+02-13 10:08:19.219 D/wpa_supplicant(  651): WPS:  * RF Bands (1)
+02-13 10:08:19.219 D/wpa_supplicant(  651): WPS:  * Association State
+02-13 10:08:19.219 D/wpa_supplicant(  651): WPS:  * Configuration Error (0)
+02-13 10:08:19.219 D/wpa_supplicant(  651): WPS:  * Device Password ID (0)
+02-13 10:08:19.219 D/wpa_supplicant(  651): WPS:  * Manufacturer
+02-13 10:08:19.219 D/wpa_supplicant(  651): WPS:  * Model Name
+02-13 10:08:19.219 D/wpa_supplicant(  651): WPS:  * Model Number
+02-13 10:08:19.219 D/wpa_supplicant(  651): WPS:  * Device Name
+02-13 10:08:19.219 D/wpa_supplicant(  651): WPS:  * Version2 (0x20)
+02-13 10:08:19.219 D/wpa_supplicant(  651): P2P: * P2P IE header
+02-13 10:08:19.219 D/wpa_supplicant(  651): P2P: * Capability dev=25 group=00
+02-13 10:08:19.219 D/wpa_supplicant(  651): P2P: * Listen Channel: Regulatory Class 81 Channel 11
+02-13 10:08:19.219 D/wpa_supplicant(  651): wlan0: nl80211: scan request
+02-13 10:08:19.219 I/WifiHW  (  504): REPLY: OK
+02-13 10:08:19.219 I/WifiHW  (  504): CMD: IFNAME=wlan0 DRIVER SETSUSPENDMODE 0
+02-13 10:08:19.249 D/wpa_supplicant(  651): Scan requested (ret=0) - scan timeout 30 seconds
+02-13 10:08:19.249 D/wpa_supplicant(  651): nl80211: Drv Event 78 (NL80211_CMD_SCHED_SCAN_STOPPED) received for wlan0
+02-13 10:08:19.249 D/wpa_supplicant(  651): wlan0: nl80211: Sched scan stopped
+02-13 10:08:19.249 D/wpa_supplicant(  651): wlan0: Event SCHED_SCAN_STOPPED (46) received
+02-13 10:08:19.249 D/wpa_supplicant(  651): nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0
+02-13 10:08:19.249 D/wpa_supplicant(  651): wlan0: nl80211: Scan trigger
+02-13 10:08:19.249 D/wpa_supplicant(  651): RX ctrl_iface - hexdump(len=23): 44 52 49 56 45 52 20 53 45 54 53 55 53 50 45 4e 44 4d 4f 44 45 20 30
+02-13 10:08:19.249 D/wpa_supplicant(  651): wlan0: Control interface command 'DRIVER SETSUSPENDMODE 0'
+02-13 10:08:19.249 D/wpa_supplicant(  651): bcm_wpa_driver_nl80211_driver_cmd  len = 0, 0
+02-13 10:08:19.249 I/WifiHW  (  504): REPLY: OK
+02-13 10:08:19.259 D/ImageWallpaper(  566): onVisibilityChanged: mVisible, visible=false, true
+02-13 10:08:19.259 D/ImageWallpaper(  566): Visibility changed to visible=true
+02-13 10:08:19.259 D/ImageWallpaper(  566): Suppressed drawFrame since redraw is not needed and offsets have not changed.
+02-13 10:08:19.259 I/WeatherTimeService( 1511): Action is: android.intent.action.SCREEN_ON
+02-13 10:08:19.259 V/WeatherTimeService( 1511): Screen On current time: 1423793299270
+02-13 10:08:19.259 I/WeatherTimeService( 1511): Screen on, un refresh widget id count:0
+02-13 10:08:19.269 D/DMC->DMService(31412): SCREEN ON
+02-13 10:08:19.309 I/WindowManager(  504): interceptPowerKeyUp: key up event: remove pending callbacks for very long press
+02-13 10:08:19.529 D/EVENT_THREAD(  183): void CEventThread::run() POLLIN event on Fd (1)
+02-13 10:08:19.529 D/EVENT_THREAD(  183): void CEventThread::run() Do poll with timeout: -1
+02-13 10:08:19.539 D/PowerManagerService-JNI(  504): Excessive delay in autosuspend_disable() while turning screen on: 391ms
+02-13 10:08:19.539 D/SurfaceFlinger(  171): Screen acquired, type=0 flinger=0xb897ae70
+02-13 10:08:19.549 D/EVENT_THREAD(  183): void CEventThread::run() POLLIN event on Fd (1)
+02-13 10:08:19.549 D/EVENT_THREAD(  183): void CEventThread::run() Do poll with timeout: -1
+02-13 10:08:19.709 I/upi_ug31xx(  166): (11434) update_capacity
+02-13 10:08:19.709 I/[UPI]   (  166): <UG31/E><BATT> M:late_resume, P:100(100-100)%, V:4331mV, C:3mA, T:28.2C(319), S:0x10c20d50(111), R:3926mAh, F:3926mAh, Q:692mAh, CC:3, P:0.249(0-0)s, BO:7, 97:615:0-44af-9m:B001-20140514-144301 (1)
+02-13 10:08:19.709 D/EVENT_THREAD(  183): void CEventThread::run() POLLIN event on Fd (1)
+02-13 10:08:19.709 D/EVENT_THREAD(  183): void CEventThread::run() Do poll with timeout: -1
+02-13 10:08:20.189 D/EVENT_THREAD(  183): void CEventThread::run() POLLIN event on Fd (1)
+02-13 10:08:20.189 D/EVENT_THREAD(  183): void CEventThread::run() Do poll with timeout: -1
+02-13 10:08:20.189 I/upi_ug31xx(  166): (11435) update_capacity
+02-13 10:08:20.189 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: V=4331(4331), T=282(282-319), I=2, C=0(0-0)
+02-13 10:08:20.189 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x10c20d50) 3926 (3886) / 3926 (3926) = 100
+02-13 10:08:20.189 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x10c20d50) 3926 (3886) / 3926 (3926) = 100
+02-13 10:08:20.189 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x10820d50) 3926 (3926) / 3926 (3926) = 100
+02-13 10:08:20.189 I/[UPI]   (  166): <UG31/E>[RsocFilterCountTime]: (0x10820d50) Step=0(19723), Full=100(40364256), Lock=19723(142128000)
+02-13 10:08:20.189 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x10820d50) 3926 (3926) / 3926 (3926) = 100 (2-2)
+02-13 10:08:20.189 I/[UPI]   (  166): <UG31/E><BATT> M:normal, P:100(100-100)%, V:4331mV, C:1mA, T:28.2C(319), S:0x10820d50(101), R:3926mAh, F:3926mAh, Q:692mAh, CC:3, P:0.130(0-0)s, BO:7, 97:615:0-44af-9m:B001-20140514-144301 (16)
+02-13 10:08:20.289 D/AndroidRuntime( 1924): 
+02-13 10:08:20.289 D/AndroidRuntime( 1924): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-13 10:08:20.289 D/AndroidRuntime( 1924): CheckJNI is OFF
+02-13 10:08:20.289 I/AndroidRuntime( 1924): Kernel Release Version: 3.10.20-gf818079
+02-13 10:08:20.289 I/dalvikvm( 1924): No library specified. The standard exception handler will be used
+02-13 10:08:20.309 I/dalvikvm( 1924): 
+02-13 10:08:20.309 I/dalvikvm( 1924): +++++++++++++ Using PCG. +++++++++++++++++++++
+02-13 10:08:20.309 D/dalvikvm( 1924): Trying to load lib libjavacore.so 0x0
+02-13 10:08:20.319 D/dalvikvm( 1924): Added shared lib libjavacore.so 0x0
+02-13 10:08:20.319 D/dalvikvm( 1924): Trying to load lib libnativehelper.so 0x0
+02-13 10:08:20.319 D/dalvikvm( 1924): Added shared lib libnativehelper.so 0x0
+02-13 10:08:20.319 D/dalvikvm( 1924): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-13 10:08:20.329 D/dalvikvm( 1924): Extra Options: not specified
+02-13 10:08:20.339 D/dalvikvm( 1924): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+02-13 10:08:20.379 D/wpa_supplicant(  651): nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: nl80211: New scan results available
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: Event SCAN_RESULTS (3) received
+02-13 10:08:20.379 D/wpa_supplicant(  651): nl80211: Received scan results (15 BSSes)
+02-13 10:08:20.379 D/wpa_supplicant(  651): nl80211: Survey data missing
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: BSS: Start scan result update 2305
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: BSS: Add new id 3493 BSSID 02:09:4c:bc:de:9a SSID 'DIRECT-'
+02-13 10:08:20.379 D/wpa_supplicant(  651): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: BSS: Add new id 3494 BSSID 02:09:4c:42:36:90 SSID 'DIRECT-'
+02-13 10:08:20.379 D/wpa_supplicant(  651): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+02-13 10:08:20.379 I/WifiHW  (  504): EVENT: IFNAME=wlan0 CTRL-EVENT-BSS-ADDED 3493 02:09:4c:bc:de:9a
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: BSS: Remove id 2088 BSSID 80:1f:02:43:fb:e8 SSID 'Edimax AP' due to no match in scan
+02-13 10:08:20.379 D/wpa_supplicant(  651): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: BSS: Remove id 3480 BSSID cc:b2:55:e2:84:70 SSID 'DLINK_APK' due to no match in scan
+02-13 10:08:20.379 D/wpa_supplicant(  651): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+02-13 10:08:20.379 I/WifiHW  (  504): EVENT: IFNAME=wlan0 CTRL-EVENT-BSS-ADDED 3494 02:09:4c:42:36:90
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: BSS: Remove id 3489 BSSID e4:d3:32:c0:cf:a4 SSID 'fast' due to no match in scan
+02-13 10:08:20.379 D/wpa_supplicant(  651): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+02-13 10:08:20.379 I/WifiHW  (  504): EVENT: IFNAME=wlan0 CTRL-EVENT-BSS-REMOVED 2088 80:1f:02:43:fb:e8
+02-13 10:08:20.379 D/wpa_supplicant(  651): BSS: last_scan_res_used=15/32 last_scan_full=0
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: New scan results available
+02-13 10:08:20.379 D/wpa_supplicant(  651): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+02-13 10:08:20.379 I/WifiHW  (  504): EVENT: IFNAME=wlan0 CTRL-EVENT-BSS-REMOVED 3480 cc:b2:55:e2:84:70
+02-13 10:08:20.379 I/WifiHW  (  504): EVENT: IFNAME=wlan0 CTRL-EVENT-BSS-REMOVED 3489 e4:d3:32:c0:cf:a4
+02-13 10:08:20.379 D/wpa_supplicant(  651): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+02-13 10:08:20.379 I/WifiHW  (  504): EVENT: IFNAME=wlan0 CTRL-EVENT-SCAN-RESULTS 
+02-13 10:08:20.379 D/wpa_supplicant(  651): Authorize channel 1
+02-13 10:08:20.379 D/wpa_supplicant(  651): Authorize channel 2
+02-13 10:08:20.379 D/wpa_supplicant(  651): Authorize channel 3
+02-13 10:08:20.379 D/wpa_supplicant(  651): Authorize channel 4
+02-13 10:08:20.379 D/wpa_supplicant(  651): Authorize channel 5
+02-13 10:08:20.379 D/wpa_supplicant(  651): Authorize channel 6
+02-13 10:08:20.379 D/wpa_supplicant(  651): Authorize channel 7
+02-13 10:08:20.379 D/wpa_supplicant(  651): Authorize channel 8
+02-13 10:08:20.379 D/wpa_supplicant(  651): Authorize channel 9
+02-13 10:08:20.379 D/wpa_supplicant(  651): Authorize channel 10
+02-13 10:08:20.379 D/wpa_supplicant(  651): Authorize channel 11
+02-13 10:08:20.379 D/wpa_supplicant(  651): Authorize channel 12
+02-13 10:08:20.379 D/wpa_supplicant(  651): Authorize channel 13
+02-13 10:08:20.379 D/wpa_supplicant(  651): Authorize channel 1
+02-13 10:08:20.379 D/wpa_supplicant(  651): Authorize channel 2
+02-13 10:08:20.379 D/wpa_supplicant(  651): Authorize channel 3
+02-13 10:08:20.379 D/wpa_supplicant(  651): Authorize channel 4
+02-13 10:08:20.379 D/wpa_supplicant(  651): Authorize channel 5
+02-13 10:08:20.379 D/wpa_supplicant(  651): Authorize channel 6
+02-13 10:08:20.379 D/wpa_supplicant(  651): Authorize channel 7
+02-13 10:08:20.379 D/wpa_supplicant(  651): Authorize channel 8
+02-13 10:08:20.379 I/WifiHW  (  504): EVENT: IFNAME=wlan0 WPS-AP-AVAILABLE 
+02-13 10:08:20.379 D/wpa_supplicant(  651): Authorize channel 9
+02-13 10:08:20.379 D/wpa_supplicant(  651): Authorize channel 10
+02-13 10:08:20.379 D/wpa_supplicant(  651): Authorize channel 11
+02-13 10:08:20.379 D/wpa_supplicant(  651): Authorize channel 12
+02-13 10:08:20.379 D/wpa_supplicant(  651): Authorize channel 13
+02-13 10:08:20.379 D/wpa_supplicant(  651): Add access point on channel 11
+02-13 10:08:20.379 D/wpa_supplicant(  651): Add access point on channel 11
+02-13 10:08:20.379 D/wpa_supplicant(  651): Add access point on channel 6
+02-13 10:08:20.379 D/wpa_supplicant(  651): Add access point on channel 1
+02-13 10:08:20.379 D/wpa_supplicant(  651): Add access point on channel 6
+02-13 10:08:20.379 D/wpa_supplicant(  651): Add access point on channel 11
+02-13 10:08:20.379 D/wpa_supplicant(  651): Add access point on channel 4
+02-13 10:08:20.379 D/wpa_supplicant(  651): Add access point on channel 6
+02-13 10:08:20.379 D/wpa_supplicant(  651): Add access point on channel 6
+02-13 10:08:20.379 D/wpa_supplicant(  651): Add access point on channel 1
+02-13 10:08:20.379 D/wpa_supplicant(  651): Add access point on channel 6
+02-13 10:08:20.379 D/wpa_supplicant(  651): Add access point on channel 6
+02-13 10:08:20.379 D/wpa_supplicant(  651): Add access point on channel 1
+02-13 10:08:20.379 D/wpa_supplicant(  651): Add access point on channel 11
+02-13 10:08:20.379 D/wpa_supplicant(  651): Add access point on channel 11
+02-13 10:08:20.379 I/WifiHW  (  504): CMD: IFNAME=wlan0 BSS RANGE=0- MASK=0x21987
+02-13 10:08:20.379 D/wpa_supplicant(  651): Add access point on channel 9
+02-13 10:08:20.379 D/wpa_supplicant(  651): Add access point on channel 1
+02-13 10:08:20.379 D/wpa_supplicant(  651): Add access point on channel 6
+02-13 10:08:20.379 D/wpa_supplicant(  651): Add access point on channel 1
+02-13 10:08:20.379 D/wpa_supplicant(  651): Add access point on channel 1
+02-13 10:08:20.379 D/wpa_supplicant(  651): Best Operating channel is = 1
+02-13 10:08:20.379 D/wpa_supplicant(  651): WPS: AP[0] f8:d1:11:e7:99:e8 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:08:20.379 D/wpa_supplicant(  651): WPS: AP[1] 10:c3:7b:d2:e5:e0 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:08:20.379 D/wpa_supplicant(  651): WPS: AP[2] b0:48:7a:20:66:6a type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:08:20.379 D/wpa_supplicant(  651): WPS: AP[3] cc:34:29:2b:26:4c type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:08:20.379 D/wpa_supplicant(  651): WPS: AP[4] cc:34:29:2c:fb:ec type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:08:20.379 D/wpa_supplicant(  651): WPS: AP[5] 44:94:fc:3d:da:38 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:08:20.379 D/wpa_supplicant(  651): WPS: AP[6] c0:c1:c0:76:81:3c type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:08:20.379 D/wpa_supplicant(  651): WPS: AP[7] 98:fc:11:81:35:fb type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:08:20.379 D/wpa_supplicant(  651): WPS: AP[8] b0:48:7a:51:ff:cc type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:08:20.379 D/wpa_supplicant(  651): WPS: AP[9] 14:d6:4d:28:ef:c8 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:08:20.379 D/wpa_supplicant(  651): WPS: AP[10] 7a:ff:57:00:13:56 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:08:20.379 D/wpa_supplicant(  651): WPS: AP[11] c8:d7:19:60:62:f2 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:08:20.379 D/wpa_supplicant(  651): WPS: AP[12] c0:a0:bb:20:3b:84 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:08:20.379 D/wpa_supplicant(  651): WPS: AP[13] 5e:f3:70:0c:91:9a type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:08:20.379 D/wpa_supplicant(  651): WPS: AP[14] 02:09:4c:42:36:90 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:08:20.379 D/wpa_supplicant(  651): WPS: AP[15] e4:d3:32:36:2e:54 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:08:20.379 D/wpa_supplicant(  651): WPS: AP[16] 6c:8b:2f:e9:d1:da type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:08:20.379 D/wpa_supplicant(  651): WPS: AP[17] 9c:21:6a:0d:eb:72 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:08:20.379 D/wpa_supplicant(  651): WPS: AP[18] 02:09:4c:eb:14:b2 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:08:20.379 D/wpa_supplicant(  651): WPS: AP[19] 2c:b0:5d:7f:f4:24 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:08:20.379 D/wpa_supplicant(  651): WPS: AP[20] 08:ed:b9:2e:8e:1f type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:08:20.379 D/wpa_supplicant(  651): WPS: AP[21] e4:d3:32:db:f6:03 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:08:20.379 D/wpa_supplicant(  651): WPS: AP[22] ac:f1:df:cf:85:c0 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: Selecting BSS from priority group 17
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: 0: f8:d1:11:e7:99:e8 ssid='videotest' wpa_ie_len=22 rsn_ie_len=20 caps=0x531 level=-44 wps
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: 1: c8:d7:19:60:62:f2 ssid='E3000-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-48
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: 2: 10:c3:7b:d2:e5:e0 ssid='ASUS_RT-AC66U-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-53 wps
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: 3: cc:34:29:2b:26:4c ssid='cws-test' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-54 wps
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: 4: 02:1a:11:ff:f7:0a ssid='io1' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-56
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: 5: c0:c1:c0:76:81:3c ssid='E2000' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-57 wps
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: 6: cc:34:29:2c:fb:ec ssid='linksys' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-59 wps
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: 7: 44:94:fc:3d:da:38 ssid='6300' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-61 wps
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: 8: 14:d6:4d:28:ef:c8 ssid='dlink' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-62 wps
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: 9: b0:48:7a:20:66:6a ssid='TP-LINK_20666A' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-62 wps
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: 10: 98:fc:11:81:35:fb ssid='E2000E' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-71 wps
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: 11: 74:e5:43:24:f4:5b ssid='Dttest' wpa_ie_len=0 rsn_ie_len=20 caps=0x31 level=-71
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: 12: 00:0f:e2:0f:9f:c1 ssid='321_WAN' wpa_ie_len=28 rsn_ie_len=24 caps=0x411 level=-80
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: 13: 02:09:4c:bc:de:9a ssid='DIRECT-' wpa_ie_len=0 rsn_ie_len=0 caps=0x410 level=-71
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: 14: 02:09:4c:42:36:90 ssid='DIRECT-' wpa_ie_len=0 rsn_ie_len=0 caps=0x410 level=-76
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: Selecting BSS from priority group 15
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: 0: f8:d1:11:e7:99:e8 ssid='videotest' wpa_ie_len=22 rsn_ie_len=20 caps=0x531 level=-44 wps
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: 1: c8:d7:19:60:62:f2 ssid='E3000-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-48
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: 2: 10:c3:7b:d2:e5:e0 ssid='ASUS_RT-AC66U-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-53 wps
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: 3: cc:34:29:2b:26:4c ssid='cws-test' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-54 wps
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: 4: 02:1a:11:ff:f7:0a ssid='io1' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-56
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: 5: c0:c1:c0:76:81:3c ssid='E2000' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-57 wps
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: 6: cc:34:29:2c:fb:ec ssid='linksys' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-59 wps
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: 7: 44:94:fc:3d:da:38 ssid='6300' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-61 wps
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: 8: 14:d6:4d:28:ef:c8 ssid='dlink' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-62 wps
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: 9: b0:48:7a:20:66:6a ssid='TP-LINK_20666A' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-62 wps
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: 10: 98:fc:11:81:35:fb ssid='E2000E' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-71 wps
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: 11: 74:e5:43:24:f4:5b ssid='Dttest' wpa_ie_len=0 rsn_ie_len=20 caps=0x31 level=-71
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: 12: 00:0f:e2:0f:9f:c1 ssid='321_WAN' wpa_ie_len=28 rsn_ie_len=24 caps=0x411 level=-80
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: 13: 02:09:4c:bc:de:9a ssid='DIRECT-' wpa_ie_len=0 rsn_ie_len=0 caps=0x410 level=-71
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: 14: 02:09:4c:42:36:90 ssid='DIRECT-' wpa_ie_len=0 rsn_ie_len=0 caps=0x410 level=-76
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: Selecting BSS from priority group 4
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: 0: f8:d1:11:e7:99:e8 ssid='videotest' wpa_ie_len=22 rsn_ie_len=20 caps=0x531 level=-44 wps
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: 1: c8:d7:19:60:62:f2 ssid='E3000-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-48
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: 2: 10:c3:7b:d2:e5:e0 ssid='ASUS_RT-AC66U-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-53 wps
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: 3: cc:34:29:2b:26:4c ssid='cws-test' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-54 wps
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: 4: 02:1a:11:ff:f7:0a ssid='io1' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-56
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: 5: c0:c1:c0:76:81:3c ssid='E2000' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-57 wps
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: 6: cc:34:29:2c:fb:ec ssid='linksys' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-59 wps
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: 7: 44:94:fc:3d:da:38 ssid='6300' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-61 wps
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: 8: 14:d6:4d:28:ef:c8 ssid='dlink' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-62 wps
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: 9: b0:48:7a:20:66:6a ssid='TP-LINK_20666A' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-62 wps
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: 10: 98:fc:11:81:35:fb ssid='E2000E' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-71 wps
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: 11: 74:e5:43:24:f4:5b ssid='Dttest' wpa_ie_len=0 rsn_ie_len=20 caps=0x31 level=-71
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: 12: 00:0f:e2:0f:9f:c1 ssid='321_WAN' wpa_ie_len=28 rsn_ie_len=24 caps=0x411 level=-80
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: 13: 02:09:4c:bc:de:9a ssid='DIRECT-' wpa_ie_len=0 rsn_ie_len=0 caps=0x410 level=-71
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: 14: 02:09:4c:42:36:90 ssid='DIRECT-' wpa_ie_len=0 rsn_ie_len=0 caps=0x410 level=-76
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: No suitable network found
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: Setting scan request: 40 sec 0 usec
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: Checking for other virtual interfaces sharing same radio (phy0) in event_scan_results
+02-13 10:08:20.379 D/wpa_supplicant(  651): p2p-dev-wlan0: Updating scan results from sibling
+02-13 10:08:20.379 D/wpa_supplicant(  651): nl80211: Received scan results (15 BSSes)
+02-13 10:08:20.379 D/wpa_supplicant(  651): nl80211: Survey data missing
+02-13 10:08:20.379 D/wpa_supplicant(  651): p2p-dev-wlan0: BSS: Start scan result update 2295
+02-13 10:08:20.379 D/wpa_supplicant(  651): BSS: No P2P IE - skipping BSS f8:d1:11:e7:99:e8 update for P2P interface
+02-13 10:08:20.379 D/wpa_supplicant(  651): BSS: No P2P IE - skipping BSS c8:d7:19:60:62:f2 update for P2P interface
+02-13 10:08:20.379 D/wpa_supplicant(  651): BSS: No P2P IE - skipping BSS 10:c3:7b:d2:e5:e0 update for P2P interface
+02-13 10:08:20.379 D/wpa_supplicant(  651): BSS: No P2P IE - skipping BSS cc:34:29:2b:26:4c update for P2P interface
+02-13 10:08:20.379 D/wpa_supplicant(  651): BSS: No P2P IE - skipping BSS 02:1a:11:ff:f7:0a update for P2P interface
+02-13 10:08:20.379 D/wpa_supplicant(  651): BSS: No P2P IE - skipping BSS c0:c1:c0:76:81:3c update for P2P interface
+02-13 10:08:20.379 D/wpa_supplicant(  651): BSS: No P2P IE - skipping BSS cc:34:29:2c:fb:ec update for P2P interface
+02-13 10:08:20.379 D/wpa_supplicant(  651): BSS: No P2P IE - skipping BSS 44:94:fc:3d:da:38 update for P2P interface
+02-13 10:08:20.379 D/wpa_supplicant(  651): BSS: No P2P IE - skipping BSS 14:d6:4d:28:ef:c8 update for P2P interface
+02-13 10:08:20.379 D/wpa_supplicant(  651): BSS: No P2P IE - skipping BSS b0:48:7a:20:66:6a update for P2P interface
+02-13 10:08:20.379 D/wpa_supplicant(  651): BSS: No P2P IE - skipping BSS 98:fc:11:81:35:fb update for P2P interface
+02-13 10:08:20.379 D/wpa_supplicant(  651): BSS: No P2P IE - skipping BSS 74:e5:43:24:f4:5b update for P2P interface
+02-13 10:08:20.379 D/wpa_supplicant(  651): BSS: No P2P IE - skipping BSS 00:0f:e2:0f:9f:c1 update for P2P interface
+02-13 10:08:20.379 D/wpa_supplicant(  651): BSS: No P2P IE - skipping BSS 02:09:4c:bc:de:9a update for P2P interface
+02-13 10:08:20.379 D/wpa_supplicant(  651): BSS: No P2P IE - skipping BSS 02:09:4c:42:36:90 update for P2P interface
+02-13 10:08:20.379 D/wpa_supplicant(  651): BSS: last_scan_res_used=0/32 last_scan_full=0
+02-13 10:08:20.379 D/wpa_supplicant(  651): p2p-dev-wlan0: New scan results available
+02-13 10:08:20.379 D/wpa_supplicant(  651): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+02-13 10:08:20.379 D/wpa_supplicant(  651): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+02-13 10:08:20.379 I/WifiHW  (  504): EVENT: IFNAME=p2p-dev-wlan0 CTRL-EVENT-SCAN-RESULTS 
+02-13 10:08:20.379 D/wpa_supplicant(  651): WPS: AP[0] 10:c3:7b:d2:e5:e0 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:08:20.379 D/wpa_supplicant(  651): WPS: AP[1] b0:48:7a:20:66:6a type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:08:20.379 D/wpa_supplicant(  651): WPS: AP[2] f8:d1:11:e7:99:e8 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:08:20.379 D/wpa_supplicant(  651): WPS: AP[3] 44:94:fc:3d:da:38 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:08:20.379 D/wpa_supplicant(  651): WPS: AP[4] cc:34:29:2c:fb:ec type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:08:20.379 D/wpa_supplicant(  651): WPS: AP[5] c8:d7:19:60:62:f2 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:08:20.379 D/wpa_supplicant(  651): WPS: AP[6] cc:34:29:2b:26:4c type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:08:20.379 D/wpa_supplicant(  651): WPS: AP[7] 98:fc:11:81:35:fb type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:08:20.379 D/wpa_supplicant(  651): WPS: AP[8] 14:d6:4d:28:ef:c8 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:08:20.379 D/wpa_supplicant(  651): WPS: AP[9] b0:48:7a:51:ff:cc type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:08:20.379 D/wpa_supplicant(  651): WPS: AP[10] 7a:ff:57:00:13:56 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:08:20.379 D/wpa_supplicant(  651): WPS: AP[11] c0:a0:bb:20:3b:84 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:08:20.379 D/wpa_supplicant(  651): WPS: AP[12] c0:c1:c0:76:81:3c type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:08:20.379 D/wpa_supplicant(  651): WPS: AP[13] 5e:f3:70:0c:91:9a type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:08:20.379 D/wpa_supplicant(  651): WPS: AP[14] 02:09:4c:42:36:90 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:08:20.379 I/WifiHW  (  504): EVENT: IFNAME=p2p-dev-wlan0 WPS-AP-AVAILABLE 
+02-13 10:08:20.379 D/wpa_supplicant(  651): WPS: AP[15] e4:d3:32:36:2e:54 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:08:20.379 D/wpa_supplicant(  651): WPS: AP[16] 6c:8b:2f:e9:d1:da type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:08:20.379 D/wpa_supplicant(  651): WPS: AP[17] 9c:21:6a:0d:eb:72 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:08:20.379 D/wpa_supplicant(  651): WPS: AP[18] 02:09:4c:eb:14:b2 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:08:20.379 D/wpa_supplicant(  651): WPS: AP[19] 2c:b0:5d:7f:f4:24 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:08:20.379 D/wpa_supplicant(  651): WPS: AP[20] 08:ed:b9:2e:8e:1f type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:08:20.379 D/wpa_supplicant(  651): WPS: AP[21] e4:d3:32:db:f6:03 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:08:20.379 D/wpa_supplicant(  651): WPS: AP[22] ac:f1:df:cf:85:c0 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:08:20.379 D/wpa_supplicant(  651): p2p-dev-wlan0: No suitable network found
+02-13 10:08:20.379 D/wpa_supplicant(  651): p2p-dev-wlan0: Short-circuit new scan request since there are no enabled networks
+02-13 10:08:20.379 D/wpa_supplicant(  651): p2p-dev-wlan0: State: INACTIVE -> INACTIVE
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: P2P: Station mode scan operation not pending anymore (sta_scan_pending=0 p2p_cb_on_scan_complete=0)
+02-13 10:08:20.379 D/wpa_supplicant(  651): RX ctrl_iface - hexdump(len=25): 42 53 53 20 52 41 4e 47 45 3d 30 2d 20 4d 41 53 4b 3d 30 78 32 31 39 38 37
+02-13 10:08:20.379 D/wpa_supplicant(  651): wlan0: Control interface command 'BSS RANGE=0- MASK=0x21987'
+02-13 10:08:20.379 D/wpa_supplicant(  651): RTM_NEWLINK: operstate=0 ifi_flags=0x11003 ([UP][LOWER_UP])
+02-13 10:08:20.379 D/wpa_supplicant(  651): RTM_NEWLINK, IFLA_IFNAME: Interface 'wlan0' added
+02-13 10:08:20.379 D/wpa_supplicant(  651): nl80211: if_removed already cleared - ignore event
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: id=329
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: bssid=10:c3:7b:d2:e5:e0
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: freq=2462
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: level=-53
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: tsf=0000148436563490
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: flags=[WPA2-PSK-CCMP][WPS][ESS]
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: ssid=ASUS_RT-AC66U-2.4G
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: ====
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: id=332
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: bssid=44:94:fc:3d:da:38
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: freq=2462
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: level=-61
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: tsf=0000148436563493
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: flags=[WPA2-EAP-CCMP-preauth][WPS][ESS]
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: ssid=6300
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: ====
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: id=345
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: bssid=f8:d1:11:e7:99:e8
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: freq=2437
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: level=-44
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: tsf=0000148436563443
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: flags=[WPA-PSK-CCMP][WPA2-PSK-CCMP][WPS][ESS]
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: ssid=videotest
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: ====
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: id=491
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: bssid=cc:34:29:2c:fb:ec
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: freq=2412
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: level=-59
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: tsf=0000148436563326
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: flags=[WPA-PSK-CCMP][WPA2-PSK-CCMP][WPS][ESS]
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: ssid=linksys
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: ====
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: id=1492
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: bssid=02:1a:11:ff:f7:0a
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: freq=2437
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: level=-56
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: tsf=0000148436563481
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: flags=[WPA2-PSK-CCMP][ESS]
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: ssid=io1
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: ====
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: id=1556
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: bssid=cc:34:29:2b:26:4c
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: freq=2462
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: level=-54
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: tsf=0000148436563500
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: flags=[WPA2-PSK-CCMP][WPS][ESS]
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: ssid=cws-test
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: ====
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: id=1719
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: bssid=b0:48:7a:20:66:6a
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: freq=2427
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: level=-62
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: tsf=0000148436563385
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: flags=[WPA-PSK-CCMP][WPA2-PSK-CCMP][WPS][ESS]
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: ssid=TP-LINK_20666A
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: ====
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: id=2416
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: bssid=c0:c1:c0:76:81:3c
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: freq=2437
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: level=-57
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: tsf=0000148436563447
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: flags=[WPA2-PSK-CCMP][WPS][ESS]
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: ssid=E2000
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: ====
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: id=2861
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: bssid=c8:d7:19:60:62:f2
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: freq=2437
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: level=-48
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: tsf=0000148436563486
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: flags=[WPA2-EAP-CCMP-preauth][ESS]
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: ssid=E3000-2.4G
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: ====
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: id=3448
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: bssid=74:e5:43:24:f4:5b
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: freq=2412
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: level=-71
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: tsf=0000148436563380
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: flags=[WPA2-PSK-CCMP][ESS]
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: ssid=Dttest
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: ====
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: id=3449
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: bssid=14:d6:4d:28:ef:c8
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: freq=2437
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: level=-62
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: tsf=0000148436563437
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: flags=[WPA2-PSK-CCMP][WPS][ESS]
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: ssid=dlink
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: ====
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: id=3462
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: bssid=50:bd:5f:4b:29:92
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: freq=2437
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: level=-74
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: tsf=0000148431429953
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: flags=[ESS]
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: ssid=Internet-2
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: ====
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: id=3470
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: bssid=98:fc:11:81:35:fb
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: freq=2412
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: level=-71
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: tsf=0000148436563322
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: flags=[WPA2-PSK-CCMP][WPS][ESS]
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: ssid=E2000E
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: ====
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: id=3478
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: bssid=00:0f:e2:0f:9f:c1
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: freq=2462
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: level=-80
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: tsf=0000148436563497
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: flags=[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: ssid=321_WAN
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: ====
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: id=3487
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: bssid=5e:f3:70:0c:91:9a
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: freq=2462
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: level=-67
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: tsf=0000148431430034
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: flags=[WPA2-PSK-CCMP][WPS][ESS][P2P]
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: ssid=DIRECT-30-Android_7f71
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: ====
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: id=3490
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: bssid=b0:48:7a:51:ff:cc
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: freq=2452
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: level=-69
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: tsf=0000148431429990
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: flags=[WPA-PSK-CCMP][WPA2-PSK-CCMP][WPS][ESS]
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: ssid=Neusoft TP
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: ====
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: id=3491
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: bssid=02:09:4c:6d:4d:9e
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: freq=2412
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: level=-73
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: tsf=0000148431429882
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: flags=[WEP]
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: ssid=DIRECT-
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: ====
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: id=3492
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: bssid=e4:d3:32:dd:18:62
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: freq=2437
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: level=-71
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: tsf=0000148431429962
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: flags=[ESS]
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: ssid=Internet
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: ====
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: id=3493
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: bssid=02:09:4c:bc:de:9a
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: freq=2412
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: level=-71
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: tsf=0000148436563374
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: flags=[WEP]
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: ssid=DIRECT-
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: ====
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: id=3494
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: bssid=02:09:4c:42:36:90
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: freq=2412
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: level=-76
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: tsf=0000148436563329
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: flags=[WEP]
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: ssid=DIRECT-
+02-13 10:08:20.379 I/WifiHW  (  504): REPLY: ####
+02-13 10:08:20.419 E/memtrack( 1924): Couldn't load memtrack module (No such file or directory)
+02-13 10:08:20.419 E/android.os.Debug( 1924): failed to load memtrack module: -2
+02-13 10:08:20.459 D/AndroidRuntime( 1924): Calling main entry com.android.commands.am.Am
+02-13 10:08:20.479 D/EVENT_THREAD(  183): void CEventThread::run() POLLIN event on Fd (1)
+02-13 10:08:20.479 D/EVENT_THREAD(  183): void CEventThread::run() Do poll with timeout: -1
+02-13 10:08:20.479 I/upi_ug31xx(  166): (11436) backup_data 
+02-13 10:08:20.479 V/upi_ug31xx(  166): state->check_backup_count = 7
+02-13 10:08:20.489 D/AndroidRuntime( 1924): Shutting down VM
+02-13 10:08:20.489 D/dalvikvm( 1924): GC_CONCURRENT freed 112K, 16% free 666K/792K, paused 0ms+0ms, total 1ms
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 D/dalvikvm( 1924): Compiler shutdown in progress - discarding request
+02-13 10:08:20.489 I/ActivityManager(  504): Force stopping org.xwalk.webapi_noneservice_tests appid=10259 user=0: from pid 1924
+02-13 10:08:20.929 I/AudioPolicyManagerBase(  183): APM: getOutput
+02-13 10:08:20.929 I/AudioPolicyManagerBase(  183): APM: getOutput
+02-13 10:08:20.929 I/AudioPolicyManagerBase(  183): APM: getOutput
+02-13 10:08:20.929 W/AudioTrack(  566): AUDIO_OUTPUT_FLAG_FAST denied by client
+02-13 10:08:20.929 D/AudioPolicyManagerALSA(  183): startOutput() output 2, stream type 1, session 37
+02-13 10:08:20.929 D/AudioHardwareALSA(  183): setStreamParameters: key value pair routing=2;stream_flags=2
+02-13 10:08:20.929 D/RouteManager(  183): setOutputFlags: output flags = 0x2 (Prev Flags=0x2)
+02-13 10:08:20.929 D/RouteManager(  183): setDevices: 0x2
+02-13 10:08:20.929 D/RouteManager(  183): setDevices: 0x2
+02-13 10:08:20.929 D/RouteManager(  183): setDevices: set device = IHF to output stream
+02-13 10:08:20.929 D/RouteManager(  183): setStreamParameters: identical Platform State, do not reconsider routing
+02-13 10:08:20.929 D/WindowManager(  504): adjustConfigurationLw, config:{1.0 ?mcc?mnc ?locale ?layoutDir sw600dp w600dp h888dp 213dpi lrg port ?uimode ?night finger -keyb/v/h -nav/v} mLidState:1 mHasDockFeature:false mHasKeyboardFeature:false mHasHallSensorFeature:true config.hardKeyboardHidden:2
+02-13 10:08:20.939 D/        (  566): Surface destroy: ANDROID_NATIVE_WINDOW_MAGIC
+02-13 10:08:20.939 D/AudioResamplerIA(  183): Create AudioResamplerIA Resampler: Input rate 44100, output rate 48000
+02-13 10:08:20.949 D/PROPERTY(  183): get media.dump_output.befconv: 0
+02-13 10:08:20.949 D/PROPERTY(  183): get media.dump_output.aftconv: 0
+02-13 10:08:20.949 D/RouteManager(  183): startStream: {+++ RECONSIDER ROUTING +++} due to output stream start event
+02-13 10:08:20.949 D/RouteManager(  183): reconsiderRouting
+02-13 10:08:20.949 D/EVENT_THREAD(  183): void CEventThread::trig(uint16_t): in
+02-13 10:08:20.949 D/EVENT_THREAD(  183): void CEventThread::trig(uint16_t): out
+02-13 10:08:20.949 D/RouteManager(  183): doReconsiderRouting:       Platform State:
+02-13 10:08:20.949 D/RouteManager(  183): doReconsiderRouting:          -Modem Alive = 0 
+02-13 10:08:20.949 D/RouteManager(  183): doReconsiderRouting:          -Modem Call Active = 0 
+02-13 10:08:20.949 D/RouteManager(  183): doReconsiderRouting:          -Is Shared I2S glitch free=1 
+02-13 10:08:20.949 D/RouteManager(  183): doReconsiderRouting:          -Android Telephony Mode = Normal 
+02-13 10:08:20.949 D/RouteManager(  183): doReconsiderRouting:          -RTE MGR HW Mode = Normal 
+02-13 10:08:20.949 D/RouteManager(  183): doReconsiderRouting:          -BT Enabled = 1 
+02-13 10:08:20.949 D/RouteManager(  183): doReconsiderRouting:          -BT NREC = 0 
+02-13 10:08:20.949 D/RouteManager(  183): doReconsiderRouting:          -BT Band = NB 
+02-13 10:08:20.949 D/RouteManager(  183): doReconsiderRouting:          -Platform output device = IHF 
+02-13 10:08:20.949 D/RouteManager(  183): doReconsiderRouting:          -Platform input device = <none> 
+02-13 10:08:20.949 D/RouteManager(  183): doReconsiderRouting:          -Platform input source = None 
+02-13 10:08:20.949 D/RouteManager(  183): doReconsiderRouting:          -Platform Band type = NB 
+02-13 10:08:20.949 D/RouteManager(  183): doReconsiderRouting:          -Platform Has Direct Stream = no 
+02-13 10:08:20.949 D/RouteManager(  183): doReconsiderRouting:          -Platform TTY direction = <none> 
+02-13 10:08:20.949 D/RouteManager(  183): doReconsiderRouting:          -Platform HAC Mode = Off 
+02-13 10:08:20.949 D/RouteManager(  183): doReconsiderRouting:          -Platform Screen State = On 
+02-13 10:08:20.949 D/RouteManager(  183): doReconsiderRouting:          -Platform Context Awareness = false 
+02-13 10:08:20.949 D/RouteManager(  183): doReconsiderRouting:          -Platform Always Listening = false 
+02-13 10:08:20.949 D/RouteManager(  183): doReconsiderRouting:          -Platform FM State = Off 
+02-13 10:08:20.949 D/RouteManager(  183): doReconsiderRouting:          -Platform Bypass Non Linear PP State = Off 
+02-13 10:08:20.949 D/RouteManager(  183): doReconsiderRouting:          -Platform Bypass Linear PP State = Off 
+02-13 10:08:20.949 D/RouteManager(  183): doReconsiderRouting:          -Platform MicMute = Off 
+02-13 10:08:20.949 D/RouteManager(  183): doReconsiderRouting:      Route state:
+02-13 10:08:20.949 D/RouteManager(  183): doReconsiderRouting:          -Previously Enabled Route in Input = <none>
+02-13 10:08:20.949 D/RouteManager(  183): doReconsiderRouting:          -Previously Enabled Route in Output = <none>
+02-13 10:08:20.949 D/RouteManager(  183): doReconsiderRouting:          -Selected Route in Input = <none>
+02-13 10:08:20.949 D/RouteManager(  183): doReconsiderRouting:          -Selected Route in Output = Media|HwCodecMedia
+02-13 10:08:20.949 D/RouteManager(  183): doReconsiderRouting:          -Route that need reconfiguration in Input = <none>
+02-13 10:08:20.949 D/RouteManager(  183): doReconsiderRouting:          -Route that need reconfiguration in Output = <none>
+02-13 10:08:20.949 D/RouteManager(  183): executeMuteStage: --------------- Routing Stage = Mute ---------------
+02-13 10:08:20.949 D/RouteManager(  183): parameter-framework: Selection criterion changed event: Criterion name: RoutageState, current state: Flow
+02-13 10:08:20.949 D/RouteManager(  183): parameter-framework: Configuration application request {
+02-13 10:08:20.949 D/RouteManager(  183): parameter-framework:     Applying configurations {
+02-13 10:08:20.949 D/RouteManager(  183): parameter-framework:     } Applying configurations
+02-13 10:08:20.949 D/RouteManager(  183): parameter-framework: } Configuration application request
+02-13 10:08:20.949 D/RouteManager(  183): executeDisableStage: --------------- Routing Stage = Disable ---------------
+02-13 10:08:20.949 D/RouteManager(  183): parameter-framework: Selection criterion changed event: Criterion name: RoutageState, current state: Path
+02-13 10:08:20.949 D/RouteManager(  183): parameter-framework: Configuration application request {
+02-13 10:08:20.949 D/RouteManager(  183): parameter-framework:     Applying configurations {
+02-13 10:08:20.949 D/RouteManager(  183): parameter-framework:     } Applying configurations
+02-13 10:08:20.949 D/RouteManager(  183): parameter-framework: } Configuration application request
+02-13 10:08:20.949 D/RouteManager(  183): executeConfigureStage: --------------- Routing Stage = Configure ---------------
+02-13 10:08:20.949 D/RouteManager(  183): parameter-framework: Selection criterion changed event: Criterion name: RoutageState, current state: Configure
+02-13 10:08:20.949 D/RouteManager(  183): parameter-framework: Selection criterion changed event: Criterion name: OpenedPlaybackRoutes, current state: Media|HwCodecMedia
+02-13 10:08:20.949 D/RouteManager(  183): parameter-framework: Selection criterion changed event: Criterion name: ScreenState, current state: On
+02-13 10:08:20.949 D/RouteManager(  183): parameter-framework: Configuration application request {
+02-13 10:08:20.949 D/RouteManager(  183): parameter-framework:     Applying configurations {
+02-13 10:08:20.949 D/RouteManager(  183): parameter-framework:         Applying configuration "Activated" from domain "Routing.Configure.LPE_Mixer.IHF"
+02-13 10:08:20.969 E/AppsCustomizePagedView(  675): Widget ComponentInfo{com.asus.contacts/com.android.contacts.miniwidget.ContactsWidget} has invalid dimensions (0, 0)
+02-13 10:08:20.969 D/AsusPhoneStatusBar(  566): disable: < expand icons alerts ticker system_info back* home* recent* clock* search >
+02-13 10:08:20.969 E/AppsCustomizePagedView(  675): Widget ComponentInfo{com.asus.calendar/com.android.calendar.widget2.CalendarAppWidgetPadProvider} has invalid dimensions (0, 0)
+02-13 10:08:20.969 D/RouteManager(  183): parameter-framework:     } Applying configurations
+02-13 10:08:20.969 D/RouteManager(  183): parameter-framework: } Configuration application request
+02-13 10:08:20.969 D/RouteManager(  183): executeEnableStage: --------------- Routing Stage = Enable ---------------
+02-13 10:08:20.969 D/RouteManager(  183): parameter-framework: Selection criterion changed event: Criterion name: RoutageState, current state: Path|Configure
+02-13 10:08:20.969 D/RouteManager(  183): doEnableRoutes: Routes to be enabled(routed) in Output = Media|HwCodecMedia
+02-13 10:08:20.969 D/RouteManager(  183): parameter-framework: Configuration application request {
+02-13 10:08:20.969 D/RouteManager(  183): parameter-framework:     Applying configurations {
+02-13 10:08:20.969 D/RouteManager(  183): parameter-framework:         Applying configuration "Enable" from domain "Routing.Enable.HWCodec.Playback.IHF"
+02-13 10:08:20.969 D/RouteManager(  183): parameter-framework:         Applying configuration "Enable" from domain "Routing.Enable.HWCodec.Playback.Multimedia.IHF"
+02-13 10:08:20.969 D/RouteManager(  183): parameter-framework:         Applying configuration "Enable" from domain "Routing.Enable.HWCodec.Playback.Multimedia.Playback"
+02-13 10:08:20.989 D/RouteManager(  183): parameter-framework:     } Applying configurations
+02-13 10:08:20.989 D/RouteManager(  183): parameter-framework: } Configuration application request
+02-13 10:08:20.989 D/RouteManager(  183): doEnableRoutes: Routes to be enabled(routed) in Output = Media|HwCodecMedia
+02-13 10:08:20.989 D/RouteManager/StreamRoute(  183): openPcmDevice called for card (baytrailaudio,0)
+02-13 10:08:20.989 D/RouteManager/StreamRoute(  183): openPcmDevice		 config=rate(48000), format(0), channels(2))
+02-13 10:08:20.989 D/RouteManager/StreamRoute(  183): openPcmDevice		 period_size=1152, period_count=4
+02-13 10:08:20.989 D/RouteManager/StreamRoute(  183): openPcmDevice		 startTh=4607, stop Th=4608 silence Th=0
+02-13 10:08:21.059 D/dalvikvm(  675): GC_CONCURRENT freed 4340K, 26% free 12580K/16936K, paused 1ms+3ms, total 21ms
+02-13 10:08:21.059 D/AndroidRuntime( 1935): 
+02-13 10:08:21.059 D/AndroidRuntime( 1935): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-13 10:08:21.059 D/AndroidRuntime( 1935): CheckJNI is OFF
+02-13 10:08:21.059 I/AndroidRuntime( 1935): Kernel Release Version: 3.10.20-gf818079
+02-13 10:08:21.069 I/dalvikvm( 1935): No library specified. The standard exception handler will be used
+02-13 10:08:21.069 I/dalvikvm( 1935): 
+02-13 10:08:21.069 I/dalvikvm( 1935): +++++++++++++ Using PCG. +++++++++++++++++++++
+02-13 10:08:21.069 D/ALSAStreamOps(  183): attachRouteL output stream
+02-13 10:08:21.069 D/AudioConversion(  183): configure: no convertion required
+02-13 10:08:21.069 D/RouteManager(  183): executeUnmuteStage: --------------- Routing Stage = Unmute ---------------
+02-13 10:08:21.069 D/RouteManager(  183): parameter-framework: Selection criterion changed event: Criterion name: RoutageState, current state: Flow|Path|Configure
+02-13 10:08:21.069 D/RouteManager(  183): parameter-framework: Configuration application request {
+02-13 10:08:21.069 D/RouteManager(  183): parameter-framework:     Applying configurations {
+02-13 10:08:21.069 D/RouteManager(  183): parameter-framework:     } Applying configurations
+02-13 10:08:21.069 D/RouteManager(  183): parameter-framework: } Configuration application request
+02-13 10:08:21.069 D/EVENT_THREAD(  183): void CEventThread::run() Do poll with timeout: -1
+02-13 10:08:21.069 D/RouteManager(  183): reconsiderRouting: DONE
+02-13 10:08:21.079 D/dalvikvm( 1935): Trying to load lib libjavacore.so 0x0
+02-13 10:08:21.079 D/dalvikvm( 1935): Added shared lib libjavacore.so 0x0
+02-13 10:08:21.079 D/dalvikvm( 1935): Trying to load lib libnativehelper.so 0x0
+02-13 10:08:21.079 D/dalvikvm( 1935): Added shared lib libnativehelper.so 0x0
+02-13 10:08:21.079 D/dalvikvm( 1935): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-13 10:08:21.089 D/dalvikvm( 1935): Extra Options: not specified
+02-13 10:08:21.109 D/dalvikvm( 1935): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+02-13 10:08:21.129 D/dalvikvm(  675): GC_FOR_ALLOC freed 548K, 27% free 12394K/16936K, paused 7ms, total 7ms
+02-13 10:08:21.129 I/dalvikvm-heap(  675): Grow heap (frag case) to 12.208MB for 65552-byte allocation
+02-13 10:08:21.139 D/dalvikvm(  675): GC_FOR_ALLOC freed 3K, 27% free 12454K/17004K, paused 8ms, total 8ms
+02-13 10:08:21.169 D/dalvikvm(  675): GC_FOR_ALLOC freed 111K, 27% free 12452K/17004K, paused 6ms, total 6ms
+02-13 10:08:21.189 E/memtrack( 1935): Couldn't load memtrack module (No such file or directory)
+02-13 10:08:21.189 E/android.os.Debug( 1935): failed to load memtrack module: -2
+02-13 10:08:21.219 D/dalvikvm(  675): GC_FOR_ALLOC freed 150K, 27% free 12548K/17004K, paused 7ms, total 10ms
+02-13 10:08:21.229 D/AndroidRuntime( 1935): Calling main entry com.android.commands.am.Am
+02-13 10:08:21.249 D/dalvikvm(  675): GC_FOR_ALLOC freed 71K, 27% free 12577K/17004K, paused 6ms, total 6ms
+02-13 10:08:21.269 D/AndroidRuntime( 1935): Shutting down VM
+02-13 10:08:21.269 D/dalvikvm( 1935): GC_CONCURRENT freed 117K, 16% free 702K/832K, paused 0ms+0ms, total 1ms
+02-13 10:08:21.269 D/dalvikvm( 1935): Compiler shutdown in progress - discarding request
+02-13 10:08:21.269 D/dalvikvm( 1935): Compiler shutdown in progress - discarding request
+02-13 10:08:21.269 D/dalvikvm( 1935): Compiler shutdown in progress - discarding request
+02-13 10:08:21.269 D/dalvikvm( 1935): Compiler shutdown in progress - discarding request
+02-13 10:08:21.269 D/dalvikvm( 1935): Compiler shutdown in progress - discarding request
+02-13 10:08:21.269 D/dalvikvm( 1935): Compiler shutdown in progress - discarding request
+02-13 10:08:21.269 D/dalvikvm( 1935): Compiler shutdown in progress - discarding request
+02-13 10:08:21.269 D/dalvikvm( 1935): Compiler shutdown in progress - discarding request
+02-13 10:08:21.269 D/dalvikvm( 1935): Compiler shutdown in progress - discarding request
+02-13 10:08:21.269 D/dalvikvm( 1935): Compiler shutdown in progress - discarding request
+02-13 10:08:21.269 D/dalvikvm( 1935): Compiler shutdown in progress - discarding request
+02-13 10:08:21.269 D/dalvikvm( 1935): Compiler shutdown in progress - discarding request
+02-13 10:08:21.269 D/dalvikvm( 1935): Compiler shutdown in progress - discarding request
+02-13 10:08:21.269 D/dalvikvm( 1935): Compiler shutdown in progress - discarding request
+02-13 10:08:21.269 D/dalvikvm( 1935): Compiler shutdown in progress - discarding request
+02-13 10:08:21.269 D/dalvikvm( 1935): Compiler shutdown in progress - discarding request
+02-13 10:08:21.269 D/dalvikvm( 1935): Compiler shutdown in progress - discarding request
+02-13 10:08:21.269 D/dalvikvm( 1935): Compiler shutdown in progress - discarding request
+02-13 10:08:21.269 D/dalvikvm( 1935): Compiler shutdown in progress - discarding request
+02-13 10:08:21.269 D/dalvikvm( 1935): Compiler shutdown in progress - discarding request
+02-13 10:08:21.269 D/dalvikvm( 1935): Compiler shutdown in progress - discarding request
+02-13 10:08:21.269 D/dalvikvm( 1935): Compiler shutdown in progress - discarding request
+02-13 10:08:21.269 D/dalvikvm( 1935): Compiler shutdown in progress - discarding request
+02-13 10:08:21.269 D/dalvikvm( 1935): Compiler shutdown in progress - discarding request
+02-13 10:08:21.269 D/dalvikvm( 1935): Compiler shutdown in progress - discarding request
+02-13 10:08:21.269 D/dalvikvm( 1935): Compiler shutdown in progress - discarding request
+02-13 10:08:21.269 D/dalvikvm( 1935): Compiler shutdown in progress - discarding request
+02-13 10:08:21.269 D/dalvikvm( 1935): Compiler shutdown in progress - discarding request
+02-13 10:08:21.269 D/dalvikvm( 1935): Compiler shutdown in progress - discarding request
+02-13 10:08:21.269 D/dalvikvm( 1935): Compiler shutdown in progress - discarding request
+02-13 10:08:21.269 D/dalvikvm( 1935): Compiler shutdown in progress - discarding request
+02-13 10:08:21.269 D/dalvikvm( 1935): Compiler shutdown in progress - discarding request
+02-13 10:08:21.269 D/dalvikvm( 1935): Compiler shutdown in progress - discarding request
+02-13 10:08:21.269 D/dalvikvm( 1935): Compiler shutdown in progress - discarding request
+02-13 10:08:21.269 D/dalvikvm( 1935): Compiler shutdown in progress - discarding request
+02-13 10:08:21.269 D/dalvikvm( 1935): Compiler shutdown in progress - discarding request
+02-13 10:08:21.269 D/dalvikvm( 1935): Compiler shutdown in progress - discarding request
+02-13 10:08:21.269 D/dalvikvm( 1935): Compiler shutdown in progress - discarding request
+02-13 10:08:21.269 D/dalvikvm( 1935): Compiler shutdown in progress - discarding request
+02-13 10:08:21.269 D/dalvikvm( 1935): Compiler shutdown in progress - discarding request
+02-13 10:08:21.269 D/dalvikvm( 1935): Compiler shutdown in progress - discarding request
+02-13 10:08:21.269 D/dalvikvm( 1935): Compiler shutdown in progress - discarding request
+02-13 10:08:21.269 D/dalvikvm( 1935): Compiler shutdown in progress - discarding request
+02-13 10:08:21.269 D/dalvikvm( 1935): Compiler shutdown in progress - discarding request
+02-13 10:08:21.269 D/dalvikvm( 1935): Compiler shutdown in progress - discarding request
+02-13 10:08:21.269 D/dalvikvm( 1935): Compiler shutdown in progress - discarding request
+02-13 10:08:21.269 D/dalvikvm( 1935): Compiler shutdown in progress - discarding request
+02-13 10:08:21.269 I/ActivityManager(  504): START u0 {flg=0x10000000 cmp=org.xwalk.webapi_noneservice_tests/.webapi_noneservice_testsActivity} from pid 1935
+02-13 10:08:21.289 D/dalvikvm(  675): GC_FOR_ALLOC freed 108K, 26% free 12641K/17004K, paused 7ms, total 7ms
+02-13 10:08:21.319 D/dalvikvm(  675): GC_FOR_ALLOC freed 109K, 26% free 12704K/17004K, paused 6ms, total 6ms
+02-13 10:08:21.389 D/dalvikvm(  675): GC_FOR_ALLOC freed 257K, 25% free 12863K/17072K, paused 7ms, total 7ms
+02-13 10:08:21.439 V/KeyguardHostView(  566): onDetachedFromWindow = com.android.keyguard.KeyguardHostView{22c382e8 V.E..... ......ID 0,0-800,1280 #7f0a0029 app:id/keyguard_host_view}
+02-13 10:08:21.489 D/dalvikvm(  675): GC_FOR_ALLOC freed 340K, 25% free 13111K/17288K, paused 6ms, total 6ms
+02-13 10:08:21.579 D/dalvikvm(  675): GC_FOR_ALLOC freed 477K, 25% free 13340K/17620K, paused 7ms, total 7ms
+02-13 10:08:21.669 D/dalvikvm(  675): GC_FOR_ALLOC freed 432K, 25% free 13627K/17948K, paused 6ms, total 6ms
+02-13 10:08:21.759 I/Choreographer(  675): Skipped 47 frames!  The application may be doing too much work on its main thread.
+02-13 10:08:21.779 D/XT9IME  (  722): new subtype :zh_CN ,pinyin
+02-13 10:08:21.779 D/Launcher(  675): bindAppsUpdated start
+02-13 10:08:21.789 D/Launcher(  675): bindAppsUpdated finished
+02-13 10:08:21.829 D/AndroidRuntime( 1949): 
+02-13 10:08:21.829 D/AndroidRuntime( 1949): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-13 10:08:21.829 D/AndroidRuntime( 1949): CheckJNI is OFF
+02-13 10:08:21.829 I/AndroidRuntime( 1949): Kernel Release Version: 3.10.20-gf818079
+02-13 10:08:21.829 I/dalvikvm( 1949): No library specified. The standard exception handler will be used
+02-13 10:08:21.829 I/dalvikvm( 1949): 
+02-13 10:08:21.829 I/dalvikvm( 1949): +++++++++++++ Using PCG. +++++++++++++++++++++
+02-13 10:08:21.839 D/dalvikvm( 1949): Trying to load lib libjavacore.so 0x0
+02-13 10:08:21.839 D/dalvikvm( 1949): Added shared lib libjavacore.so 0x0
+02-13 10:08:21.839 D/dalvikvm( 1949): Trying to load lib libnativehelper.so 0x0
+02-13 10:08:21.839 D/dalvikvm( 1949): Added shared lib libnativehelper.so 0x0
+02-13 10:08:21.839 D/dalvikvm( 1949): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-13 10:08:21.849 D/dalvikvm( 1949): Extra Options: not specified
+02-13 10:08:21.859 D/dalvikvm( 1949): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+02-13 10:08:21.929 E/memtrack( 1949): Couldn't load memtrack module (No such file or directory)
+02-13 10:08:21.929 E/android.os.Debug( 1949): failed to load memtrack module: -2
+02-13 10:08:21.939 D/EVENT_THREAD(  183): void CEventThread::run() POLLIN event on Fd (1)
+02-13 10:08:21.939 D/EVENT_THREAD(  183): void CEventThread::run() Do poll with timeout: -1
+02-13 10:08:21.939 D/EVENT_THREAD(  183): void CEventThread::run() POLLIN event on Fd (1)
+02-13 10:08:21.939 D/EVENT_THREAD(  183): void CEventThread::run() Do poll with timeout: -1
+02-13 10:08:21.939 I/upi_ug31xx(  166): (11437) update_capacity
+02-13 10:08:21.939 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: V=4330(4328), T=282(282-319), I=-340, C=0(0-0)
+02-13 10:08:21.939 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x10c20d18) 3926 (3847) / 3926 (3926) = 100
+02-13 10:08:21.939 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x10c20d18) 3926 (3847) / 3926 (3926) = 100
+02-13 10:08:21.939 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x10820d18) 3926 (3926) / 3926 (3926) = 100
+02-13 10:08:21.939 I/[UPI]   (  166): <UG31/E>[RsocFilterCountTime]: (0x10820d18) Step=0(1740), Full=100(40365996), Lock=1740(1800000)
+02-13 10:08:21.939 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x10820d18) 3926 (3926) / 3926 (3926) = 100 (-340--340)
+02-13 10:08:21.939 I/[UPI]   (  166): <UG31/E><BATT> M:normal, P:100(100-100)%, V:4326mV, C:-683mA, T:28.2C(319), S:0x10820d18(101), R:3926mAh, F:3926mAh, Q:692mAh, CC:3, P:0.120(0-0)s, BO:7, 97:615:0-44af-9m:B001-20140514-144301 (16)
+02-13 10:08:21.939 I/upi_ug31xx(  166): (11438) backup_data 
+02-13 10:08:21.939 V/upi_ug31xx(  166): state->check_backup_count = 8
+02-13 10:08:21.969 D/AndroidRuntime( 1949): Calling main entry com.android.commands.am.Am
+02-13 10:08:21.999 I/ActivityManager(  504): START u0 {flg=0x10000000 cmp=org.xwalk.webapi_noneservice_tests/.webapi_noneservice_tests} from pid 1949
+02-13 10:08:22.019 I/UsageStats(  504): Deleting usage file : usage-20150207
+02-13 10:08:22.029 D/AndroidRuntime( 1949): Shutting down VM
+02-13 10:08:22.039 D/dalvikvm( 1949): GC_CONCURRENT freed 114K, 16% free 701K/832K, paused 0ms+0ms, total 1ms
+02-13 10:08:22.039 D/dalvikvm( 1949): Compiler shutdown in progress - discarding request
+02-13 10:08:22.039 D/dalvikvm( 1949): Compiler shutdown in progress - discarding request
+02-13 10:08:22.039 D/dalvikvm( 1949): Compiler shutdown in progress - discarding request
+02-13 10:08:22.039 D/dalvikvm( 1949): Compiler shutdown in progress - discarding request
+02-13 10:08:22.039 D/dalvikvm( 1949): Compiler shutdown in progress - discarding request
+02-13 10:08:22.039 D/dalvikvm( 1949): Compiler shutdown in progress - discarding request
+02-13 10:08:22.039 D/dalvikvm( 1949): Compiler shutdown in progress - discarding request
+02-13 10:08:22.039 D/dalvikvm( 1949): Compiler shutdown in progress - discarding request
+02-13 10:08:22.039 D/dalvikvm( 1949): Compiler shutdown in progress - discarding request
+02-13 10:08:22.039 D/dalvikvm( 1949): Compiler shutdown in progress - discarding request
+02-13 10:08:22.039 D/dalvikvm( 1949): Compiler shutdown in progress - discarding request
+02-13 10:08:22.039 D/dalvikvm( 1949): Compiler shutdown in progress - discarding request
+02-13 10:08:22.039 D/dalvikvm( 1949): Compiler shutdown in progress - discarding request
+02-13 10:08:22.039 D/dalvikvm( 1949): Compiler shutdown in progress - discarding request
+02-13 10:08:22.039 D/dalvikvm( 1949): Compiler shutdown in progress - discarding request
+02-13 10:08:22.039 D/dalvikvm( 1949): Compiler shutdown in progress - discarding request
+02-13 10:08:22.039 D/dalvikvm( 1949): Compiler shutdown in progress - discarding request
+02-13 10:08:22.039 D/dalvikvm( 1949): Compiler shutdown in progress - discarding request
+02-13 10:08:22.039 D/dalvikvm( 1949): Compiler shutdown in progress - discarding request
+02-13 10:08:22.039 D/dalvikvm( 1949): Compiler shutdown in progress - discarding request
+02-13 10:08:22.039 D/dalvikvm( 1949): Compiler shutdown in progress - discarding request
+02-13 10:08:22.039 D/dalvikvm( 1949): Compiler shutdown in progress - discarding request
+02-13 10:08:22.039 D/dalvikvm( 1949): Compiler shutdown in progress - discarding request
+02-13 10:08:22.039 D/dalvikvm( 1949): Compiler shutdown in progress - discarding request
+02-13 10:08:22.039 D/dalvikvm( 1949): Compiler shutdown in progress - discarding request
+02-13 10:08:22.039 D/dalvikvm( 1949): Compiler shutdown in progress - discarding request
+02-13 10:08:22.039 D/dalvikvm( 1949): Compiler shutdown in progress - discarding request
+02-13 10:08:22.039 D/dalvikvm( 1949): Compiler shutdown in progress - discarding request
+02-13 10:08:22.039 D/dalvikvm( 1949): Compiler shutdown in progress - discarding request
+02-13 10:08:22.039 D/dalvikvm( 1949): Compiler shutdown in progress - discarding request
+02-13 10:08:22.039 D/dalvikvm( 1949): Compiler shutdown in progress - discarding request
+02-13 10:08:22.039 D/dalvikvm( 1949): Compiler shutdown in progress - discarding request
+02-13 10:08:22.039 D/dalvikvm( 1949): Compiler shutdown in progress - discarding request
+02-13 10:08:22.039 D/dalvikvm( 1949): Compiler shutdown in progress - discarding request
+02-13 10:08:22.039 D/dalvikvm( 1949): Compiler shutdown in progress - discarding request
+02-13 10:08:22.039 D/dalvikvm( 1949): Compiler shutdown in progress - discarding request
+02-13 10:08:22.039 D/dalvikvm( 1949): Compiler shutdown in progress - discarding request
+02-13 10:08:22.039 V/WeatherTimeProvider( 1511): widget on Visibility Changed
+02-13 10:08:22.039 I/SecurityManagerService(  621): SMS received security event: App[START/org.xwalk.webapi_noneservice_tests]
+02-13 10:08:22.049 D/dalvikvm( 1961): Late-enabling CheckJNI
+02-13 10:08:22.049 D/dalvikvm( 1961): Try to disable coredump for pid 1961
+02-13 10:08:22.049 D/dalvikvm( 1961): Process 1961 nice name: org.xwalk.webapi_noneservice_tests
+02-13 10:08:22.049 D/dalvikvm( 1961): Extra Options: not specified
+02-13 10:08:22.049 I/ActivityManager(  504): Start proc org.xwalk.webapi_noneservice_tests for activity org.xwalk.webapi_noneservice_tests/.webapi_noneservice_tests: pid=1961 uid=10259 gids={50259, 3003, 1028, 1015}
+02-13 10:08:22.079 D/WindowManager(  504): adjustConfigurationLw, config:{1.0 ?mcc?mnc ?locale ?layoutDir sw600dp w600dp h888dp 213dpi lrg port ?uimode ?night finger -keyb/v/h -nav/v} mLidState:1 mHasDockFeature:false mHasKeyboardFeature:false mHasHallSensorFeature:true config.hardKeyboardHidden:2
+02-13 10:08:22.079 I/ActivityManager(  504): [TopPkgCurBat]	NowPkgName[org.xwalk.webapi_noneservice_tests]	Battery[100]	TimeTick[1423793302083]	OldPkgName[com.asus.launcher]
+02-13 10:08:22.089 D/        (  675): Surface destroy: ANDROID_NATIVE_WINDOW_MAGIC
+02-13 10:08:22.129 I/CordovaLog( 1961): Changing log level to DEBUG(3)
+02-13 10:08:22.129 D/CordovaActivity( 1961): CordovaActivity.init()
+02-13 10:08:22.129 D/dalvikvm( 1961): Trying to load lib /data/app-lib/org.xwalk.webapi_noneservice_tests-1/libxwalkcore.so 0x43d81670
+02-13 10:08:22.159 D/dalvikvm( 1961): Added shared lib /data/app-lib/org.xwalk.webapi_noneservice_tests-1/libxwalkcore.so 0x43d81670
+02-13 10:08:22.169 I/LibraryLoader( 1961): Time to load native libraries: 33 ms (timestamps 8608-8641)
+02-13 10:08:22.169 I/LibraryLoader( 1961): Expected native library version number "",actual native library version number ""
+02-13 10:08:22.179 I/LibraryLoader( 1961): Expected native library version number "",actual native library version number ""
+02-13 10:08:22.179 I/chromium( 1961): [INFO:library_loader_hooks.cc(112)] Chromium logging enabled: level = 0, default verbosity = 0
+02-13 10:08:22.189 I/BrowserStartupController( 1961): Initializing chromium process, singleProcess=true
+02-13 10:08:22.409 D/ImageWallpaper(  566): onVisibilityChanged: mVisible, visible=true, false
+02-13 10:08:22.409 D/ImageWallpaper(  566): Visibility changed to visible=false
+02-13 10:08:22.409 D/ImageWallpaper(  566): Suppressed drawFrame since redraw is not needed and offsets have not changed.
+02-13 10:08:22.579 W/chromium( 1961): [WARNING:dns_config_service_posix.cc(293)] Failed to read DnsConfig.
+02-13 10:08:22.579 W/AudioManagerAndroid( 1961): Requires BLUETOOTH permission
+02-13 10:08:22.599 I/ufoGralloc( 1961): Hello, this is UFO GRALLOC/Intel Corporation
+02-13 10:08:22.609 D/        ( 1961): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-13 10:08:22.609 D/        ( 1961): droid_create_context : config id = 1 conf->NativeVisualID=1
+02-13 10:08:22.609 D/        ( 1961): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-13 10:08:22.609 I/        ( 1961): Requested context : GLES 2.0
+02-13 10:08:22.639 W/chromium( 1961): [WARNING:proxy_service.cc(899)] PAC support disabled because there is no system implementation
+02-13 10:08:22.639 W/dalvikvm( 1961): VFY: unable to find class referenced in signature (Landroid/view/inputmethod/CursorAnchorInfo;)
+02-13 10:08:22.639 I/dalvikvm( 1961): Could not find method android.view.inputmethod.InputMethodManager.updateCursorAnchorInfo, referenced from method org.chromium.content.browser.input.InputMethodManagerWrapper.updateCursorAnchorInfo
+02-13 10:08:22.639 W/dalvikvm( 1961): VFY: unable to resolve virtual method 1368: Landroid/view/inputmethod/InputMethodManager;.updateCursorAnchorInfo (Landroid/view/View;Landroid/view/inputmethod/CursorAnchorInfo;)V
+02-13 10:08:22.639 D/dalvikvm( 1961): VFY: replacing opcode 0x6e at 0x000a
+02-13 10:08:22.689 E/cutils  (  163): Failed to mkdirat(/Removable/MicroSD): Read-only file system
+02-13 10:08:22.689 W/Vold    (  163): Returning OperationFailed - no handler for errno 30
+02-13 10:08:22.699 W/ContextImpl( 1961): Failed to ensure directory: /Removable/MicroSD/Android/data/org.xwalk.webapi_noneservice_tests/cache
+02-13 10:08:22.699 D/EVENT_THREAD(  183): void CEventThread::run() POLLIN event on Fd (1)
+02-13 10:08:22.699 D/EVENT_THREAD(  183): void CEventThread::run() Do poll with timeout: -1
+02-13 10:08:22.699 D/EVENT_THREAD(  183): void CEventThread::run() POLLIN event on Fd (1)
+02-13 10:08:22.699 D/EVENT_THREAD(  183): void CEventThread::run() Do poll with timeout: -1
+02-13 10:08:22.699 I/upi_ug31xx(  166): (11439) update_capacity
+02-13 10:08:22.699 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: V=4327(4321), T=282(283-319), I=-435, C=0(0-0)
+02-13 10:08:22.699 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x10c20d5a) 3926 (3926) / 3926 (3926) = 100
+02-13 10:08:22.699 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x10c20d5a) 3926 (3926) / 3926 (3926) = 100
+02-13 10:08:22.699 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x10820d5a) 3926 (3926) / 3926 (3926) = 100
+02-13 10:08:22.699 I/[UPI]   (  166): <UG31/E>[RsocFilterCountTime]: (0x10820d5a) Step=0(750), Full=100(40366746), Lock=750(1800000)
+02-13 10:08:22.699 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x10820d5a) 3926 (3926) / 3926 (3926) = 100 (-435--435)
+02-13 10:08:22.699 I/[UPI]   (  166): <UG31/E><BATT> M:normal, P:100(100-100)%, V:4315mV, C:-531mA, T:28.3C(319), S:0x10820d5a(100), R:3926mAh, F:3926mAh, Q:692mAh, CC:3, P:0.130(0-0)s, BO:7, 97:615:0-44af-9m:B001-20140514-144301 (1)
+02-13 10:08:22.699 D/CordovaActivity( 1961): CordovaActivity.createViews()
+02-13 10:08:22.699 E/chromium( 1961): [ERROR:unix_domain_server_socket_posix.cc(106)] Not implemented reached in virtual int net::UnixDomainServerSocket::GetLocalAddress(net::IPEndPoint*) const
+02-13 10:08:22.699 D/CordovaWebView( 1961): >>> loadUrl(file:///android_asset/www/index.html)
+02-13 10:08:22.699 D/PluginManager( 1961): init()
+02-13 10:08:22.709 E/cutils  (  163): Failed to mkdirat(/Removable/MicroSD): Read-only file system
+02-13 10:08:22.709 W/ContextImpl( 1961): Failed to ensure directory: /Removable/MicroSD/Android/data/org.xwalk.webapi_noneservice_tests/files
+02-13 10:08:22.709 E/cutils  (  163): Failed to mkdirat(/Removable/MicroSD): Read-only file system
+02-13 10:08:22.709 W/ContextImpl( 1961): Failed to ensure directory: /Removable/MicroSD/Android/data/org.xwalk.webapi_noneservice_tests/cache
+02-13 10:08:22.709 D/CordovaWebView( 1961): >>> loadUrlNow()
+02-13 10:08:22.709 I/dalvikvm( 1961): Could not find method android.app.Activity.finishAndRemoveTask, referenced from method org.chromium.base.ApiCompatibilityUtils.finishAndRemoveTask
+02-13 10:08:22.709 W/dalvikvm( 1961): VFY: unable to resolve virtual method 6: Landroid/app/Activity;.finishAndRemoveTask ()V
+02-13 10:08:22.709 D/dalvikvm( 1961): VFY: replacing opcode 0x6e at 0x0006
+02-13 10:08:22.709 I/dalvikvm( 1961): Could not find method android.os.PowerManager.isInteractive, referenced from method org.chromium.base.ApiCompatibilityUtils.isInteractive
+02-13 10:08:22.709 W/dalvikvm( 1961): VFY: unable to resolve virtual method 874: Landroid/os/PowerManager;.isInteractive ()Z
+02-13 10:08:22.709 D/dalvikvm( 1961): VFY: replacing opcode 0x6e at 0x000e
+02-13 10:08:22.709 I/dalvikvm( 1961): Could not find method android.view.Window.getNavigationBarColor, referenced from method org.chromium.base.ApiCompatibilityUtils.setStatusBarColor
+02-13 10:08:22.709 W/dalvikvm( 1961): VFY: unable to resolve virtual method 1268: Landroid/view/Window;.getNavigationBarColor ()I
+02-13 10:08:22.709 D/dalvikvm( 1961): VFY: replacing opcode 0x6e at 0x0010
+02-13 10:08:22.709 I/dalvikvm( 1961): Could not find method android.view.Window.setStatusBarColor, referenced from method org.chromium.base.ApiCompatibilityUtils.setStatusBarColor
+02-13 10:08:22.709 W/dalvikvm( 1961): VFY: unable to resolve virtual method 1274: Landroid/view/Window;.setStatusBarColor (I)V
+02-13 10:08:22.709 D/dalvikvm( 1961): VFY: replacing opcode 0x6e at 0x0019
+02-13 10:08:22.709 E/dalvikvm( 1961): Could not find class 'android.app.ActivityManager$TaskDescription', referenced from method org.chromium.base.ApiCompatibilityUtils.setTaskDescription
+02-13 10:08:22.709 W/dalvikvm( 1961): VFY: unable to resolve new-instance 13 (Landroid/app/ActivityManager$TaskDescription;) in Lorg/chromium/base/ApiCompatibilityUtils;
+02-13 10:08:22.709 D/dalvikvm( 1961): VFY: replacing opcode 0x22 at 0x0006
+02-13 10:08:22.709 D/dalvikvm( 1961): DexOpt: unable to opt direct call 0x002f at 0x08 in Lorg/chromium/base/ApiCompatibilityUtils;.setTaskDescription
+02-13 10:08:22.709 W/Vold    (  163): Returning OperationFailed - no handler for errno 30
+02-13 10:08:22.709 W/Vold    (  163): Returning OperationFailed - no handler for errno 30
+02-13 10:08:22.719 I/chromium( 1961): [INFO:xwalk_extension_renderer_controller.cc(47)] EXTENSION PROCESS DISABLED.
+02-13 10:08:22.719 D/CordovaActivity( 1961): Resuming the App
+02-13 10:08:22.729 D/SoftKeyboardDetect( 1961): Ignore this event
+02-13 10:08:22.739 D/        ( 1961): droid_create_context : config id = 5 conf->NativeVisualID=1
+02-13 10:08:22.739 D/        ( 1961): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-13 10:08:22.739 I/        ( 1961): Requested context : GLES 2.0
+02-13 10:08:22.749 D/        ( 1961): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-13 10:08:22.749 D/OpenGLRenderer( 1961): Enabling debug mode 0
+02-13 10:08:22.749 D/        ( 1961): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-13 10:08:22.749 D/        ( 1961): droid_create_context : config id = 1 conf->NativeVisualID=1
+02-13 10:08:22.749 D/        ( 1961): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-13 10:08:22.749 I/        ( 1961): Requested context : GLES 2.0
+02-13 10:08:22.789 W/BindingManager( 1961): Cannot call determinedVisibility() - never saw a connection for the pid: 1961
+02-13 10:08:22.789 D/SoftKeyboardDetect( 1961): Ignore this event
+02-13 10:08:22.789 D/XT9IME  (  722): new subtype :zh_CN ,pinyin
+02-13 10:08:22.809 D/CordovaActivity( 1961): onMessage(onPageStarted,file:///android_asset/www/index.html)
+02-13 10:08:22.819 D/BatteryStatsImpl(  504): noteStopWakeLocked system isFromForeground = false
+02-13 10:08:22.829 I/ActivityManager(  504): Displayed org.xwalk.webapi_noneservice_tests/.webapi_noneservice_tests: +783ms
+02-13 10:08:22.849 D/CordovaActivity( 1961): onMessage(onPageFinished,file:///android_asset/www/index.html)
+02-13 10:08:22.879 I/upi_ug31xx(  166): (11440) backup_data 
+02-13 10:08:22.879 V/upi_ug31xx(  166): state->check_backup_count = 9
+02-13 10:08:22.879 D/EVENT_THREAD(  183): void CEventThread::run() POLLIN event on Fd (1)
+02-13 10:08:22.879 D/EVENT_THREAD(  183): void CEventThread::run() Do poll with timeout: -1
+02-13 10:08:23.859 D/CordovaActivity( 1961): onMessage(onPageStarted,file:///android_asset/www/index_real.html?testprefix=./)
+02-13 10:08:23.959 W/BindingManager( 1961): Cannot call determinedVisibility() - never saw a connection for the pid: 1961
+02-13 10:08:24.319 I/chromium( 1961): [INFO:CONSOLE(0)] "Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check http://xhr.spec.whatwg.org/.", source:  (0)
+02-13 10:08:24.379 D/CordovaActivity( 1961): onMessage(onPageFinished,file:///android_asset/www/index_real.html?testprefix=./)
+02-13 10:08:24.849 D/CordovaActivity( 1961): onMessage(spinner,stop)
+02-13 10:08:24.899 D/        ( 1961): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-13 10:08:24.899 D/        ( 1961): droid_create_context : config id = 1 conf->NativeVisualID=1
+02-13 10:08:24.899 D/        ( 1961): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-13 10:08:24.899 I/        ( 1961): Requested context : GLES 2.0
+02-13 10:08:24.919 D/        ( 1961): Swap interval set to = 1 value
+02-13 10:08:24.939 D/PROPERTY(  183): get media.dump_output.befconv: 0
+02-13 10:08:24.939 D/PROPERTY(  183): get media.dump_output.aftconv: 0
+02-13 10:08:24.939 D/RouteManager(  183): stopStream: {+++ RECONSIDER ROUTING +++} due to output stream stop event
+02-13 10:08:24.939 D/RouteManager(  183): reconsiderRouting
+02-13 10:08:24.939 D/EVENT_THREAD(  183): void CEventThread::trig(uint16_t): in
+02-13 10:08:24.939 D/EVENT_THREAD(  183): void CEventThread::trig(uint16_t): out
+02-13 10:08:24.939 D/RouteManager(  183): doReconsiderRouting:       Platform State:
+02-13 10:08:24.939 D/RouteManager(  183): doReconsiderRouting:          -Modem Alive = 0 
+02-13 10:08:24.939 D/RouteManager(  183): doReconsiderRouting:          -Modem Call Active = 0 
+02-13 10:08:24.939 D/RouteManager(  183): doReconsiderRouting:          -Is Shared I2S glitch free=1 
+02-13 10:08:24.939 D/RouteManager(  183): doReconsiderRouting:          -Android Telephony Mode = Normal 
+02-13 10:08:24.939 D/RouteManager(  183): doReconsiderRouting:          -RTE MGR HW Mode = Normal 
+02-13 10:08:24.939 D/RouteManager(  183): doReconsiderRouting:          -BT Enabled = 1 
+02-13 10:08:24.939 D/RouteManager(  183): doReconsiderRouting:          -BT NREC = 0 
+02-13 10:08:24.939 D/RouteManager(  183): doReconsiderRouting:          -BT Band = NB 
+02-13 10:08:24.939 D/RouteManager(  183): doReconsiderRouting:          -Platform output device = IHF 
+02-13 10:08:24.939 D/RouteManager(  183): doReconsiderRouting:          -Platform input device = <none> 
+02-13 10:08:24.939 D/RouteManager(  183): doReconsiderRouting:          -Platform input source = None 
+02-13 10:08:24.939 D/RouteManager(  183): doReconsiderRouting:          -Platform Band type = NB 
+02-13 10:08:24.939 D/RouteManager(  183): doReconsiderRouting:          -Platform Has Direct Stream = no 
+02-13 10:08:24.939 D/RouteManager(  183): doReconsiderRouting:          -Platform TTY direction = <none> 
+02-13 10:08:24.939 D/RouteManager(  183): doReconsiderRouting:          -Platform HAC Mode = Off 
+02-13 10:08:24.939 D/RouteManager(  183): doReconsiderRouting:          -Platform Screen State = On 
+02-13 10:08:24.939 D/RouteManager(  183): doReconsiderRouting:          -Platform Context Awareness = false 
+02-13 10:08:24.939 D/RouteManager(  183): doReconsiderRouting:          -Platform Always Listening = false 
+02-13 10:08:24.939 D/RouteManager(  183): doReconsiderRouting:          -Platform FM State = Off 
+02-13 10:08:24.939 D/RouteManager(  183): doReconsiderRouting:          -Platform Bypass Non Linear PP State = Off 
+02-13 10:08:24.939 D/RouteManager(  183): doReconsiderRouting:          -Platform Bypass Linear PP State = Off 
+02-13 10:08:24.939 D/RouteManager(  183): doReconsiderRouting:          -Platform MicMute = Off 
+02-13 10:08:24.939 D/RouteManager(  183): doReconsiderRouting:      Route state:
+02-13 10:08:24.939 D/RouteManager(  183): doReconsiderRouting:          -Previously Enabled Route in Input = <none>
+02-13 10:08:24.939 D/RouteManager(  183): doReconsiderRouting:          -Previously Enabled Route in Output = Media|HwCodecMedia
+02-13 10:08:24.939 D/RouteManager(  183): doReconsiderRouting:          -Selected Route in Input = <none>
+02-13 10:08:24.939 D/RouteManager(  183): doReconsiderRouting:          -Selected Route in Output = <none>
+02-13 10:08:24.939 D/RouteManager(  183): doReconsiderRouting:          -Route that need reconfiguration in Input = <none>
+02-13 10:08:24.939 D/RouteManager(  183): doReconsiderRouting:          -Route that need reconfiguration in Output = <none>
+02-13 10:08:24.939 D/RouteManager(  183): executeMuteStage: --------------- Routing Stage = Mute ---------------
+02-13 10:08:24.939 D/RouteManager(  183): parameter-framework: Selection criterion changed event: Criterion name: RoutageState, current state: Flow
+02-13 10:08:24.939 D/RouteManager(  183): muteRoutes: Expected Routes to be muted in Output = Media|HwCodecMedia
+02-13 10:08:24.939 D/RouteManager(  183): parameter-framework: Selection criterion changed event: Criterion name: ClosingPlaybackRoutes, current state: Media|HwCodecMedia
+02-13 10:08:24.939 D/RouteManager(  183): parameter-framework: Selection criterion changed event: Criterion name: OpenedPlaybackRoutes, current state: <none>
+02-13 10:08:24.939 D/RouteManager(  183): parameter-framework: Configuration application request {
+02-13 10:08:24.939 D/RouteManager(  183): parameter-framework:     Applying configurations {
+02-13 10:08:24.939 D/RouteManager(  183): parameter-framework:     } Applying configurations
+02-13 10:08:24.939 D/RouteManager(  183): parameter-framework: } Configuration application request
+02-13 10:08:24.939 D/RouteManager(  183): executeDisableStage: --------------- Routing Stage = Disable ---------------
+02-13 10:08:24.939 D/RouteManager(  183): parameter-framework: Selection criterion changed event: Criterion name: RoutageState, current state: Path
+02-13 10:08:24.939 D/RouteManager(  183): prepareDisableRoutes: Routes to be disabled(unrouted) in Output = Media|HwCodecMedia
+02-13 10:08:24.939 D/ALSAStreamOps(  183): detachRouteL output stream
+02-13 10:08:24.939 D/RouteManager/StreamRoute(  183): closePcmDevice called for card (baytrailaudio,0)
+02-13 10:08:24.959 D/RouteManager(  183): parameter-framework: Configuration application request {
+02-13 10:08:24.959 D/RouteManager(  183): parameter-framework:     Applying configurations {
+02-13 10:08:24.959 D/RouteManager(  183): parameter-framework:         Applying configuration "Disable" from domain "Routing.Enable.HWCodec.Playback.IHF"
+02-13 10:08:24.959 D/RouteManager(  183): parameter-framework:         Applying configuration "Disable" from domain "Routing.Enable.HWCodec.Playback.Multimedia.IHF"
+02-13 10:08:24.959 D/RouteManager(  183): parameter-framework:         Applying configuration "Disable" from domain "Routing.Enable.HWCodec.Playback.Multimedia.Playback"
+02-13 10:08:24.979 D/RouteManager(  183): parameter-framework:     } Applying configurations
+02-13 10:08:24.979 D/RouteManager(  183): parameter-framework: } Configuration application request
+02-13 10:08:24.979 D/RouteManager(  183): executeConfigureStage: --------------- Routing Stage = Configure ---------------
+02-13 10:08:24.979 D/RouteManager(  183): parameter-framework: Selection criterion changed event: Criterion name: RoutageState, current state: Configure
+02-13 10:08:24.979 D/RouteManager(  183): parameter-framework: Selection criterion changed event: Criterion name: ClosingPlaybackRoutes, current state: <none>
+02-13 10:08:24.979 D/RouteManager(  183): parameter-framework: Configuration application request {
+02-13 10:08:24.979 D/RouteManager(  183): parameter-framework:     Applying configurations {
+02-13 10:08:24.979 D/RouteManager(  183): parameter-framework:         Applying configuration "Deactivated" from domain "Routing.Configure.LPE_Mixer.IHF"
+02-13 10:08:24.979 D/RouteManager(  183): parameter-framework:     } Applying configurations
+02-13 10:08:24.979 D/RouteManager(  183): parameter-framework: } Configuration application request
+02-13 10:08:24.979 D/RouteManager(  183): executeEnableStage: --------------- Routing Stage = Enable ---------------
+02-13 10:08:24.979 D/RouteManager(  183): parameter-framework: Selection criterion changed event: Criterion name: RoutageState, current state: Path|Configure
+02-13 10:08:24.979 D/RouteManager(  183): parameter-framework: Configuration application request {
+02-13 10:08:24.979 D/RouteManager(  183): parameter-framework:     Applying configurations {
+02-13 10:08:24.979 D/RouteManager(  183): parameter-framework:     } Applying configurations
+02-13 10:08:24.979 D/RouteManager(  183): parameter-framework: } Configuration application request
+02-13 10:08:24.979 D/RouteManager(  183): executeUnmuteStage: --------------- Routing Stage = Unmute ---------------
+02-13 10:08:24.979 D/RouteManager(  183): parameter-framework: Selection criterion changed event: Criterion name: RoutageState, current state: Flow|Path|Configure
+02-13 10:08:24.979 D/RouteManager(  183): parameter-framework: Configuration application request {
+02-13 10:08:24.979 D/RouteManager(  183): parameter-framework:     Applying configurations {
+02-13 10:08:24.979 D/RouteManager(  183): parameter-framework:     } Applying configurations
+02-13 10:08:24.979 D/RouteManager(  183): parameter-framework: } Configuration application request
+02-13 10:08:24.979 D/EVENT_THREAD(  183): void CEventThread::run() Do poll with timeout: -1
+02-13 10:08:24.979 D/RouteManager(  183): reconsiderRouting: DONE
+02-13 10:08:25.009 D/        ( 1961): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-13 10:08:25.009 D/        ( 1961): droid_create_context : config id = 1 conf->NativeVisualID=1
+02-13 10:08:25.009 D/        ( 1961): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-13 10:08:25.009 I/        ( 1961): Requested context : GLES 2.0
+02-13 10:08:25.459 E/AndroidProtocolHandler( 1961): Unable to open asset URL: file:///android_asset/www//opt/tct-webstorage-w3c-tests/webstorage/Storage_getItem_base.html
+02-13 10:08:25.479 W/BindingManager( 1961): Cannot call determinedVisibility() - never saw a connection for the pid: 1961
+02-13 10:08:26.379 D/CordovaActivity( 1961): onMessage(spinner,stop)
+02-13 10:08:28.599 E/AndroidProtocolHandler( 1961): Unable to open asset URL: file:///android_asset/www//opt/tct-webstorage-w3c-tests/webstorage/storage_getItem_exist.html
+02-13 10:08:28.599 W/BindingManager( 1961): Cannot call determinedVisibility() - never saw a connection for the pid: 1961
+02-13 10:08:28.629 W/BindingManager( 1961): Cannot call determinedVisibility() - never saw a connection for the pid: 1961
+02-13 10:08:31.739 E/AndroidProtocolHandler( 1961): Unable to open asset URL: file:///android_asset/www//opt/tct-webstorage-w3c-tests/webstorage/Storage_getItem_key_null.html
+02-13 10:08:31.739 W/BindingManager( 1961): Cannot call determinedVisibility() - never saw a connection for the pid: 1961
+02-13 10:08:31.779 W/BindingManager( 1961): Cannot call determinedVisibility() - never saw a connection for the pid: 1961
+02-13 10:08:34.889 E/AndroidProtocolHandler( 1961): Unable to open asset URL: file:///android_asset/www//opt/tct-webstorage-w3c-tests/webstorage/Storage_getItem_key_undefined.html
+02-13 10:08:34.899 W/BindingManager( 1961): Cannot call determinedVisibility() - never saw a connection for the pid: 1961
+02-13 10:08:34.949 W/BindingManager( 1961): Cannot call determinedVisibility() - never saw a connection for the pid: 1961
+02-13 10:08:38.029 E/AndroidProtocolHandler( 1961): Unable to open asset URL: file:///android_asset/www//opt/tct-webstorage-w3c-tests/webstorage/Storage_getItem_no_argument.html
+02-13 10:08:38.029 W/BindingManager( 1961): Cannot call determinedVisibility() - never saw a connection for the pid: 1961
+02-13 10:08:38.049 W/BindingManager( 1961): Cannot call determinedVisibility() - never saw a connection for the pid: 1961
+02-13 10:08:41.149 E/AndroidProtocolHandler( 1961): Unable to open asset URL: file:///android_asset/www//opt/tct-webstorage-w3c-tests/webstorage/storage_getItem_unexisted_key.html
+02-13 10:08:41.159 W/BindingManager( 1961): Cannot call determinedVisibility() - never saw a connection for the pid: 1961
+02-13 10:08:41.219 W/BindingManager( 1961): Cannot call determinedVisibility() - never saw a connection for the pid: 1961
+02-13 10:08:44.329 E/AndroidProtocolHandler( 1961): Unable to open asset URL: file:///android_asset/www//opt/tct-webstorage-w3c-tests/webstorage/window_localStorage_getItem_exist.html
+02-13 10:08:44.339 W/BindingManager( 1961): Cannot call determinedVisibility() - never saw a connection for the pid: 1961
+02-13 10:08:44.399 W/BindingManager( 1961): Cannot call determinedVisibility() - never saw a connection for the pid: 1961
+02-13 10:08:47.509 E/AndroidProtocolHandler( 1961): Unable to open asset URL: file:///android_asset/www//opt/tct-webstorage-w3c-tests/webstorage/window_localStorage_getItem_key_nonexisted.html
+02-13 10:08:47.509 W/BindingManager( 1961): Cannot call determinedVisibility() - never saw a connection for the pid: 1961
+02-13 10:08:47.549 W/BindingManager( 1961): Cannot call determinedVisibility() - never saw a connection for the pid: 1961
+02-13 10:08:50.619 E/AndroidProtocolHandler( 1961): Unable to open asset URL: file:///android_asset/www//opt/tct-webstorage-w3c-tests/webstorage/window_localStorage_getItem_key_null.html
+02-13 10:08:50.629 W/BindingManager( 1961): Cannot call determinedVisibility() - never saw a connection for the pid: 1961
+02-13 10:08:50.649 W/BindingManager( 1961): Cannot call determinedVisibility() - never saw a connection for the pid: 1961
+02-13 10:08:53.329 D/EVENT_THREAD(  183): void CEventThread::run() POLLIN event on Fd (1)
+02-13 10:08:53.329 D/EVENT_THREAD(  183): void CEventThread::run() Do poll with timeout: -1
+02-13 10:08:53.329 D/EVENT_THREAD(  183): void CEventThread::run() POLLIN event on Fd (1)
+02-13 10:08:53.329 D/EVENT_THREAD(  183): void CEventThread::run() Do poll with timeout: -1
+02-13 10:08:53.329 I/upi_ug31xx(  166): (11441) update_capacity
+02-13 10:08:53.329 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: V=4321(4309), T=282(283-322), I=-336, C=0(0-0)
+02-13 10:08:53.329 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x10c20d5a) 3926 (3926) / 3926 (3926) = 100
+02-13 10:08:53.329 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x10c20d5a) 3926 (3926) / 3926 (3926) = 100
+02-13 10:08:53.329 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x10820d5a) 3926 (3926) / 3926 (3926) = 100
+02-13 10:08:53.329 I/[UPI]   (  166): <UG31/E>[RsocFilterCountTime]: (0x10820d5a) Step=0(30590), Full=100(40397336), Lock=30590(1800000)
+02-13 10:08:53.329 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x10820d5a) 3926 (3926) / 3926 (3926) = 100 (-336--336)
+02-13 10:08:53.329 I/[UPI]   (  166): <UG31/E><BATT> M:normal, P:100(100-100)%, V:4304mV, C:-268mA, T:28.3C(322), S:0x10820d5a(100), R:3926mAh, F:3926mAh, Q:690mAh, CC:3, P:0.170(0-0)s, BO:7, 97:615:0-44af-9m:B001-20140514-144301 (1)
+02-13 10:08:53.329 I/upi_ug31xx(  166): (11442) backup_data 
+02-13 10:08:53.329 V/upi_ug31xx(  166): state->check_backup_count = 10
+02-13 10:08:53.739 E/AndroidProtocolHandler( 1961): Unable to open asset URL: file:///android_asset/www//opt/tct-webstorage-w3c-tests/webstorage/window_localStorage_getItem_key_undefined.html
+02-13 10:08:53.739 W/BindingManager( 1961): Cannot call determinedVisibility() - never saw a connection for the pid: 1961
+02-13 10:08:53.759 W/BindingManager( 1961): Cannot call determinedVisibility() - never saw a connection for the pid: 1961
+02-13 10:08:56.859 E/AndroidProtocolHandler( 1961): Unable to open asset URL: file:///android_asset/www//opt/tct-webstorage-w3c-tests/webstorage/window_localStorage_getItem_no_argument.html
+02-13 10:08:56.859 W/BindingManager( 1961): Cannot call determinedVisibility() - never saw a connection for the pid: 1961
+02-13 10:08:56.889 W/BindingManager( 1961): Cannot call determinedVisibility() - never saw a connection for the pid: 1961
+02-13 10:08:59.959 E/AndroidProtocolHandler( 1961): Unable to open asset URL: file:///android_asset/www//opt/tct-webstorage-w3c-tests/webstorage/window_sessionStorage_getItem_exist.html
+02-13 10:08:59.969 W/BindingManager( 1961): Cannot call determinedVisibility() - never saw a connection for the pid: 1961
+02-13 10:09:00.009 D/BatteryStatsImpl(  504): noteStopWakeLocked system isFromForeground = false
+02-13 10:09:00.009 D/Clock   (  566): ACTION_TIME_TICK
+02-13 10:09:00.009 D/Clock   (  566): update clock:上午10:09
+02-13 10:09:00.009 W/BindingManager( 1961): Cannot call determinedVisibility() - never saw a connection for the pid: 1961
+02-13 10:09:00.049 D/BatteryStatsImpl(  504): noteStopWakeLocked system isFromForeground = false
+02-13 10:09:00.379 D/wpa_supplicant(  651): wlan0: Starting AP scan for wildcard SSID
+02-13 10:09:00.379 D/wpa_supplicant(  651): WPS: Building WPS IE for Probe Request
+02-13 10:09:00.379 D/wpa_supplicant(  651): WPS:  * Version (hardcoded 0x10)
+02-13 10:09:00.379 D/wpa_supplicant(  651): WPS:  * Request Type
+02-13 10:09:00.379 D/wpa_supplicant(  651): WPS:  * Config Methods (4288)
+02-13 10:09:00.379 D/wpa_supplicant(  651): WPS:  * UUID-E
+02-13 10:09:00.379 D/wpa_supplicant(  651): WPS:  * Primary Device Type
+02-13 10:09:00.379 D/wpa_supplicant(  651): WPS:  * RF Bands (1)
+02-13 10:09:00.379 D/wpa_supplicant(  651): WPS:  * Association State
+02-13 10:09:00.379 D/wpa_supplicant(  651): WPS:  * Configuration Error (0)
+02-13 10:09:00.379 D/wpa_supplicant(  651): WPS:  * Device Password ID (0)
+02-13 10:09:00.379 D/wpa_supplicant(  651): WPS:  * Manufacturer
+02-13 10:09:00.379 D/wpa_supplicant(  651): WPS:  * Model Name
+02-13 10:09:00.379 D/wpa_supplicant(  651): WPS:  * Model Number
+02-13 10:09:00.379 D/wpa_supplicant(  651): WPS:  * Device Name
+02-13 10:09:00.379 D/wpa_supplicant(  651): WPS:  * Version2 (0x20)
+02-13 10:09:00.379 D/wpa_supplicant(  651): P2P: * P2P IE header
+02-13 10:09:00.379 D/wpa_supplicant(  651): P2P: * Capability dev=25 group=00
+02-13 10:09:00.379 D/wpa_supplicant(  651): P2P: * Listen Channel: Regulatory Class 81 Channel 11
+02-13 10:09:00.379 D/wpa_supplicant(  651): wlan0: nl80211: scan request
+02-13 10:09:00.449 D/wpa_supplicant(  651): Scan requested (ret=0) - scan timeout 30 seconds
+02-13 10:09:00.449 D/wpa_supplicant(  651): nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0
+02-13 10:09:00.449 D/wpa_supplicant(  651): wlan0: nl80211: Scan trigger
+02-13 10:09:01.569 D/wpa_supplicant(  651): nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+02-13 10:09:01.569 D/wpa_supplicant(  651): wlan0: nl80211: New scan results available
+02-13 10:09:01.569 D/wpa_supplicant(  651): wlan0: Event SCAN_RESULTS (3) received
+02-13 10:09:01.569 D/wpa_supplicant(  651): nl80211: Received scan results (19 BSSes)
+02-13 10:09:01.569 D/wpa_supplicant(  651): nl80211: Survey data missing
+02-13 10:09:01.569 D/wpa_supplicant(  651): wlan0: BSS: Start scan result update 2306
+02-13 10:09:01.569 D/wpa_supplicant(  651): wlan0: BSS: Add new id 3495 BSSID 80:1f:02:43:fb:e8 SSID 'Edimax AP'
+02-13 10:09:01.569 D/wpa_supplicant(  651): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+02-13 10:09:01.569 D/wpa_supplicant(  651): wlan0: BSS: Add new id 3496 BSSID cc:b2:55:e2:84:70 SSID 'DLINK_APK'
+02-13 10:09:01.569 D/wpa_supplicant(  651): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+02-13 10:09:01.569 D/wpa_supplicant(  651): wlan0: BSS: Add new id 3497 BSSID 74:de:2b:0d:bb:c1 SSID 'Slowly'
+02-13 10:09:01.569 D/wpa_supplicant(  651): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+02-13 10:09:01.569 I/WifiHW  (  504): EVENT: IFNAME=wlan0 CTRL-EVENT-BSS-ADDED 3495 80:1f:02:43:fb:e8
+02-13 10:09:01.569 D/wpa_supplicant(  651): wlan0: BSS: Remove id 3491 BSSID 02:09:4c:6d:4d:9e SSID 'DIRECT-' due to no match in scan
+02-13 10:09:01.569 D/wpa_supplicant(  651): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+02-13 10:09:01.569 I/WifiHW  (  504): EVENT: IFNAME=wlan0 CTRL-EVENT-BSS-ADDED 3496 cc:b2:55:e2:84:70
+02-13 10:09:01.569 D/wpa_supplicant(  651): BSS: last_scan_res_used=19/32 last_scan_full=0
+02-13 10:09:01.569 D/wpa_supplicant(  651): wlan0: New scan results available
+02-13 10:09:01.569 D/wpa_supplicant(  651): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+02-13 10:09:01.569 D/wpa_supplicant(  651): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+02-13 10:09:01.569 D/wpa_supplicant(  651): Authorize channel 1
+02-13 10:09:01.569 D/wpa_supplicant(  651): Authorize channel 2
+02-13 10:09:01.569 D/wpa_supplicant(  651): Authorize channel 3
+02-13 10:09:01.569 D/wpa_supplicant(  651): Authorize channel 4
+02-13 10:09:01.569 D/wpa_supplicant(  651): Authorize channel 5
+02-13 10:09:01.569 D/wpa_supplicant(  651): Authorize channel 6
+02-13 10:09:01.569 D/wpa_supplicant(  651): Authorize channel 7
+02-13 10:09:01.569 D/wpa_supplicant(  651): Authorize channel 8
+02-13 10:09:01.569 D/wpa_supplicant(  651): Authorize channel 9
+02-13 10:09:01.569 D/wpa_supplicant(  651): Authorize channel 10
+02-13 10:09:01.569 D/wpa_supplicant(  651): Authorize channel 11
+02-13 10:09:01.569 D/wpa_supplicant(  651): Authorize channel 12
+02-13 10:09:01.569 D/wpa_supplicant(  651): Authorize channel 13
+02-13 10:09:01.569 D/wpa_supplicant(  651): Authorize channel 1
+02-13 10:09:01.569 D/wpa_supplicant(  651): Authorize channel 2
+02-13 10:09:01.569 D/wpa_supplicant(  651): Authorize channel 3
+02-13 10:09:01.569 D/wpa_supplicant(  651): Authorize channel 4
+02-13 10:09:01.569 D/wpa_supplicant(  651): Authorize channel 5
+02-13 10:09:01.569 D/wpa_supplicant(  651): Authorize channel 6
+02-13 10:09:01.569 D/wpa_supplicant(  651): Authorize channel 7
+02-13 10:09:01.569 D/wpa_supplicant(  651): Authorize channel 8
+02-13 10:09:01.569 I/WifiHW  (  504): EVENT: IFNAME=wlan0 CTRL-EVENT-BSS-ADDED 3497 74:de:2b:0d:bb:c1
+02-13 10:09:01.569 I/WifiHW  (  504): EVENT: IFNAME=wlan0 CTRL-EVENT-BSS-REMOVED 3491 02:09:4c:6d:4d:9e
+02-13 10:09:01.569 I/WifiHW  (  504): EVENT: IFNAME=wlan0 CTRL-EVENT-SCAN-RESULTS 
+02-13 10:09:01.569 I/WifiHW  (  504): EVENT: IFNAME=wlan0 WPS-AP-AVAILABLE 
+02-13 10:09:01.569 I/WifiHW  (  504): CMD: IFNAME=wlan0 BSS RANGE=0- MASK=0x21987
+02-13 10:09:01.569 D/wpa_supplicant(  651): Authorize channel 9
+02-13 10:09:01.569 D/wpa_supplicant(  651): Authorize channel 10
+02-13 10:09:01.569 D/wpa_supplicant(  651): Authorize channel 11
+02-13 10:09:01.569 D/wpa_supplicant(  651): Authorize channel 12
+02-13 10:09:01.569 D/wpa_supplicant(  651): Authorize channel 13
+02-13 10:09:01.569 D/wpa_supplicant(  651): Add access point on channel 11
+02-13 10:09:01.569 D/wpa_supplicant(  651): Add access point on channel 11
+02-13 10:09:01.569 D/wpa_supplicant(  651): Add access point on channel 6
+02-13 10:09:01.569 D/wpa_supplicant(  651): Add access point on channel 1
+02-13 10:09:01.569 D/wpa_supplicant(  651): Add access point on channel 6
+02-13 10:09:01.569 D/wpa_supplicant(  651): Add access point on channel 11
+02-13 10:09:01.569 D/wpa_supplicant(  651): Add access point on channel 4
+02-13 10:09:01.569 D/wpa_supplicant(  651): Add access point on channel 6
+02-13 10:09:01.569 D/wpa_supplicant(  651): Add access point on channel 6
+02-13 10:09:01.569 D/wpa_supplicant(  651): Add access point on channel 1
+02-13 10:09:01.569 D/wpa_supplicant(  651): Add access point on channel 6
+02-13 10:09:01.569 D/wpa_supplicant(  651): Add access point on channel 6
+02-13 10:09:01.569 D/wpa_supplicant(  651): Add access point on channel 1
+02-13 10:09:01.569 D/wpa_supplicant(  651): Add access point on channel 11
+02-13 10:09:01.569 D/wpa_supplicant(  651): Add access point on channel 11
+02-13 10:09:01.569 D/wpa_supplicant(  651): Add access point on channel 9
+02-13 10:09:01.569 D/wpa_supplicant(  651): Add access point on channel 6
+02-13 10:09:01.569 D/wpa_supplicant(  651): Add access point on channel 1
+02-13 10:09:01.569 D/wpa_supplicant(  651): Add access point on channel 1
+02-13 10:09:01.569 D/wpa_supplicant(  651): Add access point on channel 1
+02-13 10:09:01.569 D/wpa_supplicant(  651): Add access point on channel 8
+02-13 10:09:01.569 D/wpa_supplicant(  651): Add access point on channel 6
+02-13 10:09:01.569 D/wpa_supplicant(  651): Best Operating channel is = 1
+02-13 10:09:01.569 D/wpa_supplicant(  651): WPS: AP[0] f8:d1:11:e7:99:e8 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:09:01.569 D/wpa_supplicant(  651): WPS: AP[1] 10:c3:7b:d2:e5:e0 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:09:01.569 D/wpa_supplicant(  651): WPS: AP[2] b0:48:7a:20:66:6a type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:09:01.569 D/wpa_supplicant(  651): WPS: AP[3] cc:34:29:2b:26:4c type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:09:01.569 D/wpa_supplicant(  651): WPS: AP[4] cc:34:29:2c:fb:ec type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:09:01.569 D/wpa_supplicant(  651): WPS: AP[5] 44:94:fc:3d:da:38 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:09:01.569 D/wpa_supplicant(  651): WPS: AP[6] c0:c1:c0:76:81:3c type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:09:01.569 D/wpa_supplicant(  651): WPS: AP[7] 98:fc:11:81:35:fb type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:09:01.569 D/wpa_supplicant(  651): WPS: AP[8] b0:48:7a:51:ff:cc type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:09:01.569 D/wpa_supplicant(  651): WPS: AP[9] 14:d6:4d:28:ef:c8 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:09:01.569 D/wpa_supplicant(  651): WPS: AP[10] 7a:ff:57:00:13:56 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:09:01.569 D/wpa_supplicant(  651): WPS: AP[11] c8:d7:19:60:62:f2 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:09:01.569 D/wpa_supplicant(  651): WPS: AP[12] c0:a0:bb:20:3b:84 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:09:01.569 D/wpa_supplicant(  651): WPS: AP[13] 5e:f3:70:0c:91:9a type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:09:01.569 D/wpa_supplicant(  651): WPS: AP[14] 02:09:4c:42:36:90 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:09:01.569 D/wpa_supplicant(  651): WPS: AP[15] e4:d3:32:36:2e:54 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:09:01.569 D/wpa_supplicant(  651): WPS: AP[16] 6c:8b:2f:e9:d1:da type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:09:01.569 D/wpa_supplicant(  651): WPS: AP[17] 9c:21:6a:0d:eb:72 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:09:01.569 D/wpa_supplicant(  651): WPS: AP[18] 02:09:4c:eb:14:b2 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:09:01.569 D/wpa_supplicant(  651): WPS: AP[19] 2c:b0:5d:7f:f4:24 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:09:01.569 D/wpa_supplicant(  651): WPS: AP[20] 08:ed:b9:2e:8e:1f type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:09:01.569 D/wpa_supplicant(  651): WPS: AP[21] e4:d3:32:db:f6:03 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:09:01.569 D/wpa_supplicant(  651): WPS: AP[22] ac:f1:df:cf:85:c0 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-13 10:09:01.569 D/wpa_supplicant(  651): wlan0: Selecting BSS from priority group 17
+02-13 10:09:01.569 D/wpa_supplicant(  651): wlan0: 0: c8:d7:19:60:62:f2 ssid='E3000-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-43
+02-13 10:09:01.569 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.569 D/wpa_supplicant(  651): wlan0: 1: f8:d1:11:e7:99:e8 ssid='videotest' wpa_ie_len=22 rsn_ie_len=20 caps=0x531 level=-49 wps
+02-13 10:09:01.569 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.569 D/wpa_supplicant(  651): wlan0: 2: 44:94:fc:3d:da:38 ssid='6300' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-51 wps
+02-13 10:09:01.569 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.569 D/wpa_supplicant(  651): wlan0: 3: 10:c3:7b:d2:e5:e0 ssid='ASUS_RT-AC66U-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-58 wps
+02-13 10:09:01.569 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.569 D/wpa_supplicant(  651): wlan0: 4: cc:34:29:2b:26:4c ssid='cws-test' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-58 wps
+02-13 10:09:01.569 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.569 D/wpa_supplicant(  651): wlan0: 5: 02:1a:11:ff:f7:0a ssid='io1' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-60
+02-13 10:09:01.569 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.569 D/wpa_supplicant(  651): wlan0: 6: cc:34:29:2c:fb:ec ssid='linksys' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-62 wps
+02-13 10:09:01.569 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.569 D/wpa_supplicant(  651): wlan0: 7: c0:c1:c0:76:81:3c ssid='E2000' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-65 wps
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0: 8: 80:1f:02:43:fb:e8 ssid='Edimax AP' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-66
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0: 9: cc:b2:55:e2:84:70 ssid='DLINK_APK' wpa_ie_len=22 rsn_ie_len=20 caps=0x411 level=-66
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0: 10: b0:48:7a:51:ff:cc ssid='Neusoft TP' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-67
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0: 11: b0:48:7a:20:66:6a ssid='TP-LINK_20666A' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-68 wps
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0: 12: 14:d6:4d:28:ef:c8 ssid='dlink' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-69 wps
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0: 13: 5e:f3:70:0c:91:9a ssid='DIRECT-30-Android_7f71' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-70 wps
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0: 14: 00:0f:e2:0f:9f:c1 ssid='321_WAN' wpa_ie_len=28 rsn_ie_len=24 caps=0x411 level=-74
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0: 15: 74:de:2b:0d:bb:c1 ssid='Slowly' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-78
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0: 16: 74:e5:43:24:f4:5b ssid='Dttest' wpa_ie_len=0 rsn_ie_len=20 caps=0x31 level=-81
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0: 17: 50:bd:5f:4b:29:92 ssid='Internet-2' wpa_ie_len=0 rsn_ie_len=0 caps=0x421 level=-65
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0: 18: e4:d3:32:dd:18:62 ssid='Internet' wpa_ie_len=0 rsn_ie_len=0 caps=0x421 level=-68
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0: Selecting BSS from priority group 15
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0: 0: c8:d7:19:60:62:f2 ssid='E3000-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-43
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0: 1: f8:d1:11:e7:99:e8 ssid='videotest' wpa_ie_len=22 rsn_ie_len=20 caps=0x531 level=-49 wps
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0: 2: 44:94:fc:3d:da:38 ssid='6300' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-51 wps
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0: 3: 10:c3:7b:d2:e5:e0 ssid='ASUS_RT-AC66U-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-58 wps
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0: 4: cc:34:29:2b:26:4c ssid='cws-test' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-58 wps
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0: 5: 02:1a:11:ff:f7:0a ssid='io1' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-60
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0: 6: cc:34:29:2c:fb:ec ssid='linksys' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-62 wps
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0: 7: c0:c1:c0:76:81:3c ssid='E2000' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-65 wps
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0: 8: 80:1f:02:43:fb:e8 ssid='Edimax AP' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-66
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0: 9: cc:b2:55:e2:84:70 ssid='DLINK_APK' wpa_ie_len=22 rsn_ie_len=20 caps=0x411 level=-66
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0: 10: b0:48:7a:51:ff:cc ssid='Neusoft TP' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-67
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0: 11: b0:48:7a:20:66:6a ssid='TP-LINK_20666A' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-68 wps
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0: 12: 14:d6:4d:28:ef:c8 ssid='dlink' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-69 wps
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0: 13: 5e:f3:70:0c:91:9a ssid='DIRECT-30-Android_7f71' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-70 wps
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0: 14: 00:0f:e2:0f:9f:c1 ssid='321_WAN' wpa_ie_len=28 rsn_ie_len=24 caps=0x411 level=-74
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0: 15: 74:de:2b:0d:bb:c1 ssid='Slowly' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-78
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0: 16: 74:e5:43:24:f4:5b ssid='Dttest' wpa_ie_len=0 rsn_ie_len=20 caps=0x31 level=-81
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0: 17: 50:bd:5f:4b:29:92 ssid='Internet-2' wpa_ie_len=0 rsn_ie_len=0 caps=0x421 level=-65
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0: 18: e4:d3:32:dd:18:62 ssid='Internet' wpa_ie_len=0 rsn_ie_len=0 caps=0x421 level=-68
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0: Selecting BSS from priority group 4
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0: 0: c8:d7:19:60:62:f2 ssid='E3000-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-43
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0: 1: f8:d1:11:e7:99:e8 ssid='videotest' wpa_ie_len=22 rsn_ie_len=20 caps=0x531 level=-49 wps
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0: 2: 44:94:fc:3d:da:38 ssid='6300' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-51 wps
+02-13 10:09:01.579 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.589 D/wpa_supplicant(  651): wlan0: 3: 10:c3:7b:d2:e5:e0 ssid='ASUS_RT-AC66U-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-58 wps
+02-13 10:09:01.589 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.589 D/wpa_supplicant(  651): wlan0: 4: cc:34:29:2b:26:4c ssid='cws-test' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-58 wps
+02-13 10:09:01.589 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.589 D/wpa_supplicant(  651): wlan0: 5: 02:1a:11:ff:f7:0a ssid='io1' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-60
+02-13 10:09:01.589 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.589 D/wpa_supplicant(  651): wlan0: 6: cc:34:29:2c:fb:ec ssid='linksys' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-62 wps
+02-13 10:09:01.589 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.589 D/wpa_supplicant(  651): wlan0: 7: c0:c1:c0:76:81:3c ssid='E2000' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-65 wps
+02-13 10:09:01.589 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.589 D/wpa_supplicant(  651): wlan0: 8: 80:1f:02:43:fb:e8 ssid='Edimax AP' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-66
+02-13 10:09:01.589 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.589 D/wpa_supplicant(  651): wlan0: 9: cc:b2:55:e2:84:70 ssid='DLINK_APK' wpa_ie_len=22 rsn_ie_len=20 caps=0x411 level=-66
+02-13 10:09:01.589 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.589 D/wpa_supplicant(  651): wlan0: 10: b0:48:7a:51:ff:cc ssid='Neusoft TP' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-67
+02-13 10:09:01.589 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.589 D/wpa_supplicant(  651): wlan0: 11: b0:48:7a:20:66:6a ssid='TP-LINK_20666A' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-68 wps
+02-13 10:09:01.589 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.589 D/wpa_supplicant(  651): wlan0: 12: 14:d6:4d:28:ef:c8 ssid='dlink' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-69 wps
+02-13 10:09:01.589 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.589 D/wpa_supplicant(  651): wlan0: 13: 5e:f3:70:0c:91:9a ssid='DIRECT-30-Android_7f71' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-70 wps
+02-13 10:09:01.589 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.589 D/wpa_supplicant(  651): wlan0: 14: 00:0f:e2:0f:9f:c1 ssid='321_WAN' wpa_ie_len=28 rsn_ie_len=24 caps=0x411 level=-74
+02-13 10:09:01.589 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.589 D/wpa_supplicant(  651): wlan0: 15: 74:de:2b:0d:bb:c1 ssid='Slowly' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-78
+02-13 10:09:01.589 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.589 D/wpa_supplicant(  651): wlan0: 16: 74:e5:43:24:f4:5b ssid='Dttest' wpa_ie_len=0 rsn_ie_len=20 caps=0x31 level=-81
+02-13 10:09:01.589 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.589 D/wpa_supplicant(  651): wlan0: 17: 50:bd:5f:4b:29:92 ssid='Internet-2' wpa_ie_len=0 rsn_ie_len=0 caps=0x421 level=-65
+02-13 10:09:01.589 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.589 D/wpa_supplicant(  651): wlan0: 18: e4:d3:32:dd:18:62 ssid='Internet' wpa_ie_len=0 rsn_ie_len=0 caps=0x421 level=-68
+02-13 10:09:01.589 D/wpa_supplicant(  651): wlan0:    skip - SSID mismatch
+02-13 10:09:01.589 D/wpa_supplicant(  651): wlan0: No suitable network found
+02-13 10:09:01.589 D/wpa_supplicant(  651): wlan0: Setting scan request: 40 sec 0 usec
+02-13 10:09:01.589 D/wpa_supplicant(  651): wlan0: Checking for other virtual interfaces sharing same radio (phy0) in event_scan_results
+02-13 10:09:01.589 D/wpa_supplicant(  651): p2p-dev-wlan0: Updating scan results from sibling
+02-13 10:09:01.589 D/wpa_supplicant(  651): nl80211: Received scan results (19 BSSes)
+02-13 10:09:01.589 D/wpa_supplicant(  651): nl80211: Survey data missing
+02-13 10:09:01.589 D/wpa_supplicant(  651): p2p-dev-wlan0: BSS: Start scan result update 2296
+02-13 10:09:01.589 D/wpa_supplicant(  651): BSS: No P2P IE - skipping BSS c8:d7:19:60:62:f2 update for P2P interface
+02-13 10:09:01.589 D/wpa_supplicant(  651): BSS: No P2P IE - skipping BSS f8:d1:11:e7:99:e8 update for P2P interface
+02-13 10:09:01.589 D/wpa_supplicant(  651): BSS: No P2P IE - skipping BSS 44:94:fc:3d:da:38 update for P2P interface
+02-13 10:09:01.589 D/wpa_supplicant(  651): BSS: No P2P IE - skipping BSS 10:c3:7b:d2:e5:e0 update for P2P interface
+02-13 10:09:01.589 D/wpa_supplicant(  651): BSS: No P2P IE - skipping BSS cc:34:29:2b:26:4c update for P2P interface
+02-13 10:09:01.589 D/wpa_supplicant(  651): BSS: No P2P IE - skipping BSS 02:1a:11:ff:f7:0a update for P2P interface
+02-13 10:09:01.589 D/wpa_supplicant(  651): BSS: No P2P IE - skipping BSS cc:34:29:2c:fb:ec update for P2P interface
+02-13 10:09:01.589 D/wpa_supplicant(  651): BSS: No P2P IE - skipping BSS c0:c1:c0:76:81:3c update for P2P interface
+02-13 10:09:01.589 D/wpa_supplicant(  651): BSS: No P2P IE - skipping BSS 80:1f:02:43:fb:e8 update for P2P interface
+02-13 10:09:01.589 D/wpa_supplicant(  651): BSS: No P2P IE - skipping BSS cc:b2:55:e2:84:70 update for P2P interface
+02-13 10:09:01.589 D/wpa_supplicant(  651): BSS: No P2P IE - skipping BSS b0:48:7a:51:ff:cc update for P2P interface
+02-13 10:09:01.589 D/wpa_supplicant(  651): BSS: No P2P IE - skipping BSS b0:48:7a:20:66:6a update for P2P interface
+02-13 10:09:01.589 D/wpa_supplicant(  651): BSS: No P2P IE - skipping BSS 14:d6:4d:28:ef:c8 update for P2P interface
+02-13 10:09:01.589 D/wpa_supplicant(  651): BSS: No P2P IE - skipping BSS 00:0f:e2:0f:9f:c1 update for P2P interface

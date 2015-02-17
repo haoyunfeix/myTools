@@ -54,7 +54,7 @@
       <result_info><actual_result>FAIL</actual_result><start /><end /><stdout /><stderr /></result_info></testcase>
     </set>
     <set name="extra-ref" set_debug_msg="N/A" type="ref">
-      <testcase component="W3C_HTML5 APIs/W3C_EXTRAHTML5/Semantics" execution_type="auto" id="reversed_on_ol_element" purpose="Check if the reversed attribute on ol element" result="BLOCK">
+      <testcase component="W3C_HTML5 APIs/W3C_EXTRAHTML5/Semantics" execution_type="auto" id="reversed_on_ol_element" purpose="Check if the reversed attribute on ol element" result="PASS">
         <description>
           <steps>
             <step order="1">
@@ -65,7 +65,7 @@
           <test_script_entry>/opt/tct-extra-html5-tests/w3c/semantics/grouping-content/the-ol-element/reversed-1a.html</test_script_entry>
           <refer_test_script_entry timeout="90">/opt/tct-extra-html5-tests/w3c/semantics/grouping-content/the-ol-element/reversed-1-ref.html</refer_test_script_entry>
         </description>
-      <result_info><actual_result>BLOCK</actual_result><start>2015-02-12 13:10:28</start><end>2015-02-12 13:20:28</end><stdout /><stderr /></result_info></testcase>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-12 13:10:28</start><end>2015-02-12 13:20:28</end><stdout /><stderr /></result_info></testcase>
       <testcase component="W3C_HTML5 APIs/W3C_EXTRAHTML5/Semantics" execution_type="auto" id="hidden_attribute_support" purpose="Check if the hidden attribute support" result="PASS">
         <description>
           <test_script_entry>/opt/tct-extra-html5-tests/w3c/editing/the-hidden-attribute/hidden-1a.html</test_script_entry>
