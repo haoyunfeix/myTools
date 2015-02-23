@@ -208,7 +208,7 @@ def count_cases(xml):
         tree1 = read_xml(xml)
         nodelist1 = tree1.getroot()
         rlt1 = get_info(nodelist1)
-        print "%s %s %s %s %s %s %s%%" % (name,rlt1["sum"],rlt1["pass"],rlt1["fail"],rlt1["block"],rlt1["not_run"],rlt1["pass_rate"])
+        print "%s %s %s %s %s %s %s%%" % (name,rlt1["sum"],rlt1["pass"],rlt1["fail"],rlt1["block"],rlt1["not_run"],int(round(rlt1["pass_rate"])))
     else:
         print 'wrong 1'
 
@@ -285,6 +285,7 @@ def main():
             else:
                 print "wront path for --count"
                 sys.exit(1)
+            sys.exit(1) 
         
         # insert into db
         if PARAMETERS.insert:
@@ -296,7 +297,7 @@ def main():
             sys.exit(1)
         if not PARAMETERS.xmlfile:
             print "xml file not defined, exit..."
-            sys.exit(1)
+            #sys.exit(1)
 
         tree = read_xml(PARAMETERS.xmlfile)
         nodelist = tree.getroot()
@@ -333,11 +334,31 @@ def main():
        
         if not PARAMETERS.deletevalue and not PARAMETERS.changevalue \
             and PARAMETERS.xmlfile1 and PARAMETERS.xmlfile2:
+            #print PARAMETERS.xmlfile1 
+            #print PARAMETERS.xmlfile2 
+            for file1 in glob.glob("%s/*.xml" % PARAMETERS.xmlfile1):
+                filename1 = os.path.basename(file1)
+                #print filename1
+                for file2 in glob.glob("%s/%s" % (PARAMETERS.xmlfile2,filename1)):
+                    tree1 = read_xml(file1)
+                    nodelist1 = tree1.getroot()
+                    rlt1 = get_info(nodelist1)
+                    tree2 = read_xml(file2)
+                    nodelist2 = tree2.getroot()
+                    rlt2 = get_info(nodelist2)
+                    if rlt1["pass_rate"] == rlt2["pass_rate"]:
+                        pass
+                        #print "the pass rate of %s is the same" % filename1
+                    elif rlt1["pass_rate"] < rlt2["pass_rate"]:
+                        print "\033[0;31m the pass rate of %s/\033[0;31;4;1m%s \033[0;31m down from %.f%% to %.f%%\033[0m" % (PARAMETERS.xmlfile1, filename1, rlt2["pass_rate"], rlt1["pass_rate"])
+                    else:
+                        print "\033[0;32m the pass rate of %s/\033[0;32;4;1m%s\033[0;32m up from %.f%% to %.f%%\033[0m" % (PARAMETERS.xmlfile1, filename1, rlt2["pass_rate"], rlt1["pass_rate"])
+            sys.exit(1)
             for root, dirs, files in os.walk(PARAMETERS.xmlfile1):
                 for filename in files:
-                    if filename.endswith(".xml"):
+                    if not filename.endswith(".xml"):
                         continue
-                    print os.path.join(root, filename)
+                    #print os.path.join(root, filename)
                     for root2, dirs2, files2 in os.walk(PARAMETERS.xmlfile2):
                         for filename2 in files2:
                             #if os.path.join(root, filename).replace("11.40.276.0_201412310300","")== \

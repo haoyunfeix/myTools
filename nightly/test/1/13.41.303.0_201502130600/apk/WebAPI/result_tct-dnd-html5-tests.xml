@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <?xml-stylesheet type="text/xsl" href="testresult.xsl"?>
+<test_definition><environment build_id="" device_id="E6OKCY410686" device_model="" device_name="N/A" host="Linux-3.13.0-39-generic-x86_64-with-Ubuntu-12.04-precise" lite_version="3.1.13" manufacturer="" resolution="N/A" screen_size="N/A"><other /></environment>
+<summary test_plan_name="Empty test_plan_name"><start_at>2015-02-13_08_00_51</start_at><end_at>2015-02-13_08_01_08</end_at></summary>
+  <suite category="W3C/HTML5 APIs" name="tct-dnd-html5-tests" widget="webapi-noneservice-tests">
+    <set name="DnD" set_debug_msg="N/A" type="js">
+      <testcase component="W3C_HTML5 APIs/UI/HTML5 Drag and drop (Partial)" execution_type="auto" id="dragdrop_dropzone" purpose="Check if the dropzone attribute exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-dnd-html5-tests/dnd/dragdrop_dropzone.html</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-02-13 08:01:03</start><end>2015-02-13 08:01:04</end><stdout /><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/UI/HTML5 Drag and drop (Partial)" execution_type="auto" id="dragdrop_007" purpose="Check false state of draggable attribute" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-dnd-html5-tests/dnd/w3c/dragdrop_007.htm</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-02-13 08:01:04</start><end>2015-02-13 08:01:04</end><stdout /><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/UI/HTML5 Drag and drop (Partial)" execution_type="auto" id="dragdrop_008" purpose="Check true state of draggable attribute" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-dnd-html5-tests/dnd/w3c/dragdrop_008.htm</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-02-13 08:01:04</start><end>2015-02-13 08:01:05</end><stdout /><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/UI/HTML5 Drag and drop (Partial)" execution_type="auto" id="dragdrop_004" purpose="Check auto state of draggable attribute for 'a' element" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-dnd-html5-tests/dnd/w3c/dragdrop_004.htm</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-02-13 08:01:05</start><end>2015-02-13 08:01:05</end><stdout /><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/UI/HTML5 Drag and drop (Partial)" execution_type="auto" id="dragdrop_005" purpose="Check auto state of draggable attribute for div element" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-dnd-html5-tests/dnd/w3c/dragdrop_005.htm</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-02-13 08:01:05</start><end>2015-02-13 08:01:06</end><stdout /><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/UI/HTML5 Drag and drop (Partial)" execution_type="auto" id="dragdrop_006" purpose="Check auto state of draggable attribute for img element" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-dnd-html5-tests/dnd/w3c/dragdrop_006.htm</test_script_entry>
+        </description>
+        <result_info><actual_result>PASS</actual_result><start>2015-02-13 08:01:06</start><end>2015-02-13 08:01:07</end><stdout /><stderr /></result_info></testcase>
+    </set>
+  </suite>
+</test_definition>
