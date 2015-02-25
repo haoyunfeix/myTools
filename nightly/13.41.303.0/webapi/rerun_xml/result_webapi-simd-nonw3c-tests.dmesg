@@ -1,0 +1,1 @@
+/system/bin/sh: cat: /proc/kmsg: Permission denied

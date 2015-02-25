@@ -1,0 +1,1984 @@
+--------- beginning of /dev/log/main
+02-25 10:39:31.129 D/AndroidRuntime( 6925): 
+02-25 10:39:31.129 D/AndroidRuntime( 6925): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-25 10:39:31.129 D/AndroidRuntime( 6925): CheckJNI is OFF
+02-25 10:39:31.129 I/AndroidRuntime( 6925): Kernel Release Version: 3.10.20-gf818079
+02-25 10:39:31.129 I/dalvikvm( 6925): No library specified. The standard exception handler will be used
+02-25 10:39:31.129 I/dalvikvm( 6925): 
+02-25 10:39:31.129 I/dalvikvm( 6925): +++++++++++++ Using PCG. +++++++++++++++++++++
+02-25 10:39:31.139 D/dalvikvm( 6925): Trying to load lib libjavacore.so 0x0
+02-25 10:39:31.139 D/dalvikvm( 6925): Added shared lib libjavacore.so 0x0
+02-25 10:39:31.139 D/dalvikvm( 6925): Trying to load lib libnativehelper.so 0x0
+02-25 10:39:31.139 D/dalvikvm( 6925): Added shared lib libnativehelper.so 0x0
+02-25 10:39:31.139 D/dalvikvm( 6925): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-25 10:39:31.149 D/dalvikvm( 6925): Extra Options: not specified
+02-25 10:39:31.159 D/dalvikvm( 6925): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+02-25 10:39:31.239 E/memtrack( 6925): Couldn't load memtrack module (No such file or directory)
+02-25 10:39:31.239 E/android.os.Debug( 6925): failed to load memtrack module: -2
+02-25 10:39:31.279 D/AndroidRuntime( 6925): Calling main entry com.android.commands.am.Am
+02-25 10:39:31.299 D/AndroidRuntime( 6925): Shutting down VM
+02-25 10:39:31.299 D/dalvikvm( 6925): GC_CONCURRENT freed 112K, 16% free 666K/792K, paused 0ms+0ms, total 1ms
+--------- beginning of /dev/log/system
+02-25 10:39:31.299 I/ActivityManager(  506): Force stopping org.xwalk.webapi_noneservice_tests appid=10259 user=0: from pid 6925
+02-25 10:39:31.309 D/dalvikvm( 6925): Compiler shutdown in progress - discarding request
+02-25 10:39:31.309 D/dalvikvm( 6925): Compiler shutdown in progress - discarding request
+02-25 10:39:31.309 D/dalvikvm( 6925): Compiler shutdown in progress - discarding request
+02-25 10:39:31.309 D/dalvikvm( 6925): Compiler shutdown in progress - discarding request
+02-25 10:39:31.309 D/dalvikvm( 6925): Compiler shutdown in progress - discarding request
+02-25 10:39:31.309 D/dalvikvm( 6925): Compiler shutdown in progress - discarding request
+02-25 10:39:31.309 D/dalvikvm( 6925): Compiler shutdown in progress - discarding request
+02-25 10:39:31.309 D/dalvikvm( 6925): Compiler shutdown in progress - discarding request
+02-25 10:39:31.309 D/dalvikvm( 6925): Compiler shutdown in progress - discarding request
+02-25 10:39:31.309 D/dalvikvm( 6925): Compiler shutdown in progress - discarding request
+02-25 10:39:31.309 D/dalvikvm( 6925): Compiler shutdown in progress - discarding request
+02-25 10:39:31.309 D/dalvikvm( 6925): Compiler shutdown in progress - discarding request
+02-25 10:39:31.309 D/dalvikvm( 6925): Compiler shutdown in progress - discarding request
+02-25 10:39:31.309 D/dalvikvm( 6925): Compiler shutdown in progress - discarding request
+02-25 10:39:31.309 D/dalvikvm( 6925): Compiler shutdown in progress - discarding request
+02-25 10:39:31.309 D/dalvikvm( 6925): Compiler shutdown in progress - discarding request
+02-25 10:39:31.309 D/dalvikvm( 6925): Compiler shutdown in progress - discarding request
+02-25 10:39:31.309 D/dalvikvm( 6925): Compiler shutdown in progress - discarding request
+02-25 10:39:31.309 D/dalvikvm( 6925): Compiler shutdown in progress - discarding request
+02-25 10:39:31.309 D/dalvikvm( 6925): Compiler shutdown in progress - discarding request
+02-25 10:39:31.309 D/dalvikvm( 6925): Compiler shutdown in progress - discarding request
+02-25 10:39:31.309 D/dalvikvm( 6925): Compiler shutdown in progress - discarding request
+02-25 10:39:31.309 D/dalvikvm( 6925): Compiler shutdown in progress - discarding request
+02-25 10:39:31.309 D/dalvikvm( 6925): Compiler shutdown in progress - discarding request
+02-25 10:39:31.309 D/dalvikvm( 6925): Compiler shutdown in progress - discarding request
+02-25 10:39:31.309 D/dalvikvm( 6925): Compiler shutdown in progress - discarding request
+02-25 10:39:31.309 D/dalvikvm( 6925): Compiler shutdown in progress - discarding request
+02-25 10:39:31.309 D/dalvikvm( 6925): Compiler shutdown in progress - discarding request
+02-25 10:39:31.309 D/dalvikvm( 6925): Compiler shutdown in progress - discarding request
+02-25 10:39:31.309 D/dalvikvm( 6925): Compiler shutdown in progress - discarding request
+02-25 10:39:31.309 D/dalvikvm( 6925): Compiler shutdown in progress - discarding request
+02-25 10:39:31.309 D/dalvikvm( 6925): Compiler shutdown in progress - discarding request
+02-25 10:39:31.309 D/dalvikvm( 6925): Compiler shutdown in progress - discarding request
+02-25 10:39:31.309 D/dalvikvm( 6925): Compiler shutdown in progress - discarding request
+02-25 10:39:31.309 D/dalvikvm( 6925): Compiler shutdown in progress - discarding request
+02-25 10:39:31.309 D/dalvikvm( 6925): Compiler shutdown in progress - discarding request
+02-25 10:39:31.309 D/dalvikvm( 6925): Compiler shutdown in progress - discarding request
+02-25 10:39:31.309 D/dalvikvm( 6925): Compiler shutdown in progress - discarding request
+02-25 10:39:31.309 D/dalvikvm( 6925): Compiler shutdown in progress - discarding request
+02-25 10:39:31.309 D/dalvikvm( 6925): Compiler shutdown in progress - discarding request
+02-25 10:39:31.309 D/dalvikvm( 6925): Compiler shutdown in progress - discarding request
+02-25 10:39:31.309 D/dalvikvm( 6925): Compiler shutdown in progress - discarding request
+02-25 10:39:31.309 D/dalvikvm( 6925): Compiler shutdown in progress - discarding request
+02-25 10:39:31.309 D/dalvikvm( 6925): Compiler shutdown in progress - discarding request
+02-25 10:39:31.939 D/PROPERTY(  186): get media.dump_output.befconv: 0
+02-25 10:39:31.939 D/PROPERTY(  186): get media.dump_output.aftconv: 0
+02-25 10:39:31.939 D/RouteManager(  186): stopStream: {+++ RECONSIDER ROUTING +++} due to output stream stop event
+02-25 10:39:31.939 D/RouteManager(  186): reconsiderRouting
+02-25 10:39:31.939 D/EVENT_THREAD(  186): void CEventThread::trig(uint16_t): in
+02-25 10:39:31.939 D/EVENT_THREAD(  186): void CEventThread::trig(uint16_t): out
+02-25 10:39:31.939 D/RouteManager(  186): doReconsiderRouting:       Platform State:
+02-25 10:39:31.939 D/RouteManager(  186): doReconsiderRouting:          -Modem Alive = 0 
+02-25 10:39:31.939 D/RouteManager(  186): doReconsiderRouting:          -Modem Call Active = 0 
+02-25 10:39:31.939 D/RouteManager(  186): doReconsiderRouting:          -Is Shared I2S glitch free=1 
+02-25 10:39:31.939 D/RouteManager(  186): doReconsiderRouting:          -Android Telephony Mode = Normal 
+02-25 10:39:31.939 D/RouteManager(  186): doReconsiderRouting:          -RTE MGR HW Mode = Normal 
+02-25 10:39:31.939 D/RouteManager(  186): doReconsiderRouting:          -BT Enabled = 1 
+02-25 10:39:31.939 D/RouteManager(  186): doReconsiderRouting:          -BT NREC = 0 
+02-25 10:39:31.939 D/RouteManager(  186): doReconsiderRouting:          -BT Band = NB 
+02-25 10:39:31.939 D/RouteManager(  186): doReconsiderRouting:          -Platform output device = IHF 
+02-25 10:39:31.939 D/RouteManager(  186): doReconsiderRouting:          -Platform input device = <none> 
+02-25 10:39:31.939 D/RouteManager(  186): doReconsiderRouting:          -Platform input source = None 
+02-25 10:39:31.939 D/RouteManager(  186): doReconsiderRouting:          -Platform Band type = NB 
+02-25 10:39:31.939 D/RouteManager(  186): doReconsiderRouting:          -Platform Has Direct Stream = no 
+02-25 10:39:31.939 D/RouteManager(  186): doReconsiderRouting:          -Platform TTY direction = <none> 
+02-25 10:39:31.939 D/RouteManager(  186): doReconsiderRouting:          -Platform HAC Mode = Off 
+02-25 10:39:31.939 D/RouteManager(  186): doReconsiderRouting:          -Platform Screen State = On 
+02-25 10:39:31.939 D/RouteManager(  186): doReconsiderRouting:          -Platform Context Awareness = false 
+02-25 10:39:31.939 D/RouteManager(  186): doReconsiderRouting:          -Platform Always Listening = false 
+02-25 10:39:31.939 D/RouteManager(  186): doReconsiderRouting:          -Platform FM State = Off 
+02-25 10:39:31.939 D/RouteManager(  186): doReconsiderRouting:          -Platform Bypass Non Linear PP State = Off 
+02-25 10:39:31.939 D/RouteManager(  186): doReconsiderRouting:          -Platform Bypass Linear PP State = Off 
+02-25 10:39:31.939 D/RouteManager(  186): doReconsiderRouting:          -Platform MicMute = Off 
+02-25 10:39:31.939 D/RouteManager(  186): doReconsiderRouting:      Route state:
+02-25 10:39:31.939 D/RouteManager(  186): doReconsiderRouting:          -Previously Enabled Route in Input = <none>
+02-25 10:39:31.939 D/RouteManager(  186): doReconsiderRouting:          -Previously Enabled Route in Output = Media|HwCodecMedia
+02-25 10:39:31.939 D/RouteManager(  186): doReconsiderRouting:          -Selected Route in Input = <none>
+02-25 10:39:31.939 D/RouteManager(  186): doReconsiderRouting:          -Selected Route in Output = <none>
+02-25 10:39:31.939 D/RouteManager(  186): doReconsiderRouting:          -Route that need reconfiguration in Input = <none>
+02-25 10:39:31.939 D/RouteManager(  186): doReconsiderRouting:          -Route that need reconfiguration in Output = <none>
+02-25 10:39:31.939 D/RouteManager(  186): executeMuteStage: --------------- Routing Stage = Mute ---------------
+02-25 10:39:31.939 D/RouteManager(  186): parameter-framework: Selection criterion changed event: Criterion name: RoutageState, current state: Flow
+02-25 10:39:31.939 D/RouteManager(  186): muteRoutes: Expected Routes to be muted in Output = Media|HwCodecMedia
+02-25 10:39:31.939 D/RouteManager(  186): parameter-framework: Selection criterion changed event: Criterion name: ClosingPlaybackRoutes, current state: Media|HwCodecMedia
+02-25 10:39:31.939 D/RouteManager(  186): parameter-framework: Selection criterion changed event: Criterion name: OpenedPlaybackRoutes, current state: <none>
+02-25 10:39:31.939 D/RouteManager(  186): parameter-framework: Configuration application request {
+02-25 10:39:31.939 D/RouteManager(  186): parameter-framework:     Applying configurations {
+02-25 10:39:31.939 D/RouteManager(  186): parameter-framework:     } Applying configurations
+02-25 10:39:31.939 D/RouteManager(  186): parameter-framework: } Configuration application request
+02-25 10:39:31.939 D/RouteManager(  186): executeDisableStage: --------------- Routing Stage = Disable ---------------
+02-25 10:39:31.939 D/RouteManager(  186): parameter-framework: Selection criterion changed event: Criterion name: RoutageState, current state: Path
+02-25 10:39:31.939 D/RouteManager(  186): prepareDisableRoutes: Routes to be disabled(unrouted) in Output = Media|HwCodecMedia
+02-25 10:39:31.939 D/ALSAStreamOps(  186): detachRouteL output stream
+02-25 10:39:31.939 D/RouteManager/StreamRoute(  186): closePcmDevice called for card (baytrailaudio,0)
+02-25 10:39:31.949 D/AndroidRuntime( 6936): 
+02-25 10:39:31.949 D/AndroidRuntime( 6936): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-25 10:39:31.949 D/AndroidRuntime( 6936): CheckJNI is OFF
+02-25 10:39:31.949 I/AndroidRuntime( 6936): Kernel Release Version: 3.10.20-gf818079
+02-25 10:39:31.949 I/dalvikvm( 6936): No library specified. The standard exception handler will be used
+02-25 10:39:31.949 I/dalvikvm( 6936): 
+02-25 10:39:31.949 I/dalvikvm( 6936): +++++++++++++ Using PCG. +++++++++++++++++++++
+02-25 10:39:31.959 D/dalvikvm( 6936): Trying to load lib libjavacore.so 0x0
+02-25 10:39:31.959 D/dalvikvm( 6936): Added shared lib libjavacore.so 0x0
+02-25 10:39:31.959 D/dalvikvm( 6936): Trying to load lib libnativehelper.so 0x0
+02-25 10:39:31.959 D/dalvikvm( 6936): Added shared lib libnativehelper.so 0x0
+02-25 10:39:31.959 D/dalvikvm( 6936): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-25 10:39:31.969 D/dalvikvm( 6936): Extra Options: not specified
+02-25 10:39:31.969 D/RouteManager(  186): parameter-framework: Configuration application request {
+02-25 10:39:31.969 D/RouteManager(  186): parameter-framework:     Applying configurations {
+02-25 10:39:31.969 D/RouteManager(  186): parameter-framework:         Applying configuration "Disable" from domain "Routing.Enable.HWCodec.Playback.IHF"
+02-25 10:39:31.969 D/RouteManager(  186): parameter-framework:         Applying configuration "Disable" from domain "Routing.Enable.HWCodec.Playback.Multimedia.IHF"
+02-25 10:39:31.969 D/RouteManager(  186): parameter-framework:         Applying configuration "Disable" from domain "Routing.Enable.HWCodec.Playback.Multimedia.Playback"
+02-25 10:39:31.969 D/RouteManager(  186): parameter-framework:     } Applying configurations
+02-25 10:39:31.969 D/RouteManager(  186): parameter-framework: } Configuration application request
+02-25 10:39:31.969 D/RouteManager(  186): executeConfigureStage: --------------- Routing Stage = Configure ---------------
+02-25 10:39:31.969 D/RouteManager(  186): parameter-framework: Selection criterion changed event: Criterion name: RoutageState, current state: Configure
+02-25 10:39:31.969 D/RouteManager(  186): parameter-framework: Selection criterion changed event: Criterion name: ClosingPlaybackRoutes, current state: <none>
+02-25 10:39:31.969 D/RouteManager(  186): parameter-framework: Configuration application request {
+02-25 10:39:31.969 D/RouteManager(  186): parameter-framework:     Applying configurations {
+02-25 10:39:31.969 D/RouteManager(  186): parameter-framework:         Applying configuration "Deactivated" from domain "Routing.Configure.LPE_Mixer.IHF"
+02-25 10:39:31.969 D/RouteManager(  186): parameter-framework:     } Applying configurations
+02-25 10:39:31.969 D/RouteManager(  186): parameter-framework: } Configuration application request
+02-25 10:39:31.969 D/RouteManager(  186): executeEnableStage: --------------- Routing Stage = Enable ---------------
+02-25 10:39:31.969 D/RouteManager(  186): parameter-framework: Selection criterion changed event: Criterion name: RoutageState, current state: Path|Configure
+02-25 10:39:31.969 D/RouteManager(  186): parameter-framework: Configuration application request {
+02-25 10:39:31.969 D/RouteManager(  186): parameter-framework:     Applying configurations {
+02-25 10:39:31.969 D/RouteManager(  186): parameter-framework:     } Applying configurations
+02-25 10:39:31.969 D/RouteManager(  186): parameter-framework: } Configuration application request
+02-25 10:39:31.969 D/RouteManager(  186): executeUnmuteStage: --------------- Routing Stage = Unmute ---------------
+02-25 10:39:31.969 D/RouteManager(  186): parameter-framework: Selection criterion changed event: Criterion name: RoutageState, current state: Flow|Path|Configure
+02-25 10:39:31.969 D/RouteManager(  186): parameter-framework: Configuration application request {
+02-25 10:39:31.969 D/RouteManager(  186): parameter-framework:     Applying configurations {
+02-25 10:39:31.969 D/RouteManager(  186): parameter-framework:     } Applying configurations
+02-25 10:39:31.969 D/RouteManager(  186): parameter-framework: } Configuration application request
+02-25 10:39:31.969 D/RouteManager(  186): reconsiderRouting: DONE
+02-25 10:39:31.979 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-25 10:39:31.979 D/dalvikvm( 6936): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+02-25 10:39:32.049 E/memtrack( 6936): Couldn't load memtrack module (No such file or directory)
+02-25 10:39:32.049 E/android.os.Debug( 6936): failed to load memtrack module: -2
+02-25 10:39:32.089 D/AndroidRuntime( 6936): Calling main entry com.android.commands.am.Am
+02-25 10:39:32.119 D/AndroidRuntime( 6936): Shutting down VM
+02-25 10:39:32.119 D/dalvikvm( 6936): GC_CONCURRENT freed 117K, 16% free 702K/832K, paused 0ms+0ms, total 1ms
+02-25 10:39:32.119 D/dalvikvm( 6936): Compiler shutdown in progress - discarding request
+02-25 10:39:32.119 D/dalvikvm( 6936): Compiler shutdown in progress - discarding request
+02-25 10:39:32.119 D/dalvikvm( 6936): Compiler shutdown in progress - discarding request
+02-25 10:39:32.119 D/dalvikvm( 6936): Compiler shutdown in progress - discarding request
+02-25 10:39:32.119 D/dalvikvm( 6936): Compiler shutdown in progress - discarding request
+02-25 10:39:32.119 D/dalvikvm( 6936): Compiler shutdown in progress - discarding request
+02-25 10:39:32.119 D/dalvikvm( 6936): Compiler shutdown in progress - discarding request
+02-25 10:39:32.119 D/dalvikvm( 6936): Compiler shutdown in progress - discarding request
+02-25 10:39:32.119 D/dalvikvm( 6936): Compiler shutdown in progress - discarding request
+02-25 10:39:32.119 D/dalvikvm( 6936): Compiler shutdown in progress - discarding request
+02-25 10:39:32.119 D/dalvikvm( 6936): Compiler shutdown in progress - discarding request
+02-25 10:39:32.119 D/dalvikvm( 6936): Compiler shutdown in progress - discarding request
+02-25 10:39:32.119 D/dalvikvm( 6936): Compiler shutdown in progress - discarding request
+02-25 10:39:32.119 D/dalvikvm( 6936): Compiler shutdown in progress - discarding request
+02-25 10:39:32.119 D/dalvikvm( 6936): Compiler shutdown in progress - discarding request
+02-25 10:39:32.119 D/dalvikvm( 6936): Compiler shutdown in progress - discarding request
+02-25 10:39:32.119 D/dalvikvm( 6936): Compiler shutdown in progress - discarding request
+02-25 10:39:32.119 D/dalvikvm( 6936): Compiler shutdown in progress - discarding request
+02-25 10:39:32.119 D/dalvikvm( 6936): Compiler shutdown in progress - discarding request
+02-25 10:39:32.119 D/dalvikvm( 6936): Compiler shutdown in progress - discarding request
+02-25 10:39:32.119 D/dalvikvm( 6936): Compiler shutdown in progress - discarding request
+02-25 10:39:32.119 D/dalvikvm( 6936): Compiler shutdown in progress - discarding request
+02-25 10:39:32.119 D/dalvikvm( 6936): Compiler shutdown in progress - discarding request
+02-25 10:39:32.119 D/dalvikvm( 6936): Compiler shutdown in progress - discarding request
+02-25 10:39:32.119 D/dalvikvm( 6936): Compiler shutdown in progress - discarding request
+02-25 10:39:32.119 D/dalvikvm( 6936): Compiler shutdown in progress - discarding request
+02-25 10:39:32.119 D/dalvikvm( 6936): Compiler shutdown in progress - discarding request
+02-25 10:39:32.119 D/dalvikvm( 6936): Compiler shutdown in progress - discarding request
+02-25 10:39:32.119 D/dalvikvm( 6936): Compiler shutdown in progress - discarding request
+02-25 10:39:32.119 D/dalvikvm( 6936): Compiler shutdown in progress - discarding request
+02-25 10:39:32.119 D/dalvikvm( 6936): Compiler shutdown in progress - discarding request
+02-25 10:39:32.119 D/dalvikvm( 6936): Compiler shutdown in progress - discarding request
+02-25 10:39:32.119 D/dalvikvm( 6936): Compiler shutdown in progress - discarding request
+02-25 10:39:32.119 D/dalvikvm( 6936): Compiler shutdown in progress - discarding request
+02-25 10:39:32.119 D/dalvikvm( 6936): Compiler shutdown in progress - discarding request
+02-25 10:39:32.119 D/dalvikvm( 6936): Compiler shutdown in progress - discarding request
+02-25 10:39:32.119 D/dalvikvm( 6936): Compiler shutdown in progress - discarding request
+02-25 10:39:32.119 D/dalvikvm( 6936): Compiler shutdown in progress - discarding request
+02-25 10:39:32.119 D/dalvikvm( 6936): Compiler shutdown in progress - discarding request
+02-25 10:39:32.119 D/dalvikvm( 6936): Compiler shutdown in progress - discarding request
+02-25 10:39:32.119 D/dalvikvm( 6936): Compiler shutdown in progress - discarding request
+02-25 10:39:32.119 D/dalvikvm( 6936): Compiler shutdown in progress - discarding request
+02-25 10:39:32.119 D/dalvikvm( 6936): Compiler shutdown in progress - discarding request
+02-25 10:39:32.119 D/dalvikvm( 6936): Compiler shutdown in progress - discarding request
+02-25 10:39:32.119 D/dalvikvm( 6936): Compiler shutdown in progress - discarding request
+02-25 10:39:32.119 D/dalvikvm( 6936): Compiler shutdown in progress - discarding request
+02-25 10:39:32.119 I/ActivityManager(  506): START u0 {flg=0x10000000 cmp=org.xwalk.webapi_noneservice_tests/.webapi_noneservice_testsActivity} from pid 6936
+02-25 10:39:32.669 D/AndroidRuntime( 6947): 
+02-25 10:39:32.669 D/AndroidRuntime( 6947): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-25 10:39:32.669 D/AndroidRuntime( 6947): CheckJNI is OFF
+02-25 10:39:32.669 I/AndroidRuntime( 6947): Kernel Release Version: 3.10.20-gf818079
+02-25 10:39:32.669 I/dalvikvm( 6947): No library specified. The standard exception handler will be used
+02-25 10:39:32.669 I/dalvikvm( 6947): 
+02-25 10:39:32.669 I/dalvikvm( 6947): +++++++++++++ Using PCG. +++++++++++++++++++++
+02-25 10:39:32.679 D/dalvikvm( 6947): Trying to load lib libjavacore.so 0x0
+02-25 10:39:32.679 D/dalvikvm( 6947): Added shared lib libjavacore.so 0x0
+02-25 10:39:32.679 D/dalvikvm( 6947): Trying to load lib libnativehelper.so 0x0
+02-25 10:39:32.679 D/dalvikvm( 6947): Added shared lib libnativehelper.so 0x0
+02-25 10:39:32.679 D/dalvikvm( 6947): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-25 10:39:32.689 D/dalvikvm( 6947): Extra Options: not specified
+02-25 10:39:32.699 D/dalvikvm( 6947): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+02-25 10:39:32.769 E/memtrack( 6947): Couldn't load memtrack module (No such file or directory)
+02-25 10:39:32.769 E/android.os.Debug( 6947): failed to load memtrack module: -2
+02-25 10:39:32.829 D/AndroidRuntime( 6947): Calling main entry com.android.commands.am.Am
+02-25 10:39:32.859 D/AndroidRuntime( 6947): Shutting down VM
+02-25 10:39:32.859 I/SecurityManagerService(  602): SMS received security event: App[START/org.xwalk.webapi_noneservice_tests]
+02-25 10:39:32.859 I/ActivityManager(  506): START u0 {flg=0x10000000 cmp=org.xwalk.webapi_noneservice_tests/.webapi_noneservice_tests} from pid 6947
+02-25 10:39:32.869 V/WeatherTimeProvider( 1537): widget on Visibility Changed
+02-25 10:39:32.869 D/dalvikvm( 6947): GC_CONCURRENT freed 110K, 16% free 673K/800K, paused 1ms+1ms, total 2ms
+02-25 10:39:32.869 D/dalvikvm( 6947): Compiler shutdown in progress - discarding request
+02-25 10:39:32.869 D/dalvikvm( 6958): Late-enabling CheckJNI
+02-25 10:39:32.869 D/dalvikvm( 6958): Try to disable coredump for pid 6958
+02-25 10:39:32.869 D/dalvikvm( 6958): Process 6958 nice name: org.xwalk.webapi_noneservice_tests
+02-25 10:39:32.869 D/dalvikvm( 6958): Extra Options: not specified
+02-25 10:39:32.869 D/dalvikvm( 6947): Compiler shutdown in progress - discarding request
+02-25 10:39:32.869 D/dalvikvm( 6947): Compiler shutdown in progress - discarding request
+02-25 10:39:32.869 D/dalvikvm( 6947): Compiler shutdown in progress - discarding request
+02-25 10:39:32.869 D/dalvikvm( 6947): Compiler shutdown in progress - discarding request
+02-25 10:39:32.869 D/dalvikvm( 6947): Compiler shutdown in progress - discarding request
+02-25 10:39:32.869 D/dalvikvm( 6947): Compiler shutdown in progress - discarding request
+02-25 10:39:32.869 D/dalvikvm( 6947): Compiler shutdown in progress - discarding request
+02-25 10:39:32.869 D/dalvikvm( 6947): Compiler shutdown in progress - discarding request
+02-25 10:39:32.869 D/dalvikvm( 6947): Compiler shutdown in progress - discarding request
+02-25 10:39:32.869 D/dalvikvm( 6947): Compiler shutdown in progress - discarding request
+02-25 10:39:32.869 D/dalvikvm( 6947): Compiler shutdown in progress - discarding request
+02-25 10:39:32.869 D/dalvikvm( 6947): Compiler shutdown in progress - discarding request
+02-25 10:39:32.869 D/dalvikvm( 6947): Compiler shutdown in progress - discarding request
+02-25 10:39:32.869 D/dalvikvm( 6947): Compiler shutdown in progress - discarding request
+02-25 10:39:32.869 D/dalvikvm( 6947): Compiler shutdown in progress - discarding request
+02-25 10:39:32.869 D/dalvikvm( 6947): Compiler shutdown in progress - discarding request
+02-25 10:39:32.869 D/dalvikvm( 6947): Compiler shutdown in progress - discarding request
+02-25 10:39:32.869 D/dalvikvm( 6947): Compiler shutdown in progress - discarding request
+02-25 10:39:32.869 D/dalvikvm( 6947): Compiler shutdown in progress - discarding request
+02-25 10:39:32.869 D/dalvikvm( 6947): Compiler shutdown in progress - discarding request
+02-25 10:39:32.869 D/dalvikvm( 6947): Compiler shutdown in progress - discarding request
+02-25 10:39:32.869 D/dalvikvm( 6947): Compiler shutdown in progress - discarding request
+02-25 10:39:32.869 D/dalvikvm( 6947): Compiler shutdown in progress - discarding request
+02-25 10:39:32.869 D/dalvikvm( 6947): Compiler shutdown in progress - discarding request
+02-25 10:39:32.869 D/dalvikvm( 6947): Compiler shutdown in progress - discarding request
+02-25 10:39:32.869 D/dalvikvm( 6947): Compiler shutdown in progress - discarding request
+02-25 10:39:32.869 D/dalvikvm( 6947): Compiler shutdown in progress - discarding request
+02-25 10:39:32.869 D/dalvikvm( 6947): Compiler shutdown in progress - discarding request
+02-25 10:39:32.869 D/dalvikvm( 6947): Compiler shutdown in progress - discarding request
+02-25 10:39:32.869 D/dalvikvm( 6947): Compiler shutdown in progress - discarding request
+02-25 10:39:32.869 D/dalvikvm( 6947): Compiler shutdown in progress - discarding request
+02-25 10:39:32.869 D/dalvikvm( 6947): Compiler shutdown in progress - discarding request
+02-25 10:39:32.869 D/dalvikvm( 6947): Compiler shutdown in progress - discarding request
+02-25 10:39:32.869 D/dalvikvm( 6947): Compiler shutdown in progress - discarding request
+02-25 10:39:32.869 D/dalvikvm( 6947): Compiler shutdown in progress - discarding request
+02-25 10:39:32.869 D/dalvikvm( 6947): Compiler shutdown in progress - discarding request
+02-25 10:39:32.869 D/dalvikvm( 6947): Compiler shutdown in progress - discarding request
+02-25 10:39:32.869 D/dalvikvm( 6947): Compiler shutdown in progress - discarding request
+02-25 10:39:32.869 D/dalvikvm( 6947): Compiler shutdown in progress - discarding request
+02-25 10:39:32.869 D/dalvikvm( 6947): Compiler shutdown in progress - discarding request
+02-25 10:39:32.869 D/dalvikvm( 6947): Compiler shutdown in progress - discarding request
+02-25 10:39:32.869 D/dalvikvm( 6947): Compiler shutdown in progress - discarding request
+02-25 10:39:32.869 D/dalvikvm( 6947): Compiler shutdown in progress - discarding request
+02-25 10:39:32.869 D/dalvikvm( 6947): Compiler shutdown in progress - discarding request
+02-25 10:39:32.869 I/ActivityManager(  506): Start proc org.xwalk.webapi_noneservice_tests for activity org.xwalk.webapi_noneservice_tests/.webapi_noneservice_tests: pid=6958 uid=10259 gids={50259, 3003, 1028, 1015}
+02-25 10:39:32.879 D/WindowManager(  506): adjustConfigurationLw, config:{1.0 ?mcc?mnc ?locale ?layoutDir sw600dp w600dp h888dp 213dpi lrg port ?uimode ?night finger -keyb/v/h -nav/v} mLidState:1 mHasDockFeature:false mHasKeyboardFeature:false mHasHallSensorFeature:true config.hardKeyboardHidden:2
+02-25 10:39:32.879 I/ActivityManager(  506): [TopPkgCurBat]	NowPkgName[org.xwalk.webapi_noneservice_tests]	Battery[100]	TimeTick[1424831972896]	OldPkgName[com.asus.launcher]
+02-25 10:39:32.909 D/        (  702): Surface destroy: ANDROID_NATIVE_WINDOW_MAGIC
+02-25 10:39:32.949 I/CordovaLog( 6958): Changing log level to DEBUG(3)
+02-25 10:39:32.949 D/CordovaActivity( 6958): CordovaActivity.init()
+02-25 10:39:32.949 D/dalvikvm( 6958): Trying to load lib /data/app-lib/org.xwalk.webapi_noneservice_tests-1/libxwalkcore.so 0x43d87060
+02-25 10:39:33.029 D/dalvikvm( 6958): Added shared lib /data/app-lib/org.xwalk.webapi_noneservice_tests-1/libxwalkcore.so 0x43d87060
+02-25 10:39:33.049 I/LibraryLoader( 6958): Time to load native libraries: 94 ms (timestamps 7168-7262)
+02-25 10:39:33.049 I/LibraryLoader( 6958): Expected native library version number "",actual native library version number ""
+02-25 10:39:33.069 I/LibraryLoader( 6958): Expected native library version number "",actual native library version number ""
+02-25 10:39:33.069 I/chromium( 6958): [INFO:library_loader_hooks.cc(112)] Chromium logging enabled: level = 0, default verbosity = 0
+02-25 10:39:33.119 I/BrowserStartupController( 6958): Initializing chromium process, singleProcess=true
+02-25 10:39:33.249 D/ImageWallpaper(  571): onVisibilityChanged: mVisible, visible=true, false
+02-25 10:39:33.249 D/ImageWallpaper(  571): Visibility changed to visible=false
+02-25 10:39:33.249 D/ImageWallpaper(  571): Suppressed drawFrame since redraw is not needed and offsets have not changed.
+02-25 10:39:33.559 W/chromium( 6958): [WARNING:dns_config_service_posix.cc(293)] Failed to read DnsConfig.
+02-25 10:39:33.569 W/AudioManagerAndroid( 6958): Requires BLUETOOTH permission
+02-25 10:39:33.569 I/ufoGralloc( 6958): Hello, this is UFO GRALLOC/Intel Corporation
+02-25 10:39:33.579 D/        ( 6958): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-25 10:39:33.579 D/        ( 6958): droid_create_context : config id = 1 conf->NativeVisualID=1
+02-25 10:39:33.579 D/        ( 6958): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-25 10:39:33.579 I/        ( 6958): Requested context : GLES 2.0
+02-25 10:39:33.619 W/chromium( 6958): [WARNING:proxy_service.cc(899)] PAC support disabled because there is no system implementation
+02-25 10:39:33.629 W/dalvikvm( 6958): VFY: unable to find class referenced in signature (Landroid/view/inputmethod/CursorAnchorInfo;)
+02-25 10:39:33.629 I/dalvikvm( 6958): Could not find method android.view.inputmethod.InputMethodManager.updateCursorAnchorInfo, referenced from method org.chromium.content.browser.input.InputMethodManagerWrapper.updateCursorAnchorInfo
+02-25 10:39:33.629 W/dalvikvm( 6958): VFY: unable to resolve virtual method 1368: Landroid/view/inputmethod/InputMethodManager;.updateCursorAnchorInfo (Landroid/view/View;Landroid/view/inputmethod/CursorAnchorInfo;)V
+02-25 10:39:33.629 D/dalvikvm( 6958): VFY: replacing opcode 0x6e at 0x000a
+02-25 10:39:33.699 E/cutils  (  163): Failed to mkdirat(/Removable/MicroSD): Read-only file system
+02-25 10:39:33.699 W/ContextImpl( 6958): Failed to ensure directory: /Removable/MicroSD/Android/data/org.xwalk.webapi_noneservice_tests/cache
+02-25 10:39:33.699 W/Vold    (  163): Returning OperationFailed - no handler for errno 30
+02-25 10:39:33.709 D/CordovaActivity( 6958): CordovaActivity.createViews()
+02-25 10:39:33.709 E/chromium( 6958): [ERROR:unix_domain_server_socket_posix.cc(106)] Not implemented reached in virtual int net::UnixDomainServerSocket::GetLocalAddress(net::IPEndPoint*) const
+02-25 10:39:33.709 D/CordovaWebView( 6958): >>> loadUrl(file:///android_asset/www/index.html)
+02-25 10:39:33.709 D/PluginManager( 6958): init()
+02-25 10:39:33.709 E/cutils  (  163): Failed to mkdirat(/Removable/MicroSD): Read-only file system
+02-25 10:39:33.709 W/ContextImpl( 6958): Failed to ensure directory: /Removable/MicroSD/Android/data/org.xwalk.webapi_noneservice_tests/files
+02-25 10:39:33.709 E/cutils  (  163): Failed to mkdirat(/Removable/MicroSD): Read-only file system
+02-25 10:39:33.709 W/ContextImpl( 6958): Failed to ensure directory: /Removable/MicroSD/Android/data/org.xwalk.webapi_noneservice_tests/cache
+02-25 10:39:33.709 D/CordovaWebView( 6958): >>> loadUrlNow()
+02-25 10:39:33.709 W/Vold    (  163): Returning OperationFailed - no handler for errno 30
+02-25 10:39:33.709 W/Vold    (  163): Returning OperationFailed - no handler for errno 30
+02-25 10:39:33.719 I/dalvikvm( 6958): Could not find method android.app.Activity.finishAndRemoveTask, referenced from method org.chromium.base.ApiCompatibilityUtils.finishAndRemoveTask
+02-25 10:39:33.719 W/dalvikvm( 6958): VFY: unable to resolve virtual method 6: Landroid/app/Activity;.finishAndRemoveTask ()V
+02-25 10:39:33.719 D/dalvikvm( 6958): VFY: replacing opcode 0x6e at 0x0006
+02-25 10:39:33.719 I/dalvikvm( 6958): Could not find method android.os.PowerManager.isInteractive, referenced from method org.chromium.base.ApiCompatibilityUtils.isInteractive
+02-25 10:39:33.719 W/dalvikvm( 6958): VFY: unable to resolve virtual method 874: Landroid/os/PowerManager;.isInteractive ()Z
+02-25 10:39:33.719 D/dalvikvm( 6958): VFY: replacing opcode 0x6e at 0x000e
+02-25 10:39:33.719 I/dalvikvm( 6958): Could not find method android.view.Window.getNavigationBarColor, referenced from method org.chromium.base.ApiCompatibilityUtils.setStatusBarColor
+02-25 10:39:33.719 W/dalvikvm( 6958): VFY: unable to resolve virtual method 1268: Landroid/view/Window;.getNavigationBarColor ()I
+02-25 10:39:33.719 D/dalvikvm( 6958): VFY: replacing opcode 0x6e at 0x0010
+02-25 10:39:33.719 I/dalvikvm( 6958): Could not find method android.view.Window.setStatusBarColor, referenced from method org.chromium.base.ApiCompatibilityUtils.setStatusBarColor
+02-25 10:39:33.719 W/dalvikvm( 6958): VFY: unable to resolve virtual method 1274: Landroid/view/Window;.setStatusBarColor (I)V
+02-25 10:39:33.719 D/dalvikvm( 6958): VFY: replacing opcode 0x6e at 0x0019
+02-25 10:39:33.719 E/dalvikvm( 6958): Could not find class 'android.app.ActivityManager$TaskDescription', referenced from method org.chromium.base.ApiCompatibilityUtils.setTaskDescription
+02-25 10:39:33.719 W/dalvikvm( 6958): VFY: unable to resolve new-instance 13 (Landroid/app/ActivityManager$TaskDescription;) in Lorg/chromium/base/ApiCompatibilityUtils;
+02-25 10:39:33.719 D/dalvikvm( 6958): VFY: replacing opcode 0x22 at 0x0006
+02-25 10:39:33.719 D/dalvikvm( 6958): DexOpt: unable to opt direct call 0x002f at 0x08 in Lorg/chromium/base/ApiCompatibilityUtils;.setTaskDescription
+02-25 10:39:33.769 I/chromium( 6958): [INFO:xwalk_extension_renderer_controller.cc(47)] EXTENSION PROCESS DISABLED.
+02-25 10:39:33.779 D/CordovaActivity( 6958): Resuming the App
+02-25 10:39:33.789 D/SoftKeyboardDetect( 6958): Ignore this event
+02-25 10:39:33.799 D/        ( 6958): droid_create_context : config id = 5 conf->NativeVisualID=1
+02-25 10:39:33.799 D/        ( 6958): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-25 10:39:33.799 I/        ( 6958): Requested context : GLES 2.0
+02-25 10:39:33.809 D/        ( 6958): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-25 10:39:33.809 D/OpenGLRenderer( 6958): Enabling debug mode 0
+02-25 10:39:33.819 D/SoftKeyboardDetect( 6958): Ignore this event
+02-25 10:39:33.819 D/XT9IME  (  731): new subtype :zh_CN ,pinyin
+02-25 10:39:33.839 D/BatteryStatsImpl(  506): noteStopWakeLocked system isFromForeground = false
+02-25 10:39:33.849 I/ActivityManager(  506): Displayed org.xwalk.webapi_noneservice_tests/.webapi_noneservice_tests: +993ms
+02-25 10:39:33.949 D/CordovaActivity( 6958): onMessage(onPageStarted,file:///android_asset/www/index.html)
+02-25 10:39:33.989 D/        ( 6958): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-25 10:39:33.989 D/        ( 6958): droid_create_context : config id = 1 conf->NativeVisualID=1
+02-25 10:39:33.989 D/        ( 6958): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-25 10:39:33.989 I/        ( 6958): Requested context : GLES 2.0
+02-25 10:39:34.019 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:39:34.089 D/CordovaActivity( 6958): onMessage(onPageFinished,file:///android_asset/www/index.html)
+02-25 10:39:35.099 D/CordovaActivity( 6958): onMessage(onPageStarted,file:///android_asset/www/index_real.html?testprefix=./)
+02-25 10:39:35.199 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:39:35.449 I/chromium( 6958): [INFO:CONSOLE(0)] "Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check http://xhr.spec.whatwg.org/.", source:  (0)
+02-25 10:39:35.509 D/CordovaActivity( 6958): onMessage(onPageFinished,file:///android_asset/www/index_real.html?testprefix=./)
+02-25 10:39:36.099 D/CordovaActivity( 6958): onMessage(spinner,stop)
+02-25 10:39:36.129 D/        ( 6958): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-25 10:39:36.129 D/        ( 6958): droid_create_context : config id = 1 conf->NativeVisualID=1
+02-25 10:39:36.129 D/        ( 6958): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-25 10:39:36.129 I/        ( 6958): Requested context : GLES 2.0
+02-25 10:39:36.159 D/        ( 6958): Swap interval set to = 1 value
+02-25 10:39:36.219 D/        ( 6958): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-25 10:39:36.219 D/        ( 6958): droid_create_context : config id = 1 conf->NativeVisualID=1
+02-25 10:39:36.219 D/        ( 6958): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-25 10:39:36.219 I/        ( 6958): Requested context : GLES 2.0
+02-25 10:39:37.509 D/CordovaActivity( 6958): onMessage(spinner,stop)
+02-25 10:39:40.129 I/SecurityManagerService(  602): SMS received security event: App[START/com.android.providers.contacts]
+02-25 10:39:40.129 D/dalvikvm( 7174): Process 7174 nice name: android.process.acore
+02-25 10:39:40.129 D/dalvikvm( 7174): Extra Options: not specified
+02-25 10:39:40.129 I/ActivityManager(  506): Start proc android.process.acore for content provider com.android.providers.contacts/.ContactsProvider2: pid=7174 uid=10004 gids={50004, 3003, 1028, 1015, 1023}
+02-25 10:39:40.159 D/AsusCallerIDProvider( 7174): is touchPal installed = false
+02-25 10:39:40.179 D/AsusSimContactsManager( 7174): Google
+02-25 10:39:40.179 D/ContactsProvider:SimCardReceiver( 7174): initialSimCardState: mHasIccCard = false mHasIccCard2 = false
+02-25 10:39:40.339 I/ContactLocale( 7174): AddressBook Labels [zh_CN]: [, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, Α, Β, Γ, Δ, Ε, Ζ, Η, Θ, Ι, Κ, Λ, Μ, Ν, Ξ, Ο, Π, Ρ, Σ, Τ, Υ, Φ, Χ, Ψ, Ω, , А, Б, В, Г, Д, Е, Є, Ж, З, И, І, Ї, Й, К, Л, М, Н, О, П, Р, С, Т, У, Ф, Х, Ц, Ч, Ш, Щ, Ю, Я, , א, ב, ג, ד, ה, ו, ז, ח, ט, י, כ, ל, מ, נ, ס, ע, פ, צ, ק, ר, ש, ת, , ا, ب, ت, ث, ج, ح, خ, د, ذ, ر, ز, س, ش, ص, ض, ط, ظ, ع, غ, ف, ق, ك, ل, م, ن, ه, و, ي, , ก, ข, ฃ, ค, ฅ, ฆ, ง, จ, ฉ, ช, ซ, ฌ, ญ, ฎ, ฏ, ฐ, ฑ, ฒ, ณ, ด, ต, ถ, ท, ธ, น, บ, ป, ผ, ฝ, พ, ฟ, ภ, ม, ย, ร, ฤ, ล, ฦ, ว, ศ, ษ, ส, ห, ฬ, อ, ฮ, #, ]
+02-25 10:39:40.409 D/AsusTelephonyManager( 1011): getDefault
+02-25 10:39:40.409 D/AsusTelephonyManager( 1011): getDefault
+02-25 10:39:40.409 D/AsusTelephonyManager( 1011): getDefault
+02-25 10:39:40.409 D/AsusTelephonyManager( 1011): getDefault
+02-25 10:39:40.409 D/AsusTelephonyManager( 1011): getDefault
+02-25 10:39:40.409 D/AsusTelephonyManager( 1011): getDefault
+02-25 10:39:40.409 D/SimCardContactsManager( 1011): isSimEditable = false
+02-25 10:39:40.409 D/AsusTelephonyManager( 1011): getDefault
+02-25 10:39:40.409 D/AsusTelephonyManager( 1011): getDefault
+02-25 10:39:40.409 W/Settings( 1011): Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+02-25 10:39:40.409 D/SimCardContactsManager( 1011): (getIccCardState) hasIccCard 1 = false
+02-25 10:39:40.409 D/SimCardContactsManager( 1011): (getIccCardState) isFlyMode 1 = false
+02-25 10:39:40.409 D/SimCardContactsManager( 1011): (getIccCardState) SimSerialNumber  1 is null
+02-25 10:39:40.409 D/SimCardContactsManager( 1011): (getIccCardState) ASUS_ICC_CARD_READY 1 = false
+02-25 10:39:40.409 D/AsusTelephonyManager( 1011): getDefault
+02-25 10:39:40.409 D/SimCardContactsManager( 1011): get asushadIccCard1 :false
+02-25 10:39:40.409 D/AccountTypeManager( 1011): 1 : getIccCardState(false)
+02-25 10:39:40.409 D/AsusTelephonyManager( 1011): getDefault
+02-25 10:39:40.409 D/SimCardContactsManager( 1011): get asushadIccCard1 :false
+02-25 10:39:40.409 D/DialerDefaultTabReceiver( 1011): updateSettingTable
+02-25 10:39:40.409 D/AsusProfileAddEmail( 1011): No profile, do not need to insert email
+02-25 10:39:40.469 I/dalvikvm( 6958): Total arena pages for JIT: 11
+02-25 10:39:40.469 I/dalvikvm( 6958): Total arena pages for JIT: 12
+02-25 10:39:40.469 D/123     ( 1011): updateSettingTable: query time = 57
+02-25 10:39:40.469 D/DialerDefaultTabReceiver( 1011): Account exist: Device/asus.local.phone
+02-25 10:39:40.469 I/dalvikvm( 6958): Total arena pages for JIT: 13
+02-25 10:39:40.469 I/dalvikvm( 6958): Total arena pages for JIT: 14
+02-25 10:39:40.469 I/dalvikvm( 6958): Total arena pages for JIT: 15
+02-25 10:39:40.489 D/SendBroadcastHandler( 7174): startTimer() SEND_TO_CONTACTS_INSERT 
+02-25 10:39:40.499 D/CountryDetector(  506): The first listener is added
+02-25 10:39:40.519 D/AsusPreferenceManager( 1011): getUpdateSettingTable: false
+02-25 10:39:40.519 D/AsusPreferenceManager( 1011): getUpdateSettingTable: false
+02-25 10:39:41.349 D/SendBroadcastHandler( 7174): startTimer() SEND_TO_CONTACTS_WIDGET_DELETE 
+02-25 10:39:41.419 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:39:41.779 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:39:41.819 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:39:42.399 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:39:42.529 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:39:42.999 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:39:43.119 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:39:43.359 I/SecurityManagerService(  602): SMS received security event: App[START/com.android.providers.calendar]
+02-25 10:39:43.369 D/dalvikvm(  602): GC_CONCURRENT freed 4802K, 45% free 5999K/10856K, paused 1ms+1ms, total 6ms
+02-25 10:39:43.369 D/dalvikvm( 7207): Process 7207 nice name: com.android.providers.calendar
+02-25 10:39:43.369 D/dalvikvm( 7207): Extra Options: not specified
+02-25 10:39:43.369 I/ActivityManager(  506): Start proc com.android.providers.calendar for broadcast com.android.providers.calendar/.ContactsEventUpdateReceiver: pid=7207 uid=10031 gids={50031, 3003, 1028, 1015}
+02-25 10:39:43.379 D/dalvikvm(  172): GC_EXPLICIT freed 47K, 2% free 5801K/5892K, paused 0ms+1ms, total 15ms
+02-25 10:39:43.399 D/dalvikvm(  172): GC_EXPLICIT freed <1K, 2% free 5801K/5892K, paused 1ms+1ms, total 13ms
+02-25 10:39:43.409 D/dalvikvm(  172): GC_EXPLICIT freed <1K, 2% free 5801K/5892K, paused 1ms+1ms, total 11ms
+02-25 10:39:43.459 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{22209828 u0 com.android.providers.calendar/.ContactsEventUpdateIntentService},r used time=38,left r count=1
+02-25 10:39:43.489 D/SendBroadcastHandler( 7174): mTimerTask sendMessage CONTACTS_INSERT 
+02-25 10:39:43.499 D/SendBroadcastHandler( 7174): (insert) sendBroadcast mInsertRawContacts:4
+02-25 10:39:43.499 D/SendBroadcastHandler( 7174): (insert) sendBroadcast mInsertName:4
+02-25 10:39:43.499 D/SendBroadcastHandler( 7174): (insert) sendBroadcast mInsertNameDetail:4
+02-25 10:39:43.499 D/SendBroadcastHandler( 7174): sendBroadcast insert to voice agent
+02-25 10:39:43.639 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:39:43.779 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:39:43.819 D/SendBroadcastHandler( 7174): startTimer() SEND_TO_CONTACTS_INSERT 
+02-25 10:39:43.969 D/dalvikvm( 7174): GC_EXPLICIT freed 1188K, 15% free 7487K/8788K, paused 1ms+3ms, total 19ms
+02-25 10:39:44.009 D/dalvikvm(  506): GC_EXPLICIT freed 1148K, 23% free 15173K/19704K, paused 1ms+3ms, total 40ms
+02-25 10:39:44.279 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:39:44.349 D/SendBroadcastHandler( 7174): mTimerTask sendMessage CONTACTS_DELETE 
+02-25 10:39:44.349 D/SendBroadcastHandler( 7174): sendBroadcast delete to voice agent
+02-25 10:39:44.349 D/SendBroadcastHandler( 7174): (Delete) sendBroadcast mDeleteContacts:5
+02-25 10:39:44.349 D/SendBroadcastHandler( 7174): (Delete) sendBroadcast mDeleteRawContactsVoice:6
+02-25 10:39:44.349 D/SendBroadcastHandler( 7174): sendBroadcast CONTACTS_DELETE
+02-25 10:39:44.349 D/AsusContactWigdetSync( 1011): ready to sync contact id = 5
+02-25 10:39:44.349 D/AsusContactWigdetSync( 1011): ready to sync widget
+02-25 10:39:44.359 D/AsusContactWigdetSync( 1011): delete contact_id = 364
+02-25 10:39:44.359 D/AsusContactWigdetSync( 1011): delete contact_id = 366
+02-25 10:39:44.359 D/AsusContactWigdetSync( 1011): delete contact_id = 367
+02-25 10:39:44.359 D/AsusContactWigdetSync( 1011): delete contact_id = 368
+02-25 10:39:44.359 D/AsusContactWigdetSync( 1011): delete contact_id = 369
+02-25 10:39:44.359 D/AsusContactWigdetSync( 1011): sync isdelete = true
+02-25 10:39:44.359 I/SecurityManagerService(  602): SMS received security event: App[START/com.asus.contactswidget]
+02-25 10:39:44.359 D/dalvikvm( 7233): Process 7233 nice name: com.asus.contactswidget
+02-25 10:39:44.359 D/dalvikvm( 7233): Extra Options: not specified
+02-25 10:39:44.369 I/ActivityManager(  506): Start proc com.asus.contactswidget for broadcast com.asus.contactswidget/.ContactsWidgetReceiver: pid=7233 uid=10046 gids={50046}
+02-25 10:39:44.389 D/AsusContactWigdetSync( 7233): ready to sync contact id = 5
+02-25 10:39:44.389 D/AsusContactWigdetSync( 7233): ready to sync widget
+02-25 10:39:44.389 D/AsusContactWigdetSync( 7233): delete contact_id = 364
+02-25 10:39:44.389 D/AsusContactWigdetSync( 7233): delete contact_id = 366
+02-25 10:39:44.389 D/AsusContactWigdetSync( 7233): delete contact_id = 367
+02-25 10:39:44.389 D/AsusContactWigdetSync( 7233): delete contact_id = 368
+02-25 10:39:44.389 D/AsusContactWigdetSync( 7233): delete contact_id = 369
+02-25 10:39:44.389 D/AsusContactWigdetSync( 7233): sync isdelete = true
+02-25 10:39:44.419 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:39:44.429 I/CalendarProvider2( 7207): Sending countdown intent: Intent { act=asuscalendar.intent.action.COUNTDOWN_CHANGED dat=content://com.android.calendar }
+02-25 10:39:44.429 W/ContentResolver( 7207): Failed to get type for: content://com.android.calendar (Unknown URL content://com.android.calendar)
+02-25 10:39:44.429 I/SecurityManagerService(  602): SMS received security event: App[START/com.asus.calendar]
+02-25 10:39:44.449 D/dalvikvm( 7246): Process 7246 nice name: com.asus.calendar
+02-25 10:39:44.449 D/dalvikvm( 7246): Extra Options: not specified
+02-25 10:39:44.449 I/ActivityManager(  506): Start proc com.asus.calendar for broadcast com.asus.calendar/com.asus.countdown.CountdownReceiver: pid=7246 uid=10002 gids={50002, 3003, 1028, 1015, 3002}
+02-25 10:39:44.459 I/CalendarProvider2( 7207): Sending notification intent: Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar }
+02-25 10:39:44.459 W/ContentResolver( 7207): Failed to get type for: content://com.android.calendar (Unknown URL content://com.android.calendar)
+02-25 10:39:44.469 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{221e9bc0 u0 com.android.providers.calendar/.EmptyService},r used time=1046,left r count=2
+02-25 10:39:44.549 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{223cf290 u0 com.asus.calendar/com.asus.countdown.CountdownService},r used time=9,left r count=2
+02-25 10:39:44.559 D/AlertReceiver( 7246): onReceive: a=android.intent.action.PROVIDER_CHANGED Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar flg=0x10 cmp=com.asus.calendar/com.android.calendar.alerts.AlertReceiver }
+02-25 10:39:44.599 D/AlertService( 7246): 0 Action = android.intent.action.PROVIDER_CHANGED
+02-25 10:39:44.599 D/AlertService( 7246): Beginning updateAlertNotification
+02-25 10:39:44.609 D/AlertService( 7246): No fired or scheduled alerts
+02-25 10:39:44.619 I/ActivityManager(  506): Killing 1805:com.wandoujia.phoenix2/u0a29 (adj 15): empty for 3006s
+02-25 10:39:44.629 D/BatteryStatsImpl(  506): noteStopWakeLocked com.asus.calendar isFromForeground = false
+02-25 10:39:44.629 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{222416b0 u0 com.asus.calendar/com.android.calendar.alerts.AlertService},r used time=66,left r count=2
+02-25 10:39:44.649 I/SecurityManagerService(  602): SMS received security event: App[STOP/com.wandoujia.phoenix2]
+02-25 10:39:44.829 E/ContactJson( 6958): getStringArray(fields): Failed to parse json data: org.json.JSONException: Value givenNames at fields of type java.lang.String cannot be converted to JSONArray
+02-25 10:39:45.359 D/AsusContactWigdetSync( 1011): sync start
+02-25 10:39:45.359 D/AsusContactWigdetSync( 1011): sync selection = null
+02-25 10:39:45.359 D/AsusContactWigdetSync( 1011): sync delete selection = contact_id IN ( 364, 366, 367, 369, 368)
+02-25 10:39:45.379 D/AsusContactWigdetSync( 1011): sync stop
+02-25 10:39:45.379 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{223ebf80 u0 com.asus.contacts/com.android.contacts.miniwidget.SyncService},r used time=1023,left r count=1
+02-25 10:39:45.399 D/AsusContactWigdetSync( 7233): sync start
+02-25 10:39:45.399 D/AsusContactWigdetSync( 7233): sync selection = null
+02-25 10:39:45.399 D/AsusContactWigdetSync( 7233): sync delete selection = contact_id IN ( 364, 366, 367, 369, 368)
+02-25 10:39:45.409 D/AsusContactWigdetSync( 7233): sync stop
+02-25 10:39:45.409 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{223e43f0 u0 com.asus.contactswidget/.SyncService},r used time=1019,left r count=0
+02-25 10:39:45.419 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:39:45.459 D/SendBroadcastHandler( 7174): startTimer() SEND_TO_CONTACTS_WIDGET_DELETE 
+02-25 10:39:45.589 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:39:45.779 D/dalvikvm( 6958): GC_EXPLICIT freed 2160K, 25% free 7235K/9544K, paused 0ms+3ms, total 21ms
+02-25 10:39:45.779 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{222342f0 u0 com.android.providers.calendar/.ContactsEventUpdateIntentService},r used time=90,left r count=1
+02-25 10:39:46.599 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:39:46.759 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:39:46.779 I/CalendarProvider2( 7207): Sending notification intent: Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar }
+02-25 10:39:46.779 W/ContentResolver( 7207): Failed to get type for: content://com.android.calendar (Unknown URL content://com.android.calendar)
+02-25 10:39:46.779 D/AlertReceiver( 7246): onReceive: a=android.intent.action.PROVIDER_CHANGED Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar flg=0x10 cmp=com.asus.calendar/com.android.calendar.alerts.AlertReceiver }
+02-25 10:39:46.779 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{2222fac0 u0 com.android.providers.calendar/.EmptyService},r used time=1004,left r count=0
+02-25 10:39:46.789 D/AlertService( 7246): 0 Action = android.intent.action.PROVIDER_CHANGED
+02-25 10:39:46.789 D/AlertService( 7246): Beginning updateAlertNotification
+02-25 10:39:46.799 D/AlertService( 7246): No fired or scheduled alerts
+02-25 10:39:46.809 D/BatteryStatsImpl(  506): noteStopWakeLocked com.asus.calendar isFromForeground = false
+02-25 10:39:46.809 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{22216c70 u0 com.asus.calendar/com.android.calendar.alerts.AlertService},r used time=22,left r count=0
+02-25 10:39:46.819 D/SendBroadcastHandler( 7174): mTimerTask sendMessage CONTACTS_INSERT 
+02-25 10:39:46.819 D/SendBroadcastHandler( 7174): (insert) sendBroadcast mInsertRawContacts:6
+02-25 10:39:46.819 D/SendBroadcastHandler( 7174): (insert) sendBroadcast mInsertName:6
+02-25 10:39:46.819 D/SendBroadcastHandler( 7174): (insert) sendBroadcast mInsertNameDetail:6
+02-25 10:39:46.819 D/SendBroadcastHandler( 7174): sendBroadcast insert to voice agent
+02-25 10:39:46.979 D/SendBroadcastHandler( 7174): startTimer() SEND_TO_CONTACTS_INSERT 
+02-25 10:39:47.159 D/dalvikvm( 7174): GC_EXPLICIT freed 887K, 13% free 7756K/8820K, paused 0ms+3ms, total 20ms
+02-25 10:39:47.699 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:39:47.869 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:39:48.299 D/dalvikvm(  506): GC_EXPLICIT freed 120K, 24% free 15123K/19704K, paused 1ms+3ms, total 37ms
+02-25 10:39:48.459 D/AlarmManager(  506): Triggered Alarm 21f7c888 ELAPSED_REALTIME_WAKEUP IntentSender{22370500: PendingIntentRecord{21f54e48 com.android.providers.calendar broadcastIntent}}
+02-25 10:39:48.459 D/SendBroadcastHandler( 7174): mTimerTask sendMessage CONTACTS_DELETE 
+02-25 10:39:48.469 D/SendBroadcastHandler( 7174): sendBroadcast delete to voice agent
+02-25 10:39:48.469 D/SendBroadcastHandler( 7174): (Delete) sendBroadcast mDeleteContacts:6
+02-25 10:39:48.469 D/SendBroadcastHandler( 7174): (Delete) sendBroadcast mDeleteRawContactsVoice:6
+02-25 10:39:48.469 D/SendBroadcastHandler( 7174): sendBroadcast CONTACTS_DELETE
+02-25 10:39:48.479 D/BatteryStatsImpl(  506): noteStopWakeLocked system isFromForeground = false
+02-25 10:39:48.479 D/AsusContactWigdetSync( 1011): ready to sync contact id = 6
+02-25 10:39:48.479 D/AsusContactWigdetSync( 1011): ready to sync widget
+02-25 10:39:48.479 D/AsusContactWigdetSync( 1011): delete contact_id = 370
+02-25 10:39:48.479 D/AsusContactWigdetSync( 1011): delete contact_id = 371
+02-25 10:39:48.479 D/AsusContactWigdetSync( 1011): delete contact_id = 372
+02-25 10:39:48.479 D/AsusContactWigdetSync( 1011): delete contact_id = 373
+02-25 10:39:48.479 D/AsusContactWigdetSync( 1011): delete contact_id = 374
+02-25 10:39:48.479 D/AsusContactWigdetSync( 1011): delete contact_id = 375
+02-25 10:39:48.479 D/AsusContactWigdetSync( 1011): sync isdelete = true
+02-25 10:39:48.479 D/AsusContactWigdetSync( 7233): ready to sync contact id = 6
+02-25 10:39:48.479 D/AsusContactWigdetSync( 7233): ready to sync widget
+02-25 10:39:48.479 D/AsusContactWigdetSync( 7233): delete contact_id = 370
+02-25 10:39:48.479 D/AsusContactWigdetSync( 7233): delete contact_id = 371
+02-25 10:39:48.479 D/AsusContactWigdetSync( 7233): delete contact_id = 372
+02-25 10:39:48.479 D/AsusContactWigdetSync( 7233): delete contact_id = 373
+02-25 10:39:48.479 D/AsusContactWigdetSync( 7233): delete contact_id = 374
+02-25 10:39:48.479 D/AsusContactWigdetSync( 7233): delete contact_id = 375
+02-25 10:39:48.479 D/AsusContactWigdetSync( 7233): sync isdelete = true
+02-25 10:39:48.489 D/AlarmManager(  506): Removed alarm Alarm{223d5a28 type 0 com.android.providers.calendar} type:RTC_WAKEUP
+02-25 10:39:48.499 D/AlarmManager(  506): Added alarm Alarm{2210c0c8 type 2 com.wandoujia.phoenix2} type:ELAPSED_REALTIME_WAKEUP when: After 0h:9m:49.0s
+02-25 10:39:48.509 D/BatteryStatsImpl(  506): noteStopWakeLocked com.android.providers.calendar isFromForeground = false
+02-25 10:39:48.509 D/AlarmManager(  506): Added alarm Alarm{220b0be0 type 0 com.android.providers.calendar} type:RTC_WAKEUP when: At 15-2-26 上午8:40
+02-25 10:39:48.509 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{22234a20 u0 com.android.providers.calendar/.CalendarProviderIntentService},r used time=45,left r count=2
+02-25 10:39:48.689 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{221499f0 u0 com.android.providers.calendar/.ContactsEventUpdateIntentService},r used time=42,left r count=3
+02-25 10:39:48.809 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:39:48.859 D/SendBroadcastHandler( 7174): startTimer() SEND_TO_CONTACTS_WIDGET_DELETE 
+02-25 10:39:48.989 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:39:49.479 D/AsusContactWigdetSync( 1011): sync start
+02-25 10:39:49.479 D/AsusContactWigdetSync( 1011): sync selection = null
+02-25 10:39:49.479 D/AsusContactWigdetSync( 1011): sync delete selection = contact_id IN ( 373, 372, 375, 374, 371, 370)
+02-25 10:39:49.479 D/AsusContactWigdetSync( 1011): sync stop
+02-25 10:39:49.479 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{221feed0 u0 com.asus.contacts/com.android.contacts.miniwidget.SyncService},r used time=1004,left r count=2
+02-25 10:39:49.489 D/AsusContactWigdetSync( 7233): sync start
+02-25 10:39:49.489 D/AsusContactWigdetSync( 7233): sync selection = null
+02-25 10:39:49.489 D/AsusContactWigdetSync( 7233): sync delete selection = contact_id IN ( 373, 372, 375, 374, 371, 370)
+02-25 10:39:49.489 D/AsusContactWigdetSync( 7233): sync stop
+02-25 10:39:49.489 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{2214a4d8 u0 com.asus.contactswidget/.SyncService},r used time=1005,left r count=1
+02-25 10:39:49.699 I/CalendarProvider2( 7207): Sending notification intent: Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar }
+02-25 10:39:49.699 W/ContentResolver( 7207): Failed to get type for: content://com.android.calendar (Unknown URL content://com.android.calendar)
+02-25 10:39:49.699 D/AlertReceiver( 7246): onReceive: a=android.intent.action.PROVIDER_CHANGED Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar flg=0x10 cmp=com.asus.calendar/com.android.calendar.alerts.AlertReceiver }
+02-25 10:39:49.699 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{2212d588 u0 com.android.providers.calendar/.EmptyService},r used time=1010,left r count=0
+02-25 10:39:49.719 D/AlertService( 7246): 0 Action = android.intent.action.PROVIDER_CHANGED
+02-25 10:39:49.719 D/AlertService( 7246): Beginning updateAlertNotification
+02-25 10:39:49.729 D/AlertService( 7246): No fired or scheduled alerts
+02-25 10:39:49.739 D/BatteryStatsImpl(  506): noteStopWakeLocked com.asus.calendar isFromForeground = false
+02-25 10:39:49.739 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{221199e0 u0 com.asus.calendar/com.android.calendar.alerts.AlertService},r used time=34,left r count=0
+02-25 10:39:49.969 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:39:49.979 D/SendBroadcastHandler( 7174): mTimerTask sendMessage CONTACTS_INSERT 
+02-25 10:39:49.979 D/SendBroadcastHandler( 7174): (insert) sendBroadcast mInsertRawContacts:5
+02-25 10:39:49.979 D/SendBroadcastHandler( 7174): (insert) sendBroadcast mInsertName:5
+02-25 10:39:49.979 D/SendBroadcastHandler( 7174): (insert) sendBroadcast mInsertNameDetail:5
+02-25 10:39:49.979 D/SendBroadcastHandler( 7174): sendBroadcast insert to voice agent
+02-25 10:39:50.209 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:39:50.249 D/SendBroadcastHandler( 7174): startTimer() SEND_TO_CONTACTS_INSERT 
+02-25 10:39:50.389 E/Contacts( 6958): org.json.JSONException: No value for contactId
+02-25 10:39:50.939 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{22102310 u0 com.android.providers.calendar/.ContactsEventUpdateIntentService},r used time=66,left r count=1
+02-25 10:39:51.859 D/SendBroadcastHandler( 7174): mTimerTask sendMessage CONTACTS_DELETE 
+02-25 10:39:51.869 D/SendBroadcastHandler( 7174): sendBroadcast delete to voice agent
+02-25 10:39:51.869 D/SendBroadcastHandler( 7174): (Delete) sendBroadcast mDeleteContacts:4
+02-25 10:39:51.869 D/SendBroadcastHandler( 7174): (Delete) sendBroadcast mDeleteRawContactsVoice:4
+02-25 10:39:51.869 D/SendBroadcastHandler( 7174): sendBroadcast CONTACTS_DELETE
+02-25 10:39:51.869 D/AsusContactWigdetSync( 1011): ready to sync contact id = 4
+02-25 10:39:51.869 D/AsusContactWigdetSync( 1011): ready to sync widget
+02-25 10:39:51.869 D/AsusContactWigdetSync( 1011): delete contact_id = 376
+02-25 10:39:51.869 D/AsusContactWigdetSync( 1011): delete contact_id = 377
+02-25 10:39:51.869 D/AsusContactWigdetSync( 1011): delete contact_id = 378
+02-25 10:39:51.869 D/AsusContactWigdetSync( 1011): delete contact_id = 379
+02-25 10:39:51.869 I/ActivityManager(  506): Killing 1928:com.asus.UpdateLauncher/1000 (adj 15): empty for 1800s
+02-25 10:39:51.879 D/AsusContactWigdetSync( 1011): sync isdelete = true
+02-25 10:39:51.879 D/AsusContactWigdetSync( 7233): ready to sync contact id = 4
+02-25 10:39:51.879 D/AsusContactWigdetSync( 7233): ready to sync widget
+02-25 10:39:51.879 I/SecurityManagerService(  602): SMS received security event: App[STOP/com.asus.UpdateLauncher]
+02-25 10:39:51.889 D/AsusContactWigdetSync( 7233): delete contact_id = 376
+02-25 10:39:51.889 D/AsusContactWigdetSync( 7233): delete contact_id = 377
+02-25 10:39:51.889 D/AsusContactWigdetSync( 7233): delete contact_id = 378
+02-25 10:39:51.889 D/AsusContactWigdetSync( 7233): delete contact_id = 379
+02-25 10:39:51.889 D/AsusContactWigdetSync( 7233): sync isdelete = true
+02-25 10:39:51.939 I/CalendarProvider2( 7207): Sending notification intent: Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar }
+02-25 10:39:51.939 W/ContentResolver( 7207): Failed to get type for: content://com.android.calendar (Unknown URL content://com.android.calendar)
+02-25 10:39:51.939 D/AlertReceiver( 7246): onReceive: a=android.intent.action.PROVIDER_CHANGED Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar flg=0x10 cmp=com.asus.calendar/com.android.calendar.alerts.AlertReceiver }
+02-25 10:39:51.939 D/AlertService( 7246): 0 Action = android.intent.action.PROVIDER_CHANGED
+02-25 10:39:51.939 D/AlertService( 7246): Beginning updateAlertNotification
+02-25 10:39:51.939 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{22065ef8 u0 com.android.providers.calendar/.EmptyService},r used time=1006,left r count=2
+02-25 10:39:51.959 D/AlertService( 7246): No fired or scheduled alerts
+02-25 10:39:51.969 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{21f61ff0 u0 com.asus.calendar/com.android.calendar.alerts.AlertService},r used time=32,left r count=2
+02-25 10:39:51.979 D/BatteryStatsImpl(  506): noteStopWakeLocked com.asus.calendar isFromForeground = false
+02-25 10:39:52.749 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-25 10:39:52.749 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-25 10:39:52.879 D/AsusContactWigdetSync( 1011): sync start
+02-25 10:39:52.879 D/AsusContactWigdetSync( 1011): sync selection = null
+02-25 10:39:52.879 D/AsusContactWigdetSync( 1011): sync delete selection = contact_id IN ( 377, 376, 379, 378)
+02-25 10:39:52.879 D/AsusContactWigdetSync( 1011): sync stop
+02-25 10:39:52.889 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{220209c8 u0 com.asus.contacts/com.android.contacts.miniwidget.SyncService},r used time=1012,left r count=1
+02-25 10:39:52.889 D/AsusContactWigdetSync( 7233): sync start
+02-25 10:39:52.889 D/AsusContactWigdetSync( 7233): sync selection = null
+02-25 10:39:52.889 D/AsusContactWigdetSync( 7233): sync delete selection = contact_id IN ( 377, 376, 379, 378)
+02-25 10:39:52.899 D/AsusContactWigdetSync( 7233): sync stop
+02-25 10:39:52.899 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{21fed4f8 u0 com.asus.contactswidget/.SyncService},r used time=1013,left r count=0
+02-25 10:39:52.899 I/ActivityManager(  506): Killing 1914:com.chrome.beta/u0a207 (adj 15): empty for 1801s
+02-25 10:39:52.929 I/SecurityManagerService(  602): SMS received security event: App[STOP/com.chrome.beta]
+02-25 10:39:53.139 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:39:53.189 D/SendBroadcastHandler( 7174): startTimer() SEND_TO_CONTACTS_WIDGET_DELETE 
+02-25 10:39:53.249 D/SendBroadcastHandler( 7174): mTimerTask sendMessage CONTACTS_INSERT 
+02-25 10:39:53.249 D/SendBroadcastHandler( 7174): (insert) sendBroadcast mInsertRawContacts:1
+02-25 10:39:53.249 D/SendBroadcastHandler( 7174): (insert) sendBroadcast mInsertName:1
+02-25 10:39:53.249 D/SendBroadcastHandler( 7174): (insert) sendBroadcast mInsertNameDetail:1
+02-25 10:39:53.249 D/SendBroadcastHandler( 7174): sendBroadcast insert to voice agent
+02-25 10:39:53.259 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:39:53.299 D/SendBroadcastHandler( 7174): startTimer() SEND_TO_CONTACTS_INSERT 
+02-25 10:39:53.689 D/AlarmManager(  506): Triggered Alarm 22096d70 ELAPSED_REALTIME_WAKEUP IntentSender{223701b8: PendingIntentRecord{2226dc60 com.android.providers.calendar broadcastIntent}}
+02-25 10:39:53.699 D/BatteryStatsImpl(  506): noteStopWakeLocked system isFromForeground = false
+02-25 10:39:53.719 D/AlarmManager(  506): Removed alarm Alarm{220b0be0 type 0 com.android.providers.calendar} type:RTC_WAKEUP
+02-25 10:39:53.719 D/AlarmManager(  506): Added alarm Alarm{21f5bb48 type 2 com.wandoujia.phoenix2} type:ELAPSED_REALTIME_WAKEUP when: After 0h:9m:44.0s
+02-25 10:39:53.739 D/BatteryStatsImpl(  506): noteStopWakeLocked com.android.providers.calendar isFromForeground = false
+02-25 10:39:53.739 D/AlarmManager(  506): Added alarm Alarm{21f2cec0 type 0 com.android.providers.calendar} type:RTC_WAKEUP when: At 15-2-26 上午8:40
+02-25 10:39:53.739 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{21f14a08 u0 com.android.providers.calendar/.CalendarProviderIntentService},r used time=38,left r count=0
+02-25 10:39:53.769 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:39:53.879 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:39:54.039 D/dalvikvm( 7174): GC_EXPLICIT freed 877K, 12% free 7881K/8912K, paused 0ms+3ms, total 17ms
+02-25 10:39:54.449 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:39:54.579 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:39:54.599 D/dalvikvm( 6958): GC_EXPLICIT freed 1384K, 24% free 7268K/9544K, paused 0ms+3ms, total 24ms
+02-25 10:39:54.799 I/dalvikvm( 7174): Total arena pages for JIT: 11
+02-25 10:39:54.799 I/dalvikvm( 7174): Total arena pages for JIT: 12
+02-25 10:39:54.809 I/dalvikvm( 7174): Total arena pages for JIT: 13
+02-25 10:39:54.809 I/dalvikvm( 7174): Total arena pages for JIT: 14
+02-25 10:39:54.809 I/dalvikvm( 7174): Total arena pages for JIT: 15
+02-25 10:39:54.809 I/dalvikvm( 7174): Total arena pages for JIT: 16
+02-25 10:39:55.129 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:39:55.169 D/wpa_supplicant(  694): wlan0: Starting AP scan for wildcard SSID
+02-25 10:39:55.169 D/wpa_supplicant(  694): WPS: Building WPS IE for Probe Request
+02-25 10:39:55.169 D/wpa_supplicant(  694): WPS:  * Version (hardcoded 0x10)
+02-25 10:39:55.169 D/wpa_supplicant(  694): WPS:  * Request Type
+02-25 10:39:55.169 D/wpa_supplicant(  694): WPS:  * Config Methods (4288)
+02-25 10:39:55.169 D/wpa_supplicant(  694): WPS:  * UUID-E
+02-25 10:39:55.169 D/wpa_supplicant(  694): WPS:  * Primary Device Type
+02-25 10:39:55.169 D/wpa_supplicant(  694): WPS:  * RF Bands (1)
+02-25 10:39:55.169 D/wpa_supplicant(  694): WPS:  * Association State
+02-25 10:39:55.169 D/wpa_supplicant(  694): WPS:  * Configuration Error (0)
+02-25 10:39:55.169 D/wpa_supplicant(  694): WPS:  * Device Password ID (0)
+02-25 10:39:55.169 D/wpa_supplicant(  694): WPS:  * Manufacturer
+02-25 10:39:55.169 D/wpa_supplicant(  694): WPS:  * Model Name
+02-25 10:39:55.169 D/wpa_supplicant(  694): WPS:  * Model Number
+02-25 10:39:55.169 D/wpa_supplicant(  694): WPS:  * Device Name
+02-25 10:39:55.169 D/wpa_supplicant(  694): WPS:  * Version2 (0x20)
+02-25 10:39:55.169 D/wpa_supplicant(  694): P2P: * P2P IE header
+02-25 10:39:55.169 D/wpa_supplicant(  694): P2P: * Capability dev=25 group=00
+02-25 10:39:55.169 D/wpa_supplicant(  694): P2P: * Listen Channel: Regulatory Class 81 Channel 6
+02-25 10:39:55.169 D/wpa_supplicant(  694): wlan0: nl80211: scan request
+02-25 10:39:55.239 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:39:55.269 D/AlarmManager(  506): Added alarm Alarm{220aee98 type 2 com.android.providers.calendar} type:ELAPSED_REALTIME_WAKEUP when: After 0h:0m:5.0s
+02-25 10:39:55.269 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{221e9ad0 u0 com.android.providers.calendar/.ContactsEventUpdateIntentService},r used time=77,left r count=1
+02-25 10:39:55.279 D/wpa_supplicant(  694): Scan requested (ret=0) - scan timeout 30 seconds
+02-25 10:39:55.279 D/wpa_supplicant(  694): nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0
+02-25 10:39:55.279 D/wpa_supplicant(  694): wlan0: nl80211: Scan trigger
+02-25 10:39:55.809 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:39:55.939 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:39:56.189 D/SendBroadcastHandler( 7174): mTimerTask sendMessage CONTACTS_DELETE 
+02-25 10:39:56.189 D/SendBroadcastHandler( 7174): sendBroadcast delete to voice agent
+02-25 10:39:56.189 D/AsusContactWigdetSync( 1011): ready to sync contact id = 5
+02-25 10:39:56.189 D/AsusContactWigdetSync( 1011): ready to sync widget
+02-25 10:39:56.189 D/SendBroadcastHandler( 7174): (Delete) sendBroadcast mDeleteContacts:5
+02-25 10:39:56.189 D/SendBroadcastHandler( 7174): (Delete) sendBroadcast mDeleteRawContactsVoice:5
+02-25 10:39:56.189 D/SendBroadcastHandler( 7174): sendBroadcast CONTACTS_DELETE
+02-25 10:39:56.229 D/dalvikvm(  506): GC_EXPLICIT freed 124K, 24% free 15115K/19704K, paused 1ms+4ms, total 38ms
+02-25 10:39:56.229 D/AsusContactWigdetSync( 1011): delete contact_id = 380
+02-25 10:39:56.229 D/AsusContactWigdetSync( 1011): delete contact_id = 381
+02-25 10:39:56.229 D/AsusContactWigdetSync( 1011): delete contact_id = 382
+02-25 10:39:56.229 D/AsusContactWigdetSync( 1011): delete contact_id = 383
+02-25 10:39:56.229 D/AsusContactWigdetSync( 1011): delete contact_id = 384
+02-25 10:39:56.229 D/AsusContactWigdetSync( 1011): sync isdelete = true
+02-25 10:39:56.239 D/AsusContactWigdetSync( 7233): ready to sync contact id = 5
+02-25 10:39:56.239 D/AsusContactWigdetSync( 7233): ready to sync widget
+02-25 10:39:56.239 D/AsusContactWigdetSync( 7233): delete contact_id = 380
+02-25 10:39:56.239 D/AsusContactWigdetSync( 7233): delete contact_id = 381
+02-25 10:39:56.239 D/AsusContactWigdetSync( 7233): delete contact_id = 382
+02-25 10:39:56.239 D/AsusContactWigdetSync( 7233): delete contact_id = 383
+02-25 10:39:56.239 D/AsusContactWigdetSync( 7233): delete contact_id = 384
+02-25 10:39:56.239 D/AsusContactWigdetSync( 7233): sync isdelete = true
+02-25 10:39:56.269 I/CalendarProvider2( 7207): Sending notification intent: Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar }
+02-25 10:39:56.269 W/ContentResolver( 7207): Failed to get type for: content://com.android.calendar (Unknown URL content://com.android.calendar)
+02-25 10:39:56.269 D/AlertReceiver( 7246): onReceive: a=android.intent.action.PROVIDER_CHANGED Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar flg=0x10 cmp=com.asus.calendar/com.android.calendar.alerts.AlertReceiver }
+02-25 10:39:56.269 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{221e9a30 u0 com.android.providers.calendar/.EmptyService},r used time=1004,left r count=2
+02-25 10:39:56.279 D/AlertService( 7246): 0 Action = android.intent.action.PROVIDER_CHANGED
+02-25 10:39:56.279 D/AlertService( 7246): Beginning updateAlertNotification
+02-25 10:39:56.289 D/AlertService( 7246): No fired or scheduled alerts
+02-25 10:39:56.289 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{221d1d80 u0 com.asus.calendar/com.android.calendar.alerts.AlertService},r used time=20,left r count=2
+02-25 10:39:56.299 D/BatteryStatsImpl(  506): noteStopWakeLocked com.asus.calendar isFromForeground = false
+02-25 10:39:56.299 D/SendBroadcastHandler( 7174): mTimerTask sendMessage CONTACTS_INSERT 
+02-25 10:39:56.299 D/SendBroadcastHandler( 7174): (insert) sendBroadcast mInsertRawContacts:5
+02-25 10:39:56.299 D/SendBroadcastHandler( 7174): (insert) sendBroadcast mInsertName:5
+02-25 10:39:56.299 D/SendBroadcastHandler( 7174): (insert) sendBroadcast mInsertNameDetail:5
+02-25 10:39:56.299 D/SendBroadcastHandler( 7174): sendBroadcast insert to voice agent
+02-25 10:39:56.409 D/wpa_supplicant(  694): RTM_NEWLINK: operstate=0 ifi_flags=0x11003 ([UP][LOWER_UP])
+02-25 10:39:56.409 D/wpa_supplicant(  694): RTM_NEWLINK, IFLA_IFNAME: Interface 'wlan0' added
+02-25 10:39:56.409 D/wpa_supplicant(  694): nl80211: if_removed already cleared - ignore event
+02-25 10:39:56.409 D/wpa_supplicant(  694): nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: nl80211: New scan results available
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: Event SCAN_RESULTS (3) received
+02-25 10:39:56.409 D/wpa_supplicant(  694): nl80211: Received scan results (19 BSSes)
+02-25 10:39:56.409 D/wpa_supplicant(  694): nl80211: Survey data missing
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: BSS: Start scan result update 78
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: BSS: Remove id 94 BSSID f4:b7:e2:2b:41:b7 SSID 'cmscc' due to no match in scan
+02-25 10:39:56.409 D/wpa_supplicant(  694): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: BSS: Remove id 98 BSSID 18:dc:56:b2:b6:3d SSID 'AP_7620L-B63D' due to no match in scan
+02-25 10:39:56.409 D/wpa_supplicant(  694): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: BSS: Remove id 97 BSSID 00:25:86:5c:5e:30 SSID 'internet' due to no match in scan
+02-25 10:39:56.409 D/wpa_supplicant(  694): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+02-25 10:39:56.409 D/wpa_supplicant(  694): BSS: last_scan_res_used=19/32 last_scan_full=0
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: New scan results available
+02-25 10:39:56.409 D/wpa_supplicant(  694): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+02-25 10:39:56.409 D/wpa_supplicant(  694): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+02-25 10:39:56.409 D/wpa_supplicant(  694): Authorize channel 1
+02-25 10:39:56.409 D/wpa_supplicant(  694): Authorize channel 2
+02-25 10:39:56.409 D/wpa_supplicant(  694): Authorize channel 3
+02-25 10:39:56.409 D/wpa_supplicant(  694): Authorize channel 4
+02-25 10:39:56.409 D/wpa_supplicant(  694): Authorize channel 5
+02-25 10:39:56.409 D/wpa_supplicant(  694): Authorize channel 6
+02-25 10:39:56.409 D/wpa_supplicant(  694): Authorize channel 7
+02-25 10:39:56.409 D/wpa_supplicant(  694): Authorize channel 8
+02-25 10:39:56.409 D/wpa_supplicant(  694): Authorize channel 9
+02-25 10:39:56.409 D/wpa_supplicant(  694): Authorize channel 10
+02-25 10:39:56.409 D/wpa_supplicant(  694): Authorize channel 11
+02-25 10:39:56.409 D/wpa_supplicant(  694): Authorize channel 12
+02-25 10:39:56.409 D/wpa_supplicant(  694): Authorize channel 13
+02-25 10:39:56.409 D/wpa_supplicant(  694): Authorize channel 1
+02-25 10:39:56.409 I/WifiHW  (  506): EVENT: IFNAME=wlan0 CTRL-EVENT-BSS-REMOVED 94 f4:b7:e2:2b:41:b7
+02-25 10:39:56.409 D/wpa_supplicant(  694): Authorize channel 2
+02-25 10:39:56.409 D/wpa_supplicant(  694): Authorize channel 3
+02-25 10:39:56.409 D/wpa_supplicant(  694): Authorize channel 4
+02-25 10:39:56.409 D/wpa_supplicant(  694): Authorize channel 5
+02-25 10:39:56.409 D/wpa_supplicant(  694): Authorize channel 6
+02-25 10:39:56.409 D/wpa_supplicant(  694): Authorize channel 7
+02-25 10:39:56.409 D/wpa_supplicant(  694): Authorize channel 8
+02-25 10:39:56.409 D/wpa_supplicant(  694): Authorize channel 9
+02-25 10:39:56.409 D/wpa_supplicant(  694): Authorize channel 10
+02-25 10:39:56.409 D/wpa_supplicant(  694): Authorize channel 11
+02-25 10:39:56.409 D/wpa_supplicant(  694): Authorize channel 12
+02-25 10:39:56.409 D/wpa_supplicant(  694): Authorize channel 13
+02-25 10:39:56.409 D/wpa_supplicant(  694): Add access point on channel 6
+02-25 10:39:56.409 D/wpa_supplicant(  694): Add access point on channel 6
+02-25 10:39:56.409 D/wpa_supplicant(  694): Add access point on channel 1
+02-25 10:39:56.409 D/wpa_supplicant(  694): Add access point on channel 11
+02-25 10:39:56.409 D/wpa_supplicant(  694): Add access point on channel 3
+02-25 10:39:56.409 D/wpa_supplicant(  694): Add access point on channel 1
+02-25 10:39:56.409 D/wpa_supplicant(  694): Add access point on channel 1
+02-25 10:39:56.409 D/wpa_supplicant(  694): Add access point on channel 9
+02-25 10:39:56.409 D/wpa_supplicant(  694): Add access point on channel 11
+02-25 10:39:56.409 D/wpa_supplicant(  694): Add access point on channel 6
+02-25 10:39:56.409 D/wpa_supplicant(  694): Add access point on channel 6
+02-25 10:39:56.409 D/wpa_supplicant(  694): Add access point on channel 11
+02-25 10:39:56.409 D/wpa_supplicant(  694): Add access point on channel 11
+02-25 10:39:56.409 D/wpa_supplicant(  694): Add access point on channel 1
+02-25 10:39:56.409 D/wpa_supplicant(  694): Add access point on channel 8
+02-25 10:39:56.409 D/wpa_supplicant(  694): Add access point on channel 6
+02-25 10:39:56.409 D/wpa_supplicant(  694): Add access point on channel 6
+02-25 10:39:56.409 D/wpa_supplicant(  694): Add access point on channel 6
+02-25 10:39:56.409 D/wpa_supplicant(  694): Add access point on channel 6
+02-25 10:39:56.409 D/wpa_supplicant(  694): Add access point on channel 6
+02-25 10:39:56.409 D/wpa_supplicant(  694): Add access point on channel 1
+02-25 10:39:56.409 D/wpa_supplicant(  694): Add access point on channel 2
+02-25 10:39:56.409 D/wpa_supplicant(  694): Add access point on channel 1
+02-25 10:39:56.409 D/wpa_supplicant(  694): Add access point on channel 1
+02-25 10:39:56.409 D/wpa_supplicant(  694): Add access point on channel 11
+02-25 10:39:56.409 D/wpa_supplicant(  694): Best Operating channel is = 11
+02-25 10:39:56.409 D/wpa_supplicant(  694): WPS: AP[0] f8:d1:11:e7:99:e8 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-25 10:39:56.409 I/WifiHW  (  506): EVENT: IFNAME=wlan0 CTRL-EVENT-BSS-REMOVED 98 18:dc:56:b2:b6:3d
+02-25 10:39:56.409 I/WifiHW  (  506): EVENT: IFNAME=wlan0 CTRL-EVENT-BSS-REMOVED 97 00:25:86:5c:5e:30
+02-25 10:39:56.409 D/wpa_supplicant(  694): WPS: AP[1] cc:34:29:2c:fb:ec type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-25 10:39:56.409 D/wpa_supplicant(  694): WPS: AP[2] cc:34:29:2b:26:4c type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-25 10:39:56.409 D/wpa_supplicant(  694): WPS: AP[3] b0:48:7a:51:ff:cc type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-25 10:39:56.409 D/wpa_supplicant(  694): WPS: AP[4] c0:a0:bb:20:3b:84 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-25 10:39:56.409 I/WifiHW  (  506): EVENT: IFNAME=wlan0 CTRL-EVENT-SCAN-RESULTS 
+02-25 10:39:56.409 D/wpa_supplicant(  694): WPS: AP[5] 2c:b0:5d:7f:f4:24 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-25 10:39:56.409 D/wpa_supplicant(  694): WPS: AP[6] 9c:21:6a:0d:eb:72 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-25 10:39:56.409 D/wpa_supplicant(  694): WPS: AP[7] c8:d7:19:60:62:f2 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-25 10:39:56.409 D/wpa_supplicant(  694): WPS: AP[8] 44:94:fc:3d:da:38 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-25 10:39:56.409 D/wpa_supplicant(  694): WPS: AP[9] 10:c3:7b:d2:e5:e0 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: Selecting BSS from priority group 19
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 0: f8:d1:11:e7:99:e8 ssid='videotest' wpa_ie_len=22 rsn_ie_len=20 caps=0x531 level=-39 wps
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 I/WifiHW  (  506): EVENT: IFNAME=wlan0 WPS-AP-AVAILABLE 
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 1: 02:1a:11:ff:f7:0a ssid='io1' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-51
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 2: 90:94:e4:03:45:f5 ssid='DAP-2553_D' wpa_ie_len=0 rsn_ie_len=24 caps=0x431 level=-54
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 3: cc:34:29:2b:26:4c ssid='cws-test' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-55 wps
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 4: 10:c3:7b:d2:e5:e0 ssid='ASUS_RT-AC66U-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-55 wps
+02-25 10:39:56.409 I/WifiHW  (  506): CMD: IFNAME=wlan0 BSS RANGE=0- MASK=0x21987
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 5: c8:d7:19:60:62:f2 ssid='E3000-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-58 wps
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 6: 44:94:fc:3d:da:38 ssid='6300' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-58 wps
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 7: 98:fc:11:81:35:fb ssid='E2000EE' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-59
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 8: b0:48:7a:51:ff:cc ssid='Neusoft TP' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-60 wps
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 9: cc:34:29:2c:fb:ec ssid='linksys' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-63 wps
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 10: 74:e5:43:24:f4:5b ssid='Dttest' wpa_ie_len=0 rsn_ie_len=20 caps=0x31 level=-67
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 11: 80:1f:02:43:fb:e8 ssid='Edimax AP' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-67
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 12: e4:d3:32:c0:cf:a4 ssid='fast' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-69
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 13: 02:1a:11:f9:f0:51 ssid='AndroidSystem' wpa_ie_len=0 rsn_ie_len=20 caps=0x511 level=-72
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 14: c0:a0:bb:20:3b:84 ssid='dlink-3B84' wpa_ie_len=26 rsn_ie_len=24 caps=0x411 level=-73 wps
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 15: 22:48:9a:ac:31:5b ssid='dean1' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-76
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 16: 00:0f:e2:0f:9f:c1 ssid='321_WAN' wpa_ie_len=28 rsn_ie_len=24 caps=0x411 level=-79
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 17: 2c:b0:5d:7f:f4:24 ssid='NETGEAR38' wpa_ie_len=0 rsn_ie_len=20 caps=0x31 level=-85 wps
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 18: 50:bd:5f:4b:29:92 ssid='Internet-2' wpa_ie_len=0 rsn_ie_len=0 caps=0x421 level=-64
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: Selecting BSS from priority group 18
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 0: f8:d1:11:e7:99:e8 ssid='videotest' wpa_ie_len=22 rsn_ie_len=20 caps=0x531 level=-39 wps
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 1: 02:1a:11:ff:f7:0a ssid='io1' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-51
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 2: 90:94:e4:03:45:f5 ssid='DAP-2553_D' wpa_ie_len=0 rsn_ie_len=24 caps=0x431 level=-54
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 3: cc:34:29:2b:26:4c ssid='cws-test' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-55 wps
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 4: 10:c3:7b:d2:e5:e0 ssid='ASUS_RT-AC66U-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-55 wps
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 5: c8:d7:19:60:62:f2 ssid='E3000-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-58 wps
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 6: 44:94:fc:3d:da:38 ssid='6300' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-58 wps
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 7: 98:fc:11:81:35:fb ssid='E2000EE' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-59
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 8: b0:48:7a:51:ff:cc ssid='Neusoft TP' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-60 wps
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 9: cc:34:29:2c:fb:ec ssid='linksys' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-63 wps
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 10: 74:e5:43:24:f4:5b ssid='Dttest' wpa_ie_len=0 rsn_ie_len=20 caps=0x31 level=-67
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 11: 80:1f:02:43:fb:e8 ssid='Edimax AP' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-67
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 12: e4:d3:32:c0:cf:a4 ssid='fast' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-69
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 13: 02:1a:11:f9:f0:51 ssid='AndroidSystem' wpa_ie_len=0 rsn_ie_len=20 caps=0x511 level=-72
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 14: c0:a0:bb:20:3b:84 ssid='dlink-3B84' wpa_ie_len=26 rsn_ie_len=24 caps=0x411 level=-73 wps
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 15: 22:48:9a:ac:31:5b ssid='dean1' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-76
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 16: 00:0f:e2:0f:9f:c1 ssid='321_WAN' wpa_ie_len=28 rsn_ie_len=24 caps=0x411 level=-79
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 17: 2c:b0:5d:7f:f4:24 ssid='NETGEAR38' wpa_ie_len=0 rsn_ie_len=20 caps=0x31 level=-85 wps
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 18: 50:bd:5f:4b:29:92 ssid='Internet-2' wpa_ie_len=0 rsn_ie_len=0 caps=0x421 level=-64
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: Selecting BSS from priority group 17
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 0: f8:d1:11:e7:99:e8 ssid='videotest' wpa_ie_len=22 rsn_ie_len=20 caps=0x531 level=-39 wps
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 1: 02:1a:11:ff:f7:0a ssid='io1' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-51
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 2: 90:94:e4:03:45:f5 ssid='DAP-2553_D' wpa_ie_len=0 rsn_ie_len=24 caps=0x431 level=-54
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 3: cc:34:29:2b:26:4c ssid='cws-test' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-55 wps
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 4: 10:c3:7b:d2:e5:e0 ssid='ASUS_RT-AC66U-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-55 wps
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 5: c8:d7:19:60:62:f2 ssid='E3000-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-58 wps
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 6: 44:94:fc:3d:da:38 ssid='6300' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-58 wps
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 7: 98:fc:11:81:35:fb ssid='E2000EE' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-59
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 8: b0:48:7a:51:ff:cc ssid='Neusoft TP' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-60 wps
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 9: cc:34:29:2c:fb:ec ssid='linksys' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-63 wps
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 10: 74:e5:43:24:f4:5b ssid='Dttest' wpa_ie_len=0 rsn_ie_len=20 caps=0x31 level=-67
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 11: 80:1f:02:43:fb:e8 ssid='Edimax AP' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-67
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 12: e4:d3:32:c0:cf:a4 ssid='fast' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-69
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 13: 02:1a:11:f9:f0:51 ssid='AndroidSystem' wpa_ie_len=0 rsn_ie_len=20 caps=0x511 level=-72
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 14: c0:a0:bb:20:3b:84 ssid='dlink-3B84' wpa_ie_len=26 rsn_ie_len=24 caps=0x411 level=-73 wps
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 15: 22:48:9a:ac:31:5b ssid='dean1' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-76
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 16: 00:0f:e2:0f:9f:c1 ssid='321_WAN' wpa_ie_len=28 rsn_ie_len=24 caps=0x411 level=-79
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 17: 2c:b0:5d:7f:f4:24 ssid='NETGEAR38' wpa_ie_len=0 rsn_ie_len=20 caps=0x31 level=-85 wps
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 18: 50:bd:5f:4b:29:92 ssid='Internet-2' wpa_ie_len=0 rsn_ie_len=0 caps=0x421 level=-64
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: Selecting BSS from priority group 15
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 0: f8:d1:11:e7:99:e8 ssid='videotest' wpa_ie_len=22 rsn_ie_len=20 caps=0x531 level=-39 wps
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 1: 02:1a:11:ff:f7:0a ssid='io1' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-51
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 2: 90:94:e4:03:45:f5 ssid='DAP-2553_D' wpa_ie_len=0 rsn_ie_len=24 caps=0x431 level=-54
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 3: cc:34:29:2b:26:4c ssid='cws-test' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-55 wps
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 4: 10:c3:7b:d2:e5:e0 ssid='ASUS_RT-AC66U-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-55 wps
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 5: c8:d7:19:60:62:f2 ssid='E3000-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-58 wps
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 6: 44:94:fc:3d:da:38 ssid='6300' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-58 wps
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 7: 98:fc:11:81:35:fb ssid='E2000EE' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-59
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 8: b0:48:7a:51:ff:cc ssid='Neusoft TP' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-60 wps
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 9: cc:34:29:2c:fb:ec ssid='linksys' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-63 wps
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 10: 74:e5:43:24:f4:5b ssid='Dttest' wpa_ie_len=0 rsn_ie_len=20 caps=0x31 level=-67
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 11: 80:1f:02:43:fb:e8 ssid='Edimax AP' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-67
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 12: e4:d3:32:c0:cf:a4 ssid='fast' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-69
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 13: 02:1a:11:f9:f0:51 ssid='AndroidSystem' wpa_ie_len=0 rsn_ie_len=20 caps=0x511 level=-72
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 14: c0:a0:bb:20:3b:84 ssid='dlink-3B84' wpa_ie_len=26 rsn_ie_len=24 caps=0x411 level=-73 wps
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 15: 22:48:9a:ac:31:5b ssid='dean1' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-76
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 16: 00:0f:e2:0f:9f:c1 ssid='321_WAN' wpa_ie_len=28 rsn_ie_len=24 caps=0x411 level=-79
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 17: 2c:b0:5d:7f:f4:24 ssid='NETGEAR38' wpa_ie_len=0 rsn_ie_len=20 caps=0x31 level=-85 wps
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 18: 50:bd:5f:4b:29:92 ssid='Internet-2' wpa_ie_len=0 rsn_ie_len=0 caps=0x421 level=-64
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: Selecting BSS from priority group 4
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 0: f8:d1:11:e7:99:e8 ssid='videotest' wpa_ie_len=22 rsn_ie_len=20 caps=0x531 level=-39 wps
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 1: 02:1a:11:ff:f7:0a ssid='io1' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-51
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 2: 90:94:e4:03:45:f5 ssid='DAP-2553_D' wpa_ie_len=0 rsn_ie_len=24 caps=0x431 level=-54
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 3: cc:34:29:2b:26:4c ssid='cws-test' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-55 wps
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 4: 10:c3:7b:d2:e5:e0 ssid='ASUS_RT-AC66U-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-55 wps
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 5: c8:d7:19:60:62:f2 ssid='E3000-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-58 wps
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 6: 44:94:fc:3d:da:38 ssid='6300' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-58 wps
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 7: 98:fc:11:81:35:fb ssid='E2000EE' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-59
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 8: b0:48:7a:51:ff:cc ssid='Neusoft TP' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-60 wps
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 9: cc:34:29:2c:fb:ec ssid='linksys' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-63 wps
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.409 D/wpa_supplicant(  694): wlan0: 10: 74:e5:43:24:f4:5b ssid='Dttest' wpa_ie_len=0 rsn_ie_len=20 caps=0x31 level=-67
+02-25 10:39:56.419 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.419 D/wpa_supplicant(  694): wlan0: 11: 80:1f:02:43:fb:e8 ssid='Edimax AP' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-67
+02-25 10:39:56.419 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.419 D/wpa_supplicant(  694): wlan0: 12: e4:d3:32:c0:cf:a4 ssid='fast' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-69
+02-25 10:39:56.419 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.419 D/wpa_supplicant(  694): wlan0: 13: 02:1a:11:f9:f0:51 ssid='AndroidSystem' wpa_ie_len=0 rsn_ie_len=20 caps=0x511 level=-72
+02-25 10:39:56.419 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.419 D/wpa_supplicant(  694): wlan0: 14: c0:a0:bb:20:3b:84 ssid='dlink-3B84' wpa_ie_len=26 rsn_ie_len=24 caps=0x411 level=-73 wps
+02-25 10:39:56.419 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.419 D/wpa_supplicant(  694): wlan0: 15: 22:48:9a:ac:31:5b ssid='dean1' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-76
+02-25 10:39:56.419 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.419 D/wpa_supplicant(  694): wlan0: 16: 00:0f:e2:0f:9f:c1 ssid='321_WAN' wpa_ie_len=28 rsn_ie_len=24 caps=0x411 level=-79
+02-25 10:39:56.419 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.419 D/wpa_supplicant(  694): wlan0: 17: 2c:b0:5d:7f:f4:24 ssid='NETGEAR38' wpa_ie_len=0 rsn_ie_len=20 caps=0x31 level=-85 wps
+02-25 10:39:56.419 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.419 D/wpa_supplicant(  694): wlan0: 18: 50:bd:5f:4b:29:92 ssid='Internet-2' wpa_ie_len=0 rsn_ie_len=0 caps=0x421 level=-64
+02-25 10:39:56.419 D/wpa_supplicant(  694): wlan0:    skip - SSID mismatch
+02-25 10:39:56.419 D/wpa_supplicant(  694): wlan0: No suitable network found
+02-25 10:39:56.419 D/wpa_supplicant(  694): wlan0: Setting scan request: 40 sec 0 usec
+02-25 10:39:56.419 D/wpa_supplicant(  694): wlan0: Checking for other virtual interfaces sharing same radio (phy0) in event_scan_results
+02-25 10:39:56.419 D/wpa_supplicant(  694): p2p-dev-wlan0: Updating scan results from sibling
+02-25 10:39:56.419 D/wpa_supplicant(  694): nl80211: Received scan results (19 BSSes)
+02-25 10:39:56.419 D/wpa_supplicant(  694): nl80211: Survey data missing
+02-25 10:39:56.419 D/wpa_supplicant(  694): p2p-dev-wlan0: BSS: Start scan result update 78
+02-25 10:39:56.419 D/wpa_supplicant(  694): BSS: No P2P IE - skipping BSS f8:d1:11:e7:99:e8 update for P2P interface
+02-25 10:39:56.419 D/wpa_supplicant(  694): BSS: No P2P IE - skipping BSS 02:1a:11:ff:f7:0a update for P2P interface
+02-25 10:39:56.419 D/wpa_supplicant(  694): BSS: No P2P IE - skipping BSS 90:94:e4:03:45:f5 update for P2P interface
+02-25 10:39:56.419 D/wpa_supplicant(  694): BSS: No P2P IE - skipping BSS cc:34:29:2b:26:4c update for P2P interface
+02-25 10:39:56.419 D/wpa_supplicant(  694): BSS: No P2P IE - skipping BSS 10:c3:7b:d2:e5:e0 update for P2P interface
+02-25 10:39:56.419 D/wpa_supplicant(  694): BSS: No P2P IE - skipping BSS c8:d7:19:60:62:f2 update for P2P interface
+02-25 10:39:56.419 D/wpa_supplicant(  694): BSS: No P2P IE - skipping BSS 44:94:fc:3d:da:38 update for P2P interface
+02-25 10:39:56.419 D/wpa_supplicant(  694): BSS: No P2P IE - skipping BSS 98:fc:11:81:35:fb update for P2P interface
+02-25 10:39:56.419 D/wpa_supplicant(  694): BSS: No P2P IE - skipping BSS b0:48:7a:51:ff:cc update for P2P interface
+02-25 10:39:56.419 D/wpa_supplicant(  694): BSS: No P2P IE - skipping BSS cc:34:29:2c:fb:ec update for P2P interface
+02-25 10:39:56.419 D/wpa_supplicant(  694): BSS: No P2P IE - skipping BSS 74:e5:43:24:f4:5b update for P2P interface
+02-25 10:39:56.419 D/wpa_supplicant(  694): BSS: No P2P IE - skipping BSS 80:1f:02:43:fb:e8 update for P2P interface
+02-25 10:39:56.419 D/wpa_supplicant(  694): BSS: No P2P IE - skipping BSS e4:d3:32:c0:cf:a4 update for P2P interface
+02-25 10:39:56.419 D/wpa_supplicant(  694): BSS: No P2P IE - skipping BSS 02:1a:11:f9:f0:51 update for P2P interface
+02-25 10:39:56.419 D/wpa_supplicant(  694): BSS: No P2P IE - skipping BSS c0:a0:bb:20:3b:84 update for P2P interface
+02-25 10:39:56.419 D/wpa_supplicant(  694): BSS: No P2P IE - skipping BSS 22:48:9a:ac:31:5b update for P2P interface
+02-25 10:39:56.419 D/wpa_supplicant(  694): BSS: No P2P IE - skipping BSS 00:0f:e2:0f:9f:c1 update for P2P interface
+02-25 10:39:56.419 D/wpa_supplicant(  694): BSS: No P2P IE - skipping BSS 2c:b0:5d:7f:f4:24 update for P2P interface
+02-25 10:39:56.419 D/wpa_supplicant(  694): BSS: No P2P IE - skipping BSS 50:bd:5f:4b:29:92 update for P2P interface
+02-25 10:39:56.419 D/wpa_supplicant(  694): BSS: last_scan_res_used=0/0 last_scan_full=0
+02-25 10:39:56.419 D/wpa_supplicant(  694): p2p-dev-wlan0: New scan results available
+02-25 10:39:56.419 D/wpa_supplicant(  694): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+02-25 10:39:56.419 D/wpa_supplicant(  694): WPS: AP[0] f8:d1:11:e7:99:e8 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-25 10:39:56.419 D/wpa_supplicant(  694): WPS: AP[1] cc:34:29:2c:fb:ec type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-25 10:39:56.419 D/wpa_supplicant(  694): WPS: AP[2] cc:34:29:2b:26:4c type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-25 10:39:56.419 D/wpa_supplicant(  694): WPS: AP[3] b0:48:7a:51:ff:cc type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-25 10:39:56.419 D/wpa_supplicant(  694): WPS: AP[4] c0:a0:bb:20:3b:84 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-25 10:39:56.419 D/wpa_supplicant(  694): WPS: AP[5] 2c:b0:5d:7f:f4:24 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-25 10:39:56.419 D/wpa_supplicant(  694): WPS: AP[6] 9c:21:6a:0d:eb:72 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-25 10:39:56.419 D/wpa_supplicant(  694): WPS: AP[7] c8:d7:19:60:62:f2 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-25 10:39:56.419 D/wpa_supplicant(  694): WPS: AP[8] 44:94:fc:3d:da:38 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-25 10:39:56.419 D/wpa_supplicant(  694): WPS: AP[9] 10:c3:7b:d2:e5:e0 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-25 10:39:56.419 I/WifiHW  (  506): EVENT: IFNAME=p2p-dev-wlan0 CTRL-EVENT-SCAN-RESULTS 
+02-25 10:39:56.419 D/wpa_supplicant(  694): p2p-dev-wlan0: No suitable network found
+02-25 10:39:56.419 D/wpa_supplicant(  694): p2p-dev-wlan0: Short-circuit new scan request since there are no enabled networks
+02-25 10:39:56.419 D/wpa_supplicant(  694): p2p-dev-wlan0: State: INACTIVE -> INACTIVE
+02-25 10:39:56.419 D/wpa_supplicant(  694): wlan0: P2P: Station mode scan operation not pending anymore (sta_scan_pending=0 p2p_cb_on_scan_complete=0)
+02-25 10:39:56.419 D/wpa_supplicant(  694): RX ctrl_iface - hexdump(len=25): 42 53 53 20 52 41 4e 47 45 3d 30 2d 20 4d 41 53 4b 3d 30 78 32 31 39 38 37
+02-25 10:39:56.419 D/wpa_supplicant(  694): wlan0: Control interface command 'BSS RANGE=0- MASK=0x21987'
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: id=0
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: bssid=f8:d1:11:e7:99:e8
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: freq=2437
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: level=-39
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: tsf=0000003170619957
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: flags=[WPA-PSK-CCMP][WPA2-PSK-CCMP][WPS][ESS]
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ssid=videotest
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ====
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: id=1
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: bssid=02:1a:11:ff:f7:0a
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: freq=2437
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: level=-51
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: tsf=0000003170619967
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: flags=[WPA2-PSK-CCMP][ESS]
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ssid=io1
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ====
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: id=2
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: bssid=cc:34:29:2c:fb:ec
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: freq=2412
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: level=-63
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: tsf=0000003170619891
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: flags=[WPA-PSK-CCMP][WPA2-PSK-CCMP][WPS][ESS]
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ssid=linksys
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ====
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: id=3
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: bssid=cc:34:29:2b:26:4c
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: freq=2462
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: level=-55
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: tsf=0000003170620083
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: flags=[WPA2-PSK-CCMP][WPS][ESS]
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ssid=cws-test
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ====
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: id=4
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: bssid=90:94:e4:03:45:f5
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: freq=2422
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: level=-54
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: tsf=0000003170619932
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: flags=[WPA2-PSK-CCMP+TKIP][ESS]
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ssid=DAP-2553_D
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ====
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: id=5
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: bssid=98:fc:11:81:35:fb
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: freq=2412
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: level=-59
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: tsf=0000003170619917
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: flags=[WPA2-EAP-CCMP-preauth][ESS]
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ssid=E2000EE
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ====
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: id=6
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: bssid=80:1f:02:43:fb:e8
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: freq=2412
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: level=-67
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: tsf=0000003170619900
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: flags=[WPA2-PSK-CCMP-preauth][ESS]
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ssid=Edimax AP
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ====
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: id=8
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: bssid=b0:48:7a:51:ff:cc
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: freq=2452
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: level=-60
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: tsf=0000003170620074
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: flags=[WPA-PSK-CCMP][WPA2-PSK-CCMP][WPS][ESS]
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ssid=Neusoft TP
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ====
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: id=9
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: bssid=00:0f:e2:0f:9f:c1
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: freq=2462
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: level=-79
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: tsf=0000003170620109
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: flags=[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ssid=321_WAN
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ====
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: id=17
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: bssid=50:bd:5f:4b:29:92
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: freq=2437
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: level=-64
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: tsf=0000003170619992
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: flags=[ESS]
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ssid=Internet-2
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ====
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: id=29
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: bssid=c8:d7:19:60:62:f2
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: freq=2437
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: level=-58
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: tsf=0000003170619949
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: flags=[WPA2-PSK-CCMP][WPS][ESS]
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ssid=E3000-2.4G
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ====
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: id=31
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: bssid=44:94:fc:3d:da:38
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: freq=2462
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: level=-58
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: tsf=0000003170620100
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: flags=[WPA2-EAP-CCMP-preauth][WPS][ESS]
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ssid=6300
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ====
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: id=32
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: bssid=10:c3:7b:d2:e5:e0
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: freq=2462
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: level=-55
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: tsf=0000003170620091
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: flags=[WPA2-PSK-CCMP][WPS][ESS]
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ssid=ASUS_RT-AC66U-2.4G
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ====
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: id=40
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: bssid=74:e5:43:24:f4:5b
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: freq=2412
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: level=-67
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: tsf=0000003170619924
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: flags=[WPA2-PSK-CCMP][ESS]
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ssid=Dttest
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ====
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: id=53
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: bssid=cc:b2:55:e2:84:70
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: freq=2447
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: level=-66
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: tsf=0000003129368642
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: flags=[WPA-PSK-TKIP][WPA2-PSK-TKIP][ESS]
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ssid=DLINK_APK
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ====
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: id=59
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: bssid=e4:d3:32:c0:cf:a4
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: freq=2437
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: level=-69
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: tsf=0000003170619983
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: flags=[WPA2-PSK-CCMP][ESS]
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ssid=fast
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ====
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: id=80
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: bssid=c4:17:fe:3f:4f:fb
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: freq=2437
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: level=-65
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: tsf=0000003129368616
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: flags=[WPA2-PSK-CCMP][ESS]
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ssid=cmcm
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ====
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: id=87
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: bssid=02:1a:11:f9:f0:51
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: freq=2437
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: level=-72
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: tsf=0000003170619975
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: flags=[WPA2-PSK-CCMP][ESS]
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ssid=AndroidSystem
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ====
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: id=93
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: bssid=e4:d3:32:dd:18:62
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: freq=2437
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: level=-73
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: tsf=0000003129368624
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: flags=[ESS]
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ssid=Internet
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ====
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: id=96
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: bssid=22:48:9a:ac:31:5b
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: freq=2437
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: level=-76
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: tsf=0000003170620058
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: flags=[WPA2-PSK-CCMP][ESS]
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ssid=dean1
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ====
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: id=99
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: bssid=2c:b0:5d:7f:f4:24
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: freq=2412
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: level=-85
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: tsf=0000003170619908
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: flags=[WPA2-PSK-CCMP][WPS][ESS]
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ssid=NETGEAR38
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ====
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: id=100
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: bssid=c0:a0:bb:20:3b:84
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: freq=2417
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: level=-73
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: tsf=0000003170619940
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: flags=[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ssid=dlink-3B84
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ====
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: id=101
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: bssid=02:09:4c:23:ef:0a
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: freq=2412
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: level=-76
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: tsf=0000003129368632
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: flags=[WEP]
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ssid=DIRECT-
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ====
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: id=102
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: bssid=02:09:4c:ab:6f:3a
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: freq=2412
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: level=-78
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: tsf=0000003129368518
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: flags=[WEP]
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ssid=DIRECT-
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ====
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: id=103
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: bssid=00:0f:e2:7b:38:b1
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: freq=2462
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: level=-92
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: tsf=0000003129368694
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: flags=[ESS]
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ssid=Internet
+02-25 10:39:56.419 I/WifiHW  (  506): REPLY: ####
+02-25 10:39:56.469 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:39:56.509 D/SendBroadcastHandler( 7174): startTimer() SEND_TO_CONTACTS_WIDGET_DELETE 
+02-25 10:39:56.569 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:39:56.609 D/SendBroadcastHandler( 7174): startTimer() SEND_TO_CONTACTS_INSERT 
+02-25 10:39:56.899 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-25 10:39:56.899 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-25 10:39:56.899 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-25 10:39:56.899 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-25 10:39:56.909 I/upi_ug31xx(  166): (430) update_capacity
+02-25 10:39:56.909 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: V=4254(4251), T=301(304-362), I=-439, C=-3(-3-0)
+02-25 10:39:56.909 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0080095a) 3907 (3847) / 3926 (3926) = 100
+02-25 10:39:56.909 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0080095a) 3907 (3847) / 3926 (3926) = 100
+02-25 10:39:56.909 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0080095a) 3904 (3904) / 3926 (3926) = 99
+02-25 10:39:56.909 I/[UPI]   (  166): <UG31/E>[RsocFilterCountTime]: (0x0080095a) Step=0(30300), Full=26(3140574), Lock=30300(1800000)
+02-25 10:39:56.909 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0080095a) 3907 (3904) / 3926 (3926) = 100 (-439--439)
+02-25 10:39:56.909 I/[UPI]   (  166): <UG31/E><BATT> M:normal, P:100(100-99)%, V:4251mV, C:-545mA, T:30.4C(362), S:0x0080095a(100), R:3907mAh, F:3926mAh, Q:-54mAh, CC:3, P:30.300(52-0)s, BO:7, 97:615:0-44af-9m:B001-20140514-144301 (1)
+02-25 10:39:56.909 I/upi_ug31xx(  166): (431) backup_data 
+02-25 10:39:56.909 V/upi_ug31xx(  166): state->check_backup_count = 16
+02-25 10:39:57.139 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:39:57.229 D/AsusContactWigdetSync( 1011): sync start
+02-25 10:39:57.229 D/AsusContactWigdetSync( 1011): sync selection = null
+02-25 10:39:57.229 D/AsusContactWigdetSync( 1011): sync delete selection = contact_id IN ( 381, 380, 383, 384, 382)
+02-25 10:39:57.239 D/AsusContactWigdetSync( 1011): sync stop
+02-25 10:39:57.239 D/AsusContactWigdetSync( 7233): sync start
+02-25 10:39:57.239 D/AsusContactWigdetSync( 7233): sync selection = null
+02-25 10:39:57.239 D/AsusContactWigdetSync( 7233): sync delete selection = contact_id IN ( 381, 380, 383, 384, 382)
+02-25 10:39:57.239 D/AsusContactWigdetSync( 7233): sync stop
+02-25 10:39:57.239 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{221c96e0 u0 com.asus.contacts/com.android.contacts.miniwidget.SyncService},r used time=1003,left r count=1
+02-25 10:39:57.239 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{22271ea0 u0 com.asus.contactswidget/.SyncService},r used time=1007,left r count=0
+02-25 10:39:57.269 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:39:57.779 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:39:57.899 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:39:57.919 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{21f190c0 u0 com.android.providers.calendar/.ContactsEventUpdateIntentService},r used time=48,left r count=1
+02-25 10:39:58.429 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:39:58.569 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:39:58.779 D/dalvikvm( 7174): GC_EXPLICIT freed 829K, 12% free 7894K/8912K, paused 0ms+3ms, total 17ms
+02-25 10:39:58.809 E/Contacts( 6958): org.json.JSONException: No value for contactId
+02-25 10:39:58.919 I/CalendarProvider2( 7207): Sending notification intent: Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar }
+02-25 10:39:58.919 W/ContentResolver( 7207): Failed to get type for: content://com.android.calendar (Unknown URL content://com.android.calendar)
+02-25 10:39:58.919 D/AlertReceiver( 7246): onReceive: a=android.intent.action.PROVIDER_CHANGED Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar flg=0x10 cmp=com.asus.calendar/com.android.calendar.alerts.AlertReceiver }
+02-25 10:39:58.919 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{2215be20 u0 com.android.providers.calendar/.EmptyService},r used time=1007,left r count=0
+02-25 10:39:58.929 D/AlertService( 7246): 0 Action = android.intent.action.PROVIDER_CHANGED
+02-25 10:39:58.929 D/AlertService( 7246): Beginning updateAlertNotification
+02-25 10:39:58.959 D/AlertService( 7246): No fired or scheduled alerts
+02-25 10:39:58.959 D/BatteryStatsImpl(  506): noteStopWakeLocked com.asus.calendar isFromForeground = false
+02-25 10:39:58.959 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{22158e58 u0 com.asus.calendar/com.android.calendar.alerts.AlertService},r used time=36,left r count=0
+02-25 10:39:59.509 D/SendBroadcastHandler( 7174): mTimerTask sendMessage CONTACTS_DELETE 
+02-25 10:39:59.509 D/SendBroadcastHandler( 7174): sendBroadcast delete to voice agent
+02-25 10:39:59.509 D/AsusContactWigdetSync( 1011): ready to sync contact id = 4
+02-25 10:39:59.509 D/AsusContactWigdetSync( 1011): ready to sync widget
+02-25 10:39:59.509 D/SendBroadcastHandler( 7174): (Delete) sendBroadcast mDeleteContacts:4
+02-25 10:39:59.519 D/SendBroadcastHandler( 7174): (Delete) sendBroadcast mDeleteRawContactsVoice:4
+02-25 10:39:59.519 D/SendBroadcastHandler( 7174): sendBroadcast CONTACTS_DELETE
+02-25 10:39:59.519 D/AsusContactWigdetSync( 1011): delete contact_id = 385
+02-25 10:39:59.519 D/AsusContactWigdetSync( 1011): delete contact_id = 386
+02-25 10:39:59.519 D/AsusContactWigdetSync( 1011): delete contact_id = 387
+02-25 10:39:59.519 D/AsusContactWigdetSync( 1011): delete contact_id = 388
+02-25 10:39:59.519 D/AsusContactWigdetSync( 1011): sync isdelete = true
+02-25 10:39:59.529 D/AsusContactWigdetSync( 7233): ready to sync contact id = 4
+02-25 10:39:59.529 D/AsusContactWigdetSync( 7233): ready to sync widget
+02-25 10:39:59.539 D/AsusContactWigdetSync( 7233): delete contact_id = 385
+02-25 10:39:59.539 D/AsusContactWigdetSync( 7233): delete contact_id = 386
+02-25 10:39:59.539 D/AsusContactWigdetSync( 7233): delete contact_id = 387
+02-25 10:39:59.539 D/AsusContactWigdetSync( 7233): delete contact_id = 388
+02-25 10:39:59.539 D/AsusContactWigdetSync( 7233): sync isdelete = true
+02-25 10:39:59.609 D/SendBroadcastHandler( 7174): mTimerTask sendMessage CONTACTS_INSERT 
+02-25 10:39:59.619 D/SendBroadcastHandler( 7174): (insert) sendBroadcast mInsertRawContacts:4
+02-25 10:39:59.619 D/SendBroadcastHandler( 7174): (insert) sendBroadcast mInsertName:4
+02-25 10:39:59.619 D/SendBroadcastHandler( 7174): (insert) sendBroadcast mInsertNameDetail:4
+02-25 10:39:59.619 D/SendBroadcastHandler( 7174): sendBroadcast insert to voice agent
+02-25 10:39:59.989 D/Clock   (  571): ACTION_TIME_TICK
+02-25 10:39:59.999 D/Clock   (  571): update clock:上午10:40
+02-25 10:40:00.019 D/BatteryStatsImpl(  506): noteStopWakeLocked system isFromForeground = false
+02-25 10:40:00.269 D/AlarmManager(  506): Triggered Alarm 220aee98 ELAPSED_REALTIME_WAKEUP IntentSender{2236fe88: PendingIntentRecord{222f1390 com.android.providers.calendar broadcastIntent}}
+02-25 10:40:00.279 D/BatteryStatsImpl(  506): noteStopWakeLocked system isFromForeground = false
+02-25 10:40:00.289 D/AlarmManager(  506): Removed alarm Alarm{21f2cec0 type 0 com.android.providers.calendar} type:RTC_WAKEUP
+02-25 10:40:00.299 D/AlarmManager(  506): Added alarm Alarm{220333b8 type 2 com.wandoujia.phoenix2} type:ELAPSED_REALTIME_WAKEUP when: After 0h:9m:37.0s
+02-25 10:40:00.329 D/BatteryStatsImpl(  506): noteStopWakeLocked com.android.providers.calendar isFromForeground = false
+02-25 10:40:00.329 D/AlarmManager(  506): Added alarm Alarm{21fe5758 type 0 com.android.providers.calendar} type:RTC_WAKEUP when: At 15-2-26 上午8:41
+02-25 10:40:00.329 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{221050a8 u0 com.android.providers.calendar/.CalendarProviderIntentService},r used time=53,left r count=2
+02-25 10:40:00.519 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{220cbb00 u0 com.android.providers.calendar/.ContactsEventUpdateIntentService},r used time=41,left r count=3
+02-25 10:40:00.529 D/AsusContactWigdetSync( 1011): sync start
+02-25 10:40:00.529 D/AsusContactWigdetSync( 1011): sync selection = null
+02-25 10:40:00.529 D/AsusContactWigdetSync( 1011): sync delete selection = contact_id IN ( 387, 386, 385, 388)
+02-25 10:40:00.529 D/AsusContactWigdetSync( 1011): sync stop
+02-25 10:40:00.529 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{22148c00 u0 com.asus.contacts/com.android.contacts.miniwidget.SyncService},r used time=1012,left r count=2
+02-25 10:40:00.539 D/AsusContactWigdetSync( 7233): sync start
+02-25 10:40:00.539 D/AsusContactWigdetSync( 7233): sync selection = null
+02-25 10:40:00.539 D/AsusContactWigdetSync( 7233): sync delete selection = contact_id IN ( 387, 386, 385, 388)
+02-25 10:40:00.539 D/AsusContactWigdetSync( 7233): sync stop
+02-25 10:40:00.539 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{22143598 u0 com.asus.contactswidget/.SyncService},r used time=1013,left r count=1
+02-25 10:40:01.519 I/CalendarProvider2( 7207): Sending notification intent: Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar }
+02-25 10:40:01.519 W/ContentResolver( 7207): Failed to get type for: content://com.android.calendar (Unknown URL content://com.android.calendar)
+02-25 10:40:01.519 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{220c2a48 u0 com.android.providers.calendar/.EmptyService},r used time=1007,left r count=0
+02-25 10:40:01.529 D/AlertReceiver( 7246): onReceive: a=android.intent.action.PROVIDER_CHANGED Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar flg=0x10 cmp=com.asus.calendar/com.android.calendar.alerts.AlertReceiver }
+02-25 10:40:01.529 D/AlertService( 7246): 0 Action = android.intent.action.PROVIDER_CHANGED
+02-25 10:40:01.529 D/AlertService( 7246): Beginning updateAlertNotification
+02-25 10:40:01.549 D/AlertService( 7246): No fired or scheduled alerts
+02-25 10:40:01.569 D/BatteryStatsImpl(  506): noteStopWakeLocked com.asus.calendar isFromForeground = false
+02-25 10:40:01.569 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{220ad770 u0 com.asus.calendar/com.android.calendar.alerts.AlertService},r used time=41,left r count=0
+02-25 10:40:01.599 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:40:01.639 D/SendBroadcastHandler( 7174): startTimer() SEND_TO_CONTACTS_WIDGET_DELETE 
+02-25 10:40:01.709 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:40:01.749 D/SendBroadcastHandler( 7174): startTimer() SEND_TO_CONTACTS_INSERT 
+02-25 10:40:02.249 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:40:02.369 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:40:02.889 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:40:03.009 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:40:03.559 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:40:03.679 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:40:03.699 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{220a73b0 u0 com.android.providers.calendar/.ContactsEventUpdateIntentService},r used time=55,left r count=1
+02-25 10:40:03.739 I/        ( 7174): len(name) > MAX_NAME_SIZE, shorten it
+02-25 10:40:04.219 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:40:04.329 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:40:04.369 D/dalvikvm(  506): GC_EXPLICIT freed 136K, 24% free 15125K/19704K, paused 1ms+3ms, total 38ms
+02-25 10:40:04.589 D/dalvikvm( 6958): GC_EXPLICIT freed 1603K, 24% free 7311K/9544K, paused 1ms+3ms, total 17ms
+02-25 10:40:04.639 D/SendBroadcastHandler( 7174): mTimerTask sendMessage CONTACTS_DELETE 
+02-25 10:40:04.639 D/SendBroadcastHandler( 7174): sendBroadcast delete to voice agent
+02-25 10:40:04.639 D/SendBroadcastHandler( 7174): (Delete) sendBroadcast mDeleteContacts:5
+02-25 10:40:04.639 D/SendBroadcastHandler( 7174): (Delete) sendBroadcast mDeleteRawContactsVoice:5
+02-25 10:40:04.639 D/SendBroadcastHandler( 7174): sendBroadcast CONTACTS_DELETE
+02-25 10:40:04.639 D/AsusContactWigdetSync( 1011): ready to sync contact id = 5
+02-25 10:40:04.639 D/AsusContactWigdetSync( 1011): ready to sync widget
+02-25 10:40:04.649 D/AsusContactWigdetSync( 7233): ready to sync contact id = 5
+02-25 10:40:04.649 D/AsusContactWigdetSync( 1011): delete contact_id = 389
+02-25 10:40:04.649 D/AsusContactWigdetSync( 1011): delete contact_id = 390
+02-25 10:40:04.649 D/AsusContactWigdetSync( 1011): delete contact_id = 391
+02-25 10:40:04.649 D/AsusContactWigdetSync( 1011): delete contact_id = 392
+02-25 10:40:04.649 D/AsusContactWigdetSync( 1011): delete contact_id = 393
+02-25 10:40:04.649 D/AsusContactWigdetSync( 1011): sync isdelete = true
+02-25 10:40:04.649 D/AsusContactWigdetSync( 7233): ready to sync widget
+02-25 10:40:04.659 D/AsusContactWigdetSync( 7233): delete contact_id = 389
+02-25 10:40:04.659 D/AsusContactWigdetSync( 7233): delete contact_id = 390
+02-25 10:40:04.659 D/AsusContactWigdetSync( 7233): delete contact_id = 391
+02-25 10:40:04.659 D/AsusContactWigdetSync( 7233): delete contact_id = 392
+02-25 10:40:04.659 D/AsusContactWigdetSync( 7233): delete contact_id = 393
+02-25 10:40:04.659 D/AsusContactWigdetSync( 7233): sync isdelete = true
+02-25 10:40:04.699 I/CalendarProvider2( 7207): Sending notification intent: Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar }
+02-25 10:40:04.699 W/ContentResolver( 7207): Failed to get type for: content://com.android.calendar (Unknown URL content://com.android.calendar)
+02-25 10:40:04.699 D/AlertReceiver( 7246): onReceive: a=android.intent.action.PROVIDER_CHANGED Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar flg=0x10 cmp=com.asus.calendar/com.android.calendar.alerts.AlertReceiver }
+02-25 10:40:04.699 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{220a44e0 u0 com.android.providers.calendar/.EmptyService},r used time=1005,left r count=2
+02-25 10:40:04.709 D/AlertService( 7246): 0 Action = android.intent.action.PROVIDER_CHANGED
+02-25 10:40:04.709 D/AlertService( 7246): Beginning updateAlertNotification
+02-25 10:40:04.719 D/AlertService( 7246): No fired or scheduled alerts
+02-25 10:40:04.729 D/BatteryStatsImpl(  506): noteStopWakeLocked com.asus.calendar isFromForeground = false
+02-25 10:40:04.729 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{220b4280 u0 com.asus.calendar/com.android.calendar.alerts.AlertService},r used time=28,left r count=2
+02-25 10:40:04.749 D/SendBroadcastHandler( 7174): mTimerTask sendMessage CONTACTS_INSERT 
+02-25 10:40:04.749 D/SendBroadcastHandler( 7174): (insert) sendBroadcast mInsertRawContacts:5
+02-25 10:40:04.749 D/SendBroadcastHandler( 7174): (insert) sendBroadcast mInsertName:5
+02-25 10:40:04.749 D/SendBroadcastHandler( 7174): (insert) sendBroadcast mInsertNameDetail:5
+02-25 10:40:04.749 D/SendBroadcastHandler( 7174): sendBroadcast insert to voice agent
+02-25 10:40:04.829 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:40:04.879 D/SendBroadcastHandler( 7174): startTimer() SEND_TO_CONTACTS_WIDGET_DELETE 
+02-25 10:40:04.939 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:40:04.969 D/SendBroadcastHandler( 7174): startTimer() SEND_TO_CONTACTS_INSERT 
+02-25 10:40:05.479 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:40:05.519 D/AlarmManager(  506): Triggered Alarm 21faabb0 ELAPSED_REALTIME_WAKEUP IntentSender{21edc2c0: PendingIntentRecord{222d7e28 com.android.providers.calendar broadcastIntent}}
+02-25 10:40:05.519 D/BatteryStatsImpl(  506): noteStopWakeLocked system isFromForeground = false
+02-25 10:40:05.529 D/AlarmManager(  506): Removed alarm Alarm{21fe5758 type 0 com.android.providers.calendar} type:RTC_WAKEUP
+02-25 10:40:05.539 D/AlarmManager(  506): Added alarm Alarm{21f86d00 type 2 com.wandoujia.phoenix2} type:ELAPSED_REALTIME_WAKEUP when: After 0h:9m:32.0s
+02-25 10:40:05.549 D/BatteryStatsImpl(  506): noteStopWakeLocked com.android.providers.calendar isFromForeground = false
+02-25 10:40:05.549 D/AlarmManager(  506): Added alarm Alarm{21f40340 type 0 com.android.providers.calendar} type:RTC_WAKEUP when: At 15-2-26 上午8:41
+02-25 10:40:05.549 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{220a0aa0 u0 com.android.providers.calendar/.CalendarProviderIntentService},r used time=31,left r count=2
+02-25 10:40:05.589 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:40:05.649 D/AsusContactWigdetSync( 1011): sync start
+02-25 10:40:05.649 D/AsusContactWigdetSync( 1011): sync selection = null
+02-25 10:40:05.649 D/AsusContactWigdetSync( 1011): sync delete selection = contact_id IN ( 393, 392, 391, 390, 389)
+02-25 10:40:05.649 D/AsusContactWigdetSync( 1011): sync stop
+02-25 10:40:05.659 D/AsusContactWigdetSync( 7233): sync start
+02-25 10:40:05.659 D/AsusContactWigdetSync( 7233): sync selection = null
+02-25 10:40:05.659 D/AsusContactWigdetSync( 7233): sync delete selection = contact_id IN ( 393, 392, 391, 390, 389)
+02-25 10:40:05.659 D/AsusContactWigdetSync( 7233): sync stop
+02-25 10:40:05.659 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{221e9b48 u0 com.asus.contacts/com.android.contacts.miniwidget.SyncService},r used time=1010,left r count=1
+02-25 10:40:05.659 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{2211f358 u0 com.asus.contactswidget/.SyncService},r used time=1009,left r count=0
+02-25 10:40:06.149 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:40:06.269 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:40:06.289 D/dalvikvm( 7174): GC_EXPLICIT freed 834K, 12% free 7884K/8912K, paused 0ms+3ms, total 20ms
+02-25 10:40:06.429 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{2208ba10 u0 com.android.providers.calendar/.ContactsEventUpdateIntentService},r used time=168,left r count=1
+02-25 10:40:06.809 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:40:06.969 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:40:07.429 I/CalendarProvider2( 7207): Sending notification intent: Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar }
+02-25 10:40:07.429 W/ContentResolver( 7207): Failed to get type for: content://com.android.calendar (Unknown URL content://com.android.calendar)
+02-25 10:40:07.439 D/AlertReceiver( 7246): onReceive: a=android.intent.action.PROVIDER_CHANGED Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar flg=0x10 cmp=com.asus.calendar/com.android.calendar.alerts.AlertReceiver }
+02-25 10:40:07.439 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{22069c00 u0 com.android.providers.calendar/.EmptyService},r used time=1011,left r count=0
+02-25 10:40:07.459 D/AlertService( 7246): 0 Action = android.intent.action.PROVIDER_CHANGED
+02-25 10:40:07.459 D/AlertService( 7246): Beginning updateAlertNotification
+02-25 10:40:07.479 D/AlertService( 7246): No fired or scheduled alerts
+02-25 10:40:07.489 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:40:07.489 D/BatteryStatsImpl(  506): noteStopWakeLocked com.asus.calendar isFromForeground = false
+02-25 10:40:07.489 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{22068b00 u0 com.asus.calendar/com.android.calendar.alerts.AlertService},r used time=39,left r count=0
+02-25 10:40:07.599 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:40:07.879 D/SendBroadcastHandler( 7174): mTimerTask sendMessage CONTACTS_DELETE 
+02-25 10:40:07.879 D/AsusContactWigdetSync( 1011): ready to sync contact id = 5
+02-25 10:40:07.879 D/AsusContactWigdetSync( 1011): ready to sync widget
+02-25 10:40:07.879 D/SendBroadcastHandler( 7174): sendBroadcast delete to voice agent
+02-25 10:40:07.879 D/SendBroadcastHandler( 7174): (Delete) sendBroadcast mDeleteContacts:5
+02-25 10:40:07.879 D/SendBroadcastHandler( 7174): (Delete) sendBroadcast mDeleteRawContactsVoice:5
+02-25 10:40:07.879 D/SendBroadcastHandler( 7174): sendBroadcast CONTACTS_DELETE
+02-25 10:40:07.879 D/AsusContactWigdetSync( 1011): delete contact_id = 394
+02-25 10:40:07.879 D/AsusContactWigdetSync( 7233): ready to sync contact id = 5
+02-25 10:40:07.879 D/AsusContactWigdetSync( 7233): ready to sync widget
+02-25 10:40:07.879 D/AsusContactWigdetSync( 1011): delete contact_id = 395
+02-25 10:40:07.879 D/AsusContactWigdetSync( 1011): delete contact_id = 396
+02-25 10:40:07.879 D/AsusContactWigdetSync( 1011): delete contact_id = 397
+02-25 10:40:07.879 D/AsusContactWigdetSync( 1011): delete contact_id = 398
+02-25 10:40:07.879 D/AsusContactWigdetSync( 1011): sync isdelete = true
+02-25 10:40:07.889 D/AsusContactWigdetSync( 7233): delete contact_id = 394
+02-25 10:40:07.889 D/AsusContactWigdetSync( 7233): delete contact_id = 395
+02-25 10:40:07.889 D/AsusContactWigdetSync( 7233): delete contact_id = 396
+02-25 10:40:07.889 D/AsusContactWigdetSync( 7233): delete contact_id = 397
+02-25 10:40:07.889 D/AsusContactWigdetSync( 7233): delete contact_id = 398
+02-25 10:40:07.889 D/AsusContactWigdetSync( 7233): sync isdelete = true
+02-25 10:40:07.969 D/SendBroadcastHandler( 7174): mTimerTask sendMessage CONTACTS_INSERT 
+02-25 10:40:07.979 D/SendBroadcastHandler( 7174): (insert) sendBroadcast mInsertRawContacts:5
+02-25 10:40:07.979 D/SendBroadcastHandler( 7174): (insert) sendBroadcast mInsertName:5
+02-25 10:40:07.979 D/SendBroadcastHandler( 7174): (insert) sendBroadcast mInsertNameDetail:5
+02-25 10:40:07.979 D/SendBroadcastHandler( 7174): sendBroadcast insert to voice agent
+02-25 10:40:08.109 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:40:08.159 D/SendBroadcastHandler( 7174): startTimer() SEND_TO_CONTACTS_WIDGET_DELETE 
+02-25 10:40:08.239 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:40:08.279 D/SendBroadcastHandler( 7174): startTimer() SEND_TO_CONTACTS_INSERT 
+02-25 10:40:08.769 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:40:08.879 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:40:08.889 D/AsusContactWigdetSync( 1011): sync start
+02-25 10:40:08.889 D/AsusContactWigdetSync( 1011): sync selection = null
+02-25 10:40:08.889 D/AsusContactWigdetSync( 1011): sync delete selection = contact_id IN ( 395, 394, 398, 397, 396)
+02-25 10:40:08.889 D/AsusContactWigdetSync( 1011): sync stop
+02-25 10:40:08.889 D/AsusContactWigdetSync( 7233): sync start
+02-25 10:40:08.889 D/AsusContactWigdetSync( 7233): sync selection = null
+02-25 10:40:08.889 D/AsusContactWigdetSync( 7233): sync delete selection = contact_id IN ( 395, 394, 398, 397, 396)
+02-25 10:40:08.889 D/AsusContactWigdetSync( 7233): sync stop
+02-25 10:40:08.889 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{2205eac8 u0 com.asus.contacts/com.android.contacts.miniwidget.SyncService},r used time=1007,left r count=2
+02-25 10:40:08.889 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{220595a8 u0 com.asus.contactswidget/.SyncService},r used time=1005,left r count=1
+02-25 10:40:08.919 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{22059198 u0 com.android.providers.calendar/.ContactsEventUpdateIntentService},r used time=58,left r count=1
+02-25 10:40:09.379 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:40:09.499 W/chromium( 6958): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: file:///android_asset/www//opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsChangeEvent_modified.html:70:18 TypeError: Cannot read property '0' of undefined
+02-25 10:40:09.499 W/chromium( 6958):     if (e.modified[0]) {
+02-25 10:40:09.499 W/chromium( 6958): 
+02-25 10:40:09.729 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:40:09.749 D/dalvikvm( 7174): GC_EXPLICIT freed 788K, 13% free 7791K/8912K, paused 0ms+3ms, total 17ms
+02-25 10:40:09.759 W/chromium( 6958): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: file:///android_asset/www//opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsChangeEvent_modified.html:70:18 TypeError: Cannot read property '0' of undefined
+02-25 10:40:09.759 W/chromium( 6958):     if (e.modified[0]) {
+02-25 10:40:09.759 W/chromium( 6958): 
+02-25 10:40:09.799 D/dalvikvm(  506): GC_EXPLICIT freed 91K, 24% free 15119K/19704K, paused 1ms+3ms, total 39ms
+02-25 10:40:09.919 I/CalendarProvider2( 7207): Sending notification intent: Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar }
+02-25 10:40:09.919 W/ContentResolver( 7207): Failed to get type for: content://com.android.calendar (Unknown URL content://com.android.calendar)
+02-25 10:40:09.919 D/AlertReceiver( 7246): onReceive: a=android.intent.action.PROVIDER_CHANGED Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar flg=0x10 cmp=com.asus.calendar/com.android.calendar.alerts.AlertReceiver }
+02-25 10:40:09.919 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{2202c038 u0 com.android.providers.calendar/.EmptyService},r used time=1003,left r count=0
+02-25 10:40:09.929 D/AlertService( 7246): 0 Action = android.intent.action.PROVIDER_CHANGED
+02-25 10:40:09.929 D/AlertService( 7246): Beginning updateAlertNotification
+02-25 10:40:09.949 D/AlertService( 7246): No fired or scheduled alerts
+02-25 10:40:09.959 D/BatteryStatsImpl(  506): noteStopWakeLocked com.asus.calendar isFromForeground = false
+02-25 10:40:09.959 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{22092688 u0 com.asus.calendar/com.android.calendar.alerts.AlertService},r used time=37,left r count=0
+02-25 10:40:09.989 D/SendBroadcastHandler( 7174): startTimer() SEND_TO_CONTACTS_WIDGET_UPDATE 
+02-25 10:40:10.489 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:40:10.639 D/dalvikvm( 6958): GC_EXPLICIT freed 2757K, 29% free 7360K/10244K, paused 1ms+3ms, total 19ms
+02-25 10:40:10.819 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:40:10.869 E/Contacts( 6958): org.json.JSONException: No value for contactId
+02-25 10:40:10.949 I/chromium( 6958): [INFO:CONSOLE(60)] "Uncaught (in promise) ReferenceError: info is not defined", source: file:///android_asset/www//opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsChangeEvent_removed.html (60)
+02-25 10:40:11.099 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:40:11.159 D/SendBroadcastHandler( 7174): mTimerTask sendMessage CONTACTS_DELETE 
+02-25 10:40:11.159 D/SendBroadcastHandler( 7174): sendBroadcast delete to voice agent
+02-25 10:40:11.159 D/SendBroadcastHandler( 7174): (Delete) sendBroadcast mDeleteContacts:4
+02-25 10:40:11.159 D/SendBroadcastHandler( 7174): (Delete) sendBroadcast mDeleteRawContactsVoice:4
+02-25 10:40:11.159 D/SendBroadcastHandler( 7174): sendBroadcast CONTACTS_DELETE
+02-25 10:40:11.169 D/AsusContactWigdetSync( 1011): ready to sync contact id = 4
+02-25 10:40:11.169 D/AsusContactWigdetSync( 1011): ready to sync widget
+02-25 10:40:11.179 D/AsusContactWigdetSync( 1011): delete contact_id = 399
+02-25 10:40:11.179 D/AsusContactWigdetSync( 1011): delete contact_id = 400
+02-25 10:40:11.179 D/SendBroadcastHandler( 7174): startTimer() SEND_TO_CONTACTS_WIDGET_DELETE 
+02-25 10:40:11.179 D/AsusContactWigdetSync( 7233): ready to sync contact id = 4
+02-25 10:40:11.179 D/AsusContactWigdetSync( 7233): ready to sync widget
+02-25 10:40:11.179 D/AsusContactWigdetSync( 1011): delete contact_id = 401
+02-25 10:40:11.179 D/AsusContactWigdetSync( 7233): delete contact_id = 399
+02-25 10:40:11.179 D/AsusContactWigdetSync( 7233): delete contact_id = 400
+02-25 10:40:11.179 D/AsusContactWigdetSync( 7233): delete contact_id = 401
+02-25 10:40:11.179 D/AsusContactWigdetSync( 7233): delete contact_id = 402
+02-25 10:40:11.179 D/AsusContactWigdetSync( 7233): sync isdelete = true
+02-25 10:40:11.179 D/AsusContactWigdetSync( 1011): delete contact_id = 402
+02-25 10:40:11.179 D/AsusContactWigdetSync( 1011): sync isdelete = true
+02-25 10:40:11.279 D/SendBroadcastHandler( 7174): mTimerTask sendMessage CONTACTS_INSERT 
+02-25 10:40:11.279 D/SendBroadcastHandler( 7174): (insert) sendBroadcast mInsertRawContacts:4
+02-25 10:40:11.279 D/SendBroadcastHandler( 7174): (insert) sendBroadcast mInsertName:4
+02-25 10:40:11.279 D/SendBroadcastHandler( 7174): (insert) sendBroadcast mInsertNameDetail:4
+02-25 10:40:11.279 D/SendBroadcastHandler( 7174): sendBroadcast insert to voice agent
+02-25 10:40:11.359 D/SendBroadcastHandler( 7174): startTimer() SEND_TO_CONTACTS_INSERT 
+02-25 10:40:11.429 D/BatteryStatsImpl(  506): noteStopWakeLocked system isFromForeground = false
+02-25 10:40:11.429 I/dalvikvm( 7207): Total arena pages for JIT: 11
+02-25 10:40:11.429 I/dalvikvm( 7207): Total arena pages for JIT: 12
+02-25 10:40:11.429 I/dalvikvm( 7207): Total arena pages for JIT: 13
+02-25 10:40:11.429 D/AlarmManager(  506): Triggered Alarm 2202f9a8 ELAPSED_REALTIME_WAKEUP IntentSender{21edc2c0: PendingIntentRecord{222ec680 com.android.providers.calendar broadcastIntent}}
+02-25 10:40:11.439 I/dalvikvm( 7207): Total arena pages for JIT: 14
+02-25 10:40:11.439 I/dalvikvm( 7207): Total arena pages for JIT: 15
+02-25 10:40:11.439 I/dalvikvm( 7207): Total arena pages for JIT: 16
+02-25 10:40:11.439 D/AlarmManager(  506): Removed alarm Alarm{21f40340 type 0 com.android.providers.calendar} type:RTC_WAKEUP
+02-25 10:40:11.439 D/AlarmManager(  506): Added alarm Alarm{21f8d6d8 type 2 com.wandoujia.phoenix2} type:ELAPSED_REALTIME_WAKEUP when: After 0h:9m:26.0s
+02-25 10:40:11.449 D/AlarmManager(  506): Added alarm Alarm{220aee98 type 0 com.android.providers.calendar} type:RTC_WAKEUP when: At 15-2-26 上午8:41
+02-25 10:40:11.459 D/BatteryStatsImpl(  506): noteStopWakeLocked com.android.providers.calendar isFromForeground = false
+02-25 10:40:11.459 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{2202a2f8 u0 com.android.providers.calendar/.CalendarProviderIntentService},r used time=28,left r count=3
+02-25 10:40:11.479 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:40:11.499 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{2201ee40 u0 com.android.providers.calendar/.ContactsEventUpdateIntentService},r used time=71,left r count=3
+02-25 10:40:11.509 D/dalvikvm( 7174): GC_EXPLICIT freed 690K, 13% free 7785K/8912K, paused 1ms+3ms, total 20ms
+02-25 10:40:11.759 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:40:12.189 D/AsusContactWigdetSync( 1011): sync start
+02-25 10:40:12.189 D/AsusContactWigdetSync( 1011): sync selection = null
+02-25 10:40:12.189 D/AsusContactWigdetSync( 1011): sync delete selection = contact_id IN ( 402, 400, 401, 399)
+02-25 10:40:12.189 D/AsusContactWigdetSync( 7233): sync start
+02-25 10:40:12.189 D/AsusContactWigdetSync( 7233): sync selection = null
+02-25 10:40:12.189 D/AsusContactWigdetSync( 7233): sync delete selection = contact_id IN ( 402, 400, 401, 399)
+02-25 10:40:12.189 D/AsusContactWigdetSync( 1011): sync stop
+02-25 10:40:12.189 D/AsusContactWigdetSync( 7233): sync stop
+02-25 10:40:12.189 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{2202d4f0 u0 com.asus.contacts/com.android.contacts.miniwidget.SyncService},r used time=1022,left r count=2
+02-25 10:40:12.189 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{21f13fe8 u0 com.asus.contactswidget/.SyncService},r used time=1009,left r count=1
+02-25 10:40:12.379 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:40:12.379 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:40:12.499 I/CalendarProvider2( 7207): Sending notification intent: Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar }
+02-25 10:40:12.509 W/ContentResolver( 7207): Failed to get type for: content://com.android.calendar (Unknown URL content://com.android.calendar)
+02-25 10:40:12.509 D/AlertReceiver( 7246): onReceive: a=android.intent.action.PROVIDER_CHANGED Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar flg=0x10 cmp=com.asus.calendar/com.android.calendar.alerts.AlertReceiver }
+02-25 10:40:12.509 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{220107a0 u0 com.android.providers.calendar/.EmptyService},r used time=1006,left r count=0
+02-25 10:40:12.519 D/AlertService( 7246): 0 Action = android.intent.action.PROVIDER_CHANGED
+02-25 10:40:12.519 D/AlertService( 7246): Beginning updateAlertNotification
+02-25 10:40:12.519 I/dalvikvm( 7246): Total arena pages for JIT: 11
+02-25 10:40:12.519 I/dalvikvm( 7246): Total arena pages for JIT: 12
+02-25 10:40:12.519 I/dalvikvm( 7246): Total arena pages for JIT: 13
+02-25 10:40:12.519 I/dalvikvm( 7246): Total arena pages for JIT: 14
+02-25 10:40:12.519 I/dalvikvm( 7246): Total arena pages for JIT: 15
+02-25 10:40:12.519 I/dalvikvm( 7246): Total arena pages for JIT: 16
+02-25 10:40:12.529 D/AlertService( 7246): No fired or scheduled alerts
+02-25 10:40:12.529 D/BatteryStatsImpl(  506): noteStopWakeLocked com.asus.calendar isFromForeground = false
+02-25 10:40:12.529 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{21fccd48 u0 com.asus.calendar/com.android.calendar.alerts.AlertService},r used time=14,left r count=0
+02-25 10:40:12.819 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:40:12.859 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:40:12.989 D/SendBroadcastHandler( 7174): mTimerTask sendMessage CONTACTS_UPDATE 
+02-25 10:40:12.999 D/SendBroadcastHandler( 7174): sendBroadcast update to voice agent
+02-25 10:40:12.999 D/SendBroadcastHandler( 7174): (update) sendBroadcast mUpdateRawContacts:0
+02-25 10:40:12.999 D/SendBroadcastHandler( 7174): (update) sendBroadcast mUpdateContacts:0
+02-25 10:40:12.999 D/SendBroadcastHandler( 7174): (update) sendBroadcast mUpdateName:1
+02-25 10:40:12.999 D/SendBroadcastHandler( 7174): (update) sendBroadcast mUpdateNameDetail:1
+02-25 10:40:12.999 D/SendBroadcastHandler( 7174): sendBroadcast CONTACTS_UPDATE
+02-25 10:40:12.999 D/AsusContactWigdetSync( 1011): ready to sync widget
+02-25 10:40:12.999 D/AsusContactWigdetSync( 1011): sync isdelete = false
+02-25 10:40:12.999 D/AsusContactWigdetSync( 7233): ready to sync widget
+02-25 10:40:12.999 D/AsusContactWigdetSync( 7233): sync isdelete = false
+02-25 10:40:13.379 D/dalvikvm(  506): GC_EXPLICIT freed 73K, 24% free 15124K/19704K, paused 2ms+3ms, total 39ms
+02-25 10:40:13.779 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:40:13.929 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:40:13.979 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:40:13.999 D/AsusContactWigdetSync( 1011): sync start
+02-25 10:40:13.999 D/AsusContactWigdetSync( 1011): sync selection = null
+02-25 10:40:13.999 D/AsusContactWigdetSync( 1011): sync stop
+02-25 10:40:13.999 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{21fb72c8 u0 com.asus.contacts/com.android.contacts.miniwidget.SyncService},r used time=1004,left r count=1
+02-25 10:40:14.009 D/AsusContactWigdetSync( 7233): sync start
+02-25 10:40:14.009 D/AsusContactWigdetSync( 7233): sync selection = null
+02-25 10:40:14.009 D/AsusContactWigdetSync( 7233): sync stop
+02-25 10:40:14.009 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{21f7fa58 u0 com.asus.contactswidget/.SyncService},r used time=1002,left r count=0
+02-25 10:40:14.159 D/dalvikvm( 7174): GC_EXPLICIT freed 629K, 13% free 7769K/8912K, paused 1ms+3ms, total 19ms
+02-25 10:40:14.179 D/SendBroadcastHandler( 7174): mTimerTask sendMessage CONTACTS_DELETE 
+02-25 10:40:14.179 D/SendBroadcastHandler( 7174): sendBroadcast delete to voice agent
+02-25 10:40:14.179 D/SendBroadcastHandler( 7174): (Delete) sendBroadcast mDeleteContacts:4
+02-25 10:40:14.179 D/SendBroadcastHandler( 7174): (Delete) sendBroadcast mDeleteRawContactsVoice:4
+02-25 10:40:14.179 D/SendBroadcastHandler( 7174): sendBroadcast CONTACTS_DELETE
+02-25 10:40:14.179 D/AsusContactWigdetSync( 1011): ready to sync contact id = 4
+02-25 10:40:14.179 D/AsusContactWigdetSync( 1011): ready to sync widget
+02-25 10:40:14.179 D/AsusContactWigdetSync( 1011): delete contact_id = 403
+02-25 10:40:14.189 D/AsusContactWigdetSync( 1011): delete contact_id = 404
+02-25 10:40:14.189 D/AsusContactWigdetSync( 1011): delete contact_id = 406
+02-25 10:40:14.189 D/AsusContactWigdetSync( 7233): ready to sync contact id = 4
+02-25 10:40:14.189 D/AsusContactWigdetSync( 1011): delete contact_id = 405
+02-25 10:40:14.189 D/AsusContactWigdetSync( 1011): sync isdelete = true
+02-25 10:40:14.189 D/AsusContactWigdetSync( 7233): ready to sync widget
+02-25 10:40:14.189 D/AsusContactWigdetSync( 7233): delete contact_id = 403
+02-25 10:40:14.189 D/AsusContactWigdetSync( 7233): delete contact_id = 404
+02-25 10:40:14.189 D/AsusContactWigdetSync( 7233): delete contact_id = 406
+02-25 10:40:14.189 D/AsusContactWigdetSync( 7233): delete contact_id = 405
+02-25 10:40:14.189 D/AsusContactWigdetSync( 7233): sync isdelete = true
+02-25 10:40:14.359 D/SendBroadcastHandler( 7174): mTimerTask sendMessage CONTACTS_INSERT 
+02-25 10:40:14.359 D/SendBroadcastHandler( 7174): (insert) sendBroadcast mInsertRawContacts:5
+02-25 10:40:14.359 D/SendBroadcastHandler( 7174): (insert) sendBroadcast mInsertName:5
+02-25 10:40:14.359 D/SendBroadcastHandler( 7174): (insert) sendBroadcast mInsertNameDetail:5
+02-25 10:40:14.359 D/SendBroadcastHandler( 7174): sendBroadcast insert to voice agent
+02-25 10:40:14.399 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{21f500e0 u0 com.android.providers.calendar/.ContactsEventUpdateIntentService},r used time=197,left r count=3
+02-25 10:40:14.419 D/dalvikvm( 7207): GC_EXPLICIT freed 408K, 8% free 6349K/6832K, paused 1ms+2ms, total 22ms
+02-25 10:40:14.499 D/dalvikvm( 6958): GC_CONCURRENT freed 4008K, 36% free 7341K/11448K, paused 1ms+3ms, total 17ms
+02-25 10:40:15.129 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:40:15.169 D/SendBroadcastHandler( 7174): startTimer() SEND_TO_CONTACTS_WIDGET_DELETE 
+02-25 10:40:15.189 D/AsusContactWigdetSync( 1011): sync start
+02-25 10:40:15.189 D/AsusContactWigdetSync( 1011): sync selection = null
+02-25 10:40:15.189 D/AsusContactWigdetSync( 1011): sync delete selection = contact_id IN ( 403, 406, 404, 405)
+02-25 10:40:15.189 D/AsusContactWigdetSync( 1011): sync stop
+02-25 10:40:15.189 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{22067f98 u0 com.asus.contacts/com.android.contacts.miniwidget.SyncService},r used time=1006,left r count=2
+02-25 10:40:15.199 D/AsusContactWigdetSync( 7233): sync start
+02-25 10:40:15.199 D/AsusContactWigdetSync( 7233): sync selection = null
+02-25 10:40:15.199 D/AsusContactWigdetSync( 7233): sync delete selection = contact_id IN ( 403, 406, 404, 405)
+02-25 10:40:15.199 D/AsusContactWigdetSync( 7233): sync stop
+02-25 10:40:15.199 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{21fd9be8 u0 com.asus.contactswidget/.SyncService},r used time=1013,left r count=1
+02-25 10:40:15.369 D/SendBroadcastHandler( 7174): startTimer() SEND_TO_CONTACTS_INSERT 
+02-25 10:40:15.379 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:40:15.399 I/CalendarProvider2( 7207): Sending notification intent: Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar }
+02-25 10:40:15.399 W/ContentResolver( 7207): Failed to get type for: content://com.android.calendar (Unknown URL content://com.android.calendar)
+02-25 10:40:15.399 D/AlertReceiver( 7246): onReceive: a=android.intent.action.PROVIDER_CHANGED Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar flg=0x10 cmp=com.asus.calendar/com.android.calendar.alerts.AlertReceiver }
+02-25 10:40:15.399 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{21f47fa8 u0 com.android.providers.calendar/.EmptyService},r used time=1004,left r count=0
+02-25 10:40:15.409 D/AlertService( 7246): 0 Action = android.intent.action.PROVIDER_CHANGED
+02-25 10:40:15.409 D/AlertService( 7246): Beginning updateAlertNotification
+02-25 10:40:15.409 D/AlertService( 7246): No fired or scheduled alerts
+02-25 10:40:15.419 D/BatteryStatsImpl(  506): noteStopWakeLocked com.asus.calendar isFromForeground = false
+02-25 10:40:15.419 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{21f14108 u0 com.asus.calendar/com.android.calendar.alerts.AlertService},r used time=16,left r count=0
+02-25 10:40:15.639 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:40:15.859 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:40:15.869 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:40:16.059 D/dalvikvm( 7174): GC_EXPLICIT freed 680K, 14% free 7749K/8912K, paused 0ms+2ms, total 18ms
+02-25 10:40:16.349 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:40:16.499 D/BatteryStatsImpl(  506): noteStopWakeLocked system isFromForeground = false
+02-25 10:40:16.499 D/AlarmManager(  506): Triggered Alarm 2200f678 ELAPSED_REALTIME_WAKEUP IntentSender{21edc2c0: PendingIntentRecord{222d69c8 com.android.providers.calendar broadcastIntent}}
+02-25 10:40:16.509 D/AlarmManager(  506): Removed alarm Alarm{220aee98 type 0 com.android.providers.calendar} type:RTC_WAKEUP
+02-25 10:40:16.509 D/AlarmManager(  506): Added alarm Alarm{21f5c330 type 2 com.wandoujia.phoenix2} type:ELAPSED_REALTIME_WAKEUP when: After 0h:9m:21.0s
+02-25 10:40:16.519 D/BatteryStatsImpl(  506): noteStopWakeLocked com.android.providers.calendar isFromForeground = false
+02-25 10:40:16.519 D/AlarmManager(  506): Added alarm Alarm{220db118 type 0 com.android.providers.calendar} type:RTC_WAKEUP when: At 15-2-26 上午8:41
+02-25 10:40:16.529 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{22070f48 u0 com.android.providers.calendar/.CalendarProviderIntentService},r used time=22,left r count=0
+02-25 10:40:16.719 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:40:16.769 D/dalvikvm(  506): GC_EXPLICIT freed 65K, 24% free 15129K/19704K, paused 2ms+3ms, total 39ms
+02-25 10:40:16.959 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:40:17.259 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:40:17.279 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{221268b0 u0 com.android.providers.calendar/.ContactsEventUpdateIntentService},r used time=110,left r count=1
+02-25 10:40:17.589 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:40:17.889 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:40:17.909 D/dalvikvm( 7174): GC_EXPLICIT freed 639K, 14% free 7716K/8912K, paused 1ms+3ms, total 19ms
+02-25 10:40:17.989 D/dalvikvm( 6958): GC_CONCURRENT freed 4043K, 37% free 7284K/11448K, paused 1ms+2ms, total 13ms
+02-25 10:40:18.169 D/SendBroadcastHandler( 7174): mTimerTask sendMessage CONTACTS_DELETE 
+02-25 10:40:18.169 D/SendBroadcastHandler( 7174): sendBroadcast delete to voice agent
+02-25 10:40:18.169 D/SendBroadcastHandler( 7174): (Delete) sendBroadcast mDeleteContacts:6
+02-25 10:40:18.169 D/SendBroadcastHandler( 7174): (Delete) sendBroadcast mDeleteRawContactsVoice:6
+02-25 10:40:18.169 D/SendBroadcastHandler( 7174): sendBroadcast CONTACTS_DELETE
+02-25 10:40:18.169 D/AsusContactWigdetSync( 1011): ready to sync contact id = 6
+02-25 10:40:18.169 D/AsusContactWigdetSync( 1011): ready to sync widget
+02-25 10:40:18.179 D/AsusContactWigdetSync( 1011): delete contact_id = 407
+02-25 10:40:18.179 D/AsusContactWigdetSync( 1011): delete contact_id = 408
+02-25 10:40:18.179 D/AsusContactWigdetSync( 1011): delete contact_id = 409
+02-25 10:40:18.179 D/AsusContactWigdetSync( 1011): delete contact_id = 410
+02-25 10:40:18.179 D/AsusContactWigdetSync( 1011): delete contact_id = 411
+02-25 10:40:18.179 D/AsusContactWigdetSync( 1011): delete contact_id = 412
+02-25 10:40:18.179 D/AsusContactWigdetSync( 1011): sync isdelete = true
+02-25 10:40:18.179 D/AsusContactWigdetSync( 7233): ready to sync contact id = 6
+02-25 10:40:18.179 D/AsusContactWigdetSync( 7233): ready to sync widget
+02-25 10:40:18.189 D/AsusContactWigdetSync( 7233): delete contact_id = 407
+02-25 10:40:18.189 D/AsusContactWigdetSync( 7233): delete contact_id = 408
+02-25 10:40:18.189 D/AsusContactWigdetSync( 7233): delete contact_id = 409
+02-25 10:40:18.189 D/AsusContactWigdetSync( 7233): delete contact_id = 410
+02-25 10:40:18.189 D/AsusContactWigdetSync( 7233): delete contact_id = 411
+02-25 10:40:18.189 D/AsusContactWigdetSync( 7233): delete contact_id = 412
+02-25 10:40:18.189 D/AsusContactWigdetSync( 7233): sync isdelete = true
+02-25 10:40:18.229 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:40:18.259 D/SendBroadcastHandler( 7174): startTimer() SEND_TO_CONTACTS_WIDGET_DELETE 
+02-25 10:40:18.279 I/CalendarProvider2( 7207): Sending notification intent: Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar }
+02-25 10:40:18.279 W/ContentResolver( 7207): Failed to get type for: content://com.android.calendar (Unknown URL content://com.android.calendar)
+02-25 10:40:18.279 D/AlertReceiver( 7246): onReceive: a=android.intent.action.PROVIDER_CHANGED Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar flg=0x10 cmp=com.asus.calendar/com.android.calendar.alerts.AlertReceiver }
+02-25 10:40:18.279 D/AlertService( 7246): 0 Action = android.intent.action.PROVIDER_CHANGED
+02-25 10:40:18.279 D/AlertService( 7246): Beginning updateAlertNotification
+02-25 10:40:18.279 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{21f20810 u0 com.android.providers.calendar/.EmptyService},r used time=1002,left r count=2
+02-25 10:40:18.299 D/AlertService( 7246): No fired or scheduled alerts
+02-25 10:40:18.299 D/BatteryStatsImpl(  506): noteStopWakeLocked com.asus.calendar isFromForeground = false
+02-25 10:40:18.299 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{2212aa88 u0 com.asus.calendar/com.android.calendar.alerts.AlertService},r used time=16,left r count=2
+02-25 10:40:18.369 D/SendBroadcastHandler( 7174): mTimerTask sendMessage CONTACTS_INSERT 
+02-25 10:40:18.369 D/SendBroadcastHandler( 7174): (insert) sendBroadcast mInsertRawContacts:5
+02-25 10:40:18.369 D/SendBroadcastHandler( 7174): (insert) sendBroadcast mInsertName:5
+02-25 10:40:18.369 D/SendBroadcastHandler( 7174): (insert) sendBroadcast mInsertNameDetail:5
+02-25 10:40:18.369 D/SendBroadcastHandler( 7174): sendBroadcast insert to voice agent
+02-25 10:40:18.419 D/SendBroadcastHandler( 7174): startTimer() SEND_TO_CONTACTS_INSERT 
+02-25 10:40:18.539 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:40:18.899 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:40:19.189 D/AsusContactWigdetSync( 1011): sync start
+02-25 10:40:19.189 D/AsusContactWigdetSync( 1011): sync selection = null
+02-25 10:40:19.189 D/AsusContactWigdetSync( 1011): sync delete selection = contact_id IN ( 410, 411, 408, 409, 407, 412)
+02-25 10:40:19.189 D/AsusContactWigdetSync( 1011): sync stop
+02-25 10:40:19.189 D/AsusContactWigdetSync( 7233): sync start
+02-25 10:40:19.189 D/AsusContactWigdetSync( 7233): sync selection = null
+02-25 10:40:19.189 D/AsusContactWigdetSync( 7233): sync delete selection = contact_id IN ( 410, 411, 408, 409, 407, 412)
+02-25 10:40:19.189 D/AsusContactWigdetSync( 7233): sync stop
+02-25 10:40:19.189 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{220a5ee8 u0 com.asus.contacts/com.android.contacts.miniwidget.SyncService},r used time=1012,left r count=1
+02-25 10:40:19.189 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{220a7450 u0 com.asus.contactswidget/.SyncService},r used time=1005,left r count=0
+02-25 10:40:19.209 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:40:19.669 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{2215b660 u0 com.android.providers.calendar/.ContactsEventUpdateIntentService},r used time=39,left r count=1
+02-25 10:40:20.089 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:40:20.209 D/dalvikvm( 7174): GC_EXPLICIT freed 605K, 14% free 7708K/8912K, paused 1ms+3ms, total 18ms
+02-25 10:40:20.299 D/dalvikvm(  506): GC_EXPLICIT freed 90K, 24% free 15102K/19704K, paused 1ms+3ms, total 39ms
+02-25 10:40:20.489 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:40:20.669 I/CalendarProvider2( 7207): Sending notification intent: Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar }
+02-25 10:40:20.669 W/ContentResolver( 7207): Failed to get type for: content://com.android.calendar (Unknown URL content://com.android.calendar)
+02-25 10:40:20.669 D/AlertReceiver( 7246): onReceive: a=android.intent.action.PROVIDER_CHANGED Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar flg=0x10 cmp=com.asus.calendar/com.android.calendar.alerts.AlertReceiver }
+02-25 10:40:20.669 D/AlertService( 7246): 0 Action = android.intent.action.PROVIDER_CHANGED
+02-25 10:40:20.669 D/AlertService( 7246): Beginning updateAlertNotification
+02-25 10:40:20.669 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{221c5768 u0 com.android.providers.calendar/.EmptyService},r used time=1006,left r count=0
+02-25 10:40:20.689 D/AlertService( 7246): No fired or scheduled alerts
+02-25 10:40:20.699 D/BatteryStatsImpl(  506): noteStopWakeLocked com.asus.calendar isFromForeground = false
+02-25 10:40:20.699 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{222342f0 u0 com.asus.calendar/com.android.calendar.alerts.AlertService},r used time=23,left r count=0
+02-25 10:40:20.779 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:40:20.929 E/Contacts( 6958): org.json.JSONException: No value for contactId
+02-25 10:40:21.009 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:40:21.009 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:40:21.259 D/SendBroadcastHandler( 7174): mTimerTask sendMessage CONTACTS_DELETE 
+02-25 10:40:21.269 D/SendBroadcastHandler( 7174): sendBroadcast delete to voice agent
+02-25 10:40:21.269 D/SendBroadcastHandler( 7174): (Delete) sendBroadcast mDeleteContacts:5
+02-25 10:40:21.269 D/SendBroadcastHandler( 7174): (Delete) sendBroadcast mDeleteRawContactsVoice:5
+02-25 10:40:21.269 D/SendBroadcastHandler( 7174): sendBroadcast CONTACTS_DELETE
+02-25 10:40:21.269 D/AsusContactWigdetSync( 1011): ready to sync contact id = 5
+02-25 10:40:21.269 D/AsusContactWigdetSync( 1011): ready to sync widget
+02-25 10:40:21.279 D/AsusContactWigdetSync( 1011): delete contact_id = 413
+02-25 10:40:21.279 D/AsusContactWigdetSync( 1011): delete contact_id = 414
+02-25 10:40:21.279 D/AsusContactWigdetSync( 1011): delete contact_id = 415
+02-25 10:40:21.279 D/AsusContactWigdetSync( 1011): delete contact_id = 416
+02-25 10:40:21.279 D/AsusContactWigdetSync( 1011): delete contact_id = 417
+02-25 10:40:21.279 D/AsusContactWigdetSync( 1011): sync isdelete = true
+02-25 10:40:21.279 D/AsusContactWigdetSync( 7233): ready to sync contact id = 5
+02-25 10:40:21.279 D/AsusContactWigdetSync( 7233): ready to sync widget
+02-25 10:40:21.289 D/AsusContactWigdetSync( 7233): delete contact_id = 413
+02-25 10:40:21.289 D/AsusContactWigdetSync( 7233): delete contact_id = 414
+02-25 10:40:21.289 D/AsusContactWigdetSync( 7233): delete contact_id = 415
+02-25 10:40:21.289 D/AsusContactWigdetSync( 7233): delete contact_id = 416
+02-25 10:40:21.289 D/AsusContactWigdetSync( 7233): delete contact_id = 417
+02-25 10:40:21.289 D/AsusContactWigdetSync( 7233): sync isdelete = true
+02-25 10:40:21.299 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:40:21.339 D/SendBroadcastHandler( 7174): startTimer() SEND_TO_CONTACTS_WIDGET_DELETE 
+02-25 10:40:21.419 D/SendBroadcastHandler( 7174): mTimerTask sendMessage CONTACTS_INSERT 
+02-25 10:40:21.419 D/SendBroadcastHandler( 7174): (insert) sendBroadcast mInsertRawContacts:5
+02-25 10:40:21.419 D/SendBroadcastHandler( 7174): (insert) sendBroadcast mInsertName:5
+02-25 10:40:21.419 D/SendBroadcastHandler( 7174): (insert) sendBroadcast mInsertNameDetail:5
+02-25 10:40:21.419 D/SendBroadcastHandler( 7174): sendBroadcast insert to voice agent
+02-25 10:40:21.479 D/dalvikvm( 6958): GC_CONCURRENT freed 4134K, 38% free 7161K/11448K, paused 0ms+1ms, total 10ms
+02-25 10:40:21.489 D/SendBroadcastHandler( 7174): startTimer() SEND_TO_CONTACTS_INSERT 
+02-25 10:40:21.659 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:40:21.679 D/dalvikvm( 7174): GC_EXPLICIT freed 620K, 14% free 7702K/8912K, paused 0ms+3ms, total 17ms
+02-25 10:40:22.009 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:40:22.179 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{221e9bc0 u0 com.android.providers.calendar/.ContactsEventUpdateIntentService},r used time=41,left r count=3
+02-25 10:40:22.279 D/BatteryStatsImpl(  506): noteStopWakeLocked system isFromForeground = false
+02-25 10:40:22.279 D/AsusContactWigdetSync( 1011): sync start
+02-25 10:40:22.279 D/AsusContactWigdetSync( 1011): sync selection = null
+02-25 10:40:22.279 D/AsusContactWigdetSync( 1011): sync delete selection = contact_id IN ( 417, 416, 414, 415, 413)
+02-25 10:40:22.279 D/AlarmManager(  506): Triggered Alarm 220a0098 ELAPSED_REALTIME_WAKEUP IntentSender{21edbe10: PendingIntentRecord{222b6f40 com.android.providers.calendar broadcastIntent}}
+02-25 10:40:22.289 D/AsusContactWigdetSync( 1011): sync stop
+02-25 10:40:22.289 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{2222fac0 u0 com.asus.contacts/com.android.contacts.miniwidget.SyncService},r used time=1014,left r count=3
+02-25 10:40:22.289 D/AsusContactWigdetSync( 7233): sync start
+02-25 10:40:22.289 D/AsusContactWigdetSync( 7233): sync selection = null
+02-25 10:40:22.289 D/AsusContactWigdetSync( 7233): sync delete selection = contact_id IN ( 417, 416, 414, 415, 413)
+02-25 10:40:22.289 D/AsusContactWigdetSync( 7233): sync stop
+02-25 10:40:22.289 D/AlarmManager(  506): Removed alarm Alarm{220db118 type 0 com.android.providers.calendar} type:RTC_WAKEUP
+02-25 10:40:22.299 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{22209828 u0 com.asus.contactswidget/.SyncService},r used time=1013,left r count=2
+02-25 10:40:22.299 D/AlarmManager(  506): Added alarm Alarm{22037d10 type 2 com.wandoujia.phoenix2} type:ELAPSED_REALTIME_WAKEUP when: After 0h:9m:15.0s
+02-25 10:40:22.309 D/BatteryStatsImpl(  506): noteStopWakeLocked com.android.providers.calendar isFromForeground = false
+02-25 10:40:22.309 D/AlarmManager(  506): Added alarm Alarm{21fdb198 type 0 com.android.providers.calendar} type:RTC_WAKEUP when: At 15-2-26 上午8:41
+02-25 10:40:22.309 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{221499f0 u0 com.android.providers.calendar/.CalendarProviderIntentService},r used time=31,left r count=1
+02-25 10:40:23.179 I/CalendarProvider2( 7207): Sending notification intent: Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar }
+02-25 10:40:23.179 W/ContentResolver( 7207): Failed to get type for: content://com.android.calendar (Unknown URL content://com.android.calendar)
+02-25 10:40:23.179 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{2215be20 u0 com.android.providers.calendar/.EmptyService},r used time=1006,left r count=0
+02-25 10:40:23.189 D/AlertReceiver( 7246): onReceive: a=android.intent.action.PROVIDER_CHANGED Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar flg=0x10 cmp=com.asus.calendar/com.android.calendar.alerts.AlertReceiver }
+02-25 10:40:23.189 D/AlertService( 7246): 0 Action = android.intent.action.PROVIDER_CHANGED
+02-25 10:40:23.189 D/AlertService( 7246): Beginning updateAlertNotification
+02-25 10:40:23.199 D/AlertService( 7246): No fired or scheduled alerts
+02-25 10:40:23.209 D/BatteryStatsImpl(  506): noteStopWakeLocked com.asus.calendar isFromForeground = false
+02-25 10:40:23.209 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{22102310 u0 com.asus.calendar/com.android.calendar.alerts.AlertService},r used time=19,left r count=0
+02-25 10:40:23.319 D/BatteryStatsImpl(  506): noteStopWakeLocked system isFromForeground = false
+02-25 10:40:23.849 W/chromium( 6958): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: file:///android_asset/www//opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsChangeEvent_added_attribute.html:62:15 TypeError: Cannot read property '0' of undefined
+02-25 10:40:23.849 W/chromium( 6958):     if (e.added[0]) {
+02-25 10:40:23.849 W/chromium( 6958): 
+02-25 10:40:23.949 W/chromium( 6958): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: file:///android_asset/www//opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsChangeEvent_added_attribute.html:62:15 TypeError: Cannot read property '0' of undefined
+02-25 10:40:23.949 W/chromium( 6958):     if (e.added[0]) {
+02-25 10:40:23.949 W/chromium( 6958): 
+02-25 10:40:23.979 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:40:24.339 D/SendBroadcastHandler( 7174): mTimerTask sendMessage CONTACTS_DELETE 
+02-25 10:40:24.349 D/AsusContactWigdetSync( 1011): ready to sync contact id = 3
+02-25 10:40:24.349 D/AsusContactWigdetSync( 1011): ready to sync widget
+02-25 10:40:24.349 D/SendBroadcastHandler( 7174): sendBroadcast delete to voice agent
+02-25 10:40:24.349 D/SendBroadcastHandler( 7174): (Delete) sendBroadcast mDeleteContacts:3
+02-25 10:40:24.349 D/SendBroadcastHandler( 7174): (Delete) sendBroadcast mDeleteRawContactsVoice:3
+02-25 10:40:24.349 D/SendBroadcastHandler( 7174): sendBroadcast CONTACTS_DELETE
+02-25 10:40:24.349 D/AsusContactWigdetSync( 7233): ready to sync contact id = 3
+02-25 10:40:24.349 D/AsusContactWigdetSync( 7233): ready to sync widget
+02-25 10:40:24.349 D/AsusContactWigdetSync( 7233): delete contact_id = 418
+02-25 10:40:24.349 D/AsusContactWigdetSync( 7233): delete contact_id = 419
+02-25 10:40:24.349 D/AsusContactWigdetSync( 7233): delete contact_id = 420
+02-25 10:40:24.349 D/AsusContactWigdetSync( 7233): sync isdelete = true
+02-25 10:40:24.349 D/AsusContactWigdetSync( 1011): delete contact_id = 418
+02-25 10:40:24.349 D/AsusContactWigdetSync( 1011): delete contact_id = 419
+02-25 10:40:24.349 D/AsusContactWigdetSync( 1011): delete contact_id = 420
+02-25 10:40:24.349 D/AsusContactWigdetSync( 1011): sync isdelete = true
+02-25 10:40:24.359 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:40:24.389 D/SendBroadcastHandler( 7174): startTimer() SEND_TO_CONTACTS_WIDGET_DELETE 
+02-25 10:40:24.489 D/SendBroadcastHandler( 7174): mTimerTask sendMessage CONTACTS_INSERT 
+02-25 10:40:24.499 D/dalvikvm(  506): GC_EXPLICIT freed 98K, 24% free 15113K/19704K, paused 1ms+3ms, total 39ms
+02-25 10:40:24.499 D/SendBroadcastHandler( 7174): (insert) sendBroadcast mInsertRawContacts:3
+02-25 10:40:24.499 D/SendBroadcastHandler( 7174): (insert) sendBroadcast mInsertName:3
+02-25 10:40:24.499 D/SendBroadcastHandler( 7174): (insert) sendBroadcast mInsertNameDetail:3
+02-25 10:40:24.499 D/SendBroadcastHandler( 7174): sendBroadcast insert to voice agent
+02-25 10:40:24.499 W/chromium( 6958): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: file:///android_asset/www//opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsChangeEvent_modified_attribute.html:70:18 TypeError: Cannot read property '0' of undefined
+02-25 10:40:24.499 W/chromium( 6958):     if (e.modified[0]) {
+02-25 10:40:24.499 W/chromium( 6958): 
+02-25 10:40:24.569 D/SendBroadcastHandler( 7174): startTimer() SEND_TO_CONTACTS_INSERT 
+02-25 10:40:24.709 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:40:24.719 W/chromium( 6958): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: file:///android_asset/www//opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsChangeEvent_modified_attribute.html:70:18 TypeError: Cannot read property '0' of undefined
+02-25 10:40:24.719 W/chromium( 6958):     if (e.modified[0]) {
+02-25 10:40:24.719 W/chromium( 6958): 
+02-25 10:40:24.769 D/dalvikvm( 7174): GC_EXPLICIT freed 611K, 14% free 7704K/8912K, paused 0ms+3ms, total 19ms
+02-25 10:40:25.019 D/SendBroadcastHandler( 7174): startTimer() SEND_TO_CONTACTS_WIDGET_UPDATE 
+02-25 10:40:25.359 D/AsusContactWigdetSync( 1011): sync start
+02-25 10:40:25.359 D/AsusContactWigdetSync( 1011): sync selection = null
+02-25 10:40:25.359 D/AsusContactWigdetSync( 1011): sync delete selection = contact_id IN ( 419, 418, 420)
+02-25 10:40:25.359 D/AsusContactWigdetSync( 1011): sync stop
+02-25 10:40:25.359 D/AsusContactWigdetSync( 7233): sync start
+02-25 10:40:25.359 D/AsusContactWigdetSync( 7233): sync selection = null
+02-25 10:40:25.359 D/AsusContactWigdetSync( 7233): sync delete selection = contact_id IN ( 419, 418, 420)
+02-25 10:40:25.359 D/AsusContactWigdetSync( 7233): sync stop
+02-25 10:40:25.359 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{220c2a48 u0 com.asus.contacts/com.android.contacts.miniwidget.SyncService},r used time=1010,left r count=1
+02-25 10:40:25.359 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{220a73b0 u0 com.asus.contactswidget/.SyncService},r used time=1006,left r count=0
+02-25 10:40:25.469 W/BindingManager( 6958): Cannot call determinedVisibility() - never saw a connection for the pid: 6958
+02-25 10:40:25.629 D/dalvikvm( 6958): GC_CONCURRENT freed 3854K, 37% free 7292K/11448K, paused 1ms+2ms, total 11ms
+02-25 10:40:25.809 I/chromium( 6958): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-25 10:40:25.859 E/Contacts( 6958): org.json.JSONException: No value for contactId
+02-25 10:40:25.869 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{21f73fd8 u0 com.android.providers.calendar/.ContactsEventUpdateIntentService},r used time=82,left r count=1
+02-25 10:40:25.929 I/chromium( 6958): [INFO:CONSOLE(62)] "Uncaught (in promise) ReferenceError: info is not defined", source: file:///android_asset/www//opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsChangeEvent_removed_attribute.html (62)
+02-25 10:40:26.869 I/CalendarProvider2( 7207): Sending notification intent: Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar }
+02-25 10:40:26.869 W/ContentResolver( 7207): Failed to get type for: content://com.android.calendar (Unknown URL content://com.android.calendar)
+02-25 10:40:26.869 D/AlertReceiver( 7246): onReceive: a=android.intent.action.PROVIDER_CHANGED Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar flg=0x10 cmp=com.asus.calendar/com.android.calendar.alerts.AlertReceiver }
+02-25 10:40:26.869 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{220a44e0 u0 com.android.providers.calendar/.EmptyService},r used time=1008,left r count=0
+02-25 10:40:26.879 D/AlertService( 7246): 0 Action = android.intent.action.PROVIDER_CHANGED
+02-25 10:40:26.879 D/AlertService( 7246): Beginning updateAlertNotification
+02-25 10:40:26.899 D/AlertService( 7246): No fired or scheduled alerts
+02-25 10:40:26.919 D/BatteryStatsImpl(  506): noteStopWakeLocked com.asus.calendar isFromForeground = false
+02-25 10:40:26.919 V/ActivityManager(  506): Remove bg service from mStartingBackground ,r=ServiceRecord{220a0aa0 u0 com.asus.calendar/com.android.calendar.alerts.AlertService},r used time=39,left r count=0
+02-25 10:40:27.109 W/ufoGralloc(  171): registerBuffer() handle 0xb94b4a10/63 didn't require registration
+02-25 10:40:27.119 D/AndroidRuntime( 7661): 
+02-25 10:40:27.119 D/AndroidRuntime( 7661): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-25 10:40:27.119 D/AndroidRuntime( 7661): CheckJNI is OFF
+02-25 10:40:27.119 I/AndroidRuntime( 7661): Kernel Release Version: 3.10.20-gf818079
+02-25 10:40:27.119 I/dalvikvm( 7661): No library specified. The standard exception handler will be used
+02-25 10:40:27.119 I/dalvikvm( 7661): 
+02-25 10:40:27.119 I/dalvikvm( 7661): +++++++++++++ Using PCG. +++++++++++++++++++++
+02-25 10:40:27.129 D/CordovaActivity( 6958): Paused the application!
+02-25 10:40:27.129 D/CordovaWebView( 6958): Handle the pause
+02-25 10:40:27.129 D/dalvikvm( 7661): Trying to load lib libjavacore.so 0x0
+02-25 10:40:27.129 D/WindowManager(  506): adjustConfigurationLw, config:{1.0 ?mcc?mnc ?locale ?layoutDir sw600dp w600dp h888dp 213dpi lrg port ?uimode ?night finger -keyb/v/h -nav/v} mLidState:1 mHasDockFeature:false mHasKeyboardFeature:false mHasHallSensorFeature:true config.hardKeyboardHidden:2
+02-25 10:40:27.129 I/ActivityManager(  506): [TopPkgCurBat]	NowPkgName[com.asus.launcher]	Battery[100]	TimeTick[1424832027146]	OldPkgName[org.xwalk.webapi_noneservice_tests]
+02-25 10:40:27.139 I/chromium( 6958): [INFO:CONSOLE(1)] "exception firing pause event from native", source:  (1)
+02-25 10:40:27.139 D/dalvikvm( 7661): Added shared lib libjavacore.so 0x0
+02-25 10:40:27.139 D/dalvikvm( 7661): Trying to load lib libnativehelper.so 0x0
+02-25 10:40:27.139 D/dalvikvm( 7661): Added shared lib libnativehelper.so 0x0
+02-25 10:40:27.139 D/dalvikvm( 7661): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-25 10:40:27.149 D/dalvikvm( 7661): Extra Options: not specified
+02-25 10:40:27.149 V/WeatherTimeProvider( 1537): widget on Visibility Changed
+02-25 10:40:27.169 D/        (  702): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-25 10:40:27.179 W/IInputConnectionWrapper( 6958): showStatusIcon on inactive InputConnection
+02-25 10:40:27.179 D/dalvikvm( 7661): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+02-25 10:40:27.179 D/XT9IME  (  731): new subtype :zh_CN ,pinyin
+02-25 10:40:27.209 D/ImageWallpaper(  571): onVisibilityChanged: mVisible, visible=false, true
+02-25 10:40:27.209 D/ImageWallpaper(  571): Visibility changed to visible=true
+02-25 10:40:27.219 D/BatteryStatsImpl(  506): noteStopWakeLocked system isFromForeground = false
+02-25 10:40:27.219 D/ImageWallpaper(  571): Suppressed drawFrame since redraw is not needed and offsets have not changed.
+02-25 10:40:27.229 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-25 10:40:27.229 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-25 10:40:27.229 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-25 10:40:27.229 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-25 10:40:27.229 I/upi_ug31xx(  166): (432) update_capacity
+02-25 10:40:27.229 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: V=4252(4248), T=302(306-363), I=-396, C=-4(-4-0)
+02-25 10:40:27.229 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0080095a) 3907 (3808) / 3926 (3926) = 100
+02-25 10:40:27.229 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0080095a) 3907 (3808) / 3926 (3926) = 100
+02-25 10:40:27.229 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0080095a) 3903 (3903) / 3926 (3926) = 99
+02-25 10:40:27.229 I/[UPI]   (  166): <UG31/E>[RsocFilterCountTime]: (0x0080095a) Step=0(30340), Full=26(3170914), Lock=30340(1800000)
+02-25 10:40:27.229 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0080095a) 3907 (3903) / 3926 (3926) = 100 (-396--396)
+02-25 10:40:27.229 I/[UPI]   (  166): <UG31/E><BATT> M:normal, P:100(100-99)%, V:4246mV, C:-353mA, T:30.6C(363), S:0x0080095a(100), R:3907mAh, F:3926mAh, Q:-58mAh, CC:3, P:30.340(56-0)s, BO:7, 97:615:0-44af-9m:B001-20140514-144301 (1)
+02-25 10:40:27.239 D/        ( 6958): Surface destroy: ANDROID_NATIVE_WINDOW_MAGIC
+02-25 10:40:27.239 D/        ( 6958): Surface destroy: ANDROID_NATIVE_WINDOW_MAGIC
+02-25 10:40:27.259 E/memtrack( 7661): Couldn't load memtrack module (No such file or directory)
+02-25 10:40:27.259 E/android.os.Debug( 7661): failed to load memtrack module: -2
+02-25 10:40:27.269 I/upi_ug31xx(  166): (433) backup_data 
+02-25 10:40:27.269 V/upi_ug31xx(  166): state->check_backup_count = 17
+02-25 10:40:27.329 D/AndroidRuntime( 7661): Calling main entry com.android.commands.am.Am
+02-25 10:40:27.359 I/ActivityManager(  506): Force stopping org.xwalk.webapi_noneservice_tests appid=10259 user=0: from pid 7661
+02-25 10:40:27.359 I/SecurityManagerService(  602): SMS received security event: App[STOP/org.xwalk.webapi_noneservice_tests]
+02-25 10:40:27.359 D/AndroidRuntime( 7661): Shutting down VM
+02-25 10:40:27.359 I/ActivityManager(  506): Killing 6958:org.xwalk.webapi_noneservice_tests/u0a259 (adj 1): stop org.xwalk.webapi_noneservice_tests
+02-25 10:40:27.369 D/dalvikvm( 7661): GC_CONCURRENT freed 112K, 16% free 666K/792K, paused 0ms+0ms, total 1ms
+02-25 10:40:27.369 D/dalvikvm( 7661): Compiler shutdown in progress - discarding request
+02-25 10:40:27.369 D/dalvikvm( 7661): Compiler shutdown in progress - discarding request
+02-25 10:40:27.369 D/dalvikvm( 7661): Compiler shutdown in progress - discarding request
+02-25 10:40:27.369 D/dalvikvm( 7661): Compiler shutdown in progress - discarding request
+02-25 10:40:27.369 D/dalvikvm( 7661): Compiler shutdown in progress - discarding request
+02-25 10:40:27.369 D/dalvikvm( 7661): Compiler shutdown in progress - discarding request
+02-25 10:40:27.369 D/dalvikvm( 7661): Compiler shutdown in progress - discarding request
+02-25 10:40:27.369 D/dalvikvm( 7661): Compiler shutdown in progress - discarding request
+02-25 10:40:27.369 D/dalvikvm( 7661): Compiler shutdown in progress - discarding request
+02-25 10:40:27.369 D/dalvikvm( 7661): Compiler shutdown in progress - discarding request
+02-25 10:40:27.369 D/dalvikvm( 7661): Compiler shutdown in progress - discarding request
+02-25 10:40:27.369 D/dalvikvm( 7661): Compiler shutdown in progress - discarding request
+02-25 10:40:27.369 D/dalvikvm( 7661): Compiler shutdown in progress - discarding request
+02-25 10:40:27.369 D/dalvikvm( 7661): Compiler shutdown in progress - discarding request
+02-25 10:40:27.369 D/dalvikvm( 7661): Compiler shutdown in progress - discarding request
+02-25 10:40:27.369 D/dalvikvm( 7661): Compiler shutdown in progress - discarding request
+02-25 10:40:27.369 D/dalvikvm( 7661): Compiler shutdown in progress - discarding request
+02-25 10:40:27.369 D/dalvikvm( 7661): Compiler shutdown in progress - discarding request
+02-25 10:40:27.369 D/dalvikvm( 7661): Compiler shutdown in progress - discarding request
+02-25 10:40:27.369 D/dalvikvm( 7661): Compiler shutdown in progress - discarding request
+02-25 10:40:27.369 D/dalvikvm( 7661): Compiler shutdown in progress - discarding request
+02-25 10:40:27.369 D/dalvikvm( 7661): Compiler shutdown in progress - discarding request
+02-25 10:40:27.369 D/dalvikvm( 7661): Compiler shutdown in progress - discarding request
+02-25 10:40:27.369 D/dalvikvm( 7661): Compiler shutdown in progress - discarding request
+02-25 10:40:27.369 D/dalvikvm( 7661): Compiler shutdown in progress - discarding request
+02-25 10:40:27.369 D/dalvikvm( 7661): Compiler shutdown in progress - discarding request
+02-25 10:40:27.369 D/dalvikvm( 7661): Compiler shutdown in progress - discarding request
+02-25 10:40:27.369 D/dalvikvm( 7661): Compiler shutdown in progress - discarding request
+02-25 10:40:27.369 D/dalvikvm( 7661): Compiler shutdown in progress - discarding request
+02-25 10:40:27.369 D/dalvikvm( 7661): Compiler shutdown in progress - discarding request
+02-25 10:40:27.369 D/dalvikvm( 7661): Compiler shutdown in progress - discarding request
+02-25 10:40:27.369 D/dalvikvm( 7661): Compiler shutdown in progress - discarding request
+02-25 10:40:27.369 D/dalvikvm( 7661): Compiler shutdown in progress - discarding request
+02-25 10:40:27.389 D/SendBroadcastHandler( 7174): mTimerTask sendMessage CONTACTS_DELETE 
+02-25 10:40:27.389 D/SendBroadcastHandler( 7174): sendBroadcast delete to voice agent
+02-25 10:40:27.389 D/SendBroadcastHandler( 7174): (Delete) sendBroadcast mDeleteContacts:2
+02-25 10:40:27.389 D/SendBroadcastHandler( 7174): (Delete) sendBroadcast mDeleteRawContactsVoice:2
+02-25 10:40:27.389 D/SendBroadcastHandler( 7174): sendBroadcast CONTACTS_DELETE
+02-25 10:40:27.389 D/AsusContactWigdetSync( 1011): ready to sync contact id = 2
+02-25 10:40:27.389 D/AsusContactWigdetSync( 1011): ready to sync widget
+02-25 10:40:27.389 D/AsusContactWigdetSync( 1011): delete contact_id = 421
+02-25 10:40:27.389 D/AsusContactWigdetSync( 1011): delete contact_id = 422
+02-25 10:40:27.389 D/AsusContactWigdetSync( 1011): sync isdelete = true
+02-25 10:40:27.389 D/AsusContactWigdetSync( 7233): ready to sync contact id = 2
+02-25 10:40:27.389 D/AsusContactWigdetSync( 7233): ready to sync widget
+02-25 10:40:27.399 D/AsusContactWigdetSync( 7233): delete contact_id = 421
+02-25 10:40:27.399 D/AsusContactWigdetSync( 7233): delete contact_id = 422
+02-25 10:40:27.399 D/AsusContactWigdetSync( 7233): sync isdelete = true
+02-25 10:40:27.439 I/WindowState(  506): WIN DEATH: Window{22134f90 u0 org.xwalk.webapi_noneservice_tests/org.xwalk.webapi_noneservice_tests.webapi_noneservice_tests EXITING}
+02-25 10:40:27.459 W/SurfaceFlinger(  171): couldn't log to binary event log: overflow.
+02-25 10:40:27.569 D/SendBroadcastHandler( 7174): mTimerTask sendMessage CONTACTS_INSERT 
+02-25 10:40:27.569 D/SendBroadcastHandler( 7174): (insert) sendBroadcast mInsertRawContacts:2
+02-25 10:40:27.569 D/SendBroadcastHandler( 7174): (insert) sendBroadcast mInsertName:2
+02-25 10:40:27.569 D/SendBroadcastHandler( 7174): (insert) sendBroadcast mInsertNameDetail:2
+02-25 10:40:27.569 D/SendBroadcastHandler( 7174): sendBroadcast insert to voice agent

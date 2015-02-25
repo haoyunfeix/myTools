@@ -1,0 +1,2 @@
+/system/bin/sh: cat: /proc/kmsg: Permission denied
+/system/bin/sh: cat: /proc/kmsg: Permission denied

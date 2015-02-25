@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <?xml-stylesheet type="text/xsl" href="testresult.xsl"?>
+<test_definition><environment build_id="" device_id="E5OKCYC13257" device_model="" device_name="N/A" host="Linux-3.2.0-23-generic-x86_64-with-Ubuntu-12.04-precise" lite_version="3.1.12" manufacturer="" resolution="N/A" screen_size="N/A"><other /></environment>
+<summary test_plan_name="Empty test_plan_name"><start_at>2015-02-25_10_44_04</start_at><end_at>2015-02-25_10_45_17</end_at></summary>
+  <suite category="W3C/HTML5 APIs" name="webapi-messaging-w3c-tests" widget="webapi-noneservice-tests">
+    <set name="Messaging" set_debug_msg="N/A" type="js">
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="Conversation_conversationID" purpose="Check if the conversationID attribute of conversation is valid" result="FAIL">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/Conversation.html?total_num=10&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 10:43:46</start><end>2015-02-25 10:43:46</end><stdout>[Message]Cannot read property 'then' of undefined(stack: TypeError: Cannot read property 'then' of undefined\n    at Object.&lt;anonymous&gt; (file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/Conversation.html:65:54)\n    at Object.Test.step (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:1176:25)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/Conversation.html:63:4)</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="Conversation_type_participants" purpose="Check if the type of Conversation is participants if the conversation is defined as the set of messages exchanged among the same set of parties" result="FAIL">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/Conversation.html?total_num=10&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 10:43:46</start><end>2015-02-25 10:43:46</end><stdout>[Message]Cannot read property 'then' of undefined(stack: TypeError: Cannot read property 'then' of undefined\n    at Object.&lt;anonymous&gt; (file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/Conversation.html:80:54)\n    at Object.Test.step (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:1176:25)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/Conversation.html:78:4)</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="Conversation_type_subject" purpose="Check if the type of Conversation is subject if the conversation is defined as the set of messages with the same subject" result="FAIL">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/Conversation.html?total_num=10&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 10:43:46</start><end>2015-02-25 10:43:46</end><stdout>[Message]Cannot read property 'then' of undefined(stack: TypeError: Cannot read property 'then' of undefined\n    at Object.&lt;anonymous&gt; (file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/Conversation.html:95:54)\n    at Object.Test.step (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:1176:25)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/Conversation.html:93:4)</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="Conversation_participants" purpose="Check if the participants of Conversation is an array containing the participants in the conversation" result="FAIL">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/Conversation.html?total_num=10&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 10:43:46</start><end>2015-02-25 10:43:46</end><stdout>[Message]Cannot read property 'then' of undefined(stack: TypeError: Cannot read property 'then' of undefined\n    at Object.&lt;anonymous&gt; (file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/Conversation.html:110:54)\n    at Object.Test.step (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:1176:25)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/Conversation.html:108:4)</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="Conversation_subject" purpose="Check if the subject of Conversation is the subject of the conversation" result="FAIL">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/Conversation.html?total_num=10&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 10:43:46</start><end>2015-02-25 10:43:46</end><stdout>[Message]Cannot read property 'then' of undefined(stack: TypeError: Cannot read property 'then' of undefined\n    at Object.&lt;anonymous&gt; (file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/Conversation.html:126:54)\n    at Object.Test.step (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:1176:25)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/Conversation.html:124:4)</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="Conversation_messageTypes" purpose="Check if the messageTypes of Conversation is an array contining the different types of messages included in the conversation" result="FAIL">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/Conversation.html?total_num=10&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 10:43:46</start><end>2015-02-25 10:43:46</end><stdout>[Message]Cannot read property 'then' of undefined(stack: TypeError: Cannot read property 'then' of undefined\n    at Object.&lt;anonymous&gt; (file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/Conversation.html:141:54)\n    at Object.Test.step (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:1176:25)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/Conversation.html:139:4)</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="Conversation_messageCount" purpose="Check if the messageCount of Conversation is the number of messages in the conversation" result="FAIL">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/Conversation.html?total_num=10&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 10:43:46</start><end>2015-02-25 10:43:46</end><stdout>[Message]Cannot read property 'then' of undefined(stack: TypeError: Cannot read property 'then' of undefined\n    at Object.&lt;anonymous&gt; (file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/Conversation.html:157:54)\n    at Object.Test.step (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:1176:25)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/Conversation.html:155:4)</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="Conversation_unreadCount" purpose="Check if the unreadCount of Conversation is the number of unread messages in the conversation" result="FAIL">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/Conversation.html?total_num=10&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 10:43:46</start><end>2015-02-25 10:43:46</end><stdout>[Message]Cannot read property 'then' of undefined(stack: TypeError: Cannot read property 'then' of undefined\n    at Object.&lt;anonymous&gt; (file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/Conversation.html:172:54)\n    at Object.Test.step (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:1176:25)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/Conversation.html:170:4)</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="Conversation_lastMessageID" purpose="Check if the lastMessageID of Conversation is the identifier of the message in the conversation with the most recent timestamp" result="FAIL">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/Conversation.html?total_num=10&amp;amp;locator_key=id&amp;amp;value=9</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 10:43:46</start><end>2015-02-25 10:43:46</end><stdout>[Message]Cannot read property 'then' of undefined(stack: TypeError: Cannot read property 'then' of undefined\n    at Object.&lt;anonymous&gt; (file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/Conversation.html:187:54)\n    at Object.Test.step (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:1176:25)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/Conversation.html:185:4)</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="Conversation_cursor" purpose="Check if the cursor of Conversation return the MessageCursor to access the message in this conversation" result="FAIL">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/Conversation.html?total_num=10&amp;amp;locator_key=id&amp;amp;value=10</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 10:43:46</start><end>2015-02-25 10:43:46</end><stdout>[Message]Cannot read property 'then' of undefined(stack: TypeError: Cannot read property 'then' of undefined\n    at Object.&lt;anonymous&gt; (file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/Conversation.html:202:54)\n    at Object.Test.step (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:1176:25)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/Conversation.html:200:5)</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MessagingCursor_element" purpose="Check if the element of MessagingCursor is the currently accessed element" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MessagingCursor.html?total_num=3&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:43:46</start><end>2015-02-25 10:43:48</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MessagingCursor_next" purpose="Check if the next method of MessagingCursor can access to the next element" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MessagingCursor.html?total_num=3&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:43:48</start><end>2015-02-25 10:43:48</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MessagingCursor_previous" purpose="Check if the previous method of MessagingCursor can access to the previous element" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MessagingCursor.html?total_num=3&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:43:48</start><end>2015-02-25 10:43:48</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MessagingManager_findConversations" purpose="Check if the findConversations method of message can return a conversation object" result="FAIL">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MessagingManager_method_conversation.html?total_num=4&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 10:43:48</start><end>2015-02-25 10:43:51</end><stdout>[Message]Cannot read property 'then' of undefined(stack: TypeError: Cannot read property 'then' of undefined\n    at Object.&lt;anonymous&gt; (file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MessagingManager_method_conversation.html:62:54)\n    at Object.Test.step (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:1176:25)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MessagingManager_method_conversation.html:60:4)</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MessagingManager_markConversationRead_true" purpose="Check if the markConversationRead method of message can change conversation status" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MessagingManager_method_conversation.html?total_num=4&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:43:51</start><end>2015-02-25 10:43:51</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MessagingManager_markConversationRead" purpose="Check if the markConversationRead method of message which has three params can change conversation status successful" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MessagingManager_method_conversation.html?total_num=4&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:43:51</start><end>2015-02-25 10:43:51</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MessagingManager_deleteConversation" purpose="Check if the deleteConversation method of message can delete the conversation by the conversationID" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MessagingManager_method_conversation.html?total_num=4&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:43:51</start><end>2015-02-25 10:43:51</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MessagingManager_findMessages" purpose="Check if the findMessages methos of message can return a MessagingCursor object" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MessagingManager_method_message.html?total_num=5&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-02-25 10:43:51</start><end>2015-02-25 10:43:54</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MessagingManager_getMessage" purpose="Check if the getMessage method of message can return a message object" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MessagingManager_method_message.html?total_num=5&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:43:54</start><end>2015-02-25 10:43:55</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MessagingManager_markMessageRead_false" purpose="Check if the markMessageRead of message can change message status" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MessagingManager_method_message.html?total_num=5&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:43:55</start><end>2015-02-25 10:43:55</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MessagingManager_markMessageRead_true" purpose="Check if the markMessageRead of message which has three params can change message status" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MessagingManager_method_message.html?total_num=5&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:43:55</start><end>2015-02-25 10:43:55</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MessagingManager_deleteMessage" purpose="Check if the deleteMessage of message can delete the message by messageID" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MessagingManager_method_message.html?total_num=5&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:43:55</start><end>2015-02-25 10:43:55</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsManager_type" purpose="Check if the type attribute is the type of the messaging service manager" result="FAIL">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 10:43:55</start><end>2015-02-25 10:43:55</end><stdout>[Message]Cannot read property 'send' of undefined(stack: TypeError: Cannot read property 'send' of undefined\n    at Object.&lt;anonymous&gt; (file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager.html:73:14)\n    at Object.Test.step (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:1176:25)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager.html:71:4)</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsManager_serviceIDs" purpose="Check if the serviceIDs attribute is the identifier of the different services for this type of messaging service" result="FAIL">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 10:43:55</start><end>2015-02-25 10:43:55</end><stdout>[Message]Cannot read property 'fetch' of undefined(stack: TypeError: Cannot read property 'fetch' of undefined\n    at Object.&lt;anonymous&gt; (file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager.html:88:14)\n    at Object.Test.step (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:1176:25)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager.html:86:4)</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsManager_getFetchMode" purpose="Check if the getFetchMode method requests to retrieve the fetch mode associated to a specific service" result="FAIL">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 10:43:55</start><end>2015-02-25 10:43:55</end><stdout>[Message]Cannot read property 'clear' of undefined(stack: TypeError: Cannot read property 'clear' of undefined\n    at Object.&lt;anonymous&gt; (file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager.html:103:14)\n    at Object.Test.step (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:1176:25)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager.html:101:4)</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsManager_setFetchMode" purpose="Check if the setFetchMode method request to the messaging system to set the MMS message fetch mode for the service" result="FAIL">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 10:43:55</start><end>2015-02-25 10:43:55</end><stdout>[Message]Cannot read property 'type' of undefined(stack: TypeError: Cannot read property 'type' of undefined\n    at Object.&lt;anonymous&gt; (file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager.html:50:28)\n    at Object.Test.step (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:1176:25)\n    at test (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:428:18)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager.html:48:1)</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsManager_send" purpose="Check if the send method of mmsManager can send a MMS message successfully" result="FAIL">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 10:43:55</start><end>2015-02-25 10:43:55</end><stdout>[Message]Cannot read property 'serviceIDs' of undefined(stack: TypeError: Cannot read property 'serviceIDs' of undefined\n    at Object.&lt;anonymous&gt; (file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager.html:55:35)\n    at Object.Test.step (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:1176:25)\n    at test (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:428:18)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager.html:53:1)</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsManager_fetch" purpose="Check if the fetch method requests to fetch an MMS message with identifier equal to the indicated in the messageID parameter" result="FAIL">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 10:43:55</start><end>2015-02-25 10:43:55</end><stdout>[Message]Cannot read property 'getFetchMode' of undefined(stack: TypeError: Cannot read property 'getFetchMode' of undefined\n    at Object.&lt;anonymous&gt; (file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager.html:60:30)\n    at Object.Test.step (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:1176:25)\n    at test (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:428:18)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager.html:58:1)</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsManager_clear" purpose="Check if the clear method of mmsManager delete all the messages associated to the messaging service" result="FAIL">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 10:43:55</start><end>2015-02-25 10:43:55</end><stdout>[Message]Cannot read property 'setFetchMode' of undefined(stack: TypeError: Cannot read property 'setFetchMode' of undefined\n    at Object.&lt;anonymous&gt; (file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager.html:66:14)\n    at Object.Test.step (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:1176:25)\n    at test (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:428:18)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager.html:64:1)</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsManager_sent_event" purpose="Check if set up the sent event successful for mmsManager using the type sent" result="FAIL">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_sent.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 10:43:55</start><end>2015-02-25 10:43:56</end><stdout>[Message] *'Check if onsent event can be fired when a new message is sent using this messaging service manager: Cannot read property 'addEventListener' of undefined(stack: TypeError: Cannot read property 'addEventListener' of undefined\n    at Object.&lt;anonymous&gt; (file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_sent.html:47:14)\n    at Object.Test.step (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:1176:25)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_sent.html:45:3)</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsManager_deliverysuccess_event" purpose="Check if set up the deliverysuccess event successful for mmsManager using the type deliverysuccess" result="FAIL">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_deliverysuccess.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 10:43:56</start><end>2015-02-25 10:43:56</end><stdout>[Message] *Check if set up the deliverysuccess event successful for MmsManager using the type deliverysuccess: Cannot read property 'addEventListener' of undefined(stack: TypeError: Cannot read property 'addEventListener' of undefined\n    at Object.&lt;anonymous&gt; (file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_deliverysuccess.html:47:14)\n    at Object.Test.step (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:1176:25)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_deliverysuccess.html:45:3)</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsManager_deliveryfailure_event" purpose="Check if set up the deliveryfailure event successful for mmsManager using the type deliveryfailure" result="FAIL">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_deliveryerror.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 10:43:56</start><end>2015-02-25 10:43:56</end><stdout>[Message] *Check if set up the deliveryerror event successful for MmsManager using the type deliveryerror: Cannot read property 'addEventListener' of undefined(stack: TypeError: Cannot read property 'addEventListener' of undefined\n    at Object.&lt;anonymous&gt; (file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_deliveryerror.html:47:14)\n    at Object.Test.step (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:1176:25)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_deliveryerror.html:45:3)</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsManager_readsuccess_event" purpose="Check if set up the readsuccess event successful for mmsManager using the type readsuccess" result="FAIL">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_readsuccess.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 10:43:56</start><end>2015-02-25 10:43:56</end><stdout>[Message] *Check if set up the readsuccess event successful for MmsManager using the type readsuccess: Cannot read property 'addEventListener' of undefined(stack: TypeError: Cannot read property 'addEventListener' of undefined\n    at Object.&lt;anonymous&gt; (file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_readsuccess.html:47:14)\n    at Object.Test.step (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:1176:25)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_readsuccess.html:45:3)</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsManager_readerror_event" purpose="Check if set up the readerror event successful for mmsManager using the type readerror" result="FAIL">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_readerror.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 10:43:56</start><end>2015-02-25 10:43:56</end><stdout>[Message] *Check if set up the readerror event successful for MmsManager using the type readerror: Cannot read property 'addEventListener' of undefined(stack: TypeError: Cannot read property 'addEventListener' of undefined\n    at Object.&lt;anonymous&gt; (file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_readerror.html:47:14)\n    at Object.Test.step (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:1176:25)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_readerror.html:45:3)</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsManager_onsent" purpose="Check if onsent event can be fired when a new message is sent using this messaging service manager" result="FAIL">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_onsent.html?total_num=1&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 10:43:56</start><end>2015-02-25 10:43:56</end><stdout>[Message]Cannot set property 'onsent' of undefined(stack: TypeError: Cannot set property 'onsent' of undefined\n    at Object.&lt;anonymous&gt; (file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_onsent.html:47:22)\n    at Object.Test.step (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:1176:25)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_onsent.html:45:3)</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsManager_ondeliverysuccess" purpose="Check if ondeliverysuccess event can be fired when a new succesful delivery report is received on this messaging service manager" result="FAIL">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_ondeliverysuccess.html?total_num=1&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 10:43:56</start><end>2015-02-25 10:43:56</end><stdout>[Message]Cannot set property 'ondeliverysuccess' of undefined(stack: TypeError: Cannot set property 'ondeliverysuccess' of undefined\n    at Object.&lt;anonymous&gt; (file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_ondeliverysuccess.html:47:33)\n    at Object.Test.step (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:1176:25)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_ondeliverysuccess.html:45:3)</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsManager_ondeliveryfailure" purpose="Check if ondeliveryfailure event can be fired when a new failure delivery report is received on this messaging service manager" result="FAIL">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_ondeliveryerror.html?total_num=1&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 10:43:56</start><end>2015-02-25 10:43:56</end><stdout>[Message]Cannot set property 'ondeliveryerror' of undefined(stack: TypeError: Cannot set property 'ondeliveryerror' of undefined\n    at Object.&lt;anonymous&gt; (file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_ondeliveryerror.html:47:31)\n    at Object.Test.step (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:1176:25)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_ondeliveryerror.html:45:3)</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsManager_onreadsuccess" purpose="Check if onreadsuccess event can be fired when a new succesful read report is received on this messaging service manager" result="FAIL">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_onreadsuccess.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 10:43:56</start><end>2015-02-25 10:43:56</end><stdout>[Message] *Check if onreadsuccess event can be fired when a new succesful read report is received on this messaging service manager: Cannot set property 'onreadsuccess' of undefined(stack: TypeError: Cannot set property 'onreadsuccess' of undefined\n    at Object.&lt;anonymous&gt; (file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_onreadsuccess.html:47:29)\n    at Object.Test.step (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:1176:25)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_onreadsuccess.html:45:3)</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsManager_onreaderror" purpose="Check if onreaderror event can be fired when a new failure read report is received on this messaging service manager" result="FAIL">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_onreaderror.html</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 10:43:56</start><end>2015-02-25 10:43:57</end><stdout>[Message] *Check if onreaderror event can be fired when a new error read report is received on this messaging service manager: Cannot set property 'onreaderror' of undefined(stack: TypeError: Cannot set property 'onreaderror' of undefined\n    at Object.&lt;anonymous&gt; (file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_onreaderror.html:47:27)\n    at Object.Test.step (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:1176:25)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_onreaderror.html:45:3)</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsMessage_messageID" purpose="Check if the messageID of MmsMessage is the identifier of the message" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:43:57</start><end>2015-02-25 10:43:59</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsMessage_type" purpose="Check if the type of MmsMessage is the type of message" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:43:59</start><end>2015-02-25 10:43:59</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsMessage_serviceID" purpose="Check if the serviceID of MmsMessage is the messaging service id used to send / receive this message" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:43:59</start><end>2015-02-25 10:43:59</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsMessage_from" purpose="Check if the from of MmsMessage is the sender of the message" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:43:59</start><end>2015-02-25 10:43:59</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsMessage_timestamp" purpose="Check if the timestamp of MmsMessage is the time the message reached the Multimedia Message Center" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:43:59</start><end>2015-02-25 10:43:59</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsMessage_expiry" purpose="Check if the expiry of MmsMessage is the number of seconds the message will be stored in the Multimedia Messaging Service Center and thus available for download" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:43:59</start><end>2015-02-25 10:43:59</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsMessage_read_true" purpose="Check if the read of MmsMessage is type of boolean" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:43:59</start><end>2015-02-25 10:43:59</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsMessage_read_false" purpose="Check if the read of MmsMessage is false if the message has not been marked as read" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:43:59</start><end>2015-02-25 10:43:59</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsMessage_to" purpose="Check if the to of MmsMessage is an array containing the recipient(s) included in the To field of the MMS message" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=9</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:43:59</start><end>2015-02-25 10:43:59</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsMessage_cc" purpose="Check if the cc of MmsMessage is an array containing the recipient(s) included in the Cc field of the MMS message" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=10</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:43:59</start><end>2015-02-25 10:43:59</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsMessage_bcc" purpose="Check if the bcc of MmsMessage is an array containing the recipient(s) included in the Bcc field of the MMS message" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=11</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:43:59</start><end>2015-02-25 10:43:59</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsMessage_subject" purpose="Check if the subject of MmsMessage is the subject of the MMS message" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=12</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:43:59</start><end>2015-02-25 10:43:59</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsMessage_smil" purpose="Check if the smil of MmsMessage is the SMIL" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=13</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:43:59</start><end>2015-02-25 10:43:59</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsMessage_attachments" purpose="Check if the attachments of MmsMessage is the set of attachments of the MMS message" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=14</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:43:59</start><end>2015-02-25 10:43:59</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsMessage_state" purpose="Check if the state of MmsMessage is in the states of MmsState" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=15</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:43:59</start><end>2015-02-25 10:43:59</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsMessage_deliveryInfo" purpose="Check if the deliveryInfo of MmsMessage is an array with each of the items indicating the delivery status" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=16</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:43:59</start><end>2015-02-25 10:43:59</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsManager_type" purpose="Check if the type attribute is the type of the messaging service manager" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsManager.html?total_num=6&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 10:43:59</start><end>2015-02-25 10:44:01</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsManager_serviceIDs" purpose="Check if the serviceIDs attribute is the identifier of the different services for this type of messaging service" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsManager.html?total_num=6&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 10:44:01</start><end>2015-02-25 10:44:01</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsManager_sent_event" purpose="Check if set up the sent event successful for SmsManager using the type sent" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsManager_sent.html?total_num=1&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-02-25 10:44:01</start><end>2015-02-25 10:44:05</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsManager_deliverysuccess_event" purpose="Check if set up the deliverysuccess event successful for SmsManager using the type deliverysuccess" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsManager_deliverysuccess.html?total_num=1&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-02-25 10:44:05</start><end>2015-02-25 10:44:08</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsManager_deliveryfailure_event" purpose="Check if set up the deliveryfailure event successful for SmsManager using the type deliveryfailure" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsManager_deliveryerror.html?total_num=1&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-02-25 10:44:08</start><end>2015-02-25 10:44:11</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsManager_onsent" purpose="Check if onsent event can be fired when a new message is sent using this messaging service manager" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsManager_onsent.html?total_num=1&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-02-25 10:44:11</start><end>2015-02-25 10:44:14</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsManager_ondeliverysuccess" purpose="Check if ondeliverysuccess event can be fired when a new succesful delivery report is received on this messaging service manager" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsManager_ondeliverysuccess.html?total_num=1&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-02-25 10:44:14</start><end>2015-02-25 10:44:17</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsManager_ondeliveryfailure" purpose="Check if ondeliveryfailure event can be fired when a new failure delivery report is received on this messaging service manager" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsManager_ondeliveryerror.html?total_num=1&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-02-25 10:44:17</start><end>2015-02-25 10:44:20</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsManager_SmsSegmentInfo_segments" purpose="Check if the segments of SmsSegmentInfo is the total number of SMS segments needed to send the input string" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsManager.html?total_num=7&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:44:20</start><end>2015-02-25 10:44:23</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsManager_SmsSegmentInfo_charsPerSegment" purpose="Check if the charsPerSegment of SmsSegmentInfo is the number of characters available per SMS segment as per the encoding to be used to send the SMS message" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsManager.html?total_num=6&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:44:23</start><end>2015-02-25 10:44:23</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsManager_SmsSegmentInfo_charsAvailableInLastSegment" purpose="Check if the charsAvailableInLastSegment of SmsSegmentInfo is the maximum number of available characters in the last segment needed to send the input string" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsManager.html?total_num=6&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:44:23</start><end>2015-02-25 10:44:23</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsManager_send" purpose="Check if the send method of SmsManager can send a message successfully" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsManager_send.html?total_num=1&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-02-25 10:44:23</start><end>2015-02-25 10:44:26</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsManager_clear" purpose="Check if the clear method of SmsManager delete all the messages associated to the messaging service" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsManager.html?total_num=6&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:44:26</start><end>2015-02-25 10:44:28</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsMessage_messageID" purpose="Check if the messageID of SmsMessage is the identifier of the message" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:44:28</start><end>2015-02-25 10:44:30</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsMessage_type" purpose="Check if the type of SmsMessage is the type of message" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:44:30</start><end>2015-02-25 10:44:30</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsMessage_serviceID" purpose="Check if the serviceID of SmsMessage is the messaging service id used to send / receive this message" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:44:30</start><end>2015-02-25 10:44:30</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsMessage_from" purpose="Check if the from of SmsMessage is the sender of the message" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:44:30</start><end>2015-02-25 10:44:30</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsMessage_timestamp" purpose="Check if the timestamp of SmsMessage is the time the message reached the Short Message Center" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:44:30</start><end>2015-02-25 10:44:30</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsMessage_read_true" purpose="Check if the read of SmsMessage is exit!" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:44:30</start><end>2015-02-25 10:44:30</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsMessage_read_false" purpose="Check if the read of SmsMessage is type of boolean" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:44:30</start><end>2015-02-25 10:44:30</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsMessage_to" purpose="Check if the to of SmsMessage is the recipient of the message" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:44:30</start><end>2015-02-25 10:44:30</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsMessage_body" purpose="Check if the body of SmsMessage is the text of the SMS message" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=9</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:44:31</start><end>2015-02-25 10:44:31</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsMessage_state" purpose="Check if the state of SmsMessage is in the states of SmsState" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=10</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:44:31</start><end>2015-02-25 10:44:31</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsMessage_deliveryStatus" purpose="Check if the deliveryStatus of SmsMessage is in the states of DeliveryStatus" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=11</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:44:31</start><end>2015-02-25 10:44:31</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsMessage_deliveryTimestamp_normal" purpose="Check if the deliveryTimestamp of SmsMessage for sent messages the delivery date as reported in the TP-Discharge-Time (TP DT) parameter included in the SMS-STATUS-REPORT Protocol Data Unit" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=12</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:44:31</start><end>2015-02-25 10:44:31</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsMessage_deliveryTimestamp_null_1" purpose="Check if the deliveryTimestamp of SmsMessage is exit " result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=13</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:44:31</start><end>2015-02-25 10:44:31</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsMessage_deliveryTimestamp_null_2" purpose="Check if the deliveryTimestamp of SmsMessage is null if there is no positive knowledge about the delivery of the message" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=14</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:44:31</start><end>2015-02-25 10:44:31</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsMessage_messageClass" purpose="Check if the messageClass of SmsMessage is in the states of MessageClass" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=15</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:44:31</start><end>2015-02-25 10:44:31</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsManager_send_zero" onload_delay="20" purpose="Check if the send method of SmsManager which has no param can not work normally" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/Messaging_method_reverse.html?total_num=14&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 10:44:31</start><end>2015-02-25 10:44:35</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsManager_send_one" onload_delay="20" purpose="Check if the send method of SmsManager which has one param can not work normally" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/Messaging_method_reverse.html?total_num=14&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 10:44:35</start><end>2015-02-25 10:44:35</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsManager_segmentInfo_zero" onload_delay="20" purpose="Check if the segmentInfo method of SmsManager which has no params can not work normally" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/Messaging_method_reverse.html?total_num=14&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 10:44:35</start><end>2015-02-25 10:44:35</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsManager_send_zero" onload_delay="20" purpose="Check if the send method of MmsManager which has no params can not work normally" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/Messaging_method_reverse.html?total_num=14&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 10:44:35</start><end>2015-02-25 10:44:35</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsManager_fetch_zero" onload_delay="20" purpose="Check if the fetch method of MmsManager which has no params can not work normally" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/Messaging_method_reverse.html?total_num=14&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 10:44:35</start><end>2015-02-25 10:44:35</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="findConversations_one" purpose="Check if the findConversations method which has only one params can not work normally" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/Messaging_method_reverse.html?total_num=14&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 10:44:35</start><end>2015-02-25 10:44:35</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="markConversationRead_one" purpose="CCheck if the markConversationRead method which has only one params can not work normally" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/Messaging_method_reverse.html?total_num=14&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 10:44:35</start><end>2015-02-25 10:44:35</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="deleteConversation_zero" purpose="Check if the deleteConversation method which has no params can not work normally" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/Messaging_method_reverse.html?total_num=14&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 10:44:35</start><end>2015-02-25 10:44:35</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="findMessages_one" purpose="Check if the findMessages method which has only one params can not work normally" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/Messaging_method_reverse.html?total_num=14&amp;amp;locator_key=id&amp;amp;value=9</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 10:44:35</start><end>2015-02-25 10:44:35</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="markMessageRead_one" purpose="Check if the markMessageRead method which has only one params can not work normally." result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/Messaging_method_reverse.html?total_num=14&amp;amp;locator_key=id&amp;amp;value=10</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 10:44:35</start><end>2015-02-25 10:44:35</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="getMessage_zero" purpose="Check if the getMessage method which has no params can not work normally" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/Messaging_method_reverse.html?total_num=14&amp;amp;locator_key=id&amp;amp;value=11</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 10:44:35</start><end>2015-02-25 10:44:35</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="deleteMessage_zero" purpose="Check if the deleteMessage method which has no params can not work normally" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/Messaging_method_reverse.html?total_num=14&amp;amp;locator_key=id&amp;amp;value=12</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 10:44:35</start><end>2015-02-25 10:44:35</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsManager_send_type" purpose="Check if the send method of SmsManager which has wrong type params can not work normally" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/Messaging_method_reverse.html?total_num=14&amp;amp;locator_key=id&amp;amp;value=13</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 10:44:35</start><end>2015-02-25 10:44:35</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsManager_send_type" purpose="Check if the send method of MmsManager which has wrong type params can not work normally" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/Messaging_method_reverse.html?total_num=14&amp;amp;locator_key=id&amp;amp;value=14</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 10:44:35</start><end>2015-02-25 10:44:35</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MessagingManager_sms_basic" purpose="Check if the readonly attribute sms of MessagingManager exists and type of object" result="FAIL">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MessagingManager_basic.html?total_num=9&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 10:44:35</start><end>2015-02-25 10:44:36</end><stdout>[Message]assert_equals: the value of sms expected object "[object Object]" but got null</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MessagingManager_mms_basic" purpose="Check if the readonly attribute mms of MessagingManager exists and type of object" result="FAIL">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MessagingManager_basic.html?total_num=9&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 10:44:36</start><end>2015-02-25 10:44:36</end><stdout>[Message]assert_true: mms attribute in MessageManager expected true got false</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MessagingManager_findMessages_basic" purpose="Check if the findMessages function of MessagingManager exists and type of function" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MessagingManager_basic.html?total_num=9&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 10:44:36</start><end>2015-02-25 10:44:36</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MessagingManager_findConversations_basic" purpose="Check if the findConversations function of MessagingManager exists and type of function" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MessagingManager_basic.html?total_num=9&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 10:44:36</start><end>2015-02-25 10:44:36</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MessagingManager_getMessage_basic" purpose="Check if the getMessage function of MessagingManager exists and type of function" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MessagingManager_basic.html?total_num=9&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 10:44:36</start><end>2015-02-25 10:44:36</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MessagingManager_deleteMessage_basic" purpose="Check if the deleteMessage function of MessagingManager exists and type of function" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MessagingManager_basic.html?total_num=9&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 10:44:36</start><end>2015-02-25 10:44:36</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MessagingManager_deleteConversation_basic" purpose="Check if the deleteConversation function of MessagingManager exists and type of function" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MessagingManager_basic.html?total_num=9&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 10:44:36</start><end>2015-02-25 10:44:36</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MessagingManager_markMessageRead_basic" purpose="Check if the markMessageRead function of MessagingManager exists and type of function" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MessagingManager_basic.html?total_num=9&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 10:44:36</start><end>2015-02-25 10:44:36</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MessagingManager_markConversationRead_basic" purpose="Check if the markConversationRead function of MessagingManager exists and type of function" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MessagingManager_basic.html?total_num=9&amp;amp;locator_key=id&amp;amp;value=9</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 10:44:36</start><end>2015-02-25 10:44:36</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsManager_type_basic" purpose="Check if the readonly attribute type of SmsManager exists and type of string" result="FAIL">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsManager_basic.html?total_num=11&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 10:44:36</start><end>2015-02-25 10:44:36</end><stdout>[Message]assert_equals: the value of type expected "sms" but got "smstest"</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsManager_serviceIDs_basic" purpose="Check if the readonly attribute serviceIDs of SmsManager exists and type of array" result="FAIL">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsManager_basic.html?total_num=11&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 10:44:36</start><end>2015-02-25 10:44:36</end><stdout>[Message]assert_equals: the value of serviceIDs expected ["sim0"] but got ["sim0"]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsManager_onreceived_basic" purpose="Check if the onreceived event of SmsManager exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsManager_basic.html?total_num=11&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 10:44:36</start><end>2015-02-25 10:44:36</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsManager_onsent_basic" purpose="Check if the onsent event of SmsManager exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsManager_basic.html?total_num=11&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 10:44:36</start><end>2015-02-25 10:44:36</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsManager_ondeliverysuccess_basic" purpose="Check if the ondeliverysuccess event of SmsManager exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsManager_basic.html?total_num=11&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 10:44:36</start><end>2015-02-25 10:44:36</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsManager_ondeliveryerror_basic" purpose="Check if the ondeliveryerror event of SmsManager exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsManager_basic.html?total_num=11&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 10:44:36</start><end>2015-02-25 10:44:36</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsManager_onserviceadded_basic" purpose="Check if the onserviceadded event of SmsManager exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsManager_basic.html?total_num=11&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 10:44:36</start><end>2015-02-25 10:44:36</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsManager_onserviceremoved_basic" purpose="Check if the onserviceremoved event of SmsManager exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsManager_basic.html?total_num=11&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 10:44:36</start><end>2015-02-25 10:44:36</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsManager_segmentInfo_basic" purpose="Check if the segmentInfo function of SmsManager exists and type of function" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsManager_basic.html?total_num=11&amp;amp;locator_key=id&amp;amp;value=9</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 10:44:36</start><end>2015-02-25 10:44:36</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsManager_send_basic" purpose="Check if the send function of SmsManager exists and type of function" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsManager_basic.html?total_num=11&amp;amp;locator_key=id&amp;amp;value=10</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 10:44:36</start><end>2015-02-25 10:44:36</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsManager_clear_basic" purpose="Check if the clear function of SmsManager exists and type of function" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsManager_basic.html?total_num=11&amp;amp;locator_key=id&amp;amp;value=11</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 10:44:36</start><end>2015-02-25 10:44:36</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsManager_type_basic" purpose="Check if the readonly attribute type of MmsManager is exists and type of string" result="FAIL">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 10:44:36</start><end>2015-02-25 10:44:36</end><stdout>[Message]Cannot use 'in' operator to search for 'type' in undefined(stack: TypeError: Cannot use 'in' operator to search for 'type' in undefined\n    at Object.&lt;anonymous&gt; (file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html:63:42)\n    at Object.Test.step (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:1176:25)\n    at test (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:428:18)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html:90:85\n    at Array.forEach (native)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html:58:5)</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsManager_serviceIDs_basic" purpose="Check if the readonly attribute serviceIDs of MmsManager exists and type of array" result="FAIL">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 10:44:36</start><end>2015-02-25 10:44:36</end><stdout>[Message]Cannot use 'in' operator to search for 'serviceIDs' in undefined(stack: TypeError: Cannot use 'in' operator to search for 'serviceIDs' in undefined\n    at Object.&lt;anonymous&gt; (file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html:63:42)\n    at Object.Test.step (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:1176:25)\n    at test (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:428:18)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html:90:85\n    at Array.forEach (native)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html:58:5)</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsManager_onreceived_basic" purpose="Check if the onreceived event of MmsManager is exists" result="FAIL">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 10:44:36</start><end>2015-02-25 10:44:36</end><stdout>[Message]Cannot use 'in' operator to search for 'onreceived' in undefined(stack: TypeError: Cannot use 'in' operator to search for 'onreceived' in undefined\n    at Object.&lt;anonymous&gt; (file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html:63:42)\n    at Object.Test.step (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:1176:25)\n    at test (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:428:18)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html:90:85\n    at Array.forEach (native)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html:58:5)</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsManager_onsent_basic" purpose="Check if the onsent event of MmsManager is exists" result="FAIL">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 10:44:36</start><end>2015-02-25 10:44:36</end><stdout>[Message]Cannot use 'in' operator to search for 'onsent' in undefined(stack: TypeError: Cannot use 'in' operator to search for 'onsent' in undefined\n    at Object.&lt;anonymous&gt; (file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html:63:42)\n    at Object.Test.step (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:1176:25)\n    at test (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:428:18)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html:90:85\n    at Array.forEach (native)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html:58:5)</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsManager_ondeliverysuccess_basic" purpose="Check if the ondeliverysuccess event of MmsManager is exists" result="FAIL">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 10:44:36</start><end>2015-02-25 10:44:36</end><stdout>[Message]Cannot use 'in' operator to search for 'ondeliverysuccess' in undefined(stack: TypeError: Cannot use 'in' operator to search for 'ondeliverysuccess' in undefined\n    at Object.&lt;anonymous&gt; (file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html:63:42)\n    at Object.Test.step (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:1176:25)\n    at test (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:428:18)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html:90:85\n    at Array.forEach (native)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html:58:5)</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsManager_ondeliveryerror_basic" purpose="Check if the ondeliveryerror event of MmsManager is exists" result="FAIL">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 10:44:36</start><end>2015-02-25 10:44:36</end><stdout>[Message]Cannot use 'in' operator to search for 'ondeliveryerror' in undefined(stack: TypeError: Cannot use 'in' operator to search for 'ondeliveryerror' in undefined\n    at Object.&lt;anonymous&gt; (file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html:63:42)\n    at Object.Test.step (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:1176:25)\n    at test (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:428:18)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html:90:85\n    at Array.forEach (native)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html:58:5)</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsManager_onreadsuccess_basic" purpose="Check if the onreadsuccess event of MmsManager is exists" result="FAIL">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 10:44:37</start><end>2015-02-25 10:44:37</end><stdout>[Message]Cannot use 'in' operator to search for 'onreadsuccess' in undefined(stack: TypeError: Cannot use 'in' operator to search for 'onreadsuccess' in undefined\n    at Object.&lt;anonymous&gt; (file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html:63:42)\n    at Object.Test.step (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:1176:25)\n    at test (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:428:18)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html:90:85\n    at Array.forEach (native)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html:58:5)</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsManager_onreaderror_basic" purpose="Check if the onreaderror event of MmsManager is exists" result="FAIL">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 10:44:37</start><end>2015-02-25 10:44:37</end><stdout>[Message]Cannot use 'in' operator to search for 'onreaderror' in undefined(stack: TypeError: Cannot use 'in' operator to search for 'onreaderror' in undefined\n    at Object.&lt;anonymous&gt; (file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html:63:42)\n    at Object.Test.step (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:1176:25)\n    at test (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:428:18)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html:90:85\n    at Array.forEach (native)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html:58:5)</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsManager_onserviceadded_basic" purpose="Check if the onserviceadded event of MmsManager is exists" result="FAIL">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=9</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 10:44:37</start><end>2015-02-25 10:44:37</end><stdout>[Message]Cannot use 'in' operator to search for 'onserviceadded' in undefined(stack: TypeError: Cannot use 'in' operator to search for 'onserviceadded' in undefined\n    at Object.&lt;anonymous&gt; (file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html:63:42)\n    at Object.Test.step (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:1176:25)\n    at test (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:428:18)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html:90:85\n    at Array.forEach (native)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html:58:5)</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsManager_onserviceremoved_basic" purpose="Check if the onserviceremoved event of MmsManager is exists" result="FAIL">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=10</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 10:44:37</start><end>2015-02-25 10:44:37</end><stdout>[Message]Cannot use 'in' operator to search for 'onserviceremoved' in undefined(stack: TypeError: Cannot use 'in' operator to search for 'onserviceremoved' in undefined\n    at Object.&lt;anonymous&gt; (file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html:63:42)\n    at Object.Test.step (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:1176:25)\n    at test (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:428:18)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html:90:85\n    at Array.forEach (native)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html:58:5)</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsManager_getFetchMode_basic" purpose="Check if the getFetchMode function of MmsManager exists and type of function" result="FAIL">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=11</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 10:44:37</start><end>2015-02-25 10:44:37</end><stdout>[Message]Cannot use 'in' operator to search for 'getFetchMode' in undefined(stack: TypeError: Cannot use 'in' operator to search for 'getFetchMode' in undefined\n    at Object.&lt;anonymous&gt; (file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html:63:42)\n    at Object.Test.step (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:1176:25)\n    at test (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:428:18)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html:90:85\n    at Array.forEach (native)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html:58:5)</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsManager_setFetchMode_basic" purpose="Check if the setFetchMode function of MmsManager exists and type of function" result="FAIL">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=12</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 10:44:37</start><end>2015-02-25 10:44:37</end><stdout>[Message]Cannot use 'in' operator to search for 'setFetchMode' in undefined(stack: TypeError: Cannot use 'in' operator to search for 'setFetchMode' in undefined\n    at Object.&lt;anonymous&gt; (file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html:63:42)\n    at Object.Test.step (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:1176:25)\n    at test (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:428:18)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html:90:85\n    at Array.forEach (native)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html:58:5)</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsManager_send_basic" purpose="Check if the send function of MmsManager exists and type of function" result="FAIL">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=13</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 10:44:37</start><end>2015-02-25 10:44:37</end><stdout>[Message]Cannot use 'in' operator to search for 'send' in undefined(stack: TypeError: Cannot use 'in' operator to search for 'send' in undefined\n    at Object.&lt;anonymous&gt; (file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html:63:42)\n    at Object.Test.step (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:1176:25)\n    at test (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:428:18)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html:90:85\n    at Array.forEach (native)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html:58:5)</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsManager_fetch_basic" purpose="Check if the fetch function of MmsManager exists and type of function" result="FAIL">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=14</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 10:44:37</start><end>2015-02-25 10:44:37</end><stdout>[Message]Cannot use 'in' operator to search for 'fetch' in undefined(stack: TypeError: Cannot use 'in' operator to search for 'fetch' in undefined\n    at Object.&lt;anonymous&gt; (file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html:63:42)\n    at Object.Test.step (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:1176:25)\n    at test (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:428:18)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html:90:85\n    at Array.forEach (native)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html:58:5)</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsManager_clear_basic" purpose="Check if the clear function of MmsManager exists and type of function" result="FAIL">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html?total_num=15&amp;amp;locator_key=id&amp;amp;value=15</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 10:44:37</start><end>2015-02-25 10:44:37</end><stdout>[Message]Cannot use 'in' operator to search for 'clear' in undefined(stack: TypeError: Cannot use 'in' operator to search for 'clear' in undefined\n    at Object.&lt;anonymous&gt; (file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html:63:42)\n    at Object.Test.step (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:1176:25)\n    at test (file:///android_asset/www//opt/webapi-messaging-w3c-tests/resources/testharness.js:428:18)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html:90:85\n    at Array.forEach (native)\n    at file:///android_asset/www//opt/webapi-messaging-w3c-tests/messaging/MmsManager_basic.html:58:5)</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsMessage_messageID_basic" purpose="Check if the readonly attribute messageID of SmsMessage exists and type of string" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage_basic.html?total_num=12&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:44:37</start><end>2015-02-25 10:44:39</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsMessage_type_basic" purpose="Check if the readonly attribute type of SmsMessage exists and type of string" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage_basic.html?total_num=12&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:44:39</start><end>2015-02-25 10:44:39</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsMessage_serviceID_basic" purpose="Check if the readonly attribute serviceID of SmsMessage exists and type of string" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage_basic.html?total_num=12&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:44:39</start><end>2015-02-25 10:44:39</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsMessage_from_basic" purpose="Check if the readonly attribute from of SmsMessage exists and type of string" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage_basic.html?total_num=12&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:44:39</start><end>2015-02-25 10:44:39</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsMessage_timestamp_basic" purpose="Check if the readonly attribute timestamp of SmsMessage exists and type of Date" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage_basic.html?total_num=12&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:44:39</start><end>2015-02-25 10:44:39</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsMessage_read_basic" purpose="Check if the readonly attribute read of SmsMessage exists and type of boolean" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage_basic.html?total_num=12&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:44:39</start><end>2015-02-25 10:44:39</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsMessage_to_basic" purpose="Check if the readonly attribute to of SmsMessage exists and type of string" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage_basic.html?total_num=12&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:44:39</start><end>2015-02-25 10:44:39</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsMessage_body_basic" purpose="Check if the readonly attribute body of SmsMessage exists and type of String" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage_basic.html?total_num=12&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:44:39</start><end>2015-02-25 10:44:39</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsMessage_state_basic" purpose="Check if the readonly attribute state of SmsMessage exists and type of String" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage_basic.html?total_num=12&amp;amp;locator_key=id&amp;amp;value=9</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:44:39</start><end>2015-02-25 10:44:39</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsMessage_deliveryStatus_basic" purpose="Check if the readonly attribute deliveryStatus of SmsMessage exists and type of String" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage_basic.html?total_num=12&amp;amp;locator_key=id&amp;amp;value=10</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:44:39</start><end>2015-02-25 10:44:39</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsMessage_deliveryTimestamp_basic" purpose="Check if the readonly attribute deliveryTimestamp of SmsMessage exists and type of String" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage_basic.html?total_num=12&amp;amp;locator_key=id&amp;amp;value=11</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:44:39</start><end>2015-02-25 10:44:39</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="SmsMessage_messageClass_basic" purpose="Check if the readonly attribute messageClass of SmsMessage exists and type of String" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/SmsMessage_basic.html?total_num=12&amp;amp;locator_key=id&amp;amp;value=12</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:44:40</start><end>2015-02-25 10:44:40</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsMessage_messageID_basic" purpose="Check if the readonly attribute messageID of MmsMessage exists and type of String" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage_basic.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=1</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:44:40</start><end>2015-02-25 10:44:42</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsMessage_type_basic" purpose="Check if the readonly attribute type of MmsMessage exists and type of String" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage_basic.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=2</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:44:42</start><end>2015-02-25 10:44:42</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsMessage_serviceID_basic" purpose="Check if the readonly attribute serviceID of MmsMessage exists and type of String" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage_basic.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=3</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:44:42</start><end>2015-02-25 10:44:42</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsMessage_from_basic" purpose="Check if the readonly attribute from of MmsMessage exists and type of String" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage_basic.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=4</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:44:42</start><end>2015-02-25 10:44:42</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsMessage_timestamp_basic" purpose="Check if the readonly attribute timestamp of MmsMessage exists and type of date" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage_basic.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=5</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:44:42</start><end>2015-02-25 10:44:42</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsMessage_read_basic" purpose="Check if the readonly attribute read of MmsMessage exists and type of boolean" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage_basic.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=6</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:44:42</start><end>2015-02-25 10:44:42</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsMessage_to_basic" purpose="Check if the readonly attribute to of MmsMessage exists and type of array" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage_basic.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=7</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:44:42</start><end>2015-02-25 10:44:42</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsMessage_expiry_basic" purpose="Check if the readonly attribute expiry of MmsMessage exists and type of String" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage_basic.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=8</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:44:42</start><end>2015-02-25 10:44:42</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsMessage_cc_basic" purpose="Check if the readonly attribute cc of MmsMessage exists and type of array" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage_basic.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=9</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:44:42</start><end>2015-02-25 10:44:42</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsMessage_bcc_basic" purpose="Check if the readonly attribute bcc of MmsMessage exists and type of array" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage_basic.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=10</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:44:42</start><end>2015-02-25 10:44:42</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsMessage_subject_basic" purpose="Check if the readonly attribute subject of MmsMessage exists and type of String" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage_basic.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=11</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:44:42</start><end>2015-02-25 10:44:42</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsMessage_smil_basic" purpose="Check if the readonly attribute smil of MmsMessage exists and type of String" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage_basic.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=12</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:44:42</start><end>2015-02-25 10:44:42</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsMessage_attachments_basic" purpose="Check if the readonly attribute attachments of MmsMessage exists and type of array" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage_basic.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=13</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:44:42</start><end>2015-02-25 10:44:42</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsMessage_state_basic" purpose="Check if the readonly attribute state of MmsMessage exists and type of String" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage_basic.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=14</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:44:42</start><end>2015-02-25 10:44:42</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsMessage_deliveryInfo_basic" purpose="Check if the readonly attribute deliveryInfo of MmsMessage exists and type of array" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage_basic.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=15</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:44:42</start><end>2015-02-25 10:44:42</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/System Apps/Messaging" execution_type="auto" id="MmsMessage_readReportRequested_basic" purpose="Check if the readonly attribute readReportRequested of MmsMessage exists and type of boolean" result="TIMEOUT">
+        <description>
+          <test_script_entry>/opt/webapi-messaging-w3c-tests/messaging/MmsMessage_basic.html?total_num=16&amp;amp;locator_key=id&amp;amp;value=16</test_script_entry>
+        </description>
+      <result_info><actual_result>TIMEOUT</actual_result><start>2015-02-25 10:44:42</start><end>2015-02-25 10:44:42</end><stdout>[Message]Test timed out</stdout><stderr /></result_info></testcase>
+    </set>
+  </suite>
+</test_definition>
