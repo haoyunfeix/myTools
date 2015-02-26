@@ -280,8 +280,9 @@ def main():
                 file_list = []
                 for root, dirs, files in os.walk(PARAMETERS.countxml):
                     for filename in files:
-                        if dirs == []:
-                            file_list.append(os.path.join(root, filename))
+                        if root == PARAMETERS.countxml:
+                            if filename.endswith('.xml'):
+                                file_list.append(os.path.join(root, filename))
                 file_list.sort()
                 for file_real_path in file_list:
                     count_cases(file_real_path)

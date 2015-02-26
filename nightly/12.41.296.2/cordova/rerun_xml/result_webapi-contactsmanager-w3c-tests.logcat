@@ -1,0 +1,636 @@
+--------- beginning of /dev/log/main
+02-26 17:00:15.228 D/AndroidRuntime( 2167): 
+02-26 17:00:15.228 D/AndroidRuntime( 2167): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-26 17:00:15.228 D/AndroidRuntime( 2167): CheckJNI is OFF
+02-26 17:00:15.248 D/dalvikvm( 2167): Trying to load lib libjavacore.so 0x0
+02-26 17:00:15.248 D/dalvikvm( 2167): Added shared lib libjavacore.so 0x0
+02-26 17:00:15.248 D/dalvikvm( 2167): Trying to load lib libnativehelper.so 0x0
+02-26 17:00:15.248 D/dalvikvm( 2167): Added shared lib libnativehelper.so 0x0
+02-26 17:00:15.248 D/dalvikvm( 2167): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-26 17:00:15.278 D/dalvikvm( 2167): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+02-26 17:00:15.428 D/AndroidRuntime( 2167): Calling main entry com.android.commands.am.Am
+02-26 17:00:15.428 D/AndroidRuntime( 2167): Shutting down VM
+02-26 17:00:15.428 D/dalvikvm( 2167): GC_CONCURRENT freed 93K, 15% free 553K/648K, paused 0ms+1ms, total 2ms
+--------- beginning of /dev/log/system
+02-26 17:00:15.428 I/ActivityManager(  742): Force stopping org.xwalk.webapi_noneservice_tests appid=12169 user=0: from pid 2167
+02-26 17:00:16.068 D/AndroidRuntime( 2197): 
+02-26 17:00:16.068 D/AndroidRuntime( 2197): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-26 17:00:16.068 D/AndroidRuntime( 2197): CheckJNI is OFF
+02-26 17:00:16.078 D/dalvikvm( 2197): Trying to load lib libjavacore.so 0x0
+02-26 17:00:16.078 D/dalvikvm( 2197): Added shared lib libjavacore.so 0x0
+02-26 17:00:16.088 D/dalvikvm( 2197): Trying to load lib libnativehelper.so 0x0
+02-26 17:00:16.088 D/dalvikvm( 2197): Added shared lib libnativehelper.so 0x0
+02-26 17:00:16.088 D/dalvikvm( 2197): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-26 17:00:16.108 D/dalvikvm( 2197): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+02-26 17:00:16.228 D/AndroidRuntime( 2197): Calling main entry com.android.commands.am.Am
+02-26 17:00:16.238 I/ActivityManager(  742): START u0 {flg=0x10000000 cmp=org.xwalk.webapi_noneservice_tests/.webapi_noneservice_tests} from pid 2197
+02-26 17:00:16.248 D/AndroidRuntime( 2197): Shutting down VM
+02-26 17:00:16.248 D/dalvikvm( 2197): GC_CONCURRENT freed 95K, 15% free 586K/684K, paused 0ms+0ms, total 2ms
+02-26 17:00:16.258 D/dalvikvm( 2241): Late-enabling CheckJNI
+02-26 17:00:16.258 I/ActivityManager(  742): Start proc org.xwalk.webapi_noneservice_tests for activity org.xwalk.webapi_noneservice_tests/.webapi_noneservice_tests: pid=2241 uid=12169 gids={52169, 3003, 1028, 1015}
+02-26 17:00:16.278 I/SearchController(14078): #onHotwordDetectorStopped
+02-26 17:00:16.298 D/SearchServiceImpl(14078): onDestroy()
+02-26 17:00:16.298 I/MicrophoneInputStream(14078): mic_close
+02-26 17:00:16.308 V/SearchControllerCache(14078): disposing SearchController
+02-26 17:00:16.338 I/CordovaLog( 2241): Changing log level to DEBUG(3)
+02-26 17:00:16.338 D/CordovaActivity( 2241): CordovaActivity.init()
+02-26 17:00:16.358 D/dalvikvm( 2241): Trying to load lib /data/app-lib/org.xwalk.webapi_noneservice_tests-1/libxwalkcore.so 0x4257c100
+02-26 17:00:16.358 D/dalvikvm(14078): threadid=33: thread exiting, not yet detached (count=0)
+02-26 17:00:16.358 D/dalvikvm(14078): threadid=34: thread exiting, not yet detached (count=0)
+02-26 17:00:16.368 D/dalvikvm( 2241): Added shared lib /data/app-lib/org.xwalk.webapi_noneservice_tests-1/libxwalkcore.so 0x4257c100
+02-26 17:00:16.368 I/LibraryLoader( 2241): Time to load native libraries: 18 ms (timestamps 6931-6949)
+02-26 17:00:16.368 I/LibraryLoader( 2241): Expected native library version number "",actual native library version number ""
+02-26 17:00:16.408 I/LibraryLoader( 2241): Expected native library version number "",actual native library version number ""
+02-26 17:00:16.408 I/chromium( 2241): [INFO:library_loader_hooks.cc(112)] Chromium logging enabled: level = 0, default verbosity = 0
+02-26 17:00:16.408 D/dalvikvm( 2241): GC_CONCURRENT freed 336K, 3% free 16450K/16824K, paused 3ms+3ms, total 19ms
+02-26 17:00:16.418 I/BrowserStartupController( 2241): Initializing chromium process, singleProcess=true
+02-26 17:00:16.928 W/AudioManagerAndroid( 2241): Requires BLUETOOTH permission
+02-26 17:00:16.938 I/Adreno-EGL( 2241): <qeglDrvAPI_eglInitialize:320>: EGL 1.4 QUALCOMM build:  (CL3776187)
+02-26 17:00:16.938 I/Adreno-EGL( 2241): OpenGL ES Shader Compiler Version: 
+02-26 17:00:16.938 I/Adreno-EGL( 2241): Build Date: 10/15/13 Tue
+02-26 17:00:16.938 I/Adreno-EGL( 2241): Local Branch: 
+02-26 17:00:16.938 I/Adreno-EGL( 2241): Remote Branch: partner/upstream
+02-26 17:00:16.938 I/Adreno-EGL( 2241): Local Patches: 
+02-26 17:00:16.938 I/Adreno-EGL( 2241): Reconstruct Branch: 
+02-26 17:00:16.968 W/chromium( 2241): [WARNING:proxy_service.cc(899)] PAC support disabled because there is no system implementation
+02-26 17:00:16.978 W/dalvikvm( 2241): VFY: unable to find class referenced in signature (Landroid/view/inputmethod/CursorAnchorInfo;)
+02-26 17:00:16.978 I/dalvikvm( 2241): Could not find method android.view.inputmethod.InputMethodManager.updateCursorAnchorInfo, referenced from method org.chromium.content.browser.input.InputMethodManagerWrapper.updateCursorAnchorInfo
+02-26 17:00:16.978 W/dalvikvm( 2241): VFY: unable to resolve virtual method 1368: Landroid/view/inputmethod/InputMethodManager;.updateCursorAnchorInfo (Landroid/view/View;Landroid/view/inputmethod/CursorAnchorInfo;)V
+02-26 17:00:16.978 D/dalvikvm( 2241): VFY: replacing opcode 0x6e at 0x000a
+02-26 17:00:17.008 D/dalvikvm( 2241): GC_CONCURRENT freed 300K, 3% free 16575K/16916K, paused 2ms+2ms, total 13ms
+02-26 17:00:17.038 D/CordovaActivity( 2241): CordovaActivity.createViews()
+02-26 17:00:17.038 D/CordovaWebView( 2241): >>> loadUrl(file:///android_asset/www/index.html)
+02-26 17:00:17.038 E/chromium( 2241): [ERROR:unix_domain_server_socket_posix.cc(106)] Not implemented reached in virtual int net::UnixDomainServerSocket::GetLocalAddress(net::IPEndPoint*) const
+02-26 17:00:17.038 D/PluginManager( 2241): init()
+02-26 17:00:17.048 D/CordovaWebView( 2241): >>> loadUrlNow()
+02-26 17:00:17.048 I/dalvikvm( 2241): Could not find method android.app.Activity.finishAndRemoveTask, referenced from method org.chromium.base.ApiCompatibilityUtils.finishAndRemoveTask
+02-26 17:00:17.048 W/dalvikvm( 2241): VFY: unable to resolve virtual method 6: Landroid/app/Activity;.finishAndRemoveTask ()V
+02-26 17:00:17.048 D/dalvikvm( 2241): VFY: replacing opcode 0x6e at 0x0006
+02-26 17:00:17.048 I/dalvikvm( 2241): Could not find method android.os.PowerManager.isInteractive, referenced from method org.chromium.base.ApiCompatibilityUtils.isInteractive
+02-26 17:00:17.048 W/dalvikvm( 2241): VFY: unable to resolve virtual method 874: Landroid/os/PowerManager;.isInteractive ()Z
+02-26 17:00:17.048 D/dalvikvm( 2241): VFY: replacing opcode 0x6e at 0x000e
+02-26 17:00:17.048 I/dalvikvm( 2241): Could not find method android.view.Window.getNavigationBarColor, referenced from method org.chromium.base.ApiCompatibilityUtils.setStatusBarColor
+02-26 17:00:17.048 W/dalvikvm( 2241): VFY: unable to resolve virtual method 1268: Landroid/view/Window;.getNavigationBarColor ()I
+02-26 17:00:17.048 D/dalvikvm( 2241): VFY: replacing opcode 0x6e at 0x0010
+02-26 17:00:17.048 I/dalvikvm( 2241): Could not find method android.view.Window.setStatusBarColor, referenced from method org.chromium.base.ApiCompatibilityUtils.setStatusBarColor
+02-26 17:00:17.048 W/dalvikvm( 2241): VFY: unable to resolve virtual method 1274: Landroid/view/Window;.setStatusBarColor (I)V
+02-26 17:00:17.048 D/dalvikvm( 2241): VFY: replacing opcode 0x6e at 0x0019
+02-26 17:00:17.048 E/dalvikvm( 2241): Could not find class 'android.app.ActivityManager$TaskDescription', referenced from method org.chromium.base.ApiCompatibilityUtils.setTaskDescription
+02-26 17:00:17.048 W/dalvikvm( 2241): VFY: unable to resolve new-instance 13 (Landroid/app/ActivityManager$TaskDescription;) in Lorg/chromium/base/ApiCompatibilityUtils;
+02-26 17:00:17.048 D/dalvikvm( 2241): VFY: replacing opcode 0x22 at 0x0006
+02-26 17:00:17.048 D/dalvikvm( 2241): DexOpt: unable to opt direct call 0x002f at 0x08 in Lorg/chromium/base/ApiCompatibilityUtils;.setTaskDescription
+02-26 17:00:17.058 I/chromium( 2241): [INFO:xwalk_extension_renderer_controller.cc(47)] EXTENSION PROCESS DISABLED.
+02-26 17:00:17.058 D/CordovaActivity( 2241): Resuming the App
+02-26 17:00:17.068 D/dalvikvm( 2241): GC_CONCURRENT freed 300K, 2% free 16705K/17044K, paused 6ms+1ms, total 24ms
+02-26 17:00:17.078 D/SoftKeyboardDetect( 2241): Ignore this event
+02-26 17:00:17.098 D/OpenGLRenderer( 2241): Enabling debug mode 0
+02-26 17:00:17.108 D/SoftKeyboardDetect( 2241): Ignore this event
+02-26 17:00:17.118 D/CordovaActivity( 2241): onMessage(onPageStarted,file:///android_asset/www/index.html)
+02-26 17:00:17.128 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:17.138 I/ActivityManager(  742): Displayed org.xwalk.webapi_noneservice_tests/.webapi_noneservice_tests: +896ms
+02-26 17:00:17.158 D/CordovaActivity( 2241): onMessage(onPageFinished,file:///android_asset/www/index.html)
+02-26 17:00:18.168 D/CordovaActivity( 2241): onMessage(onPageStarted,file:///android_asset/www/index_real.html?testprefix=./)
+02-26 17:00:18.198 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:18.448 I/chromium( 2241): [INFO:CONSOLE(0)] "Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check http://xhr.spec.whatwg.org/.", source:  (0)
+02-26 17:00:18.498 D/CordovaActivity( 2241): onMessage(onPageFinished,file:///android_asset/www/index_real.html?testprefix=./)
+02-26 17:00:19.168 D/CordovaActivity( 2241): onMessage(spinner,stop)
+02-26 17:00:20.498 D/CordovaActivity( 2241): onMessage(spinner,stop)
+02-26 17:00:20.538 D/dalvikvm( 2154): GC_CONCURRENT freed 384K, 4% free 17361K/18080K, paused 2ms+1ms, total 17ms
+02-26 17:00:21.558 D/dalvikvm( 2241): GC_CONCURRENT freed 272K, 2% free 16822K/17140K, paused 1ms+2ms, total 15ms
+02-26 17:00:22.928 D/dalvikvm( 2241): GC_CONCURRENT freed 303K, 2% free 16963K/17308K, paused 1ms+1ms, total 11ms
+02-26 17:00:22.968 D/dalvikvm(14245): GC_CONCURRENT freed 401K, 3% free 17306K/17784K, paused 1ms+1ms, total 12ms
+02-26 17:00:22.998 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:23.358 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:23.408 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:23.548 D/dalvikvm( 2241): GC_CONCURRENT freed 452K, 3% free 16900K/17396K, paused 1ms+2ms, total 12ms
+02-26 17:00:24.018 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:24.158 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:24.208 D/dalvikvm(14245): GC_CONCURRENT freed 438K, 3% free 17271K/17784K, paused 1ms+3ms, total 14ms
+02-26 17:00:24.348 D/dalvikvm( 2241): GC_CONCURRENT freed 473K, 4% free 16819K/17396K, paused 1ms+0ms, total 10ms
+02-26 17:00:24.668 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:24.758 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:24.938 D/dalvikvm(14245): GC_CONCURRENT freed 391K, 3% free 17287K/17792K, paused 2ms+5ms, total 17ms
+02-26 17:00:25.308 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:25.358 D/dalvikvm( 2241): GC_CONCURRENT freed 396K, 4% free 16813K/17396K, paused 1ms+1ms, total 11ms
+02-26 17:00:25.408 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:25.968 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:26.078 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:26.098 D/dalvikvm( 2241): GC_CONCURRENT freed 405K, 3% free 16915K/17396K, paused 1ms+2ms, total 15ms
+02-26 17:00:26.138 D/dalvikvm(14245): GC_CONCURRENT freed 396K, 3% free 17304K/17792K, paused 2ms+1ms, total 23ms
+02-26 17:00:26.328 D/dalvikvm(14078): GC_CONCURRENT freed 382K, 6% free 17678K/18672K, paused 2ms+2ms, total 19ms
+02-26 17:00:26.378 D/dalvikvm( 2241): GC_CONCURRENT freed 350K, 3% free 16970K/17396K, paused 2ms+2ms, total 13ms
+02-26 17:00:26.388 E/ContactJson( 2241): getStringArray(fields): Failed to parse json data: org.json.JSONException: Value givenNames at fields of type java.lang.String cannot be converted to JSONArray
+02-26 17:00:26.438 D/dalvikvm(  742): GC_EXPLICIT freed 2063K, 36% free 29526K/45576K, paused 2ms+4ms, total 48ms
+02-26 17:00:26.628 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:26.748 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:26.798 D/dalvikvm(14245): GC_CONCURRENT freed 439K, 3% free 17275K/17792K, paused 2ms+2ms, total 14ms
+02-26 17:00:26.888 D/dalvikvm( 2241): GC_CONCURRENT freed 462K, 3% free 16924K/17424K, paused 1ms+1ms, total 21ms
+02-26 17:00:27.238 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:27.358 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:27.378 D/dalvikvm( 2241): GC_CONCURRENT freed 513K, 4% free 16907K/17460K, paused 1ms+1ms, total 11ms
+02-26 17:00:27.408 D/dalvikvm(14245): GC_CONCURRENT freed 414K, 3% free 17271K/17792K, paused 1ms+2ms, total 14ms
+02-26 17:00:27.638 D/dalvikvm( 2241): GC_CONCURRENT freed 344K, 3% free 16947K/17460K, paused 2ms+1ms, total 11ms
+02-26 17:00:27.828 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:27.958 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:27.978 D/dalvikvm(14245): GC_CONCURRENT freed 406K, 3% free 17260K/17792K, paused 1ms+1ms, total 15ms
+02-26 17:00:28.108 D/dalvikvm( 2241): GC_CONCURRENT freed 451K, 3% free 16937K/17460K, paused 2ms+2ms, total 33ms
+02-26 17:00:28.448 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:28.548 D/dalvikvm(14245): GC_CONCURRENT freed 385K, 3% free 17267K/17792K, paused 2ms+1ms, total 14ms
+02-26 17:00:28.568 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:28.598 D/dalvikvm( 2241): GC_CONCURRENT freed 521K, 4% free 16919K/17476K, paused 2ms+1ms, total 17ms
+02-26 17:00:28.838 D/dalvikvm( 2241): GC_CONCURRENT freed 363K, 3% free 16990K/17476K, paused 2ms+2ms, total 13ms
+02-26 17:00:29.058 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:29.128 D/dalvikvm(14245): GC_CONCURRENT freed 402K, 3% free 17273K/17792K, paused 0ms+5ms, total 29ms
+02-26 17:00:29.188 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:29.338 E/Contacts( 2241): org.json.JSONException: No value for contactId
+02-26 17:00:30.708 D/dalvikvm( 2241): GC_CONCURRENT freed 578K, 4% free 16801K/17476K, paused 18ms+1ms, total 63ms
+02-26 17:00:32.218 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:32.328 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:32.508 D/dalvikvm(  742): GC_EXPLICIT freed 169K, 36% free 29473K/45576K, paused 2ms+4ms, total 48ms
+02-26 17:00:32.878 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:32.968 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:32.998 D/dalvikvm( 2241): GC_CONCURRENT freed 406K, 4% free 16900K/17476K, paused 1ms+2ms, total 12ms
+02-26 17:00:33.008 D/dalvikvm(14245): GC_CONCURRENT freed 405K, 3% free 17267K/17792K, paused 1ms+1ms, total 13ms
+02-26 17:00:33.548 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:33.638 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:33.778 D/dalvikvm( 2241): GC_CONCURRENT freed 371K, 4% free 16949K/17476K, paused 3ms+1ms, total 17ms
+02-26 17:00:34.238 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:34.318 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:34.368 D/dalvikvm(14245): GC_CONCURRENT freed 410K, 4% free 17253K/17792K, paused 2ms+2ms, total 13ms
+02-26 17:00:34.468 D/dalvikvm( 2241): GC_CONCURRENT freed 446K, 4% free 16901K/17476K, paused 1ms+1ms, total 11ms
+02-26 17:00:34.868 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:34.958 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:35.518 D/dalvikvm( 2241): GC_CONCURRENT freed 502K, 4% free 16785K/17476K, paused 1ms+5ms, total 48ms
+02-26 17:00:35.558 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:35.658 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:35.708 D/dalvikvm(14245): GC_CONCURRENT freed 407K, 4% free 17250K/17792K, paused 0ms+1ms, total 11ms
+02-26 17:00:36.208 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:36.338 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:36.368 D/dalvikvm( 2241): GC_CONCURRENT freed 376K, 4% free 16914K/17476K, paused 1ms+1ms, total 13ms
+02-26 17:00:36.888 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:37.018 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:37.158 D/dalvikvm( 2241): GC_CONCURRENT freed 384K, 3% free 17001K/17476K, paused 2ms+2ms, total 14ms
+02-26 17:00:37.548 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:37.608 D/dalvikvm(14245): GC_CONCURRENT freed 404K, 3% free 17264K/17792K, paused 1ms+1ms, total 15ms
+02-26 17:00:37.658 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:37.858 E/Contacts( 2241): org.json.JSONException: No value for contactId
+02-26 17:00:38.808 D/WifiStateMachine(  742): VerifyingLinkState enter
+02-26 17:00:38.818 D/WifiStateMachine(  742): VerifyingLinkState GOOD_LINK_DETECTED: transition to captive portal check
+02-26 17:00:38.818 D/WifiStateMachine(  742): CaptivePortalCheckState enter
+02-26 17:00:38.818 D/WifiStateMachine(  742): CaptivePortalCheckState CMD_CAPTIVE_CHECK_COMPLETE
+02-26 17:00:38.818 D/ConnectivityService(  742): Captive portal check NetworkInfo: type: WIFI[], state: CONNECTING/CAPTIVE_PORTAL_CHECK, reason: (unspecified), extra: "linksys", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false
+02-26 17:00:38.818 D/ConnectivityService(  742): handleCaptivePortalTrackerCheck: call captivePortalCheckComplete ni=NetworkInfo: type: WIFI[], state: CONNECTING/CAPTIVE_PORTAL_CHECK, reason: (unspecified), extra: "linksys", roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false
+02-26 17:00:38.828 D/ConnectivityService(  742): ConnectivityChange for WIFI: CONNECTED/CONNECTED
+02-26 17:00:38.828 E/ConnectivityService(  742): Unexpected mtu value: android.net.wifi.WifiStateTracker@425a6f88
+02-26 17:00:38.838 D/ConnectivityService(  742): handleConnectivityChange: address are the same reset per doReset linkProperty[1]: resetMask=0
+02-26 17:00:38.838 D/Nat464Xlat(  742): requiresClat: netType=1, hasIPv4Address=true
+02-26 17:00:39.828 D/ConnectivityService(  742): NetTransition Wakelock for ConnectedState released by timeout
+02-26 17:00:40.808 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:40.848 D/dalvikvm( 2241): GC_CONCURRENT freed 579K, 4% free 16816K/17476K, paused 1ms+1ms, total 12ms
+02-26 17:00:40.888 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:40.958 D/dalvikvm(14245): GC_CONCURRENT freed 396K, 3% free 17271K/17792K, paused 1ms+2ms, total 15ms
+02-26 17:00:41.468 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:41.558 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:41.598 D/dalvikvm( 2241): GC_CONCURRENT freed 403K, 4% free 16909K/17476K, paused 2ms+3ms, total 19ms
+02-26 17:00:41.848 D/Tethering(  742): MasterInitialState.processMessage what=3
+02-26 17:00:41.888 D/GCM     ( 1062): GcmService start Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 cmp=com.google.android.gms/.gcm.GcmService (has extras) } android.net.conn.CONNECTIVITY_CHANGE
+02-26 17:00:41.898 I/ActivityManager(  742): Start proc com.google.android.setupwizard for broadcast com.google.android.setupwizard/.MobileConnectivityChangeReceiver: pid=3142 uid=10017 gids={50017, 3003}
+02-26 17:00:41.958 D/dalvikvm(  742): GC_EXPLICIT freed 391K, 36% free 29493K/45576K, paused 2ms+4ms, total 48ms
+02-26 17:00:41.978 D/MobileConnectivityChangeReceiver( 3142): onReceive Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 cmp=com.google.android.setupwizard/.MobileConnectivityChangeReceiver (has extras) }
+02-26 17:00:41.978 D/MobileConnectivityChangeReceiver( 3142): onReceive CONNECTIVITY_CHANGE networkType=1
+02-26 17:00:41.978 E/PhoneMonitor( 3142): onOtaspChanged old =0, new =3
+02-26 17:00:41.978 V/PhoneMonitor( 3142): mOtaspPhoneStateListener#onOtaspChanged, mOtaspMode=3
+02-26 17:00:41.998 I/ActivityManager(  742): Start proc com.google.android.youtube for broadcast com.google.android.youtube/.app.prefetch.PrefetchService$DeviceStateReceiver: pid=3161 uid=10073 gids={50073, 3003, 1028, 1015}
+02-26 17:00:41.998 I/ActivityManager(  742): Killing 14969:com.taobao.taobao:notify/u0a83 (adj 15): empty for 1896s
+02-26 17:00:42.008 I/CheckinService( 1062): Preparing to send checkin request
+02-26 17:00:42.008 I/EventLogService( 1062): Accumulating logs since 1424939466493
+02-26 17:00:42.018 V/GmsNetworkLocationProvi( 1171): onSetRequest: ProviderRequestUnbundled, reportLocation is true and interval is 600000
+02-26 17:00:42.018 V/GmsNetworkLocationProvi( 1171): SET-REQUEST
+02-26 17:00:42.018 V/GmsNetworkLocationProvi( 1171): in Handler: ProviderRequestUnbundled, reportLocation is true and interval is 600000
+02-26 17:00:42.088 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:42.118 D/YouTube ( 3161): apps.youtube.core.utils.ay.a:41 HttpClient.UserAgent: com.google.android.youtube/5.1.12(Linux; U; Android 4.4; en_US; Nexus 5 Build/KRT16M)
+02-26 17:00:42.138 D/YouTube ( 3161): apps.youtube.core.utils.ay.a:41 HttpClient.UserAgent: com.google.android.youtube/5.1.12(Linux; U; Android 4.4; en_US; Nexus 5 Build/KRT16M)
+02-26 17:00:42.138 D/dalvikvm( 3161): GC_CONCURRENT freed 294K, 2% free 16481K/16812K, paused 3ms+3ms, total 21ms
+02-26 17:00:42.168 I/CheckinTask( 1062): Sending checkin request (2077 bytes)
+02-26 17:00:42.178 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:42.208 D/YouTube ( 3161): apps.youtube.core.client.r.a:114 event [version=5.1.12-s2000, action=Startup, label=NORMAL_STARTUP, value=-1]
+02-26 17:00:42.218 D/YouTube ( 3161): apps.youtube.core.cache.f.run:163 Cache is below limit, no need to shrink: [size=0, limit=20971520]
+02-26 17:00:42.238 D/dalvikvm( 3161): GC_CONCURRENT freed 277K, 2% free 16674K/16988K, paused 2ms+3ms, total 11ms
+02-26 17:00:42.268 D/dalvikvm( 3161): DexOpt: --- BEGIN 'ads421737338.jar' (bootstrap=0) ---
+02-26 17:00:42.298 D/dalvikvm( 3204): DexOpt: load 2ms, verify+opt 4ms, 158252 bytes
+02-26 17:00:42.308 D/dalvikvm( 3161): DexOpt: --- END 'ads421737338.jar' (success) ---
+02-26 17:00:42.308 D/dalvikvm( 3161): DEX prep '/data/data/com.google.android.youtube/cache/ads421737338.jar': unzip in 4ms, rewrite 42ms
+02-26 17:00:42.318 D/dalvikvm( 2241): GC_CONCURRENT freed 375K, 3% free 16970K/17476K, paused 1ms+1ms, total 11ms
+02-26 17:00:42.338 D/dalvikvm( 3161): GC_CONCURRENT freed 249K, 2% free 16847K/17136K, paused 2ms+1ms, total 12ms
+02-26 17:00:42.368 I/GoogleConversionPing( 3161): Pinging: http://www.googleadservices.com/pagead/conversion/1001680686/?label=4dahCKKczAYQrt7R3QM&value=&muid=0OyxVkOvWQJhRVrivHiYRQ&bundleid=com.google.android.youtube&appversion=5.1.12&osversion=4.4&sdkversion=ct-sdk-a-v1.1.0&remarketing_only=1&timestamp=1424941242&data=screen_name%3D%3CAndroid_YT_Open_App%3E
+02-26 17:00:42.388 D/YouTube ( 3161): youtube.app.prefetch.PrefetchService$DeviceStateReceiver.onReceive:571 Got device state change intent: android.net.conn.CONNECTIVITY_CHANGE
+02-26 17:00:42.388 D/YouTube ( 3161): apps.youtube.core.transfer.TransferService.onCreate:108 creating transfer service
+02-26 17:00:42.388 D/ConnectivityService(  742): handleInetConditionHoldEnd: net=1, condition=100, published condition=0
+02-26 17:00:42.398 I/ActivityManager(  742): Start proc com.android.chrome for broadcast com.android.chrome/com.google.android.apps.chrome.precache.PrecacheServiceLauncher: pid=3225 uid=10032 gids={50032, 3003, 1028, 1015}
+02-26 17:00:42.428 D/YouTube ( 3161): youtube.app.prefetch.PrefetchService.onStartCommand:171 PrefetchService started at 26 Feb 2015 09:00:42 GMT
+02-26 17:00:42.428 D/YouTube ( 3161): youtube.app.prefetch.PrefetchService.a:252 Download snapshot restored
+02-26 17:00:42.428 D/YouTube ( 3161): youtube.app.prefetch.PrefetchService.onDestroy:222 PrefetchService destroyed at 26 Feb 2015 09:00:42 GMT
+02-26 17:00:42.468 D/PushMessageReceiver( 2311): >>> Receive intent: 
+02-26 17:00:42.468 D/PushMessageReceiver( 2311): Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 cmp=com.qiyi.video/org.qiyi.android.commonphonepad.pushmessage.baidu.PushMessageReceiver (has extras) }
+02-26 17:00:42.468 I/PushServiceReceiver(15323): start PushSerevice for ACTION_BOOT_COMPLETED or CONNECTIVITY_ACTION
+02-26 17:00:42.478 I/ActivityManager(  742): Start proc com.taobao.taobao:notify for broadcast com.taobao.taobao/com.taobao.agoo.RegistrationReceiver: pid=3241 uid=10083 gids={50083, 3003, 1028, 1015, 3002, 3001}
+02-26 17:00:42.488 D/dalvikvm(  180): GC_EXPLICIT freed 46K, 1% free 16339K/16424K, paused 1ms+1ms, total 14ms
+02-26 17:00:42.498 W/dalvikvm( 3241): Unable to resolve superclass of Landroid/support/v7/app/ActionBarActivity; (441)
+02-26 17:00:42.498 W/dalvikvm( 3241): Link of class 'Landroid/support/v7/app/ActionBarActivity;' failed
+02-26 17:00:42.498 W/dalvikvm( 3241): Unable to resolve superclass of Lcom/taobao/android/compat/ActionBarActivityCompat; (485)
+02-26 17:00:42.498 W/dalvikvm( 3241): Link of class 'Lcom/taobao/android/compat/ActionBarActivityCompat;' failed
+02-26 17:00:42.498 W/dalvikvm( 3241): VFY: unable to find class referenced in signature (Lcom/taobao/android/compat/ActionBarActivityCompat;)
+02-26 17:00:42.498 W/dalvikvm( 3241): Unable to resolve superclass of Landroid/support/v7/app/ActionBarActivity; (441)
+02-26 17:00:42.498 W/dalvikvm( 3241): Link of class 'Landroid/support/v7/app/ActionBarActivity;' failed
+02-26 17:00:42.498 W/dalvikvm( 3241): Unable to resolve superclass of Lcom/taobao/android/compat/ActionBarActivityCompat; (485)
+02-26 17:00:42.498 W/dalvikvm( 3241): Link of class 'Lcom/taobao/android/compat/ActionBarActivityCompat;' failed
+02-26 17:00:42.498 W/dalvikvm( 3241): Unable to resolve superclass of Landroid/support/v7/app/ActionBarActivity; (441)
+02-26 17:00:42.498 W/dalvikvm( 3241): Link of class 'Landroid/support/v7/app/ActionBarActivity;' failed
+02-26 17:00:42.498 W/dalvikvm( 3241): Unable to resolve superclass of Lcom/taobao/android/compat/ActionBarActivityCompat; (485)
+02-26 17:00:42.498 W/dalvikvm( 3241): Link of class 'Lcom/taobao/android/compat/ActionBarActivityCompat;' failed
+02-26 17:00:42.498 W/dalvikvm( 3241): Unable to resolve superclass of Landroid/support/v7/app/ActionBarActivity; (441)
+02-26 17:00:42.498 W/dalvikvm( 3241): Link of class 'Landroid/support/v7/app/ActionBarActivity;' failed
+02-26 17:00:42.498 W/dalvikvm( 3241): Unable to resolve superclass of Lcom/taobao/android/compat/ActionBarActivityCompat; (485)
+02-26 17:00:42.498 W/dalvikvm( 3241): Link of class 'Lcom/taobao/android/compat/ActionBarActivityCompat;' failed
+02-26 17:00:42.498 I/dalvikvm( 3241): Could not find method com.taobao.android.compat.ActionBarActivityCompat.isFinishing, referenced from method com.taobao.android.task.SafeAsyncTask.onPostExecute
+02-26 17:00:42.498 W/dalvikvm( 3241): VFY: unable to resolve virtual method 25202: Lcom/taobao/android/compat/ActionBarActivityCompat;.isFinishing ()Z
+02-26 17:00:42.498 D/dalvikvm( 3241): VFY: replacing opcode 0x6e at 0x0002
+02-26 17:00:42.508 D/dalvikvm(  180): GC_EXPLICIT freed <1K, 1% free 16339K/16424K, paused 1ms+2ms, total 12ms
+02-26 17:00:42.518 D/dalvikvm(  180): GC_EXPLICIT freed <1K, 1% free 16339K/16424K, paused 1ms+2ms, total 13ms
+02-26 17:00:42.558 D/dalvikvm( 3241): GC_CONCURRENT freed 304K, 3% free 16434K/16776K, paused 3ms+16ms, total 31ms
+02-26 17:00:42.568 I/System.out( 3241): ---------------------------------------------------------
+02-26 17:00:42.568 I/System.out( 3241):   Atlas OSGi 0.9.0 on Nexus 5/armeabi-v7a/4.4 starting ...
+02-26 17:00:42.568 I/System.out( 3241): ---------------------------------------------------------
+02-26 17:00:42.578 I/System.out( 3241): Restoring profile
+02-26 17:00:42.578 I/System.out( 3241): RESTORED BUNDLE com.taobao.libs
+02-26 17:00:42.588 I/System.out( 3241): RESTORED BUNDLE com.taobao.login4android
+02-26 17:00:42.588 I/System.out( 3241): RESTORED BUNDLE com.taobao.taobao.home
+02-26 17:00:42.598 I/System.out( 3241): RESTORED BUNDLE com.taobao.passivelocation
+02-26 17:00:42.598 I/System.out( 3241): RESTORED BUNDLE com.taobao.mytaobao
+02-26 17:00:42.608 I/System.out( 3241): RESTORED BUNDLE com.taobao.wangxin
+02-26 17:00:42.608 I/System.out( 3241): RESTORED BUNDLE com.taobao.allspark
+02-26 17:00:42.618 I/System.out( 3241): RESTORED BUNDLE com.taobao.search
+02-26 17:00:42.618 I/System.out( 3241): RESTORED BUNDLE com.taobao.android.scancode
+02-26 17:00:42.618 I/System.out( 3241): RESTORED BUNDLE com.taobao.android.trade
+02-26 17:00:42.628 I/System.out( 3241): RESTORED BUNDLE com.taobao.taobao.cashdesk
+02-26 17:00:42.628 I/System.out( 3241): RESTORED BUNDLE com.taobao.weapp
+02-26 17:00:42.628 I/System.out( 3241): RESTORED BUNDLE com.taobao.taobao.alipay
+02-26 17:00:42.638 I/System.out( 3241): RESTORED BUNDLE com.taobao.trade.order
+02-26 17:00:42.638 I/System.out( 3241): RESTORED BUNDLE com.taobao.coupon
+02-26 17:00:42.648 I/System.out( 3241): RESTORED BUNDLE com.taobao.caipiao.plugin
+02-26 17:00:42.658 D/dalvikvm( 3241): GC_CONCURRENT freed 274K, 2% free 16579K/16892K, paused 2ms+2ms, total 18ms
+02-26 17:00:42.668 I/System.out( 3241): RESTORED BUNDLE com.taobao.taobao.pluginservice
+02-26 17:00:42.668 I/System.out( 3241): RESTORED BUNDLE com.taobao.android.gamecenter
+02-26 17:00:42.668 I/System.out( 3241): RESTORED BUNDLE com.etao.feimagesearch
+02-26 17:00:42.678 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:42.678 I/System.out( 3241): RESTORED BUNDLE com.taobao.legacy
+02-26 17:00:42.688 I/System.out( 3241): RESTORED BUNDLE com.taobao.mobile.dipei
+02-26 17:00:42.688 I/System.out( 3241): RESTORED BUNDLE com.taobao.shop
+02-26 17:00:42.698 I/System.out( 3241): RESTORED BUNDLE com.taobao.promotion
+02-26 17:00:42.698 I/System.out( 3241): RESTORED BUNDLE com.taobao.rushpromotion
+02-26 17:00:42.708 I/System.out( 3241): RESTORED BUNDLE com.taobao.taobao.zxing
+02-26 17:00:42.708 I/System.out( 3241): RESTORED BUNDLE com.taobao.lol
+02-26 17:00:42.708 I/System.out( 3241): RESTORED BUNDLE com.taobao.tao.purchase
+02-26 17:00:42.718 I/System.out( 3241): RESTORED BUNDLE com.taobao.nearby
+02-26 17:00:42.728 I/System.out( 3241): RESTORED BUNDLE com.taobao.ju.android
+02-26 17:00:42.738 D/dalvikvm(14245): GC_CONCURRENT freed 410K, 4% free 17250K/17792K, paused 1ms+1ms, total 15ms
+02-26 17:00:42.748 I/System.out( 3241): RESTORED BUNDLE com.tmall.wireless.plugin
+02-26 17:00:42.748 D/dalvikvm( 3241): GC_CONCURRENT freed 364K, 3% free 16653K/17048K, paused 2ms+3ms, total 26ms
+02-26 17:00:42.758 I/System.out( 3241): RESTORED BUNDLE com.taobao.home.welcomegame
+02-26 17:00:42.768 I/System.out( 3241): RESTORED BUNDLE com.taobao.android.big
+02-26 17:00:42.768 I/System.out( 3241): RESTORED BUNDLE com.taobao.labs
+02-26 17:00:42.778 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:42.778 I/System.out( 3241): RESTORED BUNDLE com.taobao.facehongbao
+02-26 17:00:42.778 I/System.out( 3241): RESTORED BUNDLE com.taobao.cainiao
+02-26 17:00:42.788 I/System.out( 3241): RESTORED BUNDLE com.taobao.taobao.map
+02-26 17:00:42.788 D/dalvikvm( 3161): GC_CONCURRENT freed 378K, 3% free 16974K/17396K, paused 1ms+0ms, total 19ms
+02-26 17:00:42.788 D/dalvikvm( 3161): WAIT_FOR_CONCURRENT_GC blocked 8ms
+02-26 17:00:42.788 I/System.out( 3241): RESTORED BUNDLE com.taobao.xcard
+02-26 17:00:42.798 I/System.out( 3241): RESTORED BUNDLE com.taobao.taoguide
+02-26 17:00:42.808 I/System.out( 3241): RESTORED BUNDLE com.taobao.bala
+02-26 17:00:42.808 D/dalvikvm( 3161): GC_FOR_ALLOC freed 301K, 4% free 16969K/17512K, paused 11ms, total 11ms
+02-26 17:00:42.808 I/System.out( 3241): RESTORED BUNDLE com.ut.share
+02-26 17:00:42.818 D/dalvikvm( 3161): GC_FOR_ALLOC freed 286K, 4% free 16969K/17512K, paused 10ms, total 10ms
+02-26 17:00:42.828 D/dalvikvm( 3241): GC_CONCURRENT freed 367K, 3% free 16673K/17080K, paused 2ms+1ms, total 12ms
+02-26 17:00:42.838 I/System.out( 3241): STARTING com.taobao.passivelocation
+02-26 17:00:42.838 I/System.out( 3241): STARTING com.taobao.allspark
+02-26 17:00:42.838 I/System.out( 3241): STARTING com.taobao.wangxin
+02-26 17:00:42.838 I/System.out( 3241): STARTING com.taobao.login4android
+02-26 17:00:42.848 I/System.out( 3241): STARTING com.taobao.taobao.home
+02-26 17:00:42.848 I/System.out( 3241): STARTING com.taobao.mytaobao
+02-26 17:00:42.848 I/System.out( 3241): ---------------------------------------------------------
+02-26 17:00:42.848 I/System.out( 3241):   Framework restarted in 280 milliseconds.
+02-26 17:00:42.848 I/System.out( 3241): ---------------------------------------------------------
+02-26 17:00:42.878 D/dalvikvm( 3241): GC_CONCURRENT freed 453K, 3% free 16684K/17172K, paused 2ms+2ms, total 13ms
+02-26 17:00:42.898 D/dalvikvm( 3241): GC_FOR_ALLOC freed 185K, 3% free 16754K/17232K, paused 9ms, total 9ms
+02-26 17:00:42.928 D/dalvikvm( 3241): GC_FOR_ALLOC freed 189K, 3% free 16778K/17292K, paused 13ms, total 16ms
+02-26 17:00:42.938 D/dalvikvm( 2241): GC_CONCURRENT freed 572K, 4% free 16785K/17476K, paused 1ms+2ms, total 13ms
+02-26 17:00:42.978 D/dalvikvm( 3241): GC_CONCURRENT freed 471K, 3% free 16819K/17328K, paused 3ms+1ms, total 18ms
+02-26 17:00:42.978 D/dalvikvm( 3241): WAIT_FOR_CONCURRENT_GC blocked 5ms
+02-26 17:00:42.978 D/dalvikvm( 3241): WAIT_FOR_CONCURRENT_GC blocked 7ms
+02-26 17:00:43.018 D/dalvikvm( 3241): Trying to load lib /data/data/com.taobao.taobao/files/libndkutils.so 0x4257f968
+02-26 17:00:43.018 W/linker  ( 3241): libndkutils.so has text relocations. This is wasting memory and is a security risk. Please fix.
+02-26 17:00:43.028 D/dalvikvm( 3241): Added shared lib /data/data/com.taobao.taobao/files/libndkutils.so 0x4257f968
+02-26 17:00:43.028 D/dalvikvm( 3241): No JNI_OnLoad found in /data/data/com.taobao.taobao/files/libndkutils.so 0x4257f968, skipping init
+02-26 17:00:43.028 D/dalvikvm( 1062): GC_CONCURRENT freed 351K, 3% free 16967K/17484K, paused 2ms+4ms, total 20ms
+02-26 17:00:43.038 D/dalvikvm( 3241): GC_CONCURRENT freed 374K, 3% free 16914K/17348K, paused 3ms+2ms, total 14ms
+02-26 17:00:43.038 D/dalvikvm( 3241): Trying to load lib /data/app-lib/com.taobao.taobao-1/libsecuritysdk-2.2.33.so 0x4257f968
+02-26 17:00:43.038 D/dalvikvm( 3241): Added shared lib /data/app-lib/com.taobao.taobao-1/libsecuritysdk-2.2.33.so 0x4257f968
+02-26 17:00:43.048 I/CheckinTask( 1062): Checkin success: https://android.clients.google.com/checkin (1 requests sent)
+02-26 17:00:43.078 D/dalvikvm( 3241): GC_FOR_ALLOC freed 313K, 3% free 16935K/17452K, paused 15ms, total 15ms
+02-26 17:00:43.198 I/GoogleConversionPing( 3161): Ping responded with response code 200
+02-26 17:00:43.278 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:43.368 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:43.378 D/dalvikvm( 3241): GC_CONCURRENT freed 393K, 3% free 16989K/17468K, paused 2ms+1ms, total 12ms
+02-26 17:00:43.878 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:43.918 E/LocSvc_eng(  742): W/int loc_eng_inject_location(loc_eng_data_s_type&, double, double, float): log_eng state error: instance not initialized
+02-26 17:00:43.978 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:43.998 D/dalvikvm( 2241): GC_CONCURRENT freed 381K, 4% free 16895K/17476K, paused 1ms+1ms, total 10ms
+02-26 17:00:44.018 D/dalvikvm(14245): GC_CONCURRENT freed 400K, 3% free 17269K/17792K, paused 1ms+3ms, total 16ms
+02-26 17:00:44.558 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:44.668 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:44.818 D/dalvikvm( 2241): GC_CONCURRENT freed 370K, 3% free 17003K/17476K, paused 1ms+1ms, total 12ms
+02-26 17:00:45.228 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:45.358 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:45.518 D/dalvikvm(  742): GC_EXPLICIT freed 410K, 36% free 29532K/45576K, paused 2ms+4ms, total 48ms
+02-26 17:00:45.868 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:45.978 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:45.998 D/dalvikvm(14245): GC_CONCURRENT freed 424K, 3% free 17261K/17792K, paused 1ms+3ms, total 17ms
+02-26 17:00:45.998 D/dalvikvm( 2241): GC_CONCURRENT freed 591K, 4% free 16847K/17476K, paused 1ms+2ms, total 15ms
+02-26 17:00:46.468 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:46.568 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:46.598 D/dalvikvm( 2241): GC_CONCURRENT freed 369K, 4% free 16909K/17476K, paused 1ms+1ms, total 15ms
+02-26 17:00:47.118 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:47.228 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:47.278 D/dalvikvm(14245): GC_CONCURRENT freed 412K, 4% free 17254K/17792K, paused 1ms+1ms, total 11ms
+02-26 17:00:47.368 D/dalvikvm( 2241): GC_CONCURRENT freed 372K, 3% free 17006K/17476K, paused 2ms+2ms, total 13ms
+02-26 17:00:47.488 D/dalvikvm( 2154): GC_FOR_ALLOC freed 141K, 5% free 17337K/18080K, paused 10ms, total 10ms
+02-26 17:00:47.498 D/dalvikvm( 2154): GC_FOR_ALLOC freed 44K, 5% free 17334K/18080K, paused 10ms, total 10ms
+02-26 17:00:47.508 D/dalvikvm( 2154): GC_FOR_ALLOC freed 40K, 5% free 17334K/18080K, paused 11ms, total 11ms
+02-26 17:00:47.518 D/dalvikvm( 2154): GC_FOR_ALLOC freed 41K, 5% free 17334K/18080K, paused 9ms, total 9ms
+02-26 17:00:47.528 D/dalvikvm( 2154): GC_FOR_ALLOC freed 40K, 5% free 17335K/18080K, paused 10ms, total 10ms
+02-26 17:00:47.538 D/dalvikvm( 2154): GC_FOR_ALLOC freed 40K, 5% free 17335K/18080K, paused 10ms, total 10ms
+02-26 17:00:47.548 D/dalvikvm( 2154): GC_FOR_ALLOC freed 40K, 5% free 17335K/18080K, paused 10ms, total 10ms
+02-26 17:00:47.558 D/dalvikvm( 2154): GC_FOR_ALLOC freed 40K, 5% free 17335K/18080K, paused 9ms, total 10ms
+02-26 17:00:47.568 D/dalvikvm( 2154): GC_FOR_ALLOC freed 40K, 5% free 17335K/18080K, paused 9ms, total 9ms
+02-26 17:00:47.588 D/dalvikvm( 2154): GC_FOR_ALLOC freed 40K, 5% free 17335K/18080K, paused 10ms, total 10ms
+02-26 17:00:47.598 D/dalvikvm( 2154): GC_FOR_ALLOC freed 40K, 5% free 17335K/18080K, paused 10ms, total 10ms
+02-26 17:00:47.608 D/dalvikvm( 2154): GC_FOR_ALLOC freed 40K, 5% free 17336K/18080K, paused 9ms, total 10ms
+02-26 17:00:47.618 D/dalvikvm( 2154): GC_FOR_ALLOC freed 40K, 5% free 17336K/18080K, paused 10ms, total 10ms
+02-26 17:00:47.628 D/dalvikvm( 2154): GC_FOR_ALLOC freed 40K, 5% free 17336K/18080K, paused 10ms, total 10ms
+02-26 17:00:47.638 D/dalvikvm( 2154): GC_FOR_ALLOC freed 40K, 5% free 17336K/18080K, paused 10ms, total 10ms
+02-26 17:00:47.648 D/dalvikvm( 2154): GC_FOR_ALLOC freed 40K, 5% free 17336K/18080K, paused 9ms, total 9ms
+02-26 17:00:47.658 D/dalvikvm( 2154): GC_FOR_ALLOC freed 40K, 5% free 17336K/18080K, paused 10ms, total 10ms
+02-26 17:00:47.668 D/dalvikvm( 2154): GC_FOR_ALLOC freed 40K, 5% free 17336K/18080K, paused 10ms, total 10ms
+02-26 17:00:47.678 D/dalvikvm( 2154): GC_FOR_ALLOC freed 40K, 5% free 17336K/18080K, paused 10ms, total 10ms
+02-26 17:00:47.688 D/dalvikvm( 2154): GC_FOR_ALLOC freed 40K, 5% free 17337K/18080K, paused 9ms, total 10ms
+02-26 17:00:47.728 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:47.838 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:47.918 D/dalvikvm( 2241): GC_CONCURRENT freed 347K, 3% free 17104K/17492K, paused 0ms+1ms, total 12ms
+02-26 17:00:48.068 D/dalvikvm( 2241): GC_CONCURRENT freed 505K, 4% free 16990K/17536K, paused 2ms+2ms, total 16ms
+02-26 17:00:48.158 D/dalvikvm( 2241): GC_CONCURRENT freed 433K, 4% free 16985K/17536K, paused 2ms+2ms, total 13ms
+02-26 17:00:48.318 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:48.348 D/dalvikvm( 3241): GC_CONCURRENT freed 371K, 3% free 17029K/17540K, paused 5ms+1ms, total 23ms
+02-26 17:00:48.418 W/chromium( 2241): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: file:///android_asset/www//opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsChangeEvent_modified.html:70:18 TypeError: Cannot read property '0' of undefined
+02-26 17:00:48.418 W/chromium( 2241):     if (e.modified[0]) {
+02-26 17:00:48.418 W/chromium( 2241): 
+02-26 17:00:48.448 D/dalvikvm(14245): GC_CONCURRENT freed 366K, 3% free 17291K/17792K, paused 2ms+10ms, total 32ms
+02-26 17:00:48.468 D/dalvikvm( 2241): GC_CONCURRENT freed 300K, 3% free 17075K/17536K, paused 2ms+2ms, total 14ms
+02-26 17:00:48.568 W/chromium( 2241): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: file:///android_asset/www//opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsChangeEvent_modified.html:70:18 TypeError: Cannot read property '0' of undefined
+02-26 17:00:48.568 W/chromium( 2241):     if (e.modified[0]) {
+02-26 17:00:48.568 W/chromium( 2241): 
+02-26 17:00:48.608 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:48.618 D/dalvikvm( 2241): GC_CONCURRENT freed 515K, 4% free 16985K/17544K, paused 1ms+1ms, total 21ms
+02-26 17:00:48.788 D/dalvikvm(14245): GC_CONCURRENT freed 391K, 3% free 17297K/17792K, paused 2ms+1ms, total 22ms
+02-26 17:00:48.788 D/dalvikvm( 2241): GC_CONCURRENT freed 448K, 4% free 17014K/17544K, paused 2ms+1ms, total 24ms
+02-26 17:00:48.978 D/dalvikvm( 2241): GC_CONCURRENT freed 466K, 4% free 16996K/17544K, paused 2ms+10ms, total 27ms
+02-26 17:00:49.078 D/dalvikvm( 2241): GC_CONCURRENT freed 444K, 4% free 16984K/17544K, paused 2ms+2ms, total 14ms
+02-26 17:00:49.198 D/dalvikvm( 2241): GC_CONCURRENT freed 431K, 4% free 16992K/17544K, paused 3ms+3ms, total 24ms
+02-26 17:00:49.238 D/dalvikvm( 3071): GC_CONCURRENT freed 568K, 4% free 17719K/18408K, paused 3ms+1ms, total 26ms
+02-26 17:00:49.318 D/dalvikvm( 2241): GC_CONCURRENT freed 440K, 4% free 16989K/17544K, paused 1ms+1ms, total 15ms
+02-26 17:00:49.388 D/dalvikvm( 2241): GC_CONCURRENT freed 440K, 4% free 16981K/17544K, paused 1ms+2ms, total 16ms
+02-26 17:00:49.418 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:49.568 D/dalvikvm( 2241): GC_CONCURRENT freed 291K, 3% free 17106K/17544K, paused 1ms+1ms, total 11ms
+02-26 17:00:49.598 D/dalvikvm(14245): GC_CONCURRENT freed 363K, 3% free 17341K/17792K, paused 1ms+2ms, total 13ms
+02-26 17:00:49.718 E/Contacts( 2241): org.json.JSONException: No value for contactId
+02-26 17:00:49.728 D/dalvikvm( 2154): GC_FOR_ALLOC freed 96K, 5% free 17351K/18080K, paused 11ms, total 11ms
+02-26 17:00:49.748 D/dalvikvm( 2154): GC_FOR_ALLOC freed 30K, 5% free 17350K/18080K, paused 16ms, total 17ms
+02-26 17:00:49.758 D/dalvikvm( 2241): GC_CONCURRENT freed 674K, 5% free 16897K/17616K, paused 1ms+1ms, total 12ms
+02-26 17:00:49.778 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:49.778 I/chromium( 2241): [INFO:CONSOLE(60)] "Uncaught (in promise) ReferenceError: info is not defined", source: file:///android_asset/www//opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsChangeEvent_removed.html (60)
+02-26 17:00:49.778 E/DatabaseUtils(  976): Writing exception to parcel
+02-26 17:00:49.778 E/DatabaseUtils(  976): java.lang.SecurityException: No permission to write APN settings: Neither user 10083 nor current process has android.permission.WRITE_APN_SETTINGS.
+02-26 17:00:49.778 E/DatabaseUtils(  976): 	at android.app.ContextImpl.enforce(ContextImpl.java:1685)
+02-26 17:00:49.778 E/DatabaseUtils(  976): 	at android.app.ContextImpl.enforceCallingOrSelfPermission(ContextImpl.java:1714)
+02-26 17:00:49.778 E/DatabaseUtils(  976): 	at com.android.providers.telephony.TelephonyProvider.checkPermission(TelephonyProvider.java:735)
+02-26 17:00:49.778 E/DatabaseUtils(  976): 	at com.android.providers.telephony.TelephonyProvider.query(TelephonyProvider.java:462)
+02-26 17:00:49.778 E/DatabaseUtils(  976): 	at android.content.ContentProvider.query(ContentProvider.java:855)
+02-26 17:00:49.778 E/DatabaseUtils(  976): 	at android.content.ContentProvider$Transport.query(ContentProvider.java:200)
+02-26 17:00:49.778 E/DatabaseUtils(  976): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:112)
+02-26 17:00:49.778 E/DatabaseUtils(  976): 	at android.os.Binder.execTransact(Binder.java:404)
+02-26 17:00:49.778 E/DatabaseUtils(  976): 	at dalvik.system.NativeStart.run(Native Method)
+02-26 17:00:49.858 D/dalvikvm( 2241): GC_CONCURRENT freed 294K, 3% free 17089K/17616K, paused 2ms+1ms, total 14ms
+02-26 17:00:49.898 D/dalvikvm( 1347): GC_CONCURRENT freed 398K, 12% free 17793K/20120K, paused 1ms+1ms, total 15ms
+02-26 17:00:50.028 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:50.168 D/dalvikvm(  742): GC_EXPLICIT freed 160K, 36% free 29506K/45576K, paused 1ms+4ms, total 48ms
+02-26 17:00:50.198 D/dalvikvm( 2241): GC_CONCURRENT freed 669K, 5% free 16930K/17640K, paused 1ms+1ms, total 12ms
+02-26 17:00:50.198 D/dalvikvm( 2241): WAIT_FOR_CONCURRENT_GC blocked 4ms
+02-26 17:00:50.348 D/dalvikvm( 2241): GC_CONCURRENT freed 407K, 4% free 16997K/17640K, paused 1ms+1ms, total 11ms
+02-26 17:00:50.358 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:50.378 D/dalvikvm(14245): GC_CONCURRENT freed 442K, 3% free 17307K/17792K, paused 1ms+1ms, total 15ms
+02-26 17:00:50.448 D/dalvikvm( 2241): GC_CONCURRENT freed 558K, 5% free 16883K/17640K, paused 2ms+1ms, total 13ms
+02-26 17:00:50.528 D/dalvikvm( 2241): GC_CONCURRENT freed 435K, 5% free 16832K/17640K, paused 3ms+1ms, total 12ms
+02-26 17:00:50.628 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:51.128 D/dalvikvm( 2241): GC_CONCURRENT freed 343K, 4% free 16944K/17640K, paused 2ms+3ms, total 13ms
+02-26 17:00:51.218 D/dalvikvm( 2241): GC_CONCURRENT freed 466K, 4% free 16953K/17640K, paused 1ms+2ms, total 12ms
+02-26 17:00:51.228 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:51.228 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:51.228 I/ActivityManager(  742): Killing 16536:com.android.defcontainer/u0a4 (adj 15): empty for 1800s
+02-26 17:00:51.598 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:51.678 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:51.828 D/dalvikvm( 2241): GC_CONCURRENT freed 416K, 4% free 17052K/17640K, paused 1ms+6ms, total 17ms
+02-26 17:00:51.828 D/dalvikvm( 2241): WAIT_FOR_CONCURRENT_GC blocked 1ms
+02-26 17:00:51.828 D/dalvikvm( 2241): WAIT_FOR_CONCURRENT_GC blocked 3ms
+02-26 17:00:51.858 D/dalvikvm(14245): GC_CONCURRENT freed 407K, 3% free 17317K/17792K, paused 0ms+2ms, total 13ms
+02-26 17:00:51.888 D/dalvikvm( 2241): GC_CONCURRENT freed 227K, 3% free 17259K/17640K, paused 1ms+2ms, total 12ms
+02-26 17:00:52.018 D/dalvikvm( 2241): GC_CONCURRENT freed 662K, 4% free 16985K/17692K, paused 2ms+1ms, total 14ms
+02-26 17:00:52.178 D/dalvikvm( 2241): GC_CONCURRENT freed 435K, 4% free 16994K/17692K, paused 2ms+3ms, total 13ms
+02-26 17:00:52.278 D/dalvikvm( 2241): GC_CONCURRENT freed 314K, 3% free 17211K/17692K, paused 2ms+1ms, total 14ms
+02-26 17:00:52.308 D/dalvikvm(14245): GC_CONCURRENT freed 422K, 3% free 17294K/17792K, paused 1ms+3ms, total 13ms
+02-26 17:00:52.418 D/dalvikvm( 2241): GC_CONCURRENT freed 565K, 4% free 17109K/17716K, paused 3ms+2ms, total 19ms
+02-26 17:00:52.468 D/dalvikvm( 2241): GC_CONCURRENT freed 409K, 4% free 17094K/17716K, paused 1ms+1ms, total 12ms
+02-26 17:00:52.598 D/dalvikvm( 2241): GC_CONCURRENT freed 502K, 5% free 16989K/17716K, paused 1ms+1ms, total 12ms
+02-26 17:00:52.698 D/dalvikvm( 2241): GC_CONCURRENT freed 453K, 5% free 16997K/17716K, paused 1ms+2ms, total 13ms
+02-26 17:00:52.708 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:52.708 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:52.708 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:52.718 D/dalvikvm(14245): GC_CONCURRENT freed 394K, 3% free 17298K/17792K, paused 2ms+1ms, total 13ms
+02-26 17:00:52.808 D/dalvikvm( 2241): GC_CONCURRENT freed 472K, 5% free 16991K/17716K, paused 2ms+1ms, total 16ms
+02-26 17:00:53.018 D/dalvikvm( 2241): GC_CONCURRENT freed 465K, 4% free 17037K/17716K, paused 1ms+2ms, total 12ms
+02-26 17:00:53.018 D/dalvikvm( 2241): WAIT_FOR_CONCURRENT_GC blocked 6ms
+02-26 17:00:53.018 D/dalvikvm( 2241): WAIT_FOR_CONCURRENT_GC blocked 6ms
+02-26 17:00:53.178 D/dalvikvm( 2241): GC_CONCURRENT freed 520K, 5% free 16991K/17716K, paused 0ms+1ms, total 13ms
+02-26 17:00:53.268 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:53.278 D/dalvikvm( 2241): GC_CONCURRENT freed 445K, 5% free 16994K/17716K, paused 2ms+1ms, total 18ms
+02-26 17:00:53.388 D/dalvikvm( 2241): GC_CONCURRENT freed 446K, 5% free 16997K/17716K, paused 1ms+1ms, total 28ms
+02-26 17:00:53.458 D/dalvikvm( 2241): GC_CONCURRENT freed 441K, 5% free 16991K/17716K, paused 1ms+1ms, total 11ms
+02-26 17:00:53.458 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:53.478 D/dalvikvm(14245): GC_CONCURRENT freed 407K, 3% free 17327K/17792K, paused 1ms+3ms, total 16ms
+02-26 17:00:53.558 D/dalvikvm( 2241): GC_CONCURRENT freed 459K, 4% free 17044K/17716K, paused 1ms+1ms, total 14ms
+02-26 17:00:53.558 D/dalvikvm( 2241): WAIT_FOR_CONCURRENT_GC blocked 6ms
+02-26 17:00:53.608 D/dalvikvm(  742): GC_EXPLICIT freed 100K, 36% free 29500K/45576K, paused 2ms+4ms, total 49ms
+02-26 17:00:53.658 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:53.798 D/dalvikvm( 2241): GC_CONCURRENT freed 505K, 4% free 17073K/17716K, paused 2ms+3ms, total 20ms
+02-26 17:00:53.798 D/dalvikvm( 2241): WAIT_FOR_CONCURRENT_GC blocked 1ms
+02-26 17:00:53.798 D/dalvikvm( 2241): WAIT_FOR_CONCURRENT_GC blocked 1ms
+02-26 17:00:53.878 D/dalvikvm( 2241): GC_CONCURRENT freed 317K, 4% free 17149K/17716K, paused 2ms+1ms, total 13ms
+02-26 17:00:53.918 I/Choreographer( 2241): Skipped 37 frames!  The application may be doing too much work on its main thread.
+02-26 17:00:53.918 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:53.918 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:54.008 D/dalvikvm( 2241): GC_CONCURRENT freed 443K, 4% free 17156K/17716K, paused 2ms+1ms, total 29ms
+02-26 17:00:54.098 D/dalvikvm(14245): GC_CONCURRENT freed 412K, 3% free 17307K/17792K, paused 2ms+2ms, total 15ms
+02-26 17:00:54.108 D/dalvikvm( 2241): GC_CONCURRENT freed 452K, 4% free 17162K/17716K, paused 6ms+2ms, total 17ms
+02-26 17:00:54.178 D/dalvikvm( 2241): GC_CONCURRENT freed 449K, 4% free 17106K/17716K, paused 1ms+1ms, total 15ms
+02-26 17:00:54.328 D/dalvikvm( 2241): GC_CONCURRENT freed 679K, 5% free 16893K/17716K, paused 1ms+1ms, total 12ms
+02-26 17:00:54.428 D/dalvikvm( 2241): GC_CONCURRENT freed 449K, 5% free 16956K/17716K, paused 1ms+2ms, total 12ms
+02-26 17:00:54.428 D/dalvikvm( 2241): WAIT_FOR_CONCURRENT_GC blocked 4ms
+02-26 17:00:54.438 I/Choreographer( 2241): Skipped 31 frames!  The application may be doing too much work on its main thread.
+02-26 17:00:54.438 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:54.438 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:54.528 D/dalvikvm( 2241): GC_CONCURRENT freed 460K, 5% free 16990K/17716K, paused 1ms+3ms, total 20ms
+02-26 17:00:54.658 D/dalvikvm( 2241): GC_CONCURRENT freed 439K, 5% free 17005K/17716K, paused 2ms+2ms, total 30ms
+02-26 17:00:54.748 D/dalvikvm(14245): GC_CONCURRENT freed 393K, 3% free 17313K/17792K, paused 1ms+1ms, total 12ms
+02-26 17:00:54.778 D/dalvikvm( 2241): GC_CONCURRENT freed 455K, 4% free 17061K/17716K, paused 2ms+3ms, total 15ms
+02-26 17:00:54.778 D/dalvikvm( 2241): WAIT_FOR_CONCURRENT_GC blocked 1ms
+02-26 17:00:54.778 D/dalvikvm( 2241): WAIT_FOR_CONCURRENT_GC blocked 1ms
+02-26 17:00:54.848 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:54.848 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:54.938 D/dalvikvm( 2241): GC_CONCURRENT freed 609K, 4% free 17046K/17716K, paused 1ms+2ms, total 25ms
+02-26 17:00:55.018 D/dalvikvm( 2241): GC_CONCURRENT freed 601K, 5% free 16912K/17716K, paused 1ms+2ms, total 13ms
+02-26 17:00:55.138 D/dalvikvm( 2241): GC_CONCURRENT freed 459K, 5% free 16965K/17716K, paused 2ms+2ms, total 20ms
+02-26 17:00:55.138 D/dalvikvm( 2241): WAIT_FOR_CONCURRENT_GC blocked 7ms
+02-26 17:00:55.258 D/dalvikvm( 2241): GC_CONCURRENT freed 453K, 5% free 16979K/17716K, paused 1ms+1ms, total 12ms
+02-26 17:00:55.268 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:55.388 D/dalvikvm(14245): GC_CONCURRENT freed 403K, 3% free 17303K/17792K, paused 1ms+1ms, total 11ms
+02-26 17:00:55.418 D/dalvikvm( 2241): GC_CONCURRENT freed 299K, 4% free 17110K/17716K, paused 1ms+1ms, total 15ms
+02-26 17:00:55.558 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:55.568 D/dalvikvm( 2241): GC_CONCURRENT freed 516K, 5% free 16992K/17716K, paused 2ms+1ms, total 16ms
+02-26 17:00:55.668 D/dalvikvm( 2241): GC_CONCURRENT freed 440K, 5% free 16993K/17716K, paused 2ms+2ms, total 21ms
+02-26 17:00:55.768 D/dalvikvm( 2241): GC_CONCURRENT freed 448K, 5% free 16981K/17716K, paused 1ms+1ms, total 23ms
+02-26 17:00:55.878 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:56.018 D/dalvikvm( 2241): GC_CONCURRENT freed 296K, 4% free 17111K/17716K, paused 2ms+2ms, total 13ms
+02-26 17:00:56.038 D/dalvikvm(14245): GC_CONCURRENT freed 399K, 3% free 17307K/17792K, paused 1ms+1ms, total 13ms
+02-26 17:00:56.198 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:56.198 D/dalvikvm( 2241): GC_CONCURRENT freed 515K, 5% free 16993K/17716K, paused 2ms+1ms, total 13ms
+02-26 17:00:56.328 D/dalvikvm( 2241): GC_CONCURRENT freed 439K, 5% free 16997K/17716K, paused 2ms+2ms, total 21ms
+02-26 17:00:56.398 D/dalvikvm( 2241): GC_CONCURRENT freed 448K, 5% free 16984K/17716K, paused 2ms+1ms, total 12ms
+02-26 17:00:56.478 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:56.608 D/dalvikvm( 2241): GC_CONCURRENT freed 298K, 4% free 17109K/17716K, paused 1ms+1ms, total 13ms
+02-26 17:00:56.738 D/dalvikvm( 2241): GC_CONCURRENT freed 395K, 4% free 17101K/17716K, paused 1ms+1ms, total 11ms
+02-26 17:00:56.768 D/dalvikvm(  742): GC_EXPLICIT freed 112K, 36% free 29489K/45576K, paused 2ms+4ms, total 54ms
+02-26 17:00:56.778 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:56.798 D/dalvikvm(14245): GC_CONCURRENT freed 406K, 3% free 17319K/17792K, paused 1ms+2ms, total 12ms
+02-26 17:00:56.968 D/dalvikvm( 2241): GC_CONCURRENT freed 570K, 4% free 17044K/17716K, paused 0ms+2ms, total 14ms
+02-26 17:00:56.968 D/dalvikvm( 2241): WAIT_FOR_CONCURRENT_GC blocked 2ms
+02-26 17:00:56.968 D/dalvikvm( 2241): WAIT_FOR_CONCURRENT_GC blocked 2ms
+02-26 17:00:57.038 D/dalvikvm( 2241): GC_CONCURRENT freed 529K, 5% free 16965K/17716K, paused 2ms+1ms, total 16ms
+02-26 17:00:57.148 D/dalvikvm( 2241): GC_CONCURRENT freed 449K, 5% free 16967K/17716K, paused 1ms+6ms, total 19ms
+02-26 17:00:57.278 D/dalvikvm( 2241): GC_CONCURRENT freed 294K, 4% free 17109K/17716K, paused 1ms+4ms, total 15ms
+02-26 17:00:57.288 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:57.318 D/dalvikvm(14245): GC_CONCURRENT freed 420K, 3% free 17295K/17792K, paused 2ms+1ms, total 12ms
+02-26 17:00:57.438 D/dalvikvm( 2241): GC_CONCURRENT freed 513K, 5% free 16997K/17716K, paused 2ms+1ms, total 11ms
+02-26 17:00:57.498 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:57.578 D/dalvikvm( 2241): GC_CONCURRENT freed 288K, 4% free 17179K/17716K, paused 0ms+2ms, total 25ms
+02-26 17:00:57.648 D/dalvikvm( 2241): GC_CONCURRENT freed 449K, 4% free 17153K/17716K, paused 1ms+1ms, total 14ms
+02-26 17:00:57.738 D/dalvikvm( 2241): GC_CONCURRENT freed 448K, 4% free 17174K/17716K, paused 0ms+1ms, total 13ms
+02-26 17:00:57.788 D/dalvikvm( 2241): GC_CONCURRENT freed 452K, 4% free 17109K/17716K, paused 1ms+1ms, total 12ms
+02-26 17:00:57.908 E/Contacts( 2241): org.json.JSONException: No value for contactId
+02-26 17:00:57.908 D/dalvikvm(14245): GC_CONCURRENT freed 380K, 3% free 17306K/17792K, paused 0ms+1ms, total 18ms
+02-26 17:00:57.928 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:57.928 I/Choreographer( 2241): Skipped 37 frames!  The application may be doing too much work on its main thread.
+02-26 17:00:57.938 D/dalvikvm( 2241): GC_CONCURRENT freed 507K, 5% free 17002K/17716K, paused 2ms+1ms, total 15ms
+02-26 17:00:58.018 D/dalvikvm( 2241): GC_CONCURRENT freed 447K, 5% free 16998K/17716K, paused 1ms+1ms, total 13ms
+02-26 17:00:58.108 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:58.108 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:58.108 D/dalvikvm( 2241): GC_CONCURRENT freed 443K, 5% free 17000K/17716K, paused 3ms+1ms, total 15ms
+02-26 17:00:58.218 D/dalvikvm( 2241): GC_CONCURRENT freed 441K, 5% free 16977K/17716K, paused 2ms+2ms, total 19ms
+02-26 17:00:58.328 D/dalvikvm( 2241): GC_CONCURRENT freed 452K, 4% free 17007K/17716K, paused 0ms+5ms, total 20ms
+02-26 17:00:58.328 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:58.438 D/dalvikvm( 2241): GC_CONCURRENT freed 292K, 4% free 17100K/17716K, paused 2ms+1ms, total 13ms
+02-26 17:00:58.568 D/dalvikvm(14245): GC_CONCURRENT freed 406K, 3% free 17314K/17792K, paused 1ms+2ms, total 16ms
+02-26 17:00:58.578 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:00:58.598 D/dalvikvm( 2241): GC_CONCURRENT freed 519K, 4% free 17148K/17716K, paused 2ms+3ms, total 35ms
+02-26 17:00:58.738 D/dalvikvm( 2241): GC_CONCURRENT freed 478K, 4% free 17172K/17716K, paused 2ms+1ms, total 14ms
+02-26 17:00:58.828 D/dalvikvm( 2241): GC_CONCURRENT freed 523K, 4% free 17112K/17716K, paused 1ms+1ms, total 12ms
+02-26 17:00:58.938 D/dalvikvm( 2241): GC_CONCURRENT freed 468K, 4% free 17156K/17716K, paused 0ms+1ms, total 19ms
+02-26 17:00:58.938 D/dalvikvm( 2241): WAIT_FOR_CONCURRENT_GC blocked 6ms
+02-26 17:00:58.978 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:00:59.908 D/dalvikvm( 2241): GC_CONCURRENT freed 518K, 4% free 17023K/17716K, paused 1ms+1ms, total 12ms
+02-26 17:01:00.588 W/chromium( 2241): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: file:///android_asset/www//opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsChangeEvent_added_attribute.html:62:15 TypeError: Cannot read property '0' of undefined
+02-26 17:01:00.588 W/chromium( 2241):     if (e.added[0]) {
+02-26 17:01:00.588 W/chromium( 2241): 
+02-26 17:01:00.678 D/dalvikvm( 2241): GC_CONCURRENT freed 359K, 4% free 17142K/17716K, paused 1ms+12ms, total 23ms
+02-26 17:01:00.678 D/dalvikvm(14245): GC_CONCURRENT freed 409K, 3% free 17319K/17792K, paused 1ms+1ms, total 17ms
+02-26 17:01:00.838 D/dalvikvm( 2241): GC_CONCURRENT freed 731K, 5% free 16922K/17716K, paused 1ms+3ms, total 19ms
+02-26 17:01:00.838 D/dalvikvm( 2241): WAIT_FOR_CONCURRENT_GC blocked 7ms
+02-26 17:01:00.858 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:01:00.938 D/dalvikvm( 2241): GC_CONCURRENT freed 450K, 5% free 16917K/17716K, paused 2ms+2ms, total 13ms
+02-26 17:01:01.058 D/dalvikvm( 2241): GC_CONCURRENT freed 443K, 5% free 16914K/17716K, paused 2ms+2ms, total 17ms
+02-26 17:01:01.178 D/dalvikvm(  742): GC_EXPLICIT freed 107K, 36% free 29491K/45576K, paused 5ms+8ms, total 99ms
+02-26 17:01:01.288 D/dalvikvm( 2241): GC_CONCURRENT freed 445K, 5% free 16932K/17716K, paused 2ms+3ms, total 13ms
+02-26 17:01:01.378 D/dalvikvm( 2241): GC_CONCURRENT freed 447K, 5% free 16958K/17716K, paused 1ms+1ms, total 12ms
+02-26 17:01:01.378 I/Choreographer( 2241): Skipped 30 frames!  The application may be doing too much work on its main thread.
+02-26 17:01:01.388 I/ActivityManager(  742): Killing 16486:com.android.musicfx/u0a13 (adj 15): empty for 1801s
+02-26 17:01:01.388 I/ActivityManager(  742): Killing 17022:com.google.android.partnersetup/u0a11 (adj 15): empty for 1801s
+02-26 17:01:03.688 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:01:03.798 W/chromium( 2241): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: file:///android_asset/www//opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsChangeEvent_modified_attribute.html:70:18 TypeError: Cannot read property '0' of undefined
+02-26 17:01:03.798 W/chromium( 2241):     if (e.modified[0]) {
+02-26 17:01:03.798 W/chromium( 2241): 
+02-26 17:01:03.838 D/dalvikvm( 2241): GC_CONCURRENT freed 329K, 4% free 17092K/17716K, paused 2ms+1ms, total 13ms
+02-26 17:01:03.858 D/dalvikvm(14245): GC_CONCURRENT freed 380K, 3% free 17325K/17792K, paused 1ms+1ms, total 11ms
+02-26 17:01:03.948 W/chromium( 2241): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: file:///android_asset/www//opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsChangeEvent_modified_attribute.html:70:18 TypeError: Cannot read property '0' of undefined
+02-26 17:01:03.948 W/chromium( 2241):     if (e.modified[0]) {
+02-26 17:01:03.948 W/chromium( 2241): 
+02-26 17:01:03.988 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:01:03.998 D/dalvikvm( 2241): GC_CONCURRENT freed 517K, 5% free 17005K/17716K, paused 1ms+1ms, total 16ms
+02-26 17:01:04.178 D/dalvikvm( 2241): GC_CONCURRENT freed 460K, 4% free 17020K/17716K, paused 2ms+8ms, total 24ms
+02-26 17:01:04.178 D/dalvikvm(14245): GC_CONCURRENT freed 444K, 3% free 17293K/17792K, paused 2ms+1ms, total 14ms
+02-26 17:01:04.348 D/dalvikvm( 2241): GC_CONCURRENT freed 474K, 5% free 17002K/17716K, paused 2ms+2ms, total 21ms
+02-26 17:01:04.468 D/dalvikvm( 2241): GC_CONCURRENT freed 447K, 5% free 16998K/17716K, paused 3ms+2ms, total 27ms
+02-26 17:01:04.578 D/dalvikvm( 2241): GC_CONCURRENT freed 438K, 5% free 16954K/17716K, paused 2ms+2ms, total 13ms
+02-26 17:01:04.668 D/dalvikvm( 2241): GC_CONCURRENT freed 445K, 5% free 16971K/17716K, paused 1ms+2ms, total 12ms
+02-26 17:01:04.748 D/dalvikvm( 2241): GC_CONCURRENT freed 446K, 5% free 16995K/17716K, paused 1ms+1ms, total 12ms
+02-26 17:01:04.808 W/BindingManager( 2241): Cannot call determinedVisibility() - never saw a connection for the pid: 2241
+02-26 17:01:04.958 D/dalvikvm( 2241): GC_CONCURRENT freed 309K, 4% free 17114K/17716K, paused 2ms+1ms, total 14ms
+02-26 17:01:04.988 D/dalvikvm(14245): GC_CONCURRENT freed 367K, 3% free 17324K/17792K, paused 1ms+2ms, total 12ms
+02-26 17:01:05.078 E/Contacts( 2241): org.json.JSONException: No value for contactId
+02-26 17:01:05.098 I/chromium( 2241): [INFO:CONSOLE(70)] "WARNING: Message from backend doesn't have data.", source:  (70)
+02-26 17:01:05.098 I/chromium( 2241): [INFO:CONSOLE(62)] "Uncaught (in promise) ReferenceError: info is not defined", source: file:///android_asset/www//opt/webapi-contactsmanager-w3c-tests/contactsmanager/ContactsChangeEvent_removed_attribute.html (62)
+02-26 17:01:05.108 D/dalvikvm( 2241): GC_CONCURRENT freed 518K, 5% free 16997K/17716K, paused 1ms+1ms, total 15ms
+02-26 17:01:05.178 D/dalvikvm( 2241): GC_CONCURRENT freed 447K, 5% free 16991K/17716K, paused 2ms+1ms, total 12ms
+02-26 17:01:05.308 D/dalvikvm( 2241): GC_CONCURRENT freed 447K, 5% free 16988K/17716K, paused 2ms+3ms, total 31ms
+02-26 17:01:06.268 D/AndroidRuntime( 3834): 
+02-26 17:01:06.268 D/AndroidRuntime( 3834): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-26 17:01:06.268 D/AndroidRuntime( 3834): CheckJNI is OFF
+02-26 17:01:06.278 D/dalvikvm( 3834): Trying to load lib libjavacore.so 0x0
+02-26 17:01:06.278 D/dalvikvm( 3834): Added shared lib libjavacore.so 0x0
+02-26 17:01:06.278 D/dalvikvm( 3834): Trying to load lib libnativehelper.so 0x0
+02-26 17:01:06.278 D/dalvikvm( 3834): Added shared lib libnativehelper.so 0x0
+02-26 17:01:06.278 D/dalvikvm( 3834): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-26 17:01:06.308 D/dalvikvm( 3834): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+02-26 17:01:06.428 D/AndroidRuntime( 3834): Calling main entry com.android.commands.am.Am
+02-26 17:01:06.468 D/dalvikvm(  742): GC_FOR_ALLOC freed 1747K, 36% free 29484K/45576K, paused 41ms, total 41ms
+02-26 17:01:06.468 I/ActivityManager(  742): Force stopping org.xwalk.webapi_noneservice_tests appid=12169 user=0: from pid 3834
+02-26 17:01:06.468 I/ActivityManager(  742): Killing 2241:org.xwalk.webapi_noneservice_tests/u0a2169 (adj 0): stop org.xwalk.webapi_noneservice_tests
+02-26 17:01:06.478 D/AndroidRuntime( 3834): Shutting down VM
+02-26 17:01:06.478 D/dalvikvm( 3834): GC_CONCURRENT freed 93K, 15% free 553K/648K, paused 0ms+0ms, total 1ms
+02-26 17:01:06.518 D/SearchServiceImpl(14078): onCreate()
+02-26 17:01:06.518 V/SearchControllerCache(14078): creating SearchController
+02-26 17:01:06.518 D/SearchServiceImpl(14078): onBind(Intent { cmp=com.google.android.googlequicksearchbox/com.google.android.searchcommon.service.SearchServiceImpl })
+02-26 17:01:06.538 I/WindowState(  742): WIN DEATH: Window{4366d270 u0 org.xwalk.webapi_noneservice_tests/org.xwalk.webapi_noneservice_tests.webapi_noneservice_tests}
+02-26 17:01:06.538 D/SearchServiceImpl(14078): setSearchServiceUiCallback(com.google.android.search.service.ISearchServiceUiCallback$Stub$Proxy@426594a8)
+02-26 17:01:06.558 W/SurfaceFlinger(  179): couldn't log to binary event log: overflow.
+02-26 17:01:06.568 D/audio_hw_primary(  182): select_devices: out_snd_device(0: ) in_snd_device(35: voice-rec-mic)
+02-26 17:01:06.568 D/        (  182): Failed to fetch the lookup information of the device 0000003E 
+02-26 17:01:06.568 E/ACDB-LOADER(  182): Error: ACDB AudProc vol returned = -19
+02-26 17:01:06.658 I/SearchController(14078): #onHotwordDetectorStarted

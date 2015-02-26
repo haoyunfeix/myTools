@@ -15,3 +15,20 @@ cp rerun_xml/webdriver_xml/*.xml merge_xml/
 ./stats.py -f merge_xml/result_tct-canvas-html5-tests.xml --id canvasgradient_addColorStop_INDEX_SIZE_ERR -c PASS
 ./stats.py -f merge_xml/result_tct-webstorage-w3c-tests.xml --id event_constructor -c PASS
 
+cp -a merge_xml wd_merge_xml
+list="result_tct-3dtransforms-css3-tests.xml
+result_tct-audio-html5-tests.xml
+result_tct-backgrounds-css3-tests.xml
+result_tct-canvas-html5-tests.xml
+result_tct-colors-css3-tests.xml
+result_tct-csp-w3c-tests.xml
+result_tct-extra-html5-tests.xml
+result_tct-flexiblebox-css3-tests.xml
+result_tct-fonts-css3-tests.xml
+result_tct-multicolumn-css3-tests.xml
+result_tct-svg-html5-tests.xml
+result_tct-text-css3-tests.xml
+result_tct-webstorage-w3c-tests.xml"
+for i in $list;do
+    ./merge.py --f1 wd_merge_xml/$i --f2 wd_merge_xml/wd_$i --f3 wd_merge_xml/$i
+done

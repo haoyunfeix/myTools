@@ -1,0 +1,4 @@
+Total TCs: 11625 , Passed: 9849 , Failed: 751 , Blocked: 1025 , Run%: 91% , Pass%: 85%
+
+------------ Web API ------------
+Total TCs: 11625 , Passed: 9849 , Failed: 751 , Blocked: 1025 , Run%: 91% , Pass%: 85%

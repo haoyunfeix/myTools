@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <?xml-stylesheet type="text/xsl" href="testresult.xsl"?>
+<test_definition><environment build_id="" device_id="01c2cf0850c615e0" device_model="" device_name="N/A" host="Linux-3.13.0-43-generic-x86_64-with-Ubuntu-12.04-precise" lite_version="3.1.13" manufacturer="" resolution="N/A" screen_size="N/A"><other /></environment>
+<summary test_plan_name="Empty test_plan_name"><start_at>2015-02-25_16_01_07</start_at><end_at>2015-02-25_16_01_28</end_at></summary>
+  <suite category="W3C/HTML5 APIs" name="tct-flexiblebox-css3-tests" widget="webapi-noneservice-tests">
+    <set name="FlexibleBox" set_debug_msg="N/A" type="js">
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Flexible Box Layout Module" execution_type="auto" id="CSS3FlexBox_flex-direction" purpose="Check if the 'flex-direction' property exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-flexiblebox-css3-tests/flexiblebox/CSS3FlexBox_flex-direction.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 07:59:53</start><end>2015-02-25 07:59:53</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Flexible Box Layout Module" execution_type="auto" id="CSS3FlexBox_flex-flow" purpose="Check if the 'flex-flow' property exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-flexiblebox-css3-tests/flexiblebox/CSS3FlexBox_flex-flow.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 07:59:53</start><end>2015-02-25 07:59:54</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Flexible Box Layout Module" execution_type="auto" id="CSS3FlexBox_flex-wrap" purpose="Check if the 'flex-wrap' property exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-flexiblebox-css3-tests/flexiblebox/CSS3FlexBox_flex-wrap.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 07:59:54</start><end>2015-02-25 07:59:54</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Flexible Box Layout Module" execution_type="auto" id="CSS3FlexBox_flex" purpose="Check if the 'flex' property exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-flexiblebox-css3-tests/flexiblebox/CSS3FlexBox_flex.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 07:59:54</start><end>2015-02-25 07:59:54</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Flexible Box Layout Module" execution_type="auto" id="CSS3FlexBox_align-content" purpose="Check if the 'align-content' property exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-flexiblebox-css3-tests/flexiblebox/CSS3FlexBox_align-content.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 07:59:54</start><end>2015-02-25 07:59:54</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Flexible Box Layout Module" execution_type="auto" id="CSS3FlexBox_align-items" purpose="Check if the 'align-items' property exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-flexiblebox-css3-tests/flexiblebox/CSS3FlexBox_align-items.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 07:59:54</start><end>2015-02-25 07:59:54</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Flexible Box Layout Module" execution_type="auto" id="CSS3FlexBox_align-self" purpose="Check if the 'align-self' property exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-flexiblebox-css3-tests/flexiblebox/CSS3FlexBox_align-self.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 07:59:54</start><end>2015-02-25 07:59:55</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Flexible Box Layout Module" execution_type="auto" id="CSS3FlexBox_flex-basis" purpose="Check if the 'flex-basis' property exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-flexiblebox-css3-tests/flexiblebox/CSS3FlexBox_flex-basis.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 07:59:55</start><end>2015-02-25 07:59:55</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Flexible Box Layout Module" execution_type="auto" id="CSS3FlexBox_flex-grow" purpose="Check if the 'flex-grow' property exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-flexiblebox-css3-tests/flexiblebox/CSS3FlexBox_flex-grow.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 07:59:55</start><end>2015-02-25 07:59:55</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Flexible Box Layout Module" execution_type="auto" id="CSS3FlexBox_flex-shrink" purpose="Check if the 'flex-shrink' property exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-flexiblebox-css3-tests/flexiblebox/CSS3FlexBox_flex-shrink.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 07:59:55</start><end>2015-02-25 07:59:55</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Flexible Box Layout Module" execution_type="auto" id="CSS3FlexBox_justify-content" purpose="Check if the 'justify-content' property exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-flexiblebox-css3-tests/flexiblebox/CSS3FlexBox_justify-content.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 07:59:55</start><end>2015-02-25 07:59:55</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Flexible Box Layout Module" execution_type="auto" id="CSS3FlexBox_min-height" purpose="Check if the 'min-height' property exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-flexiblebox-css3-tests/flexiblebox/CSS3FlexBox_min-height.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 07:59:55</start><end>2015-02-25 07:59:56</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Flexible Box Layout Module" execution_type="auto" id="CSS3FlexBox_min-width" purpose="Check if the 'min-width' property exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-flexiblebox-css3-tests/flexiblebox/CSS3FlexBox_min-width.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 07:59:56</start><end>2015-02-25 07:59:56</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Flexible Box Layout Module" execution_type="auto" id="CSS3FlexBox_order" purpose="Check if the 'order' property exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-flexiblebox-css3-tests/flexiblebox/CSS3FlexBox_order.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 07:59:56</start><end>2015-02-25 07:59:56</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Flexible Box Layout Module" execution_type="auto" id="CSS3FlexBox_align-content_initial_value" purpose="Check if the initial value of align-content is stretch" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-flexiblebox-css3-tests/flexiblebox/CSS3FlexBox_initial_value.html?total_num=11&amp;locator_key=id&amp;value=1</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 07:59:56</start><end>2015-02-25 07:59:56</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Flexible Box Layout Module" execution_type="auto" id="CSS3FlexBox_align-items_initial_value" purpose="Check if the initial value of align-items is stretch" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-flexiblebox-css3-tests/flexiblebox/CSS3FlexBox_initial_value.html?total_num=11&amp;locator_key=id&amp;value=2</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 07:59:56</start><end>2015-02-25 07:59:56</end><stdout>[Message]assert_equals: The initial value of align-items expected "stretch" but got "start"</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Flexible Box Layout Module" execution_type="auto" id="CSS3FlexBox_align-self_initial_value" purpose="Check if the initial value of align-self is stretch" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-flexiblebox-css3-tests/flexiblebox/CSS3FlexBox_initial_value.html?total_num=11&amp;locator_key=id&amp;value=3</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 07:59:56</start><end>2015-02-25 07:59:56</end><stdout>[Message]assert_equals: The initial value of align-self expected "auto" but got "start"</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Flexible Box Layout Module" execution_type="auto" id="CSS3FlexBox_flex_initial_value" purpose="Check if the initial value of flex is '0 1 auto'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-flexiblebox-css3-tests/flexiblebox/CSS3FlexBox_initial_value.html?total_num=11&amp;locator_key=id&amp;value=4</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 07:59:56</start><end>2015-02-25 07:59:56</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Flexible Box Layout Module" execution_type="auto" id="CSS3FlexBox_flex-basis_initial_value" purpose="Check if the initial value of flex-basis is auto" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-flexiblebox-css3-tests/flexiblebox/CSS3FlexBox_initial_value.html?total_num=11&amp;locator_key=id&amp;value=5</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 07:59:56</start><end>2015-02-25 07:59:56</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Flexible Box Layout Module" execution_type="auto" id="CSS3FlexBox_flex-grow_initial_value" purpose="Check if the initial value of flex-grow is 0" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-flexiblebox-css3-tests/flexiblebox/CSS3FlexBox_initial_value.html?total_num=11&amp;locator_key=id&amp;value=6</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 07:59:56</start><end>2015-02-25 07:59:56</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Flexible Box Layout Module" execution_type="auto" id="CSS3FlexBox_flex-shrink_initial_value" purpose="Check if the initial value of flex-shrink is 1" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-flexiblebox-css3-tests/flexiblebox/CSS3FlexBox_initial_value.html?total_num=11&amp;locator_key=id&amp;value=7</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 07:59:56</start><end>2015-02-25 07:59:56</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Flexible Box Layout Module" execution_type="auto" id="CSS3FlexBox_justify-content_initial_value" purpose="Check if the initial value of justify-content is flex-start" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-flexiblebox-css3-tests/flexiblebox/CSS3FlexBox_initial_value.html?total_num=11&amp;locator_key=id&amp;value=8</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-25 07:59:56</start><end>2015-02-25 07:59:56</end><stdout>[Message]assert_equals: The initial value of justify-content expected "flex-start" but got "start"</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Flexible Box Layout Module" execution_type="auto" id="CSS3FlexBox_min-height_initial_value" purpose="Check if the initial value of min-height is 0px" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-flexiblebox-css3-tests/flexiblebox/CSS3FlexBox_initial_value.html?total_num=11&amp;locator_key=id&amp;value=9</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 07:59:57</start><end>2015-02-25 07:59:57</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Flexible Box Layout Module" execution_type="auto" id="CSS3FlexBox_min-width_initial_value" purpose="Check if the initial value of min-width is 0px" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-flexiblebox-css3-tests/flexiblebox/CSS3FlexBox_initial_value.html?total_num=11&amp;locator_key=id&amp;value=10</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 07:59:57</start><end>2015-02-25 07:59:57</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Flexible Box Layout Module" execution_type="auto" id="CSS3FlexBox_order_initial_value" purpose="Check if the initial value of order is 0" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-flexiblebox-css3-tests/flexiblebox/CSS3FlexBox_initial_value.html?total_num=11&amp;locator_key=id&amp;value=11</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-25 07:59:57</start><end>2015-02-25 07:59:57</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+    </set>
+    <set name="reftest" type="ref" ui-auto="wd">
+      </set>
+  </suite>
+</test_definition>

@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <?xml-stylesheet type="text/xsl" href="testresult.xsl"?>
+<test_definition><environment build_id="" device_id="E6OKCY549771" device_model="" device_name="N/A" host="Linux-3.13.0-39-generic-x86_64-with-Ubuntu-12.04-precise" lite_version="3.1.13" manufacturer="" resolution="N/A" screen_size="N/A"><other /></environment>
+<summary test_plan_name="Empty test_plan_name"><start_at>2015-02-13_11_08_28</start_at><end_at>2015-02-13_11_08_48</end_at></summary>
+  <suite category="W3C/HTML5 APIs" name="tct-selectorslevel1-w3c-tests" widget="webapi-noneservice-tests">
+    <set name="SelectorsLevel1" set_debug_msg="N/A" type="js">
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_documentfragment_queryselectorall_exists" purpose="Check if DocumentFragment.querySelectorAll() method exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/selectors1_documentfragment_queryselectorall_exists.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:37</start><end>2015-02-13 11:09:38</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_documentfragment_queryselector_exists" purpose="Check if DocumentFragment.querySelector() method exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/selectors1_documentfragment_queryselector_exists.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:38</start><end>2015-02-13 11:09:38</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_document_queryselectorall_exists" purpose="Check if document.querySelectorAll() method exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/selectors1_document_queryselectorall_exists.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:38</start><end>2015-02-13 11:09:38</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_document_queryselector_exists" purpose="Check if document.querySelector() method exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/selectors1_document_queryselector_exists.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:38</start><end>2015-02-13 11:09:38</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_element_queryselectorall_exists" purpose="Check if element.querySelectorAll() method exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/selectors1_element_queryselectorall_exists.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:38</start><end>2015-02-13 11:09:38</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_element_queryselector_exists" purpose="Check if element.querySelector() method exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/selectors1_element_queryselector_exists.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:38</start><end>2015-02-13 11:09:38</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_documentfragment_queryselector_return_first" purpose="Check if DocumentFragment.querySelector() method must return the first matching Element node within the subtrees of the context node" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/selectors1_documentfragment_queryselector_return_first.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:38</start><end>2015-02-13 11:09:38</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_document_queryselector_return_null" purpose="Check if document.querySelector() method return null if there is no matching Element" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/selectors1_document_queryselector_return_null.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:38</start><end>2015-02-13 11:09:38</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_element_queryselector_return_first" purpose="Check if element.querySelector() method must return the first matching Element node within the subtrees of the context node" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/selectors1_element_queryselector_return_first.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:38</start><end>2015-02-13 11:09:39</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_document_queryselector_type" purpose="Check if document.querySelector() method is of type function" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=1</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:39</start><end>2015-02-13 11:09:40</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_document_queryselectorall_type" purpose="Check if document.querySelectorAll() method is of type function" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=2</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:41</start><end>2015-02-13 11:09:41</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_document_queryselectorall_return_nodelist" purpose="Check if document.querySelectorAll() method return a NodeList containing all of the matching Element nodes within the subtrees of the context node" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=3</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:41</start><end>2015-02-13 11:09:41</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_documentfragment_queryselector_type" purpose="Check if DocumentFragment.querySelector() method is of type function" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=7</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:41</start><end>2015-02-13 11:09:41</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_documentfragment_queryselectorall_type" purpose="Check if DocumentFragment.querySelectorAll() method is of type function" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=8</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:41</start><end>2015-02-13 11:09:41</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_documentfragment_queryselectorall_return_nodelist" purpose="Check if DocumentFragment.querySelectorAll() method return a NodeList containing all of the matching Element nodes within the subtrees of the context node, in document order" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=9</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:41</start><end>2015-02-13 11:09:41</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_element_queryselector_type" purpose="Check if element.querySelector() method is of type function" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=10</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:41</start><end>2015-02-13 11:09:41</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_element_queryselectorall_type" purpose="Check if element.querySelectorAll() method is of type function" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=11</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:41</start><end>2015-02-13 11:09:41</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_element_queryselectorall_return_nodelist" purpose="Check if element.querySelectorAll() method must return a NodeList containing all of the matching Element nodes within the subtrees of the context node, in document order" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=12</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:41</start><end>2015-02-13 11:09:41</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_document_queryselectorall_argument_null" purpose="Check if document.querySelectorAll() method with argument of null that return object type of NodeList" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=13</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:41</start><end>2015-02-13 11:09:41</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_document_queryselector_argument_null" purpose="Check if document.querySelector() method with argument of null that must return null" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=16</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:41</start><end>2015-02-13 11:09:41</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_documentfragment_queryselectorall_argument_null" purpose="Check if DocumentFragment.querySelectorAll() method with argument of null that return object type of NodeList" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=27</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:41</start><end>2015-02-13 11:09:41</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_documentfragment_queryselector_argument_null" purpose="Check if DocumentFragment.querySelector() method with argument of null that must return null" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=30</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:41</start><end>2015-02-13 11:09:41</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_element_queryselectorall_argument_null" purpose="Check if element.querySelectorAll() method with argument of null that return object type of NodeList" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=34</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:41</start><end>2015-02-13 11:09:41</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_element_queryselector_argument_null" purpose="Check if element.querySelector() method with argument of null that must return null" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=37</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:41</start><end>2015-02-13 11:09:41</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_document_queryselectorall_return_empty_nodelist" purpose="Check if document.querySelectorAll() method must return an empty NodeList if there are no matching nodes" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=50</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:41</start><end>2015-02-13 11:09:41</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_documentfragment_queryselectorall_return_empty_nodelist" purpose="Check if DocumentFragment.querySelectorAll() method must return an empty NodeList if there are no matching Element nodes" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=178</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:41</start><end>2015-02-13 11:09:41</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_element_queryselectorall_return_empty_nodelist" purpose="Check if element.querySelectorAll() method return an empty NodeList if there are no matching nodes" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=242</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:41</start><end>2015-02-13 11:09:41</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_document_queryselectorall_argument_tag" purpose="Check if document.querySelectorAll() method with argument of tag name should return the expected number of matches" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=305</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:41</start><end>2015-02-13 11:09:41</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_document_queryselector_argument_tag" purpose="Check if document.querySelector() method must match element with specified tag" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=306</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:41</start><end>2015-02-13 11:09:41</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_document_queryselectorall_argument_class" purpose="Check if document.querySelectorAll() method with argument of class name should return the expected number of matches" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=409</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:41</start><end>2015-02-13 11:09:41</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_document_queryselector_argument_class" purpose="Check if document.querySelector() method must match element with specified class" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=410</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:42</start><end>2015-02-13 11:09:42</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_document_queryselectorall_argument_id" purpose="Check if document.querySelectorAll() method with argument of id name should return the expected number of matches" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=425</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:42</start><end>2015-02-13 11:09:42</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_document_queryselector_argument_id" purpose="Check if document.querySelector() method must match element with specified id" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=426</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:42</start><end>2015-02-13 11:09:42</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_document_queryselector_return_first" purpose="Check if document.querySelector() method must return the first matching Element node within the subtrees of the context node" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=430</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:42</start><end>2015-02-13 11:09:42</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_document_queryselectorall_argument_tag_id" purpose="Check if document.querySelectorAll() method with argument of element's tag name and id that must return a NodeList containing all of the matching Element nodes" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=473</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:42</start><end>2015-02-13 11:09:42</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_document_queryselector_argument_tag_id" purpose="Check if document.querySelector() method with argument of element's tag name and id that must return the first matching Element node" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=474</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:42</start><end>2015-02-13 11:09:42</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_document_queryselectorall_argument_tag_tag" purpose="Check if document.querySelectorAll() method with argument of element's 2 tags name that must return a NodeList containing all of the matching Element nodes" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=475</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:42</start><end>2015-02-13 11:09:42</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_document_queryselector_argument_tag_tag" purpose="Check if document.querySelector() method with argument of element's 2 tags name that must return the first matching Element node" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=476</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:42</start><end>2015-02-13 11:09:42</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_document_queryselectorall_argument_tag_class" purpose="Check if document.querySelectorAll() method with argument of element's tag name and classname that must return a NodeList containing all of the matching Element nodes" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=477</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:42</start><end>2015-02-13 11:09:42</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_document_queryselector_argument_tag_class" purpose="Check if document.querySelector() method with argument of element's tag name and classname that must return the first matching Element node" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=478</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:42</start><end>2015-02-13 11:09:42</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_document_queryselectorall_argument_class_id" purpose="Check if document.querySelectorAll() method with argument of element's classname and id that must return a NodeList containing all of the matching Element nodes" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=483</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:42</start><end>2015-02-13 11:09:42</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_document_queryselector_argument_class_id" purpose="Check if document.querySelector() method with argument of element's classname and id that must return the first matching Element node" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=484</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:42</start><end>2015-02-13 11:09:42</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_documentfragment_queryselectorall_argument_tag" purpose="Check if documentfragment.querySelectorAll() method with argument of tag name should return the expected number of matches" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=745</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:42</start><end>2015-02-13 11:09:42</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_documentfragment_queryselector_argument_tag" purpose="Check if documentfragment.querySelector() method must match element with specified tag" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=746</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:42</start><end>2015-02-13 11:09:42</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_documentfragment_queryselectorall_argument_class" purpose="Check if documentfragment.querySelectorAll() method with argument of class name should return the expected number of matches" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=851</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:42</start><end>2015-02-13 11:09:42</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_documentfragment_queryselector_argument_class" purpose="Check if documentfragment.querySelector() method must match element with specified class" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=852</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:42</start><end>2015-02-13 11:09:42</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_documentfragment_queryselectorall_argument_id" purpose="Check if documentfragment.querySelectorAll() method with argument of id name should return the expected number of matches" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=867</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:42</start><end>2015-02-13 11:09:42</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_documentfragment_queryselector_argument_id" purpose="Check if documentfragment.querySelector() method must match element with specified id" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=868</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:42</start><end>2015-02-13 11:09:42</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_documentfragment_queryselectorall_argument_tag_id" purpose="Check if DocumentFragment.querySelectorAll() method with argument of tag name and id that return a NodeList containing all of the matching Element nodes" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=913</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:42</start><end>2015-02-13 11:09:42</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_documentfragment_queryselector_argument_tag_id" purpose="Check if DocumentFragment.querySelector() method with argument of element's tag name and id that return the first matching Element node" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=914</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:42</start><end>2015-02-13 11:09:42</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_documentfragment_queryselectorall_argument_tag_tag" purpose="Check if DocumentFragment.querySelectorAll() method with argument of 2 tags name that return a NodeList containing all of the matching Element nodes" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=915</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:42</start><end>2015-02-13 11:09:42</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_documentfragment_queryselector_argument_tag_tag" purpose="Check if DocumentFragment.querySelector() method with argument of element's 2 tags name that return the first matching Element node" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=916</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:42</start><end>2015-02-13 11:09:42</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_documentfragment_queryselectorall_argument_tag_class" purpose="Check if DocumentFragment.querySelectorAll() method with argument of tag name and classname that return a NodeList containing all of the matching Element nodes" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=917</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:42</start><end>2015-02-13 11:09:42</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_documentfragment_queryselector_argument_tag_class" purpose="Check if DocumentFragment.querySelector() method with argument of element's tag name and classname that return the first matching Element node" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=918</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:42</start><end>2015-02-13 11:09:42</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_documentfragment_queryselectorall_argument_class_id" purpose="Check if DocumentFragment.querySelectorAll() method with argument of classname and id that return a NodeList containing all of the matching Element nodes" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=923</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:42</start><end>2015-02-13 11:09:42</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_documentfragment_queryselector_argument_class_id" purpose="Check if DocumentFragment.querySelector() method with argument of element's classname and id that return the first matching Element node with argument of element class" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=924</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:42</start><end>2015-02-13 11:09:42</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_element_queryselectorall_argument_tag" purpose="Check if element.querySelectorAll() method with argument of tag name should return the expected number of matches" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=965</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:42</start><end>2015-02-13 11:09:42</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_element_queryselector_argument_tag" purpose="Check if element.querySelector() method must match element with specified tag" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=966</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:42</start><end>2015-02-13 11:09:42</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_element_queryselectorall_argument_class" purpose="Check if element.querySelectorAll() method with argument of class name should return the expected number of matches" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=1071</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:42</start><end>2015-02-13 11:09:42</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_element_queryselector_argument_class" purpose="Check if element.querySelector() method must match element with specified class" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=1072</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:42</start><end>2015-02-13 11:09:42</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_element_queryselectorall_argument_id" purpose="Check if element.querySelectorAll() method with argument of id name should return the expected number of matches" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=1087</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:42</start><end>2015-02-13 11:09:42</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_element_queryselector_argument_id" purpose="Check if element.querySelector() method must match element with specified id" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=1088</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:42</start><end>2015-02-13 11:09:42</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_element_queryselectorall_argument_tag_id" purpose="Check if element.querySelectorAll() method with argument of element's tag name and id that must return a NodeList containing all of the matching Element nodes" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=1135</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:43</start><end>2015-02-13 11:09:43</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_element_queryselector_argument_tag_id" purpose="Check if element.querySelector() method with argument of element's tag name and id that must return the first matching Element node" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=1136</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:43</start><end>2015-02-13 11:09:43</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_element_queryselectorall_argument_tag_tag" purpose="Check if element.querySelectorAll() method with argument of element's 2 tags name that must return a NodeList containing all of the matching Element nodes" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=1137</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:43</start><end>2015-02-13 11:09:43</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_element_queryselector_argument_tag_tag" purpose="Check if element.querySelector() method with argument of element's 2 tags name that must return the first matching Element node" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=1138</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:43</start><end>2015-02-13 11:09:43</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_element_queryselectorall_argument_tag_class" purpose="Check if element.querySelectorAll() method with argument of element's tag name and classname that must return a NodeList containing all of the matching Element nodes" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=1139</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:43</start><end>2015-02-13 11:09:43</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_element_queryselector_argument_tag_class" purpose="Check if element.querySelector() method with argument of element's tag name and classname that must return the first matching Element node" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=1140</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:43</start><end>2015-02-13 11:09:43</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_element_queryselectorall_argument_class_id" purpose="Check if element.querySelectorAll() method with argument of element's classname and id that must return a NodeList containing all of the matching Element nodes" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=1145</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:43</start><end>2015-02-13 11:09:43</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_element_queryselector_argument_class_id" purpose="Check if element.querySelector() method with argument of element's classname and id that must return the first matching Element node" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/w3c/level1-baseline.html?total_num=1186&amp;locator_key=id&amp;value=1146</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:43</start><end>2015-02-13 11:09:43</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_documentfragment_queryselector_return_null" purpose="Check if DocumentFragment.querySelector() method return null if there is no matching Element" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/selectors1_documentfragment_queryselector_return_null.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:43</start><end>2015-02-13 11:09:43</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/Selectors API Level 1" execution_type="auto" id="selectors1_element_queryselector_return_null" purpose="Check if element.querySelector() method return null if there is no matching Element" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-selectorslevel1-w3c-tests/selectorslevel1/selectors1_element_queryselector_return_null.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-13 11:09:43</start><end>2015-02-13 11:09:43</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+  </suite>
+</test_definition>
