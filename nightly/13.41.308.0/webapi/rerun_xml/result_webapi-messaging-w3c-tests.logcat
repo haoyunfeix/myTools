@@ -1,0 +1,1167 @@
+--------- beginning of /dev/log/main
+02-27 12:01:18.000 D/BatteryStatsImpl(  515): noteStopWakeLocked system isFromForeground = false
+02-27 12:01:18.200 D/AndroidRuntime(15126): 
+02-27 12:01:18.200 D/AndroidRuntime(15126): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-27 12:01:18.200 D/AndroidRuntime(15126): CheckJNI is OFF
+02-27 12:01:18.200 I/AndroidRuntime(15126): Kernel Release Version: 3.10.20-g19cc1a3
+02-27 12:01:18.200 I/dalvikvm(15126): No library specified. The standard exception handler will be used
+02-27 12:01:18.200 I/dalvikvm(15126): 
+02-27 12:01:18.200 I/dalvikvm(15126): +++++++++++++ Using PCG. +++++++++++++++++++++
+02-27 12:01:18.210 D/dalvikvm(15126): Trying to load lib libjavacore.so 0x0
+02-27 12:01:18.210 D/dalvikvm(15126): Added shared lib libjavacore.so 0x0
+02-27 12:01:18.210 D/dalvikvm(15126): Trying to load lib libnativehelper.so 0x0
+02-27 12:01:18.210 D/dalvikvm(15126): Added shared lib libnativehelper.so 0x0
+02-27 12:01:18.210 D/dalvikvm(15126): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-27 12:01:18.220 D/dalvikvm(15126): Extra Options: not specified
+02-27 12:01:18.230 D/dalvikvm(15126): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+02-27 12:01:18.300 E/memtrack(15126): Couldn't load memtrack module (No such file or directory)
+02-27 12:01:18.300 E/android.os.Debug(15126): failed to load memtrack module: -2
+02-27 12:01:18.340 D/AndroidRuntime(15126): Calling main entry com.android.commands.am.Am
+--------- beginning of /dev/log/system
+02-27 12:01:18.380 I/ActivityManager(  515): Force stopping org.xwalk.webapi_noneservice_tests appid=11748 user=0: from pid 15126
+02-27 12:01:18.390 D/AndroidRuntime(15126): Shutting down VM
+02-27 12:01:18.390 D/dalvikvm(15126): GC_CONCURRENT freed 108K, 16% free 638K/760K, paused 0ms+0ms, total 1ms
+02-27 12:01:18.390 D/dalvikvm(15126): Compiler shutdown in progress - discarding request
+02-27 12:01:18.390 D/dalvikvm(15126): Compiler shutdown in progress - discarding request
+02-27 12:01:18.390 D/dalvikvm(15126): Compiler shutdown in progress - discarding request
+02-27 12:01:18.390 D/dalvikvm(15126): Compiler shutdown in progress - discarding request
+02-27 12:01:18.390 D/dalvikvm(15126): Compiler shutdown in progress - discarding request
+02-27 12:01:18.390 D/dalvikvm(15126): Compiler shutdown in progress - discarding request
+02-27 12:01:18.390 D/dalvikvm(15126): Compiler shutdown in progress - discarding request
+02-27 12:01:18.390 D/dalvikvm(15126): Compiler shutdown in progress - discarding request
+02-27 12:01:18.390 D/dalvikvm(15126): Compiler shutdown in progress - discarding request
+02-27 12:01:18.390 D/dalvikvm(15126): Compiler shutdown in progress - discarding request
+02-27 12:01:18.390 D/dalvikvm(15126): Compiler shutdown in progress - discarding request
+02-27 12:01:18.390 D/dalvikvm(15126): Compiler shutdown in progress - discarding request
+02-27 12:01:18.390 D/dalvikvm(15126): Compiler shutdown in progress - discarding request
+02-27 12:01:18.390 D/dalvikvm(15126): Compiler shutdown in progress - discarding request
+02-27 12:01:18.390 D/dalvikvm(15126): Compiler shutdown in progress - discarding request
+02-27 12:01:18.390 D/dalvikvm(15126): Compiler shutdown in progress - discarding request
+02-27 12:01:18.390 D/dalvikvm(15126): Compiler shutdown in progress - discarding request
+02-27 12:01:18.390 D/dalvikvm(15126): Compiler shutdown in progress - discarding request
+02-27 12:01:18.390 D/dalvikvm(15126): Compiler shutdown in progress - discarding request
+02-27 12:01:18.390 D/dalvikvm(15126): Compiler shutdown in progress - discarding request
+02-27 12:01:18.390 D/dalvikvm(15126): Compiler shutdown in progress - discarding request
+02-27 12:01:18.390 D/dalvikvm(15126): Compiler shutdown in progress - discarding request
+02-27 12:01:18.390 D/dalvikvm(15126): Compiler shutdown in progress - discarding request
+02-27 12:01:18.390 D/dalvikvm(15126): Compiler shutdown in progress - discarding request
+02-27 12:01:18.390 D/dalvikvm(15126): Compiler shutdown in progress - discarding request
+02-27 12:01:18.390 D/dalvikvm(15126): Compiler shutdown in progress - discarding request
+02-27 12:01:18.390 D/dalvikvm(15126): Compiler shutdown in progress - discarding request
+02-27 12:01:18.390 D/dalvikvm(15126): Compiler shutdown in progress - discarding request
+02-27 12:01:18.390 D/dalvikvm(15126): Compiler shutdown in progress - discarding request
+02-27 12:01:18.390 D/dalvikvm(15126): Compiler shutdown in progress - discarding request
+02-27 12:01:18.390 D/dalvikvm(15126): Compiler shutdown in progress - discarding request
+02-27 12:01:18.390 D/dalvikvm(15126): Compiler shutdown in progress - discarding request
+02-27 12:01:18.390 D/dalvikvm(15126): Compiler shutdown in progress - discarding request
+02-27 12:01:18.390 D/dalvikvm(15126): Compiler shutdown in progress - discarding request
+02-27 12:01:18.390 D/dalvikvm(15126): Compiler shutdown in progress - discarding request
+02-27 12:01:18.390 D/dalvikvm(15126): Compiler shutdown in progress - discarding request
+02-27 12:01:18.390 D/dalvikvm(15126): Compiler shutdown in progress - discarding request
+02-27 12:01:18.390 D/dalvikvm(15126): Compiler shutdown in progress - discarding request
+02-27 12:01:18.390 D/dalvikvm(15126): Compiler shutdown in progress - discarding request
+02-27 12:01:18.390 D/dalvikvm(15126): Compiler shutdown in progress - discarding request
+02-27 12:01:18.390 D/dalvikvm(15126): Compiler shutdown in progress - discarding request
+02-27 12:01:18.390 D/dalvikvm(15126): Compiler shutdown in progress - discarding request
+02-27 12:01:18.580 I/WifiHW  (  515): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 12:01:18.580 D/wpa_supplicant(  628): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 12:01:18.580 D/wpa_supplicant(  628): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 12:01:18.600 D/wpa_supplicant(  628): nl80211: survey data missing!
+02-27 12:01:18.600 I/WifiHW  (  515): REPLY: RSSI=-49
+02-27 12:01:18.600 I/WifiHW  (  515): REPLY: LINKSPEED=65
+02-27 12:01:18.600 I/WifiHW  (  515): REPLY: NOISE=9999
+02-27 12:01:18.600 I/WifiHW  (  515): REPLY: FREQUENCY=2462
+02-27 12:01:19.090 D/AndroidRuntime(15137): 
+02-27 12:01:19.090 D/AndroidRuntime(15137): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-27 12:01:19.090 D/AndroidRuntime(15137): CheckJNI is OFF
+02-27 12:01:19.090 I/AndroidRuntime(15137): Kernel Release Version: 3.10.20-g19cc1a3
+02-27 12:01:19.090 I/dalvikvm(15137): No library specified. The standard exception handler will be used
+02-27 12:01:19.090 I/dalvikvm(15137): 
+02-27 12:01:19.090 I/dalvikvm(15137): +++++++++++++ Using PCG. +++++++++++++++++++++
+02-27 12:01:19.100 D/dalvikvm(15137): Trying to load lib libjavacore.so 0x0
+02-27 12:01:19.100 D/dalvikvm(15137): Added shared lib libjavacore.so 0x0
+02-27 12:01:19.100 D/dalvikvm(15137): Trying to load lib libnativehelper.so 0x0
+02-27 12:01:19.100 D/dalvikvm(15137): Added shared lib libnativehelper.so 0x0
+02-27 12:01:19.100 D/dalvikvm(15137): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-27 12:01:19.110 D/dalvikvm(15137): Extra Options: not specified
+02-27 12:01:19.120 D/dalvikvm(15137): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+02-27 12:01:19.190 E/memtrack(15137): Couldn't load memtrack module (No such file or directory)
+02-27 12:01:19.190 E/android.os.Debug(15137): failed to load memtrack module: -2
+02-27 12:01:19.230 D/AndroidRuntime(15137): Calling main entry com.android.commands.am.Am
+02-27 12:01:19.260 D/AndroidRuntime(15137): Shutting down VM
+02-27 12:01:19.260 D/dalvikvm(15137): GC_CONCURRENT freed 117K, 17% free 670K/800K, paused 1ms+1ms, total 2ms
+02-27 12:01:19.260 I/ActivityManager(  515): START u0 {flg=0x10000000 cmp=org.xwalk.webapi_noneservice_tests/.webapi_noneservice_testsActivity} from pid 15137
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.270 D/dalvikvm(15137): Compiler shutdown in progress - discarding request
+02-27 12:01:19.480 W/System.err( 1438): java.net.ConnectException: failed to connect to /127.0.0.1 (port 1235): connect failed: ECONNREFUSED (Connection refused)
+02-27 12:01:19.480 W/System.err( 1438): 	at libcore.io.IoBridge.connect(IoBridge.java:114)
+02-27 12:01:19.480 W/System.err( 1438): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+02-27 12:01:19.490 W/System.err( 1438): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+02-27 12:01:19.490 W/System.err( 1438): 	at java.net.Socket.startupSocket(Socket.java:567)
+02-27 12:01:19.490 W/System.err( 1438): 	at java.net.Socket.<init>(Socket.java:226)
+02-27 12:01:19.490 W/System.err( 1438): 	at com.baiyi_mobile.easyroot.hookengine.comm.d.a(Unknown Source)
+02-27 12:01:19.490 W/System.err( 1438): 	at com.baiyi_mobile.easyroot.hookengine.b.b.a(Unknown Source)
+02-27 12:01:19.490 W/System.err( 1438): 	at com.baiyi_mobile.easyroot.hookengine.b.b.b(Unknown Source)
+02-27 12:01:19.490 W/System.err( 1438): 	at com.baiyi_mobile.easyroot.hookengine.PermissionPromptService.b(Unknown Source)
+02-27 12:01:19.490 W/System.err( 1438): 	at com.baiyi_mobile.easyroot.hookengine.b.run(Unknown Source)
+02-27 12:01:19.490 W/System.err( 1438): Caused by: libcore.io.ErrnoException: connect failed: ECONNREFUSED (Connection refused)
+02-27 12:01:19.490 W/System.err( 1438): 	at libcore.io.Posix.connect(Native Method)
+02-27 12:01:19.490 W/System.err( 1438): 	at libcore.io.BlockGuardOs.connect(BlockGuardOs.java:85)
+02-27 12:01:19.490 W/System.err( 1438): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:127)
+02-27 12:01:19.490 W/System.err( 1438): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+02-27 12:01:19.490 W/System.err( 1438): 	... 9 more
+02-27 12:01:19.500 W/System.err( 1438): java.net.ConnectException: failed to connect to /127.0.0.1 (port 1235): connect failed: ECONNREFUSED (Connection refused)
+02-27 12:01:19.500 W/System.err( 1438): 	at libcore.io.IoBridge.connect(IoBridge.java:114)
+02-27 12:01:19.500 W/System.err( 1438): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+02-27 12:01:19.500 W/System.err( 1438): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+02-27 12:01:19.500 W/System.err( 1438): 	at java.net.Socket.startupSocket(Socket.java:567)
+02-27 12:01:19.500 W/System.err( 1438): 	at java.net.Socket.<init>(Socket.java:226)
+02-27 12:01:19.500 W/System.err( 1438): 	at com.baiyi_mobile.easyroot.hookengine.comm.d.a(Unknown Source)
+02-27 12:01:19.500 W/System.err( 1438): 	at com.baiyi_mobile.easyroot.hookengine.b.b.a(Unknown Source)
+02-27 12:01:19.500 W/System.err( 1438): 	at com.baiyi_mobile.easyroot.hookengine.b.b.c(Unknown Source)
+02-27 12:01:19.500 W/System.err( 1438): 	at com.baiyi_mobile.easyroot.hookengine.PermissionPromptService.b(Unknown Source)
+02-27 12:01:19.500 W/System.err( 1438): 	at com.baiyi_mobile.easyroot.hookengine.b.run(Unknown Source)
+02-27 12:01:19.500 W/System.err( 1438): Caused by: libcore.io.ErrnoException: connect failed: ECONNREFUSED (Connection refused)
+02-27 12:01:19.500 W/System.err( 1438): 	at libcore.io.Posix.connect(Native Method)
+02-27 12:01:19.500 W/System.err( 1438): 	at libcore.io.BlockGuardOs.connect(BlockGuardOs.java:85)
+02-27 12:01:19.500 W/System.err( 1438): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:127)
+02-27 12:01:19.500 W/System.err( 1438): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+02-27 12:01:19.510 W/System.err( 1438): 	... 9 more
+02-27 12:01:19.510 D/BSS     ( 1438): not loadedtry rehook
+02-27 12:01:19.840 D/AndroidRuntime(15149): 
+02-27 12:01:19.840 D/AndroidRuntime(15149): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-27 12:01:19.840 D/AndroidRuntime(15149): CheckJNI is OFF
+02-27 12:01:19.840 I/AndroidRuntime(15149): Kernel Release Version: 3.10.20-g19cc1a3
+02-27 12:01:19.840 I/dalvikvm(15149): No library specified. The standard exception handler will be used
+02-27 12:01:19.840 I/dalvikvm(15149): 
+02-27 12:01:19.840 I/dalvikvm(15149): +++++++++++++ Using PCG. +++++++++++++++++++++
+02-27 12:01:19.850 D/dalvikvm(15149): Trying to load lib libjavacore.so 0x0
+02-27 12:01:19.850 D/dalvikvm(15149): Added shared lib libjavacore.so 0x0
+02-27 12:01:19.850 D/dalvikvm(15149): Trying to load lib libnativehelper.so 0x0
+02-27 12:01:19.850 D/dalvikvm(15149): Added shared lib libnativehelper.so 0x0
+02-27 12:01:19.850 D/dalvikvm(15149): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-27 12:01:19.860 D/dalvikvm(15149): Extra Options: not specified
+02-27 12:01:19.880 D/dalvikvm(15149): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+02-27 12:01:19.950 E/memtrack(15149): Couldn't load memtrack module (No such file or directory)
+02-27 12:01:19.950 E/android.os.Debug(15149): failed to load memtrack module: -2
+02-27 12:01:19.990 D/AndroidRuntime(15149): Calling main entry com.android.commands.am.Am
+02-27 12:01:20.020 D/AndroidRuntime(15149): Shutting down VM
+02-27 12:01:20.020 D/dalvikvm(15149): GC_CONCURRENT freed 117K, 17% free 670K/800K, paused 0ms+0ms, total 1ms
+02-27 12:01:20.020 D/dalvikvm(15149): Compiler shutdown in progress - discarding request
+02-27 12:01:20.020 D/dalvikvm(15149): Compiler shutdown in progress - discarding request
+02-27 12:01:20.020 D/dalvikvm(15149): Compiler shutdown in progress - discarding request
+02-27 12:01:20.020 D/dalvikvm(15149): Compiler shutdown in progress - discarding request
+02-27 12:01:20.020 D/dalvikvm(15149): Compiler shutdown in progress - discarding request
+02-27 12:01:20.020 D/dalvikvm(15149): Compiler shutdown in progress - discarding request
+02-27 12:01:20.020 D/dalvikvm(15149): Compiler shutdown in progress - discarding request
+02-27 12:01:20.020 D/dalvikvm(15149): Compiler shutdown in progress - discarding request
+02-27 12:01:20.020 D/dalvikvm(15149): Compiler shutdown in progress - discarding request
+02-27 12:01:20.020 I/ActivityManager(  515): START u0 {flg=0x10000000 cmp=org.xwalk.webapi_noneservice_tests/.webapi_noneservice_tests} from pid 15149
+02-27 12:01:20.030 D/dalvikvm(15149): Compiler shutdown in progress - discarding request
+02-27 12:01:20.030 D/dalvikvm(15149): Compiler shutdown in progress - discarding request
+02-27 12:01:20.030 D/dalvikvm(15149): Compiler shutdown in progress - discarding request
+02-27 12:01:20.030 D/dalvikvm(15149): Compiler shutdown in progress - discarding request
+02-27 12:01:20.030 D/dalvikvm(15149): Compiler shutdown in progress - discarding request
+02-27 12:01:20.030 D/dalvikvm(15149): Compiler shutdown in progress - discarding request
+02-27 12:01:20.030 D/dalvikvm(15149): Compiler shutdown in progress - discarding request
+02-27 12:01:20.030 D/dalvikvm(15149): Compiler shutdown in progress - discarding request
+02-27 12:01:20.030 D/dalvikvm(15149): Compiler shutdown in progress - discarding request
+02-27 12:01:20.030 D/dalvikvm(15149): Compiler shutdown in progress - discarding request
+02-27 12:01:20.030 D/dalvikvm(15149): Compiler shutdown in progress - discarding request
+02-27 12:01:20.030 D/dalvikvm(15149): Compiler shutdown in progress - discarding request
+02-27 12:01:20.030 D/dalvikvm(15149): Compiler shutdown in progress - discarding request
+02-27 12:01:20.030 D/dalvikvm(15149): Compiler shutdown in progress - discarding request
+02-27 12:01:20.030 D/dalvikvm(15149): Compiler shutdown in progress - discarding request
+02-27 12:01:20.030 D/dalvikvm(15149): Compiler shutdown in progress - discarding request
+02-27 12:01:20.030 D/dalvikvm(15149): Compiler shutdown in progress - discarding request
+02-27 12:01:20.030 D/dalvikvm(15149): Compiler shutdown in progress - discarding request
+02-27 12:01:20.030 D/dalvikvm(15149): Compiler shutdown in progress - discarding request
+02-27 12:01:20.030 D/dalvikvm(15149): Compiler shutdown in progress - discarding request
+02-27 12:01:20.030 D/dalvikvm(15149): Compiler shutdown in progress - discarding request
+02-27 12:01:20.030 D/dalvikvm(15149): Compiler shutdown in progress - discarding request
+02-27 12:01:20.030 D/dalvikvm(15149): Compiler shutdown in progress - discarding request
+02-27 12:01:20.030 D/dalvikvm(15149): Compiler shutdown in progress - discarding request
+02-27 12:01:20.030 D/dalvikvm(15149): Compiler shutdown in progress - discarding request
+02-27 12:01:20.030 D/dalvikvm(15149): Compiler shutdown in progress - discarding request
+02-27 12:01:20.030 D/dalvikvm(15149): Compiler shutdown in progress - discarding request
+02-27 12:01:20.030 D/dalvikvm(15149): Compiler shutdown in progress - discarding request
+02-27 12:01:20.030 D/dalvikvm(15149): Compiler shutdown in progress - discarding request
+02-27 12:01:20.030 D/dalvikvm(15149): Compiler shutdown in progress - discarding request
+02-27 12:01:20.030 D/dalvikvm(15149): Compiler shutdown in progress - discarding request
+02-27 12:01:20.030 D/dalvikvm(15149): Compiler shutdown in progress - discarding request
+02-27 12:01:20.030 D/dalvikvm(15149): Compiler shutdown in progress - discarding request
+02-27 12:01:20.030 D/dalvikvm(15149): Compiler shutdown in progress - discarding request
+02-27 12:01:20.030 D/dalvikvm(15149): Compiler shutdown in progress - discarding request
+02-27 12:01:20.030 D/dalvikvm(15149): Compiler shutdown in progress - discarding request
+02-27 12:01:20.030 D/dalvikvm(15149): Compiler shutdown in progress - discarding request
+02-27 12:01:20.030 D/dalvikvm(15149): Compiler shutdown in progress - discarding request
+02-27 12:01:20.670 D/AndroidRuntime(15160): 
+02-27 12:01:20.670 D/AndroidRuntime(15160): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-27 12:01:20.670 D/AndroidRuntime(15160): CheckJNI is OFF
+02-27 12:01:20.670 I/AndroidRuntime(15160): Kernel Release Version: 3.10.20-g19cc1a3
+02-27 12:01:20.670 I/dalvikvm(15160): No library specified. The standard exception handler will be used
+02-27 12:01:20.670 I/dalvikvm(15160): 
+02-27 12:01:20.670 I/dalvikvm(15160): +++++++++++++ Using PCG. +++++++++++++++++++++
+02-27 12:01:20.680 D/dalvikvm(15160): Trying to load lib libjavacore.so 0x0
+02-27 12:01:20.680 D/dalvikvm(15160): Added shared lib libjavacore.so 0x0
+02-27 12:01:20.680 D/dalvikvm(15160): Trying to load lib libnativehelper.so 0x0
+02-27 12:01:20.680 D/dalvikvm(15160): Added shared lib libnativehelper.so 0x0
+02-27 12:01:20.680 D/dalvikvm(15160): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-27 12:01:20.690 D/dalvikvm(15160): Extra Options: not specified
+02-27 12:01:20.700 D/dalvikvm(15160): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+02-27 12:01:20.770 E/memtrack(15160): Couldn't load memtrack module (No such file or directory)
+02-27 12:01:20.770 E/android.os.Debug(15160): failed to load memtrack module: -2
+02-27 12:01:20.810 D/AndroidRuntime(15160): Calling main entry com.android.commands.am.Am
+02-27 12:01:20.840 V/WeatherTimeProvider( 1355): widget on Visibility Changed
+02-27 12:01:20.840 D/AndroidRuntime(15160): Shutting down VM
+02-27 12:01:20.840 I/SecurityManagerService(  687): SMS received security event: App[START/org.xwalk.webapi_noneservice_tests]
+02-27 12:01:20.840 D/dalvikvm(15160): GC_CONCURRENT freed 110K, 16% free 673K/800K, paused 0ms+1ms, total 1ms
+02-27 12:01:20.840 I/ActivityManager(  515): START u0 {flg=0x10000000 cmp=org.xwalk.webapi_noneservice_tests/.WebapiNoneserviceTestsActivity} from pid 15160
+02-27 12:01:20.850 D/dalvikvm(15160): Compiler shutdown in progress - discarding request
+02-27 12:01:20.850 D/dalvikvm(15160): Compiler shutdown in progress - discarding request
+02-27 12:01:20.850 D/dalvikvm(15160): Compiler shutdown in progress - discarding request
+02-27 12:01:20.850 D/dalvikvm(15160): Compiler shutdown in progress - discarding request
+02-27 12:01:20.850 D/dalvikvm(15160): Compiler shutdown in progress - discarding request
+02-27 12:01:20.850 D/dalvikvm(15160): Compiler shutdown in progress - discarding request
+02-27 12:01:20.850 D/dalvikvm(15160): Compiler shutdown in progress - discarding request
+02-27 12:01:20.850 D/dalvikvm(15160): Compiler shutdown in progress - discarding request
+02-27 12:01:20.850 D/dalvikvm(15160): Compiler shutdown in progress - discarding request
+02-27 12:01:20.850 D/dalvikvm(15160): Compiler shutdown in progress - discarding request
+02-27 12:01:20.850 D/dalvikvm(15160): Compiler shutdown in progress - discarding request
+02-27 12:01:20.850 D/dalvikvm(15160): Compiler shutdown in progress - discarding request
+02-27 12:01:20.850 D/dalvikvm(15160): Compiler shutdown in progress - discarding request
+02-27 12:01:20.850 D/dalvikvm(15160): Compiler shutdown in progress - discarding request
+02-27 12:01:20.850 D/dalvikvm(15160): Compiler shutdown in progress - discarding request
+02-27 12:01:20.850 D/dalvikvm(15160): Compiler shutdown in progress - discarding request
+02-27 12:01:20.850 D/dalvikvm(15160): Compiler shutdown in progress - discarding request
+02-27 12:01:20.850 D/dalvikvm(15160): Compiler shutdown in progress - discarding request
+02-27 12:01:20.850 D/dalvikvm(15160): Compiler shutdown in progress - discarding request
+02-27 12:01:20.850 D/dalvikvm(15160): Compiler shutdown in progress - discarding request
+02-27 12:01:20.850 D/dalvikvm(15160): Compiler shutdown in progress - discarding request
+02-27 12:01:20.850 D/dalvikvm(15160): Compiler shutdown in progress - discarding request
+02-27 12:01:20.850 D/dalvikvm(15160): Compiler shutdown in progress - discarding request
+02-27 12:01:20.850 D/dalvikvm(15160): Compiler shutdown in progress - discarding request
+02-27 12:01:20.850 D/dalvikvm(15160): Compiler shutdown in progress - discarding request
+02-27 12:01:20.850 D/dalvikvm(15160): Compiler shutdown in progress - discarding request
+02-27 12:01:20.850 D/dalvikvm(15160): Compiler shutdown in progress - discarding request
+02-27 12:01:20.850 D/dalvikvm(15160): Compiler shutdown in progress - discarding request
+02-27 12:01:20.850 D/dalvikvm(15160): Compiler shutdown in progress - discarding request
+02-27 12:01:20.850 D/dalvikvm(15160): Compiler shutdown in progress - discarding request
+02-27 12:01:20.850 D/dalvikvm(15160): Compiler shutdown in progress - discarding request
+02-27 12:01:20.850 D/dalvikvm(15160): Compiler shutdown in progress - discarding request
+02-27 12:01:20.850 D/dalvikvm(15160): Compiler shutdown in progress - discarding request
+02-27 12:01:20.850 D/dalvikvm(15160): Compiler shutdown in progress - discarding request
+02-27 12:01:20.850 D/dalvikvm(15160): Compiler shutdown in progress - discarding request
+02-27 12:01:20.850 D/dalvikvm(15160): Compiler shutdown in progress - discarding request
+02-27 12:01:20.850 D/dalvikvm(15160): Compiler shutdown in progress - discarding request
+02-27 12:01:20.850 D/dalvikvm(15160): Compiler shutdown in progress - discarding request
+02-27 12:01:20.850 D/dalvikvm(15160): Compiler shutdown in progress - discarding request
+02-27 12:01:20.850 D/dalvikvm(15160): Compiler shutdown in progress - discarding request
+02-27 12:01:20.850 D/dalvikvm(15160): Compiler shutdown in progress - discarding request
+02-27 12:01:20.850 D/dalvikvm(15160): Compiler shutdown in progress - discarding request
+02-27 12:01:20.850 D/dalvikvm(15160): Compiler shutdown in progress - discarding request
+02-27 12:01:20.850 D/dalvikvm(15160): Compiler shutdown in progress - discarding request
+02-27 12:01:20.850 D/dalvikvm(15160): Compiler shutdown in progress - discarding request
+02-27 12:01:20.850 D/dalvikvm(15171): Process 15171 nice name: org.xwalk.webapi_noneservice_tests
+02-27 12:01:20.850 D/dalvikvm(15171): Extra Options: not specified
+02-27 12:01:20.850 I/ActivityManager(  515): Start proc org.xwalk.webapi_noneservice_tests for activity org.xwalk.webapi_noneservice_tests/.WebapiNoneserviceTestsActivity: pid=15171 uid=11748 gids={51748, 3003, 1028, 1015}
+02-27 12:01:20.870 D/WindowManager(  515): adjustConfigurationLw, config:{1.0 ?mcc?mnc ?locale ?layoutDir sw600dp w600dp h888dp 213dpi lrg port ?uimode ?night finger -keyb/v/h -nav/v} mLidState:1 mHasDockFeature:false mHasKeyboardFeature:false mHasHallSensorFeature:true config.hardKeyboardHidden:2
+02-27 12:01:20.870 I/ActivityManager(  515): [TopPkgCurBat]	NowPkgName[org.xwalk.webapi_noneservice_tests]	Battery[41]	TimeTick[1425009680875]	OldPkgName[com.asus.launcher]
+02-27 12:01:20.900 D/        (  859): Surface destroy: ANDROID_NATIVE_WINDOW_MAGIC
+02-27 12:01:20.930 D/dalvikvm(  752): GC_EXPLICIT freed 358K, 8% free 6484K/6992K, paused 1ms+2ms, total 62ms
+02-27 12:01:20.940 D/dalvikvm(15171): Trying to load lib /data/app-lib/org.xwalk.webapi_noneservice_tests-1/libxwalkcore.so 0x43d84660
+02-27 12:01:20.970 D/dalvikvm(15171): Added shared lib /data/app-lib/org.xwalk.webapi_noneservice_tests-1/libxwalkcore.so 0x43d84660
+02-27 12:01:20.970 I/LibraryLoader(15171): Time to load native libraries: 31 ms (timestamps 625-656)
+02-27 12:01:20.970 I/LibraryLoader(15171): Expected native library version number "",actual native library version number ""
+02-27 12:01:21.000 I/LibraryLoader(15171): Expected native library version number "",actual native library version number ""
+02-27 12:01:21.000 I/chromium(15171): [INFO:library_loader_hooks.cc(112)] Chromium logging enabled: level = 0, default verbosity = 0
+02-27 12:01:21.010 I/BrowserStartupController(15171): Initializing chromium process, singleProcess=true
+02-27 12:01:21.230 D/ImageWallpaper(  580): onVisibilityChanged: mVisible, visible=true, false
+02-27 12:01:21.230 D/ImageWallpaper(  580): Visibility changed to visible=false
+02-27 12:01:21.230 D/ImageWallpaper(  580): Suppressed drawFrame since redraw is not needed and offsets have not changed.
+02-27 12:01:21.480 W/AudioManagerAndroid(15171): Requires BLUETOOTH permission
+02-27 12:01:21.490 I/ufoGralloc(15171): Hello, this is UFO GRALLOC/Intel Corporation
+02-27 12:01:21.500 D/        (15171): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 12:01:21.500 D/        (15171): droid_create_context : config id = 1 conf->NativeVisualID=1
+02-27 12:01:21.500 D/        (15171): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 12:01:21.500 I/        (15171): Requested context : GLES 2.0
+02-27 12:01:21.520 W/chromium(15171): [WARNING:proxy_service.cc(899)] PAC support disabled because there is no system implementation
+02-27 12:01:21.530 W/dalvikvm(15171): VFY: unable to find class referenced in signature (Landroid/view/inputmethod/CursorAnchorInfo;)
+02-27 12:01:21.530 I/dalvikvm(15171): Could not find method android.view.inputmethod.InputMethodManager.updateCursorAnchorInfo, referenced from method org.chromium.content.browser.input.InputMethodManagerWrapper.updateCursorAnchorInfo
+02-27 12:01:21.530 W/dalvikvm(15171): VFY: unable to resolve virtual method 1241: Landroid/view/inputmethod/InputMethodManager;.updateCursorAnchorInfo (Landroid/view/View;Landroid/view/inputmethod/CursorAnchorInfo;)V
+02-27 12:01:21.530 D/dalvikvm(15171): VFY: replacing opcode 0x6e at 0x000a
+02-27 12:01:21.610 I/WifiHW  (  515): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 12:01:21.610 D/wpa_supplicant(  628): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 12:01:21.610 D/wpa_supplicant(  628): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 12:01:21.610 E/cutils  (  164): Failed to mkdirat(/Removable/MicroSD): Read-only file system
+02-27 12:01:21.610 W/ContextImpl(15171): Failed to ensure directory: /Removable/MicroSD/Android/data/org.xwalk.webapi_noneservice_tests/cache
+02-27 12:01:21.610 W/XWalkExtensionManager(15171): Failed to read extensions-config.json
+02-27 12:01:21.610 E/chromium(15171): [ERROR:unix_domain_server_socket_posix.cc(106)] Not implemented reached in virtual int net::UnixDomainServerSocket::GetLocalAddress(net::IPEndPoint*) const
+02-27 12:01:21.610 I/dalvikvm(15171): Could not find method android.app.Activity.finishAndRemoveTask, referenced from method org.chromium.base.ApiCompatibilityUtils.finishAndRemoveTask
+02-27 12:01:21.610 W/dalvikvm(15171): VFY: unable to resolve virtual method 4: Landroid/app/Activity;.finishAndRemoveTask ()V
+02-27 12:01:21.610 D/dalvikvm(15171): VFY: replacing opcode 0x6e at 0x0006
+02-27 12:01:21.610 I/dalvikvm(15171): Could not find method android.os.PowerManager.isInteractive, referenced from method org.chromium.base.ApiCompatibilityUtils.isInteractive
+02-27 12:01:21.610 W/dalvikvm(15171): VFY: unable to resolve virtual method 768: Landroid/os/PowerManager;.isInteractive ()Z
+02-27 12:01:21.610 D/dalvikvm(15171): VFY: replacing opcode 0x6e at 0x000e
+02-27 12:01:21.610 I/dalvikvm(15171): Could not find method android.view.Window.getNavigationBarColor, referenced from method org.chromium.base.ApiCompatibilityUtils.setStatusBarColor
+02-27 12:01:21.610 W/dalvikvm(15171): VFY: unable to resolve virtual method 1144: Landroid/view/Window;.getNavigationBarColor ()I
+02-27 12:01:21.610 D/dalvikvm(15171): VFY: replacing opcode 0x6e at 0x0010
+02-27 12:01:21.610 I/dalvikvm(15171): Could not find method android.view.Window.setStatusBarColor, referenced from method org.chromium.base.ApiCompatibilityUtils.setStatusBarColor
+02-27 12:01:21.610 W/dalvikvm(15171): VFY: unable to resolve virtual method 1149: Landroid/view/Window;.setStatusBarColor (I)V
+02-27 12:01:21.610 D/dalvikvm(15171): VFY: replacing opcode 0x6e at 0x0019
+02-27 12:01:21.610 E/dalvikvm(15171): Could not find class 'android.app.ActivityManager$TaskDescription', referenced from method org.chromium.base.ApiCompatibilityUtils.setTaskDescription
+02-27 12:01:21.610 W/dalvikvm(15171): VFY: unable to resolve new-instance 11 (Landroid/app/ActivityManager$TaskDescription;) in Lorg/chromium/base/ApiCompatibilityUtils;
+02-27 12:01:21.610 D/dalvikvm(15171): VFY: replacing opcode 0x22 at 0x0006
+02-27 12:01:21.610 W/Vold    (  164): Returning OperationFailed - no handler for errno 30
+02-27 12:01:21.620 D/dalvikvm(15171): DexOpt: unable to opt direct call 0x001e at 0x08 in Lorg/chromium/base/ApiCompatibilityUtils;.setTaskDescription
+02-27 12:01:21.620 I/chromium(15171): [INFO:xwalk_extension_renderer_controller.cc(47)] EXTENSION PROCESS DISABLED.
+02-27 12:01:21.640 D/wpa_supplicant(  628): nl80211: survey data missing!
+02-27 12:01:21.640 I/WifiHW  (  515): REPLY: RSSI=-50
+02-27 12:01:21.640 I/WifiHW  (  515): REPLY: LINKSPEED=65
+02-27 12:01:21.640 I/WifiHW  (  515): REPLY: NOISE=9999
+02-27 12:01:21.640 I/WifiHW  (  515): REPLY: FREQUENCY=2462
+02-27 12:01:21.650 D/        (15171): droid_create_context : config id = 5 conf->NativeVisualID=1
+02-27 12:01:21.650 D/        (15171): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 12:01:21.650 I/        (15171): Requested context : GLES 2.0
+02-27 12:01:21.660 D/        (15171): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 12:01:21.660 D/        (15171): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 12:01:21.660 D/        (15171): droid_create_context : config id = 1 conf->NativeVisualID=1
+02-27 12:01:21.660 D/        (15171): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 12:01:21.660 I/        (15171): Requested context : GLES 2.0
+02-27 12:01:21.660 D/OpenGLRenderer(15171): Enabling debug mode 0
+02-27 12:01:21.770 I/ActivityManager(  515): Displayed org.xwalk.webapi_noneservice_tests/.WebapiNoneserviceTestsActivity: +925ms
+02-27 12:01:21.800 W/BindingManager(15171): Cannot call determinedVisibility() - never saw a connection for the pid: 15171
+02-27 12:01:21.800 D/XT9IME  (  777): new subtype :en_US ,keyboard
+02-27 12:01:21.810 D/        (15171): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 12:01:21.810 D/        (15171): droid_create_context : config id = 1 conf->NativeVisualID=1
+02-27 12:01:21.810 D/        (15171): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 12:01:21.810 I/        (15171): Requested context : GLES 2.0
+02-27 12:01:21.820 D/        (15171): Swap interval set to = 1 value
+02-27 12:01:21.820 D/BatteryStatsImpl(  515): noteStopWakeLocked system isFromForeground = false
+02-27 12:01:22.740 W/BindingManager(15171): Cannot call determinedVisibility() - never saw a connection for the pid: 15171
+02-27 12:01:23.150 I/chromium(15171): [INFO:CONSOLE(0)] "Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check http://xhr.spec.whatwg.org/.", source:  (0)
+02-27 12:01:23.210 D/        (15171): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 12:01:23.210 D/        (15171): droid_create_context : config id = 1 conf->NativeVisualID=1
+02-27 12:01:23.210 D/        (15171): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 12:01:23.210 I/        (15171): Requested context : GLES 2.0
+02-27 12:01:24.640 I/WifiHW  (  515): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 12:01:24.640 D/wpa_supplicant(  628): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 12:01:24.640 D/wpa_supplicant(  628): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 12:01:24.670 D/wpa_supplicant(  628): nl80211: survey data missing!
+02-27 12:01:24.670 I/WifiHW  (  515): REPLY: RSSI=-50
+02-27 12:01:24.670 I/WifiHW  (  515): REPLY: LINKSPEED=65
+02-27 12:01:24.670 I/WifiHW  (  515): REPLY: NOISE=9999
+02-27 12:01:24.670 I/WifiHW  (  515): REPLY: FREQUENCY=2462
+02-27 12:01:25.050 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:01:25.050 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:01:25.050 W/chromium(15171): 
+02-27 12:01:25.060 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:01:25.060 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:01:25.060 W/chromium(15171): 
+02-27 12:01:25.070 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:01:25.070 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:01:25.070 W/chromium(15171): 
+02-27 12:01:25.180 I/dalvikvm(15171): Total arena pages for JIT: 11
+02-27 12:01:27.170 W/BindingManager(15171): Cannot call determinedVisibility() - never saw a connection for the pid: 15171
+02-27 12:01:27.240 D/MmsSmsDatabaseHelper(  807): [MmsSmsDb] tableName: threads hasAutoIncrement: CREATE TABLE threads (_id INTEGER PRIMARY KEY AUTOINCREMENT,date INTEGER DEFAULT 0,message_count INTEGER DEFAULT 0,recipient_ids TEXT,snippet TEXT,snippet_cs INTEGER DEFAULT 0,read INTEGER DEFAULT 1,type INTEGER DEFAULT 0,error INTEGER DEFAULT 0,has_attachment INTEGER DEFAULT 0,block_timestamp INTEGER DEFAULT 0,sub_id INTEGER DEFAULT 0,imsi TEXT) result: true
+02-27 12:01:27.240 D/MmsSmsDatabaseHelper(  807): [MmsSmsDb] tableName: canonical_addresses hasAutoIncrement: CREATE TABLE canonical_addresses (_id INTEGER PRIMARY KEY AUTOINCREMENT,address TEXT) result: true
+02-27 12:01:27.240 D/MmsSmsDatabaseHelper(  807): [MmsSmsDb] tableName: part hasAutoIncrement: CREATE TABLE part (_id INTEGER PRIMARY KEY AUTOINCREMENT,mid INTEGER,seq INTEGER DEFAULT 0,ct TEXT,name TEXT,chset INTEGER,cd TEXT,fn TEXT,cid TEXT,cl TEXT,ctt_s INTEGER,ctt_t TEXT,_data TEXT,text TEXT) result: true
+02-27 12:01:27.240 D/MmsSmsDatabaseHelper(  807): [MmsSmsDb] tableName: pdu hasAutoIncrement: CREATE TABLE pdu (_id INTEGER PRIMARY KEY AUTOINCREMENT,thread_id INTEGER,date INTEGER,date_sent INTEGER DEFAULT 0,msg_box INTEGER,read INTEGER DEFAULT 0,m_id TEXT,sub TEXT,sub_cs INTEGER,ct_t TEXT,ct_l TEXT,exp INTEGER,m_cls TEXT,m_type INTEGER,v INTEGER,m_size INTEGER,pri INTEGER,rr INTEGER,rpt_a INTEGER,resp_st INTEGER,st INTEGER,tr_id TEXT,retr_st INTEGER,retr_txt TEXT,retr_txt_cs INTEGER,read_status INTEGER,ct_cls INTEGER,resp_txt TEXT,d_tm INTEGER,d_rpt INTEGER,locked INTEGER DEFAULT 0,seen INTEGER DEFAULT 0,text_only INTEGER DEFAULT 0,sub_id INTEGER DEFAULT 0,imsi TEXT) result: true
+02-27 12:01:27.240 D/MmsSmsDatabaseHelper(  807): [getWritableDatabase] hasAutoIncrementThreads: true hasAutoIncrementAddresses: true hasAutoIncrementPart: true hasAutoIncrementPdu: true
+02-27 12:01:27.250 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:246:20 ReferenceError: g_promises is not defined
+02-27 12:01:27.250 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:01:27.250 W/chromium(15171): 
+02-27 12:01:27.250 W/System.err(15171): org.json.JSONException: No value for conversationID
+02-27 12:01:27.250 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:246:20 ReferenceError: g_promises is not defined
+02-27 12:01:27.250 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:01:27.250 W/chromium(15171): 
+02-27 12:01:27.260 W/System.err(15171): 	at org.json.JSONObject.get(JSONObject.java:355)
+02-27 12:01:27.260 W/System.err(15171): 	at org.json.JSONObject.getString(JSONObject.java:515)
+02-27 12:01:27.260 W/System.err(15171): 	at org.xwalk.core.internal.extension.api.messaging.MessagingManager.operation(MessagingManager.java:177)
+02-27 12:01:27.260 W/System.err(15171): 	at org.xwalk.core.internal.extension.api.messaging.MessagingManager.onMsgDeleteConversation(MessagingManager.java:58)
+02-27 12:01:27.260 W/System.err(15171): 	at org.xwalk.core.internal.extension.api.messaging.Messaging$7.runCommand(Messaging.java:75)
+02-27 12:01:27.260 W/System.err(15171): 	at org.xwalk.core.internal.extension.api.messaging.Messaging.onMessage(Messaging.java:121)
+02-27 12:01:27.260 W/System.err(15171): 	at dalvik.system.NativeStart.run(Native Method)
+02-27 12:01:27.670 I/WifiHW  (  515): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 12:01:27.670 D/wpa_supplicant(  628): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 12:01:27.670 D/wpa_supplicant(  628): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 12:01:27.700 D/wpa_supplicant(  628): nl80211: survey data missing!
+02-27 12:01:27.700 I/WifiHW  (  515): REPLY: RSSI=-50
+02-27 12:01:27.700 I/WifiHW  (  515): REPLY: LINKSPEED=65
+02-27 12:01:27.700 I/WifiHW  (  515): REPLY: NOISE=9999
+02-27 12:01:27.700 I/WifiHW  (  515): REPLY: FREQUENCY=2462
+02-27 12:01:29.460 W/BindingManager(15171): Cannot call determinedVisibility() - never saw a connection for the pid: 15171
+02-27 12:01:29.500 E/MessagingManager(15171): Invalidate message type: 0123456
+02-27 12:01:29.510 W/System.err(15171): org.json.JSONException: No value for conversationID
+02-27 12:01:29.510 W/System.err(15171): 	at org.json.JSONObject.get(JSONObject.java:355)
+02-27 12:01:29.510 W/System.err(15171): 	at org.json.JSONObject.getString(JSONObject.java:515)
+02-27 12:01:29.510 W/System.err(15171): 	at org.xwalk.core.internal.extension.api.messaging.MessagingManager.operation(MessagingManager.java:177)
+02-27 12:01:29.510 W/System.err(15171): 	at org.xwalk.core.internal.extension.api.messaging.MessagingManager.onMsgDeleteMessage(MessagingManager.java:54)
+02-27 12:01:29.510 W/System.err(15171): 	at org.xwalk.core.internal.extension.api.messaging.Messaging$6.runCommand(Messaging.java:70)
+02-27 12:01:29.510 W/System.err(15171): 	at org.xwalk.core.internal.extension.api.messaging.Messaging.onMessage(Messaging.java:121)
+02-27 12:01:29.510 W/System.err(15171): 	at dalvik.system.NativeStart.run(Native Method)
+02-27 12:01:29.510 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:01:29.510 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:01:29.510 W/chromium(15171): 
+02-27 12:01:29.510 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:246:20 ReferenceError: g_promises is not defined
+02-27 12:01:29.510 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:01:29.510 W/chromium(15171): 
+02-27 12:01:29.510 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:246:20 ReferenceError: g_promises is not defined
+02-27 12:01:29.510 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:01:29.510 W/chromium(15171): 
+02-27 12:01:30.700 I/WifiHW  (  515): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 12:01:30.700 D/wpa_supplicant(  628): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 12:01:30.700 D/wpa_supplicant(  628): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 12:01:30.730 D/wpa_supplicant(  628): nl80211: survey data missing!
+02-27 12:01:30.730 I/WifiHW  (  515): REPLY: RSSI=-50
+02-27 12:01:30.730 I/WifiHW  (  515): REPLY: LINKSPEED=65
+02-27 12:01:30.730 I/WifiHW  (  515): REPLY: NOISE=9999
+02-27 12:01:30.730 I/WifiHW  (  515): REPLY: FREQUENCY=2462
+02-27 12:01:30.850 D/EVENT_THREAD(  188): void CEventThread::run() POLLIN event on Fd (1)
+02-27 12:01:30.850 D/EVENT_THREAD(  188): void CEventThread::run() Do poll with timeout: -1
+02-27 12:01:32.510 D/EVENT_THREAD(  188): void CEventThread::run() POLLIN event on Fd (1)
+02-27 12:01:32.510 D/EVENT_THREAD(  188): void CEventThread::run() Do poll with timeout: -1
+02-27 12:01:32.510 I/upi_ug31xx(  167): (855) update_capacity
+02-27 12:01:32.510 I/[UPI]   (  167): <UG31/E>[UpiReadCapacity]: V=3805(3799), T=308(309-361), I=-178, C=-1(-1-0)
+02-27 12:01:32.510 I/[UPI]   (  167): <UG31/E>[UpiReadCapacity]: (0x0221254a) 1292 (1757) / 3159 (3708) = 41
+02-27 12:01:32.510 I/[UPI]   (  167): <UG31/E>[UpiReadCapacity]: (0x0221254a) 1292 (1757) / 3159 (3708) = 41
+02-27 12:01:32.510 I/[UPI]   (  167): <UG31/E>[UpiReadCapacity]: (0x0221254a) 1292 (1292) / 3159 (3708) = 41
+02-27 12:01:32.510 I/[UPI]   (  167): <UG31/E>[RsocFilterCountTime]: (0x0221254a) Step=5(340614), Full=5(340614), Lock=340614(2395415)
+02-27 12:01:32.510 I/[UPI]   (  167): <UG31/E>[UpiReadCapacity]: (0x0221254a) 1292 (1292) / 3159 (3708) = 41 (-178--178)
+02-27 12:01:32.510 I/[UPI]   (  167): <UG31/E><BATT> M:normal, P:41(41-41)%, V:3802mV, C:-149mA, T:30.9C(361), S:0x0221254a(000), R:1292mAh, F:3159mAh, Q:-1264mAh, CC:12, P:30.350(1228-0)s, BO:5, 97:615:0-44af-9m:B001-20140514-144301 (16)
+02-27 12:01:32.510 D/EVENT_THREAD(  188): void CEventThread::run() POLLIN event on Fd (1)
+02-27 12:01:32.510 D/EVENT_THREAD(  188): void CEventThread::run() Do poll with timeout: -1
+02-27 12:01:32.510 I/upi_ug31xx(  167): (856) backup_data 
+02-27 12:01:32.510 V/upi_ug31xx(  167): state->check_backup_count = 11
+02-27 12:01:32.860 D/EVENT_THREAD(  188): void CEventThread::run() POLLIN event on Fd (1)
+02-27 12:01:32.860 D/EVENT_THREAD(  188): void CEventThread::run() Do poll with timeout: -1
+02-27 12:01:32.860 I/upi_ug31xx(  167): (857) backup_bo check
+02-27 12:01:33.740 I/WifiHW  (  515): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 12:01:33.740 D/wpa_supplicant(  628): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 12:01:33.740 D/wpa_supplicant(  628): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 12:01:33.750 W/BindingManager(15171): Cannot call determinedVisibility() - never saw a connection for the pid: 15171
+02-27 12:01:33.760 D/wpa_supplicant(  628): nl80211: survey data missing!
+02-27 12:01:33.760 I/WifiHW  (  515): REPLY: RSSI=-50
+02-27 12:01:33.760 I/WifiHW  (  515): REPLY: LINKSPEED=65
+02-27 12:01:33.760 I/WifiHW  (  515): REPLY: NOISE=9999
+02-27 12:01:33.760 I/WifiHW  (  515): REPLY: FREQUENCY=2462
+02-27 12:01:35.310 V/MmsProvider(  807): Query uri=content://mms, match=0
+02-27 12:01:35.320 V/MmsProvider(  807): Query uri=content://mms, match=0
+02-27 12:01:35.320 V/MmsProvider(  807): Query uri=content://mms, match=0
+02-27 12:01:35.330 V/MmsProvider(  807): Query uri=content://mms, match=0
+02-27 12:01:35.340 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:01:35.340 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:01:35.340 W/chromium(15171): 
+02-27 12:01:35.340 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:01:35.340 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:01:35.340 W/chromium(15171): 
+02-27 12:01:35.340 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:01:35.340 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:01:35.340 W/chromium(15171): 
+02-27 12:01:35.340 V/MmsProvider(  807): Query uri=content://mms, match=0
+02-27 12:01:35.350 V/MmsProvider(  807): Query uri=content://mms, match=0
+02-27 12:01:35.350 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:01:35.350 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:01:35.350 W/chromium(15171): 
+02-27 12:01:35.350 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:01:35.350 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:01:35.350 W/chromium(15171): 
+02-27 12:01:35.350 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:01:35.350 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:01:35.350 W/chromium(15171): 
+02-27 12:01:35.350 V/MmsProvider(  807): Query uri=content://mms, match=0
+02-27 12:01:35.360 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:01:35.360 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:01:35.360 W/chromium(15171): 
+02-27 12:01:35.360 V/MmsProvider(  807): Query uri=content://mms, match=0
+02-27 12:01:35.370 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:01:35.370 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:01:35.370 W/chromium(15171): 
+02-27 12:01:35.370 V/MmsProvider(  807): Query uri=content://mms, match=0
+02-27 12:01:35.380 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:01:35.380 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:01:35.380 W/chromium(15171): 
+02-27 12:01:35.380 V/MmsProvider(  807): Query uri=content://mms, match=0
+02-27 12:01:35.390 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:01:35.390 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:01:35.390 W/chromium(15171): 
+02-27 12:01:35.390 V/MmsProvider(  807): Query uri=content://mms, match=0
+02-27 12:01:35.390 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:01:35.390 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:01:35.390 W/chromium(15171): 
+02-27 12:01:35.400 V/MmsProvider(  807): Query uri=content://mms, match=0
+02-27 12:01:35.400 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:01:35.400 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:01:35.400 W/chromium(15171): 
+02-27 12:01:35.400 V/MmsProvider(  807): Query uri=content://mms, match=0
+02-27 12:01:35.400 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:01:35.400 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:01:35.400 W/chromium(15171): 
+02-27 12:01:35.410 V/MmsProvider(  807): Query uri=content://mms, match=0
+02-27 12:01:35.410 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:01:35.410 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:01:35.410 W/chromium(15171): 
+02-27 12:01:35.410 V/MmsProvider(  807): Query uri=content://mms, match=0
+02-27 12:01:35.420 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:01:35.420 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:01:35.420 W/chromium(15171): 
+02-27 12:01:35.420 V/MmsProvider(  807): Query uri=content://mms, match=0
+02-27 12:01:35.420 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:01:35.420 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:01:35.420 W/chromium(15171): 
+02-27 12:01:36.760 I/WifiHW  (  515): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 12:01:36.760 D/wpa_supplicant(  628): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 12:01:36.760 D/wpa_supplicant(  628): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 12:01:36.790 D/wpa_supplicant(  628): nl80211: survey data missing!
+02-27 12:01:36.790 I/WifiHW  (  515): REPLY: RSSI=-56
+02-27 12:01:36.790 I/WifiHW  (  515): REPLY: LINKSPEED=65
+02-27 12:01:36.790 I/WifiHW  (  515): REPLY: NOISE=9999
+02-27 12:01:36.790 I/WifiHW  (  515): REPLY: FREQUENCY=2462
+02-27 12:01:38.010 W/BindingManager(15171): Cannot call determinedVisibility() - never saw a connection for the pid: 15171
+02-27 12:01:38.180 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:246:20 ReferenceError: g_promises is not defined
+02-27 12:01:38.180 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:01:38.180 W/chromium(15171): 
+02-27 12:01:38.180 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:246:20 ReferenceError: g_promises is not defined
+02-27 12:01:38.180 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:01:38.180 W/chromium(15171): 
+02-27 12:01:38.180 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:246:20 ReferenceError: g_promises is not defined
+02-27 12:01:38.180 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:01:38.180 W/chromium(15171): 
+02-27 12:01:38.180 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:246:20 ReferenceError: g_promises is not defined
+02-27 12:01:38.180 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:01:38.180 W/chromium(15171): 
+02-27 12:01:39.830 I/WifiHW  (  515): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 12:01:39.830 D/wpa_supplicant(  628): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 12:01:39.830 D/wpa_supplicant(  628): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 12:01:39.860 D/wpa_supplicant(  628): nl80211: survey data missing!
+02-27 12:01:39.860 I/WifiHW  (  515): REPLY: RSSI=-56
+02-27 12:01:39.860 I/WifiHW  (  515): REPLY: LINKSPEED=65
+02-27 12:01:39.860 I/WifiHW  (  515): REPLY: NOISE=9999
+02-27 12:01:39.860 I/WifiHW  (  515): REPLY: FREQUENCY=2462
+02-27 12:01:40.280 W/BindingManager(15171): Cannot call determinedVisibility() - never saw a connection for the pid: 15171
+02-27 12:01:40.310 E/MessagingSmsManager(15171): No Sim Card
+02-27 12:01:40.360 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:242:20 ReferenceError: g_promises is not defined
+02-27 12:01:40.360 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].reject)) {
+02-27 12:01:40.360 W/chromium(15171): 
+02-27 12:01:40.380 D/MmsSmsProvider(  807): getSingleAddressId: insert new canonical_address for xxxxxx, _id=11
+02-27 12:01:40.380 D/MmsSmsProvider(  807): getThreadId: create new thread_id for recipients xxxxxxxx
+02-27 12:01:40.380 D/MmsSmsProvider(  807): insertThread: created new thread_id 11 for recipientIds xxxxxxx
+02-27 12:01:40.430 D/SmsProvider(  807): Add address=13813926794
+02-27 12:01:40.440 D/SmsProvider(  807): insert content://sms/1 succeeded
+02-27 12:01:40.890 W/BindingManager(15171): Cannot call determinedVisibility() - never saw a connection for the pid: 15171
+02-27 12:01:40.910 E/MessagingSmsManager(15171): No Sim Card
+02-27 12:01:40.930 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:242:20 ReferenceError: g_promises is not defined
+02-27 12:01:40.930 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].reject)) {
+02-27 12:01:40.930 W/chromium(15171): 
+02-27 12:01:40.950 D/MmsSmsProvider(  807): getSingleAddressId: insert new canonical_address for xxxxxx, _id=12
+02-27 12:01:40.960 D/MmsSmsProvider(  807): getThreadId: create new thread_id for recipients xxxxxxxx
+02-27 12:01:40.960 D/MmsSmsProvider(  807): insertThread: created new thread_id 12 for recipientIds xxxxxxx
+02-27 12:01:41.010 D/SmsProvider(  807): Add address=5556
+02-27 12:01:41.020 D/SmsProvider(  807): insert content://sms/2 succeeded
+02-27 12:01:42.870 I/WifiHW  (  515): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 12:01:42.870 D/wpa_supplicant(  628): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 12:01:42.870 D/wpa_supplicant(  628): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 12:01:42.900 D/wpa_supplicant(  628): nl80211: survey data missing!
+02-27 12:01:42.900 I/WifiHW  (  515): REPLY: RSSI=-56
+02-27 12:01:42.900 I/WifiHW  (  515): REPLY: LINKSPEED=65
+02-27 12:01:42.900 I/WifiHW  (  515): REPLY: NOISE=9999
+02-27 12:01:42.900 I/WifiHW  (  515): REPLY: FREQUENCY=2462
+02-27 12:01:44.060 W/BindingManager(15171): Cannot call determinedVisibility() - never saw a connection for the pid: 15171
+02-27 12:01:44.080 E/MessagingSmsManager(15171): No Sim Card
+02-27 12:01:44.100 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:242:20 ReferenceError: g_promises is not defined
+02-27 12:01:44.100 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].reject)) {
+02-27 12:01:44.100 W/chromium(15171): 
+02-27 12:01:44.160 D/SmsProvider(  807): Add address=5556
+02-27 12:01:44.170 D/SmsProvider(  807): insert content://sms/3 succeeded
+02-27 12:01:45.910 I/WifiHW  (  515): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 12:01:45.910 D/wpa_supplicant(  628): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 12:01:45.910 D/wpa_supplicant(  628): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 12:01:45.940 D/wpa_supplicant(  628): nl80211: survey data missing!
+02-27 12:01:45.940 I/WifiHW  (  515): REPLY: RSSI=-55
+02-27 12:01:45.940 I/WifiHW  (  515): REPLY: LINKSPEED=65
+02-27 12:01:45.940 I/WifiHW  (  515): REPLY: NOISE=9999
+02-27 12:01:45.940 I/WifiHW  (  515): REPLY: FREQUENCY=2462
+02-27 12:01:47.230 W/BindingManager(15171): Cannot call determinedVisibility() - never saw a connection for the pid: 15171
+02-27 12:01:47.250 E/MessagingSmsManager(15171): No Sim Card
+02-27 12:01:47.270 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:242:20 ReferenceError: g_promises is not defined
+02-27 12:01:47.270 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].reject)) {
+02-27 12:01:47.270 W/chromium(15171): 
+02-27 12:01:47.330 D/SmsProvider(  807): Add address=5556
+02-27 12:01:47.350 D/SmsProvider(  807): insert content://sms/4 succeeded
+02-27 12:01:47.840 W/BindingManager(15171): Cannot call determinedVisibility() - never saw a connection for the pid: 15171
+02-27 12:01:47.870 E/MessagingSmsManager(15171): No Sim Card
+02-27 12:01:47.880 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:242:20 ReferenceError: g_promises is not defined
+02-27 12:01:47.880 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].reject)) {
+02-27 12:01:47.880 W/chromium(15171): 
+02-27 12:01:47.940 D/SmsProvider(  807): Add address=5556
+02-27 12:01:47.960 D/SmsProvider(  807): insert content://sms/5 succeeded
+02-27 12:01:48.950 I/WifiHW  (  515): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 12:01:48.950 D/wpa_supplicant(  628): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 12:01:48.950 D/wpa_supplicant(  628): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 12:01:48.980 D/wpa_supplicant(  628): nl80211: survey data missing!
+02-27 12:01:48.980 I/WifiHW  (  515): REPLY: RSSI=-56
+02-27 12:01:48.980 I/WifiHW  (  515): REPLY: LINKSPEED=65
+02-27 12:01:48.980 I/WifiHW  (  515): REPLY: NOISE=9999
+02-27 12:01:48.980 I/WifiHW  (  515): REPLY: FREQUENCY=2462
+02-27 12:01:49.480 W/System.err( 1438): java.net.ConnectException: failed to connect to /127.0.0.1 (port 1235): connect failed: ECONNREFUSED (Connection refused)
+02-27 12:01:49.480 W/System.err( 1438): 	at libcore.io.IoBridge.connect(IoBridge.java:114)
+02-27 12:01:49.480 W/System.err( 1438): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+02-27 12:01:49.480 W/System.err( 1438): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+02-27 12:01:49.480 W/System.err( 1438): 	at java.net.Socket.startupSocket(Socket.java:567)
+02-27 12:01:49.490 W/System.err( 1438): 	at java.net.Socket.<init>(Socket.java:226)
+02-27 12:01:49.490 W/System.err( 1438): 	at com.baiyi_mobile.easyroot.hookengine.comm.d.a(Unknown Source)
+02-27 12:01:49.490 W/System.err( 1438): 	at com.baiyi_mobile.easyroot.hookengine.b.b.a(Unknown Source)
+02-27 12:01:49.490 W/System.err( 1438): 	at com.baiyi_mobile.easyroot.hookengine.b.b.b(Unknown Source)
+02-27 12:01:49.490 W/System.err( 1438): 	at com.baiyi_mobile.easyroot.hookengine.PermissionPromptService.b(Unknown Source)
+02-27 12:01:49.490 W/System.err( 1438): 	at com.baiyi_mobile.easyroot.hookengine.b.run(Unknown Source)
+02-27 12:01:49.490 W/System.err( 1438): Caused by: libcore.io.ErrnoException: connect failed: ECONNREFUSED (Connection refused)
+02-27 12:01:49.490 W/System.err( 1438): 	at libcore.io.Posix.connect(Native Method)
+02-27 12:01:49.490 W/System.err( 1438): 	at libcore.io.BlockGuardOs.connect(BlockGuardOs.java:85)
+02-27 12:01:49.490 W/System.err( 1438): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:127)
+02-27 12:01:49.490 W/System.err( 1438): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+02-27 12:01:49.490 W/System.err( 1438): 	... 9 more
+02-27 12:01:49.490 W/System.err( 1438): java.net.ConnectException: failed to connect to /127.0.0.1 (port 1235): connect failed: ECONNREFUSED (Connection refused)
+02-27 12:01:49.490 W/System.err( 1438): 	at libcore.io.IoBridge.connect(IoBridge.java:114)
+02-27 12:01:49.490 W/System.err( 1438): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+02-27 12:01:49.490 W/System.err( 1438): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+02-27 12:01:49.490 W/System.err( 1438): 	at java.net.Socket.startupSocket(Socket.java:567)
+02-27 12:01:49.500 W/System.err( 1438): 	at java.net.Socket.<init>(Socket.java:226)
+02-27 12:01:49.500 W/System.err( 1438): 	at com.baiyi_mobile.easyroot.hookengine.comm.d.a(Unknown Source)
+02-27 12:01:49.500 W/System.err( 1438): 	at com.baiyi_mobile.easyroot.hookengine.b.b.a(Unknown Source)
+02-27 12:01:49.500 W/System.err( 1438): 	at com.baiyi_mobile.easyroot.hookengine.b.b.c(Unknown Source)
+02-27 12:01:49.500 W/System.err( 1438): 	at com.baiyi_mobile.easyroot.hookengine.PermissionPromptService.b(Unknown Source)
+02-27 12:01:49.500 W/System.err( 1438): 	at com.baiyi_mobile.easyroot.hookengine.b.run(Unknown Source)
+02-27 12:01:49.500 W/System.err( 1438): Caused by: libcore.io.ErrnoException: connect failed: ECONNREFUSED (Connection refused)
+02-27 12:01:49.500 W/System.err( 1438): 	at libcore.io.Posix.connect(Native Method)
+02-27 12:01:49.500 W/System.err( 1438): 	at libcore.io.BlockGuardOs.connect(BlockGuardOs.java:85)
+02-27 12:01:49.500 W/System.err( 1438): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:127)
+02-27 12:01:49.500 W/System.err( 1438): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+02-27 12:01:49.500 W/System.err( 1438): 	... 9 more
+02-27 12:01:49.500 D/BSS     ( 1438): not loadedtry rehook
+02-27 12:01:51.000 W/BindingManager(15171): Cannot call determinedVisibility() - never saw a connection for the pid: 15171
+02-27 12:01:51.030 E/MessagingSmsManager(15171): No Sim Card
+02-27 12:01:51.040 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:242:20 ReferenceError: g_promises is not defined
+02-27 12:01:51.040 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].reject)) {
+02-27 12:01:51.040 W/chromium(15171): 
+02-27 12:01:51.110 D/SmsProvider(  807): Add address=5556
+02-27 12:01:51.120 D/SmsProvider(  807): insert content://sms/6 succeeded
+02-27 12:01:51.990 I/WifiHW  (  515): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 12:01:51.990 D/wpa_supplicant(  628): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 12:01:51.990 D/wpa_supplicant(  628): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 12:01:52.000 D/wpa_supplicant(  628): nl80211: survey data missing!
+02-27 12:01:52.000 I/WifiHW  (  515): REPLY: RSSI=-56
+02-27 12:01:52.000 I/WifiHW  (  515): REPLY: LINKSPEED=65
+02-27 12:01:52.000 I/WifiHW  (  515): REPLY: NOISE=9999
+02-27 12:01:52.000 I/WifiHW  (  515): REPLY: FREQUENCY=2462
+02-27 12:01:54.170 W/BindingManager(15171): Cannot call determinedVisibility() - never saw a connection for the pid: 15171
+02-27 12:01:54.290 I/dalvikvm(15171): Total arena pages for JIT: 12
+02-27 12:01:54.290 I/dalvikvm(15171): Total arena pages for JIT: 13
+02-27 12:01:54.290 I/dalvikvm(15171): Total arena pages for JIT: 14
+02-27 12:01:54.290 I/dalvikvm(15171): Total arena pages for JIT: 15
+02-27 12:01:54.300 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:246:20 ReferenceError: g_promises is not defined
+02-27 12:01:54.300 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:01:54.300 W/chromium(15171): 
+02-27 12:01:54.300 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:246:20 ReferenceError: g_promises is not defined
+02-27 12:01:54.300 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:01:54.300 W/chromium(15171): 
+02-27 12:01:54.300 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:246:20 ReferenceError: g_promises is not defined
+02-27 12:01:54.300 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:01:54.300 W/chromium(15171): 
+02-27 12:01:54.300 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:246:20 ReferenceError: g_promises is not defined
+02-27 12:01:54.300 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:01:54.300 W/chromium(15171): 
+02-27 12:01:55.010 I/WifiHW  (  515): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 12:01:55.010 D/wpa_supplicant(  628): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 12:01:55.010 D/wpa_supplicant(  628): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 12:01:55.030 D/wpa_supplicant(  628): nl80211: survey data missing!
+02-27 12:01:55.030 I/WifiHW  (  515): REPLY: RSSI=-55
+02-27 12:01:55.030 I/WifiHW  (  515): REPLY: LINKSPEED=65
+02-27 12:01:55.030 I/WifiHW  (  515): REPLY: NOISE=9999
+02-27 12:01:55.030 I/WifiHW  (  515): REPLY: FREQUENCY=2462
+02-27 12:01:56.440 W/BindingManager(15171): Cannot call determinedVisibility() - never saw a connection for the pid: 15171
+02-27 12:01:56.460 E/MessagingSmsManager(15171): No Sim Card
+02-27 12:01:56.470 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:242:20 ReferenceError: g_promises is not defined
+02-27 12:01:56.470 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].reject)) {
+02-27 12:01:56.470 W/chromium(15171): 
+02-27 12:01:56.520 D/MmsSmsProvider(  807): getSingleAddressId: insert new canonical_address for xxxxxx, _id=13
+02-27 12:01:56.520 D/MmsSmsProvider(  807): getThreadId: create new thread_id for recipients xxxxxxxx
+02-27 12:01:56.520 D/MmsSmsProvider(  807): insertThread: created new thread_id 13 for recipientIds xxxxxxx
+02-27 12:01:56.570 D/SmsProvider(  807): Add address=5556
+02-27 12:01:56.580 D/SmsProvider(  807): insert content://sms/1 succeeded
+02-27 12:01:58.040 I/WifiHW  (  515): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 12:01:58.040 D/wpa_supplicant(  628): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 12:01:58.040 D/wpa_supplicant(  628): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 12:01:58.070 D/wpa_supplicant(  628): nl80211: survey data missing!
+02-27 12:01:58.070 I/WifiHW  (  515): REPLY: RSSI=-55
+02-27 12:01:58.070 I/WifiHW  (  515): REPLY: LINKSPEED=65
+02-27 12:01:58.070 I/WifiHW  (  515): REPLY: NOISE=9999
+02-27 12:01:58.070 I/WifiHW  (  515): REPLY: FREQUENCY=2462
+02-27 12:01:59.620 W/BindingManager(15171): Cannot call determinedVisibility() - never saw a connection for the pid: 15171
+02-27 12:01:59.740 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:246:20 ReferenceError: g_promises is not defined
+02-27 12:01:59.740 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:01:59.740 W/chromium(15171): 
+02-27 12:01:59.740 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:246:20 ReferenceError: g_promises is not defined
+02-27 12:01:59.740 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:01:59.740 W/chromium(15171): 
+02-27 12:01:59.740 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:246:20 ReferenceError: g_promises is not defined
+02-27 12:01:59.740 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:01:59.740 W/chromium(15171): 
+02-27 12:01:59.740 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:246:20 ReferenceError: g_promises is not defined
+02-27 12:01:59.740 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:01:59.740 W/chromium(15171): 
+02-27 12:02:00.000 D/Clock   (  580): ACTION_TIME_TICK
+02-27 12:02:00.000 D/Clock   (  580): update clock:下午12:02
+02-27 12:02:00.040 D/BatteryStatsImpl(  515): noteStopWakeLocked system isFromForeground = false
+02-27 12:02:00.940 D/EVENT_THREAD(  188): void CEventThread::run() POLLIN event on Fd (1)
+02-27 12:02:00.940 D/EVENT_THREAD(  188): void CEventThread::run() Do poll with timeout: -1
+02-27 12:02:01.090 I/WifiHW  (  515): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 12:02:01.090 D/wpa_supplicant(  628): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 12:02:01.090 D/wpa_supplicant(  628): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 12:02:01.110 D/wpa_supplicant(  628): nl80211: survey data missing!
+02-27 12:02:01.110 I/WifiHW  (  515): REPLY: RSSI=-55
+02-27 12:02:01.110 I/WifiHW  (  515): REPLY: LINKSPEED=65
+02-27 12:02:01.110 I/WifiHW  (  515): REPLY: NOISE=9999
+02-27 12:02:01.110 I/WifiHW  (  515): REPLY: FREQUENCY=2462
+02-27 12:02:01.810 W/BindingManager(15171): Cannot call determinedVisibility() - never saw a connection for the pid: 15171
+02-27 12:02:01.840 E/MessagingSmsManager(15171): No Sim Card
+02-27 12:02:01.860 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:242:20 ReferenceError: g_promises is not defined
+02-27 12:02:01.860 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].reject)) {
+02-27 12:02:01.860 W/chromium(15171): 
+02-27 12:02:01.870 D/MmsSmsProvider(  807): getSingleAddressId: insert new canonical_address for xxxxxx, _id=14
+02-27 12:02:01.870 D/MmsSmsProvider(  807): getThreadId: create new thread_id for recipients xxxxxxxx
+02-27 12:02:01.870 D/MmsSmsProvider(  807): insertThread: created new thread_id 14 for recipientIds xxxxxxx
+02-27 12:02:01.880 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:02:01.880 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:02:01.880 W/chromium(15171): 
+02-27 12:02:01.890 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:02:01.890 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:02:01.890 W/chromium(15171): 
+02-27 12:02:01.890 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:02:01.890 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:02:01.890 W/chromium(15171): 
+02-27 12:02:01.900 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:02:01.900 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:02:01.900 W/chromium(15171): 
+02-27 12:02:01.900 D/dalvikvm(  807): GC_EXPLICIT freed 832K, 13% free 6675K/7668K, paused 0ms+2ms, total 21ms
+02-27 12:02:01.910 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:02:01.910 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:02:01.910 W/chromium(15171): 
+02-27 12:02:01.950 D/SmsProvider(  807): Add address=5556
+02-27 12:02:01.950 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:02:01.950 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:02:01.950 W/chromium(15171): 
+02-27 12:02:01.970 D/SmsProvider(  807): insert content://sms/1 succeeded
+02-27 12:02:01.970 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:02:01.970 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:02:01.970 W/chromium(15171): 
+02-27 12:02:01.980 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:02:01.980 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:02:01.980 W/chromium(15171): 
+02-27 12:02:02.000 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:02:02.000 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:02:02.000 W/chromium(15171): 
+02-27 12:02:02.010 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:02:02.010 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:02:02.010 W/chromium(15171): 
+02-27 12:02:02.010 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:02:02.010 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:02:02.010 W/chromium(15171): 
+02-27 12:02:02.020 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:02:02.020 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:02:02.020 W/chromium(15171): 
+02-27 12:02:02.030 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:02:02.030 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:02:02.030 W/chromium(15171): 
+02-27 12:02:02.030 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:02:02.030 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:02:02.030 W/chromium(15171): 
+02-27 12:02:02.040 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:02:02.040 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:02:02.040 W/chromium(15171): 
+02-27 12:02:02.490 D/AlarmManager(  515): Triggered Alarm 21fa79e8 RTC_WAKEUP IntentSender{224c8dc8: PendingIntentRecord{221d33f8 com.tianmashikong.qmqj.qihoo360 broadcastIntent}}
+02-27 12:02:02.500 D/BatteryStatsImpl(  515): noteStopWakeLocked system isFromForeground = false
+02-27 12:02:02.530 D/BatteryStatsImpl(  515): noteStopWakeLocked system isFromForeground = false
+02-27 12:02:02.570 D/BatteryStatsImpl(  515): noteStopWakeLocked com.tianmashikong.qmqj.qihoo360:pushservice isFromForeground = false
+02-27 12:02:02.570 D/BatteryStatsImpl(  515): noteStopWakeLocked com.tianmashikong.qmqj.qihoo360:pushservice isFromForeground = false
+02-27 12:02:02.570 D/BatteryStatsImpl(  515): noteStopWakeLocked com.tianmashikong.qmqj.qihoo360:pushservice isFromForeground = false
+02-27 12:02:02.570 D/BatteryStatsImpl(  515): noteStopWakeLocked com.tianmashikong.qmqj.qihoo360:pushservice isFromForeground = false
+02-27 12:02:02.810 D/EVENT_THREAD(  188): void CEventThread::run() POLLIN event on Fd (1)
+02-27 12:02:02.810 D/EVENT_THREAD(  188): void CEventThread::run() Do poll with timeout: -1
+02-27 12:02:02.820 I/upi_ug31xx(  167): (858) update_capacity
+02-27 12:02:02.820 I/[UPI]   (  167): <UG31/E>[UpiReadCapacity]: V=3803(3801), T=309(311-361), I=-151, C=-1(-1-0)
+02-27 12:02:02.820 I/[UPI]   (  167): <UG31/E>[UpiReadCapacity]: (0x0221254a) 1292 (1747) / 3159 (3708) = 41
+02-27 12:02:02.820 I/[UPI]   (  167): <UG31/E>[UpiReadCapacity]: (0x0221254a) 1292 (1747) / 3159 (3708) = 41
+02-27 12:02:02.820 I/[UPI]   (  167): <UG31/E>[UpiReadCapacity]: (0x0221254a) 1292 (1292) / 3159 (3708) = 41
+02-27 12:02:02.820 I/[UPI]   (  167): <UG31/E>[RsocFilterCountTime]: (0x0221254a) Step=6(370914), Full=6(370914), Lock=370914(2823735)
+02-27 12:02:02.820 I/[UPI]   (  167): <UG31/E>[UpiReadCapacity]: (0x0221254a) 1292 (1292) / 3159 (3708) = 41 (-151--151)
+02-27 12:02:02.820 I/[UPI]   (  167): <UG31/E><BATT> M:normal, P:41(41-41)%, V:3802mV, C:-143mA, T:31.1C(361), S:0x0221254a(000), R:1292mAh, F:3159mAh, Q:-1265mAh, CC:12, P:30.300(1229-0)s, BO:5, 97:615:0-44af-9m:B001-20140514-144301 (16)
+02-27 12:02:02.820 D/EVENT_THREAD(  188): void CEventThread::run() POLLIN event on Fd (1)
+02-27 12:02:02.820 D/EVENT_THREAD(  188): void CEventThread::run() Do poll with timeout: -1
+02-27 12:02:02.870 I/upi_ug31xx(  167): (859) backup_data 
+02-27 12:02:02.870 V/upi_ug31xx(  167): state->check_backup_count = 12
+02-27 12:02:03.170 D/EVENT_THREAD(  188): void CEventThread::run() POLLIN event on Fd (1)
+02-27 12:02:03.170 D/EVENT_THREAD(  188): void CEventThread::run() Do poll with timeout: -1
+02-27 12:02:03.170 I/upi_ug31xx(  167): (860) backup_bo check
+02-27 12:02:04.110 I/WifiHW  (  515): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 12:02:04.120 D/wpa_supplicant(  628): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 12:02:04.120 D/wpa_supplicant(  628): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 12:02:04.140 D/wpa_supplicant(  628): nl80211: survey data missing!
+02-27 12:02:04.140 I/WifiHW  (  515): REPLY: RSSI=-56
+02-27 12:02:04.140 I/WifiHW  (  515): REPLY: LINKSPEED=65
+02-27 12:02:04.140 I/WifiHW  (  515): REPLY: NOISE=9999
+02-27 12:02:04.140 I/WifiHW  (  515): REPLY: FREQUENCY=2462
+02-27 12:02:04.480 D/BatteryStatsImpl(  515): noteStopWakeLocked com.tianmashikong.qmqj.qihoo360:pushservice isFromForeground = false
+02-27 12:02:04.490 D/BatteryStatsImpl(  515): noteStopWakeLocked com.tianmashikong.qmqj.qihoo360:pushservice isFromForeground = false
+02-27 12:02:04.490 D/BatteryStatsImpl(  515): noteStopWakeLocked system isFromForeground = false
+02-27 12:02:04.490 D/AlarmManager(  515): Triggered Alarm 21f608f8 RTC_WAKEUP IntentSender{224c8c00: PendingIntentRecord{222b1d18 com.tianmashikong.qmqj.qihoo360 broadcastIntent}}
+02-27 12:02:04.510 W/BindingManager(15171): Cannot call determinedVisibility() - never saw a connection for the pid: 15171
+02-27 12:02:04.550 E/MessagingSmsManager(15171): No Sim Card
+02-27 12:02:04.550 W/System.err(15171): org.json.JSONException: No value for phone
+02-27 12:02:04.550 W/System.err(15171): 	at org.json.JSONObject.get(JSONObject.java:355)
+02-27 12:02:04.550 W/System.err(15171): 	at org.json.JSONObject.getString(JSONObject.java:515)
+02-27 12:02:04.550 W/System.err(15171): 	at org.xwalk.core.internal.extension.api.messaging.MessagingSmsManager.onSmsSend(MessagingSmsManager.java:82)
+02-27 12:02:04.550 W/System.err(15171): 	at org.xwalk.core.internal.extension.api.messaging.Messaging$1.runCommand(Messaging.java:45)
+02-27 12:02:04.550 W/System.err(15171): 	at org.xwalk.core.internal.extension.api.messaging.Messaging.onMessage(Messaging.java:121)
+02-27 12:02:04.550 W/System.err(15171): 	at dalvik.system.NativeStart.run(Native Method)
+02-27 12:02:04.550 E/MessagingSmsManager(15171): No Sim Card
+02-27 12:02:04.550 W/System.err(15171): org.json.JSONException: No value for message
+02-27 12:02:04.550 W/System.err(15171): 	at org.json.JSONObject.get(JSONObject.java:355)
+02-27 12:02:04.550 W/System.err(15171): 	at org.json.JSONObject.getString(JSONObject.java:515)
+02-27 12:02:04.550 W/System.err(15171): 	at org.xwalk.core.internal.extension.api.messaging.MessagingSmsManager.onSmsSend(MessagingSmsManager.java:83)
+02-27 12:02:04.550 W/System.err(15171): 	at org.xwalk.core.internal.extension.api.messaging.Messaging$1.runCommand(Messaging.java:45)
+02-27 12:02:04.550 W/System.err(15171): 	at org.xwalk.core.internal.extension.api.messaging.Messaging.onMessage(Messaging.java:121)
+02-27 12:02:04.550 W/System.err(15171): 	at dalvik.system.NativeStart.run(Native Method)
+02-27 12:02:04.550 W/System.err(15171): org.json.JSONException: No value for text
+02-27 12:02:04.550 W/System.err(15171): 	at org.json.JSONObject.get(JSONObject.java:355)
+02-27 12:02:04.550 W/System.err(15171): 	at org.json.JSONObject.getString(JSONObject.java:515)
+02-27 12:02:04.550 W/System.err(15171): 	at org.xwalk.core.internal.extension.api.messaging.MessagingSmsManager.onSmsSegmentInfo(MessagingSmsManager.java:164)
+02-27 12:02:04.550 W/System.err(15171): 	at org.xwalk.core.internal.extension.api.messaging.Messaging$3.runCommand(Messaging.java:55)
+02-27 12:02:04.550 W/System.err(15171): 	at org.xwalk.core.internal.extension.api.messaging.Messaging.onMessage(Messaging.java:121)
+02-27 12:02:04.550 W/System.err(15171): 	at dalvik.system.NativeStart.run(Native Method)
+02-27 12:02:04.560 W/System.err(15171): org.json.JSONException: No value for conversationID
+02-27 12:02:04.560 W/System.err(15171): 	at org.json.JSONObject.get(JSONObject.java:355)
+02-27 12:02:04.560 W/System.err(15171): 	at org.json.JSONObject.getString(JSONObject.java:515)
+02-27 12:02:04.560 W/System.err(15171): 	at org.xwalk.core.internal.extension.api.messaging.MessagingManager.operation(MessagingManager.java:177)
+02-27 12:02:04.560 W/System.err(15171): 	at org.xwalk.core.internal.extension.api.messaging.MessagingManager.onMsgMarkConversationRead(MessagingManager.java:66)
+02-27 12:02:04.560 W/System.err(15171): 	at org.xwalk.core.internal.extension.api.messaging.Messaging$9.runCommand(Messaging.java:85)
+02-27 12:02:04.560 W/System.err(15171): 	at org.xwalk.core.internal.extension.api.messaging.Messaging.onMessage(Messaging.java:121)
+02-27 12:02:04.560 W/System.err(15171): 	at dalvik.system.NativeStart.run(Native Method)
+02-27 12:02:04.570 W/System.err(15171): org.json.JSONException: No value for conversationID
+02-27 12:02:04.570 W/System.err(15171): 	at org.json.JSONObject.get(JSONObject.java:355)
+02-27 12:02:04.570 W/System.err(15171): 	at org.json.JSONObject.getString(JSONObject.java:515)
+02-27 12:02:04.570 W/System.err(15171): 	at org.xwalk.core.internal.extension.api.messaging.MessagingManager.operation(MessagingManager.java:177)
+02-27 12:02:04.570 W/System.err(15171): 	at org.xwalk.core.internal.extension.api.messaging.MessagingManager.onMsgDeleteConversation(MessagingManager.java:58)
+02-27 12:02:04.570 W/System.err(15171): 	at org.xwalk.core.internal.extension.api.messaging.Messaging$7.runCommand(Messaging.java:75)
+02-27 12:02:04.570 W/System.err(15171): 	at org.xwalk.core.internal.extension.api.messaging.Messaging.onMessage(Messaging.java:121)
+02-27 12:02:04.570 W/System.err(15171): 	at dalvik.system.NativeStart.run(Native Method)
+02-27 12:02:04.570 W/System.err(15171): java.lang.NullPointerException
+02-27 12:02:04.570 W/System.err(15171): 	at org.xwalk.core.internal.extension.api.messaging.MessagingHelpers.buildSqlFilterOptionString(MessagingHelpers.java:104)
+02-27 12:02:04.570 W/System.err(15171): 	at org.xwalk.core.internal.extension.api.messaging.MessagingManager.queryMessage(MessagingManager.java:119)
+02-27 12:02:04.570 W/System.err(15171): 	at org.xwalk.core.internal.extension.api.messaging.MessagingManager.onMsgFindMessages(MessagingManager.java:46)
+02-27 12:02:04.570 W/System.err(15171): 	at org.xwalk.core.internal.extension.api.messaging.Messaging$4.runCommand(Messaging.java:60)
+02-27 12:02:04.570 W/System.err(15171): 	at org.xwalk.core.internal.extension.api.messaging.Messaging.onMessage(Messaging.java:121)
+02-27 12:02:04.570 W/System.err(15171): 	at dalvik.system.NativeStart.run(Native Method)
+02-27 12:02:04.570 W/System.err(15171): org.json.JSONException: No value for conversationID
+02-27 12:02:04.570 W/System.err(15171): 	at org.json.JSONObject.get(JSONObject.java:355)
+02-27 12:02:04.570 W/System.err(15171): 	at org.json.JSONObject.getString(JSONObject.java:515)
+02-27 12:02:04.570 W/System.err(15171): 	at org.xwalk.core.internal.extension.api.messaging.MessagingManager.operation(MessagingManager.java:177)
+02-27 12:02:04.570 W/System.err(15171): 	at org.xwalk.core.internal.extension.api.messaging.MessagingManager.onMsgMarkMessageRead(MessagingManager.java:62)
+02-27 12:02:04.570 W/System.err(15171): 	at org.xwalk.core.internal.extension.api.messaging.Messaging$8.runCommand(Messaging.java:80)
+02-27 12:02:04.570 W/System.err(15171): 	at org.xwalk.core.internal.extension.api.messaging.Messaging.onMessage(Messaging.java:121)
+02-27 12:02:04.570 W/System.err(15171): 	at dalvik.system.NativeStart.run(Native Method)
+02-27 12:02:04.570 W/System.err(15171): org.json.JSONException: No value for type
+02-27 12:02:04.570 W/System.err(15171): 	at org.json.JSONObject.get(JSONObject.java:355)
+02-27 12:02:04.570 W/System.err(15171): 	at org.json.JSONObject.getString(JSONObject.java:515)
+02-27 12:02:04.570 W/System.err(15171): 	at org.xwalk.core.internal.extension.api.messaging.MessagingManager.queryMessage(MessagingManager.java:97)
+02-27 12:02:04.570 W/System.err(15171): 	at org.xwalk.core.internal.extension.api.messaging.MessagingManager.onMsgGetMessage(MessagingManager.java:50)
+02-27 12:02:04.570 W/System.err(15171): 	at org.xwalk.core.internal.extension.api.messaging.Messaging$5.runCommand(Messaging.java:65)
+02-27 12:02:04.570 W/System.err(15171): 	at org.xwalk.core.internal.extension.api.messaging.Messaging.onMessage(Messaging.java:121)
+02-27 12:02:04.570 W/System.err(15171): 	at dalvik.system.NativeStart.run(Native Method)
+02-27 12:02:04.570 W/System.err(15171): org.json.JSONException: No value for conversationID
+02-27 12:02:04.570 W/System.err(15171): 	at org.json.JSONObject.get(JSONObject.java:355)
+02-27 12:02:04.570 W/System.err(15171): 	at org.json.JSONObject.getString(JSONObject.java:515)
+02-27 12:02:04.570 W/System.err(15171): 	at org.xwalk.core.internal.extension.api.messaging.MessagingManager.operation(MessagingManager.java:177)
+02-27 12:02:04.570 W/System.err(15171): 	at org.xwalk.core.internal.extension.api.messaging.MessagingManager.onMsgDeleteMessage(MessagingManager.java:54)
+02-27 12:02:04.570 W/System.err(15171): 	at org.xwalk.core.internal.extension.api.messaging.Messaging$6.runCommand(Messaging.java:70)
+02-27 12:02:04.570 W/System.err(15171): 	at org.xwalk.core.internal.extension.api.messaging.Messaging.onMessage(Messaging.java:121)
+02-27 12:02:04.570 W/System.err(15171): 	at dalvik.system.NativeStart.run(Native Method)
+02-27 12:02:04.570 E/MessagingSmsManager(15171): No Sim Card
+02-27 12:02:04.580 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:242:20 ReferenceError: g_promises is not defined
+02-27 12:02:04.580 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].reject)) {
+02-27 12:02:04.580 W/chromium(15171): 
+02-27 12:02:04.630 D/MmsSmsProvider(  807): getSingleAddressId: insert new canonical_address for xxxxxx, _id=15
+02-27 12:02:04.630 D/MmsSmsProvider(  807): getThreadId: create new thread_id for recipients xxxxxxxx
+02-27 12:02:04.630 D/MmsSmsProvider(  807): insertThread: created new thread_id 15 for recipientIds xxxxxxx
+02-27 12:02:04.690 D/dalvikvm(  515): GC_EXPLICIT freed 492K, 49% free 19337K/37668K, paused 1ms+4ms, total 46ms
+02-27 12:02:04.750 D/SmsProvider(  807): Add address=13813926794
+02-27 12:02:04.770 D/SmsProvider(  807): insert content://sms/2 succeeded
+02-27 12:02:07.140 I/WifiHW  (  515): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 12:02:07.140 D/wpa_supplicant(  628): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 12:02:07.140 D/wpa_supplicant(  628): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 12:02:07.170 D/wpa_supplicant(  628): nl80211: survey data missing!
+02-27 12:02:07.170 I/WifiHW  (  515): REPLY: RSSI=-54
+02-27 12:02:07.170 I/WifiHW  (  515): REPLY: LINKSPEED=65
+02-27 12:02:07.170 I/WifiHW  (  515): REPLY: NOISE=9999
+02-27 12:02:07.170 I/WifiHW  (  515): REPLY: FREQUENCY=2462
+02-27 12:02:09.230 W/BindingManager(15171): Cannot call determinedVisibility() - never saw a connection for the pid: 15171
+02-27 12:02:10.180 I/WifiHW  (  515): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 12:02:10.180 D/wpa_supplicant(  628): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 12:02:10.180 D/wpa_supplicant(  628): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 12:02:10.200 D/wpa_supplicant(  628): nl80211: survey data missing!
+02-27 12:02:10.200 I/WifiHW  (  515): REPLY: RSSI=-55
+02-27 12:02:10.200 I/WifiHW  (  515): REPLY: LINKSPEED=65
+02-27 12:02:10.200 I/WifiHW  (  515): REPLY: NOISE=9999
+02-27 12:02:10.200 I/WifiHW  (  515): REPLY: FREQUENCY=2462
+02-27 12:02:10.930 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:02:10.930 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:02:10.930 W/chromium(15171): 
+02-27 12:02:10.930 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:02:10.930 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:02:10.930 W/chromium(15171): 
+02-27 12:02:10.930 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:02:10.930 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:02:10.930 W/chromium(15171): 
+02-27 12:02:10.940 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:02:10.940 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:02:10.940 W/chromium(15171): 
+02-27 12:02:10.940 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:02:10.940 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:02:10.940 W/chromium(15171): 
+02-27 12:02:10.950 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:02:10.950 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:02:10.950 W/chromium(15171): 
+02-27 12:02:10.960 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:02:10.960 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:02:10.960 W/chromium(15171): 
+02-27 12:02:10.960 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:02:10.960 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:02:10.960 W/chromium(15171): 
+02-27 12:02:10.970 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:02:10.970 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:02:10.970 W/chromium(15171): 
+02-27 12:02:10.980 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:02:10.980 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:02:10.980 W/chromium(15171): 
+02-27 12:02:10.990 D/dalvikvm(15171): GC_EXPLICIT freed 2033K, 24% free 7077K/9280K, paused 0ms+2ms, total 17ms
+02-27 12:02:11.010 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:02:11.010 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:02:11.010 W/chromium(15171): 
+02-27 12:02:11.010 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:02:11.010 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:02:11.010 W/chromium(15171): 
+02-27 12:02:13.200 I/WifiHW  (  515): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 12:02:13.200 D/wpa_supplicant(  628): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 12:02:13.200 D/wpa_supplicant(  628): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 12:02:13.230 D/wpa_supplicant(  628): nl80211: survey data missing!
+02-27 12:02:13.230 I/WifiHW  (  515): REPLY: RSSI=-56
+02-27 12:02:13.230 I/WifiHW  (  515): REPLY: LINKSPEED=65
+02-27 12:02:13.230 I/WifiHW  (  515): REPLY: NOISE=9999
+02-27 12:02:13.230 I/WifiHW  (  515): REPLY: FREQUENCY=2462
+02-27 12:02:13.450 W/BindingManager(15171): Cannot call determinedVisibility() - never saw a connection for the pid: 15171
+02-27 12:02:13.480 V/MmsProvider(  807): Query uri=content://mms, match=0
+02-27 12:02:13.490 V/MmsProvider(  807): Query uri=content://mms, match=0
+02-27 12:02:13.490 V/MmsProvider(  807): Query uri=content://mms, match=0
+02-27 12:02:13.500 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:02:13.500 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:02:13.500 W/chromium(15171): 
+02-27 12:02:13.500 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:02:13.500 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:02:13.500 W/chromium(15171): 
+02-27 12:02:13.500 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:02:13.500 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:02:13.500 W/chromium(15171): 
+02-27 12:02:13.500 V/MmsProvider(  807): Query uri=content://mms, match=0
+02-27 12:02:13.500 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:02:13.500 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:02:13.500 W/chromium(15171): 
+02-27 12:02:13.510 V/MmsProvider(  807): Query uri=content://mms, match=0
+02-27 12:02:13.510 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:02:13.510 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:02:13.510 W/chromium(15171): 
+02-27 12:02:13.510 V/MmsProvider(  807): Query uri=content://mms, match=0
+02-27 12:02:13.520 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:02:13.520 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:02:13.520 W/chromium(15171): 
+02-27 12:02:13.520 V/MmsProvider(  807): Query uri=content://mms, match=0
+02-27 12:02:13.530 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:02:13.530 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:02:13.530 W/chromium(15171): 
+02-27 12:02:13.530 V/MmsProvider(  807): Query uri=content://mms, match=0
+02-27 12:02:13.530 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:02:13.530 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:02:13.530 W/chromium(15171): 
+02-27 12:02:13.530 V/MmsProvider(  807): Query uri=content://mms, match=0
+02-27 12:02:13.540 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:02:13.540 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:02:13.540 W/chromium(15171): 
+02-27 12:02:13.540 V/MmsProvider(  807): Query uri=content://mms, match=0
+02-27 12:02:13.540 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:02:13.540 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:02:13.540 W/chromium(15171): 
+02-27 12:02:13.540 V/MmsProvider(  807): Query uri=content://mms, match=0
+02-27 12:02:13.550 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:02:13.550 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:02:13.550 W/chromium(15171): 
+02-27 12:02:13.550 V/MmsProvider(  807): Query uri=content://mms, match=0
+02-27 12:02:13.550 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:02:13.550 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:02:13.550 W/chromium(15171): 
+02-27 12:02:13.550 V/MmsProvider(  807): Query uri=content://mms, match=0
+02-27 12:02:13.560 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:02:13.560 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:02:13.560 W/chromium(15171): 
+02-27 12:02:13.560 V/MmsProvider(  807): Query uri=content://mms, match=0
+02-27 12:02:13.560 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:02:13.560 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:02:13.560 W/chromium(15171): 
+02-27 12:02:13.560 V/MmsProvider(  807): Query uri=content://mms, match=0
+02-27 12:02:13.570 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:02:13.570 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:02:13.570 W/chromium(15171): 
+02-27 12:02:13.570 V/MmsProvider(  807): Query uri=content://mms, match=0
+02-27 12:02:13.570 W/chromium(15171): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-27 12:02:13.570 W/chromium(15171):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-27 12:02:13.570 W/chromium(15171): 
+02-27 12:02:16.230 I/WifiHW  (  515): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 12:02:16.230 D/wpa_supplicant(  628): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 12:02:16.230 D/wpa_supplicant(  628): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 12:02:16.260 D/wpa_supplicant(  628): nl80211: survey data missing!
+02-27 12:02:16.260 I/WifiHW  (  515): REPLY: RSSI=-55
+02-27 12:02:16.260 I/WifiHW  (  515): REPLY: LINKSPEED=65
+02-27 12:02:16.260 I/WifiHW  (  515): REPLY: NOISE=9999
+02-27 12:02:16.260 I/WifiHW  (  515): REPLY: FREQUENCY=2462
+02-27 12:02:17.130 W/ufoGralloc(  172): registerBuffer() handle 0xb8837770/83 didn't require registration
+02-27 12:02:17.150 D/WindowManager(  515): adjustConfigurationLw, config:{1.0 ?mcc?mnc ?locale ?layoutDir sw600dp w600dp h888dp 213dpi lrg port ?uimode ?night finger -keyb/v/h -nav/v} mLidState:1 mHasDockFeature:false mHasKeyboardFeature:false mHasHallSensorFeature:true config.hardKeyboardHidden:2
+02-27 12:02:17.150 I/ActivityManager(  515): [TopPkgCurBat]	NowPkgName[com.asus.launcher]	Battery[41]	TimeTick[1425009737158]	OldPkgName[org.xwalk.webapi_noneservice_tests]
+02-27 12:02:17.170 V/WeatherTimeProvider( 1355): widget on Visibility Changed
+02-27 12:02:17.180 D/        (  859): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 12:02:17.180 W/IInputConnectionWrapper(15171): showStatusIcon on inactive InputConnection
+02-27 12:02:17.190 D/XT9IME  (  777): new subtype :en_US ,keyboard
+02-27 12:02:17.220 D/ImageWallpaper(  580): onOffsetsChanged: xOffset=0.0, yOffset=0.0, xOffsetStep=0.0, yOffsetStep=0.0, xPixels=0, yPixels=0
+02-27 12:02:17.220 D/BatteryStatsImpl(  515): noteStopWakeLocked system isFromForeground = false
+02-27 12:02:17.220 D/ImageWallpaper(  580): Suppressed drawFrame since redraw is not needed and offsets have not changed.
+02-27 12:02:17.220 D/ImageWallpaper(  580): onVisibilityChanged: mVisible, visible=false, true
+02-27 12:02:17.220 D/ImageWallpaper(  580): Visibility changed to visible=true
+02-27 12:02:17.220 D/ImageWallpaper(  580): Suppressed drawFrame since redraw is not needed and offsets have not changed.
+02-27 12:02:17.250 D/        (15171): Surface destroy: ANDROID_NATIVE_WINDOW_MAGIC
+02-27 12:02:17.250 D/        (15171): Surface destroy: ANDROID_NATIVE_WINDOW_MAGIC
+02-27 12:02:17.270 D/AndroidRuntime(15737): 
+02-27 12:02:17.270 D/AndroidRuntime(15737): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-27 12:02:17.270 D/AndroidRuntime(15737): CheckJNI is OFF
+02-27 12:02:17.270 I/AndroidRuntime(15737): Kernel Release Version: 3.10.20-g19cc1a3
+02-27 12:02:17.270 I/dalvikvm(15737): No library specified. The standard exception handler will be used
+02-27 12:02:17.270 I/dalvikvm(15737): 
+02-27 12:02:17.270 I/dalvikvm(15737): +++++++++++++ Using PCG. +++++++++++++++++++++
+02-27 12:02:17.280 D/dalvikvm(15737): Trying to load lib libjavacore.so 0x0
+02-27 12:02:17.280 D/dalvikvm(15737): Added shared lib libjavacore.so 0x0
+02-27 12:02:17.280 D/dalvikvm(15737): Trying to load lib libnativehelper.so 0x0
+02-27 12:02:17.280 D/dalvikvm(15737): Added shared lib libnativehelper.so 0x0
+02-27 12:02:17.280 D/dalvikvm(15737): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-27 12:02:17.290 D/dalvikvm(15737): Extra Options: not specified
+02-27 12:02:17.300 D/dalvikvm(15737): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+02-27 12:02:17.380 E/memtrack(15737): Couldn't load memtrack module (No such file or directory)
+02-27 12:02:17.380 E/android.os.Debug(15737): failed to load memtrack module: -2
+02-27 12:02:17.430 D/AndroidRuntime(15737): Calling main entry com.android.commands.am.Am
+02-27 12:02:17.460 I/ActivityManager(  515): Force stopping org.xwalk.webapi_noneservice_tests appid=11748 user=0: from pid 15737
+02-27 12:02:17.460 I/SecurityManagerService(  687): SMS received security event: App[STOP/org.xwalk.webapi_noneservice_tests]
+02-27 12:02:17.460 I/ActivityManager(  515): Killing 15171:org.xwalk.webapi_noneservice_tests/u0a1748 (adj 1): stop org.xwalk.webapi_noneservice_tests
+02-27 12:02:17.470 D/AndroidRuntime(15737): Shutting down VM
+02-27 12:02:17.470 D/dalvikvm(15737): GC_CONCURRENT freed 112K, 16% free 666K/792K, paused 0ms+0ms, total 1ms
+02-27 12:02:17.480 D/dalvikvm(15737): Compiler shutdown in progress - discarding request
+02-27 12:02:17.480 D/dalvikvm(15737): Compiler shutdown in progress - discarding request
+02-27 12:02:17.480 D/dalvikvm(15737): Compiler shutdown in progress - discarding request
+02-27 12:02:17.480 D/dalvikvm(15737): Compiler shutdown in progress - discarding request
+02-27 12:02:17.480 D/dalvikvm(15737): Compiler shutdown in progress - discarding request
+02-27 12:02:17.480 D/dalvikvm(15737): Compiler shutdown in progress - discarding request
+02-27 12:02:17.480 D/dalvikvm(15737): Compiler shutdown in progress - discarding request
+02-27 12:02:17.480 D/dalvikvm(15737): Compiler shutdown in progress - discarding request
+02-27 12:02:17.480 D/dalvikvm(15737): Compiler shutdown in progress - discarding request
+02-27 12:02:17.480 D/dalvikvm(15737): Compiler shutdown in progress - discarding request
+02-27 12:02:17.480 D/dalvikvm(15737): Compiler shutdown in progress - discarding request
+02-27 12:02:17.480 D/dalvikvm(15737): Compiler shutdown in progress - discarding request
+02-27 12:02:17.480 D/dalvikvm(15737): Compiler shutdown in progress - discarding request
+02-27 12:02:17.480 D/dalvikvm(15737): Compiler shutdown in progress - discarding request
+02-27 12:02:17.480 D/dalvikvm(15737): Compiler shutdown in progress - discarding request
+02-27 12:02:17.480 D/dalvikvm(15737): Compiler shutdown in progress - discarding request
+02-27 12:02:17.480 D/dalvikvm(15737): Compiler shutdown in progress - discarding request
+02-27 12:02:17.480 D/dalvikvm(15737): Compiler shutdown in progress - discarding request
+02-27 12:02:17.480 D/dalvikvm(15737): Compiler shutdown in progress - discarding request
+02-27 12:02:17.480 D/dalvikvm(15737): Compiler shutdown in progress - discarding request
+02-27 12:02:17.480 D/dalvikvm(15737): Compiler shutdown in progress - discarding request
+02-27 12:02:17.480 D/dalvikvm(15737): Compiler shutdown in progress - discarding request
+02-27 12:02:17.480 D/dalvikvm(15737): Compiler shutdown in progress - discarding request
+02-27 12:02:17.480 D/dalvikvm(15737): Compiler shutdown in progress - discarding request
+02-27 12:02:17.480 D/dalvikvm(15737): Compiler shutdown in progress - discarding request
+02-27 12:02:17.480 D/dalvikvm(15737): Compiler shutdown in progress - discarding request
+02-27 12:02:17.480 D/dalvikvm(15737): Compiler shutdown in progress - discarding request
+02-27 12:02:17.480 D/dalvikvm(15737): Compiler shutdown in progress - discarding request
+02-27 12:02:17.480 D/dalvikvm(15737): Compiler shutdown in progress - discarding request
+02-27 12:02:17.480 D/dalvikvm(15737): Compiler shutdown in progress - discarding request
+02-27 12:02:17.480 D/dalvikvm(15737): Compiler shutdown in progress - discarding request
+02-27 12:02:17.480 D/dalvikvm(15737): Compiler shutdown in progress - discarding request
+02-27 12:02:17.480 D/dalvikvm(15737): Compiler shutdown in progress - discarding request
+02-27 12:02:17.480 D/dalvikvm(15737): Compiler shutdown in progress - discarding request
+02-27 12:02:17.480 D/dalvikvm(15737): Compiler shutdown in progress - discarding request
+02-27 12:02:17.480 D/dalvikvm(15737): Compiler shutdown in progress - discarding request
+02-27 12:02:17.480 D/dalvikvm(15737): Compiler shutdown in progress - discarding request
+02-27 12:02:17.480 D/dalvikvm(15737): Compiler shutdown in progress - discarding request
+02-27 12:02:17.480 D/dalvikvm(15737): Compiler shutdown in progress - discarding request
+02-27 12:02:17.480 D/dalvikvm(15737): Compiler shutdown in progress - discarding request
+02-27 12:02:17.480 D/dalvikvm(15737): Compiler shutdown in progress - discarding request
+02-27 12:02:17.480 D/dalvikvm(15737): Compiler shutdown in progress - discarding request
+02-27 12:02:17.480 D/dalvikvm(15737): Compiler shutdown in progress - discarding request
+02-27 12:02:17.520 I/WindowState(  515): WIN DEATH: Window{2214a458 u0 org.xwalk.webapi_noneservice_tests/org.xwalk.webapi_noneservice_tests.WebapiNoneserviceTestsActivity EXITING}
+02-27 12:02:17.530 W/InputDispatcher(  515): channel '2214a458 org.xwalk.webapi_noneservice_tests/org.xwalk.webapi_noneservice_tests.WebapiNoneserviceTestsActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+02-27 12:02:17.530 E/InputDispatcher(  515): channel '2214a458 org.xwalk.webapi_noneservice_tests/org.xwalk.webapi_noneservice_tests.WebapiNoneserviceTestsActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+02-27 12:02:17.530 W/InputDispatcher(  515): Attempted to unregister already unregistered input channel '2214a458 org.xwalk.webapi_noneservice_tests/org.xwalk.webapi_noneservice_tests.WebapiNoneserviceTestsActivity (server)'
+02-27 12:02:17.540 I/WindowState(  515): WIN DEATH: Window{221ed280 u0 SurfaceView EXITING}
+02-27 12:02:17.550 W/SurfaceFlinger(  172): couldn't log to binary event log: overflow.

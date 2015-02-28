@@ -1,0 +1,2089 @@
+--------- beginning of /dev/log/main
+02-28 18:02:47.944 D/AndroidRuntime( 8693): 
+02-28 18:02:47.944 D/AndroidRuntime( 8693): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-28 18:02:47.944 D/AndroidRuntime( 8693): CheckJNI is OFF
+02-28 18:02:47.944 I/AndroidRuntime( 8693): Kernel Release Version: 3.10.20-gf818079
+02-28 18:02:47.944 I/dalvikvm( 8693): No library specified. The standard exception handler will be used
+02-28 18:02:47.944 I/dalvikvm( 8693): 
+02-28 18:02:47.944 I/dalvikvm( 8693): +++++++++++++ Using PCG. +++++++++++++++++++++
+02-28 18:02:47.954 D/dalvikvm( 8693): Trying to load lib libjavacore.so 0x0
+02-28 18:02:47.954 D/dalvikvm( 8693): Added shared lib libjavacore.so 0x0
+02-28 18:02:47.954 D/dalvikvm( 8693): Trying to load lib libnativehelper.so 0x0
+02-28 18:02:47.954 D/dalvikvm( 8693): Added shared lib libnativehelper.so 0x0
+02-28 18:02:47.954 D/dalvikvm( 8693): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-28 18:02:47.964 D/dalvikvm( 8693): Extra Options: not specified
+02-28 18:02:47.974 D/dalvikvm( 8693): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+02-28 18:02:48.044 E/memtrack( 8693): Couldn't load memtrack module (No such file or directory)
+02-28 18:02:48.044 E/android.os.Debug( 8693): failed to load memtrack module: -2
+02-28 18:02:48.084 D/AndroidRuntime( 8693): Calling main entry com.android.commands.am.Am
+02-28 18:02:48.104 D/AndroidRuntime( 8693): Shutting down VM
+02-28 18:02:48.104 D/dalvikvm( 8693): GC_CONCURRENT freed 112K, 16% free 666K/792K, paused 0ms+0ms, total 1ms
+--------- beginning of /dev/log/system
+02-28 18:02:48.104 I/ActivityManager(  506): Force stopping org.xwalk.webapi_noneservice_tests appid=10343 user=0: from pid 8693
+02-28 18:02:48.114 D/dalvikvm( 8693): Compiler shutdown in progress - discarding request
+02-28 18:02:48.114 D/dalvikvm( 8693): Compiler shutdown in progress - discarding request
+02-28 18:02:48.114 D/dalvikvm( 8693): Compiler shutdown in progress - discarding request
+02-28 18:02:48.114 D/dalvikvm( 8693): Compiler shutdown in progress - discarding request
+02-28 18:02:48.114 D/dalvikvm( 8693): Compiler shutdown in progress - discarding request
+02-28 18:02:48.114 D/dalvikvm( 8693): Compiler shutdown in progress - discarding request
+02-28 18:02:48.114 D/dalvikvm( 8693): Compiler shutdown in progress - discarding request
+02-28 18:02:48.114 D/dalvikvm( 8693): Compiler shutdown in progress - discarding request
+02-28 18:02:48.114 D/dalvikvm( 8693): Compiler shutdown in progress - discarding request
+02-28 18:02:48.114 D/dalvikvm( 8693): Compiler shutdown in progress - discarding request
+02-28 18:02:48.114 D/dalvikvm( 8693): Compiler shutdown in progress - discarding request
+02-28 18:02:48.114 D/dalvikvm( 8693): Compiler shutdown in progress - discarding request
+02-28 18:02:48.114 D/dalvikvm( 8693): Compiler shutdown in progress - discarding request
+02-28 18:02:48.114 D/dalvikvm( 8693): Compiler shutdown in progress - discarding request
+02-28 18:02:48.114 D/dalvikvm( 8693): Compiler shutdown in progress - discarding request
+02-28 18:02:48.114 D/dalvikvm( 8693): Compiler shutdown in progress - discarding request
+02-28 18:02:48.114 D/dalvikvm( 8693): Compiler shutdown in progress - discarding request
+02-28 18:02:48.114 D/dalvikvm( 8693): Compiler shutdown in progress - discarding request
+02-28 18:02:48.114 D/dalvikvm( 8693): Compiler shutdown in progress - discarding request
+02-28 18:02:48.114 D/dalvikvm( 8693): Compiler shutdown in progress - discarding request
+02-28 18:02:48.114 D/dalvikvm( 8693): Compiler shutdown in progress - discarding request
+02-28 18:02:48.114 D/dalvikvm( 8693): Compiler shutdown in progress - discarding request
+02-28 18:02:48.114 D/dalvikvm( 8693): Compiler shutdown in progress - discarding request
+02-28 18:02:48.114 D/dalvikvm( 8693): Compiler shutdown in progress - discarding request
+02-28 18:02:48.114 D/dalvikvm( 8693): Compiler shutdown in progress - discarding request
+02-28 18:02:48.114 D/dalvikvm( 8693): Compiler shutdown in progress - discarding request
+02-28 18:02:48.114 D/dalvikvm( 8693): Compiler shutdown in progress - discarding request
+02-28 18:02:48.114 D/dalvikvm( 8693): Compiler shutdown in progress - discarding request
+02-28 18:02:48.114 D/dalvikvm( 8693): Compiler shutdown in progress - discarding request
+02-28 18:02:48.114 D/dalvikvm( 8693): Compiler shutdown in progress - discarding request
+02-28 18:02:48.114 D/dalvikvm( 8693): Compiler shutdown in progress - discarding request
+02-28 18:02:48.114 D/dalvikvm( 8693): Compiler shutdown in progress - discarding request
+02-28 18:02:48.114 D/dalvikvm( 8693): Compiler shutdown in progress - discarding request
+02-28 18:02:48.114 D/dalvikvm( 8693): Compiler shutdown in progress - discarding request
+02-28 18:02:48.114 D/dalvikvm( 8693): Compiler shutdown in progress - discarding request
+02-28 18:02:48.114 D/dalvikvm( 8693): Compiler shutdown in progress - discarding request
+02-28 18:02:48.114 D/dalvikvm( 8693): Compiler shutdown in progress - discarding request
+02-28 18:02:48.114 D/dalvikvm( 8693): Compiler shutdown in progress - discarding request
+02-28 18:02:48.114 D/dalvikvm( 8693): Compiler shutdown in progress - discarding request
+02-28 18:02:48.114 D/dalvikvm( 8693): Compiler shutdown in progress - discarding request
+02-28 18:02:48.114 D/dalvikvm( 8693): Compiler shutdown in progress - discarding request
+02-28 18:02:48.114 D/dalvikvm( 8693): Compiler shutdown in progress - discarding request
+02-28 18:02:48.114 D/dalvikvm( 8693): Compiler shutdown in progress - discarding request
+02-28 18:02:48.114 D/dalvikvm( 8693): Compiler shutdown in progress - discarding request
+02-28 18:02:48.114 D/dalvikvm( 8693): Compiler shutdown in progress - discarding request
+02-28 18:02:48.564 D/AndroidRuntime( 8704): 
+02-28 18:02:48.564 D/AndroidRuntime( 8704): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-28 18:02:48.564 D/AndroidRuntime( 8704): CheckJNI is OFF
+02-28 18:02:48.564 I/AndroidRuntime( 8704): Kernel Release Version: 3.10.20-gf818079
+02-28 18:02:48.564 I/dalvikvm( 8704): No library specified. The standard exception handler will be used
+02-28 18:02:48.564 I/dalvikvm( 8704): 
+02-28 18:02:48.564 I/dalvikvm( 8704): +++++++++++++ Using PCG. +++++++++++++++++++++
+02-28 18:02:48.574 D/dalvikvm( 8704): Trying to load lib libjavacore.so 0x0
+02-28 18:02:48.574 D/dalvikvm( 8704): Added shared lib libjavacore.so 0x0
+02-28 18:02:48.584 D/dalvikvm( 8704): Trying to load lib libnativehelper.so 0x0
+02-28 18:02:48.584 D/dalvikvm( 8704): Added shared lib libnativehelper.so 0x0
+02-28 18:02:48.584 D/dalvikvm( 8704): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-28 18:02:48.584 D/dalvikvm( 8704): Extra Options: not specified
+02-28 18:02:48.594 D/dalvikvm( 8704): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+02-28 18:02:48.674 E/memtrack( 8704): Couldn't load memtrack module (No such file or directory)
+02-28 18:02:48.674 E/android.os.Debug( 8704): failed to load memtrack module: -2
+02-28 18:02:48.704 D/AndroidRuntime( 8704): Calling main entry com.android.commands.am.Am
+02-28 18:02:48.734 D/AndroidRuntime( 8704): Shutting down VM
+02-28 18:02:48.734 I/ActivityManager(  506): START u0 {flg=0x10000000 cmp=org.xwalk.webapi_noneservice_tests/.webapi_noneservice_testsActivity} from pid 8704
+02-28 18:02:48.744 D/dalvikvm( 8704): GC_CONCURRENT freed 117K, 16% free 702K/832K, paused 0ms+0ms, total 1ms
+02-28 18:02:48.754 D/dalvikvm( 8704): Compiler shutdown in progress - discarding request
+02-28 18:02:48.754 D/dalvikvm( 8704): Compiler shutdown in progress - discarding request
+02-28 18:02:48.754 D/dalvikvm( 8704): Compiler shutdown in progress - discarding request
+02-28 18:02:48.754 D/dalvikvm( 8704): Compiler shutdown in progress - discarding request
+02-28 18:02:48.754 D/dalvikvm( 8704): Compiler shutdown in progress - discarding request
+02-28 18:02:48.754 D/dalvikvm( 8704): Compiler shutdown in progress - discarding request
+02-28 18:02:48.754 D/dalvikvm( 8704): Compiler shutdown in progress - discarding request
+02-28 18:02:48.754 D/dalvikvm( 8704): Compiler shutdown in progress - discarding request
+02-28 18:02:48.754 D/dalvikvm( 8704): Compiler shutdown in progress - discarding request
+02-28 18:02:48.754 D/dalvikvm( 8704): Compiler shutdown in progress - discarding request
+02-28 18:02:48.754 D/dalvikvm( 8704): Compiler shutdown in progress - discarding request
+02-28 18:02:48.754 D/dalvikvm( 8704): Compiler shutdown in progress - discarding request
+02-28 18:02:48.754 D/dalvikvm( 8704): Compiler shutdown in progress - discarding request
+02-28 18:02:48.754 D/dalvikvm( 8704): Compiler shutdown in progress - discarding request
+02-28 18:02:48.754 D/dalvikvm( 8704): Compiler shutdown in progress - discarding request
+02-28 18:02:48.754 D/dalvikvm( 8704): Compiler shutdown in progress - discarding request
+02-28 18:02:48.754 D/dalvikvm( 8704): Compiler shutdown in progress - discarding request
+02-28 18:02:48.754 D/dalvikvm( 8704): Compiler shutdown in progress - discarding request
+02-28 18:02:48.754 D/dalvikvm( 8704): Compiler shutdown in progress - discarding request
+02-28 18:02:48.754 D/dalvikvm( 8704): Compiler shutdown in progress - discarding request
+02-28 18:02:48.754 D/dalvikvm( 8704): Compiler shutdown in progress - discarding request
+02-28 18:02:48.754 D/dalvikvm( 8704): Compiler shutdown in progress - discarding request
+02-28 18:02:48.754 D/dalvikvm( 8704): Compiler shutdown in progress - discarding request
+02-28 18:02:48.754 D/dalvikvm( 8704): Compiler shutdown in progress - discarding request
+02-28 18:02:48.754 D/dalvikvm( 8704): Compiler shutdown in progress - discarding request
+02-28 18:02:48.754 D/dalvikvm( 8704): Compiler shutdown in progress - discarding request
+02-28 18:02:48.754 D/dalvikvm( 8704): Compiler shutdown in progress - discarding request
+02-28 18:02:48.754 D/dalvikvm( 8704): Compiler shutdown in progress - discarding request
+02-28 18:02:48.754 D/dalvikvm( 8704): Compiler shutdown in progress - discarding request
+02-28 18:02:48.754 D/dalvikvm( 8704): Compiler shutdown in progress - discarding request
+02-28 18:02:48.754 D/dalvikvm( 8704): Compiler shutdown in progress - discarding request
+02-28 18:02:48.754 D/dalvikvm( 8704): Compiler shutdown in progress - discarding request
+02-28 18:02:48.754 D/dalvikvm( 8704): Compiler shutdown in progress - discarding request
+02-28 18:02:48.754 D/dalvikvm( 8704): Compiler shutdown in progress - discarding request
+02-28 18:02:48.754 D/dalvikvm( 8704): Compiler shutdown in progress - discarding request
+02-28 18:02:48.754 D/dalvikvm( 8704): Compiler shutdown in progress - discarding request
+02-28 18:02:48.754 D/dalvikvm( 8704): Compiler shutdown in progress - discarding request
+02-28 18:02:48.754 D/dalvikvm( 8704): Compiler shutdown in progress - discarding request
+02-28 18:02:48.754 D/dalvikvm( 8704): Compiler shutdown in progress - discarding request
+02-28 18:02:48.754 D/dalvikvm( 8704): Compiler shutdown in progress - discarding request
+02-28 18:02:48.754 D/dalvikvm( 8704): Compiler shutdown in progress - discarding request
+02-28 18:02:48.754 D/dalvikvm( 8704): Compiler shutdown in progress - discarding request
+02-28 18:02:48.754 D/dalvikvm( 8704): Compiler shutdown in progress - discarding request
+02-28 18:02:48.754 D/dalvikvm( 8704): Compiler shutdown in progress - discarding request
+02-28 18:02:48.754 D/dalvikvm( 8704): Compiler shutdown in progress - discarding request
+02-28 18:02:48.754 D/dalvikvm( 8704): Compiler shutdown in progress - discarding request
+02-28 18:02:48.754 D/dalvikvm( 8704): Compiler shutdown in progress - discarding request
+02-28 18:02:49.404 D/AndroidRuntime( 8715): 
+02-28 18:02:49.404 D/AndroidRuntime( 8715): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-28 18:02:49.404 D/AndroidRuntime( 8715): CheckJNI is OFF
+02-28 18:02:49.404 I/AndroidRuntime( 8715): Kernel Release Version: 3.10.20-gf818079
+02-28 18:02:49.404 I/dalvikvm( 8715): No library specified. The standard exception handler will be used
+02-28 18:02:49.414 I/dalvikvm( 8715): 
+02-28 18:02:49.414 I/dalvikvm( 8715): +++++++++++++ Using PCG. +++++++++++++++++++++
+02-28 18:02:49.414 D/dalvikvm( 8715): Trying to load lib libjavacore.so 0x0
+02-28 18:02:49.424 D/dalvikvm( 8715): Added shared lib libjavacore.so 0x0
+02-28 18:02:49.424 D/dalvikvm( 8715): Trying to load lib libnativehelper.so 0x0
+02-28 18:02:49.424 D/dalvikvm( 8715): Added shared lib libnativehelper.so 0x0
+02-28 18:02:49.424 D/dalvikvm( 8715): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-28 18:02:49.424 D/dalvikvm( 8715): Extra Options: not specified
+02-28 18:02:49.434 D/dalvikvm( 8715): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+02-28 18:02:49.514 E/memtrack( 8715): Couldn't load memtrack module (No such file or directory)
+02-28 18:02:49.514 E/android.os.Debug( 8715): failed to load memtrack module: -2
+02-28 18:02:49.544 D/AndroidRuntime( 8715): Calling main entry com.android.commands.am.Am
+02-28 18:02:49.574 D/AndroidRuntime( 8715): Shutting down VM
+02-28 18:02:49.574 I/ActivityManager(  506): START u0 {flg=0x10000000 cmp=org.xwalk.webapi_noneservice_tests/.webapi_noneservice_tests} from pid 8715
+02-28 18:02:49.584 D/dalvikvm( 8715): GC_CONCURRENT freed 113K, 16% free 674K/800K, paused 1ms+0ms, total 2ms
+02-28 18:02:49.584 D/dalvikvm( 8715): Compiler shutdown in progress - discarding request
+02-28 18:02:49.584 D/dalvikvm( 8715): Compiler shutdown in progress - discarding request
+02-28 18:02:49.584 D/dalvikvm( 8715): Compiler shutdown in progress - discarding request
+02-28 18:02:49.584 D/dalvikvm( 8715): Compiler shutdown in progress - discarding request
+02-28 18:02:49.584 D/dalvikvm( 8715): Compiler shutdown in progress - discarding request
+02-28 18:02:49.584 D/dalvikvm( 8715): Compiler shutdown in progress - discarding request
+02-28 18:02:49.584 D/dalvikvm( 8715): Compiler shutdown in progress - discarding request
+02-28 18:02:49.584 D/dalvikvm( 8715): Compiler shutdown in progress - discarding request
+02-28 18:02:49.584 D/dalvikvm( 8715): Compiler shutdown in progress - discarding request
+02-28 18:02:49.584 D/dalvikvm( 8715): Compiler shutdown in progress - discarding request
+02-28 18:02:49.584 D/dalvikvm( 8715): Compiler shutdown in progress - discarding request
+02-28 18:02:49.584 D/dalvikvm( 8715): Compiler shutdown in progress - discarding request
+02-28 18:02:49.584 D/dalvikvm( 8715): Compiler shutdown in progress - discarding request
+02-28 18:02:49.584 D/dalvikvm( 8715): Compiler shutdown in progress - discarding request
+02-28 18:02:49.584 D/dalvikvm( 8715): Compiler shutdown in progress - discarding request
+02-28 18:02:49.584 D/dalvikvm( 8715): Compiler shutdown in progress - discarding request
+02-28 18:02:49.584 D/dalvikvm( 8715): Compiler shutdown in progress - discarding request
+02-28 18:02:49.584 D/dalvikvm( 8715): Compiler shutdown in progress - discarding request
+02-28 18:02:49.584 D/dalvikvm( 8715): Compiler shutdown in progress - discarding request
+02-28 18:02:49.584 D/dalvikvm( 8715): Compiler shutdown in progress - discarding request
+02-28 18:02:49.584 D/dalvikvm( 8715): Compiler shutdown in progress - discarding request
+02-28 18:02:49.584 D/dalvikvm( 8715): Compiler shutdown in progress - discarding request
+02-28 18:02:49.584 D/dalvikvm( 8715): Compiler shutdown in progress - discarding request
+02-28 18:02:49.584 D/dalvikvm( 8715): Compiler shutdown in progress - discarding request
+02-28 18:02:49.584 D/dalvikvm( 8715): Compiler shutdown in progress - discarding request
+02-28 18:02:49.584 D/dalvikvm( 8715): Compiler shutdown in progress - discarding request
+02-28 18:02:49.584 D/dalvikvm( 8715): Compiler shutdown in progress - discarding request
+02-28 18:02:49.584 D/dalvikvm( 8715): Compiler shutdown in progress - discarding request
+02-28 18:02:49.584 D/dalvikvm( 8715): Compiler shutdown in progress - discarding request
+02-28 18:02:49.584 D/dalvikvm( 8715): Compiler shutdown in progress - discarding request
+02-28 18:02:49.584 D/dalvikvm( 8715): Compiler shutdown in progress - discarding request
+02-28 18:02:49.584 D/dalvikvm( 8715): Compiler shutdown in progress - discarding request
+02-28 18:02:49.584 D/dalvikvm( 8715): Compiler shutdown in progress - discarding request
+02-28 18:02:49.584 D/dalvikvm( 8715): Compiler shutdown in progress - discarding request
+02-28 18:02:49.584 D/dalvikvm( 8715): Compiler shutdown in progress - discarding request
+02-28 18:02:49.584 D/dalvikvm( 8715): Compiler shutdown in progress - discarding request
+02-28 18:02:49.584 D/dalvikvm( 8715): Compiler shutdown in progress - discarding request
+02-28 18:02:49.584 D/dalvikvm( 8715): Compiler shutdown in progress - discarding request
+02-28 18:02:49.584 D/dalvikvm( 8715): Compiler shutdown in progress - discarding request
+02-28 18:02:49.584 D/dalvikvm( 8715): Compiler shutdown in progress - discarding request
+02-28 18:02:49.584 D/dalvikvm( 8715): Compiler shutdown in progress - discarding request
+02-28 18:02:49.584 D/dalvikvm( 8715): Compiler shutdown in progress - discarding request
+02-28 18:02:49.584 D/dalvikvm( 8715): Compiler shutdown in progress - discarding request
+02-28 18:02:49.584 D/dalvikvm( 8715): Compiler shutdown in progress - discarding request
+02-28 18:02:49.584 D/dalvikvm( 8715): Compiler shutdown in progress - discarding request
+02-28 18:02:49.584 D/dalvikvm( 8715): Compiler shutdown in progress - discarding request
+02-28 18:02:49.584 D/dalvikvm( 8715): Compiler shutdown in progress - discarding request
+02-28 18:02:49.584 D/dalvikvm( 8715): Compiler shutdown in progress - discarding request
+02-28 18:02:50.234 D/AndroidRuntime( 8726): 
+02-28 18:02:50.234 D/AndroidRuntime( 8726): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-28 18:02:50.234 D/AndroidRuntime( 8726): CheckJNI is OFF
+02-28 18:02:50.234 I/AndroidRuntime( 8726): Kernel Release Version: 3.10.20-gf818079
+02-28 18:02:50.234 I/dalvikvm( 8726): No library specified. The standard exception handler will be used
+02-28 18:02:50.234 I/dalvikvm( 8726): 
+02-28 18:02:50.234 I/dalvikvm( 8726): +++++++++++++ Using PCG. +++++++++++++++++++++
+02-28 18:02:50.244 D/dalvikvm( 8726): Trying to load lib libjavacore.so 0x0
+02-28 18:02:50.244 D/dalvikvm( 8726): Added shared lib libjavacore.so 0x0
+02-28 18:02:50.254 D/dalvikvm( 8726): Trying to load lib libnativehelper.so 0x0
+02-28 18:02:50.254 D/dalvikvm( 8726): Added shared lib libnativehelper.so 0x0
+02-28 18:02:50.254 D/dalvikvm( 8726): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-28 18:02:50.254 D/dalvikvm( 8726): Extra Options: not specified
+02-28 18:02:50.264 D/dalvikvm( 8726): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+02-28 18:02:50.344 E/memtrack( 8726): Couldn't load memtrack module (No such file or directory)
+02-28 18:02:50.344 E/android.os.Debug( 8726): failed to load memtrack module: -2
+02-28 18:02:50.374 D/AndroidRuntime( 8726): Calling main entry com.android.commands.am.Am
+02-28 18:02:50.404 I/ActivityManager(  506): START u0 {flg=0x10000000 cmp=org.xwalk.webapi_noneservice_tests/.WebapiNoneserviceTestsActivity} from pid 8726
+02-28 18:02:50.414 W/ufoGralloc(  172): registerBuffer() handle 0xb8381110/7 didn't require registration
+02-28 18:02:50.434 D/AndroidRuntime( 8726): Shutting down VM
+02-28 18:02:50.444 D/dalvikvm( 8726): GC_CONCURRENT freed 114K, 16% free 701K/832K, paused 0ms+0ms, total 1ms
+02-28 18:02:50.444 D/dalvikvm( 8726): Compiler shutdown in progress - discarding request
+02-28 18:02:50.444 D/dalvikvm( 8726): Compiler shutdown in progress - discarding request
+02-28 18:02:50.444 D/dalvikvm( 8726): Compiler shutdown in progress - discarding request
+02-28 18:02:50.444 D/dalvikvm( 8726): Compiler shutdown in progress - discarding request
+02-28 18:02:50.444 D/dalvikvm( 8726): Compiler shutdown in progress - discarding request
+02-28 18:02:50.444 D/dalvikvm( 8726): Compiler shutdown in progress - discarding request
+02-28 18:02:50.444 D/dalvikvm( 8726): Compiler shutdown in progress - discarding request
+02-28 18:02:50.444 D/dalvikvm( 8726): Compiler shutdown in progress - discarding request
+02-28 18:02:50.444 D/dalvikvm( 8726): Compiler shutdown in progress - discarding request
+02-28 18:02:50.444 D/dalvikvm( 8726): Compiler shutdown in progress - discarding request
+02-28 18:02:50.444 D/dalvikvm( 8726): Compiler shutdown in progress - discarding request
+02-28 18:02:50.444 D/dalvikvm( 8726): Compiler shutdown in progress - discarding request
+02-28 18:02:50.444 D/dalvikvm( 8726): Compiler shutdown in progress - discarding request
+02-28 18:02:50.444 D/dalvikvm( 8726): Compiler shutdown in progress - discarding request
+02-28 18:02:50.444 D/dalvikvm( 8726): Compiler shutdown in progress - discarding request
+02-28 18:02:50.444 D/dalvikvm( 8726): Compiler shutdown in progress - discarding request
+02-28 18:02:50.444 D/dalvikvm( 8726): Compiler shutdown in progress - discarding request
+02-28 18:02:50.444 D/dalvikvm( 8726): Compiler shutdown in progress - discarding request
+02-28 18:02:50.444 D/dalvikvm( 8726): Compiler shutdown in progress - discarding request
+02-28 18:02:50.444 D/dalvikvm( 8726): Compiler shutdown in progress - discarding request
+02-28 18:02:50.444 D/dalvikvm( 8726): Compiler shutdown in progress - discarding request
+02-28 18:02:50.444 D/dalvikvm( 8726): Compiler shutdown in progress - discarding request
+02-28 18:02:50.444 D/dalvikvm( 8726): Compiler shutdown in progress - discarding request
+02-28 18:02:50.444 D/dalvikvm( 8726): Compiler shutdown in progress - discarding request
+02-28 18:02:50.444 D/dalvikvm( 8726): Compiler shutdown in progress - discarding request
+02-28 18:02:50.444 D/dalvikvm( 8726): Compiler shutdown in progress - discarding request
+02-28 18:02:50.444 D/dalvikvm( 8726): Compiler shutdown in progress - discarding request
+02-28 18:02:50.444 D/dalvikvm( 8726): Compiler shutdown in progress - discarding request
+02-28 18:02:50.444 D/dalvikvm( 8726): Compiler shutdown in progress - discarding request
+02-28 18:02:50.444 D/dalvikvm( 8726): Compiler shutdown in progress - discarding request
+02-28 18:02:50.444 D/dalvikvm( 8726): Compiler shutdown in progress - discarding request
+02-28 18:02:50.444 D/dalvikvm( 8726): Compiler shutdown in progress - discarding request
+02-28 18:02:50.444 D/dalvikvm( 8726): Compiler shutdown in progress - discarding request
+02-28 18:02:50.444 D/dalvikvm( 8726): Compiler shutdown in progress - discarding request
+02-28 18:02:50.444 D/dalvikvm( 8726): Compiler shutdown in progress - discarding request
+02-28 18:02:50.444 D/dalvikvm( 8726): Compiler shutdown in progress - discarding request
+02-28 18:02:50.444 D/dalvikvm( 8726): Compiler shutdown in progress - discarding request
+02-28 18:02:50.444 D/dalvikvm( 8726): Compiler shutdown in progress - discarding request
+02-28 18:02:50.444 D/dalvikvm( 8726): Compiler shutdown in progress - discarding request
+02-28 18:02:50.444 D/dalvikvm( 8726): Compiler shutdown in progress - discarding request
+02-28 18:02:50.464 I/SecurityManagerService(  621): SMS received security event: App[START/org.xwalk.webapi_noneservice_tests]
+02-28 18:02:50.464 D/dalvikvm( 8737): Process 8737 nice name: org.xwalk.webapi_noneservice_tests
+02-28 18:02:50.464 D/dalvikvm( 8737): Extra Options: not specified
+02-28 18:02:50.474 D/WindowManager(  506): adjustConfigurationLw, config:{1.0 ?mcc?mnc ?locale ?layoutDir sw600dp w600dp h888dp 213dpi lrg port ?uimode ?night finger -keyb/v/h -nav/v} mLidState:1 mHasDockFeature:false mHasKeyboardFeature:false mHasHallSensorFeature:true config.hardKeyboardHidden:2
+02-28 18:02:50.474 I/ActivityManager(  506): Start proc org.xwalk.webapi_noneservice_tests for activity org.xwalk.webapi_noneservice_tests/.WebapiNoneserviceTestsActivity: pid=8737 uid=10343 gids={50343, 3003, 1028, 1015}
+02-28 18:02:50.474 I/ActivityManager(  506): [TopPkgCurBat]	NowPkgName[org.xwalk.webapi_noneservice_tests]	Battery[92]	TimeTick[1425117770482]	OldPkgName[com.chrome.beta]
+02-28 18:02:50.494 D/        (31284): Surface destroy: ANDROID_NATIVE_WINDOW_MAGIC
+02-28 18:02:50.544 D/        (16090): Surface destroy: ANDROID_NATIVE_WINDOW_MAGIC
+02-28 18:02:50.554 D/dalvikvm( 8737): Trying to load lib /data/app-lib/org.xwalk.webapi_noneservice_tests-1/libxwalkcore.so 0x43d82410
+02-28 18:02:50.634 D/dalvikvm( 8737): Added shared lib /data/app-lib/org.xwalk.webapi_noneservice_tests-1/libxwalkcore.so 0x43d82410
+02-28 18:02:50.654 I/LibraryLoader( 8737): Time to load native libraries: 104 ms (timestamps 2349-2453)
+02-28 18:02:50.654 I/LibraryLoader( 8737): Expected native library version number "",actual native library version number ""
+02-28 18:02:50.674 I/LibraryLoader( 8737): Expected native library version number "",actual native library version number ""
+02-28 18:02:50.674 I/chromium( 8737): [INFO:library_loader_hooks.cc(112)] Chromium logging enabled: level = 0, default verbosity = 0
+02-28 18:02:50.734 I/BrowserStartupController( 8737): Initializing chromium process, singleProcess=true
+02-28 18:02:51.194 W/AudioManagerAndroid( 8737): Requires BLUETOOTH permission
+02-28 18:02:51.204 I/ufoGralloc( 8737): Hello, this is UFO GRALLOC/Intel Corporation
+02-28 18:02:51.214 D/        ( 8737): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-28 18:02:51.214 D/        ( 8737): droid_create_context : config id = 1 conf->NativeVisualID=1
+02-28 18:02:51.214 D/        ( 8737): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-28 18:02:51.214 I/        ( 8737): Requested context : GLES 2.0
+02-28 18:02:51.254 W/chromium( 8737): [WARNING:proxy_service.cc(899)] PAC support disabled because there is no system implementation
+02-28 18:02:51.264 W/dalvikvm( 8737): VFY: unable to find class referenced in signature (Landroid/view/inputmethod/CursorAnchorInfo;)
+02-28 18:02:51.264 I/dalvikvm( 8737): Could not find method android.view.inputmethod.InputMethodManager.updateCursorAnchorInfo, referenced from method org.chromium.content.browser.input.InputMethodManagerWrapper.updateCursorAnchorInfo
+02-28 18:02:51.264 W/dalvikvm( 8737): VFY: unable to resolve virtual method 1241: Landroid/view/inputmethod/InputMethodManager;.updateCursorAnchorInfo (Landroid/view/View;Landroid/view/inputmethod/CursorAnchorInfo;)V
+02-28 18:02:51.264 D/dalvikvm( 8737): VFY: replacing opcode 0x6e at 0x000a
+02-28 18:02:51.334 E/cutils  (  164): Failed to mkdirat(/Removable/MicroSD): Read-only file system
+02-28 18:02:51.334 W/ContextImpl( 8737): Failed to ensure directory: /Removable/MicroSD/Android/data/org.xwalk.webapi_noneservice_tests/cache
+02-28 18:02:51.334 W/XWalkExtensionManager( 8737): Failed to read extensions-config.json
+02-28 18:02:51.334 E/chromium( 8737): [ERROR:unix_domain_server_socket_posix.cc(106)] Not implemented reached in virtual int net::UnixDomainServerSocket::GetLocalAddress(net::IPEndPoint*) const
+02-28 18:02:51.334 I/dalvikvm( 8737): Could not find method android.app.Activity.finishAndRemoveTask, referenced from method org.chromium.base.ApiCompatibilityUtils.finishAndRemoveTask
+02-28 18:02:51.334 W/dalvikvm( 8737): VFY: unable to resolve virtual method 4: Landroid/app/Activity;.finishAndRemoveTask ()V
+02-28 18:02:51.334 D/dalvikvm( 8737): VFY: replacing opcode 0x6e at 0x0006
+02-28 18:02:51.334 I/dalvikvm( 8737): Could not find method android.os.PowerManager.isInteractive, referenced from method org.chromium.base.ApiCompatibilityUtils.isInteractive
+02-28 18:02:51.334 W/dalvikvm( 8737): VFY: unable to resolve virtual method 768: Landroid/os/PowerManager;.isInteractive ()Z
+02-28 18:02:51.334 D/dalvikvm( 8737): VFY: replacing opcode 0x6e at 0x000e
+02-28 18:02:51.334 I/dalvikvm( 8737): Could not find method android.view.Window.getNavigationBarColor, referenced from method org.chromium.base.ApiCompatibilityUtils.setStatusBarColor
+02-28 18:02:51.334 W/dalvikvm( 8737): VFY: unable to resolve virtual method 1144: Landroid/view/Window;.getNavigationBarColor ()I
+02-28 18:02:51.334 D/dalvikvm( 8737): VFY: replacing opcode 0x6e at 0x0010
+02-28 18:02:51.334 I/dalvikvm( 8737): Could not find method android.view.Window.setStatusBarColor, referenced from method org.chromium.base.ApiCompatibilityUtils.setStatusBarColor
+02-28 18:02:51.334 W/dalvikvm( 8737): VFY: unable to resolve virtual method 1149: Landroid/view/Window;.setStatusBarColor (I)V
+02-28 18:02:51.334 D/dalvikvm( 8737): VFY: replacing opcode 0x6e at 0x0019
+02-28 18:02:51.334 E/dalvikvm( 8737): Could not find class 'android.app.ActivityManager$TaskDescription', referenced from method org.chromium.base.ApiCompatibilityUtils.setTaskDescription
+02-28 18:02:51.334 W/dalvikvm( 8737): VFY: unable to resolve new-instance 11 (Landroid/app/ActivityManager$TaskDescription;) in Lorg/chromium/base/ApiCompatibilityUtils;
+02-28 18:02:51.334 D/dalvikvm( 8737): VFY: replacing opcode 0x22 at 0x0006
+02-28 18:02:51.334 D/dalvikvm( 8737): DexOpt: unable to opt direct call 0x001e at 0x08 in Lorg/chromium/base/ApiCompatibilityUtils;.setTaskDescription
+02-28 18:02:51.334 W/Vold    (  164): Returning OperationFailed - no handler for errno 30
+02-28 18:02:51.384 I/chromium( 8737): [INFO:xwalk_extension_renderer_controller.cc(47)] EXTENSION PROCESS DISABLED.
+02-28 18:02:51.434 D/        ( 8737): droid_create_context : config id = 5 conf->NativeVisualID=1
+02-28 18:02:51.434 D/        ( 8737): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-28 18:02:51.434 I/        ( 8737): Requested context : GLES 2.0
+02-28 18:02:51.434 D/        ( 8737): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-28 18:02:51.444 D/OpenGLRenderer( 8737): Enabling debug mode 0
+02-28 18:02:51.504 W/IInputConnectionWrapper(16090): showStatusIcon on inactive InputConnection
+02-28 18:02:51.504 D/XT9IME  (13333): new subtype :zh_CN ,pinyin
+02-28 18:02:51.514 I/ActivityManager(  506): Displayed org.xwalk.webapi_noneservice_tests/.WebapiNoneserviceTestsActivity: +1s55ms
+02-28 18:02:51.524 D/BatteryStatsImpl(  506): noteStopWakeLocked system isFromForeground = false
+02-28 18:02:51.524 D/        ( 8737): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-28 18:02:51.524 D/        ( 8737): droid_create_context : config id = 1 conf->NativeVisualID=1
+02-28 18:02:51.524 D/        ( 8737): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-28 18:02:51.524 I/        ( 8737): Requested context : GLES 2.0
+02-28 18:02:51.534 D/        ( 8737): Swap interval set to = 1 value
+02-28 18:02:51.554 E/TabPersistentStore(16090): Failed to create state folder: /data/data/com.chrome.beta/app_tabs/0
+02-28 18:02:51.634 D/        ( 8737): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-28 18:02:51.634 D/        ( 8737): droid_create_context : config id = 1 conf->NativeVisualID=1
+02-28 18:02:51.634 D/        ( 8737): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-28 18:02:51.634 I/        ( 8737): Requested context : GLES 2.0
+02-28 18:02:51.644 W/BindingManager( 8737): Cannot call determinedVisibility() - never saw a connection for the pid: 8737
+02-28 18:02:51.664 W/ManagedEGLContext(16090): doTerminate failed: EGL count is 2 but managed count is 1
+02-28 18:02:52.674 W/BindingManager( 8737): Cannot call determinedVisibility() - never saw a connection for the pid: 8737
+02-28 18:02:52.974 I/chromium( 8737): [INFO:CONSOLE(0)] "Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check http://xhr.spec.whatwg.org/.", source:  (0)
+02-28 18:02:53.044 D/        ( 8737): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-28 18:02:53.044 D/        ( 8737): droid_create_context : config id = 1 conf->NativeVisualID=1
+02-28 18:02:53.044 D/        ( 8737): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-28 18:02:53.044 I/        ( 8737): Requested context : GLES 2.0
+02-28 18:02:54.764 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:02:54.764 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:02:54.764 W/chromium( 8737): 
+02-28 18:02:54.764 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:02:54.764 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:02:54.764 W/chromium( 8737): 
+02-28 18:02:54.774 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:02:54.774 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:02:54.774 W/chromium( 8737): 
+02-28 18:02:56.934 W/BindingManager( 8737): Cannot call determinedVisibility() - never saw a connection for the pid: 8737
+02-28 18:02:56.984 D/MmsSmsDatabaseHelper(  757): [MmsSmsDb] tableName: threads hasAutoIncrement: CREATE TABLE threads (_id INTEGER PRIMARY KEY AUTOINCREMENT,date INTEGER DEFAULT 0,message_count INTEGER DEFAULT 0,recipient_ids TEXT,snippet TEXT,snippet_cs INTEGER DEFAULT 0,read INTEGER DEFAULT 1,type INTEGER DEFAULT 0,error INTEGER DEFAULT 0,has_attachment INTEGER DEFAULT 0,block_timestamp INTEGER DEFAULT 0,sub_id INTEGER DEFAULT 0,imsi TEXT) result: true
+02-28 18:02:56.984 D/MmsSmsDatabaseHelper(  757): [MmsSmsDb] tableName: canonical_addresses hasAutoIncrement: CREATE TABLE canonical_addresses (_id INTEGER PRIMARY KEY AUTOINCREMENT,address TEXT) result: true
+02-28 18:02:56.984 D/MmsSmsDatabaseHelper(  757): [MmsSmsDb] tableName: part hasAutoIncrement: CREATE TABLE part (_id INTEGER PRIMARY KEY AUTOINCREMENT,mid INTEGER,seq INTEGER DEFAULT 0,ct TEXT,name TEXT,chset INTEGER,cd TEXT,fn TEXT,cid TEXT,cl TEXT,ctt_s INTEGER,ctt_t TEXT,_data TEXT,text TEXT) result: true
+02-28 18:02:56.994 D/MmsSmsDatabaseHelper(  757): [MmsSmsDb] tableName: pdu hasAutoIncrement: CREATE TABLE pdu (_id INTEGER PRIMARY KEY AUTOINCREMENT,thread_id INTEGER,date INTEGER,date_sent INTEGER DEFAULT 0,msg_box INTEGER,read INTEGER DEFAULT 0,m_id TEXT,sub TEXT,sub_cs INTEGER,ct_t TEXT,ct_l TEXT,exp INTEGER,m_cls TEXT,m_type INTEGER,v INTEGER,m_size INTEGER,pri INTEGER,rr INTEGER,rpt_a INTEGER,resp_st INTEGER,st INTEGER,tr_id TEXT,retr_st INTEGER,retr_txt TEXT,retr_txt_cs INTEGER,read_status INTEGER,ct_cls INTEGER,resp_txt TEXT,d_tm INTEGER,d_rpt INTEGER,locked INTEGER DEFAULT 0,seen INTEGER DEFAULT 0,text_only INTEGER DEFAULT 0,sub_id INTEGER DEFAULT 0,imsi TEXT) result: true
+02-28 18:02:56.994 D/MmsSmsDatabaseHelper(  757): [getWritableDatabase] hasAutoIncrementThreads: true hasAutoIncrementAddresses: true hasAutoIncrementPart: true hasAutoIncrementPdu: true
+02-28 18:02:56.994 W/System.err( 8737): org.json.JSONException: No value for conversationID
+02-28 18:02:56.994 W/System.err( 8737): 	at org.json.JSONObject.get(JSONObject.java:355)
+02-28 18:02:56.994 W/System.err( 8737): 	at org.json.JSONObject.getString(JSONObject.java:515)
+02-28 18:02:56.994 W/System.err( 8737): 	at org.xwalk.core.internal.extension.api.messaging.MessagingManager.operation(MessagingManager.java:177)
+02-28 18:02:56.994 W/System.err( 8737): 	at org.xwalk.core.internal.extension.api.messaging.MessagingManager.onMsgDeleteConversation(MessagingManager.java:58)
+02-28 18:02:56.994 W/System.err( 8737): 	at org.xwalk.core.internal.extension.api.messaging.Messaging$7.runCommand(Messaging.java:75)
+02-28 18:02:56.994 W/System.err( 8737): 	at org.xwalk.core.internal.extension.api.messaging.Messaging.onMessage(Messaging.java:121)
+02-28 18:02:56.994 W/System.err( 8737): 	at dalvik.system.NativeStart.run(Native Method)
+02-28 18:02:57.004 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:246:20 ReferenceError: g_promises is not defined
+02-28 18:02:57.004 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:02:57.004 W/chromium( 8737): 
+02-28 18:02:57.004 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:246:20 ReferenceError: g_promises is not defined
+02-28 18:02:57.004 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:02:57.004 W/chromium( 8737): 
+02-28 18:02:57.164 D/wpa_supplicant(  659): wlan0: Starting AP scan for wildcard SSID
+02-28 18:02:57.164 D/wpa_supplicant(  659): WPS: Building WPS IE for Probe Request
+02-28 18:02:57.164 D/wpa_supplicant(  659): WPS:  * Version (hardcoded 0x10)
+02-28 18:02:57.164 D/wpa_supplicant(  659): WPS:  * Request Type
+02-28 18:02:57.164 D/wpa_supplicant(  659): WPS:  * Config Methods (4288)
+02-28 18:02:57.164 D/wpa_supplicant(  659): WPS:  * UUID-E
+02-28 18:02:57.164 D/wpa_supplicant(  659): WPS:  * Primary Device Type
+02-28 18:02:57.164 D/wpa_supplicant(  659): WPS:  * RF Bands (1)
+02-28 18:02:57.164 D/wpa_supplicant(  659): WPS:  * Association State
+02-28 18:02:57.164 D/wpa_supplicant(  659): WPS:  * Configuration Error (0)
+02-28 18:02:57.164 D/wpa_supplicant(  659): WPS:  * Device Password ID (0)
+02-28 18:02:57.164 D/wpa_supplicant(  659): WPS:  * Manufacturer
+02-28 18:02:57.164 D/wpa_supplicant(  659): WPS:  * Model Name
+02-28 18:02:57.164 D/wpa_supplicant(  659): WPS:  * Model Number
+02-28 18:02:57.164 D/wpa_supplicant(  659): WPS:  * Device Name
+02-28 18:02:57.164 D/wpa_supplicant(  659): WPS:  * Version2 (0x20)
+02-28 18:02:57.164 D/wpa_supplicant(  659): P2P: * P2P IE header
+02-28 18:02:57.164 D/wpa_supplicant(  659): P2P: * Capability dev=25 group=00
+02-28 18:02:57.164 D/wpa_supplicant(  659): P2P: * Listen Channel: Regulatory Class 81 Channel 11
+02-28 18:02:57.164 D/wpa_supplicant(  659): wlan0: nl80211: scan request
+02-28 18:02:57.234 D/wpa_supplicant(  659): Scan requested (ret=0) - scan timeout 30 seconds
+02-28 18:02:57.234 D/wpa_supplicant(  659): nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0
+02-28 18:02:57.234 D/wpa_supplicant(  659): wlan0: nl80211: Scan trigger
+02-28 18:02:58.354 D/wpa_supplicant(  659): RTM_NEWLINK: operstate=0 ifi_flags=0x11003 ([UP][LOWER_UP])
+02-28 18:02:58.354 D/wpa_supplicant(  659): RTM_NEWLINK, IFLA_IFNAME: Interface 'wlan0' added
+02-28 18:02:58.354 D/wpa_supplicant(  659): nl80211: if_removed already cleared - ignore event
+02-28 18:02:58.354 D/wpa_supplicant(  659): nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+02-28 18:02:58.354 D/wpa_supplicant(  659): wlan0: nl80211: New scan results available
+02-28 18:02:58.354 D/wpa_supplicant(  659): wlan0: Event SCAN_RESULTS (3) received
+02-28 18:02:58.354 D/wpa_supplicant(  659): nl80211: Received scan results (21 BSSes)
+02-28 18:02:58.354 D/wpa_supplicant(  659): nl80211: Survey data missing
+02-28 18:02:58.354 D/wpa_supplicant(  659): wlan0: BSS: Start scan result update 50
+02-28 18:02:58.354 D/wpa_supplicant(  659): wlan0: BSS: Add new id 242 BSSID cc:b2:55:e2:84:70 SSID 'DLINK_APK'
+02-28 18:02:58.354 D/wpa_supplicant(  659): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+02-28 18:02:58.354 D/wpa_supplicant(  659): wlan0: BSS: Add new id 243 BSSID e4:d3:32:db:f6:03 SSID 'adddda'
+02-28 18:02:58.354 D/wpa_supplicant(  659): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+02-28 18:02:58.354 D/wpa_supplicant(  659): wlan0: BSS: Remove id 238 BSSID e4:d3:32:36:2e:54 SSID 'otc' due to no match in scan
+02-28 18:02:58.354 D/wpa_supplicant(  659): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+02-28 18:02:58.354 D/wpa_supplicant(  659): BSS: last_scan_res_used=20/32 last_scan_full=0
+02-28 18:02:58.354 D/wpa_supplicant(  659): wlan0: New scan results available
+02-28 18:02:58.354 D/wpa_supplicant(  659): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+02-28 18:02:58.354 D/wpa_supplicant(  659): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+02-28 18:02:58.354 D/wpa_supplicant(  659): Authorize channel 1
+02-28 18:02:58.354 D/wpa_supplicant(  659): Authorize channel 2
+02-28 18:02:58.354 D/wpa_supplicant(  659): Authorize channel 3
+02-28 18:02:58.354 D/wpa_supplicant(  659): Authorize channel 4
+02-28 18:02:58.354 D/wpa_supplicant(  659): Authorize channel 5
+02-28 18:02:58.354 D/wpa_supplicant(  659): Authorize channel 6
+02-28 18:02:58.354 D/wpa_supplicant(  659): Authorize channel 7
+02-28 18:02:58.354 D/wpa_supplicant(  659): Authorize channel 8
+02-28 18:02:58.354 D/wpa_supplicant(  659): Authorize channel 9
+02-28 18:02:58.354 D/wpa_supplicant(  659): Authorize channel 10
+02-28 18:02:58.354 D/wpa_supplicant(  659): Authorize channel 11
+02-28 18:02:58.354 D/wpa_supplicant(  659): Authorize channel 12
+02-28 18:02:58.354 D/wpa_supplicant(  659): Authorize channel 13
+02-28 18:02:58.354 D/wpa_supplicant(  659): Authorize channel 1
+02-28 18:02:58.354 D/wpa_supplicant(  659): Authorize channel 2
+02-28 18:02:58.354 D/wpa_supplicant(  659): Authorize channel 3
+02-28 18:02:58.354 D/wpa_supplicant(  659): Authorize channel 4
+02-28 18:02:58.354 D/wpa_supplicant(  659): Authorize channel 5
+02-28 18:02:58.354 I/WifiHW  (  506): EVENT: IFNAME=wlan0 CTRL-EVENT-BSS-ADDED 242 cc:b2:55:e2:84:70
+02-28 18:02:58.354 D/wpa_supplicant(  659): Authorize channel 6
+02-28 18:02:58.354 D/wpa_supplicant(  659): Authorize channel 7
+02-28 18:02:58.354 D/wpa_supplicant(  659): Authorize channel 8
+02-28 18:02:58.354 D/wpa_supplicant(  659): Authorize channel 9
+02-28 18:02:58.354 D/wpa_supplicant(  659): Authorize channel 10
+02-28 18:02:58.354 D/wpa_supplicant(  659): Authorize channel 11
+02-28 18:02:58.354 D/wpa_supplicant(  659): Authorize channel 12
+02-28 18:02:58.354 D/wpa_supplicant(  659): Authorize channel 13
+02-28 18:02:58.354 D/wpa_supplicant(  659): Add access point on channel 6
+02-28 18:02:58.354 D/wpa_supplicant(  659): Add access point on channel 6
+02-28 18:02:58.354 D/wpa_supplicant(  659): Add access point on channel 6
+02-28 18:02:58.354 D/wpa_supplicant(  659): Add access point on channel 11
+02-28 18:02:58.354 D/wpa_supplicant(  659): Add access point on channel 11
+02-28 18:02:58.354 D/wpa_supplicant(  659): Add access point on channel 1
+02-28 18:02:58.354 I/WifiHW  (  506): EVENT: IFNAME=wlan0 CTRL-EVENT-BSS-ADDED 243 e4:d3:32:db:f6:03
+02-28 18:02:58.354 D/wpa_supplicant(  659): Add access point on channel 6
+02-28 18:02:58.354 D/wpa_supplicant(  659): Add access point on channel 1
+02-28 18:02:58.354 D/wpa_supplicant(  659): Add access point on channel 6
+02-28 18:02:58.354 D/wpa_supplicant(  659): Add access point on channel 11
+02-28 18:02:58.354 D/wpa_supplicant(  659): Add access point on channel 11
+02-28 18:02:58.354 D/wpa_supplicant(  659): Add access point on channel 6
+02-28 18:02:58.364 D/wpa_supplicant(  659): Add access point on channel 6
+02-28 18:02:58.364 I/WifiHW  (  506): EVENT: IFNAME=wlan0 CTRL-EVENT-BSS-REMOVED 238 e4:d3:32:36:2e:54
+02-28 18:02:58.364 D/wpa_supplicant(  659): Add access point on channel 1
+02-28 18:02:58.364 D/wpa_supplicant(  659): Add access point on channel 6
+02-28 18:02:58.364 D/wpa_supplicant(  659): Add access point on channel 7
+02-28 18:02:58.364 D/wpa_supplicant(  659): Add access point on channel 11
+02-28 18:02:58.364 D/wpa_supplicant(  659): Add access point on channel 6
+02-28 18:02:58.364 D/wpa_supplicant(  659): Add access point on channel 2
+02-28 18:02:58.364 D/wpa_supplicant(  659): Add access point on channel 9
+02-28 18:02:58.364 D/wpa_supplicant(  659): Add access point on channel 6
+02-28 18:02:58.364 D/wpa_supplicant(  659): Add access point on channel 11
+02-28 18:02:58.364 D/wpa_supplicant(  659): Add access point on channel 8
+02-28 18:02:58.364 D/wpa_supplicant(  659): Add access point on channel 8
+02-28 18:02:58.364 D/wpa_supplicant(  659): Best Operating channel is = 1
+02-28 18:02:58.364 I/WifiHW  (  506): EVENT: IFNAME=wlan0 CTRL-EVENT-SCAN-RESULTS 
+02-28 18:02:58.364 D/wpa_supplicant(  659): WPS: AP[0] f8:d1:11:e7:99:e8 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:02:58.364 D/wpa_supplicant(  659): WPS: AP[1] 44:94:fc:3d:da:38 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:02:58.364 D/wpa_supplicant(  659): WPS: AP[2] cc:34:29:2b:26:4c type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:02:58.364 D/wpa_supplicant(  659): WPS: AP[3] cc:34:29:2c:fb:ec type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:02:58.364 D/wpa_supplicant(  659): WPS: AP[4] 98:fc:11:81:35:fb type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:02:58.364 D/wpa_supplicant(  659): WPS: AP[5] 14:d6:4d:28:ef:c8 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:02:58.364 D/wpa_supplicant(  659): WPS: AP[6] c0:c1:c0:76:81:3c type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:02:58.364 D/wpa_supplicant(  659): WPS: AP[7] 10:9f:a9:dc:b1:fc type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:02:58.364 I/WifiHW  (  506): EVENT: IFNAME=wlan0 WPS-AP-AVAILABLE 
+02-28 18:02:58.364 D/wpa_supplicant(  659): WPS: AP[8] 10:c3:7b:d2:e5:e0 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:02:58.364 D/wpa_supplicant(  659): WPS: AP[9] e4:d3:32:36:2e:54 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:02:58.364 D/wpa_supplicant(  659): WPS: AP[10] c0:a0:bb:20:3b:84 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:02:58.364 D/wpa_supplicant(  659): WPS: AP[11] 2c:b0:5d:7f:f4:24 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:02:58.364 D/wpa_supplicant(  659): WPS: AP[12] b0:48:7a:51:ff:cc type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: Selecting BSS from priority group 20
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 0: c8:d7:19:60:62:f2 ssid='E3000-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-43
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 1: f8:d1:11:e7:99:e8 ssid='videotest' wpa_ie_len=22 rsn_ie_len=20 caps=0x531 level=-44 wps
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 2: 44:94:fc:3d:da:38 ssid='6300' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-50 wps
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 3: 90:94:e4:03:45:f5 ssid='DAP-2553_D' wpa_ie_len=0 rsn_ie_len=24 caps=0x431 level=-55
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 4: 10:c3:7b:d2:e5:e0 ssid='ASUS_RT-AC66U-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-58 wps
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 5: c4:17:fe:3f:4f:fb ssid='cmcm' wpa_ie_len=0 rsn_ie_len=20 caps=0x511 level=-61
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 6: cc:34:29:2b:26:4c ssid='cws-test' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-61 wps
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 7: cc:34:29:2c:fb:ec ssid='linksys' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-62 wps
+02-28 18:02:58.364 I/WifiHW  (  506): CMD: IFNAME=wlan0 BSS RANGE=0- MASK=0x21987
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 8: 98:fc:11:81:35:fb ssid='E2000EE' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-63 wps
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 9: e4:d3:32:c0:cf:a4 ssid='fast' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-70
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 10: b0:48:7a:51:ff:cc ssid='Neusoft TP' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-71 wps
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 11: 02:1a:11:f8:2f:eb ssid='io1' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-71
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 12: cc:b2:55:e2:84:70 ssid='DLINK_APK' wpa_ie_len=22 rsn_ie_len=20 caps=0x411 level=-74
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 13: 14:d6:4d:28:ef:c8 ssid='dlink' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-79 wps
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 14: 00:0f:e2:0f:9f:c1 ssid='321_WAN' wpa_ie_len=28 rsn_ie_len=24 caps=0x411 level=-79
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 15: e4:d3:32:db:f6:03 ssid='adddda' wpa_ie_len=0 rsn_ie_len=20 caps=0x31 level=-76
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 16: c0:cb:38:7f:c9:09 ssid='360WiFi-7908' wpa_ie_len=0 rsn_ie_len=20 caps=0x511 level=-83
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 17: c0:c1:c0:76:81:3c ssid='E2000' wpa_ie_len=0 rsn_ie_len=0 caps=0x401 level=-61 wps
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 18: 50:bd:5f:4b:29:92 ssid='Internet-2' wpa_ie_len=0 rsn_ie_len=0 caps=0x421 level=-64
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 19: e4:d3:32:dd:18:62 ssid='Internet' wpa_ie_len=0 rsn_ie_len=0 caps=0x421 level=-81
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: Selecting BSS from priority group 19
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 0: c8:d7:19:60:62:f2 ssid='E3000-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-43
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 1: f8:d1:11:e7:99:e8 ssid='videotest' wpa_ie_len=22 rsn_ie_len=20 caps=0x531 level=-44 wps
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 2: 44:94:fc:3d:da:38 ssid='6300' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-50 wps
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 3: 90:94:e4:03:45:f5 ssid='DAP-2553_D' wpa_ie_len=0 rsn_ie_len=24 caps=0x431 level=-55
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 4: 10:c3:7b:d2:e5:e0 ssid='ASUS_RT-AC66U-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-58 wps
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 5: c4:17:fe:3f:4f:fb ssid='cmcm' wpa_ie_len=0 rsn_ie_len=20 caps=0x511 level=-61
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 6: cc:34:29:2b:26:4c ssid='cws-test' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-61 wps
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 7: cc:34:29:2c:fb:ec ssid='linksys' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-62 wps
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 8: 98:fc:11:81:35:fb ssid='E2000EE' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-63 wps
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 9: e4:d3:32:c0:cf:a4 ssid='fast' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-70
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 10: b0:48:7a:51:ff:cc ssid='Neusoft TP' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-71 wps
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 11: 02:1a:11:f8:2f:eb ssid='io1' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-71
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 12: cc:b2:55:e2:84:70 ssid='DLINK_APK' wpa_ie_len=22 rsn_ie_len=20 caps=0x411 level=-74
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 13: 14:d6:4d:28:ef:c8 ssid='dlink' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-79 wps
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 14: 00:0f:e2:0f:9f:c1 ssid='321_WAN' wpa_ie_len=28 rsn_ie_len=24 caps=0x411 level=-79
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 15: e4:d3:32:db:f6:03 ssid='adddda' wpa_ie_len=0 rsn_ie_len=20 caps=0x31 level=-76
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 16: c0:cb:38:7f:c9:09 ssid='360WiFi-7908' wpa_ie_len=0 rsn_ie_len=20 caps=0x511 level=-83
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 17: c0:c1:c0:76:81:3c ssid='E2000' wpa_ie_len=0 rsn_ie_len=0 caps=0x401 level=-61 wps
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 18: 50:bd:5f:4b:29:92 ssid='Internet-2' wpa_ie_len=0 rsn_ie_len=0 caps=0x421 level=-64
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 19: e4:d3:32:dd:18:62 ssid='Internet' wpa_ie_len=0 rsn_ie_len=0 caps=0x421 level=-81
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: Selecting BSS from priority group 18
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 0: c8:d7:19:60:62:f2 ssid='E3000-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-43
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 1: f8:d1:11:e7:99:e8 ssid='videotest' wpa_ie_len=22 rsn_ie_len=20 caps=0x531 level=-44 wps
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 2: 44:94:fc:3d:da:38 ssid='6300' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-50 wps
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 3: 90:94:e4:03:45:f5 ssid='DAP-2553_D' wpa_ie_len=0 rsn_ie_len=24 caps=0x431 level=-55
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 4: 10:c3:7b:d2:e5:e0 ssid='ASUS_RT-AC66U-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-58 wps
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 5: c4:17:fe:3f:4f:fb ssid='cmcm' wpa_ie_len=0 rsn_ie_len=20 caps=0x511 level=-61
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 6: cc:34:29:2b:26:4c ssid='cws-test' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-61 wps
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 7: cc:34:29:2c:fb:ec ssid='linksys' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-62 wps
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 8: 98:fc:11:81:35:fb ssid='E2000EE' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-63 wps
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 9: e4:d3:32:c0:cf:a4 ssid='fast' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-70
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 10: b0:48:7a:51:ff:cc ssid='Neusoft TP' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-71 wps
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 11: 02:1a:11:f8:2f:eb ssid='io1' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-71
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 12: cc:b2:55:e2:84:70 ssid='DLINK_APK' wpa_ie_len=22 rsn_ie_len=20 caps=0x411 level=-74
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 13: 14:d6:4d:28:ef:c8 ssid='dlink' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-79 wps
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 14: 00:0f:e2:0f:9f:c1 ssid='321_WAN' wpa_ie_len=28 rsn_ie_len=24 caps=0x411 level=-79
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 15: e4:d3:32:db:f6:03 ssid='adddda' wpa_ie_len=0 rsn_ie_len=20 caps=0x31 level=-76
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 16: c0:cb:38:7f:c9:09 ssid='360WiFi-7908' wpa_ie_len=0 rsn_ie_len=20 caps=0x511 level=-83
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 17: c0:c1:c0:76:81:3c ssid='E2000' wpa_ie_len=0 rsn_ie_len=0 caps=0x401 level=-61 wps
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 18: 50:bd:5f:4b:29:92 ssid='Internet-2' wpa_ie_len=0 rsn_ie_len=0 caps=0x421 level=-64
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 19: e4:d3:32:dd:18:62 ssid='Internet' wpa_ie_len=0 rsn_ie_len=0 caps=0x421 level=-81
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: Selecting BSS from priority group 17
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 0: c8:d7:19:60:62:f2 ssid='E3000-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-43
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 1: f8:d1:11:e7:99:e8 ssid='videotest' wpa_ie_len=22 rsn_ie_len=20 caps=0x531 level=-44 wps
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 2: 44:94:fc:3d:da:38 ssid='6300' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-50 wps
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 3: 90:94:e4:03:45:f5 ssid='DAP-2553_D' wpa_ie_len=0 rsn_ie_len=24 caps=0x431 level=-55
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 4: 10:c3:7b:d2:e5:e0 ssid='ASUS_RT-AC66U-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-58 wps
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 5: c4:17:fe:3f:4f:fb ssid='cmcm' wpa_ie_len=0 rsn_ie_len=20 caps=0x511 level=-61
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 6: cc:34:29:2b:26:4c ssid='cws-test' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-61 wps
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 7: cc:34:29:2c:fb:ec ssid='linksys' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-62 wps
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 8: 98:fc:11:81:35:fb ssid='E2000EE' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-63 wps
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 9: e4:d3:32:c0:cf:a4 ssid='fast' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-70
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 10: b0:48:7a:51:ff:cc ssid='Neusoft TP' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-71 wps
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.364 D/wpa_supplicant(  659): wlan0: 11: 02:1a:11:f8:2f:eb ssid='io1' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-71
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: 12: cc:b2:55:e2:84:70 ssid='DLINK_APK' wpa_ie_len=22 rsn_ie_len=20 caps=0x411 level=-74
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: 13: 14:d6:4d:28:ef:c8 ssid='dlink' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-79 wps
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: 14: 00:0f:e2:0f:9f:c1 ssid='321_WAN' wpa_ie_len=28 rsn_ie_len=24 caps=0x411 level=-79
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: 15: e4:d3:32:db:f6:03 ssid='adddda' wpa_ie_len=0 rsn_ie_len=20 caps=0x31 level=-76
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: 16: c0:cb:38:7f:c9:09 ssid='360WiFi-7908' wpa_ie_len=0 rsn_ie_len=20 caps=0x511 level=-83
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: 17: c0:c1:c0:76:81:3c ssid='E2000' wpa_ie_len=0 rsn_ie_len=0 caps=0x401 level=-61 wps
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: 18: 50:bd:5f:4b:29:92 ssid='Internet-2' wpa_ie_len=0 rsn_ie_len=0 caps=0x421 level=-64
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: 19: e4:d3:32:dd:18:62 ssid='Internet' wpa_ie_len=0 rsn_ie_len=0 caps=0x421 level=-81
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: Selecting BSS from priority group 15
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: 0: c8:d7:19:60:62:f2 ssid='E3000-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-43
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: 1: f8:d1:11:e7:99:e8 ssid='videotest' wpa_ie_len=22 rsn_ie_len=20 caps=0x531 level=-44 wps
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: 2: 44:94:fc:3d:da:38 ssid='6300' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-50 wps
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: 3: 90:94:e4:03:45:f5 ssid='DAP-2553_D' wpa_ie_len=0 rsn_ie_len=24 caps=0x431 level=-55
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: 4: 10:c3:7b:d2:e5:e0 ssid='ASUS_RT-AC66U-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-58 wps
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: 5: c4:17:fe:3f:4f:fb ssid='cmcm' wpa_ie_len=0 rsn_ie_len=20 caps=0x511 level=-61
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: 6: cc:34:29:2b:26:4c ssid='cws-test' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-61 wps
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: 7: cc:34:29:2c:fb:ec ssid='linksys' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-62 wps
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: 8: 98:fc:11:81:35:fb ssid='E2000EE' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-63 wps
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: 9: e4:d3:32:c0:cf:a4 ssid='fast' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-70
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: 10: b0:48:7a:51:ff:cc ssid='Neusoft TP' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-71 wps
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: 11: 02:1a:11:f8:2f:eb ssid='io1' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-71
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: 12: cc:b2:55:e2:84:70 ssid='DLINK_APK' wpa_ie_len=22 rsn_ie_len=20 caps=0x411 level=-74
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: 13: 14:d6:4d:28:ef:c8 ssid='dlink' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-79 wps
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: 14: 00:0f:e2:0f:9f:c1 ssid='321_WAN' wpa_ie_len=28 rsn_ie_len=24 caps=0x411 level=-79
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: 15: e4:d3:32:db:f6:03 ssid='adddda' wpa_ie_len=0 rsn_ie_len=20 caps=0x31 level=-76
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: 16: c0:cb:38:7f:c9:09 ssid='360WiFi-7908' wpa_ie_len=0 rsn_ie_len=20 caps=0x511 level=-83
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: 17: c0:c1:c0:76:81:3c ssid='E2000' wpa_ie_len=0 rsn_ie_len=0 caps=0x401 level=-61 wps
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: 18: 50:bd:5f:4b:29:92 ssid='Internet-2' wpa_ie_len=0 rsn_ie_len=0 caps=0x421 level=-64
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: 19: e4:d3:32:dd:18:62 ssid='Internet' wpa_ie_len=0 rsn_ie_len=0 caps=0x421 level=-81
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: Selecting BSS from priority group 4
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: 0: c8:d7:19:60:62:f2 ssid='E3000-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-43
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - disabled
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: 1: f8:d1:11:e7:99:e8 ssid='videotest' wpa_ie_len=22 rsn_ie_len=20 caps=0x531 level=-44 wps
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - disabled
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: 2: 44:94:fc:3d:da:38 ssid='6300' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-50 wps
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - disabled
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: 3: 90:94:e4:03:45:f5 ssid='DAP-2553_D' wpa_ie_len=0 rsn_ie_len=24 caps=0x431 level=-55
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - disabled
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: 4: 10:c3:7b:d2:e5:e0 ssid='ASUS_RT-AC66U-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-58 wps
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - disabled
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: 5: c4:17:fe:3f:4f:fb ssid='cmcm' wpa_ie_len=0 rsn_ie_len=20 caps=0x511 level=-61
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - disabled
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: 6: cc:34:29:2b:26:4c ssid='cws-test' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-61 wps
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - disabled
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: 7: cc:34:29:2c:fb:ec ssid='linksys' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-62 wps
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - disabled
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: 8: 98:fc:11:81:35:fb ssid='E2000EE' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-63 wps
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - disabled
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: 9: e4:d3:32:c0:cf:a4 ssid='fast' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-70
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - disabled
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: 10: b0:48:7a:51:ff:cc ssid='Neusoft TP' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-71 wps
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - disabled
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: 11: 02:1a:11:f8:2f:eb ssid='io1' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-71
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - disabled
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: 12: cc:b2:55:e2:84:70 ssid='DLINK_APK' wpa_ie_len=22 rsn_ie_len=20 caps=0x411 level=-74
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - disabled
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: 13: 14:d6:4d:28:ef:c8 ssid='dlink' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-79 wps
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - disabled
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: 14: 00:0f:e2:0f:9f:c1 ssid='321_WAN' wpa_ie_len=28 rsn_ie_len=24 caps=0x411 level=-79
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - disabled
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: 15: e4:d3:32:db:f6:03 ssid='adddda' wpa_ie_len=0 rsn_ie_len=20 caps=0x31 level=-76
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - disabled
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: 16: c0:cb:38:7f:c9:09 ssid='360WiFi-7908' wpa_ie_len=0 rsn_ie_len=20 caps=0x511 level=-83
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - disabled
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: 17: c0:c1:c0:76:81:3c ssid='E2000' wpa_ie_len=0 rsn_ie_len=0 caps=0x401 level=-61 wps
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - disabled
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: 18: 50:bd:5f:4b:29:92 ssid='Internet-2' wpa_ie_len=0 rsn_ie_len=0 caps=0x421 level=-64
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - disabled
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: 19: e4:d3:32:dd:18:62 ssid='Internet' wpa_ie_len=0 rsn_ie_len=0 caps=0x421 level=-81
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0:    skip - disabled
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: No suitable network found
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: Setting scan request: 40 sec 0 usec
+02-28 18:02:58.374 D/wpa_supplicant(  659): wlan0: Checking for other virtual interfaces sharing same radio (phy0) in event_scan_results
+02-28 18:02:58.374 D/wpa_supplicant(  659): p2p-dev-wlan0: Updating scan results from sibling
+02-28 18:02:58.384 D/wpa_supplicant(  659): nl80211: Received scan results (21 BSSes)
+02-28 18:02:58.384 D/wpa_supplicant(  659): nl80211: Survey data missing
+02-28 18:02:58.384 D/wpa_supplicant(  659): p2p-dev-wlan0: BSS: Start scan result update 21
+02-28 18:02:58.384 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS c8:d7:19:60:62:f2 update for P2P interface
+02-28 18:02:58.384 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS f8:d1:11:e7:99:e8 update for P2P interface
+02-28 18:02:58.384 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS 44:94:fc:3d:da:38 update for P2P interface
+02-28 18:02:58.384 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS 90:94:e4:03:45:f5 update for P2P interface
+02-28 18:02:58.384 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS 10:c3:7b:d2:e5:e0 update for P2P interface
+02-28 18:02:58.384 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS c4:17:fe:3f:4f:fb update for P2P interface
+02-28 18:02:58.384 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS cc:34:29:2b:26:4c update for P2P interface
+02-28 18:02:58.384 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS cc:34:29:2c:fb:ec update for P2P interface
+02-28 18:02:58.384 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS 98:fc:11:81:35:fb update for P2P interface
+02-28 18:02:58.384 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS e4:d3:32:c0:cf:a4 update for P2P interface
+02-28 18:02:58.384 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS b0:48:7a:51:ff:cc update for P2P interface
+02-28 18:02:58.384 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS 02:1a:11:f8:2f:eb update for P2P interface
+02-28 18:02:58.384 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS cc:b2:55:e2:84:70 update for P2P interface
+02-28 18:02:58.384 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS 14:d6:4d:28:ef:c8 update for P2P interface
+02-28 18:02:58.384 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS 00:0f:e2:0f:9f:c1 update for P2P interface
+02-28 18:02:58.384 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS e4:d3:32:db:f6:03 update for P2P interface
+02-28 18:02:58.384 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS c0:cb:38:7f:c9:09 update for P2P interface
+02-28 18:02:58.384 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS c0:c1:c0:76:81:3c update for P2P interface
+02-28 18:02:58.384 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS 50:bd:5f:4b:29:92 update for P2P interface
+02-28 18:02:58.384 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS e4:d3:32:dd:18:62 update for P2P interface
+02-28 18:02:58.384 D/wpa_supplicant(  659): BSS: last_scan_res_used=0/0 last_scan_full=0
+02-28 18:02:58.384 D/wpa_supplicant(  659): p2p-dev-wlan0: New scan results available
+02-28 18:02:58.384 D/wpa_supplicant(  659): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+02-28 18:02:58.384 I/WifiHW  (  506): EVENT: IFNAME=p2p-dev-wlan0 CTRL-EVENT-SCAN-RESULTS 
+02-28 18:02:58.384 D/wpa_supplicant(  659): WPS: AP[0] c8:d7:19:60:62:f2 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:02:58.384 D/wpa_supplicant(  659): WPS: AP[1] f8:d1:11:e7:99:e8 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:02:58.384 D/wpa_supplicant(  659): WPS: AP[2] cc:34:29:2c:fb:ec type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:02:58.384 D/wpa_supplicant(  659): WPS: AP[3] 10:c3:7b:d2:e5:e0 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:02:58.384 D/wpa_supplicant(  659): WPS: AP[4] cc:34:29:2b:26:4c type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:02:58.384 D/wpa_supplicant(  659): WPS: AP[5] 44:94:fc:3d:da:38 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:02:58.384 D/wpa_supplicant(  659): WPS: AP[6] b0:48:7a:51:ff:cc type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:02:58.384 D/wpa_supplicant(  659): WPS: AP[7] c0:c1:c0:76:81:3c type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:02:58.384 D/wpa_supplicant(  659): WPS: AP[8] 10:9f:a9:dc:b1:fc type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:02:58.384 D/wpa_supplicant(  659): WPS: AP[9] 98:fc:11:81:35:fb type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:02:58.384 D/wpa_supplicant(  659): WPS: AP[10] e4:d3:32:36:2e:54 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:02:58.384 D/wpa_supplicant(  659): WPS: AP[11] c0:a0:bb:20:3b:84 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:02:58.384 D/wpa_supplicant(  659): WPS: AP[12] 14:d6:4d:28:ef:c8 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:02:58.384 D/wpa_supplicant(  659): WPS: AP[13] 2c:b0:5d:7f:f4:24 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:02:58.384 D/wpa_supplicant(  659): p2p-dev-wlan0: No suitable network found
+02-28 18:02:58.384 D/wpa_supplicant(  659): p2p-dev-wlan0: Short-circuit new scan request since there are no enabled networks
+02-28 18:02:58.384 D/wpa_supplicant(  659): p2p-dev-wlan0: State: INACTIVE -> INACTIVE
+02-28 18:02:58.384 D/wpa_supplicant(  659): wlan0: P2P: Station mode scan operation not pending anymore (sta_scan_pending=0 p2p_cb_on_scan_complete=0)
+02-28 18:02:58.384 D/wpa_supplicant(  659): RX ctrl_iface - hexdump(len=25): 42 53 53 20 52 41 4e 47 45 3d 30 2d 20 4d 41 53 4b 3d 30 78 32 31 39 38 37
+02-28 18:02:58.384 D/wpa_supplicant(  659): wlan0: Control interface command 'BSS RANGE=0- MASK=0x21987'
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: id=175
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: bssid=f8:d1:11:e7:99:e8
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: freq=2437
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: level=-44
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: tsf=0000030500154776
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: flags=[WPA-PSK-CCMP][WPA2-PSK-CCMP][WPS][ESS]
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: ssid=videotest
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: ====
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: id=176
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: bssid=c8:d7:19:60:62:f2
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: freq=2437
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: level=-43
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: tsf=0000030500154741
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: flags=[WPA2-EAP-CCMP-preauth][ESS]
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: ssid=E3000-2.4G
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: ====
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: id=177
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: bssid=6c:8b:2f:e8:38:24
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: freq=2437
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: level=-52
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: tsf=0000030458922842
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: flags=[WPA2-PSK-CCMP][ESS]
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: ssid=ZTE_AP_6703
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: ====
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: id=178
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: bssid=44:94:fc:3d:da:38
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: freq=2462
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: level=-50
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: tsf=0000030500154881
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: flags=[WPA2-EAP-CCMP-preauth][WPS][ESS]
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: ssid=6300
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: ====
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: id=179
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: bssid=cc:34:29:2b:26:4c
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: freq=2462
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: level=-61
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: tsf=0000030500154891
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: flags=[WPA2-PSK-CCMP][WPS][ESS]
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: ssid=cws-test
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: ====
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: id=181
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: bssid=cc:34:29:2c:fb:ec
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: freq=2412
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: level=-62
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: tsf=0000030500154731
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: flags=[WPA-PSK-CCMP][WPA2-PSK-CCMP][WPS][ESS]
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: ssid=linksys
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: ====
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: id=182
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: bssid=c4:17:fe:3f:4f:fb
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: freq=2437
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: level=-61
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: tsf=0000030500154786
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: flags=[WPA2-PSK-CCMP][ESS]
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: ssid=cmcm
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: ====
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: id=183
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: bssid=98:fc:11:81:35:fb
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: freq=2412
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: level=-63
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: tsf=0000030500154722
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: flags=[WPA2-PSK-CCMP][WPS][ESS]
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: ssid=E2000EE
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: ====
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: id=187
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: bssid=c0:cb:38:7f:c9:09
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: freq=2437
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: level=-83
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: tsf=0000030500154766
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: flags=[WPA2-PSK-CCMP][ESS]
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: ssid=360WiFi-7908
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: ====
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: id=190
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: bssid=c0:c1:c0:76:81:3c
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: freq=2462
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: level=-61
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: tsf=0000030500154920
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: flags=[WPS][ESS]
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: ssid=E2000
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: ====
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: id=193
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: bssid=10:c3:7b:d2:e5:e0
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: freq=2462
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: level=-58
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: tsf=0000030500154871
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: flags=[WPA2-PSK-CCMP][WPS][ESS]
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: ssid=ASUS_RT-AC66U-2.4G
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: ====
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: id=205
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: bssid=50:bd:5f:4b:29:92
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: freq=2437
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: level=-64
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: tsf=0000030500154749
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: flags=[ESS]
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: ssid=Internet-2
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: ====
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: id=207
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: bssid=e4:d3:32:c0:cf:a4
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: freq=2437
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: level=-70
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: tsf=0000030500154758
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: flags=[WPA2-PSK-CCMP][ESS]
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: ssid=fast
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: ====
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: id=217
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: bssid=7a:24:af:1e:df:58
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: freq=2412
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: level=-50
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: tsf=0000030458922954
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: flags=[WEP]
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: ssid=DIRECT-
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: ====
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: id=218
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: bssid=02:1a:11:f8:2f:eb
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: freq=2437
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: level=-71
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: tsf=0000030500154794
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: flags=[WPA2-PSK-CCMP][ESS]
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: ssid=io1
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: ====
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: id=229
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: bssid=90:94:e4:03:45:f5
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: freq=2442
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: level=-55
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: tsf=0000030500154812
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: flags=[WPA2-PSK-CCMP+TKIP][ESS]
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: ssid=DAP-2553_D
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: ====
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: id=231
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: bssid=00:0f:e2:0f:9f:c1
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: freq=2462
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: level=-79
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: tsf=0000030500154902
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: flags=[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: ssid=321_WAN
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: ====
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: id=232
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: bssid=e4:d3:32:dd:18:62
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: freq=2437
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: level=-81
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: tsf=0000030500154821
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: flags=[ESS]
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: ssid=Internet
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: ====
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: id=235
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: bssid=c0:a0:bb:20:3b:84
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: freq=2417
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: level=-78
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: tsf=0000030458922834
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: flags=[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: ssid=dlink-3B84
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: ====
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: id=239
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: bssid=b0:48:7a:51:ff:cc
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: freq=2452
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: level=-71
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: tsf=0000030500154858
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: flags=[WPA-PSK-CCMP][WPA2-PSK-CCMP][WPS][ESS]
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: ssid=Neusoft TP
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: ====
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: id=240
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: bssid=14:d6:4d:28:ef:c8
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: freq=2437
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: level=-79
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: tsf=0000030500154803
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: flags=[WPA2-PSK-CCMP][WPS][ESS]
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: ssid=dlink
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: ====
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: id=241
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: bssid=24:05:0f:2e:8a:21
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: freq=2462
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: level=-87
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: tsf=0000030458923010
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: flags=[WPA-PSK-CCMP][WPA2-PSK-CCMP][ESS]
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: ssid=Online_360_m
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: ====
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: id=242
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: bssid=cc:b2:55:e2:84:70
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: freq=2447
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: level=-74
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: tsf=0000030500154849
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: flags=[WPA-PSK-TKIP][WPA2-PSK-TKIP][ESS]
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: ssid=DLINK_APK
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: ====
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: id=243
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: bssid=e4:d3:32:db:f6:03
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: freq=2447
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: level=-76
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: tsf=0000030500154839
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: flags=[WPA2-PSK-TKIP][ESS]
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: ssid=adddda
+02-28 18:02:58.384 I/WifiHW  (  506): REPLY: ####
+02-28 18:02:59.184 W/BindingManager( 8737): Cannot call determinedVisibility() - never saw a connection for the pid: 8737
+02-28 18:02:59.214 E/MessagingManager( 8737): Invalidate message type: 0123456
+02-28 18:02:59.224 W/System.err( 8737): org.json.JSONException: No value for conversationID
+02-28 18:02:59.224 W/System.err( 8737): 	at org.json.JSONObject.get(JSONObject.java:355)
+02-28 18:02:59.224 W/System.err( 8737): 	at org.json.JSONObject.getString(JSONObject.java:515)
+02-28 18:02:59.224 W/System.err( 8737): 	at org.xwalk.core.internal.extension.api.messaging.MessagingManager.operation(MessagingManager.java:177)
+02-28 18:02:59.224 W/System.err( 8737): 	at org.xwalk.core.internal.extension.api.messaging.MessagingManager.onMsgDeleteMessage(MessagingManager.java:54)
+02-28 18:02:59.224 W/System.err( 8737): 	at org.xwalk.core.internal.extension.api.messaging.Messaging$6.runCommand(Messaging.java:70)
+02-28 18:02:59.224 W/System.err( 8737): 	at org.xwalk.core.internal.extension.api.messaging.Messaging.onMessage(Messaging.java:121)
+02-28 18:02:59.224 W/System.err( 8737): 	at dalvik.system.NativeStart.run(Native Method)
+02-28 18:02:59.234 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:02:59.234 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:02:59.234 W/chromium( 8737): 
+02-28 18:02:59.234 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:246:20 ReferenceError: g_promises is not defined
+02-28 18:02:59.234 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:02:59.234 W/chromium( 8737): 
+02-28 18:02:59.234 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:246:20 ReferenceError: g_promises is not defined
+02-28 18:02:59.234 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:02:59.234 W/chromium( 8737): 
+02-28 18:03:00.004 D/Clock   (  570): ACTION_TIME_TICK
+02-28 18:03:00.004 D/Clock   (  570): update clock:下午6:03
+02-28 18:03:00.034 D/BatteryStatsImpl(  506): noteStopWakeLocked system isFromForeground = false
+02-28 18:03:03.454 W/BindingManager( 8737): Cannot call determinedVisibility() - never saw a connection for the pid: 8737
+02-28 18:03:05.074 V/MmsProvider(  757): Query uri=content://mms, match=0
+02-28 18:03:05.084 V/MmsProvider(  757): Query uri=content://mms, match=0
+02-28 18:03:05.084 V/MmsProvider(  757): Query uri=content://mms, match=0
+02-28 18:03:05.094 V/MmsProvider(  757): Query uri=content://mms, match=0
+02-28 18:03:05.104 V/MmsProvider(  757): Query uri=content://mms, match=0
+02-28 18:03:05.104 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:05.104 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:05.104 W/chromium( 8737): 
+02-28 18:03:05.104 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:05.104 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:05.104 W/chromium( 8737): 
+02-28 18:03:05.104 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:05.104 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:05.104 W/chromium( 8737): 
+02-28 18:03:05.104 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:05.104 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:05.104 W/chromium( 8737): 
+02-28 18:03:05.114 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:05.114 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:05.114 W/chromium( 8737): 
+02-28 18:03:05.114 V/MmsProvider(  757): Query uri=content://mms, match=0
+02-28 18:03:05.114 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:05.114 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:05.114 W/chromium( 8737): 
+02-28 18:03:05.124 V/MmsProvider(  757): Query uri=content://mms, match=0
+02-28 18:03:05.124 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:05.124 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:05.124 W/chromium( 8737): 
+02-28 18:03:05.124 V/MmsProvider(  757): Query uri=content://mms, match=0
+02-28 18:03:05.134 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:05.134 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:05.134 W/chromium( 8737): 
+02-28 18:03:05.134 V/MmsProvider(  757): Query uri=content://mms, match=0
+02-28 18:03:05.134 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:05.134 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:05.134 W/chromium( 8737): 
+02-28 18:03:05.134 V/MmsProvider(  757): Query uri=content://mms, match=0
+02-28 18:03:05.144 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:05.144 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:05.144 W/chromium( 8737): 
+02-28 18:03:05.144 V/MmsProvider(  757): Query uri=content://mms, match=0
+02-28 18:03:05.144 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:05.144 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:05.144 W/chromium( 8737): 
+02-28 18:03:05.144 V/MmsProvider(  757): Query uri=content://mms, match=0
+02-28 18:03:05.154 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:05.154 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:05.154 W/chromium( 8737): 
+02-28 18:03:05.154 V/MmsProvider(  757): Query uri=content://mms, match=0
+02-28 18:03:05.154 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:05.154 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:05.154 W/chromium( 8737): 
+02-28 18:03:05.154 V/MmsProvider(  757): Query uri=content://mms, match=0
+02-28 18:03:05.164 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:05.164 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:05.164 W/chromium( 8737): 
+02-28 18:03:05.164 V/MmsProvider(  757): Query uri=content://mms, match=0
+02-28 18:03:05.174 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:05.174 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:05.174 W/chromium( 8737): 
+02-28 18:03:05.174 V/MmsProvider(  757): Query uri=content://mms, match=0
+02-28 18:03:05.174 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:05.174 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:05.174 W/chromium( 8737): 
+02-28 18:03:07.694 W/BindingManager( 8737): Cannot call determinedVisibility() - never saw a connection for the pid: 8737
+02-28 18:03:07.804 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:246:20 ReferenceError: g_promises is not defined
+02-28 18:03:07.804 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:07.804 W/chromium( 8737): 
+02-28 18:03:07.804 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:246:20 ReferenceError: g_promises is not defined
+02-28 18:03:07.804 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:07.804 W/chromium( 8737): 
+02-28 18:03:07.804 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:246:20 ReferenceError: g_promises is not defined
+02-28 18:03:07.804 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:07.804 W/chromium( 8737): 
+02-28 18:03:07.804 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:246:20 ReferenceError: g_promises is not defined
+02-28 18:03:07.804 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:07.804 W/chromium( 8737): 
+02-28 18:03:09.904 W/BindingManager( 8737): Cannot call determinedVisibility() - never saw a connection for the pid: 8737
+02-28 18:03:09.934 E/MessagingSmsManager( 8737): No Sim Card
+02-28 18:03:09.944 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:242:20 ReferenceError: g_promises is not defined
+02-28 18:03:09.944 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].reject)) {
+02-28 18:03:09.944 W/chromium( 8737): 
+02-28 18:03:09.974 D/MmsSmsProvider(  757): getSingleAddressId: insert new canonical_address for xxxxxx, _id=17
+02-28 18:03:09.974 D/MmsSmsProvider(  757): getThreadId: create new thread_id for recipients xxxxxxxx
+02-28 18:03:09.974 D/MmsSmsProvider(  757): insertThread: created new thread_id 17 for recipientIds xxxxxxx
+02-28 18:03:10.004 D/SmsProvider(  757): Add address=13813926794
+02-28 18:03:10.014 D/SmsProvider(  757): insert content://sms/1 succeeded
+02-28 18:03:10.524 W/BindingManager( 8737): Cannot call determinedVisibility() - never saw a connection for the pid: 8737
+02-28 18:03:10.554 E/MessagingSmsManager( 8737): No Sim Card
+02-28 18:03:10.564 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:242:20 ReferenceError: g_promises is not defined
+02-28 18:03:10.564 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].reject)) {
+02-28 18:03:10.564 W/chromium( 8737): 
+02-28 18:03:10.584 D/MmsSmsProvider(  757): getSingleAddressId: insert new canonical_address for xxxxxx, _id=18
+02-28 18:03:10.584 D/MmsSmsProvider(  757): getThreadId: create new thread_id for recipients xxxxxxxx
+02-28 18:03:10.584 D/MmsSmsProvider(  757): insertThread: created new thread_id 18 for recipientIds xxxxxxx
+02-28 18:03:10.614 D/SmsProvider(  757): Add address=5556
+02-28 18:03:10.624 D/SmsProvider(  757): insert content://sms/2 succeeded
+02-28 18:03:11.904 D/EVENT_THREAD(  187): void CEventThread::run() POLLIN event on Fd (1)
+02-28 18:03:11.904 D/EVENT_THREAD(  187): void CEventThread::run() Do poll with timeout: -1
+02-28 18:03:13.274 D/EVENT_THREAD(  187): void CEventThread::run() POLLIN event on Fd (1)
+02-28 18:03:13.274 D/EVENT_THREAD(  187): void CEventThread::run() Do poll with timeout: -1
+02-28 18:03:13.274 D/EVENT_THREAD(  187): void CEventThread::run() POLLIN event on Fd (1)
+02-28 18:03:13.274 D/EVENT_THREAD(  187): void CEventThread::run() Do poll with timeout: -1
+02-28 18:03:13.284 I/upi_ug31xx(  167): (3221) update_capacity
+02-28 18:03:13.284 I/[UPI]   (  167): <UG31/E>[UpiReadCapacity]: V=4153(4155), T=359(359-420), I=-316, C=-3(-3-0)
+02-28 18:03:13.284 I/[UPI]   (  167): <UG31/E>[UpiReadCapacity]: (0x0000214a) 3316 (3241) / 3602 (3602) = 92
+02-28 18:03:13.284 I/[UPI]   (  167): <UG31/E>[UpiReadCapacity]: (0x0000214a) 3316 (3241) / 3602 (3602) = 92
+02-28 18:03:13.284 I/[UPI]   (  167): <UG31/E>[UpiReadCapacity]: (0x0000214a) 3313 (3313) / 3602 (3602) = 92
+02-28 18:03:13.284 I/[UPI]   (  167): <UG31/E>[RsocFilterCountTime]: (0x0000214a) Step=3(182200), Full=1(182200), Lock=182200(1800000)
+02-28 18:03:13.284 I/[UPI]   (  167): <UG31/E>[UpiReadCapacity]: (0x0000214a) 3313 (3313) / 3602 (3602) = 92 (-316--316)
+02-28 18:03:13.284 I/[UPI]   (  167): <UG31/E><BATT> M:normal, P:92(92-92)%, V:4155mV, C:-302mA, T:35.9C(420), S:0x0000214a(000), R:3313mAh, F:3602mAh, Q:2684mAh, CC:3, P:30.330(286-0)s, BO:7, 97:615:0-44af-9m:B001-20140514-144301 (2)
+02-28 18:03:13.284 I/upi_ug31xx(  167): (3222) backup_data 
+02-28 18:03:13.284 V/upi_ug31xx(  167): state->check_backup_count = 4
+02-28 18:03:13.724 W/BindingManager( 8737): Cannot call determinedVisibility() - never saw a connection for the pid: 8737
+02-28 18:03:13.754 E/MessagingSmsManager( 8737): No Sim Card
+02-28 18:03:13.764 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:242:20 ReferenceError: g_promises is not defined
+02-28 18:03:13.764 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].reject)) {
+02-28 18:03:13.764 W/chromium( 8737): 
+02-28 18:03:13.794 D/SmsProvider(  757): Add address=5556
+02-28 18:03:13.804 D/SmsProvider(  757): insert content://sms/3 succeeded
+02-28 18:03:16.884 W/BindingManager( 8737): Cannot call determinedVisibility() - never saw a connection for the pid: 8737
+02-28 18:03:16.904 E/MessagingSmsManager( 8737): No Sim Card
+02-28 18:03:16.924 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:242:20 ReferenceError: g_promises is not defined
+02-28 18:03:16.924 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].reject)) {
+02-28 18:03:16.924 W/chromium( 8737): 
+02-28 18:03:16.944 D/SmsProvider(  757): Add address=5556
+02-28 18:03:16.954 D/SmsProvider(  757): insert content://sms/4 succeeded
+02-28 18:03:17.554 W/BindingManager( 8737): Cannot call determinedVisibility() - never saw a connection for the pid: 8737
+02-28 18:03:17.574 E/MessagingSmsManager( 8737): No Sim Card
+02-28 18:03:17.594 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:242:20 ReferenceError: g_promises is not defined
+02-28 18:03:17.594 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].reject)) {
+02-28 18:03:17.594 W/chromium( 8737): 
+02-28 18:03:17.614 D/SmsProvider(  757): Add address=5556
+02-28 18:03:17.644 D/SmsProvider(  757): insert content://sms/5 succeeded
+02-28 18:03:20.724 W/BindingManager( 8737): Cannot call determinedVisibility() - never saw a connection for the pid: 8737
+02-28 18:03:20.764 E/MessagingSmsManager( 8737): No Sim Card
+02-28 18:03:20.774 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:242:20 ReferenceError: g_promises is not defined
+02-28 18:03:20.774 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].reject)) {
+02-28 18:03:20.774 W/chromium( 8737): 
+02-28 18:03:20.804 D/SmsProvider(  757): Add address=5556
+02-28 18:03:20.814 D/SmsProvider(  757): insert content://sms/6 succeeded
+02-28 18:03:23.914 W/BindingManager( 8737): Cannot call determinedVisibility() - never saw a connection for the pid: 8737
+02-28 18:03:24.004 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:246:20 ReferenceError: g_promises is not defined
+02-28 18:03:24.004 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:24.004 W/chromium( 8737): 
+02-28 18:03:24.004 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:246:20 ReferenceError: g_promises is not defined
+02-28 18:03:24.004 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:24.004 W/chromium( 8737): 
+02-28 18:03:24.004 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:246:20 ReferenceError: g_promises is not defined
+02-28 18:03:24.004 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:24.004 W/chromium( 8737): 
+02-28 18:03:24.004 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:246:20 ReferenceError: g_promises is not defined
+02-28 18:03:24.004 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:24.004 W/chromium( 8737): 
+02-28 18:03:26.154 W/BindingManager( 8737): Cannot call determinedVisibility() - never saw a connection for the pid: 8737
+02-28 18:03:26.174 E/MessagingSmsManager( 8737): No Sim Card
+02-28 18:03:26.194 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:242:20 ReferenceError: g_promises is not defined
+02-28 18:03:26.194 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].reject)) {
+02-28 18:03:26.194 W/chromium( 8737): 
+02-28 18:03:26.214 D/MmsSmsProvider(  757): getSingleAddressId: insert new canonical_address for xxxxxx, _id=19
+02-28 18:03:26.214 D/MmsSmsProvider(  757): getThreadId: create new thread_id for recipients xxxxxxxx
+02-28 18:03:26.214 D/MmsSmsProvider(  757): insertThread: created new thread_id 19 for recipientIds xxxxxxx
+02-28 18:03:26.244 D/SmsProvider(  757): Add address=5556
+02-28 18:03:26.254 D/SmsProvider(  757): insert content://sms/1 succeeded
+02-28 18:03:29.264 W/BindingManager( 8737): Cannot call determinedVisibility() - never saw a connection for the pid: 8737
+02-28 18:03:29.354 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:246:20 ReferenceError: g_promises is not defined
+02-28 18:03:29.354 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:29.354 W/chromium( 8737): 
+02-28 18:03:29.354 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:246:20 ReferenceError: g_promises is not defined
+02-28 18:03:29.354 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:29.354 W/chromium( 8737): 
+02-28 18:03:29.354 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:246:20 ReferenceError: g_promises is not defined
+02-28 18:03:29.354 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:29.354 W/chromium( 8737): 
+02-28 18:03:29.354 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:246:20 ReferenceError: g_promises is not defined
+02-28 18:03:29.354 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:29.354 W/chromium( 8737): 
+02-28 18:03:31.424 W/BindingManager( 8737): Cannot call determinedVisibility() - never saw a connection for the pid: 8737
+02-28 18:03:31.454 E/MessagingSmsManager( 8737): No Sim Card
+02-28 18:03:31.474 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:242:20 ReferenceError: g_promises is not defined
+02-28 18:03:31.474 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].reject)) {
+02-28 18:03:31.474 W/chromium( 8737): 
+02-28 18:03:31.504 D/dalvikvm(  506): GC_EXPLICIT freed 1162K, 49% free 18685K/36368K, paused 2ms+5ms, total 47ms
+02-28 18:03:31.514 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:31.514 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:31.514 W/chromium( 8737): 
+02-28 18:03:31.534 D/MmsSmsProvider(  757): getSingleAddressId: insert new canonical_address for xxxxxx, _id=20
+02-28 18:03:31.534 D/MmsSmsProvider(  757): getThreadId: create new thread_id for recipients xxxxxxxx
+02-28 18:03:31.534 D/MmsSmsProvider(  757): insertThread: created new thread_id 20 for recipientIds xxxxxxx
+02-28 18:03:31.544 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:31.544 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:31.544 W/chromium( 8737): 
+02-28 18:03:31.564 D/SmsProvider(  757): Add address=5556
+02-28 18:03:31.564 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:31.564 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:31.564 W/chromium( 8737): 
+02-28 18:03:31.574 D/SmsProvider(  757): insert content://sms/1 succeeded
+02-28 18:03:31.574 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:31.574 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:31.574 W/chromium( 8737): 
+02-28 18:03:31.584 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:31.584 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:31.584 W/chromium( 8737): 
+02-28 18:03:31.584 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:31.584 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:31.584 W/chromium( 8737): 
+02-28 18:03:31.594 I/dalvikvm( 8737): Total arena pages for JIT: 11
+02-28 18:03:31.594 I/dalvikvm( 8737): Total arena pages for JIT: 12
+02-28 18:03:31.594 I/dalvikvm( 8737): Total arena pages for JIT: 13
+02-28 18:03:31.594 I/dalvikvm( 8737): Total arena pages for JIT: 14
+02-28 18:03:31.594 I/dalvikvm( 8737): Total arena pages for JIT: 15
+02-28 18:03:31.594 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:31.594 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:31.594 W/chromium( 8737): 
+02-28 18:03:31.604 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:31.604 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:31.604 W/chromium( 8737): 
+02-28 18:03:31.614 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:31.614 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:31.614 W/chromium( 8737): 
+02-28 18:03:31.614 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:31.614 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:31.614 W/chromium( 8737): 
+02-28 18:03:31.624 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:31.624 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:31.624 W/chromium( 8737): 
+02-28 18:03:31.634 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:31.634 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:31.634 W/chromium( 8737): 
+02-28 18:03:31.634 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:31.634 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:31.634 W/chromium( 8737): 
+02-28 18:03:31.664 D/dalvikvm(  757): GC_EXPLICIT freed 1161K, 16% free 6832K/8108K, paused 1ms+2ms, total 31ms
+02-28 18:03:31.674 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:31.674 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:31.674 W/chromium( 8737): 
+02-28 18:03:31.684 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:31.684 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:31.684 W/chromium( 8737): 
+02-28 18:03:34.174 W/BindingManager( 8737): Cannot call determinedVisibility() - never saw a connection for the pid: 8737
+02-28 18:03:34.214 E/MessagingSmsManager( 8737): No Sim Card
+02-28 18:03:34.214 W/System.err( 8737): org.json.JSONException: No value for phone
+02-28 18:03:34.214 W/System.err( 8737): 	at org.json.JSONObject.get(JSONObject.java:355)
+02-28 18:03:34.214 W/System.err( 8737): 	at org.json.JSONObject.getString(JSONObject.java:515)
+02-28 18:03:34.214 W/System.err( 8737): 	at org.xwalk.core.internal.extension.api.messaging.MessagingSmsManager.onSmsSend(MessagingSmsManager.java:82)
+02-28 18:03:34.214 W/System.err( 8737): 	at org.xwalk.core.internal.extension.api.messaging.Messaging$1.runCommand(Messaging.java:45)
+02-28 18:03:34.214 W/System.err( 8737): 	at org.xwalk.core.internal.extension.api.messaging.Messaging.onMessage(Messaging.java:121)
+02-28 18:03:34.214 W/System.err( 8737): 	at dalvik.system.NativeStart.run(Native Method)
+02-28 18:03:34.214 E/MessagingSmsManager( 8737): No Sim Card
+02-28 18:03:34.214 W/System.err( 8737): org.json.JSONException: No value for message
+02-28 18:03:34.214 W/System.err( 8737): 	at org.json.JSONObject.get(JSONObject.java:355)
+02-28 18:03:34.214 W/System.err( 8737): 	at org.json.JSONObject.getString(JSONObject.java:515)
+02-28 18:03:34.214 W/System.err( 8737): 	at org.xwalk.core.internal.extension.api.messaging.MessagingSmsManager.onSmsSend(MessagingSmsManager.java:83)
+02-28 18:03:34.214 W/System.err( 8737): 	at org.xwalk.core.internal.extension.api.messaging.Messaging$1.runCommand(Messaging.java:45)
+02-28 18:03:34.214 W/System.err( 8737): 	at org.xwalk.core.internal.extension.api.messaging.Messaging.onMessage(Messaging.java:121)
+02-28 18:03:34.214 W/System.err( 8737): 	at dalvik.system.NativeStart.run(Native Method)
+02-28 18:03:34.214 W/System.err( 8737): org.json.JSONException: No value for text
+02-28 18:03:34.214 W/System.err( 8737): 	at org.json.JSONObject.get(JSONObject.java:355)
+02-28 18:03:34.214 W/System.err( 8737): 	at org.json.JSONObject.getString(JSONObject.java:515)
+02-28 18:03:34.214 W/System.err( 8737): 	at org.xwalk.core.internal.extension.api.messaging.MessagingSmsManager.onSmsSegmentInfo(MessagingSmsManager.java:164)
+02-28 18:03:34.214 W/System.err( 8737): 	at org.xwalk.core.internal.extension.api.messaging.Messaging$3.runCommand(Messaging.java:55)
+02-28 18:03:34.214 W/System.err( 8737): 	at org.xwalk.core.internal.extension.api.messaging.Messaging.onMessage(Messaging.java:121)
+02-28 18:03:34.214 W/System.err( 8737): 	at dalvik.system.NativeStart.run(Native Method)
+02-28 18:03:34.214 W/System.err( 8737): org.json.JSONException: No value for conversationID
+02-28 18:03:34.214 W/System.err( 8737): 	at org.json.JSONObject.get(JSONObject.java:355)
+02-28 18:03:34.214 W/System.err( 8737): 	at org.json.JSONObject.getString(JSONObject.java:515)
+02-28 18:03:34.214 W/System.err( 8737): 	at org.xwalk.core.internal.extension.api.messaging.MessagingManager.operation(MessagingManager.java:177)
+02-28 18:03:34.214 W/System.err( 8737): 	at org.xwalk.core.internal.extension.api.messaging.MessagingManager.onMsgMarkConversationRead(MessagingManager.java:66)
+02-28 18:03:34.224 W/System.err( 8737): 	at org.xwalk.core.internal.extension.api.messaging.Messaging$9.runCommand(Messaging.java:85)
+02-28 18:03:34.224 W/System.err( 8737): 	at org.xwalk.core.internal.extension.api.messaging.Messaging.onMessage(Messaging.java:121)
+02-28 18:03:34.224 W/System.err( 8737): 	at dalvik.system.NativeStart.run(Native Method)
+02-28 18:03:34.224 W/System.err( 8737): org.json.JSONException: No value for conversationID
+02-28 18:03:34.224 W/System.err( 8737): 	at org.json.JSONObject.get(JSONObject.java:355)
+02-28 18:03:34.224 W/System.err( 8737): 	at org.json.JSONObject.getString(JSONObject.java:515)
+02-28 18:03:34.224 W/System.err( 8737): 	at org.xwalk.core.internal.extension.api.messaging.MessagingManager.operation(MessagingManager.java:177)
+02-28 18:03:34.224 W/System.err( 8737): 	at org.xwalk.core.internal.extension.api.messaging.MessagingManager.onMsgDeleteConversation(MessagingManager.java:58)
+02-28 18:03:34.224 W/System.err( 8737): 	at org.xwalk.core.internal.extension.api.messaging.Messaging$7.runCommand(Messaging.java:75)
+02-28 18:03:34.224 W/System.err( 8737): 	at org.xwalk.core.internal.extension.api.messaging.Messaging.onMessage(Messaging.java:121)
+02-28 18:03:34.224 W/System.err( 8737): 	at dalvik.system.NativeStart.run(Native Method)
+02-28 18:03:34.224 W/System.err( 8737): java.lang.NullPointerException
+02-28 18:03:34.224 W/System.err( 8737): 	at org.xwalk.core.internal.extension.api.messaging.MessagingHelpers.buildSqlFilterOptionString(MessagingHelpers.java:104)
+02-28 18:03:34.224 W/System.err( 8737): 	at org.xwalk.core.internal.extension.api.messaging.MessagingManager.queryMessage(MessagingManager.java:119)
+02-28 18:03:34.224 W/System.err( 8737): 	at org.xwalk.core.internal.extension.api.messaging.MessagingManager.onMsgFindMessages(MessagingManager.java:46)
+02-28 18:03:34.224 W/System.err( 8737): 	at org.xwalk.core.internal.extension.api.messaging.Messaging$4.runCommand(Messaging.java:60)
+02-28 18:03:34.224 W/System.err( 8737): 	at org.xwalk.core.internal.extension.api.messaging.Messaging.onMessage(Messaging.java:121)
+02-28 18:03:34.224 W/System.err( 8737): 	at dalvik.system.NativeStart.run(Native Method)
+02-28 18:03:34.224 W/System.err( 8737): org.json.JSONException: No value for conversationID
+02-28 18:03:34.224 W/System.err( 8737): 	at org.json.JSONObject.get(JSONObject.java:355)
+02-28 18:03:34.224 W/System.err( 8737): 	at org.json.JSONObject.getString(JSONObject.java:515)
+02-28 18:03:34.224 W/System.err( 8737): 	at org.xwalk.core.internal.extension.api.messaging.MessagingManager.operation(MessagingManager.java:177)
+02-28 18:03:34.224 W/System.err( 8737): 	at org.xwalk.core.internal.extension.api.messaging.MessagingManager.onMsgMarkMessageRead(MessagingManager.java:62)
+02-28 18:03:34.224 W/System.err( 8737): 	at org.xwalk.core.internal.extension.api.messaging.Messaging$8.runCommand(Messaging.java:80)
+02-28 18:03:34.224 W/System.err( 8737): 	at org.xwalk.core.internal.extension.api.messaging.Messaging.onMessage(Messaging.java:121)
+02-28 18:03:34.224 W/System.err( 8737): 	at dalvik.system.NativeStart.run(Native Method)
+02-28 18:03:34.224 W/System.err( 8737): org.json.JSONException: No value for type
+02-28 18:03:34.224 W/System.err( 8737): 	at org.json.JSONObject.get(JSONObject.java:355)
+02-28 18:03:34.224 W/System.err( 8737): 	at org.json.JSONObject.getString(JSONObject.java:515)
+02-28 18:03:34.224 W/System.err( 8737): 	at org.xwalk.core.internal.extension.api.messaging.MessagingManager.queryMessage(MessagingManager.java:97)
+02-28 18:03:34.224 W/System.err( 8737): 	at org.xwalk.core.internal.extension.api.messaging.MessagingManager.onMsgGetMessage(MessagingManager.java:50)
+02-28 18:03:34.224 W/System.err( 8737): 	at org.xwalk.core.internal.extension.api.messaging.Messaging$5.runCommand(Messaging.java:65)
+02-28 18:03:34.224 W/System.err( 8737): 	at org.xwalk.core.internal.extension.api.messaging.Messaging.onMessage(Messaging.java:121)
+02-28 18:03:34.224 W/System.err( 8737): 	at dalvik.system.NativeStart.run(Native Method)
+02-28 18:03:34.224 W/System.err( 8737): org.json.JSONException: No value for conversationID
+02-28 18:03:34.224 W/System.err( 8737): 	at org.json.JSONObject.get(JSONObject.java:355)
+02-28 18:03:34.224 W/System.err( 8737): 	at org.json.JSONObject.getString(JSONObject.java:515)
+02-28 18:03:34.224 W/System.err( 8737): 	at org.xwalk.core.internal.extension.api.messaging.MessagingManager.operation(MessagingManager.java:177)
+02-28 18:03:34.224 W/System.err( 8737): 	at org.xwalk.core.internal.extension.api.messaging.MessagingManager.onMsgDeleteMessage(MessagingManager.java:54)
+02-28 18:03:34.224 W/System.err( 8737): 	at org.xwalk.core.internal.extension.api.messaging.Messaging$6.runCommand(Messaging.java:70)
+02-28 18:03:34.224 W/System.err( 8737): 	at org.xwalk.core.internal.extension.api.messaging.Messaging.onMessage(Messaging.java:121)
+02-28 18:03:34.224 W/System.err( 8737): 	at dalvik.system.NativeStart.run(Native Method)
+02-28 18:03:34.224 E/MessagingSmsManager( 8737): No Sim Card
+02-28 18:03:34.234 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:242:20 ReferenceError: g_promises is not defined
+02-28 18:03:34.234 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].reject)) {
+02-28 18:03:34.234 W/chromium( 8737): 
+02-28 18:03:34.254 D/MmsSmsProvider(  757): getSingleAddressId: insert new canonical_address for xxxxxx, _id=21
+02-28 18:03:34.254 D/MmsSmsProvider(  757): getThreadId: create new thread_id for recipients xxxxxxxx
+02-28 18:03:34.254 D/MmsSmsProvider(  757): insertThread: created new thread_id 21 for recipientIds xxxxxxx
+02-28 18:03:34.284 D/SmsProvider(  757): Add address=13813926794
+02-28 18:03:34.304 D/SmsProvider(  757): insert content://sms/2 succeeded
+02-28 18:03:38.384 D/wpa_supplicant(  659): wlan0: Starting AP scan for wildcard SSID
+02-28 18:03:38.384 D/wpa_supplicant(  659): WPS: Building WPS IE for Probe Request
+02-28 18:03:38.384 D/wpa_supplicant(  659): WPS:  * Version (hardcoded 0x10)
+02-28 18:03:38.384 D/wpa_supplicant(  659): WPS:  * Request Type
+02-28 18:03:38.384 D/wpa_supplicant(  659): WPS:  * Config Methods (4288)
+02-28 18:03:38.384 D/wpa_supplicant(  659): WPS:  * UUID-E
+02-28 18:03:38.384 D/wpa_supplicant(  659): WPS:  * Primary Device Type
+02-28 18:03:38.384 D/wpa_supplicant(  659): WPS:  * RF Bands (1)
+02-28 18:03:38.384 D/wpa_supplicant(  659): WPS:  * Association State
+02-28 18:03:38.384 D/wpa_supplicant(  659): WPS:  * Configuration Error (0)
+02-28 18:03:38.384 D/wpa_supplicant(  659): WPS:  * Device Password ID (0)
+02-28 18:03:38.384 D/wpa_supplicant(  659): WPS:  * Manufacturer
+02-28 18:03:38.384 D/wpa_supplicant(  659): WPS:  * Model Name
+02-28 18:03:38.384 D/wpa_supplicant(  659): WPS:  * Model Number
+02-28 18:03:38.384 D/wpa_supplicant(  659): WPS:  * Device Name
+02-28 18:03:38.384 D/wpa_supplicant(  659): WPS:  * Version2 (0x20)
+02-28 18:03:38.384 D/wpa_supplicant(  659): P2P: * P2P IE header
+02-28 18:03:38.384 D/wpa_supplicant(  659): P2P: * Capability dev=25 group=00
+02-28 18:03:38.384 D/wpa_supplicant(  659): P2P: * Listen Channel: Regulatory Class 81 Channel 11
+02-28 18:03:38.384 D/wpa_supplicant(  659): wlan0: nl80211: scan request
+02-28 18:03:38.444 D/wpa_supplicant(  659): Scan requested (ret=0) - scan timeout 30 seconds
+02-28 18:03:38.444 D/wpa_supplicant(  659): nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0
+02-28 18:03:38.444 D/wpa_supplicant(  659): wlan0: nl80211: Scan trigger
+02-28 18:03:38.574 D/BatteryStatsImpl(  506): noteStopWakeLocked system isFromForeground = false
+02-28 18:03:38.774 W/BindingManager( 8737): Cannot call determinedVisibility() - never saw a connection for the pid: 8737
+02-28 18:03:39.574 D/wpa_supplicant(  659): nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: nl80211: New scan results available
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: Event SCAN_RESULTS (3) received
+02-28 18:03:39.574 D/wpa_supplicant(  659): nl80211: Received scan results (21 BSSes)
+02-28 18:03:39.574 D/wpa_supplicant(  659): nl80211: Survey data missing
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: BSS: Start scan result update 51
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: BSS: Add new id 244 BSSID 2c:b0:5d:7f:f4:24 SSID 'NETGEAR38'
+02-28 18:03:39.574 D/wpa_supplicant(  659): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: BSS: Remove id 177 BSSID 6c:8b:2f:e8:38:24 SSID 'ZTE_AP_6703' due to no match in scan
+02-28 18:03:39.574 D/wpa_supplicant(  659): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: BSS: Remove id 235 BSSID c0:a0:bb:20:3b:84 SSID 'dlink-3B84' due to no match in scan
+02-28 18:03:39.574 D/wpa_supplicant(  659): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: BSS: Remove id 241 BSSID 24:05:0f:2e:8a:21 SSID 'Online_360_m' due to no match in scan
+02-28 18:03:39.574 D/wpa_supplicant(  659): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: BSS: Remove id 217 BSSID 7a:24:af:1e:df:58 SSID 'DIRECT-' due to no match in scan
+02-28 18:03:39.574 D/wpa_supplicant(  659): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+02-28 18:03:39.574 D/wpa_supplicant(  659): BSS: last_scan_res_used=20/32 last_scan_full=0
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: New scan results available
+02-28 18:03:39.574 D/wpa_supplicant(  659): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+02-28 18:03:39.574 D/wpa_supplicant(  659): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+02-28 18:03:39.574 D/wpa_supplicant(  659): Authorize channel 1
+02-28 18:03:39.574 D/wpa_supplicant(  659): Authorize channel 2
+02-28 18:03:39.574 D/wpa_supplicant(  659): Authorize channel 3
+02-28 18:03:39.574 D/wpa_supplicant(  659): Authorize channel 4
+02-28 18:03:39.574 D/wpa_supplicant(  659): Authorize channel 5
+02-28 18:03:39.574 D/wpa_supplicant(  659): Authorize channel 6
+02-28 18:03:39.574 D/wpa_supplicant(  659): Authorize channel 7
+02-28 18:03:39.574 D/wpa_supplicant(  659): Authorize channel 8
+02-28 18:03:39.574 D/wpa_supplicant(  659): Authorize channel 9
+02-28 18:03:39.574 D/wpa_supplicant(  659): Authorize channel 10
+02-28 18:03:39.574 D/wpa_supplicant(  659): Authorize channel 11
+02-28 18:03:39.574 D/wpa_supplicant(  659): Authorize channel 12
+02-28 18:03:39.574 D/wpa_supplicant(  659): Authorize channel 13
+02-28 18:03:39.574 D/wpa_supplicant(  659): Authorize channel 1
+02-28 18:03:39.574 D/wpa_supplicant(  659): Authorize channel 2
+02-28 18:03:39.574 D/wpa_supplicant(  659): Authorize channel 3
+02-28 18:03:39.574 D/wpa_supplicant(  659): Authorize channel 4
+02-28 18:03:39.574 D/wpa_supplicant(  659): Authorize channel 5
+02-28 18:03:39.574 D/wpa_supplicant(  659): Authorize channel 6
+02-28 18:03:39.574 D/wpa_supplicant(  659): Authorize channel 7
+02-28 18:03:39.574 D/wpa_supplicant(  659): Authorize channel 8
+02-28 18:03:39.574 D/wpa_supplicant(  659): Authorize channel 9
+02-28 18:03:39.574 D/wpa_supplicant(  659): Authorize channel 10
+02-28 18:03:39.574 D/wpa_supplicant(  659): Authorize channel 11
+02-28 18:03:39.574 D/wpa_supplicant(  659): Authorize channel 12
+02-28 18:03:39.574 D/wpa_supplicant(  659): Authorize channel 13
+02-28 18:03:39.574 D/wpa_supplicant(  659): Add access point on channel 6
+02-28 18:03:39.574 D/wpa_supplicant(  659): Add access point on channel 6
+02-28 18:03:39.574 I/WifiHW  (  506): EVENT: IFNAME=wlan0 CTRL-EVENT-BSS-ADDED 244 2c:b0:5d:7f:f4:24
+02-28 18:03:39.574 I/WifiHW  (  506): EVENT: IFNAME=wlan0 CTRL-EVENT-BSS-REMOVED 177 6c:8b:2f:e8:38:24
+02-28 18:03:39.574 I/WifiHW  (  506): EVENT: IFNAME=wlan0 CTRL-EVENT-BSS-REMOVED 235 c0:a0:bb:20:3b:84
+02-28 18:03:39.574 I/WifiHW  (  506): EVENT: IFNAME=wlan0 CTRL-EVENT-BSS-REMOVED 241 24:05:0f:2e:8a:21
+02-28 18:03:39.574 D/wpa_supplicant(  659): Add access point on channel 11
+02-28 18:03:39.574 D/wpa_supplicant(  659): Add access point on channel 11
+02-28 18:03:39.574 D/wpa_supplicant(  659): Add access point on channel 1
+02-28 18:03:39.574 D/wpa_supplicant(  659): Add access point on channel 6
+02-28 18:03:39.574 D/wpa_supplicant(  659): Add access point on channel 1
+02-28 18:03:39.574 D/wpa_supplicant(  659): Add access point on channel 6
+02-28 18:03:39.574 D/wpa_supplicant(  659): Add access point on channel 11
+02-28 18:03:39.574 D/wpa_supplicant(  659): Add access point on channel 11
+02-28 18:03:39.574 D/wpa_supplicant(  659): Add access point on channel 6
+02-28 18:03:39.574 D/wpa_supplicant(  659): Add access point on channel 6
+02-28 18:03:39.574 D/wpa_supplicant(  659): Add access point on channel 6
+02-28 18:03:39.574 D/wpa_supplicant(  659): Add access point on channel 7
+02-28 18:03:39.574 D/wpa_supplicant(  659): Add access point on channel 11
+02-28 18:03:39.574 D/wpa_supplicant(  659): Add access point on channel 6
+02-28 18:03:39.574 D/wpa_supplicant(  659): Add access point on channel 9
+02-28 18:03:39.574 D/wpa_supplicant(  659): Add access point on channel 6
+02-28 18:03:39.574 D/wpa_supplicant(  659): Add access point on channel 8
+02-28 18:03:39.574 D/wpa_supplicant(  659): Add access point on channel 8
+02-28 18:03:39.574 D/wpa_supplicant(  659): Add access point on channel 1
+02-28 18:03:39.574 D/wpa_supplicant(  659): Best Operating channel is = 1
+02-28 18:03:39.574 D/wpa_supplicant(  659): WPS: AP[0] f8:d1:11:e7:99:e8 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:03:39.574 D/wpa_supplicant(  659): WPS: AP[1] 44:94:fc:3d:da:38 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:03:39.574 D/wpa_supplicant(  659): WPS: AP[2] cc:34:29:2b:26:4c type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:03:39.574 D/wpa_supplicant(  659): WPS: AP[3] cc:34:29:2c:fb:ec type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:03:39.574 D/wpa_supplicant(  659): WPS: AP[4] 98:fc:11:81:35:fb type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:03:39.574 D/wpa_supplicant(  659): WPS: AP[5] 14:d6:4d:28:ef:c8 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:03:39.574 D/wpa_supplicant(  659): WPS: AP[6] c0:c1:c0:76:81:3c type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:03:39.574 D/wpa_supplicant(  659): WPS: AP[7] 10:9f:a9:dc:b1:fc type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:03:39.574 D/wpa_supplicant(  659): WPS: AP[8] 10:c3:7b:d2:e5:e0 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:03:39.574 D/wpa_supplicant(  659): WPS: AP[9] e4:d3:32:36:2e:54 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:03:39.574 D/wpa_supplicant(  659): WPS: AP[10] c0:a0:bb:20:3b:84 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:03:39.574 D/wpa_supplicant(  659): WPS: AP[11] 2c:b0:5d:7f:f4:24 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:03:39.574 D/wpa_supplicant(  659): WPS: AP[12] b0:48:7a:51:ff:cc type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: Selecting BSS from priority group 20
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: 0: c8:d7:19:60:62:f2 ssid='E3000-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-43
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: 1: f8:d1:11:e7:99:e8 ssid='videotest' wpa_ie_len=22 rsn_ie_len=20 caps=0x531 level=-45 wps
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: 2: 44:94:fc:3d:da:38 ssid='6300' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-50 wps
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: 3: 10:c3:7b:d2:e5:e0 ssid='ASUS_RT-AC66U-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-57 wps
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: 4: 90:94:e4:03:45:f5 ssid='DAP-2553_D' wpa_ie_len=0 rsn_ie_len=24 caps=0x431 level=-57
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: 5: cc:34:29:2b:26:4c ssid='cws-test' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-60 wps
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: 6: cc:34:29:2c:fb:ec ssid='linksys' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-61 wps
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: 7: 98:fc:11:81:35:fb ssid='E2000EE' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-63 wps
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: 8: c4:17:fe:3f:4f:fb ssid='cmcm' wpa_ie_len=0 rsn_ie_len=20 caps=0x511 level=-63
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: 9: 02:1a:11:f8:2f:eb ssid='io1' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-69
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: 10: b0:48:7a:51:ff:cc ssid='Neusoft TP' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-70
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: 11: cc:b2:55:e2:84:70 ssid='DLINK_APK' wpa_ie_len=22 rsn_ie_len=20 caps=0x411 level=-74
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: 12: c0:cb:38:7f:c9:09 ssid='360WiFi-7908' wpa_ie_len=0 rsn_ie_len=20 caps=0x511 level=-75
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: 13: e4:d3:32:c0:cf:a4 ssid='fast' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-76
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: 14: 14:d6:4d:28:ef:c8 ssid='dlink' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-80 wps
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: 15: 2c:b0:5d:7f:f4:24 ssid='NETGEAR38' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-82 wps
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: 16: 00:0f:e2:0f:9f:c1 ssid='321_WAN' wpa_ie_len=28 rsn_ie_len=24 caps=0x411 level=-82
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: 17: c0:c1:c0:76:81:3c ssid='E2000' wpa_ie_len=0 rsn_ie_len=0 caps=0x401 level=-56 wps
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: 18: 50:bd:5f:4b:29:92 ssid='Internet-2' wpa_ie_len=0 rsn_ie_len=0 caps=0x421 level=-62
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: 19: e4:d3:32:dd:18:62 ssid='Internet' wpa_ie_len=0 rsn_ie_len=0 caps=0x421 level=-75
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: Selecting BSS from priority group 19
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: 0: c8:d7:19:60:62:f2 ssid='E3000-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-43
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: 1: f8:d1:11:e7:99:e8 ssid='videotest' wpa_ie_len=22 rsn_ie_len=20 caps=0x531 level=-45 wps
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: 2: 44:94:fc:3d:da:38 ssid='6300' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-50 wps
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: 3: 10:c3:7b:d2:e5:e0 ssid='ASUS_RT-AC66U-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-57 wps
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.574 I/WifiHW  (  506): EVENT: IFNAME=wlan0 CTRL-EVENT-BSS-REMOVED 217 7a:24:af:1e:df:58
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: 4: 90:94:e4:03:45:f5 ssid='DAP-2553_D' wpa_ie_len=0 rsn_ie_len=24 caps=0x431 level=-57
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: 5: cc:34:29:2b:26:4c ssid='cws-test' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-60 wps
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: 6: cc:34:29:2c:fb:ec ssid='linksys' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-61 wps
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.574 I/WifiHW  (  506): EVENT: IFNAME=wlan0 CTRL-EVENT-SCAN-RESULTS 
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: 7: 98:fc:11:81:35:fb ssid='E2000EE' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-63 wps
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: 8: c4:17:fe:3f:4f:fb ssid='cmcm' wpa_ie_len=0 rsn_ie_len=20 caps=0x511 level=-63
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: 9: 02:1a:11:f8:2f:eb ssid='io1' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-69
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: 10: b0:48:7a:51:ff:cc ssid='Neusoft TP' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-70
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: 11: cc:b2:55:e2:84:70 ssid='DLINK_APK' wpa_ie_len=22 rsn_ie_len=20 caps=0x411 level=-74
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.574 I/WifiHW  (  506): EVENT: IFNAME=wlan0 WPS-AP-AVAILABLE 
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: 12: c0:cb:38:7f:c9:09 ssid='360WiFi-7908' wpa_ie_len=0 rsn_ie_len=20 caps=0x511 level=-75
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: 13: e4:d3:32:c0:cf:a4 ssid='fast' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-76
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: 14: 14:d6:4d:28:ef:c8 ssid='dlink' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-80 wps
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: 15: 2c:b0:5d:7f:f4:24 ssid='NETGEAR38' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-82 wps
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: 16: 00:0f:e2:0f:9f:c1 ssid='321_WAN' wpa_ie_len=28 rsn_ie_len=24 caps=0x411 level=-82
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.574 I/WifiHW  (  506): CMD: IFNAME=wlan0 BSS RANGE=0- MASK=0x21987
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: 17: c0:c1:c0:76:81:3c ssid='E2000' wpa_ie_len=0 rsn_ie_len=0 caps=0x401 level=-56 wps
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: 18: 50:bd:5f:4b:29:92 ssid='Internet-2' wpa_ie_len=0 rsn_ie_len=0 caps=0x421 level=-62
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: 19: e4:d3:32:dd:18:62 ssid='Internet' wpa_ie_len=0 rsn_ie_len=0 caps=0x421 level=-75
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: Selecting BSS from priority group 18
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: 0: c8:d7:19:60:62:f2 ssid='E3000-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-43
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: 1: f8:d1:11:e7:99:e8 ssid='videotest' wpa_ie_len=22 rsn_ie_len=20 caps=0x531 level=-45 wps
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: 2: 44:94:fc:3d:da:38 ssid='6300' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-50 wps
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: 3: 10:c3:7b:d2:e5:e0 ssid='ASUS_RT-AC66U-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-57 wps
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: 4: 90:94:e4:03:45:f5 ssid='DAP-2553_D' wpa_ie_len=0 rsn_ie_len=24 caps=0x431 level=-57
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: 5: cc:34:29:2b:26:4c ssid='cws-test' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-60 wps
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: 6: cc:34:29:2c:fb:ec ssid='linksys' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-61 wps
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.574 D/wpa_supplicant(  659): wlan0: 7: 98:fc:11:81:35:fb ssid='E2000EE' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-63 wps
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 8: c4:17:fe:3f:4f:fb ssid='cmcm' wpa_ie_len=0 rsn_ie_len=20 caps=0x511 level=-63
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 9: 02:1a:11:f8:2f:eb ssid='io1' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-69
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 10: b0:48:7a:51:ff:cc ssid='Neusoft TP' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-70
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 11: cc:b2:55:e2:84:70 ssid='DLINK_APK' wpa_ie_len=22 rsn_ie_len=20 caps=0x411 level=-74
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 12: c0:cb:38:7f:c9:09 ssid='360WiFi-7908' wpa_ie_len=0 rsn_ie_len=20 caps=0x511 level=-75
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 13: e4:d3:32:c0:cf:a4 ssid='fast' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-76
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 14: 14:d6:4d:28:ef:c8 ssid='dlink' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-80 wps
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 15: 2c:b0:5d:7f:f4:24 ssid='NETGEAR38' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-82 wps
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 16: 00:0f:e2:0f:9f:c1 ssid='321_WAN' wpa_ie_len=28 rsn_ie_len=24 caps=0x411 level=-82
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 17: c0:c1:c0:76:81:3c ssid='E2000' wpa_ie_len=0 rsn_ie_len=0 caps=0x401 level=-56 wps
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 18: 50:bd:5f:4b:29:92 ssid='Internet-2' wpa_ie_len=0 rsn_ie_len=0 caps=0x421 level=-62
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 19: e4:d3:32:dd:18:62 ssid='Internet' wpa_ie_len=0 rsn_ie_len=0 caps=0x421 level=-75
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: Selecting BSS from priority group 17
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 0: c8:d7:19:60:62:f2 ssid='E3000-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-43
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 1: f8:d1:11:e7:99:e8 ssid='videotest' wpa_ie_len=22 rsn_ie_len=20 caps=0x531 level=-45 wps
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 2: 44:94:fc:3d:da:38 ssid='6300' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-50 wps
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 3: 10:c3:7b:d2:e5:e0 ssid='ASUS_RT-AC66U-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-57 wps
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 4: 90:94:e4:03:45:f5 ssid='DAP-2553_D' wpa_ie_len=0 rsn_ie_len=24 caps=0x431 level=-57
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 5: cc:34:29:2b:26:4c ssid='cws-test' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-60 wps
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 6: cc:34:29:2c:fb:ec ssid='linksys' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-61 wps
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 7: 98:fc:11:81:35:fb ssid='E2000EE' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-63 wps
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 8: c4:17:fe:3f:4f:fb ssid='cmcm' wpa_ie_len=0 rsn_ie_len=20 caps=0x511 level=-63
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 9: 02:1a:11:f8:2f:eb ssid='io1' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-69
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 10: b0:48:7a:51:ff:cc ssid='Neusoft TP' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-70
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 11: cc:b2:55:e2:84:70 ssid='DLINK_APK' wpa_ie_len=22 rsn_ie_len=20 caps=0x411 level=-74
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 12: c0:cb:38:7f:c9:09 ssid='360WiFi-7908' wpa_ie_len=0 rsn_ie_len=20 caps=0x511 level=-75
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 13: e4:d3:32:c0:cf:a4 ssid='fast' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-76
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 14: 14:d6:4d:28:ef:c8 ssid='dlink' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-80 wps
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 15: 2c:b0:5d:7f:f4:24 ssid='NETGEAR38' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-82 wps
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 16: 00:0f:e2:0f:9f:c1 ssid='321_WAN' wpa_ie_len=28 rsn_ie_len=24 caps=0x411 level=-82
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 17: c0:c1:c0:76:81:3c ssid='E2000' wpa_ie_len=0 rsn_ie_len=0 caps=0x401 level=-56 wps
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 18: 50:bd:5f:4b:29:92 ssid='Internet-2' wpa_ie_len=0 rsn_ie_len=0 caps=0x421 level=-62
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 19: e4:d3:32:dd:18:62 ssid='Internet' wpa_ie_len=0 rsn_ie_len=0 caps=0x421 level=-75
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: Selecting BSS from priority group 15
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 0: c8:d7:19:60:62:f2 ssid='E3000-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-43
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 1: f8:d1:11:e7:99:e8 ssid='videotest' wpa_ie_len=22 rsn_ie_len=20 caps=0x531 level=-45 wps
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 2: 44:94:fc:3d:da:38 ssid='6300' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-50 wps
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 3: 10:c3:7b:d2:e5:e0 ssid='ASUS_RT-AC66U-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-57 wps
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 4: 90:94:e4:03:45:f5 ssid='DAP-2553_D' wpa_ie_len=0 rsn_ie_len=24 caps=0x431 level=-57
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 5: cc:34:29:2b:26:4c ssid='cws-test' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-60 wps
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 6: cc:34:29:2c:fb:ec ssid='linksys' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-61 wps
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 7: 98:fc:11:81:35:fb ssid='E2000EE' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-63 wps
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 8: c4:17:fe:3f:4f:fb ssid='cmcm' wpa_ie_len=0 rsn_ie_len=20 caps=0x511 level=-63
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 9: 02:1a:11:f8:2f:eb ssid='io1' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-69
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 10: b0:48:7a:51:ff:cc ssid='Neusoft TP' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-70
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 11: cc:b2:55:e2:84:70 ssid='DLINK_APK' wpa_ie_len=22 rsn_ie_len=20 caps=0x411 level=-74
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 12: c0:cb:38:7f:c9:09 ssid='360WiFi-7908' wpa_ie_len=0 rsn_ie_len=20 caps=0x511 level=-75
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 13: e4:d3:32:c0:cf:a4 ssid='fast' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-76
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 14: 14:d6:4d:28:ef:c8 ssid='dlink' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-80 wps
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 15: 2c:b0:5d:7f:f4:24 ssid='NETGEAR38' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-82 wps
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 16: 00:0f:e2:0f:9f:c1 ssid='321_WAN' wpa_ie_len=28 rsn_ie_len=24 caps=0x411 level=-82
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 17: c0:c1:c0:76:81:3c ssid='E2000' wpa_ie_len=0 rsn_ie_len=0 caps=0x401 level=-56 wps
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 18: 50:bd:5f:4b:29:92 ssid='Internet-2' wpa_ie_len=0 rsn_ie_len=0 caps=0x421 level=-62
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 19: e4:d3:32:dd:18:62 ssid='Internet' wpa_ie_len=0 rsn_ie_len=0 caps=0x421 level=-75
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: Selecting BSS from priority group 4
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 0: c8:d7:19:60:62:f2 ssid='E3000-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-43
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - disabled
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 1: f8:d1:11:e7:99:e8 ssid='videotest' wpa_ie_len=22 rsn_ie_len=20 caps=0x531 level=-45 wps
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - disabled
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 2: 44:94:fc:3d:da:38 ssid='6300' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-50 wps
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - disabled
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 3: 10:c3:7b:d2:e5:e0 ssid='ASUS_RT-AC66U-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-57 wps
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - disabled
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 4: 90:94:e4:03:45:f5 ssid='DAP-2553_D' wpa_ie_len=0 rsn_ie_len=24 caps=0x431 level=-57
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - disabled
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 5: cc:34:29:2b:26:4c ssid='cws-test' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-60 wps
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - disabled
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 6: cc:34:29:2c:fb:ec ssid='linksys' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-61 wps
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - disabled
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 7: 98:fc:11:81:35:fb ssid='E2000EE' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-63 wps
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - disabled
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 8: c4:17:fe:3f:4f:fb ssid='cmcm' wpa_ie_len=0 rsn_ie_len=20 caps=0x511 level=-63
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - disabled
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 9: 02:1a:11:f8:2f:eb ssid='io1' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-69
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - disabled
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 10: b0:48:7a:51:ff:cc ssid='Neusoft TP' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-70
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - disabled
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 11: cc:b2:55:e2:84:70 ssid='DLINK_APK' wpa_ie_len=22 rsn_ie_len=20 caps=0x411 level=-74
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - disabled
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 12: c0:cb:38:7f:c9:09 ssid='360WiFi-7908' wpa_ie_len=0 rsn_ie_len=20 caps=0x511 level=-75
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - disabled
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 13: e4:d3:32:c0:cf:a4 ssid='fast' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-76
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - disabled
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 14: 14:d6:4d:28:ef:c8 ssid='dlink' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-80 wps
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - disabled
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 15: 2c:b0:5d:7f:f4:24 ssid='NETGEAR38' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-82 wps
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - disabled
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 16: 00:0f:e2:0f:9f:c1 ssid='321_WAN' wpa_ie_len=28 rsn_ie_len=24 caps=0x411 level=-82
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - disabled
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 17: c0:c1:c0:76:81:3c ssid='E2000' wpa_ie_len=0 rsn_ie_len=0 caps=0x401 level=-56 wps
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - disabled
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 18: 50:bd:5f:4b:29:92 ssid='Internet-2' wpa_ie_len=0 rsn_ie_len=0 caps=0x421 level=-62
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - disabled
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: 19: e4:d3:32:dd:18:62 ssid='Internet' wpa_ie_len=0 rsn_ie_len=0 caps=0x421 level=-75
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0:    skip - disabled
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: No suitable network found
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: Setting scan request: 40 sec 0 usec
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: Checking for other virtual interfaces sharing same radio (phy0) in event_scan_results
+02-28 18:03:39.584 D/wpa_supplicant(  659): p2p-dev-wlan0: Updating scan results from sibling
+02-28 18:03:39.584 D/wpa_supplicant(  659): nl80211: Received scan results (21 BSSes)
+02-28 18:03:39.584 D/wpa_supplicant(  659): nl80211: Survey data missing
+02-28 18:03:39.584 D/wpa_supplicant(  659): p2p-dev-wlan0: BSS: Start scan result update 22
+02-28 18:03:39.584 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS c8:d7:19:60:62:f2 update for P2P interface
+02-28 18:03:39.584 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS f8:d1:11:e7:99:e8 update for P2P interface
+02-28 18:03:39.584 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS 44:94:fc:3d:da:38 update for P2P interface
+02-28 18:03:39.584 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS 10:c3:7b:d2:e5:e0 update for P2P interface
+02-28 18:03:39.584 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS 90:94:e4:03:45:f5 update for P2P interface
+02-28 18:03:39.584 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS cc:34:29:2b:26:4c update for P2P interface
+02-28 18:03:39.584 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS cc:34:29:2c:fb:ec update for P2P interface
+02-28 18:03:39.584 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS 98:fc:11:81:35:fb update for P2P interface
+02-28 18:03:39.584 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS c4:17:fe:3f:4f:fb update for P2P interface
+02-28 18:03:39.584 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS 02:1a:11:f8:2f:eb update for P2P interface
+02-28 18:03:39.584 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS b0:48:7a:51:ff:cc update for P2P interface
+02-28 18:03:39.584 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS cc:b2:55:e2:84:70 update for P2P interface
+02-28 18:03:39.584 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS c0:cb:38:7f:c9:09 update for P2P interface
+02-28 18:03:39.584 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS e4:d3:32:c0:cf:a4 update for P2P interface
+02-28 18:03:39.584 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS 14:d6:4d:28:ef:c8 update for P2P interface
+02-28 18:03:39.584 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS 2c:b0:5d:7f:f4:24 update for P2P interface
+02-28 18:03:39.584 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS 00:0f:e2:0f:9f:c1 update for P2P interface
+02-28 18:03:39.584 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS c0:c1:c0:76:81:3c update for P2P interface
+02-28 18:03:39.584 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS 50:bd:5f:4b:29:92 update for P2P interface
+02-28 18:03:39.584 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS e4:d3:32:dd:18:62 update for P2P interface
+02-28 18:03:39.584 D/wpa_supplicant(  659): BSS: last_scan_res_used=0/0 last_scan_full=0
+02-28 18:03:39.584 D/wpa_supplicant(  659): p2p-dev-wlan0: New scan results available
+02-28 18:03:39.584 D/wpa_supplicant(  659): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+02-28 18:03:39.584 D/wpa_supplicant(  659): WPS: AP[0] c8:d7:19:60:62:f2 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:03:39.584 D/wpa_supplicant(  659): WPS: AP[1] f8:d1:11:e7:99:e8 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:03:39.584 D/wpa_supplicant(  659): WPS: AP[2] cc:34:29:2c:fb:ec type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:03:39.584 D/wpa_supplicant(  659): WPS: AP[3] 10:c3:7b:d2:e5:e0 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:03:39.584 D/wpa_supplicant(  659): WPS: AP[4] cc:34:29:2b:26:4c type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:03:39.584 D/wpa_supplicant(  659): WPS: AP[5] 44:94:fc:3d:da:38 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:03:39.584 D/wpa_supplicant(  659): WPS: AP[6] b0:48:7a:51:ff:cc type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:03:39.584 D/wpa_supplicant(  659): WPS: AP[7] c0:c1:c0:76:81:3c type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:03:39.584 D/wpa_supplicant(  659): WPS: AP[8] 10:9f:a9:dc:b1:fc type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:03:39.584 D/wpa_supplicant(  659): WPS: AP[9] 98:fc:11:81:35:fb type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:03:39.584 D/wpa_supplicant(  659): WPS: AP[10] e4:d3:32:36:2e:54 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:03:39.584 D/wpa_supplicant(  659): WPS: AP[11] c0:a0:bb:20:3b:84 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:03:39.584 D/wpa_supplicant(  659): WPS: AP[12] 14:d6:4d:28:ef:c8 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:03:39.584 D/wpa_supplicant(  659): WPS: AP[13] 2c:b0:5d:7f:f4:24 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+02-28 18:03:39.584 D/wpa_supplicant(  659): p2p-dev-wlan0: No suitable network found
+02-28 18:03:39.584 D/wpa_supplicant(  659): p2p-dev-wlan0: Short-circuit new scan request since there are no enabled networks
+02-28 18:03:39.584 D/wpa_supplicant(  659): p2p-dev-wlan0: State: INACTIVE -> INACTIVE
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: P2P: Station mode scan operation not pending anymore (sta_scan_pending=0 p2p_cb_on_scan_complete=0)
+02-28 18:03:39.584 D/wpa_supplicant(  659): RX ctrl_iface - hexdump(len=25): 42 53 53 20 52 41 4e 47 45 3d 30 2d 20 4d 41 53 4b 3d 30 78 32 31 39 38 37
+02-28 18:03:39.584 D/wpa_supplicant(  659): wlan0: Control interface command 'BSS RANGE=0- MASK=0x21987'
+02-28 18:03:39.584 I/WifiHW  (  506): EVENT: IFNAME=p2p-dev-wlan0 CTRL-EVENT-SCAN-RESULTS 
+02-28 18:03:39.584 D/wpa_supplicant(  659): RTM_NEWLINK: operstate=0 ifi_flags=0x11003 ([UP][LOWER_UP])
+02-28 18:03:39.584 D/wpa_supplicant(  659): RTM_NEWLINK, IFLA_IFNAME: Interface 'wlan0' added
+02-28 18:03:39.584 D/wpa_supplicant(  659): nl80211: if_removed already cleared - ignore event
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: id=175
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: bssid=f8:d1:11:e7:99:e8
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: freq=2437
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: level=-45
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: tsf=0000030541373768
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: flags=[WPA-PSK-CCMP][WPA2-PSK-CCMP][WPS][ESS]
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: ssid=videotest
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: ====
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: id=176
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: bssid=c8:d7:19:60:62:f2
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: freq=2437
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: level=-43
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: tsf=0000030541373774
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: flags=[WPA2-EAP-CCMP-preauth][ESS]
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: ssid=E3000-2.4G
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: ====
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: id=178
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: bssid=44:94:fc:3d:da:38
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: freq=2462
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: level=-50
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: tsf=0000030541373805
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: flags=[WPA2-EAP-CCMP-preauth][WPS][ESS]
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: ssid=6300
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: ====
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: id=179
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: bssid=cc:34:29:2b:26:4c
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: freq=2462
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: level=-60
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: tsf=0000030541373835
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: flags=[WPA2-PSK-CCMP][WPS][ESS]
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: ssid=cws-test
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: ====
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: id=181
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: bssid=cc:34:29:2c:fb:ec
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: freq=2412
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: level=-61
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: tsf=0000030541373735
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: flags=[WPA-PSK-CCMP][WPA2-PSK-CCMP][WPS][ESS]
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: ssid=linksys
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: ====
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: id=182
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: bssid=c4:17:fe:3f:4f:fb
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: freq=2437
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: level=-63
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: tsf=0000030541373747
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: flags=[WPA2-PSK-CCMP][ESS]
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: ssid=cmcm
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: ====
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: id=183
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: bssid=98:fc:11:81:35:fb
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: freq=2412
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: level=-63
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: tsf=0000030541373730
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: flags=[WPA2-PSK-CCMP][WPS][ESS]
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: ssid=E2000EE
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: ====
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: id=187
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: bssid=c0:cb:38:7f:c9:09
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: freq=2437
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: level=-75
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: tsf=0000030541373779
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: flags=[WPA2-PSK-CCMP][ESS]
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: ssid=360WiFi-7908
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: ====
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: id=190
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: bssid=c0:c1:c0:76:81:3c
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: freq=2462
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: level=-56
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: tsf=0000030541373815
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: flags=[WPS][ESS]
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: ssid=E2000
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: ====
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: id=193
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: bssid=10:c3:7b:d2:e5:e0
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: freq=2462
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: level=-57
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: tsf=0000030541373810
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: flags=[WPA2-PSK-CCMP][WPS][ESS]
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: ssid=ASUS_RT-AC66U-2.4G
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: ====
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: id=205
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: bssid=50:bd:5f:4b:29:92
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: freq=2437
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: level=-62
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: tsf=0000030541373785
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: flags=[ESS]
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: ssid=Internet-2
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: ====
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: id=207
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: bssid=e4:d3:32:c0:cf:a4
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: freq=2437
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: level=-76
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: tsf=0000030541373799
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: flags=[WPA2-PSK-CCMP][ESS]
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: ssid=fast
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: ====
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: id=218
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: bssid=02:1a:11:f8:2f:eb
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: freq=2437
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: level=-69
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: tsf=0000030541373752
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: flags=[WPA2-PSK-CCMP][ESS]
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: ssid=io1
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: ====
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: id=229
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: bssid=90:94:e4:03:45:f5
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: freq=2442
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: level=-57
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: tsf=0000030541373763
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: flags=[WPA2-PSK-CCMP+TKIP][ESS]
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: ssid=DAP-2553_D
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: ====
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: id=231
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: bssid=00:0f:e2:0f:9f:c1
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: freq=2462
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: level=-82
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: tsf=0000030541373830
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: flags=[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: ssid=321_WAN
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: ====
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: id=232
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: bssid=e4:d3:32:dd:18:62
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: freq=2437
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: level=-75
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: tsf=0000030541373757
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: flags=[ESS]
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: ssid=Internet
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: ====
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: id=239
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: bssid=b0:48:7a:51:ff:cc
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: freq=2452
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: level=-70
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: tsf=0000030541373820
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: flags=[WPA-PSK-CCMP][WPA2-PSK-CCMP][ESS]
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: ssid=Neusoft TP
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: ====
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: id=240
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: bssid=14:d6:4d:28:ef:c8
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: freq=2437
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: level=-80
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: tsf=0000030541373789
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: flags=[WPA2-PSK-CCMP][WPS][ESS]
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: ssid=dlink
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: ====
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: id=242
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: bssid=cc:b2:55:e2:84:70
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: freq=2447
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: level=-74
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: tsf=0000030541373795
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: flags=[WPA-PSK-TKIP][WPA2-PSK-TKIP][ESS]
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: ssid=DLINK_APK
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: ====
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: id=243
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: bssid=e4:d3:32:db:f6:03
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: freq=2447
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: level=-76
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: tsf=0000030500154839
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: flags=[WPA2-PSK-TKIP][ESS]
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: ssid=adddda
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: ====
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: id=244
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: bssid=2c:b0:5d:7f:f4:24
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: freq=2412
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: level=-82
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: tsf=0000030541373742
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: flags=[WPA2-PSK-CCMP][WPS][ESS]
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: ssid=NETGEAR38
+02-28 18:03:39.584 I/WifiHW  (  506): REPLY: ####
+02-28 18:03:40.524 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:40.524 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:40.524 W/chromium( 8737): 
+02-28 18:03:40.524 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:40.524 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:40.524 W/chromium( 8737): 
+02-28 18:03:40.524 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:40.524 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:40.524 W/chromium( 8737): 
+02-28 18:03:40.534 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:40.534 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:40.534 W/chromium( 8737): 
+02-28 18:03:40.544 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:40.544 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:40.544 W/chromium( 8737): 
+02-28 18:03:40.554 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:40.554 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:40.554 W/chromium( 8737): 
+02-28 18:03:40.564 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:40.564 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:40.564 W/chromium( 8737): 
+02-28 18:03:40.574 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:40.574 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:40.574 W/chromium( 8737): 
+02-28 18:03:40.574 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:40.574 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:40.574 W/chromium( 8737): 
+02-28 18:03:40.594 D/dalvikvm( 8737): GC_EXPLICIT freed 1915K, 24% free 7042K/9152K, paused 1ms+2ms, total 17ms
+02-28 18:03:40.604 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:40.604 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:40.604 W/chromium( 8737): 
+02-28 18:03:40.614 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:40.614 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:40.614 W/chromium( 8737): 
+02-28 18:03:40.624 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:40.624 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:40.624 W/chromium( 8737): 
+02-28 18:03:42.974 W/BindingManager( 8737): Cannot call determinedVisibility() - never saw a connection for the pid: 8737
+02-28 18:03:43.004 V/MmsProvider(  757): Query uri=content://mms, match=0
+02-28 18:03:43.004 V/MmsProvider(  757): Query uri=content://mms, match=0
+02-28 18:03:43.014 V/MmsProvider(  757): Query uri=content://mms, match=0
+02-28 18:03:43.024 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:43.024 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:43.024 W/chromium( 8737): 
+02-28 18:03:43.024 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:43.024 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:43.024 W/chromium( 8737): 
+02-28 18:03:43.024 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:43.024 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:43.024 W/chromium( 8737): 
+02-28 18:03:43.024 V/MmsProvider(  757): Query uri=content://mms, match=0
+02-28 18:03:43.034 V/MmsProvider(  757): Query uri=content://mms, match=0
+02-28 18:03:43.034 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:43.034 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:43.034 W/chromium( 8737): 
+02-28 18:03:43.034 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:43.034 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:43.034 W/chromium( 8737): 
+02-28 18:03:43.034 V/MmsProvider(  757): Query uri=content://mms, match=0
+02-28 18:03:43.044 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:43.044 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:43.044 W/chromium( 8737): 
+02-28 18:03:43.054 V/MmsProvider(  757): Query uri=content://mms, match=0
+02-28 18:03:43.054 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:43.054 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:43.054 W/chromium( 8737): 
+02-28 18:03:43.054 V/MmsProvider(  757): Query uri=content://mms, match=0
+02-28 18:03:43.054 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:43.054 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:43.054 W/chromium( 8737): 
+02-28 18:03:43.064 V/MmsProvider(  757): Query uri=content://mms, match=0
+02-28 18:03:43.064 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:43.064 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:43.064 W/chromium( 8737): 
+02-28 18:03:43.064 V/MmsProvider(  757): Query uri=content://mms, match=0
+02-28 18:03:43.064 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:43.064 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:43.064 W/chromium( 8737): 
+02-28 18:03:43.074 V/MmsProvider(  757): Query uri=content://mms, match=0
+02-28 18:03:43.074 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:43.074 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:43.074 W/chromium( 8737): 
+02-28 18:03:43.074 V/MmsProvider(  757): Query uri=content://mms, match=0
+02-28 18:03:43.074 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:43.074 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:43.074 W/chromium( 8737): 
+02-28 18:03:43.084 V/MmsProvider(  757): Query uri=content://mms, match=0
+02-28 18:03:43.084 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:43.084 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:43.084 W/chromium( 8737): 
+02-28 18:03:43.084 V/MmsProvider(  757): Query uri=content://mms, match=0
+02-28 18:03:43.084 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:43.084 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:43.084 W/chromium( 8737): 
+02-28 18:03:43.094 V/MmsProvider(  757): Query uri=content://mms, match=0
+02-28 18:03:43.094 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:43.094 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:43.094 W/chromium( 8737): 
+02-28 18:03:43.094 V/MmsProvider(  757): Query uri=content://mms, match=0
+02-28 18:03:43.104 W/chromium( 8737): [WARNING:xwalk_extension_module.cc(203)] Exception when running message listener: undefined:231:20 ReferenceError: g_promises is not defined
+02-28 18:03:43.104 W/chromium( 8737):     if (_isFunction(g_promises[msgObj.asyncCallId].resolve)) {
+02-28 18:03:43.104 W/chromium( 8737): 
+02-28 18:03:43.594 D/EVENT_THREAD(  187): void CEventThread::run() POLLIN event on Fd (1)
+02-28 18:03:43.594 D/EVENT_THREAD(  187): void CEventThread::run() Do poll with timeout: -1
+02-28 18:03:43.594 I/upi_ug31xx(  167): (3223) update_capacity
+02-28 18:03:43.594 I/[UPI]   (  167): <UG31/E>[UpiReadCapacity]: V=4153(4155), T=358(357-419), I=-366, C=-3(-3-0)
+02-28 18:03:43.594 I/[UPI]   (  167): <UG31/E>[UpiReadCapacity]: (0x0000214a) 3313 (3241) / 3602 (3602) = 92
+02-28 18:03:43.594 I/[UPI]   (  167): <UG31/E>[UpiReadCapacity]: (0x0000214a) 3313 (3241) / 3602 (3602) = 92
+02-28 18:03:43.594 I/[UPI]   (  167): <UG31/E>[UpiReadCapacity]: (0x0000214a) 3309 (3309) / 3602 (3602) = 92
+02-28 18:03:43.594 I/[UPI]   (  167): <UG31/E>[RsocFilterCountTime]: (0x0000214a) Step=3(212520), Full=1(212520), Lock=212520(1800000)
+02-28 18:03:43.594 I/[UPI]   (  167): <UG31/E>[UpiReadCapacity]: (0x0000214a) 3309 (3309) / 3602 (3602) = 92 (-366--366)
+02-28 18:03:43.594 I/[UPI]   (  167): <UG31/E><BATT> M:normal, P:92(92-92)%, V:4155mV, C:-416mA, T:35.7C(419), S:0x0000214a(000), R:3309mAh, F:3602mAh, Q:2681mAh, CC:3, P:30.320(289-0)s, BO:7, 97:615:0-44af-9m:B001-20140514-144301 (2)
+02-28 18:03:43.594 D/EVENT_THREAD(  187): void CEventThread::run() POLLIN event on Fd (1)
+02-28 18:03:43.594 D/EVENT_THREAD(  187): void CEventThread::run() Do poll with timeout: -1
+02-28 18:03:43.594 I/upi_ug31xx(  167): (3224) backup_data 
+02-28 18:03:43.594 V/upi_ug31xx(  167): state->check_backup_count = 5
+02-28 18:03:46.724 W/ufoGralloc(  172): registerBuffer() handle 0xb83cc480/73 didn't require registration
+02-28 18:03:46.744 D/WindowManager(  506): adjustConfigurationLw, config:{1.0 ?mcc?mnc ?locale ?layoutDir sw600dp w600dp h888dp 213dpi lrg port ?uimode ?night finger -keyb/v/h -nav/v} mLidState:1 mHasDockFeature:false mHasKeyboardFeature:false mHasHallSensorFeature:true config.hardKeyboardHidden:2
+02-28 18:03:46.754 I/ActivityManager(  506): [TopPkgCurBat]	NowPkgName[com.chrome.beta]	Battery[92]	TimeTick[1425117826759]	OldPkgName[org.xwalk.webapi_noneservice_tests]
+02-28 18:03:46.794 D/        (16090): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-28 18:03:46.804 D/        (31284): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-28 18:03:46.804 D/        (31284): droid_create_context : config id = 1 conf->NativeVisualID=1
+02-28 18:03:46.804 D/        (31284): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-28 18:03:46.804 I/        (31284): Requested context : GLES 2.0
+02-28 18:03:46.814 D/        (31284): Swap interval set to = 1 value
+02-28 18:03:46.844 W/IInputConnectionWrapper( 8737): showStatusIcon on inactive InputConnection
+02-28 18:03:46.844 D/XT9IME  (13333): new subtype :zh_CN ,pinyin
+02-28 18:03:46.894 D/BatteryStatsImpl(  506): noteStopWakeLocked system isFromForeground = false
+02-28 18:03:46.934 D/        ( 8737): Surface destroy: ANDROID_NATIVE_WINDOW_MAGIC
+02-28 18:03:46.944 D/        ( 8737): Surface destroy: ANDROID_NATIVE_WINDOW_MAGIC
+02-28 18:03:47.114 D/AndroidRuntime( 9307): 
+02-28 18:03:47.114 D/AndroidRuntime( 9307): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-28 18:03:47.114 D/AndroidRuntime( 9307): CheckJNI is OFF
+02-28 18:03:47.114 I/AndroidRuntime( 9307): Kernel Release Version: 3.10.20-gf818079
+02-28 18:03:47.124 I/dalvikvm( 9307): No library specified. The standard exception handler will be used
+02-28 18:03:47.124 I/dalvikvm( 9307): 
+02-28 18:03:47.124 I/dalvikvm( 9307): +++++++++++++ Using PCG. +++++++++++++++++++++
+02-28 18:03:47.134 D/dalvikvm( 9307): Trying to load lib libjavacore.so 0x0
+02-28 18:03:47.134 D/dalvikvm( 9307): Added shared lib libjavacore.so 0x0
+02-28 18:03:47.134 D/dalvikvm( 9307): Trying to load lib libnativehelper.so 0x0
+02-28 18:03:47.134 D/dalvikvm( 9307): Added shared lib libnativehelper.so 0x0
+02-28 18:03:47.134 D/dalvikvm( 9307): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-28 18:03:47.134 D/dalvikvm( 9307): Extra Options: not specified
+02-28 18:03:47.164 D/dalvikvm( 9307): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+02-28 18:03:47.254 E/memtrack( 9307): Couldn't load memtrack module (No such file or directory)
+02-28 18:03:47.254 E/android.os.Debug( 9307): failed to load memtrack module: -2
+02-28 18:03:47.294 D/AndroidRuntime( 9307): Calling main entry com.android.commands.am.Am
+02-28 18:03:47.314 I/ActivityManager(  506): Force stopping org.xwalk.webapi_noneservice_tests appid=10343 user=0: from pid 9307
+02-28 18:03:47.314 I/ActivityManager(  506): Killing 8737:org.xwalk.webapi_noneservice_tests/u0a343 (adj 1): stop org.xwalk.webapi_noneservice_tests
+02-28 18:03:47.324 I/SecurityManagerService(  621): SMS received security event: App[STOP/org.xwalk.webapi_noneservice_tests]
+02-28 18:03:47.334 D/AndroidRuntime( 9307): Shutting down VM
+02-28 18:03:47.334 D/dalvikvm( 9307): GC_CONCURRENT freed 112K, 16% free 666K/792K, paused 0ms+1ms, total 1ms
+02-28 18:03:47.334 D/dalvikvm( 9307): Compiler shutdown in progress - discarding request
+02-28 18:03:47.334 D/dalvikvm( 9307): Compiler shutdown in progress - discarding request
+02-28 18:03:47.334 D/dalvikvm( 9307): Compiler shutdown in progress - discarding request
+02-28 18:03:47.334 D/dalvikvm( 9307): Compiler shutdown in progress - discarding request
+02-28 18:03:47.334 D/dalvikvm( 9307): Compiler shutdown in progress - discarding request
+02-28 18:03:47.334 D/dalvikvm( 9307): Compiler shutdown in progress - discarding request
+02-28 18:03:47.334 D/dalvikvm( 9307): Compiler shutdown in progress - discarding request
+02-28 18:03:47.334 D/dalvikvm( 9307): Compiler shutdown in progress - discarding request
+02-28 18:03:47.334 D/dalvikvm( 9307): Compiler shutdown in progress - discarding request
+02-28 18:03:47.334 D/dalvikvm( 9307): Compiler shutdown in progress - discarding request
+02-28 18:03:47.334 D/dalvikvm( 9307): Compiler shutdown in progress - discarding request
+02-28 18:03:47.334 D/dalvikvm( 9307): Compiler shutdown in progress - discarding request
+02-28 18:03:47.334 D/dalvikvm( 9307): Compiler shutdown in progress - discarding request
+02-28 18:03:47.334 D/dalvikvm( 9307): Compiler shutdown in progress - discarding request
+02-28 18:03:47.334 D/dalvikvm( 9307): Compiler shutdown in progress - discarding request
+02-28 18:03:47.334 D/dalvikvm( 9307): Compiler shutdown in progress - discarding request
+02-28 18:03:47.334 D/dalvikvm( 9307): Compiler shutdown in progress - discarding request
+02-28 18:03:47.334 D/dalvikvm( 9307): Compiler shutdown in progress - discarding request
+02-28 18:03:47.334 D/dalvikvm( 9307): Compiler shutdown in progress - discarding request
+02-28 18:03:47.334 D/dalvikvm( 9307): Compiler shutdown in progress - discarding request
+02-28 18:03:47.334 D/dalvikvm( 9307): Compiler shutdown in progress - discarding request
+02-28 18:03:47.334 D/dalvikvm( 9307): Compiler shutdown in progress - discarding request
+02-28 18:03:47.334 D/dalvikvm( 9307): Compiler shutdown in progress - discarding request
+02-28 18:03:47.334 D/dalvikvm( 9307): Compiler shutdown in progress - discarding request
+02-28 18:03:47.334 D/dalvikvm( 9307): Compiler shutdown in progress - discarding request
+02-28 18:03:47.334 D/dalvikvm( 9307): Compiler shutdown in progress - discarding request
+02-28 18:03:47.334 D/dalvikvm( 9307): Compiler shutdown in progress - discarding request
+02-28 18:03:47.334 D/dalvikvm( 9307): Compiler shutdown in progress - discarding request
+02-28 18:03:47.334 D/dalvikvm( 9307): Compiler shutdown in progress - discarding request
+02-28 18:03:47.334 D/dalvikvm( 9307): Compiler shutdown in progress - discarding request
+02-28 18:03:47.334 D/dalvikvm( 9307): Compiler shutdown in progress - discarding request
+02-28 18:03:47.334 D/dalvikvm( 9307): Compiler shutdown in progress - discarding request
+02-28 18:03:47.334 D/dalvikvm( 9307): Compiler shutdown in progress - discarding request
+02-28 18:03:47.334 D/dalvikvm( 9307): Compiler shutdown in progress - discarding request
+02-28 18:03:47.334 D/dalvikvm( 9307): Compiler shutdown in progress - discarding request
+02-28 18:03:47.334 D/dalvikvm( 9307): Compiler shutdown in progress - discarding request
+02-28 18:03:47.334 D/dalvikvm( 9307): Compiler shutdown in progress - discarding request
+02-28 18:03:47.334 D/dalvikvm( 9307): Compiler shutdown in progress - discarding request
+02-28 18:03:47.334 D/dalvikvm( 9307): Compiler shutdown in progress - discarding request
+02-28 18:03:47.334 D/dalvikvm( 9307): Compiler shutdown in progress - discarding request
+02-28 18:03:47.334 D/dalvikvm( 9307): Compiler shutdown in progress - discarding request
+02-28 18:03:47.334 D/dalvikvm( 9307): Compiler shutdown in progress - discarding request
+02-28 18:03:47.394 I/WindowState(  506): WIN DEATH: Window{2201a5f8 u0 org.xwalk.webapi_noneservice_tests/org.xwalk.webapi_noneservice_tests.WebapiNoneserviceTestsActivity EXITING}
+02-28 18:03:47.394 I/WindowState(  506): WIN DEATH: Window{220ae480 u0 SurfaceView EXITING}
+02-28 18:03:47.424 W/SurfaceFlinger(  172): couldn't log to binary event log: overflow.

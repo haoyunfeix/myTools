@@ -15,7 +15,9 @@ cp rerun_xml/webdriver_xml/*.xml merge_xml/
 ./stats.py -f merge_xml/result_tct-canvas-html5-tests.xml --id canvasgradient_addColorStop_INDEX_SIZE_ERR -c PASS
 ./stats.py -f merge_xml/result_tct-webstorage-w3c-tests.xml --id event_constructor -c PASS
 
-cp -a merge_xml wd_merge_xml
+mkdir -p wd_merge_xml
+cp -a merge_xml/* wd_merge_xml
+cp -a rerun_xml/webdriver_xml/*.xml wd_merge_xml/
 list="result_tct-3dtransforms-css3-tests.xml
 result_tct-audio-html5-tests.xml
 result_tct-backgrounds-css3-tests.xml

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <?xml-stylesheet type="text/xsl" href="testresult.xsl"?>
+<test_definition><environment build_id="" device_id="E6OKCY549771" device_model="" device_name="N/A" host="Linux-3.13.0-39-generic-x86_64-with-Ubuntu-12.04-precise" lite_version="3.1.13" manufacturer="" resolution="N/A" screen_size="N/A"><other /></environment>
+<summary test_plan_name="Empty test_plan_name"><start_at>2015-02-22_14_31_51</start_at><end_at>2015-02-22_14_32_13</end_at></summary>
+  <suite category="W3C/HTML5 APIs" extension="crosswalk" name="tct-deviceorientation-w3c-tests" widget="webapi-noneservice-tests">
+    <set name="Orientation" set_debug_msg="N/A" type="js">
+      <capabilities>
+        <capability name="accelerometer" />
+      </capabilities>
+      <testcase component="W3C_HTML5 APIs/Device/DeviceOrientation Event Specification (Partial)" execution_type="auto" id="DeviceAcceleration_x_entry" purpose="Check if the DeviceAccelerationt.x attribute exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceAcceleration_attributes_test.html?total_num=6&amp;locator_key=id&amp;value=1</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-22 14:33:13</start><end>2015-02-22 14:33:14</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/DeviceOrientation Event Specification (Partial)" execution_type="auto" id="DeviceAcceleration_x_type" purpose="Check if DeviceAcceleration.x is type of double" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceAcceleration_attributes_test.html?total_num=6&amp;locator_key=id&amp;value=2</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-22 14:33:14</start><end>2015-02-22 14:33:14</end><stdout>[Message]assert_equals: Attribute x is type of expected "number" but got "object"</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/DeviceOrientation Event Specification (Partial)" execution_type="auto" id="DeviceAcceleration_y_entry" purpose="Check if the DeviceAccelerationt.y attribute exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceAcceleration_attributes_test.html?total_num=6&amp;locator_key=id&amp;value=3</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-22 14:33:14</start><end>2015-02-22 14:33:14</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/DeviceOrientation Event Specification (Partial)" execution_type="auto" id="DeviceAcceleration_y_type" purpose="Check if DeviceAcceleration.y is type of double" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceAcceleration_attributes_test.html?total_num=6&amp;locator_key=id&amp;value=4</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-22 14:33:14</start><end>2015-02-22 14:33:14</end><stdout>[Message]assert_equals: Attribute y is type of expected "number" but got "object"</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/DeviceOrientation Event Specification (Partial)" execution_type="auto" id="DeviceAcceleration_z_entry" purpose="Check if the DeviceAccelerationt.z attribute exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceAcceleration_attributes_test.html?total_num=6&amp;locator_key=id&amp;value=5</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-22 14:33:14</start><end>2015-02-22 14:33:14</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/DeviceOrientation Event Specification (Partial)" execution_type="auto" id="DeviceAcceleration_z_type" purpose="Check if DeviceAcceleration.z is type of double" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceAcceleration_attributes_test.html?total_num=6&amp;locator_key=id&amp;value=6</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-22 14:33:14</start><end>2015-02-22 14:33:14</end><stdout>[Message]assert_equals: Attribute z is type of expected "number" but got "object"</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/DeviceOrientation Event Specification (Partial)" execution_type="auto" id="DeviceMotionEvent_acceleration_entry" purpose="Check if the DeviceMotionEvent.acceleration method exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceMotionEvent_attributes_test.html?total_num=7&amp;locator_key=id&amp;value=1</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-22 14:33:14</start><end>2015-02-22 14:33:15</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/DeviceOrientation Event Specification (Partial)" execution_type="auto" id="DeviceMotionEvent_acceleration_type" purpose="Check if DeviceMotionEvent.acceleration is type of DeviceAcceleration" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceMotionEvent_attributes_test.html?total_num=7&amp;locator_key=id&amp;value=2</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-22 14:33:15</start><end>2015-02-22 14:33:15</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/DeviceOrientation Event Specification (Partial)" execution_type="auto" id="DeviceMotionEvent_accelerationincludinggravity_entry" purpose="Check if the DeviceMotionEvent.accelerationincludinggravity method exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceMotionEvent_attributes_test.html?total_num=7&amp;locator_key=id&amp;value=3</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-22 14:33:15</start><end>2015-02-22 14:33:15</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/DeviceOrientation Event Specification (Partial)" execution_type="auto" id="DeviceMotionEvent_accelerationIncludingGravity_type" purpose="Check if DeviceMotionEvent.accelerationIncludingGravity is type of DeviceAcceleration" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceMotionEvent_attributes_test.html?total_num=7&amp;locator_key=id&amp;value=4</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-22 14:33:15</start><end>2015-02-22 14:33:15</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/DeviceOrientation Event Specification (Partial)" execution_type="auto" id="DeviceMotionEvent_interval_entry" purpose="Check if the DeviceMotionEvent.interval attribute exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceMotionEvent_attributes_test.html?total_num=7&amp;locator_key=id&amp;value=5</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-22 14:33:15</start><end>2015-02-22 14:33:15</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/DeviceOrientation Event Specification (Partial)" execution_type="auto" id="DeviceMotionEvent_rotationrate_entry" purpose="Check if the DeviceMotionEvent.rotationRate attribute exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceMotionEvent_attributes_test.html?total_num=7&amp;locator_key=id&amp;value=6</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-22 14:33:15</start><end>2015-02-22 14:33:15</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/DeviceOrientation Event Specification (Partial)" execution_type="auto" id="DeviceMotionEvent_rotationRate_type" purpose="Check if DeviceMotionEvent.rotationRate is type of DeviceRotationRate" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceMotionEvent_attributes_test.html?total_num=7&amp;locator_key=id&amp;value=7</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-22 14:33:15</start><end>2015-02-22 14:33:15</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/DeviceOrientation Event Specification (Partial)" execution_type="auto" id="DeviceOrientationEvent_absolute_entry" purpose="Check if the DeviceOrientationEvent.absolute attribute exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceOrientationEvent_attributes_test.html?total_num=8&amp;locator_key=id&amp;value=1</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-22 14:33:15</start><end>2015-02-22 14:33:16</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/DeviceOrientation Event Specification (Partial)" execution_type="auto" id="DeviceOrientationEvent_absolute_type" purpose="Check if DeviceOrientationEvent.absolute is type of boolean" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceOrientationEvent_attributes_test.html?total_num=8&amp;locator_key=id&amp;value=2</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-22 14:33:16</start><end>2015-02-22 14:33:16</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/DeviceOrientation Event Specification (Partial)" execution_type="auto" id="DeviceOrientationEvent_alpha_entry" purpose="Check if the DeviceOrientationEvent.alpha attribute exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceOrientationEvent_attributes_test.html?total_num=8&amp;locator_key=id&amp;value=3</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-22 14:33:16</start><end>2015-02-22 14:33:16</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/DeviceOrientation Event Specification (Partial)" execution_type="auto" id="DeviceOrientationEvent_alpha_type" purpose="Check if DeviceOrientationEvent.alpha is type of double" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceOrientationEvent_attributes_test.html?total_num=8&amp;locator_key=id&amp;value=4</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-22 14:33:16</start><end>2015-02-22 14:33:16</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/DeviceOrientation Event Specification (Partial)" execution_type="auto" id="DeviceOrientationEvent_beta_entry" purpose="Check if the DeviceOrientationEvent.beta attribute exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceOrientationEvent_attributes_test.html?total_num=8&amp;locator_key=id&amp;value=5</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-22 14:33:16</start><end>2015-02-22 14:33:16</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/DeviceOrientation Event Specification (Partial)" execution_type="auto" id="DeviceOrientationEvent_beta_type" purpose="Check if DeviceOrientationEvent.beta is type of double" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceOrientationEvent_attributes_test.html?total_num=8&amp;locator_key=id&amp;value=6</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-22 14:33:16</start><end>2015-02-22 14:33:16</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/DeviceOrientation Event Specification (Partial)" execution_type="auto" id="DeviceOrientationEvent_gamma_entry" purpose="Check if the DeviceOrientationEvent.gamma attribute exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceOrientationEvent_attributes_test.html?total_num=8&amp;locator_key=id&amp;value=7</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-22 14:33:16</start><end>2015-02-22 14:33:16</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/DeviceOrientation Event Specification (Partial)" execution_type="auto" id="DeviceOrientationEvent_gamma_type" purpose="Check if DeviceOrientationEvent.gamma is type of double" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceOrientationEvent_attributes_test.html?total_num=8&amp;locator_key=id&amp;value=8</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-22 14:33:16</start><end>2015-02-22 14:33:16</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/DeviceOrientation Event Specification (Partial)" execution_type="auto" id="DeviceRotationRate_alpha_entry" purpose="Check if the DeviceRotationRate.alpha attribute exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceRotationRate_attributes_test.html?total_num=4&amp;locator_key=id&amp;value=1</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-22 14:33:16</start><end>2015-02-22 14:33:17</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/DeviceOrientation Event Specification (Partial)" execution_type="auto" id="DeviceRotationRate_alpha_type" purpose="Check if DeviceRotationRate.alpha is type of double" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceRotationRate_attributes_test.html?total_num=4&amp;locator_key=id&amp;value=2</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-22 14:33:17</start><end>2015-02-22 14:33:17</end><stdout>[Message]assert_equals: DeviceRotationRate alpha is type of expected "number" but got "object"</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/DeviceOrientation Event Specification (Partial)" execution_type="auto" id="DeviceRotationRate_beta_entry" purpose="Check if the DeviceRotationRate.beta attribute exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceRotationRate_attributes_test.html?total_num=4&amp;locator_key=id&amp;value=3</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-22 14:33:17</start><end>2015-02-22 14:33:17</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/DeviceOrientation Event Specification (Partial)" execution_type="auto" id="DeviceRotationRate_gamma_entry" purpose="Check if the DeviceRotationRate.gamma attribute exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceRotationRate_attributes_test.html?total_num=4&amp;locator_key=id&amp;value=4</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-22 14:33:17</start><end>2015-02-22 14:33:17</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/DeviceOrientation Event Specification (Partial)" execution_type="auto" id="DeviceAcceleration_x_readonly" purpose="Check if DeviceAcceleration.x is readonly" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceAcceleration_attributes_readonly.html?total_num=3&amp;locator_key=id&amp;value=1</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-22 14:33:17</start><end>2015-02-22 14:33:17</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/DeviceOrientation Event Specification (Partial)" execution_type="auto" id="DeviceAcceleration_y_readonly" purpose="Check if DeviceAcceleration.y is readonly" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceAcceleration_attributes_readonly.html?total_num=3&amp;locator_key=id&amp;value=2</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-22 14:33:17</start><end>2015-02-22 14:33:17</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/DeviceOrientation Event Specification (Partial)" execution_type="auto" id="DeviceAcceleration_z_readonly" purpose="Check if DeviceAcceleration.z is readonly" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceAcceleration_attributes_readonly.html?total_num=3&amp;locator_key=id&amp;value=3</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-22 14:33:17</start><end>2015-02-22 14:33:18</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/DeviceOrientation Event Specification (Partial)" execution_type="auto" id="DeviceMotionEvent_accelerationIncludingGravity_readonly" purpose="Check if DeviceMotionEvent.accelerationIncludingGravity is readonly" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceMotionEvent_attributes_readonly.html?total_num=3&amp;locator_key=id&amp;value=1</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-22 14:33:18</start><end>2015-02-22 14:33:18</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/DeviceOrientation Event Specification (Partial)" execution_type="auto" id="DeviceMotionEvent_acceleration_readonly" purpose="Check if DeviceMotionEvent.acceleration is readonly" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceMotionEvent_attributes_readonly.html?total_num=3&amp;locator_key=id&amp;value=2</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-22 14:33:18</start><end>2015-02-22 14:33:18</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/DeviceOrientation Event Specification (Partial)" execution_type="auto" id="DeviceMotionEvent_rotationRate_readonly" purpose="Check if DeviceMotionEvent.rotationRate is readonly" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceMotionEvent_attributes_readonly.html?total_num=3&amp;locator_key=id&amp;value=3</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-22 14:33:18</start><end>2015-02-22 14:33:18</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/DeviceOrientation Event Specification (Partial)" execution_type="auto" id="DeviceRotationRate_alpha_readonly" purpose="Check if DeviceRotationRate.alpha is readonly" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceRotationRate_attributes_basic.html?total_num=5&amp;locator_key=id&amp;value=1</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-22 14:33:18</start><end>2015-02-22 14:33:19</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/DeviceOrientation Event Specification (Partial)" execution_type="auto" id="DeviceRotationRate_beta_type" purpose="Check if DeviceRotationRate.beta is type of double" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceRotationRate_attributes_basic.html?total_num=5&amp;locator_key=id&amp;value=2</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-22 14:33:19</start><end>2015-02-22 14:33:19</end><stdout>[Message]assert_equals: The type of DeviceRotationRate.beta expected "number" but got "object"</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/DeviceOrientation Event Specification (Partial)" execution_type="auto" id="DeviceRotationRate_beta_readonly" purpose="Check if DeviceRotationRate.beta is readonly" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceRotationRate_attributes_basic.html?total_num=5&amp;locator_key=id&amp;value=3</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-22 14:33:19</start><end>2015-02-22 14:33:19</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/DeviceOrientation Event Specification (Partial)" execution_type="auto" id="DeviceRotationRate_gamma_type" purpose="Check if DeviceRotationRate.gamma is type of double" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceRotationRate_attributes_basic.html?total_num=5&amp;locator_key=id&amp;value=4</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start>2015-02-22 14:33:19</start><end>2015-02-22 14:33:19</end><stdout>[Message]assert_equals: The type of DeviceRotationRate.gamma expected "number" but got "object"</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/DeviceOrientation Event Specification (Partial)" execution_type="auto" id="DeviceRotationRate_gamma_readonly" purpose="Check if DeviceRotationRate.gamma is readonly" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceRotationRate_attributes_basic.html?total_num=5&amp;locator_key=id&amp;value=5</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-22 14:33:19</start><end>2015-02-22 14:33:19</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/DeviceOrientation Event Specification (Partial)" execution_type="auto" id="DeviceOrientationEvent_absolute_readonly" purpose="Check if DeviceOrientationEvent.absolute is readonly" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceOrientationEvent_attributes_readonly.html?total_num=4&amp;locator_key=id&amp;value=1</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-22 14:33:19</start><end>2015-02-22 14:33:20</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/DeviceOrientation Event Specification (Partial)" execution_type="auto" id="DeviceOrientationEvent_alpha_readonly" purpose="Check if DeviceOrientationEvent.alpha is readonly" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceOrientationEvent_attributes_readonly.html?total_num=4&amp;locator_key=id&amp;value=2</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-22 14:33:20</start><end>2015-02-22 14:33:20</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/DeviceOrientation Event Specification (Partial)" execution_type="auto" id="DeviceOrientationEvent_beta_readonly" purpose="Check if DeviceOrientationEvent.beta is readonly" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceOrientationEvent_attributes_readonly.html?total_num=4&amp;locator_key=id&amp;value=3</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-22 14:33:20</start><end>2015-02-22 14:33:20</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/DeviceOrientation Event Specification (Partial)" execution_type="auto" id="DeviceOrientationEvent_gamma_readonly" purpose="Check if DeviceOrientationEvent.gamma is readonly" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-deviceorientation-w3c-tests/deviceorientation/DeviceOrientationEvent_attributes_readonly.html?total_num=4&amp;locator_key=id&amp;value=4</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-22 14:33:20</start><end>2015-02-22 14:33:20</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+    </set>
+  </suite>
+</test_definition>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <?xml-stylesheet type="text/xsl" href="testresult.xsl"?>
+<test_definition><environment build_id="" device_id="E5OKCYC13257" device_model="" device_name="N/A" host="Linux-3.2.0-23-generic-x86_64-with-Ubuntu-12.04-precise" lite_version="3.1.14" manufacturer="" resolution="N/A" screen_size="N/A"><other /></environment>
+<summary test_plan_name="Empty test_plan_name"><start_at>2015-02-27_22_13_18</start_at><end_at>2015-02-27_22_13_34</end_at></summary>
+  <suite category="W3C/HTML5 APIs" name="tct-multicolumn-css3-tests" widget="webapi-noneservice-tests">
+    <set name="MultiColumn-ref" set_debug_msg="N/A" type="ref">
+          <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Multi-column Layout Module (Partial)" execution_type="auto" id="multicol-basic-001" purpose="Check if multicol column with integer display correctly in visual" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-multicolumn-css3-tests/multicolumn/csswg/multicol-basic-001.html</test_script_entry>
+          <refer_test_script_entry timeout="90">/opt/tct-multicolumn-css3-tests/multicolumn/csswg/reference/multicol-basic-ref.html</refer_test_script_entry>
+        </description>
+        <result_info><actual_result>FAIL</actual_result><start>2015-02-27 22:13:28</start><end /><stdout /><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Multi-column Layout Module (Partial)" execution_type="auto" id="multicol-basic-002" purpose="Check if multicol column-count with integer display correctly in visual" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-multicolumn-css3-tests/multicolumn/csswg/multicol-basic-002.html</test_script_entry>
+          <refer_test_script_entry timeout="90">/opt/tct-multicolumn-css3-tests/multicolumn/csswg/reference/multicol-basic-ref.html</refer_test_script_entry>
+        </description>
+        <result_info><actual_result>FAIL</actual_result><start>2015-02-27 22:13:29</start><end /><stdout /><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Multi-column Layout Module (Partial)" execution_type="auto" id="multicol-basic-003" purpose="Check if multicol column with width display correctly in visual" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-multicolumn-css3-tests/multicolumn/csswg/multicol-basic-003.html</test_script_entry>
+          <refer_test_script_entry timeout="90">/opt/tct-multicolumn-css3-tests/multicolumn/csswg/reference/multicol-basic-ref.html</refer_test_script_entry>
+        </description>
+        <result_info><actual_result>FAIL</actual_result><start>2015-02-27 22:13:30</start><end /><stdout /><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Multi-column Layout Module (Partial)" execution_type="auto" id="multicol-basic-004" purpose="Check if multicol column-count with width display correctly in visual" result="FAIL">
+        <description>
+          <test_script_entry>/opt/tct-multicolumn-css3-tests/multicolumn/csswg/multicol-basic-004.html</test_script_entry>
+          <refer_test_script_entry timeout="90">/opt/tct-multicolumn-css3-tests/multicolumn/csswg/reference/multicol-basic-ref.html</refer_test_script_entry>
+        </description>
+        <result_info><actual_result>FAIL</actual_result><start>2015-02-27 22:13:31</start><end /><stdout /><stderr /></result_info></testcase>
+    </set>
+  </suite>
+</test_definition>

@@ -1,0 +1,652 @@
+--------- beginning of /dev/log/main
+02-27 14:23:12.072 D/AndroidRuntime(14069): 
+02-27 14:23:12.072 D/AndroidRuntime(14069): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-27 14:23:12.072 D/AndroidRuntime(14069): CheckJNI is OFF
+02-27 14:23:12.072 I/AndroidRuntime(14069): Kernel Release Version: 3.10.20-gf818079
+02-27 14:23:12.072 I/dalvikvm(14069): No library specified. The standard exception handler will be used
+02-27 14:23:12.072 I/dalvikvm(14069): 
+02-27 14:23:12.072 I/dalvikvm(14069): +++++++++++++ Using PCG. +++++++++++++++++++++
+02-27 14:23:12.082 D/dalvikvm(14069): Trying to load lib libjavacore.so 0x0
+02-27 14:23:12.082 D/dalvikvm(14069): Added shared lib libjavacore.so 0x0
+02-27 14:23:12.092 D/dalvikvm(14069): Trying to load lib libnativehelper.so 0x0
+02-27 14:23:12.092 D/dalvikvm(14069): Added shared lib libnativehelper.so 0x0
+02-27 14:23:12.092 D/dalvikvm(14069): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-27 14:23:12.092 D/dalvikvm(14069): Extra Options: not specified
+02-27 14:23:12.102 D/dalvikvm(14069): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+02-27 14:23:12.172 E/memtrack(14069): Couldn't load memtrack module (No such file or directory)
+02-27 14:23:12.172 E/android.os.Debug(14069): failed to load memtrack module: -2
+02-27 14:23:12.212 D/AndroidRuntime(14069): Calling main entry com.android.commands.am.Am
+--------- beginning of /dev/log/system
+02-27 14:23:12.232 I/ActivityManager(  505): Force stopping org.xwalk.webapi_service_tests appid=10093 user=0: from pid 14069
+02-27 14:23:12.242 D/AndroidRuntime(14069): Shutting down VM
+02-27 14:23:12.242 D/dalvikvm(14069): GC_CONCURRENT freed 112K, 15% free 666K/784K, paused 0ms+0ms, total 1ms
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.242 D/dalvikvm(14069): Compiler shutdown in progress - discarding request
+02-27 14:23:12.722 D/AndroidRuntime(14080): 
+02-27 14:23:12.722 D/AndroidRuntime(14080): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-27 14:23:12.722 D/AndroidRuntime(14080): CheckJNI is OFF
+02-27 14:23:12.722 I/AndroidRuntime(14080): Kernel Release Version: 3.10.20-gf818079
+02-27 14:23:12.722 I/dalvikvm(14080): No library specified. The standard exception handler will be used
+02-27 14:23:12.722 I/dalvikvm(14080): 
+02-27 14:23:12.722 I/dalvikvm(14080): +++++++++++++ Using PCG. +++++++++++++++++++++
+02-27 14:23:12.732 D/dalvikvm(14080): Trying to load lib libjavacore.so 0x0
+02-27 14:23:12.732 D/dalvikvm(14080): Added shared lib libjavacore.so 0x0
+02-27 14:23:12.732 D/dalvikvm(14080): Trying to load lib libnativehelper.so 0x0
+02-27 14:23:12.732 D/dalvikvm(14080): Added shared lib libnativehelper.so 0x0
+02-27 14:23:12.732 D/dalvikvm(14080): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-27 14:23:12.742 D/dalvikvm(14080): Extra Options: not specified
+02-27 14:23:12.752 D/dalvikvm(14080): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+02-27 14:23:12.822 E/memtrack(14080): Couldn't load memtrack module (No such file or directory)
+02-27 14:23:12.822 E/android.os.Debug(14080): failed to load memtrack module: -2
+02-27 14:23:12.862 D/AndroidRuntime(14080): Calling main entry com.android.commands.am.Am
+02-27 14:23:12.892 I/ActivityManager(  505): START u0 {flg=0x10000000 cmp=org.xwalk.webapi_service_tests/.webapi_service_testsActivity} from pid 14080
+02-27 14:23:12.902 D/AndroidRuntime(14080): Shutting down VM
+02-27 14:23:12.902 D/dalvikvm(14080): GC_CONCURRENT freed 116K, 17% free 670K/800K, paused 0ms+0ms, total 1ms
+02-27 14:23:12.902 D/dalvikvm(14080): Compiler shutdown in progress - discarding request
+02-27 14:23:12.902 D/dalvikvm(14080): Compiler shutdown in progress - discarding request
+02-27 14:23:12.902 D/dalvikvm(14080): Compiler shutdown in progress - discarding request
+02-27 14:23:12.902 D/dalvikvm(14080): Compiler shutdown in progress - discarding request
+02-27 14:23:12.902 D/dalvikvm(14080): Compiler shutdown in progress - discarding request
+02-27 14:23:12.902 D/dalvikvm(14080): Compiler shutdown in progress - discarding request
+02-27 14:23:12.902 D/dalvikvm(14080): Compiler shutdown in progress - discarding request
+02-27 14:23:12.902 D/dalvikvm(14080): Compiler shutdown in progress - discarding request
+02-27 14:23:12.902 D/dalvikvm(14080): Compiler shutdown in progress - discarding request
+02-27 14:23:12.902 D/dalvikvm(14080): Compiler shutdown in progress - discarding request
+02-27 14:23:12.902 D/dalvikvm(14080): Compiler shutdown in progress - discarding request
+02-27 14:23:12.902 D/dalvikvm(14080): Compiler shutdown in progress - discarding request
+02-27 14:23:12.902 D/dalvikvm(14080): Compiler shutdown in progress - discarding request
+02-27 14:23:12.902 D/dalvikvm(14080): Compiler shutdown in progress - discarding request
+02-27 14:23:12.902 D/dalvikvm(14080): Compiler shutdown in progress - discarding request
+02-27 14:23:12.902 D/dalvikvm(14080): Compiler shutdown in progress - discarding request
+02-27 14:23:12.902 D/dalvikvm(14080): Compiler shutdown in progress - discarding request
+02-27 14:23:12.902 D/dalvikvm(14080): Compiler shutdown in progress - discarding request
+02-27 14:23:12.902 D/dalvikvm(14080): Compiler shutdown in progress - discarding request
+02-27 14:23:12.902 D/dalvikvm(14080): Compiler shutdown in progress - discarding request
+02-27 14:23:12.902 D/dalvikvm(14080): Compiler shutdown in progress - discarding request
+02-27 14:23:12.902 D/dalvikvm(14080): Compiler shutdown in progress - discarding request
+02-27 14:23:12.902 D/dalvikvm(14080): Compiler shutdown in progress - discarding request
+02-27 14:23:12.902 D/dalvikvm(14080): Compiler shutdown in progress - discarding request
+02-27 14:23:12.902 D/dalvikvm(14080): Compiler shutdown in progress - discarding request
+02-27 14:23:12.902 D/dalvikvm(14080): Compiler shutdown in progress - discarding request
+02-27 14:23:12.902 D/dalvikvm(14080): Compiler shutdown in progress - discarding request
+02-27 14:23:12.902 D/dalvikvm(14080): Compiler shutdown in progress - discarding request
+02-27 14:23:12.902 D/dalvikvm(14080): Compiler shutdown in progress - discarding request
+02-27 14:23:12.902 D/dalvikvm(14080): Compiler shutdown in progress - discarding request
+02-27 14:23:12.902 D/dalvikvm(14080): Compiler shutdown in progress - discarding request
+02-27 14:23:12.902 D/dalvikvm(14080): Compiler shutdown in progress - discarding request
+02-27 14:23:12.902 D/dalvikvm(14080): Compiler shutdown in progress - discarding request
+02-27 14:23:12.902 D/dalvikvm(14080): Compiler shutdown in progress - discarding request
+02-27 14:23:12.902 D/dalvikvm(14080): Compiler shutdown in progress - discarding request
+02-27 14:23:12.902 D/dalvikvm(14080): Compiler shutdown in progress - discarding request
+02-27 14:23:12.902 D/dalvikvm(14080): Compiler shutdown in progress - discarding request
+02-27 14:23:12.902 D/dalvikvm(14080): Compiler shutdown in progress - discarding request
+02-27 14:23:12.902 D/dalvikvm(14080): Compiler shutdown in progress - discarding request
+02-27 14:23:12.902 D/dalvikvm(14080): Compiler shutdown in progress - discarding request
+02-27 14:23:12.902 D/dalvikvm(14080): Compiler shutdown in progress - discarding request
+02-27 14:23:12.902 D/dalvikvm(14080): Compiler shutdown in progress - discarding request
+02-27 14:23:12.902 D/dalvikvm(14080): Compiler shutdown in progress - discarding request
+02-27 14:23:12.902 D/dalvikvm(14080): Compiler shutdown in progress - discarding request
+02-27 14:23:12.902 D/dalvikvm(14080): Compiler shutdown in progress - discarding request
+02-27 14:23:13.282 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 14:23:13.282 D/wpa_supplicant(  711): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 14:23:13.282 D/wpa_supplicant(  711): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 14:23:13.302 D/wpa_supplicant(  711): nl80211: survey data missing!
+02-27 14:23:13.302 I/WifiHW  (  505): REPLY: RSSI=-58
+02-27 14:23:13.302 I/WifiHW  (  505): REPLY: LINKSPEED=65
+02-27 14:23:13.302 I/WifiHW  (  505): REPLY: NOISE=9999
+02-27 14:23:13.302 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+02-27 14:23:13.542 D/AndroidRuntime(14091): 
+02-27 14:23:13.542 D/AndroidRuntime(14091): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-27 14:23:13.542 D/AndroidRuntime(14091): CheckJNI is OFF
+02-27 14:23:13.542 I/AndroidRuntime(14091): Kernel Release Version: 3.10.20-gf818079
+02-27 14:23:13.542 I/dalvikvm(14091): No library specified. The standard exception handler will be used
+02-27 14:23:13.542 I/dalvikvm(14091): 
+02-27 14:23:13.542 I/dalvikvm(14091): +++++++++++++ Using PCG. +++++++++++++++++++++
+02-27 14:23:13.552 D/dalvikvm(14091): Trying to load lib libjavacore.so 0x0
+02-27 14:23:13.552 D/dalvikvm(14091): Added shared lib libjavacore.so 0x0
+02-27 14:23:13.552 D/dalvikvm(14091): Trying to load lib libnativehelper.so 0x0
+02-27 14:23:13.552 D/dalvikvm(14091): Added shared lib libnativehelper.so 0x0
+02-27 14:23:13.552 D/dalvikvm(14091): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-27 14:23:13.562 D/dalvikvm(14091): Extra Options: not specified
+02-27 14:23:13.572 D/dalvikvm(14091): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+02-27 14:23:13.642 E/memtrack(14091): Couldn't load memtrack module (No such file or directory)
+02-27 14:23:13.642 E/android.os.Debug(14091): failed to load memtrack module: -2
+02-27 14:23:13.672 D/AndroidRuntime(14091): Calling main entry com.android.commands.am.Am
+02-27 14:23:13.702 D/AndroidRuntime(14091): Shutting down VM
+02-27 14:23:13.702 I/ActivityManager(  505): START u0 {flg=0x10000000 cmp=org.xwalk.webapi_service_tests/.webapi_service_tests} from pid 14091
+02-27 14:23:13.712 D/dalvikvm(14091): GC_CONCURRENT freed 116K, 16% free 702K/832K, paused 0ms+0ms, total 1ms
+02-27 14:23:13.712 D/dalvikvm(14091): Compiler shutdown in progress - discarding request
+02-27 14:23:13.712 D/dalvikvm(14091): Compiler shutdown in progress - discarding request
+02-27 14:23:13.712 D/dalvikvm(14091): Compiler shutdown in progress - discarding request
+02-27 14:23:13.712 D/dalvikvm(14091): Compiler shutdown in progress - discarding request
+02-27 14:23:13.712 D/dalvikvm(14091): Compiler shutdown in progress - discarding request
+02-27 14:23:13.712 D/dalvikvm(14091): Compiler shutdown in progress - discarding request
+02-27 14:23:13.712 D/dalvikvm(14091): Compiler shutdown in progress - discarding request
+02-27 14:23:13.712 D/dalvikvm(14091): Compiler shutdown in progress - discarding request
+02-27 14:23:13.712 D/dalvikvm(14091): Compiler shutdown in progress - discarding request
+02-27 14:23:13.712 D/dalvikvm(14091): Compiler shutdown in progress - discarding request
+02-27 14:23:13.712 D/dalvikvm(14091): Compiler shutdown in progress - discarding request
+02-27 14:23:13.712 D/dalvikvm(14091): Compiler shutdown in progress - discarding request
+02-27 14:23:13.712 D/dalvikvm(14091): Compiler shutdown in progress - discarding request
+02-27 14:23:13.712 D/dalvikvm(14091): Compiler shutdown in progress - discarding request
+02-27 14:23:13.712 D/dalvikvm(14091): Compiler shutdown in progress - discarding request
+02-27 14:23:13.712 D/dalvikvm(14091): Compiler shutdown in progress - discarding request
+02-27 14:23:13.712 D/dalvikvm(14091): Compiler shutdown in progress - discarding request
+02-27 14:23:13.712 D/dalvikvm(14091): Compiler shutdown in progress - discarding request
+02-27 14:23:13.712 D/dalvikvm(14091): Compiler shutdown in progress - discarding request
+02-27 14:23:13.712 D/dalvikvm(14091): Compiler shutdown in progress - discarding request
+02-27 14:23:13.712 D/dalvikvm(14091): Compiler shutdown in progress - discarding request
+02-27 14:23:13.712 D/dalvikvm(14091): Compiler shutdown in progress - discarding request
+02-27 14:23:13.712 D/dalvikvm(14091): Compiler shutdown in progress - discarding request
+02-27 14:23:13.712 D/dalvikvm(14091): Compiler shutdown in progress - discarding request
+02-27 14:23:13.712 D/dalvikvm(14091): Compiler shutdown in progress - discarding request
+02-27 14:23:13.712 D/dalvikvm(14091): Compiler shutdown in progress - discarding request
+02-27 14:23:13.712 D/dalvikvm(14091): Compiler shutdown in progress - discarding request
+02-27 14:23:13.712 D/dalvikvm(14091): Compiler shutdown in progress - discarding request
+02-27 14:23:13.712 D/dalvikvm(14091): Compiler shutdown in progress - discarding request
+02-27 14:23:13.712 D/dalvikvm(14091): Compiler shutdown in progress - discarding request
+02-27 14:23:13.712 D/dalvikvm(14091): Compiler shutdown in progress - discarding request
+02-27 14:23:13.712 D/dalvikvm(14091): Compiler shutdown in progress - discarding request
+02-27 14:23:13.712 D/dalvikvm(14091): Compiler shutdown in progress - discarding request
+02-27 14:23:13.712 D/dalvikvm(14091): Compiler shutdown in progress - discarding request
+02-27 14:23:13.712 D/dalvikvm(14091): Compiler shutdown in progress - discarding request
+02-27 14:23:13.712 D/dalvikvm(14091): Compiler shutdown in progress - discarding request
+02-27 14:23:13.712 D/dalvikvm(14091): Compiler shutdown in progress - discarding request
+02-27 14:23:13.712 D/dalvikvm(14091): Compiler shutdown in progress - discarding request
+02-27 14:23:13.712 D/dalvikvm(14091): Compiler shutdown in progress - discarding request
+02-27 14:23:13.712 D/dalvikvm(14091): Compiler shutdown in progress - discarding request
+02-27 14:23:13.712 D/dalvikvm(14091): Compiler shutdown in progress - discarding request
+02-27 14:23:13.712 D/dalvikvm(14091): Compiler shutdown in progress - discarding request
+02-27 14:23:13.712 D/dalvikvm(14091): Compiler shutdown in progress - discarding request
+02-27 14:23:13.712 D/dalvikvm(14091): Compiler shutdown in progress - discarding request
+02-27 14:23:13.712 D/dalvikvm(14091): Compiler shutdown in progress - discarding request
+02-27 14:23:13.712 D/dalvikvm(14091): Compiler shutdown in progress - discarding request
+02-27 14:23:13.712 D/dalvikvm(14091): Compiler shutdown in progress - discarding request
+02-27 14:23:14.322 D/AndroidRuntime(14102): 
+02-27 14:23:14.322 D/AndroidRuntime(14102): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-27 14:23:14.322 D/AndroidRuntime(14102): CheckJNI is OFF
+02-27 14:23:14.322 I/AndroidRuntime(14102): Kernel Release Version: 3.10.20-gf818079
+02-27 14:23:14.332 I/dalvikvm(14102): No library specified. The standard exception handler will be used
+02-27 14:23:14.332 I/dalvikvm(14102): 
+02-27 14:23:14.332 I/dalvikvm(14102): +++++++++++++ Using PCG. +++++++++++++++++++++
+02-27 14:23:14.342 D/dalvikvm(14102): Trying to load lib libjavacore.so 0x0
+02-27 14:23:14.342 D/dalvikvm(14102): Added shared lib libjavacore.so 0x0
+02-27 14:23:14.342 D/dalvikvm(14102): Trying to load lib libnativehelper.so 0x0
+02-27 14:23:14.342 D/dalvikvm(14102): Added shared lib libnativehelper.so 0x0
+02-27 14:23:14.342 D/dalvikvm(14102): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-27 14:23:14.352 D/dalvikvm(14102): Extra Options: not specified
+02-27 14:23:14.352 D/dalvikvm(14102): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+02-27 14:23:14.432 E/memtrack(14102): Couldn't load memtrack module (No such file or directory)
+02-27 14:23:14.432 E/android.os.Debug(14102): failed to load memtrack module: -2
+02-27 14:23:14.462 D/AndroidRuntime(14102): Calling main entry com.android.commands.am.Am
+02-27 14:23:14.502 D/AndroidRuntime(14102): Shutting down VM
+02-27 14:23:14.502 D/dalvikvm(14102): GC_CONCURRENT freed 110K, 16% free 673K/800K, paused 0ms+0ms, total 1ms
+02-27 14:23:14.502 V/WeatherTimeProvider( 1093): widget on Visibility Changed
+02-27 14:23:14.502 I/ActivityManager(  505): START u0 {flg=0x10000000 cmp=org.xwalk.webapi_service_tests/.WebapiServiceTestsActivity} from pid 14102
+02-27 14:23:14.512 I/SecurityManagerService(  600): SMS received security event: App[START/org.xwalk.webapi_service_tests]
+02-27 14:23:14.512 D/dalvikvm(14102): Compiler shutdown in progress - discarding request
+02-27 14:23:14.512 D/dalvikvm(14102): Compiler shutdown in progress - discarding request
+02-27 14:23:14.512 D/dalvikvm(14102): Compiler shutdown in progress - discarding request
+02-27 14:23:14.512 D/dalvikvm(14102): Compiler shutdown in progress - discarding request
+02-27 14:23:14.512 D/dalvikvm(14102): Compiler shutdown in progress - discarding request
+02-27 14:23:14.512 D/dalvikvm(14102): Compiler shutdown in progress - discarding request
+02-27 14:23:14.512 D/dalvikvm(14102): Compiler shutdown in progress - discarding request
+02-27 14:23:14.512 D/dalvikvm(14102): Compiler shutdown in progress - discarding request
+02-27 14:23:14.512 D/dalvikvm(14102): Compiler shutdown in progress - discarding request
+02-27 14:23:14.512 D/dalvikvm(14102): Compiler shutdown in progress - discarding request
+02-27 14:23:14.512 D/dalvikvm(14102): Compiler shutdown in progress - discarding request
+02-27 14:23:14.512 D/dalvikvm(14102): Compiler shutdown in progress - discarding request
+02-27 14:23:14.512 D/dalvikvm(14102): Compiler shutdown in progress - discarding request
+02-27 14:23:14.512 D/dalvikvm(14102): Compiler shutdown in progress - discarding request
+02-27 14:23:14.512 D/dalvikvm(14102): Compiler shutdown in progress - discarding request
+02-27 14:23:14.512 D/dalvikvm(14102): Compiler shutdown in progress - discarding request
+02-27 14:23:14.512 D/dalvikvm(14102): Compiler shutdown in progress - discarding request
+02-27 14:23:14.512 D/dalvikvm(14102): Compiler shutdown in progress - discarding request
+02-27 14:23:14.512 D/dalvikvm(14102): Compiler shutdown in progress - discarding request
+02-27 14:23:14.512 D/dalvikvm(14102): Compiler shutdown in progress - discarding request
+02-27 14:23:14.512 D/dalvikvm(14102): Compiler shutdown in progress - discarding request
+02-27 14:23:14.512 D/dalvikvm(14102): Compiler shutdown in progress - discarding request
+02-27 14:23:14.512 D/dalvikvm(14102): Compiler shutdown in progress - discarding request
+02-27 14:23:14.512 D/dalvikvm(14102): Compiler shutdown in progress - discarding request
+02-27 14:23:14.512 D/dalvikvm(14102): Compiler shutdown in progress - discarding request
+02-27 14:23:14.512 D/dalvikvm(14102): Compiler shutdown in progress - discarding request
+02-27 14:23:14.512 D/dalvikvm(14102): Compiler shutdown in progress - discarding request
+02-27 14:23:14.512 D/dalvikvm(14102): Compiler shutdown in progress - discarding request
+02-27 14:23:14.512 D/dalvikvm(14102): Compiler shutdown in progress - discarding request
+02-27 14:23:14.512 D/dalvikvm(14102): Compiler shutdown in progress - discarding request
+02-27 14:23:14.512 D/dalvikvm(14102): Compiler shutdown in progress - discarding request
+02-27 14:23:14.512 D/dalvikvm(14102): Compiler shutdown in progress - discarding request
+02-27 14:23:14.512 D/dalvikvm(14102): Compiler shutdown in progress - discarding request
+02-27 14:23:14.512 D/dalvikvm(14102): Compiler shutdown in progress - discarding request
+02-27 14:23:14.512 D/dalvikvm(14102): Compiler shutdown in progress - discarding request
+02-27 14:23:14.512 D/dalvikvm(14102): Compiler shutdown in progress - discarding request
+02-27 14:23:14.512 D/dalvikvm(14102): Compiler shutdown in progress - discarding request
+02-27 14:23:14.512 D/dalvikvm(14102): Compiler shutdown in progress - discarding request
+02-27 14:23:14.512 D/dalvikvm(14102): Compiler shutdown in progress - discarding request
+02-27 14:23:14.512 D/dalvikvm(14102): Compiler shutdown in progress - discarding request
+02-27 14:23:14.512 D/dalvikvm(14102): Compiler shutdown in progress - discarding request
+02-27 14:23:14.512 D/dalvikvm(14102): Compiler shutdown in progress - discarding request
+02-27 14:23:14.512 D/dalvikvm(14102): Compiler shutdown in progress - discarding request
+02-27 14:23:14.512 D/dalvikvm(14102): Compiler shutdown in progress - discarding request
+02-27 14:23:14.512 I/ActivityManager(  505): Start proc org.xwalk.webapi_service_tests for activity org.xwalk.webapi_service_tests/.WebapiServiceTestsActivity: pid=14113 uid=10093 gids={50093, 3003, 1028, 1015}
+02-27 14:23:14.522 D/dalvikvm(14113): Process 14113 nice name: org.xwalk.webapi_service_tests
+02-27 14:23:14.522 D/dalvikvm(14113): Extra Options: not specified
+02-27 14:23:14.532 D/WindowManager(  505): adjustConfigurationLw, config:{1.0 ?mcc?mnc ?locale ?layoutDir sw600dp w961dp h528dp 213dpi lrg land ?uimode ?night finger -keyb/v/h -nav/v} mLidState:1 mHasDockFeature:false mHasKeyboardFeature:false mHasHallSensorFeature:true config.hardKeyboardHidden:2
+02-27 14:23:14.532 I/ActivityManager(  505): [TopPkgCurBat]	NowPkgName[org.xwalk.webapi_service_tests]	Battery[34]	TimeTick[1425018194547]	OldPkgName[com.asus.launcher]
+02-27 14:23:14.542 D/dalvikvm(  586): GC_CONCURRENT freed 3437K, 33% free 7130K/10608K, paused 1ms+1ms, total 31ms
+02-27 14:23:14.552 D/        (  674): Surface destroy: ANDROID_NATIVE_WINDOW_MAGIC
+02-27 14:23:14.562 D/dalvikvm(14113): Trying to load lib /data/app-lib/org.xwalk.webapi_service_tests-1/libxwalkcore.so 0x43d82250
+02-27 14:23:14.572 D/dalvikvm(14113): Added shared lib /data/app-lib/org.xwalk.webapi_service_tests-1/libxwalkcore.so 0x43d82250
+02-27 14:23:14.572 I/LibraryLoader(14113): Time to load native libraries: 14 ms (timestamps 825-839)
+02-27 14:23:14.572 I/LibraryLoader(14113): Expected native library version number "",actual native library version number ""
+02-27 14:23:14.602 I/LibraryLoader(14113): Expected native library version number "",actual native library version number ""
+02-27 14:23:14.602 I/chromium(14113): [INFO:library_loader_hooks.cc(112)] Chromium logging enabled: level = 0, default verbosity = 0
+02-27 14:23:14.612 I/BrowserStartupController(14113): Initializing chromium process, singleProcess=true
+02-27 14:23:14.662 W/AudioManagerAndroid(14113): Requires BLUETOOTH permission
+02-27 14:23:14.662 I/ufoGralloc(14113): Hello, this is UFO GRALLOC/Intel Corporation
+02-27 14:23:14.672 D/        (14113): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 14:23:14.672 D/        (14113): droid_create_context : config id = 1 conf->NativeVisualID=1
+02-27 14:23:14.672 D/        (14113): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 14:23:14.672 I/        (14113): Requested context : GLES 2.0
+02-27 14:23:14.692 W/chromium(14113): [WARNING:proxy_service.cc(899)] PAC support disabled because there is no system implementation
+02-27 14:23:14.702 W/dalvikvm(14113): VFY: unable to find class referenced in signature (Landroid/view/inputmethod/CursorAnchorInfo;)
+02-27 14:23:14.702 I/dalvikvm(14113): Could not find method android.view.inputmethod.InputMethodManager.updateCursorAnchorInfo, referenced from method org.chromium.content.browser.input.InputMethodManagerWrapper.updateCursorAnchorInfo
+02-27 14:23:14.702 W/dalvikvm(14113): VFY: unable to resolve virtual method 1241: Landroid/view/inputmethod/InputMethodManager;.updateCursorAnchorInfo (Landroid/view/View;Landroid/view/inputmethod/CursorAnchorInfo;)V
+02-27 14:23:14.702 D/dalvikvm(14113): VFY: replacing opcode 0x6e at 0x000a
+02-27 14:23:14.742 E/cutils  (  163): Failed to mkdirat(/Removable/MicroSD): Read-only file system
+02-27 14:23:14.742 W/ContextImpl(14113): Failed to ensure directory: /Removable/MicroSD/Android/data/org.xwalk.webapi_service_tests/cache
+02-27 14:23:14.742 W/XWalkExtensionManager(14113): Failed to read extensions-config.json
+02-27 14:23:14.742 E/chromium(14113): [ERROR:unix_domain_server_socket_posix.cc(106)] Not implemented reached in virtual int net::UnixDomainServerSocket::GetLocalAddress(net::IPEndPoint*) const
+02-27 14:23:14.742 I/dalvikvm(14113): Could not find method android.app.Activity.finishAndRemoveTask, referenced from method org.chromium.base.ApiCompatibilityUtils.finishAndRemoveTask
+02-27 14:23:14.742 W/dalvikvm(14113): VFY: unable to resolve virtual method 4: Landroid/app/Activity;.finishAndRemoveTask ()V
+02-27 14:23:14.742 D/dalvikvm(14113): VFY: replacing opcode 0x6e at 0x0006
+02-27 14:23:14.742 I/dalvikvm(14113): Could not find method android.os.PowerManager.isInteractive, referenced from method org.chromium.base.ApiCompatibilityUtils.isInteractive
+02-27 14:23:14.742 W/dalvikvm(14113): VFY: unable to resolve virtual method 768: Landroid/os/PowerManager;.isInteractive ()Z
+02-27 14:23:14.742 D/dalvikvm(14113): VFY: replacing opcode 0x6e at 0x000e
+02-27 14:23:14.742 I/dalvikvm(14113): Could not find method android.view.Window.getNavigationBarColor, referenced from method org.chromium.base.ApiCompatibilityUtils.setStatusBarColor
+02-27 14:23:14.742 W/dalvikvm(14113): VFY: unable to resolve virtual method 1144: Landroid/view/Window;.getNavigationBarColor ()I
+02-27 14:23:14.742 D/dalvikvm(14113): VFY: replacing opcode 0x6e at 0x0010
+02-27 14:23:14.742 I/dalvikvm(14113): Could not find method android.view.Window.setStatusBarColor, referenced from method org.chromium.base.ApiCompatibilityUtils.setStatusBarColor
+02-27 14:23:14.742 W/dalvikvm(14113): VFY: unable to resolve virtual method 1149: Landroid/view/Window;.setStatusBarColor (I)V
+02-27 14:23:14.742 D/dalvikvm(14113): VFY: replacing opcode 0x6e at 0x0019
+02-27 14:23:14.742 W/Vold    (  163): Returning OperationFailed - no handler for errno 30
+02-27 14:23:14.752 E/dalvikvm(14113): Could not find class 'android.app.ActivityManager$TaskDescription', referenced from method org.chromium.base.ApiCompatibilityUtils.setTaskDescription
+02-27 14:23:14.752 W/dalvikvm(14113): VFY: unable to resolve new-instance 11 (Landroid/app/ActivityManager$TaskDescription;) in Lorg/chromium/base/ApiCompatibilityUtils;
+02-27 14:23:14.752 D/dalvikvm(14113): VFY: replacing opcode 0x22 at 0x0006
+02-27 14:23:14.752 D/dalvikvm(14113): DexOpt: unable to opt direct call 0x001e at 0x08 in Lorg/chromium/base/ApiCompatibilityUtils;.setTaskDescription
+02-27 14:23:14.752 I/chromium(14113): [INFO:xwalk_extension_renderer_controller.cc(47)] EXTENSION PROCESS DISABLED.
+02-27 14:23:14.782 D/        (14113): droid_create_context : config id = 5 conf->NativeVisualID=1
+02-27 14:23:14.782 D/        (14113): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 14:23:14.782 I/        (14113): Requested context : GLES 2.0
+02-27 14:23:14.802 D/        (14113): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 14:23:14.802 D/        (14113): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 14:23:14.802 D/        (14113): droid_create_context : config id = 1 conf->NativeVisualID=1
+02-27 14:23:14.802 D/        (14113): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 14:23:14.802 I/        (14113): Requested context : GLES 2.0
+02-27 14:23:14.802 D/OpenGLRenderer(14113): Enabling debug mode 0
+02-27 14:23:14.882 D/ImageWallpaper(  569): onVisibilityChanged: mVisible, visible=true, false
+02-27 14:23:14.882 D/ImageWallpaper(  569): Visibility changed to visible=false
+02-27 14:23:14.882 D/ImageWallpaper(  569): Suppressed drawFrame since redraw is not needed and offsets have not changed.
+02-27 14:23:14.882 W/BindingManager(14113): Cannot call determinedVisibility() - never saw a connection for the pid: 14113
+02-27 14:23:14.892 D/        (14113): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 14:23:14.892 D/        (14113): droid_create_context : config id = 1 conf->NativeVisualID=1
+02-27 14:23:14.892 D/        (14113): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 14:23:14.892 I/        (14113): Requested context : GLES 2.0
+02-27 14:23:14.892 D/XT9IME  (  725): new subtype :zh_CN ,pinyin
+02-27 14:23:14.892 I/ActivityManager(  505): Displayed org.xwalk.webapi_service_tests/.WebapiServiceTestsActivity: +384ms
+02-27 14:23:14.902 D/        (14113): Swap interval set to = 1 value
+02-27 14:23:14.912 D/BatteryStatsImpl(  505): noteStopWakeLocked system isFromForeground = false
+02-27 14:23:15.082 D/        (14113): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 14:23:15.082 D/        (14113): droid_create_context : config id = 1 conf->NativeVisualID=1
+02-27 14:23:15.082 D/        (14113): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 14:23:15.082 I/        (14113): Requested context : GLES 2.0
+02-27 14:23:15.142 I/chromium(14113): [INFO:CONSOLE(0)] "Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check http://xhr.spec.whatwg.org/.", source:  (0)
+02-27 14:23:16.302 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 14:23:16.302 D/wpa_supplicant(  711): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 14:23:16.302 D/wpa_supplicant(  711): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 14:23:16.332 D/wpa_supplicant(  711): nl80211: survey data missing!
+02-27 14:23:16.332 I/WifiHW  (  505): REPLY: RSSI=-58
+02-27 14:23:16.332 I/WifiHW  (  505): REPLY: LINKSPEED=65
+02-27 14:23:16.332 I/WifiHW  (  505): REPLY: NOISE=9999
+02-27 14:23:16.332 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+02-27 14:23:18.272 W/BindingManager(14113): Cannot call determinedVisibility() - never saw a connection for the pid: 14113
+02-27 14:23:19.342 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 14:23:19.342 D/wpa_supplicant(  711): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 14:23:19.342 D/wpa_supplicant(  711): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 14:23:19.362 D/wpa_supplicant(  711): nl80211: survey data missing!
+02-27 14:23:19.362 I/WifiHW  (  505): REPLY: RSSI=-62
+02-27 14:23:19.362 I/WifiHW  (  505): REPLY: LINKSPEED=65
+02-27 14:23:19.362 I/WifiHW  (  505): REPLY: NOISE=9999
+02-27 14:23:19.362 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+02-27 14:23:20.582 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 14:23:20.582 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 14:23:22.002 W/BindingManager(14113): Cannot call determinedVisibility() - never saw a connection for the pid: 14113
+02-27 14:23:22.202 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 14:23:22.202 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 14:23:22.202 I/upi_ug31xx(  166): (394) update_capacity
+02-27 14:23:22.202 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: V=3743(3747), T=335(337-392), I=-202, C=-2(-2-0)
+02-27 14:23:22.202 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 1305 (1203) / 3822 (4028) = 34
+02-27 14:23:22.202 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 1305 (1203) / 3822 (4028) = 34
+02-27 14:23:22.202 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 1303 (1303) / 3822 (4028) = 34
+02-27 14:23:22.202 I/[UPI]   (  166): <UG31/E>[RsocFilterCountTime]: (0x0001254a) Step=3(212410), Full=3(212410), Lock=212410(2814415)
+02-27 14:23:22.202 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 1303 (1303) / 3822 (4028) = 34 (-202--202)
+02-27 14:23:22.202 I/[UPI]   (  166): <UG31/E><BATT> M:normal, P:34(34-34)%, V:3748mV, C:-189mA, T:33.7C(392), S:0x0001254a(000), R:1303mAh, F:3822mAh, Q:-724mAh, CC:3, P:30.290(723-0)s, BO:7, 97:615:0-44af-9m:B001-20140514-144301 (16)
+02-27 14:23:22.202 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 14:23:22.202 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 14:23:22.252 I/upi_ug31xx(  166): (395) backup_data 
+02-27 14:23:22.252 V/upi_ug31xx(  166): state->check_backup_count = 5
+02-27 14:23:22.372 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 14:23:22.372 D/wpa_supplicant(  711): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 14:23:22.372 D/wpa_supplicant(  711): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 14:23:22.402 D/wpa_supplicant(  711): nl80211: survey data missing!
+02-27 14:23:22.402 I/WifiHW  (  505): REPLY: RSSI=-65
+02-27 14:23:22.402 I/WifiHW  (  505): REPLY: LINKSPEED=65
+02-27 14:23:22.402 I/WifiHW  (  505): REPLY: NOISE=9999
+02-27 14:23:22.402 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+02-27 14:23:25.202 W/BindingManager(14113): Cannot call determinedVisibility() - never saw a connection for the pid: 14113
+02-27 14:23:25.412 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 14:23:25.412 D/wpa_supplicant(  711): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 14:23:25.412 D/wpa_supplicant(  711): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 14:23:25.432 D/wpa_supplicant(  711): nl80211: survey data missing!
+02-27 14:23:25.432 I/WifiHW  (  505): REPLY: RSSI=-66
+02-27 14:23:25.432 I/WifiHW  (  505): REPLY: LINKSPEED=65
+02-27 14:23:25.432 I/WifiHW  (  505): REPLY: NOISE=9999
+02-27 14:23:25.432 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+02-27 14:23:26.202 W/BindingManager(14113): Cannot call determinedVisibility() - never saw a connection for the pid: 14113
+02-27 14:23:28.432 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 14:23:28.432 D/wpa_supplicant(  711): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 14:23:28.432 D/wpa_supplicant(  711): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 14:23:28.462 D/wpa_supplicant(  711): nl80211: survey data missing!
+02-27 14:23:28.462 I/WifiHW  (  505): REPLY: RSSI=-59
+02-27 14:23:28.462 I/WifiHW  (  505): REPLY: LINKSPEED=65
+02-27 14:23:28.462 I/WifiHW  (  505): REPLY: NOISE=9999
+02-27 14:23:28.462 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+02-27 14:23:31.462 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 14:23:31.462 D/wpa_supplicant(  711): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 14:23:31.462 D/wpa_supplicant(  711): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 14:23:31.492 D/wpa_supplicant(  711): nl80211: survey data missing!
+02-27 14:23:31.492 I/WifiHW  (  505): REPLY: RSSI=-58
+02-27 14:23:31.492 I/WifiHW  (  505): REPLY: LINKSPEED=65
+02-27 14:23:31.492 I/WifiHW  (  505): REPLY: NOISE=9999
+02-27 14:23:31.492 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+02-27 14:23:34.502 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 14:23:34.502 D/wpa_supplicant(  711): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 14:23:34.502 D/wpa_supplicant(  711): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 14:23:34.532 D/wpa_supplicant(  711): nl80211: survey data missing!
+02-27 14:23:34.532 I/WifiHW  (  505): REPLY: RSSI=-65
+02-27 14:23:34.532 I/WifiHW  (  505): REPLY: LINKSPEED=65
+02-27 14:23:34.532 I/WifiHW  (  505): REPLY: NOISE=9999
+02-27 14:23:34.532 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+02-27 14:23:37.542 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 14:23:37.542 D/wpa_supplicant(  711): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 14:23:37.542 D/wpa_supplicant(  711): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 14:23:37.572 D/wpa_supplicant(  711): nl80211: survey data missing!
+02-27 14:23:37.572 I/WifiHW  (  505): REPLY: RSSI=-60
+02-27 14:23:37.572 I/WifiHW  (  505): REPLY: LINKSPEED=65
+02-27 14:23:37.572 I/WifiHW  (  505): REPLY: NOISE=9999
+02-27 14:23:37.572 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+02-27 14:23:40.582 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 14:23:40.582 D/wpa_supplicant(  711): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 14:23:40.582 D/wpa_supplicant(  711): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 14:23:40.612 D/wpa_supplicant(  711): nl80211: survey data missing!
+02-27 14:23:40.612 I/WifiHW  (  505): REPLY: RSSI=-61
+02-27 14:23:40.612 I/WifiHW  (  505): REPLY: LINKSPEED=65
+02-27 14:23:40.612 I/WifiHW  (  505): REPLY: NOISE=9999
+02-27 14:23:40.612 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+02-27 14:23:43.622 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 14:23:43.622 D/wpa_supplicant(  711): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 14:23:43.622 D/wpa_supplicant(  711): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 14:23:43.652 D/wpa_supplicant(  711): nl80211: survey data missing!
+02-27 14:23:43.652 I/WifiHW  (  505): REPLY: RSSI=-66
+02-27 14:23:43.652 I/WifiHW  (  505): REPLY: LINKSPEED=65
+02-27 14:23:43.652 I/WifiHW  (  505): REPLY: NOISE=9999
+02-27 14:23:43.652 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+02-27 14:23:46.662 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 14:23:46.662 D/wpa_supplicant(  711): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 14:23:46.662 D/wpa_supplicant(  711): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 14:23:46.682 D/wpa_supplicant(  711): nl80211: survey data missing!
+02-27 14:23:46.682 I/WifiHW  (  505): REPLY: RSSI=-67
+02-27 14:23:46.682 I/WifiHW  (  505): REPLY: LINKSPEED=65
+02-27 14:23:46.682 I/WifiHW  (  505): REPLY: NOISE=9999
+02-27 14:23:46.682 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+02-27 14:23:49.692 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 14:23:49.692 D/wpa_supplicant(  711): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 14:23:49.692 D/wpa_supplicant(  711): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 14:23:49.712 D/wpa_supplicant(  711): nl80211: survey data missing!
+02-27 14:23:49.712 I/WifiHW  (  505): REPLY: RSSI=-68
+02-27 14:23:49.712 I/WifiHW  (  505): REPLY: LINKSPEED=65
+02-27 14:23:49.712 I/WifiHW  (  505): REPLY: NOISE=9999
+02-27 14:23:49.712 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+02-27 14:23:50.662 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 14:23:50.662 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 14:23:52.562 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 14:23:52.562 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 14:23:52.562 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 14:23:52.562 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 14:23:52.562 I/upi_ug31xx(  166): (396) update_capacity
+02-27 14:23:52.562 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: V=3744(3747), T=335(337-392), I=-203, C=-2(-2-0)
+02-27 14:23:52.562 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 1303 (1213) / 3822 (4028) = 34
+02-27 14:23:52.562 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 1303 (1213) / 3822 (4028) = 34
+02-27 14:23:52.572 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 1301 (1301) / 3822 (4028) = 34
+02-27 14:23:52.572 I/[UPI]   (  166): <UG31/E>[RsocFilterCountTime]: (0x0001254a) Step=4(242770), Full=4(242770), Lock=242770(2800551)
+02-27 14:23:52.572 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 1301 (1301) / 3822 (4028) = 34 (-203--203)
+02-27 14:23:52.572 I/[UPI]   (  166): <UG31/E><BATT> M:normal, P:34(34-34)%, V:3748mV, C:-186mA, T:33.7C(392), S:0x0001254a(000), R:1301mAh, F:3822mAh, Q:-726mAh, CC:3, P:30.360(725-0)s, BO:7, 97:615:0-44af-9m:B001-20140514-144301 (16)
+02-27 14:23:52.572 I/upi_ug31xx(  166): (397) backup_data 
+02-27 14:23:52.572 V/upi_ug31xx(  166): state->check_backup_count = 6
+02-27 14:23:52.712 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 14:23:52.712 D/wpa_supplicant(  711): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 14:23:52.722 D/wpa_supplicant(  711): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 14:23:52.742 D/wpa_supplicant(  711): nl80211: survey data missing!
+02-27 14:23:52.742 I/WifiHW  (  505): REPLY: RSSI=-69
+02-27 14:23:52.742 I/WifiHW  (  505): REPLY: LINKSPEED=65
+02-27 14:23:52.742 I/WifiHW  (  505): REPLY: NOISE=9999
+02-27 14:23:52.742 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+02-27 14:23:55.742 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 14:23:55.742 D/wpa_supplicant(  711): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 14:23:55.742 D/wpa_supplicant(  711): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 14:23:55.772 D/wpa_supplicant(  711): nl80211: survey data missing!
+02-27 14:23:55.772 I/WifiHW  (  505): REPLY: RSSI=-65
+02-27 14:23:55.772 I/WifiHW  (  505): REPLY: LINKSPEED=65
+02-27 14:23:55.772 I/WifiHW  (  505): REPLY: NOISE=9999
+02-27 14:23:55.772 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+02-27 14:23:58.792 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 14:23:58.792 D/wpa_supplicant(  711): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 14:23:58.792 D/wpa_supplicant(  711): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 14:23:58.812 D/wpa_supplicant(  711): nl80211: survey data missing!
+02-27 14:23:58.812 I/WifiHW  (  505): REPLY: RSSI=-61
+02-27 14:23:58.812 I/WifiHW  (  505): REPLY: LINKSPEED=65
+02-27 14:23:58.812 I/WifiHW  (  505): REPLY: NOISE=9999
+02-27 14:23:58.812 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+02-27 14:24:00.002 D/Clock   (  569): ACTION_TIME_TICK
+02-27 14:24:00.002 D/Clock   (  569): update clock:下午2:24
+02-27 14:24:00.032 D/BatteryStatsImpl(  505): noteStopWakeLocked system isFromForeground = false
+02-27 14:24:01.822 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 14:24:01.822 D/wpa_supplicant(  711): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 14:24:01.822 D/wpa_supplicant(  711): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 14:24:01.842 D/wpa_supplicant(  711): nl80211: survey data missing!
+02-27 14:24:01.842 I/WifiHW  (  505): REPLY: RSSI=-64
+02-27 14:24:01.842 I/WifiHW  (  505): REPLY: LINKSPEED=65
+02-27 14:24:01.842 I/WifiHW  (  505): REPLY: NOISE=9999
+02-27 14:24:01.842 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+02-27 14:24:04.852 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 14:24:04.852 D/wpa_supplicant(  711): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 14:24:04.852 D/wpa_supplicant(  711): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 14:24:04.862 D/wpa_supplicant(  711): nl80211: survey data missing!
+02-27 14:24:04.862 I/WifiHW  (  505): REPLY: RSSI=-68
+02-27 14:24:04.862 I/WifiHW  (  505): REPLY: LINKSPEED=65
+02-27 14:24:04.862 I/WifiHW  (  505): REPLY: NOISE=9999
+02-27 14:24:04.862 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+02-27 14:24:07.872 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 14:24:07.872 D/wpa_supplicant(  711): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 14:24:07.872 D/wpa_supplicant(  711): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 14:24:07.892 D/wpa_supplicant(  711): nl80211: survey data missing!
+02-27 14:24:07.892 I/WifiHW  (  505): REPLY: RSSI=-61
+02-27 14:24:07.892 I/WifiHW  (  505): REPLY: LINKSPEED=65
+02-27 14:24:07.892 I/WifiHW  (  505): REPLY: NOISE=9999
+02-27 14:24:07.892 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+02-27 14:24:10.902 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 14:24:10.902 D/wpa_supplicant(  711): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 14:24:10.902 D/wpa_supplicant(  711): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 14:24:10.932 D/wpa_supplicant(  711): nl80211: survey data missing!
+02-27 14:24:10.932 I/WifiHW  (  505): REPLY: RSSI=-62
+02-27 14:24:10.932 I/WifiHW  (  505): REPLY: LINKSPEED=65
+02-27 14:24:10.932 I/WifiHW  (  505): REPLY: NOISE=9999
+02-27 14:24:10.932 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+02-27 14:24:13.942 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 14:24:13.942 D/wpa_supplicant(  711): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 14:24:13.942 D/wpa_supplicant(  711): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 14:24:13.972 D/wpa_supplicant(  711): nl80211: survey data missing!
+02-27 14:24:13.972 I/WifiHW  (  505): REPLY: RSSI=-66
+02-27 14:24:13.972 I/WifiHW  (  505): REPLY: LINKSPEED=65
+02-27 14:24:13.972 I/WifiHW  (  505): REPLY: NOISE=9999
+02-27 14:24:13.972 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+02-27 14:24:15.422 W/BindingManager(14113): Cannot call determinedVisibility() - never saw a connection for the pid: 14113
+02-27 14:24:16.172 I/chromium(14113): [INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token :", source: http://127.0.0.1:8080/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/resources/generate_resource.cgi?types=script&id=1 (1)
+02-27 14:24:16.182 I/chromium(14113): [INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token :", source: http://127.0.0.1:8080/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/resources/generate_resource.cgi?types=script&id=2 (1)
+02-27 14:24:16.182 I/chromium(14113): [INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token :", source: http://127.0.0.1:8080/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/resources/generate_resource.cgi?types=script&id=3 (1)
+02-27 14:24:16.202 I/chromium(14113): [INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token :", source: http://127.0.0.1:8080/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/resources/generate_resource.cgi?types=script&id=5 (1)
+02-27 14:24:16.202 I/chromium(14113): [INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token :", source: http://127.0.0.1:8080/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/resources/generate_resource.cgi?types=script&id=4 (1)
+02-27 14:24:16.202 I/chromium(14113): [INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token :", source: http://127.0.0.1:8080/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/resources/generate_resource.cgi?types=script&id=9 (1)
+02-27 14:24:16.212 I/chromium(14113): [INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token :", source: http://127.0.0.1:8080/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/resources/generate_resource.cgi?types=script&id=7 (1)
+02-27 14:24:16.212 I/chromium(14113): [INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token :", source: http://127.0.0.1:8080/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/resources/generate_resource.cgi?types=script&id=8 (1)
+02-27 14:24:16.212 I/chromium(14113): [INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token :", source: http://127.0.0.1:8080/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/resources/generate_resource.cgi?types=script&id=6 (1)
+02-27 14:24:16.982 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 14:24:16.982 D/wpa_supplicant(  711): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 14:24:16.982 D/wpa_supplicant(  711): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 14:24:17.012 D/wpa_supplicant(  711): nl80211: survey data missing!
+02-27 14:24:17.012 I/WifiHW  (  505): REPLY: RSSI=-68
+02-27 14:24:17.012 I/WifiHW  (  505): REPLY: LINKSPEED=65
+02-27 14:24:17.012 I/WifiHW  (  505): REPLY: NOISE=9999
+02-27 14:24:17.012 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+02-27 14:24:17.632 W/ufoGralloc(  171): registerBuffer() handle 0xb8f71c50/110 didn't require registration
+02-27 14:24:17.662 D/WindowManager(  505): adjustConfigurationLw, config:{1.0 ?mcc?mnc ?locale ?layoutDir sw600dp w961dp h528dp 213dpi lrg land ?uimode ?night finger -keyb/v/h -nav/v} mLidState:1 mHasDockFeature:false mHasKeyboardFeature:false mHasHallSensorFeature:true config.hardKeyboardHidden:2
+02-27 14:24:17.662 I/ActivityManager(  505): [TopPkgCurBat]	NowPkgName[com.asus.launcher]	Battery[34]	TimeTick[1425018257677]	OldPkgName[org.xwalk.webapi_service_tests]
+02-27 14:24:17.672 V/WeatherTimeProvider( 1093): widget on Visibility Changed
+02-27 14:24:17.682 D/        (  674): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 14:24:17.692 W/IInputConnectionWrapper(14113): showStatusIcon on inactive InputConnection
+02-27 14:24:17.692 D/XT9IME  (  725): new subtype :zh_CN ,pinyin
+02-27 14:24:17.712 D/ImageWallpaper(  569): onVisibilityChanged: mVisible, visible=false, true
+02-27 14:24:17.712 D/BatteryStatsImpl(  505): noteStopWakeLocked system isFromForeground = false
+02-27 14:24:17.712 D/ImageWallpaper(  569): Visibility changed to visible=true
+02-27 14:24:17.712 D/ImageWallpaper(  569): Suppressed drawFrame since redraw is not needed and offsets have not changed.
+02-27 14:24:17.732 D/        (14113): Surface destroy: ANDROID_NATIVE_WINDOW_MAGIC
+02-27 14:24:17.732 D/        (14113): Surface destroy: ANDROID_NATIVE_WINDOW_MAGIC
+02-27 14:24:18.132 D/        (14113): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 14:24:18.142 W/SurfaceFlinger(  171): couldn't log to binary event log: overflow.
+02-27 14:24:18.152 W/ScreenOrientationListener(14113): Removing an inexistent observer!
+02-27 14:24:19.182 D/AndroidRuntime(14636): 
+02-27 14:24:19.182 D/AndroidRuntime(14636): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-27 14:24:19.182 D/AndroidRuntime(14636): CheckJNI is OFF
+02-27 14:24:19.182 I/AndroidRuntime(14636): Kernel Release Version: 3.10.20-gf818079
+02-27 14:24:19.182 I/dalvikvm(14636): No library specified. The standard exception handler will be used
+02-27 14:24:19.182 I/dalvikvm(14636): 
+02-27 14:24:19.182 I/dalvikvm(14636): +++++++++++++ Using PCG. +++++++++++++++++++++
+02-27 14:24:19.192 D/dalvikvm(14636): Trying to load lib libjavacore.so 0x0
+02-27 14:24:19.192 D/dalvikvm(14636): Added shared lib libjavacore.so 0x0
+02-27 14:24:19.192 D/dalvikvm(14636): Trying to load lib libnativehelper.so 0x0
+02-27 14:24:19.192 D/dalvikvm(14636): Added shared lib libnativehelper.so 0x0
+02-27 14:24:19.192 D/dalvikvm(14636): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-27 14:24:19.202 D/dalvikvm(14636): Extra Options: not specified
+02-27 14:24:19.212 D/dalvikvm(14636): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+02-27 14:24:19.282 E/memtrack(14636): Couldn't load memtrack module (No such file or directory)
+02-27 14:24:19.282 E/android.os.Debug(14636): failed to load memtrack module: -2
+02-27 14:24:19.322 D/AndroidRuntime(14636): Calling main entry com.android.commands.am.Am
+02-27 14:24:19.342 I/ActivityManager(  505): Force stopping org.xwalk.webapi_service_tests appid=10093 user=0: from pid 14636
+02-27 14:24:19.342 I/ActivityManager(  505): Killing 14113:org.xwalk.webapi_service_tests/u0a93 (adj 9): stop org.xwalk.webapi_service_tests
+02-27 14:24:19.352 I/SecurityManagerService(  600): SMS received security event: App[STOP/org.xwalk.webapi_service_tests]
+02-27 14:24:19.352 D/AndroidRuntime(14636): Shutting down VM
+02-27 14:24:19.352 D/dalvikvm(14636): GC_CONCURRENT freed 112K, 16% free 666K/792K, paused 1ms+0ms, total 2ms
+02-27 14:24:19.362 D/dalvikvm(14636): Compiler shutdown in progress - discarding request
+02-27 14:24:19.362 D/dalvikvm(14636): Compiler shutdown in progress - discarding request
+02-27 14:24:19.362 D/dalvikvm(14636): Compiler shutdown in progress - discarding request
+02-27 14:24:19.362 D/dalvikvm(14636): Compiler shutdown in progress - discarding request
+02-27 14:24:19.362 D/dalvikvm(14636): Compiler shutdown in progress - discarding request
+02-27 14:24:19.362 D/dalvikvm(14636): Compiler shutdown in progress - discarding request
+02-27 14:24:19.362 D/dalvikvm(14636): Compiler shutdown in progress - discarding request
+02-27 14:24:19.362 D/dalvikvm(14636): Compiler shutdown in progress - discarding request
+02-27 14:24:19.362 D/dalvikvm(14636): Compiler shutdown in progress - discarding request
+02-27 14:24:19.362 D/dalvikvm(14636): Compiler shutdown in progress - discarding request
+02-27 14:24:19.362 D/dalvikvm(14636): Compiler shutdown in progress - discarding request
+02-27 14:24:19.362 D/dalvikvm(14636): Compiler shutdown in progress - discarding request
+02-27 14:24:19.362 D/dalvikvm(14636): Compiler shutdown in progress - discarding request
+02-27 14:24:19.362 D/dalvikvm(14636): Compiler shutdown in progress - discarding request
+02-27 14:24:19.362 D/dalvikvm(14636): Compiler shutdown in progress - discarding request
+02-27 14:24:19.362 D/dalvikvm(14636): Compiler shutdown in progress - discarding request
+02-27 14:24:19.362 D/dalvikvm(14636): Compiler shutdown in progress - discarding request
+02-27 14:24:19.362 D/dalvikvm(14636): Compiler shutdown in progress - discarding request
+02-27 14:24:19.362 D/dalvikvm(14636): Compiler shutdown in progress - discarding request
+02-27 14:24:19.362 D/dalvikvm(14636): Compiler shutdown in progress - discarding request
+02-27 14:24:19.362 D/dalvikvm(14636): Compiler shutdown in progress - discarding request
+02-27 14:24:19.362 D/dalvikvm(14636): Compiler shutdown in progress - discarding request
+02-27 14:24:19.362 D/dalvikvm(14636): Compiler shutdown in progress - discarding request
+02-27 14:24:19.362 D/dalvikvm(14636): Compiler shutdown in progress - discarding request
+02-27 14:24:19.362 D/dalvikvm(14636): Compiler shutdown in progress - discarding request
+02-27 14:24:19.362 D/dalvikvm(14636): Compiler shutdown in progress - discarding request
+02-27 14:24:19.362 D/dalvikvm(14636): Compiler shutdown in progress - discarding request
+02-27 14:24:19.362 D/dalvikvm(14636): Compiler shutdown in progress - discarding request
+02-27 14:24:19.362 D/dalvikvm(14636): Compiler shutdown in progress - discarding request
+02-27 14:24:19.362 D/dalvikvm(14636): Compiler shutdown in progress - discarding request
+02-27 14:24:19.362 D/dalvikvm(14636): Compiler shutdown in progress - discarding request
+02-27 14:24:19.362 D/dalvikvm(14636): Compiler shutdown in progress - discarding request
+02-27 14:24:19.362 D/dalvikvm(14636): Compiler shutdown in progress - discarding request
+02-27 14:24:19.362 D/dalvikvm(14636): Compiler shutdown in progress - discarding request
+02-27 14:24:19.362 D/dalvikvm(14636): Compiler shutdown in progress - discarding request
+02-27 14:24:19.362 D/dalvikvm(14636): Compiler shutdown in progress - discarding request
+02-27 14:24:19.362 D/dalvikvm(14636): Compiler shutdown in progress - discarding request
+02-27 14:24:19.362 D/dalvikvm(14636): Compiler shutdown in progress - discarding request
+02-27 14:24:19.362 D/dalvikvm(14636): Compiler shutdown in progress - discarding request
+02-27 14:24:19.362 D/dalvikvm(14636): Compiler shutdown in progress - discarding request
+02-27 14:24:19.362 D/dalvikvm(14636): Compiler shutdown in progress - discarding request
+02-27 14:24:19.362 D/dalvikvm(14636): Compiler shutdown in progress - discarding request
+02-27 14:24:19.362 D/dalvikvm(14636): Compiler shutdown in progress - discarding request
+02-27 14:24:19.362 D/dalvikvm(14636): Compiler shutdown in progress - discarding request
+02-27 14:24:19.362 D/dalvikvm(14636): Compiler shutdown in progress - discarding request

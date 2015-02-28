@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <?xml-stylesheet type="text/xsl" href="testresult.xsl"?>
+<test_definition><environment build_id="" device_id="E5OKCYC13257" device_model="" device_name="N/A" host="Linux-3.2.0-29-generic-pae-i686-with-Ubuntu-12.04-precise" lite_version="3.1.14" manufacturer="" resolution="N/A" screen_size="N/A"><other /></environment>
+<summary test_plan_name="Empty test_plan_name"><start_at>2015-02-27_16_32_59</start_at><end_at>2015-02-27_16_33_36</end_at></summary>
+  <suite category="W3C/HTML5 APIs" name="tct-webstorage-w3c-tests">
+    <set name="webstorage-bdd" set_debug_msg="N/A" type="js" ui-auto="bdd">
+      <testcase component="W3C_HTML5 APIs/Storage/Web Storage" execution_type="auto" id="Storage_example_insurance_on_trip" purpose="Check if the user had been insurance on this trip" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-webstorage-w3c-tests/webstorage/Storage_example_insurance_on_trip-manual.html</test_script_entry>
+          <bdd_test_script_entry test_script_expected_result="0">/opt/tct-webstorage-w3c-tests/w3c-webstorage-app/testscripts/Storage_example_insurance_on_trip.feature</bdd_test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start /><end /><stdout>
+<![CDATA[
+@scenario.begin
+  Scenario: storage insurance on trip
+    When launch "w3c-webstorage-app" ... passed in 2.768s
+    And I go to "Storage_example_insurance_on_trip-manual.html" ... passed in 0.779s
+    And I wait for 16 seconds ... passed in 16.017s
+    Then I should see "you had not been insurance on this trip." ... passed in 0.668s
+    And I check "test_checkbox" ... passed in 0.531s
+    And I reload ... passed in 0.068s
+    Then I should see "you had been insurance on this trip." ... passed in 0.256s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Storage/Web Storage" execution_type="auto" id="Storage_example_load_page_times" purpose="Check if the page can display a count of how many times the user has loaded it" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-webstorage-w3c-tests/webstorage/Storage_example_load_page_times-manual.html</test_script_entry>
+          <bdd_test_script_entry test_script_expected_result="0">/opt/tct-webstorage-w3c-tests/w3c-webstorage-app/testscripts/Storage_example_load_page_times.feature</bdd_test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start /><end /><stdout>
+<![CDATA[
+@scenario.begin
+  Scenario: storage load page times
+    When launch "w3c-webstorage-app" ... passed in 2.703s
+    And I go to "Storage_example_load_page_times-manual.html" ... passed in 0.866s
+    And I press "clear_button" ... passed in 0.613s
+    And I reload ... passed in 0.060s
+    Then I should see "You have viewed this page 1 time(s)." ... passed in 0.199s
+    And I reload ... passed in 0.059s
+    And I reload ... passed in 0.064s
+    And I reload ... passed in 0.058s
+    And I reload ... passed in 0.065s
+    Then I should see "You have viewed this page 5 time(s)." ... passed in 0.209s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+clear_button == 
+]]>
+</stdout><stderr /></result_info></testcase>
+    </set>
+  </suite>
+</test_definition>

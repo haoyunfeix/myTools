@@ -1,0 +1,12 @@
+orig_xml/result_tct-3dtransforms-css3-tests.xml:168:    <set name="3DTransforms-ref" type="ref" ui-auto="wd">
+orig_xml/result_tct-audio-html5-tests.xml:1739:    <set name="Audio-ref" type="ref" ui-auto="wd">
+orig_xml/result_tct-backgrounds-css3-tests.xml:2698:    <set name="Backgrounds-ref" type="ref" ui-auto="wd">
+orig_xml/result_tct-canvas-html5-tests.xml:4321:    <set name="Canvas-ref" type="ref" ui-auto="wd">
+orig_xml/result_tct-colors-css3-tests.xml:238:    <set name="Colors-ref" type="ref" ui-auto="wd">
+orig_xml/result_tct-csp-w3c-tests.xml:833:    <set name="csp-ref" type="ref" ui-auto="wd">
+orig_xml/result_tct-extra-html5-tests.xml:3178:    <set name="extra-ref" type="ref" ui-auto="wd">
+orig_xml/result_tct-flexiblebox-css3-tests.xml:133:    <set name="reftest" type="ref" ui-auto="wd">
+orig_xml/result_tct-fonts-css3-tests.xml:63:    <set name="Fonts-ref" type="ref" ui-auto="wd">
+orig_xml/result_tct-multicolumn-css3-tests.xml:713:    <set name="MultiColumn-ref" type="ref" ui-auto="wd">
+orig_xml/result_tct-svg-html5-tests.xml:23:    <set name="SVG-REF" type="ref" ui-auto="wd">
+orig_xml/result_tct-text-css3-tests.xml:143:    <set name="Text-ref" type="ref" ui-auto="wd">

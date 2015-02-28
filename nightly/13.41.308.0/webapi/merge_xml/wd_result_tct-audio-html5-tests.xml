@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <?xml-stylesheet type="text/xsl" href="testresult.xsl"?>
+<test_definition><environment build_id="" device_id="E5OKCYC13257" device_model="" device_name="N/A" host="Linux-3.2.0-23-generic-x86_64-with-Ubuntu-12.04-precise" lite_version="3.1.14" manufacturer="" resolution="N/A" screen_size="N/A"><other /></environment>
+<summary test_plan_name="Empty test_plan_name"><start_at>2015-02-27_15_16_17</start_at><end_at>2015-02-27_15_16_32</end_at></summary>
+  <suite category="W3C/HTML5 APIs" name="tct-audio-html5-tests" widget="webapi-noneservice-tests">
+    <set name="Audio-ref" set_debug_msg="N/A" type="ref">
+      <testcase component="W3C_HTML5 APIs/Media/HTML5 The audio element (Partial)" execution_type="auto" id="audio_one_inside_image_not_show" purpose="Check that image content inside the audio element can not be shown." result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/tct-audio-html5-tests/audio/w3c/audio_001.htm</test_script_entry>
+          <refer_test_script_entry timeout="90">/opt/tct-audio-html5-tests/audio/w3c/audio_content-ref.htm</refer_test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-27 15:16:28</start><end /><stdout /><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Media/HTML5 The audio element (Partial)" execution_type="auto" id="audio_two_inside_color_not_show" purpose="Check that color content inside the audio element can not be shown" result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/tct-audio-html5-tests/audio/w3c/audio_002.htm</test_script_entry>
+          <refer_test_script_entry timeout="90">/opt/tct-audio-html5-tests/audio/w3c/audio_content-ref.htm</refer_test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-27 15:16:29</start><end /><stdout /><stderr /></result_info></testcase>
+    </set>
+  </suite>
+</test_definition>
