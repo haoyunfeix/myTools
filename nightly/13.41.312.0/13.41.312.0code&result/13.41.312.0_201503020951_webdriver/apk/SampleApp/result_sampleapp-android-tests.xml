@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <?xml-stylesheet type="text/xsl" href="testresult.xsl"?>
+<test_definition><environment build_id="" device_id="E6OKCY410686" device_model="" device_name="N/A" host="Linux-3.13.0-39-generic-x86_64-with-Ubuntu-12.04-precise" lite_version="3.1.14" manufacturer="" resolution="N/A" screen_size="N/A"><other /></environment>
+<summary test_plan_name="Empty test_plan_name"><start_at>2015-03-02_13_59_04</start_at><end_at>2015-03-02_14_00_30</end_at></summary>
+  <suite category="Crosswalk_Sample_App" name="sampleapp-android-tests">
+    <set name="SampleApp-pyunit" type="pyunit">
+      </set>
+    <set name="SampleApp-bdd" set_debug_msg="N/A" type="script" ui-auto="bdd">
+      <testcase component="Sample Apps" execution_type="auto" id="hexgl_appFunction" purpose="Validate if sample app HexGL function could work well" result="PASS">
+        <description>
+          <test_script_entry>/opt/sampleapp-android-tests/sampleapp/hexgl_appFunction.html</test_script_entry>
+          <bdd_test_script_entry test_script_expected_result="0">/opt/sampleapp-android-tests/testscripts/hexgl_appFunction.feature</bdd_test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start /><end /><stdout>
+<![CDATA[
+@scenario.begin
+  Scenario: hexgl checking - MOTION
+    When launch "hexgl" ... passed in 3.046s
+    Then I should see title "HexGL" ... passed in 0.681s
+    And I should see "QUALITY: SD" ... passed in 0.130s
+    And I click "s-quality" ... passed in 0.301s
+    Then I should see "QUALITY: HD" ... passed in 0.089s
+    And I click "s-quality" ... passed in 0.212s
+    Then I should see "QUALITY: ULTRA" ... passed in 0.107s
+    Then I should see "CONTROLS: TOUCH" ... passed in 0.108s
+    And I click "s-controls" ... passed in 0.263s
+    And I should see "CONTROLS: MOTION" ... passed in 0.088s
+    And I should see "START" ... passed in 0.106s
+    And I click button with class "titles-button" and text "START" ... passed in 0.414s
+    And I wait 1 seconds ... passed in 1.001s
+    And I click "controls-2" ... passed in 0.455s
+    Then I should see "Loading..." ... passed in 0.245s
+    And I wait 3 seconds ... passed in 3.003s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+s-quality == titles-button
+s-quality == titles-button
+s-controls == titles-button
+controls-2 == 
+]]>
+</stdout><stderr /></result_info></testcase>
+      <testcase component="Sample Apps" execution_type="auto" id="memorygame_appFunction" purpose="Validate if sample app MemoryGame function could work well" result="PASS">
+        <description>
+          <test_script_entry>/opt/sampleapp-android-tests/sampleapp/memorygame_appFunction.html</test_script_entry>
+          <bdd_test_script_entry test_script_expected_result="0">/opt/sampleapp-android-tests/testscripts/memorygame_appFunction.feature</bdd_test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start /><end /><stdout>
+<![CDATA[
+@scenario.begin
+  Scenario: memory game launch checking
+    When launch "memorygame" ... passed in 3.043s
+    Then I should see title "Memory Game for Older Kids" ... passed in 0.782s
+    And I press "pagebg" ... passed in 0.424s
+    And I should see "?" in 1 seconds ... passed in 0.165s
+    And I press "main_help" ... passed in 0.334s
+    And I should see "Can you make it through level four" in 1 seconds ... passed in 0.103s
+    And I press "help_close" ... passed in 0.376s
+    Then I should see "CHOOSE A LEVEL" ... passed in 0.126s
+    And I press "selLevel_levelCard1" ... passed in 0.356s
+    And I should see "LEVEL 1" in 3 seconds ... passed in 1.203s
+    And I press "l1c2" ... passed in 0.371s
+    And I press "l1c3" ... passed in 0.412s
+    And I press "homebutton_backtomain" ... passed in 0.435s
+    Then I should see "THE SPECTACULAR" in 2 seconds ... passed in 0.115s
+    And I should see "MEMORY" ... passed in 0.116s
+    And I should see "EXTRAVAGANZA!" ... passed in 0.130s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+pagebg == game_page
+main_help == helplaunch
+help_close == close
+selLevel_levelCard1 == selLevel_levelCard
+l1c2 == card
+l1c3 == card
+homebutton_backtomain == 
+]]>
+</stdout><stderr /></result_info></testcase>
+      <testcase component="Sample Apps" execution_type="auto" id="gallery_appFunction" purpose="Validate if sample app Gallery function could work well" result="PASS">
+        <description>
+          <test_script_entry>/opt/sampleapp-android-tests/sampleapp/gallery_appFunction.html</test_script_entry>
+          <bdd_test_script_entry test_script_expected_result="0">/opt/sampleapp-android-tests/testscripts/gallery_appFunction.feature</bdd_test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start /><end /><stdout>
+<![CDATA[
+@scenario.begin
+  Scenario: gallery checking
+    When launch "gallery" ... passed in 2.709s
+    Then I should see title "Image Gallery" ... passed in 0.669s
+    And I should see "View Your Photos On Wireless Display" ... passed in 0.115s
+    And I should see "Crosswalk" ... passed in 0.117s
+    Then I verify "Crosswalk" with link "https://crosswalk-project.org/" ... passed in 0.107s
+    And I should see "blueimp Gallery" ... passed in 0.113s
+    Then I verify "blueimp Gallery" with link "https://github.com/blueimp/Gallery" ... passed in 0.115s
+    And I should see "Presentation API" ... passed in 0.257s
+    Then I verify "Presentation API" with link "http://otcshare.github.io/presentation-spec/index.html" ... passed in 0.149s
+    And I press "Click here for how to setup wireless display." ... passed in 0.401s
+    Then I should see "Requirements" ... passed in 0.125s
+    And I should see "How to Setup Wireless Display" ... passed in 0.119s
+    And I should see "Use Simulated Secondary Display" ... passed in 0.121s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+ == 
+]]>
+</stdout><stderr /></result_info></testcase>
+      <testcase component="Sample Apps" execution_type="auto" id="sysapps_appFunction" purpose="Validate if sample app SysApps function could work well" result="FAIL">
+        <description>
+          <test_script_entry>/opt/sampleapp-android-tests/sampleapp/sysapps_appFunction.html</test_script_entry>
+          <bdd_test_script_entry test_script_expected_result="0">/opt/sampleapp-android-tests/testscripts/sysapps_appFunction.feature</bdd_test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start /><end /><stdout>
+<![CDATA[
+@scenario.begin
+  Scenario: sysapp checking
+    When launch "sysapps" ... passed in 2.770s
+    Then I should see "Device Capabilities demo" ... passed in 0.945s
+    And I should see "CPU" ... passed in 0.112s
+    And I should see "Memory" ... passed in 0.115s
+    And I should see "Storage" ... passed in 0.105s
+    And I should see "Display" ... passed in 0.118s
+    And I should see "Codec" ... passed in 0.117s
+    And I wait 5 seconds ... passed in 5.005s
+    Then I should see "CPU Monitor" ... passed in 0.147s
+    And I should see "100" ... failed in 2.020s
+    And I should see "0" ... skipped in 0.000s
+    And I should see "The CPU of this device is" ... skipped in 0.000s
+    And I should see "processor" ... skipped in 0.000s
+    Then I should see "Memory Monitor" ... skipped in 0.000s
+    And I should see "Used memory:" ... skipped in 0.000s
+    And I should see "Total memory:" ... skipped in 0.000s
+    Then I should see "Storage State" ... skipped in 0.000s
+    And I should see "storage device" ... skipped in 0.000s
+    And I should see "Internal" ... skipped in 0.000s
+    And I should see "sdcard" ... skipped in 0.000s
+    And I should see "and its capacity is" ... skipped in 0.000s
+    Then I should see "Display State" ... skipped in 0.000s
+    And I should see "display device" ... skipped in 0.000s
+    And I should see "an auxiliary" ... skipped in 0.000s
+    Then I should see "Check Audio/Video uploaded file" ... skipped in 0.000s
+    And I should see "Please select an audio or video file" ... skipped in 0.000s
+    And I click "file-to-upload" ... skipped in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</stdout><stderr>
+<![CDATA[
+Failing step: And I should see "100" ... failed in 2.020s
+Location: ../test-env/ASUS_MeMO_Pad_8_K011/apk/SampleApp/opt/sampleapp-android-tests/testscripts/sysapps_appFunction.feature:17
+Assertion Failed: Text was not found
+]]>
+</stderr></result_info></testcase>
+      <testcase component="Sample Apps" execution_type="auto" id="simd_appFunction" purpose="Validate if sample app SIMD function could work well" result="FAIL">
+        <description>
+          <test_script_entry>/opt/sampleapp-android-tests/sampleapp/simd_appFunction.html</test_script_entry>
+          <bdd_test_script_entry test_script_expected_result="0">/opt/sampleapp-android-tests/testscripts/simd_appFunction.feature</bdd_test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start /><end /><stdout>
+<![CDATA[
+@scenario.begin
+  Scenario: simd checking
+    When launch "simd" ... passed in 2.735s
+    And I wait 8 seconds ... passed in 8.008s
+    Then I should see "START" ... passed in 0.341s
+    Then I should see "+ SIMD" ... passed in 0.111s
+    Then I should see "SIMD: Off" ... passed in 0.120s
+    And I should see "FPS: 0.0" ... passed in 0.106s
+    And I press "START" ... passed in 0.452s
+    And I wait 5 seconds ... passed in 5.005s
+    Then I checka "fps" is 1.8 times after click "simd" for 10 seconds ... undefined in 0.000s
+    And I press "STOP" ... skipped in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+start_stop ==  btn btn-primary btn-large col-xs-offset-1 col-xs-2
+]]>
+</stdout><stderr>
+<![CDATA[
+Failing step: Then I checka "fps" is 1.8 times after click "simd" for 10 seconds ... undefined in 0.000s
+Location: ../test-env/ASUS_MeMO_Pad_8_K011/apk/SampleApp/opt/sampleapp-android-tests/testscripts/simd_appFunction.feature:13
+None
+]]>
+</stderr></result_info></testcase>
+    </set>
+    <set name="SampleApp" type="js">
+      </set>
+  </suite>
+</test_definition>

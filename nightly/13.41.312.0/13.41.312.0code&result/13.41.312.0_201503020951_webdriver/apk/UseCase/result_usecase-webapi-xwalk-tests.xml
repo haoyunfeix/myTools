@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <?xml-stylesheet type="text/xsl" href="testresult.xsl"?>
+<test_definition><environment build_id="" device_id="E6OKCY410686" device_model="" device_name="N/A" host="Linux-3.13.0-39-generic-x86_64-with-Ubuntu-12.04-precise" lite_version="3.1.14" manufacturer="" resolution="N/A" screen_size="N/A"><other /></environment>
+<summary test_plan_name="Empty test_plan_name"><start_at>2015-03-02_13_53_20</start_at><end_at>2015-03-02_13_57_24</end_at></summary>
+  <suite name="Usecase WebAPI">
+    <set background="brand-primary" icon="glyphicon-asterisk" name="Runtime &amp;amp; Packaging" set_debug_msg="N/A" type="js" ui-auto="bdd">
+      <testcase component="sample" execution_type="auto" id="AppURI" purpose="App URI" result="PASS">
+        <description>
+          <bdd_test_script_entry test_script_expected_result="0">/opt/usecase-webapi-xwalk-tests/testscripts/AppURI.feature</bdd_test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start /><end /><stdout>
+<![CDATA[
+@scenario.begin
+  Scenario: Runtime &amp; Packaging/AppURI Test
+    When launch "usecase-webapi-xwalk-tests" ... passed in 2.466s
+    And I go to "/samples/AppURI/index.html" ... passed in 0.876s
+    And I click "getURLInfo" ... passed in 0.326s
+    And I wait 2 seconds ... passed in 2.002s
+    Then I should see "AppURI: file:///android_asset/www/samples/AppURI/index.html" in "uri" area ... passed in 0.261s
+    Then I should see "Protocol: file:" in "protocol" area ... passed in 0.244s
+    Then I should see "Origin: file://" in "origin" area ... passed in 0.262s
+    Then I should see "Pathname: /android_asset/www/samples/AppURI/index.html" in "pathname" area ... passed in 0.246s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+getURLInfo == btn btn-default btn-lg btn-block
+]]>
+</stdout><stderr /></result_info></testcase>
+    </set>
+    <set background="brand-success" icon="glyphicon-facetime-video" name="Multimedia &amp;amp; Graphics" set_debug_msg="N/A" type="js" ui-auto="bdd">
+      <testcase component="Crosswalk Use Cases/WebAPI" execution_type="auto" id="Jsenhance" purpose="Jsenhance" result="PASS">
+        <description>
+          <bdd_test_script_entry test_script_expected_result="0">/opt/usecase-webapi-xwalk-tests/testscripts/Jsenhance.feature</bdd_test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start /><end /><stdout>
+<![CDATA[
+@scenario.begin
+  Scenario: Multimedia &amp; Graphics/Jsenhance Test
+    When launch "usecase-webapi-xwalk-tests" ... passed in 2.405s
+    And I go to "/samples/Jsenhance/index.html" ... passed in 0.891s
+    Then I should see "PASS" with "green" color in "test1" area ... passed in 0.260s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</stdout><stderr /></result_info></testcase>
+      <testcase component="sample" execution_type="auto" id="WebRTC" purpose="WebRTC" result="PASS">
+        <description>
+          <bdd_test_script_entry test_script_expected_result="0">/opt/usecase-webapi-xwalk-tests/testscripts/WebRTC.feature</bdd_test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start /><end /><stdout>
+<![CDATA[
+@scenario.begin
+  Scenario: Multimedia &amp; Graphics/WebRTC Test
+    When launch "usecase-webapi-xwalk-tests" ... passed in 2.455s
+    And I go to "/samples/WebRTC/index.html" ... passed in 0.886s
+    And I click "startbutton" ... passed in 0.416s
+    Then I should see "pc1 and pc2 are connected successfully, and can send message now!" in 5 seconds ... passed in 0.386s
+    And I fill in "pc1_input" with "Hello! Nice to meet you!" ... passed in 0.726s
+    And I click "pc1_send" ... passed in 0.329s
+    Then I should see "Received message: Hello! Nice to meet you!" in 5 seconds ... passed in 0.120s
+    And I click "stopbutton" ... passed in 0.304s
+    Then I should see "The connection is closed, stop send message now!" in 5 seconds ... passed in 0.108s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+startbutton == btn btn-default btn-lg btn-block
+pc1_send == btn btn-default btn-lg btn-block
+stopbutton == btn btn-default btn-lg btn-block
+]]>
+</stdout><stderr /></result_info></testcase>
+    </set>
+    <set background="brand-warning" icon="glyphicon-link" name="Networking &amp;amp; Storage" set_debug_msg="N/A" type="js" ui-auto="bdd">
+      <testcase component="sample" execution_type="auto" id="IndexedDB" purpose="IndexedDB" result="FAIL">
+        <description>
+          <bdd_test_script_entry test_script_expected_result="0">/opt/usecase-webapi-xwalk-tests/testscripts/IndexedDB.feature</bdd_test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start /><end /><stdout>
+<![CDATA[
+@scenario.begin
+  Scenario: Networking &amp; Storage/IndexedDB Test
+    When launch "usecase-webapi-xwalk-tests" ... passed in 2.433s
+    And I go to "/samples/IndexedDB/index.html" ... passed in 0.941s
+    And I fill in "txtName" with "name" ... passed in 0.371s
+    And I fill in "txtEmail" with "lucy" ... passed in 0.370s
+    And I click "btnAdd" ... passed in 0.312s
+    Then I should see "name" in "tableList" area ... passed in 0.251s
+    Then I should see "lucy" in "tableList" area ... passed in 0.204s
+    And I fill in "txtName" with "class" ... passed in 0.358s
+    And I fill in "txtEmail" with "student" ... passed in 0.364s
+    And I click "btnAdd" ... passed in 0.277s
+    Then I should see "class" in "tableList" area ... passed in 0.188s
+    Then I should see "student" in "tableList" area ... passed in 0.216s
+    And I fill in "txtID" with "name" ... passed in 0.378s
+    And I click "btnDelete" ... passed in 0.302s
+    Then I should not see "name" in "tableList" area ... failed in 0.000s
+    Then I should not see "lucy" in "tableList" area ... skipped in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+btnAdd == btn btn-default btn-lg btn-block
+btnAdd == btn btn-default btn-lg btn-block
+btnDelete == btn btn-default btn-lg btn-block
+]]>
+</stdout><stderr>
+<![CDATA[
+Failing step: Then I should not see "name" in "tableList" area ... failed in 0.000s
+Location: ../test-env/ASUS_MeMO_Pad_8_K011/apk/UseCase/opt/usecase-webapi-xwalk-tests/testscripts/IndexedDB.feature:17
+Traceback (most recent call last):
+  File "build/bdist.linux-x86_64/egg/behave/model.py", line 1173, in run
+    match.run(runner.context)
+  File "build/bdist.linux-x86_64/egg/behave/model.py", line 1589, in run
+    self.func(context, *args, **kwargs)
+  File "/home/qawt/xw-att-nightly_webdriver/test-env/ASUS_MeMO_Pad_8_K011/apk/UseCase/opt/usecase-webapi-xwalk-tests/testscripts/steps/steps.py", line 56, in should_see_text_element
+    assert context.app.check_normal_text_element_not_exist(
+AttributeError: WebAPP instance has no attribute 'check_normal_text_element_not_exist'
+
+Captured stdout:
+btnAdd == btn btn-default btn-lg btn-block
+btnAdd == btn btn-default btn-lg btn-block
+btnDelete == btn btn-default btn-lg btn-block
+]]>
+</stderr></result_info></testcase>
+      <testcase component="Crosswalk Use Cases/WebAPI" execution_type="auto" id="RawSockets" purpose="Raw Sockets" result="PASS">
+        <description>
+          <bdd_test_script_entry test_script_expected_result="0">/opt/usecase-webapi-xwalk-tests/testscripts/RawSockets.feature</bdd_test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start /><end /><stdout>
+<![CDATA[
+@scenario.begin
+  Scenario: Networking &amp; Storage/RawSockets Test
+    When launch "usecase-webapi-xwalk-tests" ... passed in 2.450s
+    And I go to "/samples/RawSockets/index.html" ... passed in 0.892s
+    And I click "connect" ... passed in 0.322s
+    Then I should see "TCPServersocket - Connected" ... passed in 0.117s
+    And I fill in "socketinput" with "hellow" ... passed in 0.359s
+    And I click "send" ... passed in 0.300s
+    Then I should see "TCPServersocket - receive - hellow" ... passed in 0.105s
+    Then I should see "TCPServersocket - send - hellow" ... passed in 0.123s
+    Then I should see "TCPSocket - receive - hellow" ... passed in 0.092s
+    And I click "disconnect" ... passed in 0.304s
+    Then I should see "TCPServersocket - Disconnected" ... passed in 0.092s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+connect == btn btn-default btn-lg btn-block
+send == btn btn-default btn-lg btn-block
+disconnect == btn btn-default btn-lg btn-block
+]]>
+</stdout><stderr /></result_info></testcase>
+      <testcase component="sample" execution_type="auto" id="SessionHistory" purpose="Session History" result="PASS">
+        <description>
+          <bdd_test_script_entry test_script_expected_result="0">/opt/usecase-webapi-xwalk-tests/testscripts/SessionHistory.feature</bdd_test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start /><end /><stdout>
+<![CDATA[
+@scenario.begin
+  Scenario: Networking &amp; Storage/SessionHistory Test
+    When launch "usecase-webapi-xwalk-tests" ... passed in 2.431s
+    And I go to "/samples/SessionHistory/index.html" ... passed in 0.886s
+    Then I should see "10" in "sessionID" area ... passed in 0.259s
+    And I click "sback" ... passed in 0.314s
+    Then I should see "9" in "sessionID" area ... passed in 0.210s
+    And I click "sback" ... passed in 0.272s
+    Then I should see "8" in "sessionID" area ... passed in 0.159s
+    And I click "sback" ... passed in 0.244s
+    Then I should see "7" in "sessionID" area ... passed in 0.169s
+    And I click "sforward" ... passed in 0.320s
+    Then I should see "8" in "sessionID" area ... passed in 0.120s
+    And I click "sforward" ... passed in 0.274s
+    Then I should see "9" in "sessionID" area ... passed in 0.148s
+    And I click "sforward" ... passed in 0.188s
+    Then I should see "10" in "sessionID" area ... passed in 0.138s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+sback == btn btn-default btn-lg btn-block
+sback == btn btn-default btn-lg btn-block
+sback == btn btn-default btn-lg btn-block
+sforward == btn btn-default btn-lg btn-block
+sforward == btn btn-default btn-lg btn-block
+sforward == btn btn-default btn-lg btn-block
+]]>
+</stdout><stderr /></result_info></testcase>
+      <testcase component="sample" execution_type="auto" id="WebDatabase" purpose="Web Database" result="FAIL">
+        <description>
+          <bdd_test_script_entry test_script_expected_result="0">/opt/usecase-webapi-xwalk-tests/testscripts/WebDatabase.feature</bdd_test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start /><end /><stdout>
+<![CDATA[
+@scenario.begin
+  Scenario: Networking &amp; Storage/WebDatabase Test
+    When launch "usecase-webapi-xwalk-tests" ... passed in 2.418s
+    And I go to "/samples/WebDatabase/index.html" ... passed in 1.072s
+    And I fill in "name" with "lucy" ... failed in 0.293s
+    And I fill in "age" with "13" ... skipped in 0.000s
+    And I press "add" ... skipped in 0.000s
+    Then I should see "lucy" in "tableList" area ... skipped in 0.000s
+    Then I should see "13" in "tableList" area ... skipped in 0.000s
+    And I fill in "name" with "lily" ... skipped in 0.000s
+    And I fill in "age" with "14" ... skipped in 0.000s
+    And I press "add" ... skipped in 0.000s
+    Then I should see "lily" in "tableList" area ... skipped in 0.000s
+    Then I should see "14" in "tableList" area ... skipped in 0.000s
+    And I press "query" ... skipped in 0.000s
+    Then I should see "lily" in "tableList" area ... skipped in 0.000s
+    Then I should see "14" in "tableList" area ... skipped in 0.000s
+    Then I should not see "lucy" in "tableList" area ... skipped in 0.000s
+    Then I should not see "13" in "tableList" area ... skipped in 0.000s
+    And I press "delete" ... skipped in 0.000s
+    Then I should not see "lily" in "tableList" area ... skipped in 0.000s
+    Then I should not see "14" in "tableList" area ... skipped in 0.000s
+    Then I should see "lucy" in "tableList" area ... skipped in 0.000s
+    Then I should see "13" in "tableList" area ... skipped in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</stdout><stderr>
+<![CDATA[
+Failing step: And I fill in "name" with "lucy" ... failed in 0.293s
+Location: ../test-env/ASUS_MeMO_Pad_8_K011/apk/UseCase/opt/usecase-webapi-xwalk-tests/testscripts/WebDatabase.feature:5
+Traceback (most recent call last):
+  File "build/bdist.linux-x86_64/egg/behave/model.py", line 1173, in run
+    match.run(runner.context)
+  File "build/bdist.linux-x86_64/egg/behave/model.py", line 1589, in run
+    self.func(context, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/atip-0.0.3-py2.7.egg/atip/web/steps.py", line 150, in fill_with_text
+    assert context.app.fill_element_by_key(key, text)
+  File "/usr/local/lib/python2.7/dist-packages/atip-0.0.3-py2.7.egg/atip/web/web.py", line 410, in fill_element_by_key
+    element.send_keys(text)
+  File "/usr/local/lib/python2.7/dist-packages/selenium-2.43.0-py2.7.egg/selenium/webdriver/remote/webelement.py", line 303, in send_keys
+    self._execute(Command.SEND_KEYS_TO_ELEMENT, {'value': typing})
+  File "/usr/local/lib/python2.7/dist-packages/selenium-2.43.0-py2.7.egg/selenium/webdriver/remote/webelement.py", line 385, in _execute
+    return self._parent.execute(command, params)
+  File "/usr/local/lib/python2.7/dist-packages/selenium-2.43.0-py2.7.egg/selenium/webdriver/remote/webdriver.py", line 173, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/dist-packages/selenium-2.43.0-py2.7.egg/selenium/webdriver/remote/errorhandler.py", line 166, in check_response
+    raise exception_class(message, screen, stacktrace)
+WebDriverException: Message: u'unknown error: cannot focus element\n  (Session info: xwalk=41.0.2272.74)\n  (Driver info: xwalkdriver=2.5.e5dd7bb8cae7126e9071dcb40ac474df33de7de6,platform=Linux 3.13.0-39-generic x86_64)' 
+]]>
+</stderr></result_info></testcase>
+      <testcase component="sample" execution_type="auto" id="WebMessaging" purpose="Web Messaging" result="PASS">
+        <description>
+          <bdd_test_script_entry test_script_expected_result="0">/opt/usecase-webapi-xwalk-tests/testscripts/WebMessaging.feature</bdd_test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start /><end /><stdout>
+<![CDATA[
+@scenario.begin
+  Scenario: Networking &amp; Storage/WebMessaging Test
+    When launch "usecase-webapi-xwalk-tests" ... passed in 2.433s
+    And I go to "/samples/WebMessaging/index.html" ... passed in 1.025s
+    And I fill in "sendcontent" with "hi" ... passed in 0.322s
+    And I press "b1" ... passed in 0.349s
+    And I go to frame "messageframe" ... passed in 0.131s
+    Then I should see "The received message : hi" ... passed in 0.139s
+    And I go out of frame ... passed in 0.003s
+    And I fill in "sendcontent" with "hellow" ... passed in 0.387s
+    And I press "b1" ... passed in 0.324s
+    And I go to frame "messageframe" ... passed in 0.076s
+    Then I should see "The received message : hellow" ... passed in 0.147s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+b1 == btn btn-default btn-lg btn-block
+b1 == btn btn-default btn-lg btn-block
+]]>
+</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk Use Cases/WebAPI" execution_type="auto" id="WebSocket" purpose="WebSocket" result="PASS">
+        <description>
+          <bdd_test_script_entry test_script_expected_result="0">/opt/usecase-webapi-xwalk-tests/testscripts/WebSocket.feature</bdd_test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start /><end /><stdout>
+<![CDATA[
+@scenario.begin
+  Scenario: Networking &amp; Storage/WebSocket Test
+    When launch "usecase-webapi-xwalk-tests" ... passed in 2.430s
+    And I go to "/samples/WebSocket/index.html" ... passed in 0.913s
+    And I click "connect" ... passed in 0.347s
+    Then I should see "Connecting......" ... passed in 0.116s
+    Then I should see "Successfully connect to WebSocket server" in 5 seconds ... passed in 0.094s
+    And I fill in "socketinput" with "hellow" ... passed in 0.372s
+    And I click "send" ... passed in 0.318s
+    Then I should see "WebSocket - receive - hellow" ... passed in 0.088s
+    And I click "disconnect" ... passed in 0.282s
+    Then I should see "WebSocket connection is closed" ... passed in 0.099s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+connect == btn btn-default btn-lg btn-block
+send == btn btn-default btn-lg btn-block
+disconnect == btn btn-default btn-lg btn-block
+]]>
+</stdout><stderr /></result_info></testcase>
+      <testcase component="sample" execution_type="auto" id="WebStorage" purpose="Web Storage" result="FAIL">
+        <description>
+          <bdd_test_script_entry test_script_expected_result="0">/opt/usecase-webapi-xwalk-tests/testscripts/WebStorage.feature</bdd_test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start /><end /><stdout>
+<![CDATA[
+@scenario.begin
+  Scenario: Networking &amp; Storage/WebStorage Test
+    When launch "usecase-webapi-xwalk-tests" ... passed in 2.401s
+    And I go to "/samples/WebStorage/index.html" ... passed in 0.913s
+    And I fill in "session" with "hi" ... failed in 0.271s
+    And I fill in "local" with "hellow" ... skipped in 0.000s
+    And I click "add" ... skipped in 0.000s
+    Then I should see "hi" in "tableList" area ... skipped in 0.000s
+    Then I should see "hellow" in "tableList" area ... skipped in 0.000s
+    And I click "clear" ... skipped in 0.000s
+    Then I should see "storage removed" ... skipped in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</stdout><stderr>
+<![CDATA[
+Failing step: And I fill in "session" with "hi" ... failed in 0.271s
+Location: ../test-env/ASUS_MeMO_Pad_8_K011/apk/UseCase/opt/usecase-webapi-xwalk-tests/testscripts/WebStorage.feature:5
+Traceback (most recent call last):
+  File "build/bdist.linux-x86_64/egg/behave/model.py", line 1173, in run
+    match.run(runner.context)
+  File "build/bdist.linux-x86_64/egg/behave/model.py", line 1589, in run
+    self.func(context, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/atip-0.0.3-py2.7.egg/atip/web/steps.py", line 150, in fill_with_text
+    assert context.app.fill_element_by_key(key, text)
+  File "/usr/local/lib/python2.7/dist-packages/atip-0.0.3-py2.7.egg/atip/web/web.py", line 410, in fill_element_by_key
+    element.send_keys(text)
+  File "/usr/local/lib/python2.7/dist-packages/selenium-2.43.0-py2.7.egg/selenium/webdriver/remote/webelement.py", line 303, in send_keys
+    self._execute(Command.SEND_KEYS_TO_ELEMENT, {'value': typing})
+  File "/usr/local/lib/python2.7/dist-packages/selenium-2.43.0-py2.7.egg/selenium/webdriver/remote/webelement.py", line 385, in _execute
+    return self._parent.execute(command, params)
+  File "/usr/local/lib/python2.7/dist-packages/selenium-2.43.0-py2.7.egg/selenium/webdriver/remote/webdriver.py", line 173, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/dist-packages/selenium-2.43.0-py2.7.egg/selenium/webdriver/remote/errorhandler.py", line 166, in check_response
+    raise exception_class(message, screen, stacktrace)
+WebDriverException: Message: u'unknown error: cannot focus element\n  (Session info: xwalk=41.0.2272.74)\n  (Driver info: xwalkdriver=2.5.e5dd7bb8cae7126e9071dcb40ac474df33de7de6,platform=Linux 3.13.0-39-generic x86_64)' 
+]]>
+</stderr></result_info></testcase>
+    </set>
+    <set background="brand-danger" icon="glyphicon-th-large" name="Performance &amp;amp; Optimization" set_debug_msg="N/A" type="js" ui-auto="bdd">
+      <testcase component="sample" execution_type="auto" id="NavigationTiming" purpose="Navigation Timing" result="PASS">
+        <description>
+          <bdd_test_script_entry test_script_expected_result="0">/opt/usecase-webapi-xwalk-tests/testscripts/NavigationTiming.feature</bdd_test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start /><end /><stdout>
+<![CDATA[
+@scenario.begin
+  Scenario: Performance &amp; Optimization/NavigationTiming Test
+    When launch "usecase-webapi-xwalk-tests" ... passed in 2.483s
+    And I go to "/samples/NavigationTiming/index.html" ... passed in 0.919s
+    And I click "getNavigationTiming" ... passed in 0.312s
+    Then I should not see "N/A" ... passed in 2.135s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+getNavigationTiming == btn btn-default btn-lg btn-block
+]]>
+</stdout><stderr /></result_info></testcase>
+      <testcase component="sample" execution_type="auto" id="PerformanceTimeline" purpose="Performance Timeline" result="PASS">
+        <description>
+          <bdd_test_script_entry test_script_expected_result="0">/opt/usecase-webapi-xwalk-tests/testscripts/PerformanceTimeline.feature</bdd_test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start /><end /><stdout>
+<![CDATA[
+@scenario.begin
+  Scenario: Performance &amp; Optimization/PerformanceTimeline Test
+    When launch "usecase-webapi-xwalk-tests" ... passed in 2.380s
+    And I go to "/samples/PerformanceTimeline/index.html" ... passed in 0.897s
+    And I press "pc1_send" ... passed in 0.417s
+    And I wait 20 seconds ... passed in 20.020s
+    Then I should see "http://test.csswg.org/source/support/cat.png" in "name" area ... passed in 0.256s
+    Then I should see "resource" in "entryType" area ... passed in 0.214s
+    Then I should see "ms" in "start" area ... passed in 0.224s
+    Then I should see "ms" in "duration" area ... passed in 0.218s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+pc1_send == btn btn-default btn-lg btn-block
+]]>
+</stdout><stderr /></result_info></testcase>
+      <testcase component="sample" execution_type="auto" id="ResourceTiming" purpose="Resource Timing" result="PASS">
+        <description>
+          <bdd_test_script_entry test_script_expected_result="0">/opt/usecase-webapi-xwalk-tests/testscripts/ResourceTiming.feature</bdd_test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start /><end /><stdout>
+<![CDATA[
+@scenario.begin
+  Scenario: Performance &amp; Optimization/ResourceTiming Test
+    When launch "usecase-webapi-xwalk-tests" ... passed in 2.548s
+    And I go to "/samples/ResourceTiming/index.html" ... passed in 0.898s
+    And I press "requestShow" ... passed in 0.401s
+    Then I should see "ms" in "fetchStart_redirectStart" area ... passed in 0.899s
+    Then I should see "ms" in "domainLookupStart_redirectStart" area ... passed in 0.210s
+    Then I should see "ms" in "connectStart_domainLookupEnd" area ... passed in 0.201s
+    Then I should see "ms" in "responseEnd_requestStart" area ... passed in 0.193s
+    Then I should see "ms" in "responseEnd_redirectStart" area ... passed in 0.191s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+requestShow == tagBtn btn btn-default btn-lg btn-block
+]]>
+</stdout><stderr /></result_info></testcase>
+      <testcase component="sample" execution_type="auto" id="Selectors" purpose="Selectors" result="FAIL">
+        <description>
+          <bdd_test_script_entry test_script_expected_result="0">/opt/usecase-webapi-xwalk-tests/testscripts/Selectors.feature</bdd_test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start /><end /><stdout>
+<![CDATA[
+@scenario.begin
+  Scenario: Performance &amp; Optimization/Selectors Test
+    When launch "usecase-webapi-xwalk-tests" ... passed in 2.451s
+    And I go to "/samples/Selectors/index.html" ... passed in 0.918s
+    And I press "querySelector" ... passed in 0.373s
+    Then I should see "d1" area in "green" color ... failed in 0.000s
+    And I press "querySelectorAll" ... skipped in 0.000s
+    Then I should see "d1" area in "green" color ... skipped in 0.000s
+    Then I should see "d2" area in "green" color ... skipped in 0.000s
+    Then I should see "d3" area in "green" color ... skipped in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+querySelector == btn btn-default btn-lg btn-block
+]]>
+</stdout><stderr>
+<![CDATA[
+Failing step: Then I should see "d1" area in "green" color ... failed in 0.000s
+Location: ../test-env/ASUS_MeMO_Pad_8_K011/apk/UseCase/opt/usecase-webapi-xwalk-tests/testscripts/Selectors.feature:6
+Traceback (most recent call last):
+  File "build/bdist.linux-x86_64/egg/behave/model.py", line 1173, in run
+    match.run(runner.context)
+  File "build/bdist.linux-x86_64/egg/behave/model.py", line 1589, in run
+    self.func(context, *args, **kwargs)
+  File "/home/qawt/xw-att-nightly_webdriver/test-env/ASUS_MeMO_Pad_8_K011/apk/UseCase/opt/usecase-webapi-xwalk-tests/testscripts/steps/steps.py", line 35, in should_see_text_element_with_color
+    assert context.app.check_normal_element_timeout_with_color(
+AttributeError: WebAPP instance has no attribute 'check_normal_element_timeout_with_color'
+
+Captured stdout:
+querySelector == btn btn-default btn-lg btn-block
+]]>
+</stderr></result_info></testcase>
+      <testcase component="sample" execution_type="auto" id="TypedArray" purpose="Typed Array" result="PASS">
+        <description>
+          <bdd_test_script_entry test_script_expected_result="0">/opt/usecase-webapi-xwalk-tests/testscripts/TypedArray.feature</bdd_test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start /><end /><stdout>
+<![CDATA[
+@scenario.begin
+  Scenario: Performance &amp; Optimization/TypedArray Test
+    When launch "usecase-webapi-xwalk-tests" ... passed in 2.419s
+    And I go to "/samples/TypedArray/index.html" ... passed in 0.917s
+    Then I should see "0" in "00" area ... passed in 0.237s
+    Then I should see "0" in "01" area ... passed in 0.204s
+    Then I should see "0" in "02" area ... passed in 0.199s
+    Then I should see "0" in "03" area ... passed in 0.203s
+    Then I should see "0" in "10" area ... passed in 0.199s
+    Then I should see "0" in "11" area ... passed in 0.198s
+    Then I should see "0" in "12" area ... passed in 0.201s
+    Then I should see "0" in "13" area ... passed in 0.200s
+    Then I should see "0" in "20" area ... passed in 0.197s
+    Then I should see "0" in "21" area ... passed in 0.195s
+    Then I should see "0" in "22" area ... passed in 0.191s
+    Then I should see "0" in "23" area ... passed in 0.184s
+    Then I should see "0" in "30" area ... passed in 0.187s
+    Then I should see "0" in "31" area ... passed in 0.175s
+    Then I should see "0" in "32" area ... passed in 0.217s
+    Then I should see "0" in "33" area ... passed in 0.193s
+    And I click "setValue" ... passed in 0.288s
+    Then I should see "1" in "00" area ... passed in 0.195s
+    Then I should see "1" in "01" area ... passed in 0.167s
+    Then I should see "1" in "02" area ... passed in 0.195s
+    Then I should see "1" in "03" area ... passed in 0.188s
+    Then I should see "1" in "10" area ... passed in 0.343s
+    Then I should see "1" in "11" area ... passed in 0.274s
+    Then I should see "1" in "12" area ... passed in 0.233s
+    Then I should see "1" in "13" area ... passed in 0.206s
+    Then I should see "1" in "20" area ... passed in 0.198s
+    Then I should see "1" in "21" area ... passed in 0.162s
+    Then I should see "1" in "22" area ... passed in 0.209s
+    Then I should see "1" in "23" area ... passed in 0.163s
+    Then I should see "1" in "30" area ... passed in 0.193s
+    Then I should see "1" in "31" area ... passed in 0.164s
+    Then I should see "1" in "32" area ... passed in 0.193s
+    Then I should see "1" in "33" area ... passed in 0.176s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+setValue == btn btn-default btn-lg btn-block
+]]>
+</stdout><stderr /></result_info></testcase>
+      <testcase component="sample" execution_type="auto" id="Usertiming" purpose="User Timing" result="PASS">
+        <description>
+          <bdd_test_script_entry test_script_expected_result="0">/opt/usecase-webapi-xwalk-tests/testscripts/Usertiming.feature</bdd_test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start /><end /><stdout>
+<![CDATA[
+@scenario.begin
+  Scenario: Performance &amp; Optimization/Usertiming Test
+    When launch "usecase-webapi-xwalk-tests" ... passed in 2.404s
+    And I go to "/samples/Usertiming/index.html" ... passed in 0.892s
+    And I press "compute" ... passed in 0.433s
+    Then I should see "Infinity" in "result" area ... passed in 0.196s
+    Then I should see "ms" in "start" area ... passed in 0.216s
+    Then I should see "ms" in "duration" area ... passed in 0.235s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+compute == btn btn-default btn-lg btn-block
+]]>
+</stdout><stderr /></result_info></testcase>
+      <testcase component="sample" execution_type="auto" id="Workers" purpose="Workers" result="PASS">
+        <description>
+          <bdd_test_script_entry test_script_expected_result="0">/opt/usecase-webapi-xwalk-tests/testscripts/Workers.feature</bdd_test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start /><end /><stdout>
+<![CDATA[
+@scenario.begin
+  Scenario: Performance &amp; Optimization/Workers Test
+    When launch "usecase-webapi-xwalk-tests" ... passed in 2.413s
+    And I go to "/samples/Workers/index.html" ... passed in 0.953s
+    And I press "start" ... passed in 0.395s
+    Then I should see "5000050000" in "outPut" area ... passed in 0.199s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+start == btn btn-default btn-lg btn-block
+]]>
+</stdout><stderr /></result_info></testcase>
+    </set>
+    <set background="brand-info" icon="glyphicon-hdd" name="Device &amp;amp; Hardware" set_debug_msg="N/A" type="js" ui-auto="bdd">
+      <testcase component="sample" execution_type="auto" id="Forms" purpose="Forms" result="PASS">
+        <description>
+          <bdd_test_script_entry test_script_expected_result="0">/opt/usecase-webapi-xwalk-tests/testscripts/Forms.feature</bdd_test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start /><end /><stdout>
+<![CDATA[
+@scenario.begin
+  Scenario: Device &amp; Hardware/Forms Test
+    When launch "usecase-webapi-xwalk-tests" ... passed in 2.474s
+    And I go to "/samples/Forms/index.html" ... passed in 0.948s
+    And I go to frame "myiframe" ... passed in 0.131s
+    And I fill in "myinput" with "12345" ... passed in 0.344s
+    And I click "Reset" ... passed in 0.370s
+    Then I should see nothing in "value" attr of "myinput" area ... passed in 0.095s
+    And I fill in "myinput" with "12345~!@#&gt;&lt;?{:}" ... passed in 0.615s
+    And I click "Reset" ... passed in 0.353s
+    Then I should see nothing in "value" attr of "myinput" area ... passed in 0.113s
+    And I click "Submit" ... passed in 0.390s
+    Then I should see "PASS" with "green" color in "test1" area ... passed in 0.310s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+myreset == 
+myreset == 
+mysubmit == 
+]]>
+</stdout><stderr /></result_info></testcase>
+      <testcase component="sample" execution_type="auto" id="HTMLTemplate" purpose="HTML Template" result="PASS">
+        <description>
+          <bdd_test_script_entry test_script_expected_result="0">/opt/usecase-webapi-xwalk-tests/testscripts/HTMLTemplate.feature</bdd_test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start /><end /><stdout>
+<![CDATA[
+@scenario.begin
+  Scenario: Device &amp; Hardware/HTMLTemplate Test
+    When launch "usecase-webapi-xwalk-tests" ... passed in 2.466s
+    And I go to "/samples/HTMLTemplate/index.html" ... passed in 0.899s
+    Then I should see "This sentence comes from template element as a descendant of the head element." ... passed in 0.128s
+    Then I should see "This sentence comes from template element as a descendant of the body element." ... passed in 0.114s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</stdout><stderr /></result_info></testcase>
+      <testcase component="sample" execution_type="auto" id="ShadowDom" purpose="ShadowDom" result="PASS">
+        <description>
+          <bdd_test_script_entry test_script_expected_result="0">/opt/usecase-webapi-xwalk-tests/testscripts/ShadowDom.feature</bdd_test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start /><end /><stdout>
+<![CDATA[
+@scenario.begin
+  Scenario: Device &amp; Hardware/ShadowDom Test
+    When launch "usecase-webapi-xwalk-tests" ... passed in 2.400s
+    And I go to "/samples/ShadowDom/index.html" ... passed in 0.983s
+    And I fill in "form-control" with "Alan Mathison Turing" ... passed in 0.591s
+    And I click "submit" ... passed in 0.290s
+    Then I should see "Alan Mathison Turing" in "outPut" area ... passed in 0.218s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+submit == btn btn-default btn-lg btn-block
+]]>
+</stdout><stderr /></result_info></testcase>
+    </set>
+    <set background="bs-purple" icon="glyphicon-heart" name="Social" set_debug_msg="N/A" type="js" ui-auto="bdd">
+      <testcase component="sample" execution_type="auto" id="ContactsManager" purpose="Contacts Manager" result="FAIL">
+        <description>
+          <bdd_test_script_entry test_script_expected_result="0">/opt/usecase-webapi-xwalk-tests/testscripts/ContactsManager.feature</bdd_test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start /><end /><stdout>
+<![CDATA[
+@scenario.begin
+  Scenario: Social/ContactsManager Test
+    When launch "usecase-webapi-xwalk-tests" ... passed in 2.440s
+    And I go to "/samples/ContactsManager/index.html" ... passed in 0.896s
+    And I click "saveButton" ... passed in 0.315s
+    Then I should see "David" in "David" area ... passed in 0.192s
+    Then I should see "Beckham" in "David" area ... passed in 0.194s
+    Then I should see "13913976543" in "David" area ... passed in 0.154s
+    And I fill in "queryName" with "David" ... passed in 0.360s
+    And I wait 1 seconds ... passed in 1.001s
+    And I click "queryButton" ... passed in 0.252s
+    Then I should see "David" with "red" color in "David" area ... failed in 2.311s
+    Then I should see "Beckham" with "red" color in "David" area ... skipped in 0.000s
+    Then I should see "13913976543" with "red" color in "David" area ... skipped in 0.000s
+    And I click "clearButton" ... skipped in 0.000s
+    And I wait 3 seconds ... skipped in 0.000s
+    Then I should see nothing in "innerText" attr of "tableList" area ... skipped in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+saveButton == btn btn-default btn-lg btn-block
+queryButton == btn btn-default btn-lg btn-block
+Failed to get element: 'NoneType' object has no attribute 'find'
+Failed to get element: 'NoneType' object has no attribute 'find'
+Failed to get element: 'NoneType' object has no attribute 'find'
+Failed to get element: 'NoneType' object has no attribute 'find'
+Failed to get element: 'NoneType' object has no attribute 'find'
+Failed to get element: 'NoneType' object has no attribute 'find'
+]]>
+</stdout><stderr>
+<![CDATA[
+Failing step: Then I should see "David" with "red" color in "David" area ... failed in 2.311s
+Location: ../test-env/ASUS_MeMO_Pad_8_K011/apk/UseCase/opt/usecase-webapi-xwalk-tests/testscripts/ContactsManager.feature:12
+Assertion Failed: Text was not found
+Captured stdout:
+saveButton == btn btn-default btn-lg btn-block
+queryButton == btn btn-default btn-lg btn-block
+Failed to get element: 'NoneType' object has no attribute 'find'
+Failed to get element: 'NoneType' object has no attribute 'find'
+Failed to get element: 'NoneType' object has no attribute 'find'
+Failed to get element: 'NoneType' object has no attribute 'find'
+Failed to get element: 'NoneType' object has no attribute 'find'
+Failed to get element: 'NoneType' object has no attribute 'find'
+]]>
+</stderr></result_info></testcase>
+    </set>
+    <set background="brand-warning3" icon="glyphicon-warning-sign" set_debug_msg="N/A" type="js" ui-auto="bdd">
+      <testcase component="Crosswalk Use Cases/WebAPI" execution_type="auto" id="CSP/1" purpose="CSP/CSP.Usecase WebAPI/Security/CSP/csp-none Test" result="FAIL" subcase="8">
+        <description>
+          <bdd_test_script_entry test_script_expected_result="0">/opt/usecase-webapi-xwalk-tests/testscripts/CSP.feature</bdd_test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><stdout>
+<![CDATA[
+@scenario.begin
+  Scenario: Security/CSP/csp-none Test
+    When launch "usecase-webapi-xwalk-tests" ... passed in 2.409s
+    And I go to "/samples/CSP/res/csp-none/index.html" ... passed in 0.916s
+    Then I should see "t1" area in "white" color ... failed in 0.000s
+    Then I should see "PASS" in "h3" area ... skipped in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</stdout><stderr>
+<![CDATA[
+Failing step: Then I should see "t1" area in "white" color ... failed in 0.000s
+Location: ../test-env/ASUS_MeMO_Pad_8_K011/apk/UseCase/opt/usecase-webapi-xwalk-tests/testscripts/CSP.feature:5
+Traceback (most recent call last):
+  File "build/bdist.linux-x86_64/egg/behave/model.py", line 1173, in run
+    match.run(runner.context)
+  File "build/bdist.linux-x86_64/egg/behave/model.py", line 1589, in run
+    self.func(context, *args, **kwargs)
+  File "/home/qawt/xw-att-nightly_webdriver/test-env/ASUS_MeMO_Pad_8_K011/apk/UseCase/opt/usecase-webapi-xwalk-tests/testscripts/steps/steps.py", line 35, in should_see_text_element_with_color
+    assert context.app.check_normal_element_timeout_with_color(
+AttributeError: WebAPP instance has no attribute 'check_normal_element_timeout_with_color'
+]]>
+</stderr></result_info></testcase>
+    <testcase component="Crosswalk Use Cases/WebAPI" execution_type="auto" id="CSP/2" purpose="CSP/CSP.Usecase WebAPI/Security/CSP/csp-self Test" result="PASS" subcase="8">
+        <description>
+          <bdd_test_script_entry test_script_expected_result="0">/opt/usecase-webapi-xwalk-tests/testscripts/CSP.feature</bdd_test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><stdout>
+<![CDATA[
+@scenario.begin
+  Scenario: Security/CSP/csp-self Test
+    When launch "usecase-webapi-xwalk-tests" ... passed in 2.473s
+    And I go to "/samples/CSP/res/csp-self/index.html" ... passed in 0.939s
+    Then I should see "Pass" in "t1" area ... passed in 0.285s
+    Then I should see "Pass" in "t2" area ... passed in 0.251s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</stdout></result_info></testcase>
+    <testcase component="Crosswalk Use Cases/WebAPI" execution_type="auto" id="CSP/3" purpose="CSP/CSP.Usecase WebAPI/Security/CSP/csp-asterisk Test" result="PASS" subcase="8">
+        <description>
+          <bdd_test_script_entry test_script_expected_result="0">/opt/usecase-webapi-xwalk-tests/testscripts/CSP.feature</bdd_test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><stdout>
+<![CDATA[
+@scenario.begin
+  Scenario: Security/CSP/csp-asterisk Test
+    When launch "usecase-webapi-xwalk-tests" ... passed in 2.383s
+    And I go to "/samples/CSP/res/csp-asterisk/index.html" ... passed in 0.912s
+    Then I should see "Pass" in "t1" area ... passed in 0.243s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</stdout></result_info></testcase>
+    <testcase component="Crosswalk Use Cases/WebAPI" execution_type="auto" id="CSP/4" purpose="CSP/CSP.Usecase WebAPI/Security/CSP/csp-cross-origin Test" result="FAIL" subcase="8">
+        <description>
+          <bdd_test_script_entry test_script_expected_result="0">/opt/usecase-webapi-xwalk-tests/testscripts/CSP.feature</bdd_test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><stdout>
+<![CDATA[
+@scenario.begin
+  Scenario: Security/CSP/csp-cross-origin Test
+    When launch "usecase-webapi-xwalk-tests" ... passed in 2.365s
+    And I go to "/samples/CSP/res/csp-cross-origin/index.html" ... passed in 0.913s
+    Then I should see "Pass" in "t1" area ... passed in 0.230s
+    Then I should see "Pass" in "t2" area ... passed in 0.180s
+    Then I should see "Pass" in "t3" area ... passed in 0.186s
+    Then I should see "frame1" area in "white" color ... failed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</stdout><stderr>
+<![CDATA[
+Failing step: Then I should see "frame1" area in "white" color ... failed in 0.000s
+Location: ../test-env/ASUS_MeMO_Pad_8_K011/apk/UseCase/opt/usecase-webapi-xwalk-tests/testscripts/CSP.feature:25
+Traceback (most recent call last):
+  File "build/bdist.linux-x86_64/egg/behave/model.py", line 1173, in run
+    match.run(runner.context)
+  File "build/bdist.linux-x86_64/egg/behave/model.py", line 1589, in run
+    self.func(context, *args, **kwargs)
+  File "/home/qawt/xw-att-nightly_webdriver/test-env/ASUS_MeMO_Pad_8_K011/apk/UseCase/opt/usecase-webapi-xwalk-tests/testscripts/steps/steps.py", line 35, in should_see_text_element_with_color
+    assert context.app.check_normal_element_timeout_with_color(
+AttributeError: WebAPP instance has no attribute 'check_normal_element_timeout_with_color'
+]]>
+</stderr></result_info></testcase>
+    <testcase component="Crosswalk Use Cases/WebAPI" execution_type="auto" id="CSP/5" purpose="CSP/CSP.Usecase WebAPI/Security/CSP/default-src_asterisk Test" result="PASS" subcase="8">
+        <description>
+          <bdd_test_script_entry test_script_expected_result="0">/opt/usecase-webapi-xwalk-tests/testscripts/CSP.feature</bdd_test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><stdout>
+<![CDATA[
+@scenario.begin
+  Scenario: Security/CSP/default-src_asterisk Test
+    When launch "usecase-webapi-xwalk-tests" ... passed in 2.477s
+    And I go to "/samples/CSP/res/default-src_asterisk/index.html" ... passed in 0.898s
+    Then I should see "PASS" ... passed in 0.127s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</stdout></result_info></testcase>
+    <testcase component="Crosswalk Use Cases/WebAPI" execution_type="auto" id="CSP/6" purpose="CSP/CSP.Usecase WebAPI/Security/CSP/sandbox-same-origin-allow-scripts Test" result="PASS" subcase="8">
+        <description>
+          <bdd_test_script_entry test_script_expected_result="0">/opt/usecase-webapi-xwalk-tests/testscripts/CSP.feature</bdd_test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><stdout>
+<![CDATA[
+@scenario.begin
+  Scenario: Security/CSP/sandbox-same-origin-allow-scripts Test
+    When launch "usecase-webapi-xwalk-tests" ... passed in 2.439s
+    And I go to "/samples/CSP/res/sandbox-same-origin-allow-scripts/index.html" ... passed in 0.907s
+    Then I should not see "Fail" ... passed in 2.160s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</stdout></result_info></testcase>
+    <testcase component="Crosswalk Use Cases/WebAPI" execution_type="auto" id="CSP/7" purpose="CSP/CSP.Usecase WebAPI/Security/CSP/script-src_inline_eval Test" result="PASS" subcase="8">
+        <description>
+          <bdd_test_script_entry test_script_expected_result="0">/opt/usecase-webapi-xwalk-tests/testscripts/CSP.feature</bdd_test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><stdout>
+<![CDATA[
+@scenario.begin
+  Scenario: Security/CSP/script-src_inline_eval Test
+    When launch "usecase-webapi-xwalk-tests" ... passed in 2.394s
+    And I go to "/samples/CSP/res/script-src_inline_eval/index.html" ... passed in 0.889s
+    Then I should not see "FAIL" ... passed in 2.148s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</stdout></result_info></testcase>
+    <testcase component="Crosswalk Use Cases/WebAPI" execution_type="auto" id="CSP/8" purpose="CSP/CSP.Usecase WebAPI/Security/CSP/style-src_self Test" result="FAIL" subcase="8">
+        <description>
+          <bdd_test_script_entry test_script_expected_result="0">/opt/usecase-webapi-xwalk-tests/testscripts/CSP.feature</bdd_test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><stdout>
+<![CDATA[
+@scenario.begin
+  Scenario: Security/CSP/style-src_self Test
+    When launch "usecase-webapi-xwalk-tests" ... passed in 2.323s
+    And I go to "/samples/CSP/res/style-src_self/index.html" ... passed in 0.892s
+    Then I should not see "FAIL" ... passed in 2.194s
+    Then I should see "test-blue" area in "blue" color ... failed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</stdout><stderr>
+<![CDATA[
+Failing step: Then I should see "test-blue" area in "blue" color ... failed in 0.000s
+Location: ../test-env/ASUS_MeMO_Pad_8_K011/apk/UseCase/opt/usecase-webapi-xwalk-tests/testscripts/CSP.feature:46
+Traceback (most recent call last):
+  File "build/bdist.linux-x86_64/egg/behave/model.py", line 1173, in run
+    match.run(runner.context)
+  File "build/bdist.linux-x86_64/egg/behave/model.py", line 1589, in run
+    self.func(context, *args, **kwargs)
+  File "/home/qawt/xw-att-nightly_webdriver/test-env/ASUS_MeMO_Pad_8_K011/apk/UseCase/opt/usecase-webapi-xwalk-tests/testscripts/steps/steps.py", line 35, in should_see_text_element_with_color
+    assert context.app.check_normal_element_timeout_with_color(
+AttributeError: WebAPP instance has no attribute 'check_normal_element_timeout_with_color'
+]]>
+</stderr></result_info></testcase>
+    </set>
+    <set background="brand-success3" icon="glyphicon-adjust" name="Experimental API" set_debug_msg="N/A" type="js" ui-auto="bdd">
+      <testcase component="sample" execution_type="auto" id="DeviceCapabilities" purpose="Device Capabilities" result="PASS">
+        <description>
+          <bdd_test_script_entry test_script_expected_result="0">/opt/usecase-webapi-xwalk-tests/testscripts/DeviceCapabilities.feature</bdd_test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start /><end /><stdout>
+<![CDATA[
+@scenario.begin
+  Scenario: Experimental API/DeviceCapabilities Test
+    When launch "usecase-webapi-xwalk-tests" ... passed in 2.483s
+    And I go to "/samples/DeviceCapabilities/index.html" ... passed in 0.913s
+    And I wait 1 seconds ... passed in 1.001s
+    Then I verify value in "NumOfProcessors" is "int" type ... passed in 0.052s
+    Then I verify value in "ArchName" is "string" type ... passed in 0.016s
+    Then I verify value in "Load" is "float" type ... passed in 0.014s
+    Then I verify value in "Capacity" is "int" type ... passed in 0.013s
+    Then I verify value in "AvailCapacity" is "int" type ... passed in 0.016s
+    Then I verify value in "StorageUnit number" is "int" type ... passed in 0.012s
+    Then I verify value in "StorageUnit id" is "int" type ... passed in 0.014s
+    Then I verify value in "StorageUnit name" is "string" type ... passed in 0.013s
+    Then I verify value in "StorageUnit type" is "string" type ... passed in 0.016s
+    Then I verify value in "StorageUnit capacity" is "int" type ... passed in 0.015s
+    Then I verify value in "DisplayUnit number" is "int" type ... passed in 0.016s
+    Then I verify value in "DisplayUnit id" is "int" type ... passed in 0.015s
+    Then I verify value in "DisplayUnit name" is "string" type ... passed in 0.014s
+    Then I verify value in "DisplayUnit primary" is "boolean" type ... passed in 0.022s
+    Then I verify value in "DisplayUnit external" is "boolean" type ... passed in 0.021s
+    Then I verify value in "DisplayUnit deviceXDPI" is "int" type ... passed in 0.023s
+    Then I verify value in "DisplayUnit deviceYDPI" is "int" type ... passed in 0.023s
+    Then I verify value in "DisplayUnit availWidth" is "int" type ... passed in 0.024s
+    Then I verify value in "DisplayUnit availHeight" is "int" type ... passed in 0.023s
+    Then I verify value in "DisplayUnit width" is "int" type ... passed in 0.024s
+    Then I verify value in "DisplayUnit height" is "int" type ... passed in 0.026s
+    Then I verify value in "DisplayUnit colorDepth" is "int" type ... passed in 0.025s
+    Then I verify value in "DisplayUnit pixelDepth" is "int" type ... passed in 0.022s
+    Then I verify value in "AudioCodec format" is "string" type ... passed in 0.022s
+    Then I verify value in "VideoCodec format" is "string" type ... passed in 0.024s
+    Then I verify value in "VideoCodec hwAccel" is "boolean" type ... passed in 0.030s
+    Then I verify value in "VideoCodec encode" is "boolean" type ... passed in 0.022s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</stdout><stderr /></result_info></testcase>
+      <testcase component="sample" execution_type="auto" id="SIMD" purpose="SIMD" result="FAIL">
+        <description>
+          <bdd_test_script_entry test_script_expected_result="0">/opt/usecase-webapi-xwalk-tests/testscripts/SIMD.feature</bdd_test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start /><end /><stdout>
+<![CDATA[
+@scenario.begin
+  Scenario: Experimental API/SIMD Test
+    When launch "usecase-webapi-xwalk-tests" ... passed in 2.515s
+    And I go to "/samples/SIMD/index.html" ... passed in 1.154s
+    And I go to frame "simdframe" ... passed in 0.101s
+    And I click "start" ... passed in 0.521s
+    And I wait 10 seconds ... passed in 10.010s
+    And I click "Stop" ... passed in 2.601s
+    And I save "FTP-value 1" from "fps" area ... passed in 0.174s
+    And I click "simd" ... passed in 0.430s
+    And I click "start" ... passed in 0.490s
+    And I wait 10 seconds ... passed in 10.010s
+    And I click "Stop" ... passed in 1.491s
+    And I save "FTP-value 2" from "fps" area ... passed in 0.088s
+    Then "FTP-value 2" should be greater than "FTP-value 1" ... failed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+start == btn btn-primary btn-large
+stop == btn btn-primary btn-large
+simd == btn btn-primary btn-large
+start == btn btn-primary btn-large
+stop == btn btn-primary btn-large
+]]>
+</stdout><stderr>
+<![CDATA[
+Failing step: Then "FTP-value 2" should be greater than "FTP-value 1" ... failed in 0.000s
+Location: ../test-env/ASUS_MeMO_Pad_8_K011/apk/UseCase/opt/usecase-webapi-xwalk-tests/testscripts/SIMD.feature:15
+Traceback (most recent call last):
+  File "build/bdist.linux-x86_64/egg/behave/model.py", line 1173, in run
+    match.run(runner.context)
+  File "build/bdist.linux-x86_64/egg/behave/model.py", line 1589, in run
+    self.func(context, *args, **kwargs)
+  File "/home/qawt/xw-att-nightly_webdriver/test-env/ASUS_MeMO_Pad_8_K011/apk/UseCase/opt/usecase-webapi-xwalk-tests/testscripts/steps/steps.py", line 52, in check_type_by_key
+    assert context.app.compare_two_values(first, second), u'The second value is lesser than the first one'
+AttributeError: WebAPP instance has no attribute 'compare_two_values'
+
+Captured stdout:
+start == btn btn-primary btn-large
+stop == btn btn-primary btn-large
+simd == btn btn-primary btn-large
+start == btn btn-primary btn-large
+stop == btn btn-primary btn-large
+]]>
+</stderr></result_info></testcase>
+    </set>
+  </suite>
+</test_definition>

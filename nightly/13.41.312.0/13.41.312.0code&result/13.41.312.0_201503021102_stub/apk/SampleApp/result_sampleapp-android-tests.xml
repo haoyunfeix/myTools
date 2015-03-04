@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <?xml-stylesheet type="text/xsl" href="testresult.xsl"?>
+<test_definition><environment build_id="" device_id="E6OKCY549771" device_model="" device_name="N/A" host="Linux-3.13.0-39-generic-x86_64-with-Ubuntu-12.04-precise" lite_version="3.1.14" manufacturer="" resolution="N/A" screen_size="N/A"><other /></environment>
+<summary test_plan_name="Empty test_plan_name"><start_at>2015-03-02_13_54_52</start_at><end_at>2015-03-02_13_55_07</end_at></summary>
+  <suite category="Crosswalk_Sample_App" name="sampleapp-android-tests">
+    <set name="SampleApp-pyunit" type="pyunit">
+      </set>
+    <set name="SampleApp-bdd" set_debug_msg="N/A" type="script" ui-auto="bdd">
+      <testcase component="Sample Apps" execution_type="auto" id="hexgl_appFunction" purpose="Validate if sample app HexGL function could work well" result="FAIL">
+        <description>
+          <test_script_entry>/opt/sampleapp-android-tests/sampleapp/hexgl_appFunction.html</test_script_entry>
+          <bdd_test_script_entry test_script_expected_result="0">/opt/sampleapp-android-tests/testscripts/hexgl_appFunction.feature</bdd_test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start /><end /><stdout>
+<![CDATA[
+@scenario.begin
+  Scenario: hexgl checking - MOTION
+    When launch "hexgl" ... failed in 0.001s
+    Then I should see title "HexGL" ... skipped in 0.000s
+    And I should see "QUALITY: SD" ... skipped in 0.000s
+    And I click "s-quality" ... skipped in 0.000s
+    Then I should see "QUALITY: HD" ... skipped in 0.000s
+    And I click "s-quality" ... skipped in 0.000s
+    Then I should see "QUALITY: ULTRA" ... skipped in 0.000s
+    Then I should see "CONTROLS: TOUCH" ... skipped in 0.000s
+    And I click "s-controls" ... skipped in 0.000s
+    And I should see "CONTROLS: MOTION" ... skipped in 0.000s
+    And I should see "START" ... skipped in 0.000s
+    And I click button with class "titles-button" and text "START" ... skipped in 0.000s
+    And I wait 1 seconds ... skipped in 0.000s
+    And I click "controls-2" ... skipped in 0.000s
+    Then I should see "Loading..." ... skipped in 0.000s
+    And I wait 3 seconds ... skipped in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+Failed to launch hexgl: &lt;urlopen error [Errno 111] Connection refused&gt;
+]]>
+</stdout><stderr>
+<![CDATA[
+Failing step: When launch "hexgl" ... failed in 0.001s
+Location: ../test-env/ASUS_MeMO_Pad_8_K011/apk/SampleApp/opt/sampleapp-android-tests/testscripts/hexgl_appFunction.feature:3
+Traceback (most recent call last):
+  File "build/bdist.linux-x86_64/egg/behave/model.py", line 1173, in run
+    match.run(runner.context)
+  File "build/bdist.linux-x86_64/egg/behave/model.py", line 1589, in run
+    self.func(context, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/atip-0.0.1-py2.7.egg/atip/common/steps.py", line 41, in launch_app_by_name
+    web.launch_webapp_by_name(context, app_name)
+  File "/usr/local/lib/python2.7/dist-packages/atip-0.0.1-py2.7.egg/atip/web/web.py", line 343, in launch_webapp_by_name
+    assert False
+AssertionError
+
+Captured stdout:
+Failed to launch hexgl: &lt;urlopen error [Errno 111] Connection refused&gt;
+]]>
+</stderr></result_info></testcase>
+      <testcase component="Sample Apps" execution_type="auto" id="memorygame_appFunction" purpose="Validate if sample app MemoryGame function could work well" result="FAIL">
+        <description>
+          <test_script_entry>/opt/sampleapp-android-tests/sampleapp/memorygame_appFunction.html</test_script_entry>
+          <bdd_test_script_entry test_script_expected_result="0">/opt/sampleapp-android-tests/testscripts/memorygame_appFunction.feature</bdd_test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start /><end /><stdout>
+<![CDATA[
+@scenario.begin
+  Scenario: memory game launch checking
+    When launch "memorygame" ... failed in 0.001s
+    Then I should see title "Memory Game for Older Kids" ... skipped in 0.000s
+    And I press "pagebg" ... skipped in 0.000s
+    And I should see "?" in 1 seconds ... skipped in 0.000s
+    And I press "main_help" ... skipped in 0.000s
+    And I should see "Can you make it through level four" in 1 seconds ... skipped in 0.000s
+    And I press "help_close" ... skipped in 0.000s
+    Then I should see "CHOOSE A LEVEL" ... skipped in 0.000s
+    And I press "selLevel_levelCard1" ... skipped in 0.000s
+    And I should see "LEVEL 1" in 3 seconds ... skipped in 0.000s
+    And I press "l1c2" ... skipped in 0.000s
+    And I press "l1c3" ... skipped in 0.000s
+    And I press "homebutton_backtomain" ... skipped in 0.000s
+    Then I should see "THE SPECTACULAR" in 2 seconds ... skipped in 0.000s
+    And I should see "MEMORY" ... skipped in 0.000s
+    And I should see "EXTRAVAGANZA!" ... skipped in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+Failed to launch memorygame: &lt;urlopen error [Errno 111] Connection refused&gt;
+]]>
+</stdout><stderr>
+<![CDATA[
+Failing step: When launch "memorygame" ... failed in 0.001s
+Location: ../test-env/ASUS_MeMO_Pad_8_K011/apk/SampleApp/opt/sampleapp-android-tests/testscripts/memorygame_appFunction.feature:3
+Traceback (most recent call last):
+  File "build/bdist.linux-x86_64/egg/behave/model.py", line 1173, in run
+    match.run(runner.context)
+  File "build/bdist.linux-x86_64/egg/behave/model.py", line 1589, in run
+    self.func(context, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/atip-0.0.1-py2.7.egg/atip/common/steps.py", line 41, in launch_app_by_name
+    web.launch_webapp_by_name(context, app_name)
+  File "/usr/local/lib/python2.7/dist-packages/atip-0.0.1-py2.7.egg/atip/web/web.py", line 343, in launch_webapp_by_name
+    assert False
+AssertionError
+
+Captured stdout:
+Failed to launch memorygame: &lt;urlopen error [Errno 111] Connection refused&gt;
+]]>
+</stderr></result_info></testcase>
+      <testcase component="Sample Apps" execution_type="auto" id="gallery_appFunction" purpose="Validate if sample app Gallery function could work well" result="FAIL">
+        <description>
+          <test_script_entry>/opt/sampleapp-android-tests/sampleapp/gallery_appFunction.html</test_script_entry>
+          <bdd_test_script_entry test_script_expected_result="0">/opt/sampleapp-android-tests/testscripts/gallery_appFunction.feature</bdd_test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start /><end /><stdout>
+<![CDATA[
+@scenario.begin
+  Scenario: gallery checking
+    When launch "gallery" ... failed in 0.001s
+    Then I should see title "Image Gallery" ... skipped in 0.000s
+    And I should see "View Your Photos On Wireless Display" ... skipped in 0.000s
+    And I should see "Crosswalk" ... skipped in 0.000s
+    Then I verify "Crosswalk" with link "https://crosswalk-project.org/" ... skipped in 0.000s
+    And I should see "blueimp Gallery" ... skipped in 0.000s
+    Then I verify "blueimp Gallery" with link "https://github.com/blueimp/Gallery" ... skipped in 0.000s
+    And I should see "Presentation API" ... skipped in 0.000s
+    Then I verify "Presentation API" with link "http://otcshare.github.io/presentation-spec/index.html" ... skipped in 0.000s
+    And I press "Click here for how to setup wireless display." ... skipped in 0.000s
+    Then I should see "Requirements" ... skipped in 0.000s
+    And I should see "How to Setup Wireless Display" ... skipped in 0.000s
+    And I should see "Use Simulated Secondary Display" ... skipped in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+Failed to launch gallery: &lt;urlopen error [Errno 111] Connection refused&gt;
+]]>
+</stdout><stderr>
+<![CDATA[
+Failing step: When launch "gallery" ... failed in 0.001s
+Location: ../test-env/ASUS_MeMO_Pad_8_K011/apk/SampleApp/opt/sampleapp-android-tests/testscripts/gallery_appFunction.feature:3
+Traceback (most recent call last):
+  File "build/bdist.linux-x86_64/egg/behave/model.py", line 1173, in run
+    match.run(runner.context)
+  File "build/bdist.linux-x86_64/egg/behave/model.py", line 1589, in run
+    self.func(context, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/atip-0.0.1-py2.7.egg/atip/common/steps.py", line 41, in launch_app_by_name
+    web.launch_webapp_by_name(context, app_name)
+  File "/usr/local/lib/python2.7/dist-packages/atip-0.0.1-py2.7.egg/atip/web/web.py", line 343, in launch_webapp_by_name
+    assert False
+AssertionError
+
+Captured stdout:
+Failed to launch gallery: &lt;urlopen error [Errno 111] Connection refused&gt;
+]]>
+</stderr></result_info></testcase>
+      <testcase component="Sample Apps" execution_type="auto" id="sysapps_appFunction" purpose="Validate if sample app SysApps function could work well" result="FAIL">
+        <description>
+          <test_script_entry>/opt/sampleapp-android-tests/sampleapp/sysapps_appFunction.html</test_script_entry>
+          <bdd_test_script_entry test_script_expected_result="0">/opt/sampleapp-android-tests/testscripts/sysapps_appFunction.feature</bdd_test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start /><end /><stdout>
+<![CDATA[
+@scenario.begin
+  Scenario: sysapp checking
+    When launch "sysapps" ... failed in 0.001s
+    Then I should see "Device Capabilities demo" ... skipped in 0.000s
+    And I should see "CPU" ... skipped in 0.000s
+    And I should see "Memory" ... skipped in 0.000s
+    And I should see "Storage" ... skipped in 0.000s
+    And I should see "Display" ... skipped in 0.000s
+    And I should see "Codec" ... skipped in 0.000s
+    And I wait 5 seconds ... skipped in 0.000s
+    Then I should see "CPU Monitor" ... skipped in 0.000s
+    And I should see "100" ... skipped in 0.000s
+    And I should see "0" ... skipped in 0.000s
+    And I should see "The CPU of this device is" ... skipped in 0.000s
+    And I should see "processor" ... skipped in 0.000s
+    Then I should see "Memory Monitor" ... skipped in 0.000s
+    And I should see "Used memory:" ... skipped in 0.000s
+    And I should see "Total memory:" ... skipped in 0.000s
+    Then I should see "Storage State" ... skipped in 0.000s
+    And I should see "storage device" ... skipped in 0.000s
+    And I should see "Internal" ... skipped in 0.000s
+    And I should see "sdcard" ... skipped in 0.000s
+    And I should see "and its capacity is" ... skipped in 0.000s
+    Then I should see "Display State" ... skipped in 0.000s
+    And I should see "display device" ... skipped in 0.000s
+    And I should see "an auxiliary" ... skipped in 0.000s
+    Then I should see "Check Audio/Video uploaded file" ... skipped in 0.000s
+    And I should see "Please select an audio or video file" ... skipped in 0.000s
+    And I click "file-to-upload" ... skipped in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+Failed to launch sysapps: &lt;urlopen error [Errno 111] Connection refused&gt;
+]]>
+</stdout><stderr>
+<![CDATA[
+Failing step: When launch "sysapps" ... failed in 0.001s
+Location: ../test-env/ASUS_MeMO_Pad_8_K011/apk/SampleApp/opt/sampleapp-android-tests/testscripts/sysapps_appFunction.feature:3
+Traceback (most recent call last):
+  File "build/bdist.linux-x86_64/egg/behave/model.py", line 1173, in run
+    match.run(runner.context)
+  File "build/bdist.linux-x86_64/egg/behave/model.py", line 1589, in run
+    self.func(context, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/atip-0.0.1-py2.7.egg/atip/common/steps.py", line 41, in launch_app_by_name
+    web.launch_webapp_by_name(context, app_name)
+  File "/usr/local/lib/python2.7/dist-packages/atip-0.0.1-py2.7.egg/atip/web/web.py", line 343, in launch_webapp_by_name
+    assert False
+AssertionError
+
+Captured stdout:
+Failed to launch sysapps: &lt;urlopen error [Errno 111] Connection refused&gt;
+]]>
+</stderr></result_info></testcase>
+      <testcase component="Sample Apps" execution_type="auto" id="simd_appFunction" purpose="Validate if sample app SIMD function could work well" result="FAIL">
+        <description>
+          <test_script_entry>/opt/sampleapp-android-tests/sampleapp/simd_appFunction.html</test_script_entry>
+          <bdd_test_script_entry test_script_expected_result="0">/opt/sampleapp-android-tests/testscripts/simd_appFunction.feature</bdd_test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><start /><end /><stdout>
+<![CDATA[
+@scenario.begin
+  Scenario: simd checking
+    When launch "simd" ... failed in 0.001s
+    And I wait 8 seconds ... skipped in 0.000s
+    Then I should see "START" ... skipped in 0.000s
+    Then I should see "+ SIMD" ... skipped in 0.000s
+    Then I should see "SIMD: Off" ... skipped in 0.000s
+    And I should see "FPS: 0.0" ... skipped in 0.000s
+    And I press "START" ... skipped in 0.000s
+    And I wait 5 seconds ... skipped in 0.000s
+    Then I checka "fps" is 1.8 times after click "simd" for 10 seconds ... undefined in 0.000s
+    And I press "STOP" ... skipped in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+Failed to launch simd: &lt;urlopen error [Errno 111] Connection refused&gt;
+]]>
+</stdout><stderr>
+<![CDATA[
+Failing step: When launch "simd" ... failed in 0.001s
+Location: ../test-env/ASUS_MeMO_Pad_8_K011/apk/SampleApp/opt/sampleapp-android-tests/testscripts/simd_appFunction.feature:3
+Traceback (most recent call last):
+  File "build/bdist.linux-x86_64/egg/behave/model.py", line 1173, in run
+    match.run(runner.context)
+  File "build/bdist.linux-x86_64/egg/behave/model.py", line 1589, in run
+    self.func(context, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/atip-0.0.1-py2.7.egg/atip/common/steps.py", line 41, in launch_app_by_name
+    web.launch_webapp_by_name(context, app_name)
+  File "/usr/local/lib/python2.7/dist-packages/atip-0.0.1-py2.7.egg/atip/web/web.py", line 343, in launch_webapp_by_name
+    assert False
+AssertionError
+
+Captured stdout:
+Failed to launch simd: &lt;urlopen error [Errno 111] Connection refused&gt;
+]]>
+</stderr></result_info></testcase>
+    </set>
+    <set name="SampleApp" type="js">
+      </set>
+  </suite>
+</test_definition>

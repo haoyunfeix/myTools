@@ -1,0 +1,662 @@
+--------- beginning of /dev/log/main
+02-27 17:36:04.796 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 17:36:04.796 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 17:36:04.946 I/AudioPolicyManagerBase(  186): APM: getOutput
+02-27 17:36:04.946 I/AudioPolicyManagerBase(  186): APM: getOutput
+02-27 17:36:04.946 I/AudioPolicyManagerBase(  186): APM: getOutput
+02-27 17:36:04.946 W/AudioTrack(  569): AUDIO_OUTPUT_FLAG_FAST denied by client
+02-27 17:36:04.956 D/AudioPolicyManagerALSA(  186): startOutput() output 2, stream type 1, session 485
+02-27 17:36:04.956 D/AudioHardwareALSA(  186): setStreamParameters: key value pair routing=2;stream_flags=2
+02-27 17:36:04.956 D/RouteManager(  186): setOutputFlags: output flags = 0x2 (Prev Flags=0x2)
+02-27 17:36:04.956 D/RouteManager(  186): setDevices: 0x2
+02-27 17:36:04.956 D/RouteManager(  186): setDevices: 0x2
+02-27 17:36:04.956 D/RouteManager(  186): setDevices: set device = IHF to output stream
+02-27 17:36:04.956 D/RouteManager(  186): setStreamParameters: identical Platform State, do not reconsider routing
+02-27 17:36:04.956 D/WindowManager(  505): adjustConfigurationLw, config:{1.0 ?mcc?mnc ?locale ?layoutDir sw600dp w600dp h888dp 213dpi lrg port ?uimode ?night finger -keyb/v/h -nav/v} mLidState:1 mHasDockFeature:false mHasKeyboardFeature:false mHasHallSensorFeature:true config.hardKeyboardHidden:2
+--------- beginning of /dev/log/system
+02-27 17:36:04.956 I/ActivityManager(  505): [TopPkgCurBat]	NowPkgName[com.asus.launcher]	Battery[9]	TimeTick[1425029764974]	OldPkgName[org.xwalk.usecase_webapi_xwalk_tests]
+02-27 17:36:04.976 D/AudioResamplerIA(  186): Create AudioResamplerIA Resampler: Input rate 44100, output rate 48000
+02-27 17:36:04.976 D/PROPERTY(  186): get media.dump_output.befconv: 0
+02-27 17:36:04.976 D/PROPERTY(  186): get media.dump_output.aftconv: 0
+02-27 17:36:04.976 D/RouteManager(  186): startStream: {+++ RECONSIDER ROUTING +++} due to output stream start event
+02-27 17:36:04.976 D/RouteManager(  186): reconsiderRouting
+02-27 17:36:04.976 D/EVENT_THREAD(  186): void CEventThread::trig(uint16_t): in
+02-27 17:36:04.976 D/EVENT_THREAD(  186): void CEventThread::trig(uint16_t): out
+02-27 17:36:04.976 D/RouteManager(  186): doReconsiderRouting:       Platform State:
+02-27 17:36:04.976 D/RouteManager(  186): doReconsiderRouting:          -Modem Alive = 0 
+02-27 17:36:04.976 D/RouteManager(  186): doReconsiderRouting:          -Modem Call Active = 0 
+02-27 17:36:04.976 D/RouteManager(  186): doReconsiderRouting:          -Is Shared I2S glitch free=1 
+02-27 17:36:04.976 D/RouteManager(  186): doReconsiderRouting:          -Android Telephony Mode = Normal 
+02-27 17:36:04.976 D/RouteManager(  186): doReconsiderRouting:          -RTE MGR HW Mode = Normal 
+02-27 17:36:04.976 D/RouteManager(  186): doReconsiderRouting:          -BT Enabled = 1 
+02-27 17:36:04.976 D/RouteManager(  186): doReconsiderRouting:          -BT NREC = 0 
+02-27 17:36:04.976 D/RouteManager(  186): doReconsiderRouting:          -BT Band = NB 
+02-27 17:36:04.976 D/RouteManager(  186): doReconsiderRouting:          -Platform output device = IHF 
+02-27 17:36:04.976 D/RouteManager(  186): doReconsiderRouting:          -Platform input device = <none> 
+02-27 17:36:04.976 D/RouteManager(  186): doReconsiderRouting:          -Platform input source = None 
+02-27 17:36:04.976 D/RouteManager(  186): doReconsiderRouting:          -Platform Band type = NB 
+02-27 17:36:04.976 D/RouteManager(  186): doReconsiderRouting:          -Platform Has Direct Stream = no 
+02-27 17:36:04.976 D/RouteManager(  186): doReconsiderRouting:          -Platform TTY direction = <none> 
+02-27 17:36:04.976 D/RouteManager(  186): doReconsiderRouting:          -Platform HAC Mode = Off 
+02-27 17:36:04.976 D/RouteManager(  186): doReconsiderRouting:          -Platform Screen State = On 
+02-27 17:36:04.976 D/RouteManager(  186): doReconsiderRouting:          -Platform Context Awareness = false 
+02-27 17:36:04.976 D/RouteManager(  186): doReconsiderRouting:          -Platform Always Listening = false 
+02-27 17:36:04.976 D/RouteManager(  186): doReconsiderRouting:          -Platform FM State = Off 
+02-27 17:36:04.976 D/RouteManager(  186): doReconsiderRouting:          -Platform Bypass Non Linear PP State = Off 
+02-27 17:36:04.976 D/RouteManager(  186): doReconsiderRouting:          -Platform Bypass Linear PP State = Off 
+02-27 17:36:04.976 D/RouteManager(  186): doReconsiderRouting:          -Platform MicMute = Off 
+02-27 17:36:04.976 D/RouteManager(  186): doReconsiderRouting:      Route state:
+02-27 17:36:04.976 D/RouteManager(  186): doReconsiderRouting:          -Previously Enabled Route in Input = <none>
+02-27 17:36:04.976 D/RouteManager(  186): doReconsiderRouting:          -Previously Enabled Route in Output = <none>
+02-27 17:36:04.976 D/RouteManager(  186): doReconsiderRouting:          -Selected Route in Input = <none>
+02-27 17:36:04.976 D/RouteManager(  186): doReconsiderRouting:          -Selected Route in Output = Media|HwCodecMedia
+02-27 17:36:04.976 D/RouteManager(  186): doReconsiderRouting:          -Route that need reconfiguration in Input = <none>
+02-27 17:36:04.976 D/RouteManager(  186): doReconsiderRouting:          -Route that need reconfiguration in Output = <none>
+02-27 17:36:04.986 D/RouteManager(  186): executeMuteStage: --------------- Routing Stage = Mute ---------------
+02-27 17:36:04.986 D/RouteManager(  186): parameter-framework: Selection criterion changed event: Criterion name: RoutageState, current state: Flow
+02-27 17:36:04.986 D/RouteManager(  186): parameter-framework: Configuration application request {
+02-27 17:36:04.986 D/RouteManager(  186): parameter-framework:     Applying configurations {
+02-27 17:36:04.986 D/RouteManager(  186): parameter-framework:     } Applying configurations
+02-27 17:36:04.986 D/RouteManager(  186): parameter-framework: } Configuration application request
+02-27 17:36:04.986 D/RouteManager(  186): executeDisableStage: --------------- Routing Stage = Disable ---------------
+02-27 17:36:04.986 D/RouteManager(  186): parameter-framework: Selection criterion changed event: Criterion name: RoutageState, current state: Path
+02-27 17:36:04.986 D/RouteManager(  186): parameter-framework: Configuration application request {
+02-27 17:36:04.986 D/RouteManager(  186): parameter-framework:     Applying configurations {
+02-27 17:36:04.986 D/RouteManager(  186): parameter-framework:     } Applying configurations
+02-27 17:36:04.986 D/RouteManager(  186): parameter-framework: } Configuration application request
+02-27 17:36:04.986 D/RouteManager(  186): executeConfigureStage: --------------- Routing Stage = Configure ---------------
+02-27 17:36:04.986 D/RouteManager(  186): parameter-framework: Selection criterion changed event: Criterion name: RoutageState, current state: Configure
+02-27 17:36:04.986 D/RouteManager(  186): parameter-framework: Selection criterion changed event: Criterion name: OpenedPlaybackRoutes, current state: Media|HwCodecMedia
+02-27 17:36:04.986 D/RouteManager(  186): parameter-framework: Selection criterion changed event: Criterion name: ScreenState, current state: On
+02-27 17:36:04.986 D/RouteManager(  186): parameter-framework: Configuration application request {
+02-27 17:36:04.986 D/RouteManager(  186): parameter-framework:     Applying configurations {
+02-27 17:36:04.986 D/RouteManager(  186): parameter-framework:         Applying configuration "Activated" from domain "Routing.Configure.LPE_Mixer.IHF"
+02-27 17:36:04.996 D/        (  569): Surface destroy: ANDROID_NATIVE_WINDOW_MAGIC
+02-27 17:36:05.016 E/AppsCustomizePagedView(28178): Widget ComponentInfo{com.asus.contacts/com.android.contacts.miniwidget.ContactsWidget} has invalid dimensions (0, 0)
+02-27 17:36:05.016 E/AppsCustomizePagedView(28178): Widget ComponentInfo{com.asus.calendar/com.android.calendar.widget2.CalendarAppWidgetPadProvider} has invalid dimensions (0, 0)
+02-27 17:36:05.016 D/RouteManager(  186): parameter-framework:     } Applying configurations
+02-27 17:36:05.016 D/RouteManager(  186): parameter-framework: } Configuration application request
+02-27 17:36:05.016 D/RouteManager(  186): executeEnableStage: --------------- Routing Stage = Enable ---------------
+02-27 17:36:05.016 D/RouteManager(  186): parameter-framework: Selection criterion changed event: Criterion name: RoutageState, current state: Path|Configure
+02-27 17:36:05.016 D/RouteManager(  186): doEnableRoutes: Routes to be enabled(routed) in Output = Media|HwCodecMedia
+02-27 17:36:05.016 D/RouteManager(  186): parameter-framework: Configuration application request {
+02-27 17:36:05.016 D/RouteManager(  186): parameter-framework:     Applying configurations {
+02-27 17:36:05.016 D/RouteManager(  186): parameter-framework:         Applying configuration "Enable" from domain "Routing.Enable.HWCodec.Playback.IHF"
+02-27 17:36:05.016 D/RouteManager(  186): parameter-framework:         Applying configuration "Enable" from domain "Routing.Enable.HWCodec.Playback.Multimedia.IHF"
+02-27 17:36:05.016 D/RouteManager(  186): parameter-framework:         Applying configuration "Enable" from domain "Routing.Enable.HWCodec.Playback.Multimedia.Playback"
+02-27 17:36:05.026 D/RouteManager(  186): parameter-framework:     } Applying configurations
+02-27 17:36:05.026 D/RouteManager(  186): parameter-framework: } Configuration application request
+02-27 17:36:05.026 D/RouteManager(  186): doEnableRoutes: Routes to be enabled(routed) in Output = Media|HwCodecMedia
+02-27 17:36:05.026 D/RouteManager/StreamRoute(  186): openPcmDevice called for card (baytrailaudio,0)
+02-27 17:36:05.026 D/RouteManager/StreamRoute(  186): openPcmDevice		 config=rate(48000), format(0), channels(2))
+02-27 17:36:05.026 D/RouteManager/StreamRoute(  186): openPcmDevice		 period_size=1152, period_count=4
+02-27 17:36:05.026 D/RouteManager/StreamRoute(  186): openPcmDevice		 startTh=4607, stop Th=4608 silence Th=0
+02-27 17:36:05.026 D/AsusPhoneStatusBar(  569): disable: < expand icons alerts ticker system_info back* home* recent* clock* search >
+02-27 17:36:05.056 V/WeatherTimeProvider(28237): widget on Visibility Changed
+02-27 17:36:05.056 W/InputMethodManagerService(  505): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@221ad818 attribute=android.view.inputmethod.EditorInfo@22107f48, token = android.os.BinderProxy@2257fdb0
+02-27 17:36:05.066 D/XT9IME  (28220): new subtype :zh_CN ,pinyin
+02-27 17:36:05.106 D/ALSAStreamOps(  186): attachRouteL output stream
+02-27 17:36:05.106 D/AudioConversion(  186): configure: no convertion required
+02-27 17:36:05.106 D/RouteManager(  186): executeUnmuteStage: --------------- Routing Stage = Unmute ---------------
+02-27 17:36:05.106 D/RouteManager(  186): parameter-framework: Selection criterion changed event: Criterion name: RoutageState, current state: Flow|Path|Configure
+02-27 17:36:05.106 D/RouteManager(  186): parameter-framework: Configuration application request {
+02-27 17:36:05.106 D/RouteManager(  186): parameter-framework:     Applying configurations {
+02-27 17:36:05.106 D/RouteManager(  186): parameter-framework:     } Applying configurations
+02-27 17:36:05.106 D/RouteManager(  186): parameter-framework: } Configuration application request
+02-27 17:36:05.106 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 17:36:05.106 D/RouteManager(  186): reconsiderRouting: DONE
+02-27 17:36:05.466 V/KeyguardHostView(  569): onDetachedFromWindow = com.android.keyguard.KeyguardHostView{22c5f2b0 V.E..... ......ID 0,0-800,1280 #7f0a0029 app:id/keyguard_host_view}
+02-27 17:36:06.096 D/AndroidRuntime(30550): 
+02-27 17:36:06.096 D/AndroidRuntime(30550): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-27 17:36:06.096 D/AndroidRuntime(30550): CheckJNI is OFF
+02-27 17:36:06.096 I/AndroidRuntime(30550): Kernel Release Version: 3.10.20-gf818079
+02-27 17:36:06.096 I/dalvikvm(30550): No library specified. The standard exception handler will be used
+02-27 17:36:06.096 I/dalvikvm(30550): 
+02-27 17:36:06.096 I/dalvikvm(30550): +++++++++++++ Using PCG. +++++++++++++++++++++
+02-27 17:36:06.106 D/dalvikvm(30550): Trying to load lib libjavacore.so 0x0
+02-27 17:36:06.106 D/dalvikvm(30550): Added shared lib libjavacore.so 0x0
+02-27 17:36:06.106 D/dalvikvm(30550): Trying to load lib libnativehelper.so 0x0
+02-27 17:36:06.106 D/dalvikvm(30550): Added shared lib libnativehelper.so 0x0
+02-27 17:36:06.106 D/dalvikvm(30550): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-27 17:36:06.116 D/dalvikvm(30550): Extra Options: not specified
+02-27 17:36:06.126 D/dalvikvm(30550): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+02-27 17:36:06.196 E/memtrack(30550): Couldn't load memtrack module (No such file or directory)
+02-27 17:36:06.196 E/android.os.Debug(30550): failed to load memtrack module: -2
+02-27 17:36:06.226 D/AndroidRuntime(30550): Calling main entry com.android.commands.am.Am
+02-27 17:36:06.266 D/AndroidRuntime(30550): Shutting down VM
+02-27 17:36:06.266 D/dalvikvm(30550): GC_CONCURRENT freed 108K, 16% free 638K/760K, paused 0ms+0ms, total 1ms
+02-27 17:36:06.266 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 17:36:06.266 D/wpa_supplicant(  711): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 17:36:06.266 D/wpa_supplicant(  711): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 17:36:06.266 I/ActivityManager(  505): Force stopping org.xwalk.webapi_noneservice_tests appid=10085 user=0: from pid 30550
+02-27 17:36:06.276 D/dalvikvm(30550): Compiler shutdown in progress - discarding request
+02-27 17:36:06.276 D/dalvikvm(30550): Compiler shutdown in progress - discarding request
+02-27 17:36:06.276 D/dalvikvm(30550): Compiler shutdown in progress - discarding request
+02-27 17:36:06.276 D/dalvikvm(30550): Compiler shutdown in progress - discarding request
+02-27 17:36:06.276 D/dalvikvm(30550): Compiler shutdown in progress - discarding request
+02-27 17:36:06.276 D/dalvikvm(30550): Compiler shutdown in progress - discarding request
+02-27 17:36:06.276 D/dalvikvm(30550): Compiler shutdown in progress - discarding request
+02-27 17:36:06.276 D/dalvikvm(30550): Compiler shutdown in progress - discarding request
+02-27 17:36:06.276 D/dalvikvm(30550): Compiler shutdown in progress - discarding request
+02-27 17:36:06.276 D/dalvikvm(30550): Compiler shutdown in progress - discarding request
+02-27 17:36:06.276 D/dalvikvm(30550): Compiler shutdown in progress - discarding request
+02-27 17:36:06.276 D/dalvikvm(30550): Compiler shutdown in progress - discarding request
+02-27 17:36:06.276 D/dalvikvm(30550): Compiler shutdown in progress - discarding request
+02-27 17:36:06.276 D/dalvikvm(30550): Compiler shutdown in progress - discarding request
+02-27 17:36:06.276 D/dalvikvm(30550): Compiler shutdown in progress - discarding request
+02-27 17:36:06.276 D/dalvikvm(30550): Compiler shutdown in progress - discarding request
+02-27 17:36:06.276 D/dalvikvm(30550): Compiler shutdown in progress - discarding request
+02-27 17:36:06.276 D/dalvikvm(30550): Compiler shutdown in progress - discarding request
+02-27 17:36:06.276 D/dalvikvm(30550): Compiler shutdown in progress - discarding request
+02-27 17:36:06.276 D/dalvikvm(30550): Compiler shutdown in progress - discarding request
+02-27 17:36:06.276 D/dalvikvm(30550): Compiler shutdown in progress - discarding request
+02-27 17:36:06.276 D/dalvikvm(30550): Compiler shutdown in progress - discarding request
+02-27 17:36:06.276 D/dalvikvm(30550): Compiler shutdown in progress - discarding request
+02-27 17:36:06.276 D/dalvikvm(30550): Compiler shutdown in progress - discarding request
+02-27 17:36:06.276 D/dalvikvm(30550): Compiler shutdown in progress - discarding request
+02-27 17:36:06.276 D/dalvikvm(30550): Compiler shutdown in progress - discarding request
+02-27 17:36:06.276 D/dalvikvm(30550): Compiler shutdown in progress - discarding request
+02-27 17:36:06.276 D/dalvikvm(30550): Compiler shutdown in progress - discarding request
+02-27 17:36:06.276 D/dalvikvm(30550): Compiler shutdown in progress - discarding request
+02-27 17:36:06.276 D/dalvikvm(30550): Compiler shutdown in progress - discarding request
+02-27 17:36:06.276 D/dalvikvm(30550): Compiler shutdown in progress - discarding request
+02-27 17:36:06.276 D/dalvikvm(30550): Compiler shutdown in progress - discarding request
+02-27 17:36:06.276 D/dalvikvm(30550): Compiler shutdown in progress - discarding request
+02-27 17:36:06.276 D/dalvikvm(30550): Compiler shutdown in progress - discarding request
+02-27 17:36:06.276 D/dalvikvm(30550): Compiler shutdown in progress - discarding request
+02-27 17:36:06.276 D/dalvikvm(30550): Compiler shutdown in progress - discarding request
+02-27 17:36:06.276 D/dalvikvm(30550): Compiler shutdown in progress - discarding request
+02-27 17:36:06.276 D/dalvikvm(30550): Compiler shutdown in progress - discarding request
+02-27 17:36:06.276 D/dalvikvm(30550): Compiler shutdown in progress - discarding request
+02-27 17:36:06.276 D/dalvikvm(30550): Compiler shutdown in progress - discarding request
+02-27 17:36:06.276 D/dalvikvm(30550): Compiler shutdown in progress - discarding request
+02-27 17:36:06.296 D/wpa_supplicant(  711): nl80211: survey data missing!
+02-27 17:36:06.296 I/WifiHW  (  505): REPLY: RSSI=-45
+02-27 17:36:06.296 I/WifiHW  (  505): REPLY: LINKSPEED=58
+02-27 17:36:06.296 I/WifiHW  (  505): REPLY: NOISE=9999
+02-27 17:36:06.296 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+02-27 17:36:06.446 V/WeatherTimeProvider(28237): widget on Visibility Changed
+02-27 17:36:06.706 D/AndroidRuntime(30561): 
+02-27 17:36:06.706 D/AndroidRuntime(30561): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-27 17:36:06.706 D/AndroidRuntime(30561): CheckJNI is OFF
+02-27 17:36:06.706 I/AndroidRuntime(30561): Kernel Release Version: 3.10.20-gf818079
+02-27 17:36:06.706 I/dalvikvm(30561): No library specified. The standard exception handler will be used
+02-27 17:36:06.706 I/dalvikvm(30561): 
+02-27 17:36:06.706 I/dalvikvm(30561): +++++++++++++ Using PCG. +++++++++++++++++++++
+02-27 17:36:06.716 D/dalvikvm(30561): Trying to load lib libjavacore.so 0x0
+02-27 17:36:06.716 D/dalvikvm(30561): Added shared lib libjavacore.so 0x0
+02-27 17:36:06.716 D/dalvikvm(30561): Trying to load lib libnativehelper.so 0x0
+02-27 17:36:06.716 D/dalvikvm(30561): Added shared lib libnativehelper.so 0x0
+02-27 17:36:06.716 D/dalvikvm(30561): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-27 17:36:06.726 D/dalvikvm(30561): Extra Options: not specified
+02-27 17:36:06.736 D/dalvikvm(30561): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+02-27 17:36:06.816 E/memtrack(30561): Couldn't load memtrack module (No such file or directory)
+02-27 17:36:06.816 E/android.os.Debug(30561): failed to load memtrack module: -2
+02-27 17:36:06.846 D/AndroidRuntime(30561): Calling main entry com.android.commands.am.Am
+02-27 17:36:06.876 D/AndroidRuntime(30561): Shutting down VM
+02-27 17:36:06.876 I/ActivityManager(  505): START u0 {flg=0x10000000 cmp=org.xwalk.webapi_noneservice_tests/.webapi_noneservice_testsActivity} from pid 30561
+02-27 17:36:06.886 D/dalvikvm(30561): GC_CONCURRENT freed 113K, 16% free 674K/800K, paused 0ms+0ms, total 3ms
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:06.896 D/dalvikvm(30561): Compiler shutdown in progress - discarding request
+02-27 17:36:07.076 I/AudioPolicyManagerBase(  186): APM: getOutput
+02-27 17:36:07.076 I/AudioPolicyManagerBase(  186): APM: getOutput
+02-27 17:36:07.076 I/AudioPolicyManagerBase(  186): APM: getOutput
+02-27 17:36:07.076 W/AudioTrack(  505): AUDIO_OUTPUT_FLAG_FAST denied by client
+02-27 17:36:07.076 D/AudioPolicyManagerALSA(  186): startOutput() output 2, stream type 1, session 486
+02-27 17:36:07.086 D/AudioHardwareALSA(  186): setStreamParameters: key value pair routing=2;stream_flags=2
+02-27 17:36:07.086 D/RouteManager(  186): setOutputFlags: output flags = 0x2 (Prev Flags=0x2)
+02-27 17:36:07.086 D/RouteManager(  186): setDevices: 0x2
+02-27 17:36:07.086 D/RouteManager(  186): setDevices: 0x2
+02-27 17:36:07.086 D/RouteManager(  186): setDevices: set device = IHF to output stream
+02-27 17:36:07.086 D/RouteManager(  186): setStreamParameters: identical Platform State, do not reconsider routing
+02-27 17:36:07.096 D/AudioResamplerIA(  186): Create AudioResamplerIA Resampler: Input rate 44100, output rate 48000
+02-27 17:36:07.246 D/dalvikvm(28178): GC_CONCURRENT freed 3363K, 25% free 10219K/13600K, paused 1ms+1ms, total 12ms
+02-27 17:36:07.306 D/AndroidRuntime(30573): 
+02-27 17:36:07.306 D/AndroidRuntime(30573): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-27 17:36:07.306 D/AndroidRuntime(30573): CheckJNI is OFF
+02-27 17:36:07.306 I/AndroidRuntime(30573): Kernel Release Version: 3.10.20-gf818079
+02-27 17:36:07.306 I/dalvikvm(30573): No library specified. The standard exception handler will be used
+02-27 17:36:07.306 I/dalvikvm(30573): 
+02-27 17:36:07.306 I/dalvikvm(30573): +++++++++++++ Using PCG. +++++++++++++++++++++
+02-27 17:36:07.316 D/dalvikvm(30573): Trying to load lib libjavacore.so 0x0
+02-27 17:36:07.316 D/dalvikvm(30573): Added shared lib libjavacore.so 0x0
+02-27 17:36:07.316 D/dalvikvm(30573): Trying to load lib libnativehelper.so 0x0
+02-27 17:36:07.316 D/dalvikvm(30573): Added shared lib libnativehelper.so 0x0
+02-27 17:36:07.316 D/dalvikvm(30573): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-27 17:36:07.326 D/dalvikvm(30573): Extra Options: not specified
+02-27 17:36:07.336 D/dalvikvm(30573): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+02-27 17:36:07.406 E/memtrack(30573): Couldn't load memtrack module (No such file or directory)
+02-27 17:36:07.406 E/android.os.Debug(30573): failed to load memtrack module: -2
+02-27 17:36:07.456 D/AndroidRuntime(30573): Calling main entry com.android.commands.am.Am
+02-27 17:36:07.496 D/AndroidRuntime(30573): Shutting down VM
+02-27 17:36:07.496 D/dalvikvm(30573): GC_CONCURRENT freed 113K, 16% free 674K/800K, paused 0ms+0ms, total 1ms
+02-27 17:36:07.496 D/dalvikvm(30573): Compiler shutdown in progress - discarding request
+02-27 17:36:07.496 D/dalvikvm(30573): Compiler shutdown in progress - discarding request
+02-27 17:36:07.496 D/dalvikvm(30573): Compiler shutdown in progress - discarding request
+02-27 17:36:07.496 D/dalvikvm(30573): Compiler shutdown in progress - discarding request
+02-27 17:36:07.496 D/dalvikvm(30573): Compiler shutdown in progress - discarding request
+02-27 17:36:07.496 D/dalvikvm(30573): Compiler shutdown in progress - discarding request
+02-27 17:36:07.496 D/dalvikvm(30573): Compiler shutdown in progress - discarding request
+02-27 17:36:07.496 D/dalvikvm(30573): Compiler shutdown in progress - discarding request
+02-27 17:36:07.496 D/dalvikvm(30573): Compiler shutdown in progress - discarding request
+02-27 17:36:07.496 D/dalvikvm(30573): Compiler shutdown in progress - discarding request
+02-27 17:36:07.496 D/dalvikvm(30573): Compiler shutdown in progress - discarding request
+02-27 17:36:07.496 D/dalvikvm(30573): Compiler shutdown in progress - discarding request
+02-27 17:36:07.496 D/dalvikvm(30573): Compiler shutdown in progress - discarding request
+02-27 17:36:07.496 D/dalvikvm(30573): Compiler shutdown in progress - discarding request
+02-27 17:36:07.496 D/dalvikvm(30573): Compiler shutdown in progress - discarding request
+02-27 17:36:07.496 D/dalvikvm(30573): Compiler shutdown in progress - discarding request
+02-27 17:36:07.496 D/dalvikvm(30573): Compiler shutdown in progress - discarding request
+02-27 17:36:07.496 D/dalvikvm(30573): Compiler shutdown in progress - discarding request
+02-27 17:36:07.496 D/dalvikvm(30573): Compiler shutdown in progress - discarding request
+02-27 17:36:07.496 D/dalvikvm(30573): Compiler shutdown in progress - discarding request
+02-27 17:36:07.496 D/dalvikvm(30573): Compiler shutdown in progress - discarding request
+02-27 17:36:07.496 D/dalvikvm(30573): Compiler shutdown in progress - discarding request
+02-27 17:36:07.496 D/dalvikvm(30573): Compiler shutdown in progress - discarding request
+02-27 17:36:07.496 D/dalvikvm(30573): Compiler shutdown in progress - discarding request
+02-27 17:36:07.496 D/dalvikvm(30573): Compiler shutdown in progress - discarding request
+02-27 17:36:07.496 D/dalvikvm(30573): Compiler shutdown in progress - discarding request
+02-27 17:36:07.496 D/dalvikvm(30573): Compiler shutdown in progress - discarding request
+02-27 17:36:07.496 D/dalvikvm(30573): Compiler shutdown in progress - discarding request
+02-27 17:36:07.496 D/dalvikvm(30573): Compiler shutdown in progress - discarding request
+02-27 17:36:07.496 D/dalvikvm(30573): Compiler shutdown in progress - discarding request
+02-27 17:36:07.496 D/dalvikvm(30573): Compiler shutdown in progress - discarding request
+02-27 17:36:07.496 D/dalvikvm(30573): Compiler shutdown in progress - discarding request
+02-27 17:36:07.496 D/dalvikvm(30573): Compiler shutdown in progress - discarding request
+02-27 17:36:07.496 D/dalvikvm(30573): Compiler shutdown in progress - discarding request
+02-27 17:36:07.496 D/dalvikvm(30573): Compiler shutdown in progress - discarding request
+02-27 17:36:07.496 D/dalvikvm(30573): Compiler shutdown in progress - discarding request
+02-27 17:36:07.496 D/dalvikvm(30573): Compiler shutdown in progress - discarding request
+02-27 17:36:07.496 D/dalvikvm(30573): Compiler shutdown in progress - discarding request
+02-27 17:36:07.496 D/dalvikvm(30573): Compiler shutdown in progress - discarding request
+02-27 17:36:07.496 D/dalvikvm(30573): Compiler shutdown in progress - discarding request
+02-27 17:36:07.496 D/dalvikvm(30573): Compiler shutdown in progress - discarding request
+02-27 17:36:07.496 D/dalvikvm(30573): Compiler shutdown in progress - discarding request
+02-27 17:36:07.496 D/dalvikvm(30573): Compiler shutdown in progress - discarding request
+02-27 17:36:07.496 D/dalvikvm(30573): Compiler shutdown in progress - discarding request
+02-27 17:36:07.496 D/dalvikvm(30573): Compiler shutdown in progress - discarding request
+02-27 17:36:07.496 D/dalvikvm(30573): Compiler shutdown in progress - discarding request
+02-27 17:36:07.496 I/ActivityManager(  505): START u0 {flg=0x10000000 cmp=org.xwalk.webapi_noneservice_tests/.webapi_noneservice_tests} from pid 30573
+02-27 17:36:07.636 D/XT9IME  (28220): new subtype :zh_CN ,pinyin
+02-27 17:36:07.636 I/Choreographer(28178): Skipped 32 frames!  The application may be doing too much work on its main thread.
+02-27 17:36:08.106 D/AndroidRuntime(30586): 
+02-27 17:36:08.106 D/AndroidRuntime(30586): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-27 17:36:08.106 D/AndroidRuntime(30586): CheckJNI is OFF
+02-27 17:36:08.106 I/AndroidRuntime(30586): Kernel Release Version: 3.10.20-gf818079
+02-27 17:36:08.106 I/dalvikvm(30586): No library specified. The standard exception handler will be used
+02-27 17:36:08.106 I/dalvikvm(30586): 
+02-27 17:36:08.106 I/dalvikvm(30586): +++++++++++++ Using PCG. +++++++++++++++++++++
+02-27 17:36:08.116 D/dalvikvm(30586): Trying to load lib libjavacore.so 0x0
+02-27 17:36:08.116 D/dalvikvm(30586): Added shared lib libjavacore.so 0x0
+02-27 17:36:08.116 D/dalvikvm(30586): Trying to load lib libnativehelper.so 0x0
+02-27 17:36:08.116 D/dalvikvm(30586): Added shared lib libnativehelper.so 0x0
+02-27 17:36:08.116 D/dalvikvm(30586): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-27 17:36:08.126 D/dalvikvm(30586): Extra Options: not specified
+02-27 17:36:08.136 D/dalvikvm(30586): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+02-27 17:36:08.196 D/dalvikvm(28178): GC_FOR_ALLOC freed 2178K, 23% free 11127K/14360K, paused 5ms, total 5ms
+02-27 17:36:08.216 E/memtrack(30586): Couldn't load memtrack module (No such file or directory)
+02-27 17:36:08.216 E/android.os.Debug(30586): failed to load memtrack module: -2
+02-27 17:36:08.256 D/AndroidRuntime(30586): Calling main entry com.android.commands.am.Am
+02-27 17:36:08.306 I/ActivityManager(  505): START u0 {flg=0x10000000 cmp=org.xwalk.webapi_noneservice_tests/.WebapiNoneserviceTestsActivity} from pid 30586
+02-27 17:36:08.326 D/AndroidRuntime(30586): Shutting down VM
+02-27 17:36:08.326 D/dalvikvm(30586): GC_CONCURRENT freed 110K, 16% free 673K/800K, paused 0ms+0ms, total 1ms
+02-27 17:36:08.326 D/dalvikvm(30586): Compiler shutdown in progress - discarding request
+02-27 17:36:08.326 D/dalvikvm(30586): Compiler shutdown in progress - discarding request
+02-27 17:36:08.326 D/dalvikvm(30586): Compiler shutdown in progress - discarding request
+02-27 17:36:08.326 D/dalvikvm(30586): Compiler shutdown in progress - discarding request
+02-27 17:36:08.326 D/dalvikvm(30586): Compiler shutdown in progress - discarding request
+02-27 17:36:08.326 D/dalvikvm(30586): Compiler shutdown in progress - discarding request
+02-27 17:36:08.326 D/dalvikvm(30586): Compiler shutdown in progress - discarding request
+02-27 17:36:08.326 D/dalvikvm(30586): Compiler shutdown in progress - discarding request
+02-27 17:36:08.326 D/dalvikvm(30586): Compiler shutdown in progress - discarding request
+02-27 17:36:08.326 D/dalvikvm(30586): Compiler shutdown in progress - discarding request
+02-27 17:36:08.326 D/dalvikvm(30586): Compiler shutdown in progress - discarding request
+02-27 17:36:08.326 D/dalvikvm(30586): Compiler shutdown in progress - discarding request
+02-27 17:36:08.326 D/dalvikvm(30586): Compiler shutdown in progress - discarding request
+02-27 17:36:08.326 D/dalvikvm(30586): Compiler shutdown in progress - discarding request
+02-27 17:36:08.326 D/dalvikvm(30586): Compiler shutdown in progress - discarding request
+02-27 17:36:08.326 D/dalvikvm(30586): Compiler shutdown in progress - discarding request
+02-27 17:36:08.326 D/dalvikvm(30586): Compiler shutdown in progress - discarding request
+02-27 17:36:08.326 D/dalvikvm(30586): Compiler shutdown in progress - discarding request
+02-27 17:36:08.326 D/dalvikvm(30586): Compiler shutdown in progress - discarding request
+02-27 17:36:08.326 D/dalvikvm(30586): Compiler shutdown in progress - discarding request
+02-27 17:36:08.326 D/dalvikvm(30586): Compiler shutdown in progress - discarding request
+02-27 17:36:08.326 D/dalvikvm(30586): Compiler shutdown in progress - discarding request
+02-27 17:36:08.326 D/dalvikvm(30586): Compiler shutdown in progress - discarding request
+02-27 17:36:08.326 D/dalvikvm(30586): Compiler shutdown in progress - discarding request
+02-27 17:36:08.326 D/dalvikvm(30586): Compiler shutdown in progress - discarding request
+02-27 17:36:08.326 D/dalvikvm(30586): Compiler shutdown in progress - discarding request
+02-27 17:36:08.326 D/dalvikvm(30586): Compiler shutdown in progress - discarding request
+02-27 17:36:08.326 D/dalvikvm(30586): Compiler shutdown in progress - discarding request
+02-27 17:36:08.326 D/dalvikvm(30586): Compiler shutdown in progress - discarding request
+02-27 17:36:08.326 D/dalvikvm(30586): Compiler shutdown in progress - discarding request
+02-27 17:36:08.326 D/dalvikvm(30586): Compiler shutdown in progress - discarding request
+02-27 17:36:08.326 D/dalvikvm(30586): Compiler shutdown in progress - discarding request
+02-27 17:36:08.326 D/dalvikvm(30586): Compiler shutdown in progress - discarding request
+02-27 17:36:08.326 D/dalvikvm(30586): Compiler shutdown in progress - discarding request
+02-27 17:36:08.326 D/dalvikvm(30586): Compiler shutdown in progress - discarding request
+02-27 17:36:08.326 D/dalvikvm(30586): Compiler shutdown in progress - discarding request
+02-27 17:36:08.326 D/dalvikvm(30586): Compiler shutdown in progress - discarding request
+02-27 17:36:08.326 D/dalvikvm(30586): Compiler shutdown in progress - discarding request
+02-27 17:36:08.396 I/SecurityManagerService(  600): SMS received security event: App[START/org.xwalk.webapi_noneservice_tests]
+02-27 17:36:08.396 I/ActivityManager(  505): Start proc org.xwalk.webapi_noneservice_tests for activity org.xwalk.webapi_noneservice_tests/.WebapiNoneserviceTestsActivity: pid=30597 uid=10085 gids={50085, 3003, 1028, 1015}
+02-27 17:36:08.406 D/dalvikvm(30597): Process 30597 nice name: org.xwalk.webapi_noneservice_tests
+02-27 17:36:08.406 D/dalvikvm(30597): Extra Options: not specified
+02-27 17:36:08.416 D/WindowManager(  505): adjustConfigurationLw, config:{1.0 ?mcc?mnc ?locale ?layoutDir sw600dp w600dp h888dp 213dpi lrg port ?uimode ?night finger -keyb/v/h -nav/v} mLidState:1 mHasDockFeature:false mHasKeyboardFeature:false mHasHallSensorFeature:true config.hardKeyboardHidden:2
+02-27 17:36:08.416 I/ActivityManager(  505): [TopPkgCurBat]	NowPkgName[org.xwalk.webapi_noneservice_tests]	Battery[9]	TimeTick[1425029768431]	OldPkgName[com.asus.launcher]
+02-27 17:36:08.426 D/        (28178): Surface destroy: ANDROID_NATIVE_WINDOW_MAGIC
+02-27 17:36:08.456 D/dalvikvm(30597): Trying to load lib /data/app-lib/org.xwalk.webapi_noneservice_tests-1/libxwalkcore.so 0x43d86940
+02-27 17:36:08.466 D/dalvikvm(30597): Added shared lib /data/app-lib/org.xwalk.webapi_noneservice_tests-1/libxwalkcore.so 0x43d86940
+02-27 17:36:08.476 I/LibraryLoader(30597): Time to load native libraries: 13 ms (timestamps 7499-7512)
+02-27 17:36:08.476 I/LibraryLoader(30597): Expected native library version number "",actual native library version number ""
+02-27 17:36:08.516 I/LibraryLoader(30597): Expected native library version number "",actual native library version number ""
+02-27 17:36:08.516 I/chromium(30597): [INFO:library_loader_hooks.cc(112)] Chromium logging enabled: level = 0, default verbosity = 0
+02-27 17:36:08.516 I/BrowserStartupController(30597): Initializing chromium process, singleProcess=true
+02-27 17:36:08.766 D/ImageWallpaper(  569): onVisibilityChanged: mVisible, visible=true, false
+02-27 17:36:08.766 D/ImageWallpaper(  569): Visibility changed to visible=false
+02-27 17:36:08.766 D/ImageWallpaper(  569): Suppressed drawFrame since redraw is not needed and offsets have not changed.
+02-27 17:36:08.926 W/AudioManagerAndroid(30597): Requires BLUETOOTH permission
+02-27 17:36:08.926 I/ufoGralloc(30597): Hello, this is UFO GRALLOC/Intel Corporation
+02-27 17:36:08.936 D/        (30597): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 17:36:08.936 D/        (30597): droid_create_context : config id = 1 conf->NativeVisualID=1
+02-27 17:36:08.936 D/        (30597): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 17:36:08.936 I/        (30597): Requested context : GLES 2.0
+02-27 17:36:08.956 W/chromium(30597): [WARNING:proxy_service.cc(899)] PAC support disabled because there is no system implementation
+02-27 17:36:08.956 W/dalvikvm(30597): VFY: unable to find class referenced in signature (Landroid/view/inputmethod/CursorAnchorInfo;)
+02-27 17:36:08.956 I/dalvikvm(30597): Could not find method android.view.inputmethod.InputMethodManager.updateCursorAnchorInfo, referenced from method org.chromium.content.browser.input.InputMethodManagerWrapper.updateCursorAnchorInfo
+02-27 17:36:08.956 W/dalvikvm(30597): VFY: unable to resolve virtual method 1241: Landroid/view/inputmethod/InputMethodManager;.updateCursorAnchorInfo (Landroid/view/View;Landroid/view/inputmethod/CursorAnchorInfo;)V
+02-27 17:36:08.956 D/dalvikvm(30597): VFY: replacing opcode 0x6e at 0x000a
+02-27 17:36:08.996 E/cutils  (  163): Failed to mkdirat(/Removable/MicroSD): Read-only file system
+02-27 17:36:08.996 W/ContextImpl(30597): Failed to ensure directory: /Removable/MicroSD/Android/data/org.xwalk.webapi_noneservice_tests/cache
+02-27 17:36:08.996 W/XWalkExtensionManager(30597): Failed to read extensions-config.json
+02-27 17:36:08.996 E/chromium(30597): [ERROR:unix_domain_server_socket_posix.cc(106)] Not implemented reached in virtual int net::UnixDomainServerSocket::GetLocalAddress(net::IPEndPoint*) const
+02-27 17:36:08.996 I/dalvikvm(30597): Could not find method android.app.Activity.finishAndRemoveTask, referenced from method org.chromium.base.ApiCompatibilityUtils.finishAndRemoveTask
+02-27 17:36:08.996 W/dalvikvm(30597): VFY: unable to resolve virtual method 4: Landroid/app/Activity;.finishAndRemoveTask ()V
+02-27 17:36:08.996 D/dalvikvm(30597): VFY: replacing opcode 0x6e at 0x0006
+02-27 17:36:08.996 I/dalvikvm(30597): Could not find method android.os.PowerManager.isInteractive, referenced from method org.chromium.base.ApiCompatibilityUtils.isInteractive
+02-27 17:36:08.996 W/dalvikvm(30597): VFY: unable to resolve virtual method 768: Landroid/os/PowerManager;.isInteractive ()Z
+02-27 17:36:08.996 D/dalvikvm(30597): VFY: replacing opcode 0x6e at 0x000e
+02-27 17:36:08.996 I/dalvikvm(30597): Could not find method android.view.Window.getNavigationBarColor, referenced from method org.chromium.base.ApiCompatibilityUtils.setStatusBarColor
+02-27 17:36:08.996 W/dalvikvm(30597): VFY: unable to resolve virtual method 1144: Landroid/view/Window;.getNavigationBarColor ()I
+02-27 17:36:08.996 D/dalvikvm(30597): VFY: replacing opcode 0x6e at 0x0010
+02-27 17:36:08.996 I/dalvikvm(30597): Could not find method android.view.Window.setStatusBarColor, referenced from method org.chromium.base.ApiCompatibilityUtils.setStatusBarColor
+02-27 17:36:08.996 W/dalvikvm(30597): VFY: unable to resolve virtual method 1149: Landroid/view/Window;.setStatusBarColor (I)V
+02-27 17:36:08.996 D/dalvikvm(30597): VFY: replacing opcode 0x6e at 0x0019
+02-27 17:36:08.996 E/dalvikvm(30597): Could not find class 'android.app.ActivityManager$TaskDescription', referenced from method org.chromium.base.ApiCompatibilityUtils.setTaskDescription
+02-27 17:36:08.996 W/dalvikvm(30597): VFY: unable to resolve new-instance 11 (Landroid/app/ActivityManager$TaskDescription;) in Lorg/chromium/base/ApiCompatibilityUtils;
+02-27 17:36:08.996 D/dalvikvm(30597): VFY: replacing opcode 0x22 at 0x0006
+02-27 17:36:08.996 D/dalvikvm(30597): DexOpt: unable to opt direct call 0x001e at 0x08 in Lorg/chromium/base/ApiCompatibilityUtils;.setTaskDescription
+02-27 17:36:08.996 W/Vold    (  163): Returning OperationFailed - no handler for errno 30
+02-27 17:36:09.006 I/chromium(30597): [INFO:xwalk_extension_renderer_controller.cc(47)] EXTENSION PROCESS DISABLED.
+02-27 17:36:09.036 D/        (30597): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 17:36:09.036 D/        (30597): droid_create_context : config id = 1 conf->NativeVisualID=1
+02-27 17:36:09.036 D/        (30597): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 17:36:09.036 I/        (30597): Requested context : GLES 2.0
+02-27 17:36:09.056 D/        (30597): droid_create_context : config id = 5 conf->NativeVisualID=1
+02-27 17:36:09.056 D/        (30597): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 17:36:09.056 I/        (30597): Requested context : GLES 2.0
+02-27 17:36:09.066 D/        (30597): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 17:36:09.066 D/OpenGLRenderer(30597): Enabling debug mode 0
+02-27 17:36:09.146 W/BindingManager(30597): Cannot call determinedVisibility() - never saw a connection for the pid: 30597
+02-27 17:36:09.146 I/ActivityManager(  505): Displayed org.xwalk.webapi_noneservice_tests/.WebapiNoneserviceTestsActivity: +752ms
+02-27 17:36:09.166 D/XT9IME  (28220): new subtype :zh_CN ,pinyin
+02-27 17:36:09.166 D/BatteryStatsImpl(  505): noteStopWakeLocked system isFromForeground = false
+02-27 17:36:09.266 D/        (30597): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 17:36:09.266 D/        (30597): droid_create_context : config id = 1 conf->NativeVisualID=1
+02-27 17:36:09.266 D/        (30597): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 17:36:09.266 I/        (30597): Requested context : GLES 2.0
+02-27 17:36:09.276 D/        (30597): Swap interval set to = 1 value
+02-27 17:36:09.296 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 17:36:09.296 D/wpa_supplicant(  711): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 17:36:09.296 D/wpa_supplicant(  711): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 17:36:09.326 D/wpa_supplicant(  711): nl80211: survey data missing!
+02-27 17:36:09.326 I/WifiHW  (  505): REPLY: RSSI=-47
+02-27 17:36:09.326 I/WifiHW  (  505): REPLY: LINKSPEED=58
+02-27 17:36:09.326 I/WifiHW  (  505): REPLY: NOISE=9999
+02-27 17:36:09.326 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+02-27 17:36:10.076 W/BindingManager(30597): Cannot call determinedVisibility() - never saw a connection for the pid: 30597
+02-27 17:36:10.546 I/chromium(30597): [INFO:CONSOLE(0)] "Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check http://xhr.spec.whatwg.org/.", source:  (0)
+02-27 17:36:10.626 D/        (30597): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 17:36:10.626 D/        (30597): droid_create_context : config id = 1 conf->NativeVisualID=1
+02-27 17:36:10.636 D/        (30597): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 17:36:10.636 I/        (30597): Requested context : GLES 2.0
+02-27 17:36:11.066 D/PROPERTY(  186): get media.dump_output.befconv: 0
+02-27 17:36:11.066 D/PROPERTY(  186): get media.dump_output.aftconv: 0
+02-27 17:36:11.066 D/RouteManager(  186): stopStream: {+++ RECONSIDER ROUTING +++} due to output stream stop event
+02-27 17:36:11.066 D/RouteManager(  186): reconsiderRouting
+02-27 17:36:11.066 D/EVENT_THREAD(  186): void CEventThread::trig(uint16_t): in
+02-27 17:36:11.066 D/EVENT_THREAD(  186): void CEventThread::trig(uint16_t): out
+02-27 17:36:11.066 D/RouteManager(  186): doReconsiderRouting:       Platform State:
+02-27 17:36:11.066 D/RouteManager(  186): doReconsiderRouting:          -Modem Alive = 0 
+02-27 17:36:11.066 D/RouteManager(  186): doReconsiderRouting:          -Modem Call Active = 0 
+02-27 17:36:11.066 D/RouteManager(  186): doReconsiderRouting:          -Is Shared I2S glitch free=1 
+02-27 17:36:11.066 D/RouteManager(  186): doReconsiderRouting:          -Android Telephony Mode = Normal 
+02-27 17:36:11.066 D/RouteManager(  186): doReconsiderRouting:          -RTE MGR HW Mode = Normal 
+02-27 17:36:11.066 D/RouteManager(  186): doReconsiderRouting:          -BT Enabled = 1 
+02-27 17:36:11.066 D/RouteManager(  186): doReconsiderRouting:          -BT NREC = 0 
+02-27 17:36:11.066 D/RouteManager(  186): doReconsiderRouting:          -BT Band = NB 
+02-27 17:36:11.066 D/RouteManager(  186): doReconsiderRouting:          -Platform output device = IHF 
+02-27 17:36:11.066 D/RouteManager(  186): doReconsiderRouting:          -Platform input device = <none> 
+02-27 17:36:11.066 D/RouteManager(  186): doReconsiderRouting:          -Platform input source = None 
+02-27 17:36:11.066 D/RouteManager(  186): doReconsiderRouting:          -Platform Band type = NB 
+02-27 17:36:11.066 D/RouteManager(  186): doReconsiderRouting:          -Platform Has Direct Stream = no 
+02-27 17:36:11.066 D/RouteManager(  186): doReconsiderRouting:          -Platform TTY direction = <none> 
+02-27 17:36:11.066 D/RouteManager(  186): doReconsiderRouting:          -Platform HAC Mode = Off 
+02-27 17:36:11.066 D/RouteManager(  186): doReconsiderRouting:          -Platform Screen State = On 
+02-27 17:36:11.066 D/RouteManager(  186): doReconsiderRouting:          -Platform Context Awareness = false 
+02-27 17:36:11.066 D/RouteManager(  186): doReconsiderRouting:          -Platform Always Listening = false 
+02-27 17:36:11.066 D/RouteManager(  186): doReconsiderRouting:          -Platform FM State = Off 
+02-27 17:36:11.066 D/RouteManager(  186): doReconsiderRouting:          -Platform Bypass Non Linear PP State = Off 
+02-27 17:36:11.066 D/RouteManager(  186): doReconsiderRouting:          -Platform Bypass Linear PP State = Off 
+02-27 17:36:11.066 D/RouteManager(  186): doReconsiderRouting:          -Platform MicMute = Off 
+02-27 17:36:11.066 D/RouteManager(  186): doReconsiderRouting:      Route state:
+02-27 17:36:11.066 D/RouteManager(  186): doReconsiderRouting:          -Previously Enabled Route in Input = <none>
+02-27 17:36:11.066 D/RouteManager(  186): doReconsiderRouting:          -Previously Enabled Route in Output = Media|HwCodecMedia
+02-27 17:36:11.066 D/RouteManager(  186): doReconsiderRouting:          -Selected Route in Input = <none>
+02-27 17:36:11.066 D/RouteManager(  186): doReconsiderRouting:          -Selected Route in Output = <none>
+02-27 17:36:11.066 D/RouteManager(  186): doReconsiderRouting:          -Route that need reconfiguration in Input = <none>
+02-27 17:36:11.066 D/RouteManager(  186): doReconsiderRouting:          -Route that need reconfiguration in Output = <none>
+02-27 17:36:11.066 D/RouteManager(  186): executeMuteStage: --------------- Routing Stage = Mute ---------------
+02-27 17:36:11.076 D/RouteManager(  186): parameter-framework: Selection criterion changed event: Criterion name: RoutageState, current state: Flow
+02-27 17:36:11.076 D/RouteManager(  186): muteRoutes: Expected Routes to be muted in Output = Media|HwCodecMedia
+02-27 17:36:11.076 D/RouteManager(  186): parameter-framework: Selection criterion changed event: Criterion name: ClosingPlaybackRoutes, current state: Media|HwCodecMedia
+02-27 17:36:11.076 D/RouteManager(  186): parameter-framework: Selection criterion changed event: Criterion name: OpenedPlaybackRoutes, current state: <none>
+02-27 17:36:11.076 D/RouteManager(  186): parameter-framework: Configuration application request {
+02-27 17:36:11.076 D/RouteManager(  186): parameter-framework:     Applying configurations {
+02-27 17:36:11.076 D/RouteManager(  186): parameter-framework:     } Applying configurations
+02-27 17:36:11.076 D/RouteManager(  186): parameter-framework: } Configuration application request
+02-27 17:36:11.076 D/RouteManager(  186): executeDisableStage: --------------- Routing Stage = Disable ---------------
+02-27 17:36:11.076 D/RouteManager(  186): parameter-framework: Selection criterion changed event: Criterion name: RoutageState, current state: Path
+02-27 17:36:11.076 D/RouteManager(  186): prepareDisableRoutes: Routes to be disabled(unrouted) in Output = Media|HwCodecMedia
+02-27 17:36:11.076 D/ALSAStreamOps(  186): detachRouteL output stream
+02-27 17:36:11.076 D/RouteManager/StreamRoute(  186): closePcmDevice called for card (baytrailaudio,0)
+02-27 17:36:11.096 D/RouteManager(  186): parameter-framework: Configuration application request {
+02-27 17:36:11.096 D/RouteManager(  186): parameter-framework:     Applying configurations {
+02-27 17:36:11.096 D/RouteManager(  186): parameter-framework:         Applying configuration "Disable" from domain "Routing.Enable.HWCodec.Playback.IHF"
+02-27 17:36:11.096 D/RouteManager(  186): parameter-framework:         Applying configuration "Disable" from domain "Routing.Enable.HWCodec.Playback.Multimedia.IHF"
+02-27 17:36:11.096 D/RouteManager(  186): parameter-framework:         Applying configuration "Disable" from domain "Routing.Enable.HWCodec.Playback.Multimedia.Playback"
+02-27 17:36:11.106 D/RouteManager(  186): parameter-framework:     } Applying configurations
+02-27 17:36:11.106 D/RouteManager(  186): parameter-framework: } Configuration application request
+02-27 17:36:11.106 D/RouteManager(  186): executeConfigureStage: --------------- Routing Stage = Configure ---------------
+02-27 17:36:11.106 D/RouteManager(  186): parameter-framework: Selection criterion changed event: Criterion name: RoutageState, current state: Configure
+02-27 17:36:11.106 D/RouteManager(  186): parameter-framework: Selection criterion changed event: Criterion name: ClosingPlaybackRoutes, current state: <none>
+02-27 17:36:11.106 D/RouteManager(  186): parameter-framework: Configuration application request {
+02-27 17:36:11.106 D/RouteManager(  186): parameter-framework:     Applying configurations {
+02-27 17:36:11.106 D/RouteManager(  186): parameter-framework:         Applying configuration "Deactivated" from domain "Routing.Configure.LPE_Mixer.IHF"
+02-27 17:36:11.106 D/RouteManager(  186): parameter-framework:     } Applying configurations
+02-27 17:36:11.106 D/RouteManager(  186): parameter-framework: } Configuration application request
+02-27 17:36:11.106 D/RouteManager(  186): executeEnableStage: --------------- Routing Stage = Enable ---------------
+02-27 17:36:11.106 D/RouteManager(  186): parameter-framework: Selection criterion changed event: Criterion name: RoutageState, current state: Path|Configure
+02-27 17:36:11.106 D/RouteManager(  186): parameter-framework: Configuration application request {
+02-27 17:36:11.106 D/RouteManager(  186): parameter-framework:     Applying configurations {
+02-27 17:36:11.106 D/RouteManager(  186): parameter-framework:     } Applying configurations
+02-27 17:36:11.106 D/RouteManager(  186): parameter-framework: } Configuration application request
+02-27 17:36:11.106 D/RouteManager(  186): executeUnmuteStage: --------------- Routing Stage = Unmute ---------------
+02-27 17:36:11.106 D/RouteManager(  186): parameter-framework: Selection criterion changed event: Criterion name: RoutageState, current state: Flow|Path|Configure
+02-27 17:36:11.106 D/RouteManager(  186): parameter-framework: Configuration application request {
+02-27 17:36:11.106 D/RouteManager(  186): parameter-framework:     Applying configurations {
+02-27 17:36:11.106 D/RouteManager(  186): parameter-framework:     } Applying configurations
+02-27 17:36:11.106 D/RouteManager(  186): parameter-framework: } Configuration application request
+02-27 17:36:11.106 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 17:36:11.106 D/RouteManager(  186): reconsiderRouting: DONE
+02-27 17:36:12.326 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 17:36:12.326 D/wpa_supplicant(  711): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 17:36:12.326 D/wpa_supplicant(  711): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 17:36:12.356 D/wpa_supplicant(  711): nl80211: survey data missing!
+02-27 17:36:12.356 I/WifiHW  (  505): REPLY: RSSI=-47
+02-27 17:36:12.356 I/WifiHW  (  505): REPLY: LINKSPEED=58
+02-27 17:36:12.356 I/WifiHW  (  505): REPLY: NOISE=9999
+02-27 17:36:12.356 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+02-27 17:36:12.996 W/ufoGralloc(  171): registerBuffer() handle 0xb8fd86b0/40 didn't require registration
+02-27 17:36:13.006 D/WindowManager(  505): adjustConfigurationLw, config:{1.0 ?mcc?mnc ?locale ?layoutDir sw600dp w600dp h888dp 213dpi lrg port ?uimode ?night finger -keyb/v/h -nav/v} mLidState:1 mHasDockFeature:false mHasKeyboardFeature:false mHasHallSensorFeature:true config.hardKeyboardHidden:2
+02-27 17:36:13.006 I/ActivityManager(  505): [TopPkgCurBat]	NowPkgName[com.asus.launcher]	Battery[9]	TimeTick[1425029773022]	OldPkgName[org.xwalk.webapi_noneservice_tests]
+02-27 17:36:13.036 D/        (28178): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 17:36:13.046 W/IInputConnectionWrapper(30597): showStatusIcon on inactive InputConnection
+02-27 17:36:13.046 D/XT9IME  (28220): new subtype :zh_CN ,pinyin
+02-27 17:36:13.136 D/ImageWallpaper(  569): onVisibilityChanged: mVisible, visible=false, true
+02-27 17:36:13.136 D/ImageWallpaper(  569): Visibility changed to visible=true
+02-27 17:36:13.136 D/BatteryStatsImpl(  505): noteStopWakeLocked system isFromForeground = false
+02-27 17:36:13.136 D/ImageWallpaper(  569): Suppressed drawFrame since redraw is not needed and offsets have not changed.
+02-27 17:36:13.176 D/        (30597): Surface destroy: ANDROID_NATIVE_WINDOW_MAGIC
+02-27 17:36:13.176 D/        (30597): Surface destroy: ANDROID_NATIVE_WINDOW_MAGIC
+02-27 17:36:13.556 I/ActivityManager(  505): Killing 28983:android.process.acore/u0a4 (adj 15): empty #9
+02-27 17:36:13.566 D/        (30597): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 17:36:13.566 W/SurfaceFlinger(  171): couldn't log to binary event log: overflow.
+02-27 17:36:13.566 W/ScreenOrientationListener(30597): Removing an inexistent observer!
+02-27 17:36:13.626 I/SecurityManagerService(  600): SMS received security event: App[STOP/com.android.providers.contacts]
+02-27 17:36:14.246 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 17:36:14.246 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 17:36:14.246 I/upi_ug31xx(  166): (1650) update_capacity
+02-27 17:36:14.246 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: V=3698(3679), T=325(327-383), I=-435, C=0(0-0)
+02-27 17:36:14.246 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 352 (719) / 3822 (4027) = 9
+02-27 17:36:14.246 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 352 (719) / 3822 (4027) = 9
+02-27 17:36:14.246 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 352 (352) / 3822 (4027) = 9
+02-27 17:36:14.246 I/[UPI]   (  166): <UG31/E>[RsocFilterCountTime]: (0x0001254a) Step=9(582165), Full=9(582165), Lock=582165(1800000)
+02-27 17:36:14.246 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 352 (352) / 3822 (4027) = 9 (-435--435)
+02-27 17:36:14.246 I/[UPI]   (  166): <UG31/E><BATT> M:normal, P:9(9-9)%, V:3674mV, C:-410mA, T:32.7C(383), S:0x0001254a(000), R:352mAh, F:3822mAh, Q:-1475mAh, CC:3, P:10.30(1474-0)s, BO:7, 97:615:0-44af-9m:B001-20140514-144301 (16)
+02-27 17:36:14.246 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 17:36:14.246 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 17:36:14.246 I/upi_ug31xx(  166): (1651) backup_data 
+02-27 17:36:14.246 V/upi_ug31xx(  166): state->check_backup_count = 19
+02-27 17:36:14.256 D/AndroidRuntime(30662): 
+02-27 17:36:14.256 D/AndroidRuntime(30662): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-27 17:36:14.256 D/AndroidRuntime(30662): CheckJNI is OFF
+02-27 17:36:14.256 I/AndroidRuntime(30662): Kernel Release Version: 3.10.20-gf818079
+02-27 17:36:14.256 I/dalvikvm(30662): No library specified. The standard exception handler will be used
+02-27 17:36:14.266 I/dalvikvm(30662): 
+02-27 17:36:14.266 I/dalvikvm(30662): +++++++++++++ Using PCG. +++++++++++++++++++++
+02-27 17:36:14.276 D/dalvikvm(30662): Trying to load lib libjavacore.so 0x0
+02-27 17:36:14.286 D/dalvikvm(30662): Added shared lib libjavacore.so 0x0
+02-27 17:36:14.286 D/dalvikvm(30662): Trying to load lib libnativehelper.so 0x0
+02-27 17:36:14.286 D/dalvikvm(30662): Added shared lib libnativehelper.so 0x0
+02-27 17:36:14.286 D/dalvikvm(30662): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-27 17:36:14.286 D/dalvikvm(30662): Extra Options: not specified
+02-27 17:36:14.306 D/dalvikvm(30662): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+02-27 17:36:14.376 E/memtrack(30662): Couldn't load memtrack module (No such file or directory)
+02-27 17:36:14.376 E/android.os.Debug(30662): failed to load memtrack module: -2
+02-27 17:36:14.426 D/AndroidRuntime(30662): Calling main entry com.android.commands.am.Am
+02-27 17:36:14.456 I/ActivityManager(  505): Force stopping org.xwalk.webapi_noneservice_tests appid=10085 user=0: from pid 30662
+02-27 17:36:14.456 I/SecurityManagerService(  600): SMS received security event: App[STOP/org.xwalk.webapi_noneservice_tests]
+02-27 17:36:14.456 D/AndroidRuntime(30662): Shutting down VM
+02-27 17:36:14.456 I/ActivityManager(  505): Killing 30597:org.xwalk.webapi_noneservice_tests/u0a85 (adj 9): stop org.xwalk.webapi_noneservice_tests
+02-27 17:36:14.466 D/dalvikvm(30662): GC_CONCURRENT freed 112K, 16% free 666K/792K, paused 0ms+0ms, total 1ms
+02-27 17:36:14.466 D/dalvikvm(30662): Compiler shutdown in progress - discarding request
+02-27 17:36:14.466 D/dalvikvm(30662): Compiler shutdown in progress - discarding request
+02-27 17:36:14.466 D/dalvikvm(30662): Compiler shutdown in progress - discarding request
+02-27 17:36:14.466 D/dalvikvm(30662): Compiler shutdown in progress - discarding request
+02-27 17:36:14.466 D/dalvikvm(30662): Compiler shutdown in progress - discarding request
+02-27 17:36:14.466 D/dalvikvm(30662): Compiler shutdown in progress - discarding request
+02-27 17:36:14.466 D/dalvikvm(30662): Compiler shutdown in progress - discarding request
+02-27 17:36:14.466 D/dalvikvm(30662): Compiler shutdown in progress - discarding request
+02-27 17:36:14.466 D/dalvikvm(30662): Compiler shutdown in progress - discarding request
+02-27 17:36:14.466 D/dalvikvm(30662): Compiler shutdown in progress - discarding request
+02-27 17:36:14.466 D/dalvikvm(30662): Compiler shutdown in progress - discarding request
+02-27 17:36:14.466 D/dalvikvm(30662): Compiler shutdown in progress - discarding request
+02-27 17:36:14.466 D/dalvikvm(30662): Compiler shutdown in progress - discarding request
+02-27 17:36:14.466 D/dalvikvm(30662): Compiler shutdown in progress - discarding request
+02-27 17:36:14.466 D/dalvikvm(30662): Compiler shutdown in progress - discarding request
+02-27 17:36:14.466 D/dalvikvm(30662): Compiler shutdown in progress - discarding request
+02-27 17:36:14.466 D/dalvikvm(30662): Compiler shutdown in progress - discarding request
+02-27 17:36:14.466 D/dalvikvm(30662): Compiler shutdown in progress - discarding request
+02-27 17:36:14.466 D/dalvikvm(30662): Compiler shutdown in progress - discarding request
+02-27 17:36:14.466 D/dalvikvm(30662): Compiler shutdown in progress - discarding request
+02-27 17:36:14.466 D/dalvikvm(30662): Compiler shutdown in progress - discarding request
+02-27 17:36:14.466 D/dalvikvm(30662): Compiler shutdown in progress - discarding request
+02-27 17:36:14.466 D/dalvikvm(30662): Compiler shutdown in progress - discarding request
+02-27 17:36:14.466 D/dalvikvm(30662): Compiler shutdown in progress - discarding request
+02-27 17:36:14.466 D/dalvikvm(30662): Compiler shutdown in progress - discarding request
+02-27 17:36:14.466 D/dalvikvm(30662): Compiler shutdown in progress - discarding request
+02-27 17:36:14.466 D/dalvikvm(30662): Compiler shutdown in progress - discarding request
+02-27 17:36:14.466 D/dalvikvm(30662): Compiler shutdown in progress - discarding request
+02-27 17:36:14.466 D/dalvikvm(30662): Compiler shutdown in progress - discarding request
+02-27 17:36:14.466 D/dalvikvm(30662): Compiler shutdown in progress - discarding request
+02-27 17:36:14.466 D/dalvikvm(30662): Compiler shutdown in progress - discarding request
+02-27 17:36:14.466 D/dalvikvm(30662): Compiler shutdown in progress - discarding request
+02-27 17:36:14.466 D/dalvikvm(30662): Compiler shutdown in progress - discarding request
+02-27 17:36:14.466 D/dalvikvm(30662): Compiler shutdown in progress - discarding request
+02-27 17:36:14.466 D/dalvikvm(30662): Compiler shutdown in progress - discarding request
+02-27 17:36:14.466 D/dalvikvm(30662): Compiler shutdown in progress - discarding request
+02-27 17:36:14.466 D/dalvikvm(30662): Compiler shutdown in progress - discarding request
+02-27 17:36:14.466 D/dalvikvm(30662): Compiler shutdown in progress - discarding request
+02-27 17:36:14.466 D/dalvikvm(30662): Compiler shutdown in progress - discarding request
+02-27 17:36:14.466 D/dalvikvm(30662): Compiler shutdown in progress - discarding request
+02-27 17:36:14.616 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 17:36:14.616 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 17:36:14.906 D/AndroidRuntime(30673): 
+02-27 17:36:14.906 D/AndroidRuntime(30673): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-27 17:36:14.906 D/AndroidRuntime(30673): CheckJNI is OFF
+02-27 17:36:14.906 I/AndroidRuntime(30673): Kernel Release Version: 3.10.20-gf818079
+02-27 17:36:14.916 I/dalvikvm(30673): No library specified. The standard exception handler will be used
+02-27 17:36:14.916 I/dalvikvm(30673): 
+02-27 17:36:14.916 I/dalvikvm(30673): +++++++++++++ Using PCG. +++++++++++++++++++++
+02-27 17:36:14.926 D/dalvikvm(30673): Trying to load lib libjavacore.so 0x0
+02-27 17:36:14.926 D/dalvikvm(30673): Added shared lib libjavacore.so 0x0
+02-27 17:36:14.926 D/dalvikvm(30673): Trying to load lib libnativehelper.so 0x0
+02-27 17:36:14.926 D/dalvikvm(30673): Added shared lib libnativehelper.so 0x0

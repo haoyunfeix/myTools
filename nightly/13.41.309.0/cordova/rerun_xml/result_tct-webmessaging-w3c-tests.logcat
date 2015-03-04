@@ -1,0 +1,1630 @@
+--------- beginning of /dev/log/main
+02-27 17:34:51.626 D/AndroidRuntime(30085): 
+02-27 17:34:51.626 D/AndroidRuntime(30085): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-27 17:34:51.626 D/AndroidRuntime(30085): CheckJNI is OFF
+02-27 17:34:51.626 I/AndroidRuntime(30085): Kernel Release Version: 3.10.20-gf818079
+02-27 17:34:51.626 I/dalvikvm(30085): No library specified. The standard exception handler will be used
+02-27 17:34:51.626 I/dalvikvm(30085): 
+02-27 17:34:51.626 I/dalvikvm(30085): +++++++++++++ Using PCG. +++++++++++++++++++++
+02-27 17:34:51.636 D/dalvikvm(30085): Trying to load lib libjavacore.so 0x0
+02-27 17:34:51.636 D/dalvikvm(30085): Added shared lib libjavacore.so 0x0
+02-27 17:34:51.636 D/dalvikvm(30085): Trying to load lib libnativehelper.so 0x0
+02-27 17:34:51.636 D/dalvikvm(30085): Added shared lib libnativehelper.so 0x0
+02-27 17:34:51.636 D/dalvikvm(30085): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-27 17:34:51.646 D/dalvikvm(30085): Extra Options: not specified
+02-27 17:34:51.656 D/dalvikvm(30085): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+02-27 17:34:51.726 E/memtrack(30085): Couldn't load memtrack module (No such file or directory)
+02-27 17:34:51.726 E/android.os.Debug(30085): failed to load memtrack module: -2
+02-27 17:34:51.756 D/AndroidRuntime(30085): Calling main entry com.android.commands.am.Am
+--------- beginning of /dev/log/system
+02-27 17:34:51.786 I/ActivityManager(  505): Force stopping org.xwalk.webapi_service_tests appid=10327 user=0: from pid 30085
+02-27 17:34:51.786 D/AndroidRuntime(30085): Shutting down VM
+02-27 17:34:51.796 D/dalvikvm(30085): GC_CONCURRENT freed 112K, 17% free 634K/760K, paused 0ms+0ms, total 1ms
+02-27 17:34:51.796 D/dalvikvm(30085): Compiler shutdown in progress - discarding request
+02-27 17:34:51.796 D/dalvikvm(30085): Compiler shutdown in progress - discarding request
+02-27 17:34:51.796 D/dalvikvm(30085): Compiler shutdown in progress - discarding request
+02-27 17:34:51.796 D/dalvikvm(30085): Compiler shutdown in progress - discarding request
+02-27 17:34:51.796 D/dalvikvm(30085): Compiler shutdown in progress - discarding request
+02-27 17:34:51.796 D/dalvikvm(30085): Compiler shutdown in progress - discarding request
+02-27 17:34:51.796 D/dalvikvm(30085): Compiler shutdown in progress - discarding request
+02-27 17:34:51.796 D/dalvikvm(30085): Compiler shutdown in progress - discarding request
+02-27 17:34:51.806 D/dalvikvm(30085): Compiler shutdown in progress - discarding request
+02-27 17:34:51.806 D/dalvikvm(30085): Compiler shutdown in progress - discarding request
+02-27 17:34:51.806 D/dalvikvm(30085): Compiler shutdown in progress - discarding request
+02-27 17:34:51.806 D/dalvikvm(30085): Compiler shutdown in progress - discarding request
+02-27 17:34:51.806 D/dalvikvm(30085): Compiler shutdown in progress - discarding request
+02-27 17:34:51.806 D/dalvikvm(30085): Compiler shutdown in progress - discarding request
+02-27 17:34:51.806 D/dalvikvm(30085): Compiler shutdown in progress - discarding request
+02-27 17:34:51.806 D/dalvikvm(30085): Compiler shutdown in progress - discarding request
+02-27 17:34:51.806 D/dalvikvm(30085): Compiler shutdown in progress - discarding request
+02-27 17:34:51.806 D/dalvikvm(30085): Compiler shutdown in progress - discarding request
+02-27 17:34:51.806 D/dalvikvm(30085): Compiler shutdown in progress - discarding request
+02-27 17:34:51.806 D/dalvikvm(30085): Compiler shutdown in progress - discarding request
+02-27 17:34:51.806 D/dalvikvm(30085): Compiler shutdown in progress - discarding request
+02-27 17:34:51.806 D/dalvikvm(30085): Compiler shutdown in progress - discarding request
+02-27 17:34:51.806 D/dalvikvm(30085): Compiler shutdown in progress - discarding request
+02-27 17:34:51.806 D/dalvikvm(30085): Compiler shutdown in progress - discarding request
+02-27 17:34:51.806 D/dalvikvm(30085): Compiler shutdown in progress - discarding request
+02-27 17:34:51.806 D/dalvikvm(30085): Compiler shutdown in progress - discarding request
+02-27 17:34:51.806 D/dalvikvm(30085): Compiler shutdown in progress - discarding request
+02-27 17:34:51.806 D/dalvikvm(30085): Compiler shutdown in progress - discarding request
+02-27 17:34:51.806 D/dalvikvm(30085): Compiler shutdown in progress - discarding request
+02-27 17:34:51.806 D/dalvikvm(30085): Compiler shutdown in progress - discarding request
+02-27 17:34:51.806 D/dalvikvm(30085): Compiler shutdown in progress - discarding request
+02-27 17:34:51.806 D/dalvikvm(30085): Compiler shutdown in progress - discarding request
+02-27 17:34:51.806 D/dalvikvm(30085): Compiler shutdown in progress - discarding request
+02-27 17:34:51.806 D/dalvikvm(30085): Compiler shutdown in progress - discarding request
+02-27 17:34:51.806 D/dalvikvm(30085): Compiler shutdown in progress - discarding request
+02-27 17:34:51.806 D/dalvikvm(30085): Compiler shutdown in progress - discarding request
+02-27 17:34:51.806 D/dalvikvm(30085): Compiler shutdown in progress - discarding request
+02-27 17:34:51.806 D/dalvikvm(30085): Compiler shutdown in progress - discarding request
+02-27 17:34:51.806 D/dalvikvm(30085): Compiler shutdown in progress - discarding request
+02-27 17:34:51.806 D/dalvikvm(30085): Compiler shutdown in progress - discarding request
+02-27 17:34:51.806 D/dalvikvm(30085): Compiler shutdown in progress - discarding request
+02-27 17:34:51.806 D/dalvikvm(30085): Compiler shutdown in progress - discarding request
+02-27 17:34:51.806 D/dalvikvm(30085): Compiler shutdown in progress - discarding request
+02-27 17:34:52.226 D/AndroidRuntime(30096): 
+02-27 17:34:52.226 D/AndroidRuntime(30096): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-27 17:34:52.226 D/AndroidRuntime(30096): CheckJNI is OFF
+02-27 17:34:52.226 I/AndroidRuntime(30096): Kernel Release Version: 3.10.20-gf818079
+02-27 17:34:52.226 I/dalvikvm(30096): No library specified. The standard exception handler will be used
+02-27 17:34:52.226 I/dalvikvm(30096): 
+02-27 17:34:52.226 I/dalvikvm(30096): +++++++++++++ Using PCG. +++++++++++++++++++++
+02-27 17:34:52.236 D/dalvikvm(30096): Trying to load lib libjavacore.so 0x0
+02-27 17:34:52.236 D/dalvikvm(30096): Added shared lib libjavacore.so 0x0
+02-27 17:34:52.236 D/dalvikvm(30096): Trying to load lib libnativehelper.so 0x0
+02-27 17:34:52.236 D/dalvikvm(30096): Added shared lib libnativehelper.so 0x0
+02-27 17:34:52.236 D/dalvikvm(30096): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-27 17:34:52.246 D/dalvikvm(30096): Extra Options: not specified
+02-27 17:34:52.256 D/dalvikvm(30096): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+02-27 17:34:52.326 E/memtrack(30096): Couldn't load memtrack module (No such file or directory)
+02-27 17:34:52.326 E/android.os.Debug(30096): failed to load memtrack module: -2
+02-27 17:34:52.356 D/AndroidRuntime(30096): Calling main entry com.android.commands.am.Am
+02-27 17:34:52.386 D/AndroidRuntime(30096): Shutting down VM
+02-27 17:34:52.386 I/ActivityManager(  505): START u0 {flg=0x10000000 cmp=org.xwalk.webapi_service_tests/.webapi_service_testsActivity} from pid 30096
+02-27 17:34:52.396 D/dalvikvm(30096): GC_CONCURRENT freed 112K, 16% free 674K/800K, paused 0ms+0ms, total 1ms
+02-27 17:34:52.396 D/dalvikvm(30096): Compiler shutdown in progress - discarding request
+02-27 17:34:52.396 D/dalvikvm(30096): Compiler shutdown in progress - discarding request
+02-27 17:34:52.396 D/dalvikvm(30096): Compiler shutdown in progress - discarding request
+02-27 17:34:52.396 D/dalvikvm(30096): Compiler shutdown in progress - discarding request
+02-27 17:34:52.396 D/dalvikvm(30096): Compiler shutdown in progress - discarding request
+02-27 17:34:52.396 D/dalvikvm(30096): Compiler shutdown in progress - discarding request
+02-27 17:34:52.396 D/dalvikvm(30096): Compiler shutdown in progress - discarding request
+02-27 17:34:52.396 D/dalvikvm(30096): Compiler shutdown in progress - discarding request
+02-27 17:34:52.396 D/dalvikvm(30096): Compiler shutdown in progress - discarding request
+02-27 17:34:52.396 D/dalvikvm(30096): Compiler shutdown in progress - discarding request
+02-27 17:34:52.396 D/dalvikvm(30096): Compiler shutdown in progress - discarding request
+02-27 17:34:52.396 D/dalvikvm(30096): Compiler shutdown in progress - discarding request
+02-27 17:34:52.396 D/dalvikvm(30096): Compiler shutdown in progress - discarding request
+02-27 17:34:52.396 D/dalvikvm(30096): Compiler shutdown in progress - discarding request
+02-27 17:34:52.396 D/dalvikvm(30096): Compiler shutdown in progress - discarding request
+02-27 17:34:52.396 D/dalvikvm(30096): Compiler shutdown in progress - discarding request
+02-27 17:34:52.396 D/dalvikvm(30096): Compiler shutdown in progress - discarding request
+02-27 17:34:52.396 D/dalvikvm(30096): Compiler shutdown in progress - discarding request
+02-27 17:34:52.396 D/dalvikvm(30096): Compiler shutdown in progress - discarding request
+02-27 17:34:52.396 D/dalvikvm(30096): Compiler shutdown in progress - discarding request
+02-27 17:34:52.396 D/dalvikvm(30096): Compiler shutdown in progress - discarding request
+02-27 17:34:52.396 D/dalvikvm(30096): Compiler shutdown in progress - discarding request
+02-27 17:34:52.396 D/dalvikvm(30096): Compiler shutdown in progress - discarding request
+02-27 17:34:52.396 D/dalvikvm(30096): Compiler shutdown in progress - discarding request
+02-27 17:34:52.396 D/dalvikvm(30096): Compiler shutdown in progress - discarding request
+02-27 17:34:52.396 D/dalvikvm(30096): Compiler shutdown in progress - discarding request
+02-27 17:34:52.396 D/dalvikvm(30096): Compiler shutdown in progress - discarding request
+02-27 17:34:52.396 D/dalvikvm(30096): Compiler shutdown in progress - discarding request
+02-27 17:34:52.396 D/dalvikvm(30096): Compiler shutdown in progress - discarding request
+02-27 17:34:52.396 D/dalvikvm(30096): Compiler shutdown in progress - discarding request
+02-27 17:34:52.396 D/dalvikvm(30096): Compiler shutdown in progress - discarding request
+02-27 17:34:52.396 D/dalvikvm(30096): Compiler shutdown in progress - discarding request
+02-27 17:34:52.396 D/dalvikvm(30096): Compiler shutdown in progress - discarding request
+02-27 17:34:52.396 D/dalvikvm(30096): Compiler shutdown in progress - discarding request
+02-27 17:34:52.396 D/dalvikvm(30096): Compiler shutdown in progress - discarding request
+02-27 17:34:52.396 D/dalvikvm(30096): Compiler shutdown in progress - discarding request
+02-27 17:34:52.396 D/dalvikvm(30096): Compiler shutdown in progress - discarding request
+02-27 17:34:52.396 D/dalvikvm(30096): Compiler shutdown in progress - discarding request
+02-27 17:34:52.396 D/dalvikvm(30096): Compiler shutdown in progress - discarding request
+02-27 17:34:52.396 D/dalvikvm(30096): Compiler shutdown in progress - discarding request
+02-27 17:34:52.396 D/dalvikvm(30096): Compiler shutdown in progress - discarding request
+02-27 17:34:52.396 D/dalvikvm(30096): Compiler shutdown in progress - discarding request
+02-27 17:34:52.396 D/dalvikvm(30096): Compiler shutdown in progress - discarding request
+02-27 17:34:52.396 D/dalvikvm(30096): Compiler shutdown in progress - discarding request
+02-27 17:34:52.396 D/dalvikvm(30096): Compiler shutdown in progress - discarding request
+02-27 17:34:52.836 D/AndroidRuntime(30107): 
+02-27 17:34:52.836 D/AndroidRuntime(30107): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-27 17:34:52.836 D/AndroidRuntime(30107): CheckJNI is OFF
+02-27 17:34:52.836 I/AndroidRuntime(30107): Kernel Release Version: 3.10.20-gf818079
+02-27 17:34:52.836 I/dalvikvm(30107): No library specified. The standard exception handler will be used
+02-27 17:34:52.836 I/dalvikvm(30107): 
+02-27 17:34:52.836 I/dalvikvm(30107): +++++++++++++ Using PCG. +++++++++++++++++++++
+02-27 17:34:52.846 D/dalvikvm(30107): Trying to load lib libjavacore.so 0x0
+02-27 17:34:52.846 D/dalvikvm(30107): Added shared lib libjavacore.so 0x0
+02-27 17:34:52.846 D/dalvikvm(30107): Trying to load lib libnativehelper.so 0x0
+02-27 17:34:52.846 D/dalvikvm(30107): Added shared lib libnativehelper.so 0x0
+02-27 17:34:52.846 D/dalvikvm(30107): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-27 17:34:52.856 D/dalvikvm(30107): Extra Options: not specified
+02-27 17:34:52.866 D/dalvikvm(30107): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+02-27 17:34:52.936 E/memtrack(30107): Couldn't load memtrack module (No such file or directory)
+02-27 17:34:52.936 E/android.os.Debug(30107): failed to load memtrack module: -2
+02-27 17:34:52.966 D/AndroidRuntime(30107): Calling main entry com.android.commands.am.Am
+02-27 17:34:52.996 I/ActivityManager(  505): START u0 {flg=0x10000000 cmp=org.xwalk.webapi_service_tests/.webapi_service_tests} from pid 30107
+02-27 17:34:53.006 I/SecurityManagerService(  600): SMS received security event: App[START/org.xwalk.webapi_service_tests]
+02-27 17:34:53.006 D/dalvikvm(30118): Late-enabling CheckJNI
+02-27 17:34:53.006 D/dalvikvm(30118): Try to disable coredump for pid 30118
+02-27 17:34:53.006 D/dalvikvm(30118): Process 30118 nice name: org.xwalk.webapi_service_tests
+02-27 17:34:53.006 D/dalvikvm(30118): Extra Options: not specified
+02-27 17:34:53.016 D/AndroidRuntime(30107): Shutting down VM
+02-27 17:34:53.016 D/dalvikvm(30107): GC_CONCURRENT freed 114K, 17% free 669K/800K, paused 0ms+0ms, total 1ms
+02-27 17:34:53.016 D/dalvikvm(30107): Compiler shutdown in progress - discarding request
+02-27 17:34:53.016 D/dalvikvm(30107): Compiler shutdown in progress - discarding request
+02-27 17:34:53.016 D/dalvikvm(30107): Compiler shutdown in progress - discarding request
+02-27 17:34:53.016 D/dalvikvm(30107): Compiler shutdown in progress - discarding request
+02-27 17:34:53.016 D/dalvikvm(30107): Compiler shutdown in progress - discarding request
+02-27 17:34:53.016 D/dalvikvm(30107): Compiler shutdown in progress - discarding request
+02-27 17:34:53.016 D/dalvikvm(30107): Compiler shutdown in progress - discarding request
+02-27 17:34:53.016 D/dalvikvm(30107): Compiler shutdown in progress - discarding request
+02-27 17:34:53.016 D/dalvikvm(30107): Compiler shutdown in progress - discarding request
+02-27 17:34:53.016 D/dalvikvm(30107): Compiler shutdown in progress - discarding request
+02-27 17:34:53.016 D/dalvikvm(30107): Compiler shutdown in progress - discarding request
+02-27 17:34:53.016 D/dalvikvm(30107): Compiler shutdown in progress - discarding request
+02-27 17:34:53.016 D/dalvikvm(30107): Compiler shutdown in progress - discarding request
+02-27 17:34:53.016 D/dalvikvm(30107): Compiler shutdown in progress - discarding request
+02-27 17:34:53.016 D/dalvikvm(30107): Compiler shutdown in progress - discarding request
+02-27 17:34:53.016 D/dalvikvm(30107): Compiler shutdown in progress - discarding request
+02-27 17:34:53.016 D/dalvikvm(30107): Compiler shutdown in progress - discarding request
+02-27 17:34:53.016 D/dalvikvm(30107): Compiler shutdown in progress - discarding request
+02-27 17:34:53.016 D/dalvikvm(30107): Compiler shutdown in progress - discarding request
+02-27 17:34:53.016 D/dalvikvm(30107): Compiler shutdown in progress - discarding request
+02-27 17:34:53.016 D/dalvikvm(30107): Compiler shutdown in progress - discarding request
+02-27 17:34:53.016 D/dalvikvm(30107): Compiler shutdown in progress - discarding request
+02-27 17:34:53.016 D/dalvikvm(30107): Compiler shutdown in progress - discarding request
+02-27 17:34:53.016 D/dalvikvm(30107): Compiler shutdown in progress - discarding request
+02-27 17:34:53.016 D/dalvikvm(30107): Compiler shutdown in progress - discarding request
+02-27 17:34:53.016 D/dalvikvm(30107): Compiler shutdown in progress - discarding request
+02-27 17:34:53.016 D/dalvikvm(30107): Compiler shutdown in progress - discarding request
+02-27 17:34:53.016 D/dalvikvm(30107): Compiler shutdown in progress - discarding request
+02-27 17:34:53.016 D/dalvikvm(30107): Compiler shutdown in progress - discarding request
+02-27 17:34:53.016 D/dalvikvm(30107): Compiler shutdown in progress - discarding request
+02-27 17:34:53.016 D/dalvikvm(30107): Compiler shutdown in progress - discarding request
+02-27 17:34:53.016 D/dalvikvm(30107): Compiler shutdown in progress - discarding request
+02-27 17:34:53.016 D/dalvikvm(30107): Compiler shutdown in progress - discarding request
+02-27 17:34:53.016 D/dalvikvm(30107): Compiler shutdown in progress - discarding request
+02-27 17:34:53.016 D/dalvikvm(30107): Compiler shutdown in progress - discarding request
+02-27 17:34:53.016 D/dalvikvm(30107): Compiler shutdown in progress - discarding request
+02-27 17:34:53.016 D/dalvikvm(30107): Compiler shutdown in progress - discarding request
+02-27 17:34:53.016 D/dalvikvm(30107): Compiler shutdown in progress - discarding request
+02-27 17:34:53.016 D/dalvikvm(30107): Compiler shutdown in progress - discarding request
+02-27 17:34:53.016 D/dalvikvm(30107): Compiler shutdown in progress - discarding request
+02-27 17:34:53.016 D/dalvikvm(30107): Compiler shutdown in progress - discarding request
+02-27 17:34:53.016 D/dalvikvm(30107): Compiler shutdown in progress - discarding request
+02-27 17:34:53.016 D/dalvikvm(30107): Compiler shutdown in progress - discarding request
+02-27 17:34:53.016 I/ActivityManager(  505): Start proc org.xwalk.webapi_service_tests for activity org.xwalk.webapi_service_tests/.webapi_service_tests: pid=30118 uid=10327 gids={50327, 3003, 1028, 1015}
+02-27 17:34:53.036 D/WindowManager(  505): adjustConfigurationLw, config:{1.0 ?mcc?mnc ?locale ?layoutDir sw600dp w600dp h888dp 213dpi lrg port ?uimode ?night finger -keyb/v/h -nav/v} mLidState:1 mHasDockFeature:false mHasKeyboardFeature:false mHasHallSensorFeature:true config.hardKeyboardHidden:2
+02-27 17:34:53.036 I/ActivityManager(  505): [TopPkgCurBat]	NowPkgName[org.xwalk.webapi_service_tests]	Battery[9]	TimeTick[1425029693048]	OldPkgName[org.xwalk.usecase_webapi_xwalk_tests]
+02-27 17:34:53.046 D/        (28178): Surface destroy: ANDROID_NATIVE_WINDOW_MAGIC
+02-27 17:34:53.066 I/CordovaLog(30118): Changing log level to DEBUG(3)
+02-27 17:34:53.066 D/CordovaActivity(30118): CordovaActivity.init()
+02-27 17:34:53.066 D/dalvikvm(30118): Trying to load lib /data/app-lib/org.xwalk.webapi_service_tests-1/libxwalkcore.so 0x43d81510
+02-27 17:34:53.076 D/dalvikvm(30118): Added shared lib /data/app-lib/org.xwalk.webapi_service_tests-1/libxwalkcore.so 0x43d81510
+02-27 17:34:53.076 I/LibraryLoader(30118): Time to load native libraries: 12 ms (timestamps 2102-2114)
+02-27 17:34:53.076 I/LibraryLoader(30118): Expected native library version number "",actual native library version number ""
+02-27 17:34:53.096 I/LibraryLoader(30118): Expected native library version number "",actual native library version number ""
+02-27 17:34:53.096 I/chromium(30118): [INFO:library_loader_hooks.cc(112)] Chromium logging enabled: level = 0, default verbosity = 0
+02-27 17:34:53.106 I/BrowserStartupController(30118): Initializing chromium process, singleProcess=true
+02-27 17:34:53.146 I/ResourceExtractor(30118): Extracting resource xwalk.pak
+02-27 17:34:53.166 I/ResourceExtractor(30118): Extracting resource icudtl.dat
+02-27 17:34:53.256 I/ufoGralloc(30118): Hello, this is UFO GRALLOC/Intel Corporation
+02-27 17:34:53.256 W/AudioManagerAndroid(30118): Requires BLUETOOTH permission
+02-27 17:34:53.286 D/        (30118): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 17:34:53.286 D/        (30118): droid_create_context : config id = 1 conf->NativeVisualID=1
+02-27 17:34:53.286 D/        (30118): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 17:34:53.286 I/        (30118): Requested context : GLES 2.0
+02-27 17:34:53.316 W/chromium(30118): [WARNING:proxy_service.cc(899)] PAC support disabled because there is no system implementation
+02-27 17:34:53.316 W/dalvikvm(30118): VFY: unable to find class referenced in signature (Landroid/view/inputmethod/CursorAnchorInfo;)
+02-27 17:34:53.316 I/dalvikvm(30118): Could not find method android.view.inputmethod.InputMethodManager.updateCursorAnchorInfo, referenced from method org.chromium.content.browser.input.InputMethodManagerWrapper.updateCursorAnchorInfo
+02-27 17:34:53.316 W/dalvikvm(30118): VFY: unable to resolve virtual method 1368: Landroid/view/inputmethod/InputMethodManager;.updateCursorAnchorInfo (Landroid/view/View;Landroid/view/inputmethod/CursorAnchorInfo;)V
+02-27 17:34:53.316 D/dalvikvm(30118): VFY: replacing opcode 0x6e at 0x000a
+02-27 17:34:53.386 E/cutils  (  163): Failed to mkdirat(/Removable/MicroSD): Read-only file system
+02-27 17:34:53.386 W/ContextImpl(30118): Failed to ensure directory: /Removable/MicroSD/Android/data/org.xwalk.webapi_service_tests/cache
+02-27 17:34:53.386 W/Vold    (  163): Returning OperationFailed - no handler for errno 30
+02-27 17:34:53.406 D/CordovaActivity(30118): CordovaActivity.createViews()
+02-27 17:34:53.406 E/chromium(30118): [ERROR:unix_domain_server_socket_posix.cc(106)] Not implemented reached in virtual int net::UnixDomainServerSocket::GetLocalAddress(net::IPEndPoint*) const
+02-27 17:34:53.406 D/CordovaWebView(30118): >>> loadUrl(file:///android_asset/www/index.html)
+02-27 17:34:53.406 D/PluginManager(30118): init()
+02-27 17:34:53.416 E/cutils  (  163): Failed to mkdirat(/Removable/MicroSD): Read-only file system
+02-27 17:34:53.416 W/ContextImpl(30118): Failed to ensure directory: /Removable/MicroSD/Android/data/org.xwalk.webapi_service_tests/files
+02-27 17:34:53.416 E/cutils  (  163): Failed to mkdirat(/Removable/MicroSD): Read-only file system
+02-27 17:34:53.416 W/ContextImpl(30118): Failed to ensure directory: /Removable/MicroSD/Android/data/org.xwalk.webapi_service_tests/cache
+02-27 17:34:53.416 D/CordovaWebView(30118): >>> loadUrlNow()
+02-27 17:34:53.416 I/dalvikvm(30118): Could not find method android.app.Activity.finishAndRemoveTask, referenced from method org.chromium.base.ApiCompatibilityUtils.finishAndRemoveTask
+02-27 17:34:53.416 W/dalvikvm(30118): VFY: unable to resolve virtual method 6: Landroid/app/Activity;.finishAndRemoveTask ()V
+02-27 17:34:53.416 D/dalvikvm(30118): VFY: replacing opcode 0x6e at 0x0006
+02-27 17:34:53.416 I/dalvikvm(30118): Could not find method android.os.PowerManager.isInteractive, referenced from method org.chromium.base.ApiCompatibilityUtils.isInteractive
+02-27 17:34:53.416 W/dalvikvm(30118): VFY: unable to resolve virtual method 874: Landroid/os/PowerManager;.isInteractive ()Z
+02-27 17:34:53.416 D/dalvikvm(30118): VFY: replacing opcode 0x6e at 0x000e
+02-27 17:34:53.416 I/dalvikvm(30118): Could not find method android.view.Window.getNavigationBarColor, referenced from method org.chromium.base.ApiCompatibilityUtils.setStatusBarColor
+02-27 17:34:53.416 W/dalvikvm(30118): VFY: unable to resolve virtual method 1268: Landroid/view/Window;.getNavigationBarColor ()I
+02-27 17:34:53.416 D/dalvikvm(30118): VFY: replacing opcode 0x6e at 0x0010
+02-27 17:34:53.416 I/dalvikvm(30118): Could not find method android.view.Window.setStatusBarColor, referenced from method org.chromium.base.ApiCompatibilityUtils.setStatusBarColor
+02-27 17:34:53.416 W/dalvikvm(30118): VFY: unable to resolve virtual method 1274: Landroid/view/Window;.setStatusBarColor (I)V
+02-27 17:34:53.416 D/dalvikvm(30118): VFY: replacing opcode 0x6e at 0x0019
+02-27 17:34:53.416 E/dalvikvm(30118): Could not find class 'android.app.ActivityManager$TaskDescription', referenced from method org.chromium.base.ApiCompatibilityUtils.setTaskDescription
+02-27 17:34:53.416 W/dalvikvm(30118): VFY: unable to resolve new-instance 13 (Landroid/app/ActivityManager$TaskDescription;) in Lorg/chromium/base/ApiCompatibilityUtils;
+02-27 17:34:53.416 D/dalvikvm(30118): VFY: replacing opcode 0x22 at 0x0006
+02-27 17:34:53.416 D/dalvikvm(30118): DexOpt: unable to opt direct call 0x002f at 0x08 in Lorg/chromium/base/ApiCompatibilityUtils;.setTaskDescription
+02-27 17:34:53.416 W/Vold    (  163): Returning OperationFailed - no handler for errno 30
+02-27 17:34:53.416 W/Vold    (  163): Returning OperationFailed - no handler for errno 30
+02-27 17:34:53.426 I/chromium(30118): [INFO:xwalk_extension_renderer_controller.cc(47)] EXTENSION PROCESS DISABLED.
+02-27 17:34:53.426 D/CordovaActivity(30118): Resuming the App
+02-27 17:34:53.426 D/CordovaActivity(30118): Paused the application!
+02-27 17:34:53.426 D/CordovaWebView(30118): Handle the pause
+02-27 17:34:53.446 D/SoftKeyboardDetect(30118): Ignore this event
+02-27 17:34:53.456 D/        (30118): droid_create_context : config id = 5 conf->NativeVisualID=1
+02-27 17:34:53.456 D/        (30118): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 17:34:53.456 I/        (30118): Requested context : GLES 2.0
+02-27 17:34:53.466 D/        (30118): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 17:34:53.476 D/OpenGLRenderer(30118): Enabling debug mode 0
+02-27 17:34:53.476 D/CordovaActivity(30118): onMessage(onPageStarted,file:///android_asset/www/index.html)
+02-27 17:34:53.536 I/ActivityManager(  505): Displayed org.xwalk.webapi_service_tests/.webapi_service_tests: +500ms (total +534ms)
+02-27 17:34:53.546 I/chromium(30118): [INFO:CONSOLE(1)] "exception firing pause event from native", source:  (1)
+02-27 17:34:53.546 D/        (30118): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 17:34:53.546 D/        (30118): droid_create_context : config id = 1 conf->NativeVisualID=1
+02-27 17:34:53.546 D/        (30118): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 17:34:53.546 I/        (30118): Requested context : GLES 2.0
+02-27 17:34:53.546 W/BindingManager(30118): Cannot call determinedVisibility() - never saw a connection for the pid: 30118
+02-27 17:34:53.576 D/CordovaActivity(30118): onMessage(onPageFinished,file:///android_asset/www/index.html)
+02-27 17:34:54.586 D/CordovaActivity(30118): onMessage(onPageStarted,http://127.0.0.1:8080/index.html)
+02-27 17:34:54.636 W/BindingManager(30118): Cannot call determinedVisibility() - never saw a connection for the pid: 30118
+02-27 17:34:54.636 D/CordovaWebViewClient(30118): CordovaWebViewClient.onReceivedError: Error code=-6 Description=The server refused the connection. URL=http://127.0.0.1:8080/index.html
+02-27 17:34:54.636 D/CordovaActivity(30118): onMessage(onReceivedError,{"errorCode":-6,"url":"http:\/\/127.0.0.1:8080\/index.html","description":"The server refused the connection."})
+02-27 17:34:54.726 D/        (30118): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 17:34:54.736 W/BindingManager(30118): Cannot call determinedVisibility() - never saw a connection for the pid: 30118
+02-27 17:34:54.736 D/CordovaActivity(30118): onMessage(onPageFinished,http://127.0.0.1:8080/index.html)
+02-27 17:34:54.806 I/dalvikvm(30118): Total arena pages for JIT: 11
+02-27 17:34:54.806 I/dalvikvm(30118): Total arena pages for JIT: 12
+02-27 17:34:54.806 I/dalvikvm(30118): Total arena pages for JIT: 13
+02-27 17:34:54.806 I/dalvikvm(30118): Total arena pages for JIT: 14
+02-27 17:34:55.576 D/CordovaActivity(30118): onMessage(spinner,stop)
+02-27 17:34:58.406 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 17:34:58.406 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 17:34:59.986 D/Clock   (  569): ACTION_TIME_TICK
+02-27 17:34:59.986 D/Clock   (  569): update clock:下午5:35
+02-27 17:35:00.016 D/BatteryStatsImpl(  505): noteStopWakeLocked system isFromForeground = false
+02-27 17:35:00.416 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 17:35:00.416 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 17:35:00.416 I/upi_ug31xx(  166): (1631) update_capacity
+02-27 17:35:00.416 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: V=3709(3707), T=324(326-384), I=170, C=0(0-0)
+02-27 17:35:00.416 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x00012565) 349 (349) / 3822 (3822) = 9
+02-27 17:35:00.416 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x00012565) 349 (349) / 3822 (3822) = 9
+02-27 17:35:00.416 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x00012545) 349 (349) / 3822 (3822) = 9
+02-27 17:35:00.416 I/[UPI]   (  166): <UG31/E>[RsocFilterCountTime]: (0x00012545) Step=8(508250), Full=8(508250), Lock=508250(2717152)
+02-27 17:35:00.416 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x00012545) 349 (349) / 3822 (3822) = 9 (170-170)
+02-27 17:35:00.416 I/[UPI]   (  166): <UG31/E><BATT> M:normal, P:9(9-9)%, V:3707mV, C:170mA, T:32.6C(384), S:0x00012545(001), R:349mAh, F:3822mAh, Q:-1478mAh, CC:3, P:10.250(1477-0)s, BO:7, 97:615:0-44af-9m:B001-20140514-144301 (16)
+02-27 17:35:00.416 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 17:35:00.416 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 17:35:00.416 I/upi_ug31xx(  166): (1632) backup_data 
+02-27 17:35:00.416 V/upi_ug31xx(  166): state->check_backup_count = 10
+02-27 17:35:08.416 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 17:35:08.416 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 17:35:10.696 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 17:35:10.696 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 17:35:10.696 I/upi_ug31xx(  166): (1633) update_capacity
+02-27 17:35:10.696 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: V=3711(3715), T=324(326-383), I=201, C=1(1-0)
+02-27 17:35:10.696 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x00012565) 349 (350) / 3822 (3822) = 9
+02-27 17:35:10.696 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x00012565) 349 (350) / 3822 (3822) = 9
+02-27 17:35:10.696 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x00012545) 350 (350) / 3822 (3822) = 9
+02-27 17:35:10.696 I/[UPI]   (  166): <UG31/E>[RsocFilterCountTime]: (0x00012545) Step=8(518625), Full=8(518625), Lock=518625(2298089)
+02-27 17:35:10.696 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x00012545) 350 (350) / 3822 (3822) = 9 (201-201)
+02-27 17:35:10.696 I/[UPI]   (  166): <UG31/E><BATT> M:normal, P:9(9-9)%, V:3715mV, C:201mA, T:32.6C(383), S:0x00012545(001), R:350mAh, F:3822mAh, Q:-1477mAh, CC:3, P:10.375(1476-0)s, BO:7, 97:615:0-44af-9m:B001-20140514-144301 (16)
+02-27 17:35:10.696 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 17:35:10.696 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 17:35:10.746 I/upi_ug31xx(  166): (1634) backup_data 
+02-27 17:35:10.746 V/upi_ug31xx(  166): state->check_backup_count = 11
+02-27 17:35:11.016 D/wpa_supplicant(  711): wlan0: RX EAPOL from 02:1a:11:f2:56:84
+02-27 17:35:11.016 D/wpa_supplicant(  711): wlan0: IEEE 802.1X RX: version=2 type=3 length=127
+02-27 17:35:11.016 D/wpa_supplicant(  711): wlan0:   EAPOL-Key type=2
+02-27 17:35:11.016 D/wpa_supplicant(  711): wlan0:   key_info 0x1382 (ver=2 keyidx=0 rsvd=0 Group Ack MIC Secure Encr)
+02-27 17:35:11.016 D/wpa_supplicant(  711): wlan0:   key_length=16 key_data_length=32
+02-27 17:35:11.016 D/wpa_supplicant(  711):   replay_counter - hexdump(len=8): 00 00 00 00 00 00 00 24
+02-27 17:35:11.016 D/wpa_supplicant(  711):   key_nonce - hexdump(len=32): 82 b7 6e d6 0d d2 e3 a1 1c 9d c1 1d 9b dc 11 d9 0f 86 d4 c0 5a f8 a2 40 56 5e 1e ce e2 43 c9 28
+02-27 17:35:11.016 D/wpa_supplicant(  711):   key_iv - hexdump(len=16): 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+02-27 17:35:11.016 D/wpa_supplicant(  711):   key_rsc - hexdump(len=8): 00 00 00 00 00 00 00 00
+02-27 17:35:11.016 D/wpa_supplicant(  711):   key_id (reserved) - hexdump(len=8): 00 00 00 00 00 00 00 00
+02-27 17:35:11.016 D/wpa_supplicant(  711):   key_mic - hexdump(len=16): f1 f1 6b 4c fe 0c 25 fa d1 5a 07 3b 88 80 c1 dc
+02-27 17:35:11.016 D/wpa_supplicant(  711): RSN: encrypted key data - hexdump(len=32): a9 70 59 a7 bc 7d f5 68 0f 01 c6 e0 bc 6b f1 b7 20 8c 1c ab e7 cd ee 01 5b 0f 42 b3 08 9a 12 b2
+02-27 17:35:11.016 D/wpa_supplicant(  711): WPA: decrypted EAPOL-Key key data - hexdump(len=24): [REMOVED]
+02-27 17:35:11.016 D/wpa_supplicant(  711): wlan0: WPA: RX message 1 of Group Key Handshake from 02:1a:11:f2:56:84 (ver=2)
+02-27 17:35:11.016 D/wpa_supplicant(  711): RSN: msg 1/2 key data - hexdump(len=24): dd 16 00 0f ac 01 02 00 d7 d3 4b 8b 48 1b ed c2 c0 7a 69 a6 ce 8c 0c 64
+02-27 17:35:11.016 D/wpa_supplicant(  711): WPA: GTK in EAPOL-Key - hexdump(len=24): [REMOVED]
+02-27 17:35:11.016 D/wpa_supplicant(  711): RSN: received GTK in group key handshake - hexdump(len=18): 02 00 d7 d3 4b 8b 48 1b ed c2 c0 7a 69 a6 ce 8c 0c 64
+02-27 17:35:11.016 D/wpa_supplicant(  711): wlan0: State: COMPLETED -> GROUP_HANDSHAKE
+02-27 17:35:11.016 D/wpa_supplicant(  711): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+02-27 17:35:11.016 D/wpa_supplicant(  711): WPA: Group Key - hexdump(len=16): [REMOVED]
+02-27 17:35:11.016 D/wpa_supplicant(  711): wlan0: WPA: Installing GTK to the driver (keyidx=2 tx=0 len=16)
+02-27 17:35:11.016 D/wpa_supplicant(  711): WPA: RSC - hexdump(len=6): 00 00 00 00 00 00
+02-27 17:35:11.016 D/wpa_supplicant(  711): wpa_driver_nl80211_set_key: ifindex=3 (wlan0) alg=3 addr=0xb76e80c3 key_idx=2 set_tx=0 seq_len=6 key_len=16
+02-27 17:35:11.016 D/wpa_supplicant(  711):    broadcast key
+02-27 17:35:11.016 I/WifiHW  (  505): EVENT: IFNAME=wlan0 CTRL-EVENT-STATE-CHANGE id=5 state=8 BSSID=02:1a:11:f2:56:84 SSID=Android
+02-27 17:35:11.016 D/wpa_supplicant(  711): wlan0: WPA: Sending EAPOL-Key 2/2
+02-27 17:35:11.016 D/wpa_supplicant(  711): WPA: KCK - hexdump(len=16): [REMOVED]
+02-27 17:35:11.016 D/wpa_supplicant(  711): WPA: Derived Key MIC - hexdump(len=16): 27 e2 4e f7 c7 80 e4 61 51 53 59 fb 72 8a 7c c0
+02-27 17:35:11.016 I/wpa_supplicant(  711): wlan0: WPA: Group rekeying completed with 02:1a:11:f2:56:84 [GTK=CCMP]
+02-27 17:35:11.016 D/wpa_supplicant(  711): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+02-27 17:35:11.016 D/wpa_supplicant(  711): wlan0: Cancelling authentication timeout
+02-27 17:35:11.016 D/wpa_supplicant(  711): wlan0: State: GROUP_HANDSHAKE -> COMPLETED
+02-27 17:35:11.016 D/wpa_supplicant(  711): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+02-27 17:35:11.016 I/WifiHW  (  505): EVENT: IFNAME=wlan0 WPA: Group rekeying completed with 02:1a:11:f2:56:84 [GTK=CCMP]
+02-27 17:35:11.016 I/WifiHW  (  505): EVENT: IFNAME=wlan0 CTRL-EVENT-STATE-CHANGE id=5 state=9 BSSID=02:1a:11:f2:56:84 SSID=Android
+02-27 17:35:12.496 D/AndroidRuntime(30176): 
+02-27 17:35:12.496 D/AndroidRuntime(30176): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-27 17:35:12.496 D/AndroidRuntime(30176): CheckJNI is OFF
+02-27 17:35:12.496 I/AndroidRuntime(30176): Kernel Release Version: 3.10.20-gf818079
+02-27 17:35:12.496 I/dalvikvm(30176): No library specified. The standard exception handler will be used
+02-27 17:35:12.496 I/dalvikvm(30176): 
+02-27 17:35:12.496 I/dalvikvm(30176): +++++++++++++ Using PCG. +++++++++++++++++++++
+02-27 17:35:12.506 D/dalvikvm(30176): Trying to load lib libjavacore.so 0x0
+02-27 17:35:12.506 D/dalvikvm(30176): Added shared lib libjavacore.so 0x0
+02-27 17:35:12.516 D/dalvikvm(30176): Trying to load lib libnativehelper.so 0x0
+02-27 17:35:12.516 D/dalvikvm(30176): Added shared lib libnativehelper.so 0x0
+02-27 17:35:12.516 D/dalvikvm(30176): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-27 17:35:12.516 D/dalvikvm(30176): Extra Options: not specified
+02-27 17:35:12.536 D/dalvikvm(30176): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+02-27 17:35:12.606 E/memtrack(30176): Couldn't load memtrack module (No such file or directory)
+02-27 17:35:12.606 E/android.os.Debug(30176): failed to load memtrack module: -2
+02-27 17:35:12.636 D/AndroidRuntime(30176): Calling main entry com.android.commands.am.Am
+02-27 17:35:12.676 I/ActivityManager(  505): Force stopping org.xwalk.webapi_service_tests appid=10327 user=0: from pid 30176
+02-27 17:35:12.676 I/SecurityManagerService(  600): SMS received security event: App[STOP/org.xwalk.webapi_service_tests]
+02-27 17:35:12.676 D/WindowManager(  505): adjustConfigurationLw, config:{1.0 ?mcc?mnc ?locale ?layoutDir sw600dp w600dp h888dp 213dpi lrg port ?uimode ?night finger -keyb/v/h -nav/v} mLidState:1 mHasDockFeature:false mHasKeyboardFeature:false mHasHallSensorFeature:true config.hardKeyboardHidden:2
+02-27 17:35:12.676 I/ActivityManager(  505): Killing 30118:org.xwalk.webapi_service_tests/u0a327 (adj 0): stop org.xwalk.webapi_service_tests
+02-27 17:35:12.676 I/ActivityManager(  505):   Force finishing activity ActivityRecord{220622f8 u0 org.xwalk.webapi_service_tests/.webapi_service_tests t105}
+02-27 17:35:12.686 D/AndroidRuntime(30176): Shutting down VM
+02-27 17:35:12.686 E/JavaBinder(  505): !!! FAILED BINDER TRANSACTION !!!
+02-27 17:35:12.686 E/JavaBinder(  505): !!! FAILED BINDER TRANSACTION !!!
+02-27 17:35:12.686 I/ActivityManager(  505): [TopPkgCurBat]	NowPkgName[org.xwalk.usecase_webapi_xwalk_tests]	Battery[9]	TimeTick[1425029712697]	OldPkgName[org.xwalk.webapi_service_tests]
+02-27 17:35:12.696 D/dalvikvm(30176): GC_CONCURRENT freed 112K, 16% free 666K/792K, paused 0ms+0ms, total 1ms
+02-27 17:35:12.696 D/dalvikvm(30176): Compiler shutdown in progress - discarding request
+02-27 17:35:12.696 D/dalvikvm(30176): Compiler shutdown in progress - discarding request
+02-27 17:35:12.696 D/dalvikvm(30176): Compiler shutdown in progress - discarding request
+02-27 17:35:12.696 D/dalvikvm(30176): Compiler shutdown in progress - discarding request
+02-27 17:35:12.696 D/dalvikvm(30176): Compiler shutdown in progress - discarding request
+02-27 17:35:12.696 D/dalvikvm(30176): Compiler shutdown in progress - discarding request
+02-27 17:35:12.696 D/dalvikvm(30176): Compiler shutdown in progress - discarding request
+02-27 17:35:12.696 D/dalvikvm(30176): Compiler shutdown in progress - discarding request
+02-27 17:35:12.696 D/dalvikvm(30176): Compiler shutdown in progress - discarding request
+02-27 17:35:12.696 D/dalvikvm(30176): Compiler shutdown in progress - discarding request
+02-27 17:35:12.696 D/dalvikvm(30176): Compiler shutdown in progress - discarding request
+02-27 17:35:12.696 D/dalvikvm(30176): Compiler shutdown in progress - discarding request
+02-27 17:35:12.696 D/dalvikvm(30176): Compiler shutdown in progress - discarding request
+02-27 17:35:12.696 D/dalvikvm(30176): Compiler shutdown in progress - discarding request
+02-27 17:35:12.696 D/dalvikvm(30176): Compiler shutdown in progress - discarding request
+02-27 17:35:12.696 D/dalvikvm(30176): Compiler shutdown in progress - discarding request
+02-27 17:35:12.696 D/dalvikvm(30176): Compiler shutdown in progress - discarding request
+02-27 17:35:12.696 D/dalvikvm(30176): Compiler shutdown in progress - discarding request
+02-27 17:35:12.696 D/dalvikvm(30176): Compiler shutdown in progress - discarding request
+02-27 17:35:12.696 D/dalvikvm(30176): Compiler shutdown in progress - discarding request
+02-27 17:35:12.696 D/dalvikvm(30176): Compiler shutdown in progress - discarding request
+02-27 17:35:12.696 D/dalvikvm(30176): Compiler shutdown in progress - discarding request
+02-27 17:35:12.696 D/dalvikvm(30176): Compiler shutdown in progress - discarding request
+02-27 17:35:12.696 D/dalvikvm(30176): Compiler shutdown in progress - discarding request
+02-27 17:35:12.696 D/dalvikvm(30176): Compiler shutdown in progress - discarding request
+02-27 17:35:12.696 D/dalvikvm(30176): Compiler shutdown in progress - discarding request
+02-27 17:35:12.696 D/dalvikvm(30176): Compiler shutdown in progress - discarding request
+02-27 17:35:12.696 D/dalvikvm(30176): Compiler shutdown in progress - discarding request
+02-27 17:35:12.696 D/dalvikvm(30176): Compiler shutdown in progress - discarding request
+02-27 17:35:12.696 D/dalvikvm(30176): Compiler shutdown in progress - discarding request
+02-27 17:35:12.696 D/dalvikvm(30176): Compiler shutdown in progress - discarding request
+02-27 17:35:12.696 D/dalvikvm(30176): Compiler shutdown in progress - discarding request
+02-27 17:35:12.696 D/dalvikvm(30176): Compiler shutdown in progress - discarding request
+02-27 17:35:12.726 D/        (29358): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 17:35:12.726 D/        (29358): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 17:35:12.736 D/        (29358): droid_create_context : config id = 1 conf->NativeVisualID=1
+02-27 17:35:12.736 D/        (29358): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 17:35:12.736 I/        (29358): Requested context : GLES 2.0
+02-27 17:35:12.736 I/WindowState(  505): WIN DEATH: Window{22139cb0 u0 org.xwalk.webapi_service_tests/org.xwalk.webapi_service_tests.webapi_service_tests}
+02-27 17:35:12.736 I/WindowState(  505): WIN DEATH: Window{224c2ff0 u0 org.xwalk.webapi_service_tests/org.xwalk.webapi_service_tests.webapi_service_tests}
+02-27 17:35:12.736 D/        (29358): Swap interval set to = 1 value
+02-27 17:35:12.766 D/        (28178): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 17:35:12.766 D/        (29358): Surface destroy: ANDROID_NATIVE_WINDOW_MAGIC
+02-27 17:35:12.796 D/        (29358): Surface destroy: ANDROID_NATIVE_WINDOW_MAGIC
+02-27 17:35:13.306 D/AndroidRuntime(30188): 
+02-27 17:35:13.306 D/AndroidRuntime(30188): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-27 17:35:13.306 D/AndroidRuntime(30188): CheckJNI is OFF
+02-27 17:35:13.306 I/AndroidRuntime(30188): Kernel Release Version: 3.10.20-gf818079
+02-27 17:35:13.306 I/dalvikvm(30188): No library specified. The standard exception handler will be used
+02-27 17:35:13.306 I/dalvikvm(30188): 
+02-27 17:35:13.306 I/dalvikvm(30188): +++++++++++++ Using PCG. +++++++++++++++++++++
+02-27 17:35:13.316 D/dalvikvm(30188): Trying to load lib libjavacore.so 0x0
+02-27 17:35:13.316 D/dalvikvm(30188): Added shared lib libjavacore.so 0x0
+02-27 17:35:13.316 D/dalvikvm(30188): Trying to load lib libnativehelper.so 0x0
+02-27 17:35:13.316 D/dalvikvm(30188): Added shared lib libnativehelper.so 0x0
+02-27 17:35:13.316 D/dalvikvm(30188): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-27 17:35:13.316 D/dalvikvm(30188): Extra Options: not specified
+02-27 17:35:13.336 D/dalvikvm(30188): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+02-27 17:35:13.406 E/memtrack(30188): Couldn't load memtrack module (No such file or directory)
+02-27 17:35:13.406 E/android.os.Debug(30188): failed to load memtrack module: -2
+02-27 17:35:13.436 D/AndroidRuntime(30188): Calling main entry com.android.commands.am.Am
+02-27 17:35:13.466 D/AndroidRuntime(30188): Shutting down VM
+02-27 17:35:13.466 D/dalvikvm(30188): GC_CONCURRENT freed 112K, 16% free 674K/800K, paused 0ms+0ms, total 1ms
+02-27 17:35:13.466 I/ActivityManager(  505): START u0 {flg=0x10000000 cmp=org.xwalk.webapi_service_tests/.webapi_service_testsActivity} from pid 30188
+02-27 17:35:13.476 D/dalvikvm(30188): Compiler shutdown in progress - discarding request
+02-27 17:35:13.476 D/dalvikvm(30188): Compiler shutdown in progress - discarding request
+02-27 17:35:13.476 D/dalvikvm(30188): Compiler shutdown in progress - discarding request
+02-27 17:35:13.476 D/dalvikvm(30188): Compiler shutdown in progress - discarding request
+02-27 17:35:13.476 D/dalvikvm(30188): Compiler shutdown in progress - discarding request
+02-27 17:35:13.476 D/dalvikvm(30188): Compiler shutdown in progress - discarding request
+02-27 17:35:13.476 D/dalvikvm(30188): Compiler shutdown in progress - discarding request
+02-27 17:35:13.476 D/dalvikvm(30188): Compiler shutdown in progress - discarding request
+02-27 17:35:13.476 D/dalvikvm(30188): Compiler shutdown in progress - discarding request
+02-27 17:35:13.476 D/dalvikvm(30188): Compiler shutdown in progress - discarding request
+02-27 17:35:13.476 D/dalvikvm(30188): Compiler shutdown in progress - discarding request
+02-27 17:35:13.476 D/dalvikvm(30188): Compiler shutdown in progress - discarding request
+02-27 17:35:13.476 D/dalvikvm(30188): Compiler shutdown in progress - discarding request
+02-27 17:35:13.476 D/dalvikvm(30188): Compiler shutdown in progress - discarding request
+02-27 17:35:13.476 D/dalvikvm(30188): Compiler shutdown in progress - discarding request
+02-27 17:35:13.476 D/dalvikvm(30188): Compiler shutdown in progress - discarding request
+02-27 17:35:13.476 D/dalvikvm(30188): Compiler shutdown in progress - discarding request
+02-27 17:35:13.476 D/dalvikvm(30188): Compiler shutdown in progress - discarding request
+02-27 17:35:13.476 D/dalvikvm(30188): Compiler shutdown in progress - discarding request
+02-27 17:35:13.476 D/dalvikvm(30188): Compiler shutdown in progress - discarding request
+02-27 17:35:13.476 D/dalvikvm(30188): Compiler shutdown in progress - discarding request
+02-27 17:35:13.476 D/dalvikvm(30188): Compiler shutdown in progress - discarding request
+02-27 17:35:13.476 D/dalvikvm(30188): Compiler shutdown in progress - discarding request
+02-27 17:35:13.476 D/dalvikvm(30188): Compiler shutdown in progress - discarding request
+02-27 17:35:13.476 D/dalvikvm(30188): Compiler shutdown in progress - discarding request
+02-27 17:35:13.476 D/dalvikvm(30188): Compiler shutdown in progress - discarding request
+02-27 17:35:13.476 D/dalvikvm(30188): Compiler shutdown in progress - discarding request
+02-27 17:35:13.476 D/dalvikvm(30188): Compiler shutdown in progress - discarding request
+02-27 17:35:13.476 D/dalvikvm(30188): Compiler shutdown in progress - discarding request
+02-27 17:35:13.476 D/dalvikvm(30188): Compiler shutdown in progress - discarding request
+02-27 17:35:13.476 D/dalvikvm(30188): Compiler shutdown in progress - discarding request
+02-27 17:35:13.476 D/dalvikvm(30188): Compiler shutdown in progress - discarding request
+02-27 17:35:13.476 D/dalvikvm(30188): Compiler shutdown in progress - discarding request
+02-27 17:35:13.476 D/dalvikvm(30188): Compiler shutdown in progress - discarding request
+02-27 17:35:13.476 D/dalvikvm(30188): Compiler shutdown in progress - discarding request
+02-27 17:35:13.476 D/dalvikvm(30188): Compiler shutdown in progress - discarding request
+02-27 17:35:13.476 D/dalvikvm(30188): Compiler shutdown in progress - discarding request
+02-27 17:35:13.476 D/dalvikvm(30188): Compiler shutdown in progress - discarding request
+02-27 17:35:13.476 D/dalvikvm(30188): Compiler shutdown in progress - discarding request
+02-27 17:35:13.476 D/dalvikvm(30188): Compiler shutdown in progress - discarding request
+02-27 17:35:13.476 D/dalvikvm(30188): Compiler shutdown in progress - discarding request
+02-27 17:35:13.476 D/dalvikvm(30188): Compiler shutdown in progress - discarding request
+02-27 17:35:13.476 D/dalvikvm(30188): Compiler shutdown in progress - discarding request
+02-27 17:35:13.476 D/dalvikvm(30188): Compiler shutdown in progress - discarding request
+02-27 17:35:13.476 D/dalvikvm(30188): Compiler shutdown in progress - discarding request
+02-27 17:35:13.476 D/dalvikvm(30188): Compiler shutdown in progress - discarding request
+02-27 17:35:13.476 D/dalvikvm(30188): Compiler shutdown in progress - discarding request
+02-27 17:35:13.476 D/dalvikvm(30188): Compiler shutdown in progress - discarding request
+02-27 17:35:13.906 D/AndroidRuntime(30199): 
+02-27 17:35:13.906 D/AndroidRuntime(30199): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-27 17:35:13.906 D/AndroidRuntime(30199): CheckJNI is OFF
+02-27 17:35:13.906 I/AndroidRuntime(30199): Kernel Release Version: 3.10.20-gf818079
+02-27 17:35:13.906 I/dalvikvm(30199): No library specified. The standard exception handler will be used
+02-27 17:35:13.906 I/dalvikvm(30199): 
+02-27 17:35:13.906 I/dalvikvm(30199): +++++++++++++ Using PCG. +++++++++++++++++++++
+02-27 17:35:13.916 D/dalvikvm(30199): Trying to load lib libjavacore.so 0x0
+02-27 17:35:13.916 D/dalvikvm(30199): Added shared lib libjavacore.so 0x0
+02-27 17:35:13.916 D/dalvikvm(30199): Trying to load lib libnativehelper.so 0x0
+02-27 17:35:13.916 D/dalvikvm(30199): Added shared lib libnativehelper.so 0x0
+02-27 17:35:13.916 D/dalvikvm(30199): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-27 17:35:13.926 D/dalvikvm(30199): Extra Options: not specified
+02-27 17:35:13.936 D/dalvikvm(30199): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+02-27 17:35:14.006 E/memtrack(30199): Couldn't load memtrack module (No such file or directory)
+02-27 17:35:14.006 E/android.os.Debug(30199): failed to load memtrack module: -2
+02-27 17:35:14.046 D/AndroidRuntime(30199): Calling main entry com.android.commands.am.Am
+02-27 17:35:14.076 I/SecurityManagerService(  600): SMS received security event: App[START/org.xwalk.webapi_service_tests]
+02-27 17:35:14.076 D/dalvikvm(30210): Late-enabling CheckJNI
+02-27 17:35:14.076 D/dalvikvm(30210): Try to disable coredump for pid 30210
+02-27 17:35:14.076 D/dalvikvm(30210): Process 30210 nice name: org.xwalk.webapi_service_tests
+02-27 17:35:14.076 D/dalvikvm(30210): Extra Options: not specified
+02-27 17:35:14.076 I/ActivityManager(  505): START u0 {flg=0x10000000 cmp=org.xwalk.webapi_service_tests/.webapi_service_tests} from pid 30199
+02-27 17:35:14.076 I/ActivityManager(  505): Start proc org.xwalk.webapi_service_tests for activity org.xwalk.webapi_service_tests/.webapi_service_tests: pid=30210 uid=10327 gids={50327, 3003, 1028, 1015}
+02-27 17:35:14.086 D/AndroidRuntime(30199): Shutting down VM
+02-27 17:35:14.086 D/dalvikvm(30199): GC_CONCURRENT freed 114K, 17% free 669K/800K, paused 0ms+0ms, total 2ms
+02-27 17:35:14.086 D/dalvikvm(30199): Compiler shutdown in progress - discarding request
+02-27 17:35:14.086 D/dalvikvm(30199): Compiler shutdown in progress - discarding request
+02-27 17:35:14.086 D/dalvikvm(30199): Compiler shutdown in progress - discarding request
+02-27 17:35:14.086 D/dalvikvm(30199): Compiler shutdown in progress - discarding request
+02-27 17:35:14.086 D/dalvikvm(30199): Compiler shutdown in progress - discarding request
+02-27 17:35:14.086 D/dalvikvm(30199): Compiler shutdown in progress - discarding request
+02-27 17:35:14.086 D/dalvikvm(30199): Compiler shutdown in progress - discarding request
+02-27 17:35:14.086 D/dalvikvm(30199): Compiler shutdown in progress - discarding request
+02-27 17:35:14.086 D/dalvikvm(30199): Compiler shutdown in progress - discarding request
+02-27 17:35:14.086 D/dalvikvm(30199): Compiler shutdown in progress - discarding request
+02-27 17:35:14.086 D/dalvikvm(30199): Compiler shutdown in progress - discarding request
+02-27 17:35:14.086 D/dalvikvm(30199): Compiler shutdown in progress - discarding request
+02-27 17:35:14.086 D/dalvikvm(30199): Compiler shutdown in progress - discarding request
+02-27 17:35:14.086 D/dalvikvm(30199): Compiler shutdown in progress - discarding request
+02-27 17:35:14.086 D/dalvikvm(30199): Compiler shutdown in progress - discarding request
+02-27 17:35:14.086 D/dalvikvm(30199): Compiler shutdown in progress - discarding request
+02-27 17:35:14.086 D/dalvikvm(30199): Compiler shutdown in progress - discarding request
+02-27 17:35:14.086 D/dalvikvm(30199): Compiler shutdown in progress - discarding request
+02-27 17:35:14.086 D/dalvikvm(30199): Compiler shutdown in progress - discarding request
+02-27 17:35:14.086 D/dalvikvm(30199): Compiler shutdown in progress - discarding request
+02-27 17:35:14.086 D/dalvikvm(30199): Compiler shutdown in progress - discarding request
+02-27 17:35:14.086 D/dalvikvm(30199): Compiler shutdown in progress - discarding request
+02-27 17:35:14.086 D/dalvikvm(30199): Compiler shutdown in progress - discarding request
+02-27 17:35:14.086 D/dalvikvm(30199): Compiler shutdown in progress - discarding request
+02-27 17:35:14.086 D/dalvikvm(30199): Compiler shutdown in progress - discarding request
+02-27 17:35:14.086 D/dalvikvm(30199): Compiler shutdown in progress - discarding request
+02-27 17:35:14.086 D/dalvikvm(30199): Compiler shutdown in progress - discarding request
+02-27 17:35:14.086 D/dalvikvm(30199): Compiler shutdown in progress - discarding request
+02-27 17:35:14.086 D/dalvikvm(30199): Compiler shutdown in progress - discarding request
+02-27 17:35:14.086 D/dalvikvm(30199): Compiler shutdown in progress - discarding request
+02-27 17:35:14.086 D/dalvikvm(30199): Compiler shutdown in progress - discarding request
+02-27 17:35:14.086 D/dalvikvm(30199): Compiler shutdown in progress - discarding request
+02-27 17:35:14.086 D/dalvikvm(30199): Compiler shutdown in progress - discarding request
+02-27 17:35:14.086 D/dalvikvm(30199): Compiler shutdown in progress - discarding request
+02-27 17:35:14.086 D/dalvikvm(30199): Compiler shutdown in progress - discarding request
+02-27 17:35:14.086 D/dalvikvm(30199): Compiler shutdown in progress - discarding request
+02-27 17:35:14.086 D/dalvikvm(30199): Compiler shutdown in progress - discarding request
+02-27 17:35:14.086 D/dalvikvm(30199): Compiler shutdown in progress - discarding request
+02-27 17:35:14.086 D/dalvikvm(30199): Compiler shutdown in progress - discarding request
+02-27 17:35:14.086 D/dalvikvm(30199): Compiler shutdown in progress - discarding request
+02-27 17:35:14.086 D/dalvikvm(30199): Compiler shutdown in progress - discarding request
+02-27 17:35:14.086 D/dalvikvm(30199): Compiler shutdown in progress - discarding request
+02-27 17:35:14.086 D/dalvikvm(30199): Compiler shutdown in progress - discarding request
+02-27 17:35:14.136 D/dalvikvm(  505): GC_EXPLICIT freed 867K, 50% free 17532K/34800K, paused 1ms+3ms, total 45ms
+02-27 17:35:14.146 D/WindowManager(  505): adjustConfigurationLw, config:{1.0 ?mcc?mnc ?locale ?layoutDir sw600dp w600dp h888dp 213dpi lrg port ?uimode ?night finger -keyb/v/h -nav/v} mLidState:1 mHasDockFeature:false mHasKeyboardFeature:false mHasHallSensorFeature:true config.hardKeyboardHidden:2
+02-27 17:35:14.146 I/ActivityManager(  505): [TopPkgCurBat]	NowPkgName[org.xwalk.webapi_service_tests]	Battery[9]	TimeTick[1425029714157]	OldPkgName[org.xwalk.usecase_webapi_xwalk_tests]
+02-27 17:35:14.156 I/CordovaLog(30210): Changing log level to DEBUG(3)
+02-27 17:35:14.156 D/CordovaActivity(30210): CordovaActivity.init()
+02-27 17:35:14.156 D/        (28178): Surface destroy: ANDROID_NATIVE_WINDOW_MAGIC
+02-27 17:35:14.156 D/dalvikvm(30210): Trying to load lib /data/app-lib/org.xwalk.webapi_service_tests-1/libxwalkcore.so 0x43d82540
+02-27 17:35:14.166 D/dalvikvm(30210): Added shared lib /data/app-lib/org.xwalk.webapi_service_tests-1/libxwalkcore.so 0x43d82540
+02-27 17:35:14.176 I/LibraryLoader(30210): Time to load native libraries: 10 ms (timestamps 3199-3209)
+02-27 17:35:14.176 I/LibraryLoader(30210): Expected native library version number "",actual native library version number ""
+02-27 17:35:14.196 I/LibraryLoader(30210): Expected native library version number "",actual native library version number ""
+02-27 17:35:14.196 I/chromium(30210): [INFO:library_loader_hooks.cc(112)] Chromium logging enabled: level = 0, default verbosity = 0
+02-27 17:35:14.206 I/BrowserStartupController(30210): Initializing chromium process, singleProcess=true
+02-27 17:35:14.256 W/AudioManagerAndroid(30210): Requires BLUETOOTH permission
+02-27 17:35:14.256 I/ufoGralloc(30210): Hello, this is UFO GRALLOC/Intel Corporation
+02-27 17:35:14.286 D/        (30210): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 17:35:14.286 D/        (30210): droid_create_context : config id = 1 conf->NativeVisualID=1
+02-27 17:35:14.286 D/        (30210): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 17:35:14.286 I/        (30210): Requested context : GLES 2.0
+02-27 17:35:14.316 W/chromium(30210): [WARNING:proxy_service.cc(899)] PAC support disabled because there is no system implementation
+02-27 17:35:14.316 W/dalvikvm(30210): VFY: unable to find class referenced in signature (Landroid/view/inputmethod/CursorAnchorInfo;)
+02-27 17:35:14.316 I/dalvikvm(30210): Could not find method android.view.inputmethod.InputMethodManager.updateCursorAnchorInfo, referenced from method org.chromium.content.browser.input.InputMethodManagerWrapper.updateCursorAnchorInfo
+02-27 17:35:14.316 W/dalvikvm(30210): VFY: unable to resolve virtual method 1368: Landroid/view/inputmethod/InputMethodManager;.updateCursorAnchorInfo (Landroid/view/View;Landroid/view/inputmethod/CursorAnchorInfo;)V
+02-27 17:35:14.316 D/dalvikvm(30210): VFY: replacing opcode 0x6e at 0x000a
+02-27 17:35:14.366 E/cutils  (  163): Failed to mkdirat(/Removable/MicroSD): Read-only file system
+02-27 17:35:14.366 W/ContextImpl(30210): Failed to ensure directory: /Removable/MicroSD/Android/data/org.xwalk.webapi_service_tests/cache
+02-27 17:35:14.366 W/Vold    (  163): Returning OperationFailed - no handler for errno 30
+02-27 17:35:14.366 D/CordovaActivity(30210): CordovaActivity.createViews()
+02-27 17:35:14.376 E/chromium(30210): [ERROR:unix_domain_server_socket_posix.cc(106)] Not implemented reached in virtual int net::UnixDomainServerSocket::GetLocalAddress(net::IPEndPoint*) const
+02-27 17:35:14.376 D/CordovaWebView(30210): >>> loadUrl(file:///android_asset/www/index.html)
+02-27 17:35:14.376 D/PluginManager(30210): init()
+02-27 17:35:14.376 E/cutils  (  163): Failed to mkdirat(/Removable/MicroSD): Read-only file system
+02-27 17:35:14.376 W/ContextImpl(30210): Failed to ensure directory: /Removable/MicroSD/Android/data/org.xwalk.webapi_service_tests/files
+02-27 17:35:14.376 E/cutils  (  163): Failed to mkdirat(/Removable/MicroSD): Read-only file system
+02-27 17:35:14.376 W/ContextImpl(30210): Failed to ensure directory: /Removable/MicroSD/Android/data/org.xwalk.webapi_service_tests/cache
+02-27 17:35:14.376 D/CordovaWebView(30210): >>> loadUrlNow()
+02-27 17:35:14.376 W/Vold    (  163): Returning OperationFailed - no handler for errno 30
+02-27 17:35:14.376 W/Vold    (  163): Returning OperationFailed - no handler for errno 30
+02-27 17:35:14.386 I/dalvikvm(30210): Could not find method android.app.Activity.finishAndRemoveTask, referenced from method org.chromium.base.ApiCompatibilityUtils.finishAndRemoveTask
+02-27 17:35:14.386 W/dalvikvm(30210): VFY: unable to resolve virtual method 6: Landroid/app/Activity;.finishAndRemoveTask ()V
+02-27 17:35:14.386 D/dalvikvm(30210): VFY: replacing opcode 0x6e at 0x0006
+02-27 17:35:14.386 I/dalvikvm(30210): Could not find method android.os.PowerManager.isInteractive, referenced from method org.chromium.base.ApiCompatibilityUtils.isInteractive
+02-27 17:35:14.386 W/dalvikvm(30210): VFY: unable to resolve virtual method 874: Landroid/os/PowerManager;.isInteractive ()Z
+02-27 17:35:14.386 D/dalvikvm(30210): VFY: replacing opcode 0x6e at 0x000e
+02-27 17:35:14.386 I/dalvikvm(30210): Could not find method android.view.Window.getNavigationBarColor, referenced from method org.chromium.base.ApiCompatibilityUtils.setStatusBarColor
+02-27 17:35:14.386 W/dalvikvm(30210): VFY: unable to resolve virtual method 1268: Landroid/view/Window;.getNavigationBarColor ()I
+02-27 17:35:14.386 D/dalvikvm(30210): VFY: replacing opcode 0x6e at 0x0010
+02-27 17:35:14.386 I/dalvikvm(30210): Could not find method android.view.Window.setStatusBarColor, referenced from method org.chromium.base.ApiCompatibilityUtils.setStatusBarColor
+02-27 17:35:14.386 W/dalvikvm(30210): VFY: unable to resolve virtual method 1274: Landroid/view/Window;.setStatusBarColor (I)V
+02-27 17:35:14.386 D/dalvikvm(30210): VFY: replacing opcode 0x6e at 0x0019
+02-27 17:35:14.386 E/dalvikvm(30210): Could not find class 'android.app.ActivityManager$TaskDescription', referenced from method org.chromium.base.ApiCompatibilityUtils.setTaskDescription
+02-27 17:35:14.386 W/dalvikvm(30210): VFY: unable to resolve new-instance 13 (Landroid/app/ActivityManager$TaskDescription;) in Lorg/chromium/base/ApiCompatibilityUtils;
+02-27 17:35:14.386 D/dalvikvm(30210): VFY: replacing opcode 0x22 at 0x0006
+02-27 17:35:14.386 D/dalvikvm(30210): DexOpt: unable to opt direct call 0x002f at 0x08 in Lorg/chromium/base/ApiCompatibilityUtils;.setTaskDescription
+02-27 17:35:14.386 I/chromium(30210): [INFO:xwalk_extension_renderer_controller.cc(47)] EXTENSION PROCESS DISABLED.
+02-27 17:35:14.396 D/CordovaActivity(30210): Resuming the App
+02-27 17:35:14.396 D/CordovaActivity(30210): Paused the application!
+02-27 17:35:14.396 D/CordovaWebView(30210): Handle the pause
+02-27 17:35:14.416 D/SoftKeyboardDetect(30210): Ignore this event
+02-27 17:35:14.426 D/        (30210): droid_create_context : config id = 5 conf->NativeVisualID=1
+02-27 17:35:14.426 D/        (30210): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 17:35:14.426 I/        (30210): Requested context : GLES 2.0
+02-27 17:35:14.436 D/        (30210): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 17:35:14.436 D/OpenGLRenderer(30210): Enabling debug mode 0
+02-27 17:35:14.446 D/CordovaActivity(30210): onMessage(onPageStarted,file:///android_asset/www/index.html)
+02-27 17:35:14.486 I/chromium(30210): [INFO:CONSOLE(1)] "exception firing pause event from native", source:  (1)
+02-27 17:35:14.496 D/        (30210): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 17:35:14.496 D/        (30210): droid_create_context : config id = 1 conf->NativeVisualID=1
+02-27 17:35:14.496 D/        (30210): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 17:35:14.496 I/        (30210): Requested context : GLES 2.0
+02-27 17:35:14.496 W/BindingManager(30210): Cannot call determinedVisibility() - never saw a connection for the pid: 30210
+02-27 17:35:14.496 I/ActivityManager(  505): Displayed org.xwalk.webapi_service_tests/.webapi_service_tests: +355ms (total +425ms)
+02-27 17:35:14.516 D/CordovaActivity(30210): onMessage(onPageFinished,file:///android_asset/www/index.html)
+02-27 17:35:15.526 D/CordovaActivity(30210): onMessage(onPageStarted,http://127.0.0.1:8080/index.html)
+02-27 17:35:15.526 W/BindingManager(30210): Cannot call determinedVisibility() - never saw a connection for the pid: 30210
+02-27 17:35:15.526 D/CordovaWebViewClient(30210): CordovaWebViewClient.onReceivedError: Error code=-6 Description=The server refused the connection. URL=http://127.0.0.1:8080/index.html
+02-27 17:35:15.526 D/CordovaActivity(30210): onMessage(onReceivedError,{"errorCode":-6,"url":"http:\/\/127.0.0.1:8080\/index.html","description":"The server refused the connection."})
+02-27 17:35:15.576 D/        (30210): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 17:35:15.616 W/BindingManager(30210): Cannot call determinedVisibility() - never saw a connection for the pid: 30210
+02-27 17:35:15.616 D/CordovaActivity(30210): onMessage(onPageFinished,http://127.0.0.1:8080/index.html)
+02-27 17:35:16.526 D/CordovaActivity(30210): onMessage(spinner,stop)
+02-27 17:35:17.636 D/AndroidRuntime(30258): 
+02-27 17:35:17.636 D/AndroidRuntime(30258): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-27 17:35:17.636 D/AndroidRuntime(30258): CheckJNI is OFF
+02-27 17:35:17.636 I/AndroidRuntime(30258): Kernel Release Version: 3.10.20-gf818079
+02-27 17:35:17.636 I/dalvikvm(30258): No library specified. The standard exception handler will be used
+02-27 17:35:17.646 I/dalvikvm(30258): 
+02-27 17:35:17.646 I/dalvikvm(30258): +++++++++++++ Using PCG. +++++++++++++++++++++
+02-27 17:35:17.646 D/dalvikvm(30258): Trying to load lib libjavacore.so 0x0
+02-27 17:35:17.656 D/dalvikvm(30258): Added shared lib libjavacore.so 0x0
+02-27 17:35:17.656 D/dalvikvm(30258): Trying to load lib libnativehelper.so 0x0
+02-27 17:35:17.656 D/dalvikvm(30258): Added shared lib libnativehelper.so 0x0
+02-27 17:35:17.656 D/dalvikvm(30258): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-27 17:35:17.656 D/dalvikvm(30258): Extra Options: not specified
+02-27 17:35:17.666 D/dalvikvm(30258): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+02-27 17:35:17.746 E/memtrack(30258): Couldn't load memtrack module (No such file or directory)
+02-27 17:35:17.746 E/android.os.Debug(30258): failed to load memtrack module: -2
+02-27 17:35:17.776 D/AndroidRuntime(30258): Calling main entry com.android.commands.am.Am
+02-27 17:35:17.796 I/ActivityManager(  505): Force stopping org.xwalk.webapi_service_tests appid=10327 user=0: from pid 30258
+02-27 17:35:17.796 I/SecurityManagerService(  600): SMS received security event: App[STOP/org.xwalk.webapi_service_tests]
+02-27 17:35:17.796 I/ActivityManager(  505): Killing 30210:org.xwalk.webapi_service_tests/u0a327 (adj 0): stop org.xwalk.webapi_service_tests
+02-27 17:35:17.806 I/ActivityManager(  505):   Force finishing activity ActivityRecord{2220cae8 u0 org.xwalk.webapi_service_tests/.webapi_service_tests t106}
+02-27 17:35:17.806 D/WindowManager(  505): adjustConfigurationLw, config:{1.0 ?mcc?mnc ?locale ?layoutDir sw600dp w600dp h888dp 213dpi lrg port ?uimode ?night finger -keyb/v/h -nav/v} mLidState:1 mHasDockFeature:false mHasKeyboardFeature:false mHasHallSensorFeature:true config.hardKeyboardHidden:2
+02-27 17:35:17.816 E/JavaBinder(  505): !!! FAILED BINDER TRANSACTION !!!
+02-27 17:35:17.816 E/JavaBinder(  505): !!! FAILED BINDER TRANSACTION !!!
+02-27 17:35:17.816 D/AndroidRuntime(30258): Shutting down VM
+02-27 17:35:17.816 D/dalvikvm(30258): GC_CONCURRENT freed 112K, 16% free 666K/792K, paused 0ms+0ms, total 1ms
+02-27 17:35:17.816 I/ActivityManager(  505): [TopPkgCurBat]	NowPkgName[org.xwalk.usecase_webapi_xwalk_tests]	Battery[9]	TimeTick[1425029717825]	OldPkgName[org.xwalk.webapi_service_tests]
+02-27 17:35:17.826 D/dalvikvm(30258): Compiler shutdown in progress - discarding request
+02-27 17:35:17.826 D/dalvikvm(30258): Compiler shutdown in progress - discarding request
+02-27 17:35:17.826 D/dalvikvm(30258): Compiler shutdown in progress - discarding request
+02-27 17:35:17.826 D/dalvikvm(30258): Compiler shutdown in progress - discarding request
+02-27 17:35:17.826 D/dalvikvm(30258): Compiler shutdown in progress - discarding request
+02-27 17:35:17.826 D/dalvikvm(30258): Compiler shutdown in progress - discarding request
+02-27 17:35:17.826 D/dalvikvm(30258): Compiler shutdown in progress - discarding request
+02-27 17:35:17.826 D/dalvikvm(30258): Compiler shutdown in progress - discarding request
+02-27 17:35:17.826 D/dalvikvm(30258): Compiler shutdown in progress - discarding request
+02-27 17:35:17.826 D/dalvikvm(30258): Compiler shutdown in progress - discarding request
+02-27 17:35:17.826 D/dalvikvm(30258): Compiler shutdown in progress - discarding request
+02-27 17:35:17.826 D/dalvikvm(30258): Compiler shutdown in progress - discarding request
+02-27 17:35:17.826 D/dalvikvm(30258): Compiler shutdown in progress - discarding request
+02-27 17:35:17.826 D/dalvikvm(30258): Compiler shutdown in progress - discarding request
+02-27 17:35:17.826 D/dalvikvm(30258): Compiler shutdown in progress - discarding request
+02-27 17:35:17.826 D/dalvikvm(30258): Compiler shutdown in progress - discarding request
+02-27 17:35:17.826 D/dalvikvm(30258): Compiler shutdown in progress - discarding request
+02-27 17:35:17.826 D/dalvikvm(30258): Compiler shutdown in progress - discarding request
+02-27 17:35:17.826 D/dalvikvm(30258): Compiler shutdown in progress - discarding request
+02-27 17:35:17.826 D/dalvikvm(30258): Compiler shutdown in progress - discarding request
+02-27 17:35:17.826 D/dalvikvm(30258): Compiler shutdown in progress - discarding request
+02-27 17:35:17.826 D/dalvikvm(30258): Compiler shutdown in progress - discarding request
+02-27 17:35:17.826 D/dalvikvm(30258): Compiler shutdown in progress - discarding request
+02-27 17:35:17.826 D/dalvikvm(30258): Compiler shutdown in progress - discarding request
+02-27 17:35:17.826 D/dalvikvm(30258): Compiler shutdown in progress - discarding request
+02-27 17:35:17.826 D/dalvikvm(30258): Compiler shutdown in progress - discarding request
+02-27 17:35:17.826 D/dalvikvm(30258): Compiler shutdown in progress - discarding request
+02-27 17:35:17.826 D/dalvikvm(30258): Compiler shutdown in progress - discarding request
+02-27 17:35:17.826 D/dalvikvm(30258): Compiler shutdown in progress - discarding request
+02-27 17:35:17.826 D/dalvikvm(30258): Compiler shutdown in progress - discarding request
+02-27 17:35:17.826 D/dalvikvm(30258): Compiler shutdown in progress - discarding request
+02-27 17:35:17.826 D/dalvikvm(30258): Compiler shutdown in progress - discarding request
+02-27 17:35:17.826 D/dalvikvm(30258): Compiler shutdown in progress - discarding request
+02-27 17:35:17.826 D/dalvikvm(30258): Compiler shutdown in progress - discarding request
+02-27 17:35:17.826 D/dalvikvm(30258): Compiler shutdown in progress - discarding request
+02-27 17:35:17.826 D/dalvikvm(30258): Compiler shutdown in progress - discarding request
+02-27 17:35:17.826 D/dalvikvm(30258): Compiler shutdown in progress - discarding request
+02-27 17:35:17.826 D/dalvikvm(30258): Compiler shutdown in progress - discarding request
+02-27 17:35:17.826 D/dalvikvm(30258): Compiler shutdown in progress - discarding request
+02-27 17:35:17.826 D/dalvikvm(30258): Compiler shutdown in progress - discarding request
+02-27 17:35:17.856 D/        (29358): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 17:35:17.866 D/        (29358): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 17:35:17.876 D/        (29358): droid_create_context : config id = 1 conf->NativeVisualID=1
+02-27 17:35:17.876 D/        (29358): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 17:35:17.876 I/        (29358): Requested context : GLES 2.0
+02-27 17:35:17.876 I/WindowState(  505): WIN DEATH: Window{2201bb60 u0 org.xwalk.webapi_service_tests/org.xwalk.webapi_service_tests.webapi_service_tests}
+02-27 17:35:17.876 I/WindowState(  505): WIN DEATH: Window{22006548 u0 org.xwalk.webapi_service_tests/org.xwalk.webapi_service_tests.webapi_service_tests}
+02-27 17:35:17.876 D/        (29358): Swap interval set to = 1 value
+02-27 17:35:17.896 D/        (28178): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 17:35:17.906 D/        (29358): Surface destroy: ANDROID_NATIVE_WINDOW_MAGIC
+02-27 17:35:17.936 D/        (29358): Surface destroy: ANDROID_NATIVE_WINDOW_MAGIC
+02-27 17:35:18.246 D/AndroidRuntime(30269): 
+02-27 17:35:18.246 D/AndroidRuntime(30269): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-27 17:35:18.246 D/AndroidRuntime(30269): CheckJNI is OFF
+02-27 17:35:18.246 I/AndroidRuntime(30269): Kernel Release Version: 3.10.20-gf818079
+02-27 17:35:18.246 I/dalvikvm(30269): No library specified. The standard exception handler will be used
+02-27 17:35:18.246 I/dalvikvm(30269): 
+02-27 17:35:18.246 I/dalvikvm(30269): +++++++++++++ Using PCG. +++++++++++++++++++++
+02-27 17:35:18.256 D/dalvikvm(30269): Trying to load lib libjavacore.so 0x0
+02-27 17:35:18.256 D/dalvikvm(30269): Added shared lib libjavacore.so 0x0
+02-27 17:35:18.256 D/dalvikvm(30269): Trying to load lib libnativehelper.so 0x0
+02-27 17:35:18.256 D/dalvikvm(30269): Added shared lib libnativehelper.so 0x0
+02-27 17:35:18.256 D/dalvikvm(30269): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-27 17:35:18.266 D/dalvikvm(30269): Extra Options: not specified
+02-27 17:35:18.276 D/dalvikvm(30269): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+02-27 17:35:18.346 E/memtrack(30269): Couldn't load memtrack module (No such file or directory)
+02-27 17:35:18.346 E/android.os.Debug(30269): failed to load memtrack module: -2
+02-27 17:35:18.386 D/AndroidRuntime(30269): Calling main entry com.android.commands.am.Am
+02-27 17:35:18.406 D/AndroidRuntime(30269): Shutting down VM
+02-27 17:35:18.406 D/dalvikvm(30269): GC_CONCURRENT freed 112K, 16% free 666K/792K, paused 1ms+0ms, total 1ms
+02-27 17:35:18.406 D/dalvikvm(30269): Compiler shutdown in progress - discarding request
+02-27 17:35:18.406 D/dalvikvm(30269): Compiler shutdown in progress - discarding request
+02-27 17:35:18.406 D/dalvikvm(30269): Compiler shutdown in progress - discarding request
+02-27 17:35:18.406 D/dalvikvm(30269): Compiler shutdown in progress - discarding request
+02-27 17:35:18.406 D/dalvikvm(30269): Compiler shutdown in progress - discarding request
+02-27 17:35:18.406 D/dalvikvm(30269): Compiler shutdown in progress - discarding request
+02-27 17:35:18.406 D/dalvikvm(30269): Compiler shutdown in progress - discarding request
+02-27 17:35:18.406 D/dalvikvm(30269): Compiler shutdown in progress - discarding request
+02-27 17:35:18.406 D/dalvikvm(30269): Compiler shutdown in progress - discarding request
+02-27 17:35:18.406 D/dalvikvm(30269): Compiler shutdown in progress - discarding request
+02-27 17:35:18.406 D/dalvikvm(30269): Compiler shutdown in progress - discarding request
+02-27 17:35:18.406 D/dalvikvm(30269): Compiler shutdown in progress - discarding request
+02-27 17:35:18.406 D/dalvikvm(30269): Compiler shutdown in progress - discarding request
+02-27 17:35:18.406 D/dalvikvm(30269): Compiler shutdown in progress - discarding request
+02-27 17:35:18.406 D/dalvikvm(30269): Compiler shutdown in progress - discarding request
+02-27 17:35:18.406 D/dalvikvm(30269): Compiler shutdown in progress - discarding request
+02-27 17:35:18.406 D/dalvikvm(30269): Compiler shutdown in progress - discarding request
+02-27 17:35:18.406 D/dalvikvm(30269): Compiler shutdown in progress - discarding request
+02-27 17:35:18.406 D/dalvikvm(30269): Compiler shutdown in progress - discarding request
+02-27 17:35:18.406 D/dalvikvm(30269): Compiler shutdown in progress - discarding request
+02-27 17:35:18.406 D/dalvikvm(30269): Compiler shutdown in progress - discarding request
+02-27 17:35:18.406 D/dalvikvm(30269): Compiler shutdown in progress - discarding request
+02-27 17:35:18.406 D/dalvikvm(30269): Compiler shutdown in progress - discarding request
+02-27 17:35:18.406 D/dalvikvm(30269): Compiler shutdown in progress - discarding request
+02-27 17:35:18.406 D/dalvikvm(30269): Compiler shutdown in progress - discarding request
+02-27 17:35:18.406 D/dalvikvm(30269): Compiler shutdown in progress - discarding request
+02-27 17:35:18.406 I/ActivityManager(  505): Force stopping testkit.stub appid=10273 user=0: from pid 30269
+02-27 17:35:18.416 D/dalvikvm(30269): Compiler shutdown in progress - discarding request
+02-27 17:35:18.416 D/dalvikvm(30269): Compiler shutdown in progress - discarding request
+02-27 17:35:18.416 D/dalvikvm(30269): Compiler shutdown in progress - discarding request
+02-27 17:35:18.416 D/dalvikvm(30269): Compiler shutdown in progress - discarding request
+02-27 17:35:18.416 D/dalvikvm(30269): Compiler shutdown in progress - discarding request
+02-27 17:35:18.416 D/dalvikvm(30269): Compiler shutdown in progress - discarding request
+02-27 17:35:18.416 D/dalvikvm(30269): Compiler shutdown in progress - discarding request
+02-27 17:35:18.416 D/dalvikvm(30269): Compiler shutdown in progress - discarding request
+02-27 17:35:18.416 D/dalvikvm(30269): Compiler shutdown in progress - discarding request
+02-27 17:35:18.416 D/dalvikvm(30269): Compiler shutdown in progress - discarding request
+02-27 17:35:18.416 D/dalvikvm(30269): Compiler shutdown in progress - discarding request
+02-27 17:35:18.416 D/dalvikvm(30269): Compiler shutdown in progress - discarding request
+02-27 17:35:18.416 D/dalvikvm(30269): Compiler shutdown in progress - discarding request
+02-27 17:35:18.416 D/dalvikvm(30269): Compiler shutdown in progress - discarding request
+02-27 17:35:18.416 D/dalvikvm(30269): Compiler shutdown in progress - discarding request
+02-27 17:35:18.416 D/dalvikvm(30269): Compiler shutdown in progress - discarding request
+02-27 17:35:18.416 D/dalvikvm(30269): Compiler shutdown in progress - discarding request
+02-27 17:35:18.416 D/dalvikvm(30269): Compiler shutdown in progress - discarding request
+02-27 17:35:18.416 D/dalvikvm(30269): Compiler shutdown in progress - discarding request
+02-27 17:35:18.416 D/dalvikvm(30269): Compiler shutdown in progress - discarding request
+02-27 17:35:18.416 D/dalvikvm(30269): Compiler shutdown in progress - discarding request
+02-27 17:35:18.426 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 17:35:18.426 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+--------- beginning of /dev/log/main
+02-27 18:00:35.256 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 18:00:35.256 D/wpa_supplicant(  711): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 18:00:35.256 D/wpa_supplicant(  711): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 18:00:35.286 D/wpa_supplicant(  711): nl80211: survey data missing!
+02-27 18:00:35.286 I/WifiHW  (  505): REPLY: RSSI=-47
+02-27 18:00:35.286 I/WifiHW  (  505): REPLY: LINKSPEED=65
+02-27 18:00:35.286 I/WifiHW  (  505): REPLY: NOISE=9999
+02-27 18:00:35.286 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+02-27 18:00:35.766 D/AndroidRuntime( 2174): 
+02-27 18:00:35.766 D/AndroidRuntime( 2174): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-27 18:00:35.766 D/AndroidRuntime( 2174): CheckJNI is OFF
+02-27 18:00:35.766 I/AndroidRuntime( 2174): Kernel Release Version: 3.10.20-gf818079
+02-27 18:00:35.766 I/dalvikvm( 2174): No library specified. The standard exception handler will be used
+02-27 18:00:35.776 I/dalvikvm( 2174): 
+02-27 18:00:35.776 I/dalvikvm( 2174): +++++++++++++ Using PCG. +++++++++++++++++++++
+02-27 18:00:35.776 D/dalvikvm( 2174): Trying to load lib libjavacore.so 0x0
+02-27 18:00:35.776 D/dalvikvm( 2174): Added shared lib libjavacore.so 0x0
+02-27 18:00:35.786 D/dalvikvm( 2174): Trying to load lib libnativehelper.so 0x0
+02-27 18:00:35.786 D/dalvikvm( 2174): Added shared lib libnativehelper.so 0x0
+02-27 18:00:35.786 D/dalvikvm( 2174): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-27 18:00:35.786 D/dalvikvm( 2174): Extra Options: not specified
+02-27 18:00:35.806 D/dalvikvm( 2174): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+02-27 18:00:35.876 E/memtrack( 2174): Couldn't load memtrack module (No such file or directory)
+02-27 18:00:35.876 E/android.os.Debug( 2174): failed to load memtrack module: -2
+02-27 18:00:35.906 D/AndroidRuntime( 2174): Calling main entry com.android.commands.am.Am
+02-27 18:00:35.926 D/AndroidRuntime( 2174): Shutting down VM
+02-27 18:00:35.926 D/dalvikvm( 2174): GC_CONCURRENT freed 112K, 16% free 666K/792K, paused 0ms+0ms, total 1ms
+--------- beginning of /dev/log/system
+02-27 18:00:35.926 I/ActivityManager(  505): Force stopping org.xwalk.webapi_service_tests appid=10327 user=0: from pid 2174
+02-27 18:00:35.936 D/dalvikvm( 2174): Compiler shutdown in progress - discarding request
+02-27 18:00:35.936 D/dalvikvm( 2174): Compiler shutdown in progress - discarding request
+02-27 18:00:35.936 D/dalvikvm( 2174): Compiler shutdown in progress - discarding request
+02-27 18:00:35.936 D/dalvikvm( 2174): Compiler shutdown in progress - discarding request
+02-27 18:00:35.936 D/dalvikvm( 2174): Compiler shutdown in progress - discarding request
+02-27 18:00:35.936 D/dalvikvm( 2174): Compiler shutdown in progress - discarding request
+02-27 18:00:35.936 D/dalvikvm( 2174): Compiler shutdown in progress - discarding request
+02-27 18:00:35.936 D/dalvikvm( 2174): Compiler shutdown in progress - discarding request
+02-27 18:00:35.936 D/dalvikvm( 2174): Compiler shutdown in progress - discarding request
+02-27 18:00:35.936 D/dalvikvm( 2174): Compiler shutdown in progress - discarding request
+02-27 18:00:35.936 D/dalvikvm( 2174): Compiler shutdown in progress - discarding request
+02-27 18:00:35.936 D/dalvikvm( 2174): Compiler shutdown in progress - discarding request
+02-27 18:00:35.936 D/dalvikvm( 2174): Compiler shutdown in progress - discarding request
+02-27 18:00:35.936 D/dalvikvm( 2174): Compiler shutdown in progress - discarding request
+02-27 18:00:35.936 D/dalvikvm( 2174): Compiler shutdown in progress - discarding request
+02-27 18:00:35.936 D/dalvikvm( 2174): Compiler shutdown in progress - discarding request
+02-27 18:00:35.936 D/dalvikvm( 2174): Compiler shutdown in progress - discarding request
+02-27 18:00:35.936 D/dalvikvm( 2174): Compiler shutdown in progress - discarding request
+02-27 18:00:35.936 D/dalvikvm( 2174): Compiler shutdown in progress - discarding request
+02-27 18:00:35.936 D/dalvikvm( 2174): Compiler shutdown in progress - discarding request
+02-27 18:00:35.936 D/dalvikvm( 2174): Compiler shutdown in progress - discarding request
+02-27 18:00:35.936 D/dalvikvm( 2174): Compiler shutdown in progress - discarding request
+02-27 18:00:35.936 D/dalvikvm( 2174): Compiler shutdown in progress - discarding request
+02-27 18:00:35.936 D/dalvikvm( 2174): Compiler shutdown in progress - discarding request
+02-27 18:00:35.936 D/dalvikvm( 2174): Compiler shutdown in progress - discarding request
+02-27 18:00:35.936 D/dalvikvm( 2174): Compiler shutdown in progress - discarding request
+02-27 18:00:35.936 D/dalvikvm( 2174): Compiler shutdown in progress - discarding request
+02-27 18:00:35.936 D/dalvikvm( 2174): Compiler shutdown in progress - discarding request
+02-27 18:00:35.936 D/dalvikvm( 2174): Compiler shutdown in progress - discarding request
+02-27 18:00:35.936 D/dalvikvm( 2174): Compiler shutdown in progress - discarding request
+02-27 18:00:35.936 D/dalvikvm( 2174): Compiler shutdown in progress - discarding request
+02-27 18:00:35.936 D/dalvikvm( 2174): Compiler shutdown in progress - discarding request
+02-27 18:00:35.936 D/dalvikvm( 2174): Compiler shutdown in progress - discarding request
+02-27 18:00:35.936 D/dalvikvm( 2174): Compiler shutdown in progress - discarding request
+02-27 18:00:35.936 D/dalvikvm( 2174): Compiler shutdown in progress - discarding request
+02-27 18:00:35.936 D/dalvikvm( 2174): Compiler shutdown in progress - discarding request
+02-27 18:00:35.936 D/dalvikvm( 2174): Compiler shutdown in progress - discarding request
+02-27 18:00:35.936 D/dalvikvm( 2174): Compiler shutdown in progress - discarding request
+02-27 18:00:35.936 D/dalvikvm( 2174): Compiler shutdown in progress - discarding request
+02-27 18:00:35.936 D/dalvikvm( 2174): Compiler shutdown in progress - discarding request
+02-27 18:00:35.936 D/dalvikvm( 2174): Compiler shutdown in progress - discarding request
+02-27 18:00:35.936 D/dalvikvm( 2174): Compiler shutdown in progress - discarding request
+02-27 18:00:35.936 D/dalvikvm( 2174): Compiler shutdown in progress - discarding request
+02-27 18:00:35.936 D/dalvikvm( 2174): Compiler shutdown in progress - discarding request
+02-27 18:00:35.936 D/dalvikvm( 2174): Compiler shutdown in progress - discarding request
+02-27 18:00:35.936 D/dalvikvm( 2174): Compiler shutdown in progress - discarding request
+02-27 18:00:35.936 D/dalvikvm( 2174): Compiler shutdown in progress - discarding request
+02-27 18:00:36.366 D/AndroidRuntime( 2185): 
+02-27 18:00:36.366 D/AndroidRuntime( 2185): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-27 18:00:36.366 D/AndroidRuntime( 2185): CheckJNI is OFF
+02-27 18:00:36.366 I/AndroidRuntime( 2185): Kernel Release Version: 3.10.20-gf818079
+02-27 18:00:36.366 I/dalvikvm( 2185): No library specified. The standard exception handler will be used
+02-27 18:00:36.366 I/dalvikvm( 2185): 
+02-27 18:00:36.366 I/dalvikvm( 2185): +++++++++++++ Using PCG. +++++++++++++++++++++
+02-27 18:00:36.376 D/dalvikvm( 2185): Trying to load lib libjavacore.so 0x0
+02-27 18:00:36.376 D/dalvikvm( 2185): Added shared lib libjavacore.so 0x0
+02-27 18:00:36.386 D/dalvikvm( 2185): Trying to load lib libnativehelper.so 0x0
+02-27 18:00:36.386 D/dalvikvm( 2185): Added shared lib libnativehelper.so 0x0
+02-27 18:00:36.386 D/dalvikvm( 2185): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-27 18:00:36.386 D/dalvikvm( 2185): Extra Options: not specified
+02-27 18:00:36.396 D/dalvikvm( 2185): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+02-27 18:00:36.466 E/memtrack( 2185): Couldn't load memtrack module (No such file or directory)
+02-27 18:00:36.466 E/android.os.Debug( 2185): failed to load memtrack module: -2
+02-27 18:00:36.506 D/AndroidRuntime( 2185): Calling main entry com.android.commands.am.Am
+02-27 18:00:36.536 D/AndroidRuntime( 2185): Shutting down VM
+02-27 18:00:36.536 D/dalvikvm( 2185): GC_CONCURRENT freed 116K, 17% free 670K/800K, paused 0ms+0ms, total 1ms
+02-27 18:00:36.536 I/ActivityManager(  505): START u0 {flg=0x10000000 cmp=org.xwalk.webapi_service_tests/.webapi_service_testsActivity} from pid 2185
+02-27 18:00:36.546 D/dalvikvm( 2185): Compiler shutdown in progress - discarding request
+02-27 18:00:36.546 D/dalvikvm( 2185): Compiler shutdown in progress - discarding request
+02-27 18:00:36.546 D/dalvikvm( 2185): Compiler shutdown in progress - discarding request
+02-27 18:00:36.546 D/dalvikvm( 2185): Compiler shutdown in progress - discarding request
+02-27 18:00:36.546 D/dalvikvm( 2185): Compiler shutdown in progress - discarding request
+02-27 18:00:36.546 D/dalvikvm( 2185): Compiler shutdown in progress - discarding request
+02-27 18:00:36.546 D/dalvikvm( 2185): Compiler shutdown in progress - discarding request
+02-27 18:00:36.546 D/dalvikvm( 2185): Compiler shutdown in progress - discarding request
+02-27 18:00:36.546 D/dalvikvm( 2185): Compiler shutdown in progress - discarding request
+02-27 18:00:36.546 D/dalvikvm( 2185): Compiler shutdown in progress - discarding request
+02-27 18:00:36.546 D/dalvikvm( 2185): Compiler shutdown in progress - discarding request
+02-27 18:00:36.546 D/dalvikvm( 2185): Compiler shutdown in progress - discarding request
+02-27 18:00:36.546 D/dalvikvm( 2185): Compiler shutdown in progress - discarding request
+02-27 18:00:36.546 D/dalvikvm( 2185): Compiler shutdown in progress - discarding request
+02-27 18:00:36.546 D/dalvikvm( 2185): Compiler shutdown in progress - discarding request
+02-27 18:00:36.546 D/dalvikvm( 2185): Compiler shutdown in progress - discarding request
+02-27 18:00:36.546 D/dalvikvm( 2185): Compiler shutdown in progress - discarding request
+02-27 18:00:36.546 D/dalvikvm( 2185): Compiler shutdown in progress - discarding request
+02-27 18:00:36.546 D/dalvikvm( 2185): Compiler shutdown in progress - discarding request
+02-27 18:00:36.546 D/dalvikvm( 2185): Compiler shutdown in progress - discarding request
+02-27 18:00:36.546 D/dalvikvm( 2185): Compiler shutdown in progress - discarding request
+02-27 18:00:36.546 D/dalvikvm( 2185): Compiler shutdown in progress - discarding request
+02-27 18:00:36.546 D/dalvikvm( 2185): Compiler shutdown in progress - discarding request
+02-27 18:00:36.546 D/dalvikvm( 2185): Compiler shutdown in progress - discarding request
+02-27 18:00:36.546 D/dalvikvm( 2185): Compiler shutdown in progress - discarding request
+02-27 18:00:36.546 D/dalvikvm( 2185): Compiler shutdown in progress - discarding request
+02-27 18:00:36.546 D/dalvikvm( 2185): Compiler shutdown in progress - discarding request
+02-27 18:00:36.546 D/dalvikvm( 2185): Compiler shutdown in progress - discarding request
+02-27 18:00:36.546 D/dalvikvm( 2185): Compiler shutdown in progress - discarding request
+02-27 18:00:36.546 D/dalvikvm( 2185): Compiler shutdown in progress - discarding request
+02-27 18:00:36.546 D/dalvikvm( 2185): Compiler shutdown in progress - discarding request
+02-27 18:00:36.546 D/dalvikvm( 2185): Compiler shutdown in progress - discarding request
+02-27 18:00:36.546 D/dalvikvm( 2185): Compiler shutdown in progress - discarding request
+02-27 18:00:36.546 D/dalvikvm( 2185): Compiler shutdown in progress - discarding request
+02-27 18:00:36.546 D/dalvikvm( 2185): Compiler shutdown in progress - discarding request
+02-27 18:00:36.546 D/dalvikvm( 2185): Compiler shutdown in progress - discarding request
+02-27 18:00:36.546 D/dalvikvm( 2185): Compiler shutdown in progress - discarding request
+02-27 18:00:36.546 D/dalvikvm( 2185): Compiler shutdown in progress - discarding request
+02-27 18:00:36.546 D/dalvikvm( 2185): Compiler shutdown in progress - discarding request
+02-27 18:00:36.546 D/dalvikvm( 2185): Compiler shutdown in progress - discarding request
+02-27 18:00:36.546 D/dalvikvm( 2185): Compiler shutdown in progress - discarding request
+02-27 18:00:36.546 D/dalvikvm( 2185): Compiler shutdown in progress - discarding request
+02-27 18:00:36.546 D/dalvikvm( 2185): Compiler shutdown in progress - discarding request
+02-27 18:00:36.546 D/dalvikvm( 2185): Compiler shutdown in progress - discarding request
+02-27 18:00:36.546 D/dalvikvm( 2185): Compiler shutdown in progress - discarding request
+02-27 18:00:36.546 D/dalvikvm( 2185): Compiler shutdown in progress - discarding request
+02-27 18:00:36.546 D/dalvikvm( 2185): Compiler shutdown in progress - discarding request
+02-27 18:00:36.546 D/dalvikvm( 2185): Compiler shutdown in progress - discarding request
+02-27 18:00:36.976 D/AndroidRuntime( 2196): 
+02-27 18:00:36.976 D/AndroidRuntime( 2196): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-27 18:00:36.976 D/AndroidRuntime( 2196): CheckJNI is OFF
+02-27 18:00:36.976 I/AndroidRuntime( 2196): Kernel Release Version: 3.10.20-gf818079
+02-27 18:00:36.976 I/dalvikvm( 2196): No library specified. The standard exception handler will be used
+02-27 18:00:36.976 I/dalvikvm( 2196): 
+02-27 18:00:36.976 I/dalvikvm( 2196): +++++++++++++ Using PCG. +++++++++++++++++++++
+02-27 18:00:36.986 D/dalvikvm( 2196): Trying to load lib libjavacore.so 0x0
+02-27 18:00:36.986 D/dalvikvm( 2196): Added shared lib libjavacore.so 0x0
+02-27 18:00:36.986 D/dalvikvm( 2196): Trying to load lib libnativehelper.so 0x0
+02-27 18:00:36.986 D/dalvikvm( 2196): Added shared lib libnativehelper.so 0x0
+02-27 18:00:36.986 D/dalvikvm( 2196): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-27 18:00:36.996 D/dalvikvm( 2196): Extra Options: not specified
+02-27 18:00:37.006 D/dalvikvm( 2196): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+02-27 18:00:37.076 E/memtrack( 2196): Couldn't load memtrack module (No such file or directory)
+02-27 18:00:37.076 E/android.os.Debug( 2196): failed to load memtrack module: -2
+02-27 18:00:37.126 D/AndroidRuntime( 2196): Calling main entry com.android.commands.am.Am
+02-27 18:00:37.156 W/ufoGralloc(  171): registerBuffer() handle 0xb8f76490/3 didn't require registration
+02-27 18:00:37.156 I/ActivityManager(  505): START u0 {flg=0x10000000 cmp=org.xwalk.webapi_service_tests/.webapi_service_tests} from pid 2196
+02-27 18:00:37.166 D/AndroidRuntime( 2196): Shutting down VM
+02-27 18:00:37.166 I/SecurityManagerService(  600): SMS received security event: App[START/org.xwalk.webapi_service_tests]
+02-27 18:00:37.166 D/dalvikvm( 2196): GC_CONCURRENT freed 114K, 16% free 701K/832K, paused 0ms+0ms, total 1ms
+02-27 18:00:37.166 D/dalvikvm( 2207): Late-enabling CheckJNI
+02-27 18:00:37.166 D/dalvikvm( 2207): Try to disable coredump for pid 2207
+02-27 18:00:37.166 D/dalvikvm( 2207): Process 2207 nice name: org.xwalk.webapi_service_tests
+02-27 18:00:37.166 D/dalvikvm( 2207): Extra Options: not specified
+02-27 18:00:37.166 D/dalvikvm( 2196): Compiler shutdown in progress - discarding request
+02-27 18:00:37.166 D/dalvikvm( 2196): Compiler shutdown in progress - discarding request
+02-27 18:00:37.166 D/dalvikvm( 2196): Compiler shutdown in progress - discarding request
+02-27 18:00:37.166 D/dalvikvm( 2196): Compiler shutdown in progress - discarding request
+02-27 18:00:37.166 D/dalvikvm( 2196): Compiler shutdown in progress - discarding request
+02-27 18:00:37.166 D/dalvikvm( 2196): Compiler shutdown in progress - discarding request
+02-27 18:00:37.166 D/dalvikvm( 2196): Compiler shutdown in progress - discarding request
+02-27 18:00:37.166 D/dalvikvm( 2196): Compiler shutdown in progress - discarding request
+02-27 18:00:37.166 D/dalvikvm( 2196): Compiler shutdown in progress - discarding request
+02-27 18:00:37.166 D/dalvikvm( 2196): Compiler shutdown in progress - discarding request
+02-27 18:00:37.166 D/dalvikvm( 2196): Compiler shutdown in progress - discarding request
+02-27 18:00:37.166 D/dalvikvm( 2196): Compiler shutdown in progress - discarding request
+02-27 18:00:37.166 D/dalvikvm( 2196): Compiler shutdown in progress - discarding request
+02-27 18:00:37.166 D/dalvikvm( 2196): Compiler shutdown in progress - discarding request
+02-27 18:00:37.166 D/dalvikvm( 2196): Compiler shutdown in progress - discarding request
+02-27 18:00:37.166 D/dalvikvm( 2196): Compiler shutdown in progress - discarding request
+02-27 18:00:37.166 D/dalvikvm( 2196): Compiler shutdown in progress - discarding request
+02-27 18:00:37.166 D/dalvikvm( 2196): Compiler shutdown in progress - discarding request
+02-27 18:00:37.166 D/dalvikvm( 2196): Compiler shutdown in progress - discarding request
+02-27 18:00:37.166 D/dalvikvm( 2196): Compiler shutdown in progress - discarding request
+02-27 18:00:37.166 D/dalvikvm( 2196): Compiler shutdown in progress - discarding request
+02-27 18:00:37.166 D/dalvikvm( 2196): Compiler shutdown in progress - discarding request
+02-27 18:00:37.166 D/dalvikvm( 2196): Compiler shutdown in progress - discarding request
+02-27 18:00:37.166 D/dalvikvm( 2196): Compiler shutdown in progress - discarding request
+02-27 18:00:37.166 D/dalvikvm( 2196): Compiler shutdown in progress - discarding request
+02-27 18:00:37.166 D/dalvikvm( 2196): Compiler shutdown in progress - discarding request
+02-27 18:00:37.166 D/dalvikvm( 2196): Compiler shutdown in progress - discarding request
+02-27 18:00:37.166 D/dalvikvm( 2196): Compiler shutdown in progress - discarding request
+02-27 18:00:37.166 D/dalvikvm( 2196): Compiler shutdown in progress - discarding request
+02-27 18:00:37.166 D/dalvikvm( 2196): Compiler shutdown in progress - discarding request
+02-27 18:00:37.166 D/dalvikvm( 2196): Compiler shutdown in progress - discarding request
+02-27 18:00:37.166 D/dalvikvm( 2196): Compiler shutdown in progress - discarding request
+02-27 18:00:37.166 D/dalvikvm( 2196): Compiler shutdown in progress - discarding request
+02-27 18:00:37.166 D/dalvikvm( 2196): Compiler shutdown in progress - discarding request
+02-27 18:00:37.166 D/dalvikvm( 2196): Compiler shutdown in progress - discarding request
+02-27 18:00:37.166 D/dalvikvm( 2196): Compiler shutdown in progress - discarding request
+02-27 18:00:37.166 D/dalvikvm( 2196): Compiler shutdown in progress - discarding request
+02-27 18:00:37.166 D/dalvikvm( 2196): Compiler shutdown in progress - discarding request
+02-27 18:00:37.166 D/dalvikvm( 2196): Compiler shutdown in progress - discarding request
+02-27 18:00:37.166 D/dalvikvm( 2196): Compiler shutdown in progress - discarding request
+02-27 18:00:37.166 D/dalvikvm( 2196): Compiler shutdown in progress - discarding request
+02-27 18:00:37.166 D/dalvikvm( 2196): Compiler shutdown in progress - discarding request
+02-27 18:00:37.166 D/dalvikvm( 2196): Compiler shutdown in progress - discarding request
+02-27 18:00:37.166 D/dalvikvm( 2196): Compiler shutdown in progress - discarding request
+02-27 18:00:37.166 D/dalvikvm( 2196): Compiler shutdown in progress - discarding request
+02-27 18:00:37.166 D/dalvikvm( 2196): Compiler shutdown in progress - discarding request
+02-27 18:00:37.176 I/ActivityManager(  505): Start proc org.xwalk.webapi_service_tests for activity org.xwalk.webapi_service_tests/.webapi_service_tests: pid=2207 uid=10327 gids={50327, 3003, 1028, 1015}
+02-27 18:00:37.186 D/WindowManager(  505): adjustConfigurationLw, config:{1.0 ?mcc?mnc ?locale ?layoutDir sw600dp w600dp h888dp 213dpi lrg port ?uimode ?night finger -keyb/v/h -nav/v} mLidState:1 mHasDockFeature:false mHasKeyboardFeature:false mHasHallSensorFeature:true config.hardKeyboardHidden:2
+02-27 18:00:37.186 I/ActivityManager(  505): [TopPkgCurBat]	NowPkgName[org.xwalk.webapi_service_tests]	Battery[5]	TimeTick[1425031237198]	OldPkgName[com.intel.tinywebtestservice]
+02-27 18:00:37.216 D/        (32402): Surface destroy: ANDROID_NATIVE_WINDOW_MAGIC
+02-27 18:00:37.276 I/CordovaLog( 2207): Changing log level to DEBUG(3)
+02-27 18:00:37.276 D/CordovaActivity( 2207): CordovaActivity.init()
+02-27 18:00:37.286 D/dalvikvm( 2207): Trying to load lib /data/app-lib/org.xwalk.webapi_service_tests-1/libxwalkcore.so 0x43d80420
+02-27 18:00:37.286 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 18:00:37.286 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 18:00:37.286 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 18:00:37.286 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 18:00:37.286 I/upi_ug31xx(  166): (1934) update_capacity
+02-27 18:00:37.286 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: V=3609(3611), T=356(358-421), I=-460, C=0(0-0)
+02-27 18:00:37.286 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 176 (152) / 3822 (3822) = 5
+02-27 18:00:37.286 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 176 (152) / 3822 (3822) = 5
+02-27 18:00:37.286 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 176 (176) / 3822 (3822) = 5
+02-27 18:00:37.286 I/[UPI]   (  166): <UG31/E>[RsocFilterCountTime]: (0x0001254a) Step=4(247610), Full=4(247610), Lock=247610(1800000)
+02-27 18:00:37.286 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 176 (176) / 3822 (3822) = 5 (-460--460)
+02-27 18:00:37.286 I/[UPI]   (  166): <UG31/E><BATT> M:normal, P:5(5-5)%, V:3610mV, C:-492mA, T:35.8C(421), S:0x0001254a(000), R:176mAh, F:3822mAh, Q:-1630mAh, CC:3, P:10.320(1629-0)s, BO:7, 97:615:0-44af-9m:B001-20140514-144301 (16)
+02-27 18:00:37.286 I/upi_ug31xx(  166): (1935) backup_data 
+02-27 18:00:37.286 V/upi_ug31xx(  166): state->check_backup_count = 21
+02-27 18:00:37.356 D/dalvikvm( 2207): Added shared lib /data/app-lib/org.xwalk.webapi_service_tests-1/libxwalkcore.so 0x43d80420
+02-27 18:00:37.376 I/LibraryLoader( 2207): Time to load native libraries: 89 ms (timestamps 6323-6412)
+02-27 18:00:37.376 I/LibraryLoader( 2207): Expected native library version number "",actual native library version number ""
+02-27 18:00:37.406 I/LibraryLoader( 2207): Expected native library version number "",actual native library version number ""
+02-27 18:00:37.406 I/chromium( 2207): [INFO:library_loader_hooks.cc(112)] Chromium logging enabled: level = 0, default verbosity = 0
+02-27 18:00:37.466 I/BrowserStartupController( 2207): Initializing chromium process, singleProcess=true
+02-27 18:00:37.546 W/AudioManagerAndroid( 2207): Requires BLUETOOTH permission
+02-27 18:00:37.586 I/ufoGralloc( 2207): Hello, this is UFO GRALLOC/Intel Corporation
+02-27 18:00:37.586 D/        ( 2207): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 18:00:37.586 D/        ( 2207): droid_create_context : config id = 1 conf->NativeVisualID=1
+02-27 18:00:37.586 D/        ( 2207): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 18:00:37.586 I/        ( 2207): Requested context : GLES 2.0
+02-27 18:00:37.646 W/chromium( 2207): [WARNING:proxy_service.cc(899)] PAC support disabled because there is no system implementation
+02-27 18:00:37.656 W/dalvikvm( 2207): VFY: unable to find class referenced in signature (Landroid/view/inputmethod/CursorAnchorInfo;)
+02-27 18:00:37.656 I/dalvikvm( 2207): Could not find method android.view.inputmethod.InputMethodManager.updateCursorAnchorInfo, referenced from method org.chromium.content.browser.input.InputMethodManagerWrapper.updateCursorAnchorInfo
+02-27 18:00:37.656 W/dalvikvm( 2207): VFY: unable to resolve virtual method 1368: Landroid/view/inputmethod/InputMethodManager;.updateCursorAnchorInfo (Landroid/view/View;Landroid/view/inputmethod/CursorAnchorInfo;)V
+02-27 18:00:37.656 D/dalvikvm( 2207): VFY: replacing opcode 0x6e at 0x000a
+02-27 18:00:37.726 E/cutils  (  163): Failed to mkdirat(/Removable/MicroSD): Read-only file system
+02-27 18:00:37.726 W/ContextImpl( 2207): Failed to ensure directory: /Removable/MicroSD/Android/data/org.xwalk.webapi_service_tests/cache
+02-27 18:00:37.726 W/Vold    (  163): Returning OperationFailed - no handler for errno 30
+02-27 18:00:37.746 E/chromium( 2207): [ERROR:unix_domain_server_socket_posix.cc(106)] Not implemented reached in virtual int net::UnixDomainServerSocket::GetLocalAddress(net::IPEndPoint*) const
+02-27 18:00:37.746 D/CordovaActivity( 2207): CordovaActivity.createViews()
+02-27 18:00:37.746 D/CordovaWebView( 2207): >>> loadUrl(file:///android_asset/www/index.html)
+02-27 18:00:37.746 D/PluginManager( 2207): init()
+02-27 18:00:37.746 E/cutils  (  163): Failed to mkdirat(/Removable/MicroSD): Read-only file system
+02-27 18:00:37.746 W/ContextImpl( 2207): Failed to ensure directory: /Removable/MicroSD/Android/data/org.xwalk.webapi_service_tests/files
+02-27 18:00:37.746 E/cutils  (  163): Failed to mkdirat(/Removable/MicroSD): Read-only file system
+02-27 18:00:37.746 W/ContextImpl( 2207): Failed to ensure directory: /Removable/MicroSD/Android/data/org.xwalk.webapi_service_tests/cache
+02-27 18:00:37.746 W/Vold    (  163): Returning OperationFailed - no handler for errno 30
+02-27 18:00:37.746 W/Vold    (  163): Returning OperationFailed - no handler for errno 30
+02-27 18:00:37.756 D/CordovaWebView( 2207): >>> loadUrlNow()
+02-27 18:00:37.756 I/dalvikvm( 2207): Could not find method android.app.Activity.finishAndRemoveTask, referenced from method org.chromium.base.ApiCompatibilityUtils.finishAndRemoveTask
+02-27 18:00:37.756 W/dalvikvm( 2207): VFY: unable to resolve virtual method 6: Landroid/app/Activity;.finishAndRemoveTask ()V
+02-27 18:00:37.756 D/dalvikvm( 2207): VFY: replacing opcode 0x6e at 0x0006
+02-27 18:00:37.756 I/dalvikvm( 2207): Could not find method android.os.PowerManager.isInteractive, referenced from method org.chromium.base.ApiCompatibilityUtils.isInteractive
+02-27 18:00:37.756 W/dalvikvm( 2207): VFY: unable to resolve virtual method 874: Landroid/os/PowerManager;.isInteractive ()Z
+02-27 18:00:37.756 D/dalvikvm( 2207): VFY: replacing opcode 0x6e at 0x000e
+02-27 18:00:37.756 I/dalvikvm( 2207): Could not find method android.view.Window.getNavigationBarColor, referenced from method org.chromium.base.ApiCompatibilityUtils.setStatusBarColor
+02-27 18:00:37.756 W/dalvikvm( 2207): VFY: unable to resolve virtual method 1268: Landroid/view/Window;.getNavigationBarColor ()I
+02-27 18:00:37.756 D/dalvikvm( 2207): VFY: replacing opcode 0x6e at 0x0010
+02-27 18:00:37.756 I/dalvikvm( 2207): Could not find method android.view.Window.setStatusBarColor, referenced from method org.chromium.base.ApiCompatibilityUtils.setStatusBarColor
+02-27 18:00:37.756 W/dalvikvm( 2207): VFY: unable to resolve virtual method 1274: Landroid/view/Window;.setStatusBarColor (I)V
+02-27 18:00:37.756 D/dalvikvm( 2207): VFY: replacing opcode 0x6e at 0x0019
+02-27 18:00:37.756 E/dalvikvm( 2207): Could not find class 'android.app.ActivityManager$TaskDescription', referenced from method org.chromium.base.ApiCompatibilityUtils.setTaskDescription
+02-27 18:00:37.756 W/dalvikvm( 2207): VFY: unable to resolve new-instance 13 (Landroid/app/ActivityManager$TaskDescription;) in Lorg/chromium/base/ApiCompatibilityUtils;
+02-27 18:00:37.756 D/dalvikvm( 2207): VFY: replacing opcode 0x22 at 0x0006
+02-27 18:00:37.756 D/dalvikvm( 2207): DexOpt: unable to opt direct call 0x002f at 0x08 in Lorg/chromium/base/ApiCompatibilityUtils;.setTaskDescription
+02-27 18:00:37.796 I/chromium( 2207): [INFO:xwalk_extension_renderer_controller.cc(47)] EXTENSION PROCESS DISABLED.
+02-27 18:00:37.806 D/CordovaActivity( 2207): Resuming the App
+02-27 18:00:37.846 D/SoftKeyboardDetect( 2207): Ignore this event
+02-27 18:00:37.866 D/        ( 2207): droid_create_context : config id = 5 conf->NativeVisualID=1
+02-27 18:00:37.866 D/        ( 2207): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 18:00:37.866 I/        ( 2207): Requested context : GLES 2.0
+02-27 18:00:37.876 D/        ( 2207): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 18:00:37.876 D/OpenGLRenderer( 2207): Enabling debug mode 0
+02-27 18:00:37.886 D/SoftKeyboardDetect( 2207): Ignore this event
+02-27 18:00:37.926 D/BatteryStatsImpl(  505): noteStopWakeLocked system isFromForeground = false
+02-27 18:00:37.926 D/XT9IME  (28220): new subtype :zh_CN ,pinyin
+02-27 18:00:37.936 I/ActivityManager(  505): Displayed org.xwalk.webapi_service_tests/.webapi_service_tests: +772ms
+02-27 18:00:37.956 D/BatteryStatsImpl(  505): noteStopWakeLocked system isFromForeground = false
+02-27 18:00:37.976 D/CordovaActivity( 2207): onMessage(onPageStarted,file:///android_asset/www/index.html)
+02-27 18:00:38.006 D/        ( 2207): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 18:00:38.006 D/        ( 2207): droid_create_context : config id = 1 conf->NativeVisualID=1
+02-27 18:00:38.006 D/        ( 2207): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 18:00:38.006 I/        ( 2207): Requested context : GLES 2.0
+02-27 18:00:38.016 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:00:38.096 D/CordovaActivity( 2207): onMessage(onPageFinished,file:///android_asset/www/index.html)
+02-27 18:00:38.286 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 18:00:38.286 D/wpa_supplicant(  711): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 18:00:38.286 D/wpa_supplicant(  711): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 18:00:38.316 D/wpa_supplicant(  711): nl80211: survey data missing!
+02-27 18:00:38.316 I/WifiHW  (  505): REPLY: RSSI=-47
+02-27 18:00:38.316 I/WifiHW  (  505): REPLY: LINKSPEED=65
+02-27 18:00:38.316 I/WifiHW  (  505): REPLY: NOISE=9999
+02-27 18:00:38.316 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+02-27 18:00:39.116 D/CordovaActivity( 2207): onMessage(onPageStarted,http://127.0.0.1:8080/index.html)
+02-27 18:00:39.176 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:00:39.406 I/chromium( 2207): [INFO:CONSOLE(0)] "Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check http://xhr.spec.whatwg.org/.", source:  (0)
+02-27 18:00:39.446 D/CordovaActivity( 2207): onMessage(onPageFinished,http://127.0.0.1:8080/index.html)
+02-27 18:00:40.096 D/CordovaActivity( 2207): onMessage(spinner,stop)
+02-27 18:00:40.116 D/        ( 2207): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 18:00:40.116 D/        ( 2207): droid_create_context : config id = 1 conf->NativeVisualID=1
+02-27 18:00:40.116 D/        ( 2207): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 18:00:40.116 I/        ( 2207): Requested context : GLES 2.0
+02-27 18:00:40.146 D/        ( 2207): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 18:00:40.146 D/        ( 2207): droid_create_context : config id = 1 conf->NativeVisualID=1
+02-27 18:00:40.146 D/        ( 2207): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 18:00:40.146 I/        ( 2207): Requested context : GLES 2.0
+02-27 18:00:40.156 D/        ( 2207): Swap interval set to = 1 value
+02-27 18:00:40.476 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 18:00:40.476 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 18:00:41.316 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 18:00:41.316 D/wpa_supplicant(  711): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 18:00:41.316 D/wpa_supplicant(  711): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 18:00:41.346 D/wpa_supplicant(  711): nl80211: survey data missing!
+02-27 18:00:41.346 I/WifiHW  (  505): REPLY: RSSI=-47
+02-27 18:00:41.346 I/WifiHW  (  505): REPLY: LINKSPEED=65
+02-27 18:00:41.346 I/WifiHW  (  505): REPLY: NOISE=9999
+02-27 18:00:41.346 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+02-27 18:00:41.456 D/CordovaActivity( 2207): onMessage(spinner,stop)
+02-27 18:00:42.046 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:00:43.346 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:00:44.296 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:00:44.346 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 18:00:44.346 D/wpa_supplicant(  711): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 18:00:44.346 D/wpa_supplicant(  711): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 18:00:44.376 D/wpa_supplicant(  711): nl80211: survey data missing!
+02-27 18:00:44.376 I/WifiHW  (  505): REPLY: RSSI=-47
+02-27 18:00:44.376 I/WifiHW  (  505): REPLY: LINKSPEED=65
+02-27 18:00:44.376 I/WifiHW  (  505): REPLY: NOISE=9999
+02-27 18:00:44.376 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+02-27 18:00:45.236 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:00:46.246 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:00:46.856 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:00:47.376 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 18:00:47.376 D/wpa_supplicant(  711): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 18:00:47.376 D/wpa_supplicant(  711): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 18:00:47.396 D/wpa_supplicant(  711): nl80211: survey data missing!
+02-27 18:00:47.396 I/WifiHW  (  505): REPLY: RSSI=-48
+02-27 18:00:47.396 I/WifiHW  (  505): REPLY: LINKSPEED=65
+02-27 18:00:47.396 I/WifiHW  (  505): REPLY: NOISE=9999
+02-27 18:00:47.396 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+02-27 18:00:47.606 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 18:00:47.606 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 18:00:47.606 I/upi_ug31xx(  166): (1936) update_capacity
+02-27 18:00:47.606 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: V=3609(3611), T=356(356-421), I=-528, C=-3(-3-0)
+02-27 18:00:47.606 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 176 (152) / 3822 (3822) = 5
+02-27 18:00:47.606 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 176 (152) / 3822 (3822) = 5
+02-27 18:00:47.606 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 172 (172) / 3822 (3822) = 5
+02-27 18:00:47.606 I/[UPI]   (  166): <UG31/E>[RsocFilterCountTime]: (0x0001254a) Step=4(257910), Full=4(257910), Lock=257910(1800000)
+02-27 18:00:47.606 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 172 (172) / 3822 (3822) = 5 (-528--528)
+02-27 18:00:47.606 I/[UPI]   (  166): <UG31/E><BATT> M:normal, P:5(5-5)%, V:3610mV, C:-577mA, T:35.6C(421), S:0x0001254a(000), R:172mAh, F:3822mAh, Q:-1633mAh, CC:3, P:10.300(1632-0)s, BO:7, 97:615:0-44af-9m:B001-20140514-144301 (16)
+02-27 18:00:47.606 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 18:00:47.606 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 18:00:47.606 I/upi_ug31xx(  166): (1937) backup_data 
+02-27 18:00:47.606 V/upi_ug31xx(  166): state->check_backup_count = 1
+02-27 18:00:47.666 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:00:48.256 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:00:49.156 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:00:49.766 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:00:50.396 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 18:00:50.396 D/wpa_supplicant(  711): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 18:00:50.396 D/wpa_supplicant(  711): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 18:00:50.426 D/wpa_supplicant(  711): nl80211: survey data missing!
+02-27 18:00:50.426 I/WifiHW  (  505): REPLY: RSSI=-47
+02-27 18:00:50.426 I/WifiHW  (  505): REPLY: LINKSPEED=65
+02-27 18:00:50.426 I/WifiHW  (  505): REPLY: NOISE=9999
+02-27 18:00:50.426 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+02-27 18:00:50.476 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 18:00:50.476 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 18:00:50.556 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:00:51.176 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:00:51.326 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:00:51.476 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:00:51.656 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:00:52.576 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:00:53.216 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:00:53.426 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 18:00:53.426 D/wpa_supplicant(  711): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 18:00:53.426 D/wpa_supplicant(  711): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 18:00:53.456 D/wpa_supplicant(  711): nl80211: survey data missing!
+02-27 18:00:53.456 I/WifiHW  (  505): REPLY: RSSI=-47
+02-27 18:00:53.456 I/WifiHW  (  505): REPLY: LINKSPEED=65
+02-27 18:00:53.456 I/WifiHW  (  505): REPLY: NOISE=9999
+02-27 18:00:53.456 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+02-27 18:00:54.606 D/BatteryStatsImpl(  505): noteStopWakeLocked system isFromForeground = false
+02-27 18:00:54.636 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:00:55.796 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:00:56.456 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 18:00:56.456 D/wpa_supplicant(  711): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 18:00:56.456 D/wpa_supplicant(  711): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 18:00:56.486 D/wpa_supplicant(  711): nl80211: survey data missing!
+02-27 18:00:56.486 I/WifiHW  (  505): REPLY: RSSI=-45
+02-27 18:00:56.486 I/WifiHW  (  505): REPLY: LINKSPEED=65
+02-27 18:00:56.486 I/WifiHW  (  505): REPLY: NOISE=9999
+02-27 18:00:56.486 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+02-27 18:00:56.766 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:00:57.386 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:00:57.946 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 18:00:57.946 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 18:00:57.946 I/upi_ug31xx(  166): (1938) update_capacity
+02-27 18:00:57.946 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: V=3608(3607), T=356(358-421), I=-431, C=-2(-2-0)
+02-27 18:00:57.946 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 172 (152) / 3822 (3822) = 5
+02-27 18:00:57.946 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 172 (152) / 3822 (3822) = 5
+02-27 18:00:57.946 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 170 (170) / 3822 (3822) = 4
+02-27 18:00:57.946 I/[UPI]   (  166): <UG31/E>[RsocFilterCountTime]: (0x0001254a) Step=4(268250), Full=4(268250), Lock=268250(1800000)
+02-27 18:00:57.946 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 170 (170) / 3822 (3822) = 4 (-431--431)
+02-27 18:00:57.946 I/[UPI]   (  166): <UG31/E><BATT> M:normal, P:4(4-4)%, V:3607mV, C:-435mA, T:35.8C(421), S:0x0001254a(000), R:170mAh, F:3822mAh, Q:-1635mAh, CC:3, P:10.340(1634-0)s, BO:7, 97:615:0-44af-9m:B001-20140514-144301 (16)
+02-27 18:00:57.946 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 18:00:57.946 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 18:00:57.946 I/upi_ug31xx(  166): (1939) backup_data 
+02-27 18:00:57.946 V/upi_ug31xx(  166): state->check_backup_count = 2
+02-27 18:00:58.026 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:00:58.186 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 18:00:58.186 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 18:00:58.406 I/CurrentMgmtService(  505): Battery level state changed:3
+02-27 18:00:58.406 D/Intel BCUHAL(  505): BCU_HAL: Set Throttale Level 2 subsys 1
+02-27 18:00:58.406 D/Intel BYT BCUHAL(  505): BYT BCU_HAL: byt_setaudio_throttle level 2
+02-27 18:00:58.406 D/Intel BCUHAL(  505): BCU_HAL: Set Throttale Level 3 subsys 2
+02-27 18:00:58.406 D/Intel BYT BCUHAL(  505): BYT BCU_HAL: byt_setcamera_throttle level 3
+02-27 18:00:58.406 D/Intel BCUHAL(  505): BCU_HAL: Set Throttale Level 2 subsys 3
+02-27 18:00:58.406 D/Intel BYT BCUHAL(  505): BYT BCU_HAL: byt_setdisplay_throttle level 2
+02-27 18:00:58.406 D/Intel BCUHAL(  505): BCU_HAL: Set Throttale Level 3 subsys 5
+02-27 18:00:58.406 D/Intel BYT BCUHAL(  505): BYT BCU_HAL: byt_setvibra_throttle level 3
+02-27 18:00:58.406 I/CurrentMgmtService(  505): Battery temperature state changed:0
+02-27 18:00:58.426 I/UsbDeviceManager(  505): USB vBus changed to Alert/Critical
+02-27 18:00:58.426 W/UsbDeviceManager(  505): USB vBus changed to unknown
+02-27 18:00:58.696 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:00:59.316 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:00:59.486 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 18:00:59.486 D/wpa_supplicant(  711): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 18:00:59.486 D/wpa_supplicant(  711): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 18:00:59.516 D/wpa_supplicant(  711): nl80211: survey data missing!
+02-27 18:00:59.516 I/WifiHW  (  505): REPLY: RSSI=-44
+02-27 18:00:59.516 I/WifiHW  (  505): REPLY: LINKSPEED=65
+02-27 18:00:59.516 I/WifiHW  (  505): REPLY: NOISE=9999
+02-27 18:00:59.516 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+02-27 18:00:59.996 D/BatteryStatsImpl(  505): noteStopWakeLocked system isFromForeground = false
+02-27 18:00:59.996 D/Clock   (  569): ACTION_TIME_TICK
+02-27 18:00:59.996 D/Clock   (  569): update clock:下午6:01
+02-27 18:01:00.016 D/BatteryStatsImpl(  505): noteStopWakeLocked system isFromForeground = false
+02-27 18:01:00.026 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:00.716 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:01.376 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:02.086 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:02.516 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 18:01:02.516 D/wpa_supplicant(  711): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 18:01:02.516 D/wpa_supplicant(  711): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 18:01:02.546 D/wpa_supplicant(  711): nl80211: survey data missing!
+02-27 18:01:02.546 I/WifiHW  (  505): REPLY: RSSI=-45
+02-27 18:01:02.546 I/WifiHW  (  505): REPLY: LINKSPEED=65
+02-27 18:01:02.546 I/WifiHW  (  505): REPLY: NOISE=9999
+02-27 18:01:02.546 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+02-27 18:01:02.696 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:03.256 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 18:01:03.256 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 18:01:03.326 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:04.416 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:05.016 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:05.546 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 18:01:05.546 D/wpa_supplicant(  711): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 18:01:05.546 D/wpa_supplicant(  711): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 18:01:05.576 D/wpa_supplicant(  711): nl80211: survey data missing!
+02-27 18:01:05.576 I/WifiHW  (  505): REPLY: RSSI=-45
+02-27 18:01:05.576 I/WifiHW  (  505): REPLY: LINKSPEED=65
+02-27 18:01:05.576 I/WifiHW  (  505): REPLY: NOISE=9999
+02-27 18:01:05.576 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+02-27 18:01:05.596 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:06.256 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:06.336 I/chromium( 2207): [INFO:CONSOLE(0)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('http://foo%20bar') does not match the recipient window's origin ('http://127.0.0.1:8080').", source:  (0)
+02-27 18:01:07.166 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:07.746 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:08.336 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:08.466 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 18:01:08.466 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 18:01:08.466 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 18:01:08.466 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 18:01:08.466 I/upi_ug31xx(  166): (1940) update_capacity
+02-27 18:01:08.466 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: V=3606(3604), T=357(360-421), I=-426, C=0(0-0)
+02-27 18:01:08.466 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 170 (152) / 3822 (3822) = 4
+02-27 18:01:08.466 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 170 (152) / 3822 (3822) = 4
+02-27 18:01:08.466 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 170 (170) / 3822 (3822) = 4
+02-27 18:01:08.466 I/[UPI]   (  166): <UG31/E>[RsocFilterCountTime]: (0x0001254a) Step=0(10330), Full=0(10330), Lock=10330(1800000)
+02-27 18:01:08.466 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 170 (170) / 3822 (3822) = 4 (-426--426)
+02-27 18:01:08.466 I/[UPI]   (  166): <UG31/E><BATT> M:normal, P:4(4-4)%, V:3604mV, C:-433mA, T:36.0C(421), S:0x0001254a(000), R:170mAh, F:3822mAh, Q:-1635mAh, CC:3, P:10.330(1634-0)s, BO:7, 97:615:0-44af-9m:B001-20140514-144301 (16)
+02-27 18:01:08.466 I/upi_ug31xx(  166): (1941) backup_data write
+02-27 18:01:08.466 V/upi_ug31xx(  166): state->check_backup_count = 3
+02-27 18:01:08.466 I/[UPI]   (  166): <UG31/E>[upi_lib_backup_data]: Driver backup data not ready.
+02-27 18:01:08.466 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 18:01:08.466 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 18:01:08.576 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 18:01:08.576 D/wpa_supplicant(  711): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 18:01:08.576 D/wpa_supplicant(  711): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 18:01:08.606 D/wpa_supplicant(  711): nl80211: survey data missing!
+02-27 18:01:08.606 I/WifiHW  (  505): REPLY: RSSI=-45
+02-27 18:01:08.606 I/WifiHW  (  505): REPLY: LINKSPEED=65
+02-27 18:01:08.606 I/WifiHW  (  505): REPLY: NOISE=9999
+02-27 18:01:08.606 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+02-27 18:01:08.936 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:09.646 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:10.246 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:10.836 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:10.856 I/chromium( 2207): [INFO:CONSOLE(0)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('http://example.org') does not match the recipient window's origin ('http://127.0.0.1:8080').", source:  (0)
+02-27 18:01:11.416 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:11.606 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 18:01:11.606 D/wpa_supplicant(  711): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 18:01:11.606 D/wpa_supplicant(  711): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 18:01:11.636 D/wpa_supplicant(  711): nl80211: survey data missing!
+02-27 18:01:11.636 I/WifiHW  (  505): REPLY: RSSI=-48
+02-27 18:01:11.636 I/WifiHW  (  505): REPLY: LINKSPEED=65
+02-27 18:01:11.636 I/WifiHW  (  505): REPLY: NOISE=9999
+02-27 18:01:11.636 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+02-27 18:01:12.226 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:12.976 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:13.206 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 18:01:13.206 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 18:01:13.746 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:13.786 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 18:01:13.786 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 18:01:13.786 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 18:01:13.786 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 18:01:13.786 I/upi_ug31xx(  166): (1942) update_capacity
+02-27 18:01:13.786 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: V=3605(3603), T=357(359-421), I=-577, C=-3(-3-0)
+02-27 18:01:13.786 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 170 (152) / 3822 (3822) = 4
+02-27 18:01:13.786 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 170 (152) / 3822 (3822) = 4
+02-27 18:01:13.786 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 167 (167) / 3822 (3822) = 4
+02-27 18:01:13.786 I/[UPI]   (  166): <UG31/E>[RsocFilterCountTime]: (0x0001254a) Step=0(15850), Full=0(15850), Lock=15850(1800000)
+02-27 18:01:13.786 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 167 (167) / 3822 (3822) = 4 (-577--577)
+02-27 18:01:13.786 I/[UPI]   (  166): <UG31/E><BATT> M:normal, P:4(4-4)%, V:3602mV, C:-595mA, T:35.9C(421), S:0x0001254a(000), R:167mAh, F:3822mAh, Q:-1638mAh, CC:3, P:5.520(1637-0)s, BO:7, 97:615:0-44af-9m:B001-20140514-144301 (16)
+02-27 18:01:13.786 I/upi_ug31xx(  166): (1943) backup_data 
+02-27 18:01:13.786 V/upi_ug31xx(  166): state->check_backup_count = 21
+02-27 18:01:14.506 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:14.606 I/chromium( 2207): [INFO:CONSOLE(0)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('http://foo%20bar') does not match the recipient window's origin ('http://127.0.0.1:8080').", source:  (0)
+02-27 18:01:14.636 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 18:01:14.636 D/wpa_supplicant(  711): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 18:01:14.636 D/wpa_supplicant(  711): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 18:01:14.666 D/wpa_supplicant(  711): nl80211: survey data missing!
+02-27 18:01:14.666 I/WifiHW  (  505): REPLY: RSSI=-47
+02-27 18:01:14.666 I/WifiHW  (  505): REPLY: LINKSPEED=65
+02-27 18:01:14.666 I/WifiHW  (  505): REPLY: NOISE=9999
+02-27 18:01:14.666 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+02-27 18:01:15.596 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:16.186 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:16.776 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:17.366 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:17.666 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 18:01:17.666 D/wpa_supplicant(  711): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 18:01:17.666 D/wpa_supplicant(  711): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 18:01:17.696 D/wpa_supplicant(  711): nl80211: survey data missing!
+02-27 18:01:17.696 I/WifiHW  (  505): REPLY: RSSI=-47
+02-27 18:01:17.696 I/WifiHW  (  505): REPLY: LINKSPEED=65
+02-27 18:01:17.696 I/WifiHW  (  505): REPLY: NOISE=9999
+02-27 18:01:17.696 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+02-27 18:01:17.946 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:18.286 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 18:01:18.286 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 18:01:18.556 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:18.676 I/chromium( 2207): [INFO:CONSOLE(0)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('http://example.org') does not match the recipient window's origin ('http://127.0.0.1:8080').", source:  (0)
+02-27 18:01:19.086 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 18:01:19.086 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 18:01:19.086 I/upi_ug31xx(  166): (1944) update_capacity
+02-27 18:01:19.086 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: V=3604(3602), T=357(357-422), I=-660, C=1(0-1)
+02-27 18:01:19.086 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 167 (191) / 3822 (3822) = 4
+02-27 18:01:19.086 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 167 (191) / 3822 (3822) = 4
+02-27 18:01:19.086 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 167 (167) / 3822 (3822) = 4
+02-27 18:01:19.086 I/[UPI]   (  166): <UG31/E>[RsocFilterCountTime]: (0x0001254a) Step=0(21140), Full=0(21140), Lock=21140(1800000)
+02-27 18:01:19.086 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 167 (167) / 3822 (3822) = 4 (-660--660)
+02-27 18:01:19.086 I/[UPI]   (  166): <UG31/E><BATT> M:normal, P:4(4-4)%, V:3602mV, C:-799mA, T:35.7C(422), S:0x0001254a(000), R:167mAh, F:3822mAh, Q:-1637mAh, CC:3, P:5.290(1636-1)s, BO:7, 97:615:0-44af-9m:B001-20140514-144301 (16)
+02-27 18:01:19.086 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 18:01:19.086 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 18:01:19.086 I/upi_ug31xx(  166): (1945) backup_data 
+02-27 18:01:19.086 V/upi_ug31xx(  166): state->check_backup_count = 1
+02-27 18:01:19.236 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:20.006 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:20.646 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:20.696 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 18:01:20.696 D/wpa_supplicant(  711): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 18:01:20.696 D/wpa_supplicant(  711): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 18:01:20.726 D/wpa_supplicant(  711): nl80211: survey data missing!
+02-27 18:01:20.726 I/WifiHW  (  505): REPLY: RSSI=-48
+02-27 18:01:20.726 I/WifiHW  (  505): REPLY: LINKSPEED=65
+02-27 18:01:20.726 I/WifiHW  (  505): REPLY: NOISE=9999
+02-27 18:01:20.726 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+02-27 18:01:21.386 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:21.966 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:22.546 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:23.196 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:23.256 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 18:01:23.256 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 18:01:23.726 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 18:01:23.726 D/wpa_supplicant(  711): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 18:01:23.726 D/wpa_supplicant(  711): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 18:01:23.756 D/wpa_supplicant(  711): nl80211: survey data missing!
+02-27 18:01:23.756 I/WifiHW  (  505): REPLY: RSSI=-47
+02-27 18:01:23.756 I/WifiHW  (  505): REPLY: LINKSPEED=65
+02-27 18:01:23.756 I/WifiHW  (  505): REPLY: NOISE=9999
+02-27 18:01:23.756 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+02-27 18:01:23.976 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:24.356 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 18:01:24.356 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 18:01:24.356 I/upi_ug31xx(  166): (1946) update_capacity
+02-27 18:01:24.356 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: V=3603(3603), T=356(355-422), I=-588, C=-2(-1-0)
+02-27 18:01:24.356 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 167 (191) / 3822 (3822) = 4
+02-27 18:01:24.356 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 167 (191) / 3822 (3822) = 4
+02-27 18:01:24.356 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 166 (166) / 3822 (3822) = 4
+02-27 18:01:24.356 I/[UPI]   (  166): <UG31/E>[RsocFilterCountTime]: (0x0001254a) Step=0(26420), Full=0(26420), Lock=26420(1800000)
+02-27 18:01:24.356 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 166 (166) / 3822 (3822) = 4 (-588--588)
+02-27 18:01:24.356 I/[UPI]   (  166): <UG31/E><BATT> M:normal, P:4(4-4)%, V:3604mV, C:-664mA, T:35.5C(422), S:0x0001254a(000), R:166mAh, F:3822mAh, Q:-1639mAh, CC:3, P:5.280(1638-0)s, BO:7, 97:615:0-44af-9m:B001-20140514-144301 (16)
+02-27 18:01:24.356 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 18:01:24.356 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 18:01:24.366 I/upi_ug31xx(  166): (1947) backup_data 
+02-27 18:01:24.366 V/upi_ug31xx(  166): state->check_backup_count = 2
+02-27 18:01:25.046 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:25.986 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:26.646 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:26.756 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 18:01:26.756 D/wpa_supplicant(  711): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 18:01:26.756 D/wpa_supplicant(  711): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 18:01:26.786 D/wpa_supplicant(  711): nl80211: survey data missing!
+02-27 18:01:26.786 I/WifiHW  (  505): REPLY: RSSI=-47
+02-27 18:01:26.786 I/WifiHW  (  505): REPLY: LINKSPEED=65
+02-27 18:01:26.786 I/WifiHW  (  505): REPLY: NOISE=9999
+02-27 18:01:26.786 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+02-27 18:01:27.446 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:28.136 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:28.246 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 18:01:28.246 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 18:01:28.786 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:29.516 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:29.616 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 18:01:29.616 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 18:01:29.616 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 18:01:29.616 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 18:01:29.616 I/upi_ug31xx(  166): (1948) update_capacity
+02-27 18:01:29.616 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: V=3604(3606), T=355(355-422), I=-466, C=-2(-2-0)
+02-27 18:01:29.616 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 166 (152) / 3822 (3822) = 4
+02-27 18:01:29.616 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 166 (152) / 3822 (3822) = 4
+02-27 18:01:29.616 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 164 (164) / 3822 (3822) = 4
+02-27 18:01:29.616 I/[UPI]   (  166): <UG31/E>[RsocFilterCountTime]: (0x0001254a) Step=0(31680), Full=0(31680), Lock=31680(1800000)
+02-27 18:01:29.616 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 164 (164) / 3822 (3822) = 4 (-466--466)
+02-27 18:01:29.616 I/[UPI]   (  166): <UG31/E><BATT> M:normal, P:4(4-4)%, V:3607mV, C:-375mA, T:35.5C(422), S:0x0001254a(000), R:164mAh, F:3822mAh, Q:-1641mAh, CC:3, P:5.260(1640-0)s, BO:7, 97:615:0-44af-9m:B001-20140514-144301 (16)
+02-27 18:01:29.616 I/upi_ug31xx(  166): (1949) backup_data 
+02-27 18:01:29.616 V/upi_ug31xx(  166): state->check_backup_count = 3
+02-27 18:01:29.786 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 18:01:29.786 D/wpa_supplicant(  711): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 18:01:29.786 D/wpa_supplicant(  711): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 18:01:29.816 D/wpa_supplicant(  711): nl80211: survey data missing!
+02-27 18:01:29.816 I/WifiHW  (  505): REPLY: RSSI=-44
+02-27 18:01:29.816 I/WifiHW  (  505): REPLY: LINKSPEED=65
+02-27 18:01:29.816 I/WifiHW  (  505): REPLY: NOISE=9999
+02-27 18:01:29.816 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+02-27 18:01:30.266 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:30.926 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:31.566 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:32.196 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:32.816 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 18:01:32.816 D/wpa_supplicant(  711): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 18:01:32.816 D/wpa_supplicant(  711): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 18:01:32.836 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:32.846 D/wpa_supplicant(  711): nl80211: survey data missing!
+02-27 18:01:32.846 I/WifiHW  (  505): REPLY: RSSI=-45
+02-27 18:01:32.846 I/WifiHW  (  505): REPLY: LINKSPEED=65
+02-27 18:01:32.846 I/WifiHW  (  505): REPLY: NOISE=9999
+02-27 18:01:32.846 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+02-27 18:01:33.316 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 18:01:33.316 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 18:01:33.456 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:34.106 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:34.736 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:34.866 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 18:01:34.866 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 18:01:34.876 I/upi_ug31xx(  166): (1950) update_capacity
+02-27 18:01:34.866 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 18:01:34.876 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: V=3604(3606), T=355(355-422), I=-433, C=-2(-2-0)
+02-27 18:01:34.876 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 164 (152) / 3822 (3822) = 4
+02-27 18:01:34.876 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 164 (152) / 3822 (3822) = 4
+02-27 18:01:34.876 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 18:01:34.876 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 161 (161) / 3822 (3822) = 4
+02-27 18:01:34.876 I/[UPI]   (  166): <UG31/E>[RsocFilterCountTime]: (0x0001254a) Step=0(36940), Full=0(36940), Lock=36940(1800000)
+02-27 18:01:34.876 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 161 (161) / 3822 (3822) = 4 (-433--433)
+02-27 18:01:34.876 I/[UPI]   (  166): <UG31/E><BATT> M:normal, P:4(4-4)%, V:3607mV, C:-373mA, T:35.5C(422), S:0x0001254a(000), R:161mAh, F:3822mAh, Q:-1643mAh, CC:3, P:5.260(1642-0)s, BO:7, 97:615:0-44af-9m:B001-20140514-144301 (16)
+02-27 18:01:34.876 I/upi_ug31xx(  166): (1951) backup_data 
+02-27 18:01:34.876 V/upi_ug31xx(  166): state->check_backup_count = 4
+02-27 18:01:35.376 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:35.846 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 18:01:35.846 D/wpa_supplicant(  711): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 18:01:35.846 D/wpa_supplicant(  711): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 18:01:35.876 D/wpa_supplicant(  711): nl80211: survey data missing!
+02-27 18:01:35.876 I/WifiHW  (  505): REPLY: RSSI=-46
+02-27 18:01:35.876 I/WifiHW  (  505): REPLY: LINKSPEED=65
+02-27 18:01:35.876 I/WifiHW  (  505): REPLY: NOISE=9999
+02-27 18:01:35.876 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+02-27 18:01:36.056 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:36.716 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:37.416 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:38.216 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:38.256 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 18:01:38.256 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 18:01:38.286 I/chromium( 2207): [INFO:CONSOLE(0)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('http://127.0.0.1:8080') does not match the recipient window's origin ('http://127.0.0.1:8081').", source:  (0)
+02-27 18:01:38.866 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:38.876 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 18:01:38.876 D/wpa_supplicant(  711): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 18:01:38.876 D/wpa_supplicant(  711): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 18:01:38.906 D/wpa_supplicant(  711): nl80211: survey data missing!
+02-27 18:01:38.906 I/WifiHW  (  505): REPLY: RSSI=-46
+02-27 18:01:38.906 I/WifiHW  (  505): REPLY: LINKSPEED=65
+02-27 18:01:38.906 I/WifiHW  (  505): REPLY: NOISE=9999
+02-27 18:01:38.906 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+02-27 18:01:38.936 I/chromium( 2207): [INFO:CONSOLE(0)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('http://www.invalid-domain.com') does not match the recipient window's origin ('http://127.0.0.1:8081').", source:  (0)
+02-27 18:01:38.936 I/chromium( 2207): [INFO:CONSOLE(0)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('http://127.0.0.1:8080') does not match the recipient window's origin ('http://127.0.0.1:8081').", source:  (0)
+02-27 18:01:39.506 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:39.586 I/chromium( 2207): [INFO:CONSOLE(0)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('http://www.invalid-domain.com') does not match the recipient window's origin ('http://127.0.0.1:8080').", source:  (0)
+02-27 18:01:39.586 I/chromium( 2207): [INFO:CONSOLE(0)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('http://127.0.0.1:8081') does not match the recipient window's origin ('http://127.0.0.1:8080').", source:  (0)
+02-27 18:01:40.146 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:40.176 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 18:01:40.176 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 18:01:40.176 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 18:01:40.176 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 18:01:40.176 I/upi_ug31xx(  166): (1952) update_capacity
+02-27 18:01:40.176 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: V=3604(3606), T=355(355-422), I=-438, C=0(0-0)
+02-27 18:01:40.176 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 161 (152) / 3822 (3822) = 4
+02-27 18:01:40.176 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 161 (152) / 3822 (3822) = 4
+02-27 18:01:40.176 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 161 (161) / 3822 (3822) = 4
+02-27 18:01:40.176 I/[UPI]   (  166): <UG31/E>[RsocFilterCountTime]: (0x0001254a) Step=0(42240), Full=0(42240), Lock=42240(1800000)
+02-27 18:01:40.176 I/[UPI]   (  166): <UG31/E>[UpiReadCapacity]: (0x0001254a) 161 (161) / 3822 (3822) = 4 (-438--438)
+02-27 18:01:40.176 I/[UPI]   (  166): <UG31/E><BATT> M:normal, P:4(4-4)%, V:3607mV, C:-373mA, T:35.5C(422), S:0x0001254a(000), R:161mAh, F:3822mAh, Q:-1643mAh, CC:3, P:5.300(1642-0)s, BO:7, 97:615:0-44af-9m:B001-20140514-144301 (16)
+02-27 18:01:40.176 I/upi_ug31xx(  166): (1953) backup_data 
+02-27 18:01:40.176 V/upi_ug31xx(  166): state->check_backup_count = 5
+02-27 18:01:40.796 W/BindingManager( 2207): Cannot call determinedVisibility() - never saw a connection for the pid: 2207
+02-27 18:01:41.906 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+02-27 18:01:41.906 D/wpa_supplicant(  711): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+02-27 18:01:41.906 D/wpa_supplicant(  711): wlan0: Control interface command 'SIGNAL_POLL'
+02-27 18:01:41.936 D/wpa_supplicant(  711): nl80211: survey data missing!
+02-27 18:01:41.936 I/WifiHW  (  505): REPLY: RSSI=-47
+02-27 18:01:41.936 I/WifiHW  (  505): REPLY: LINKSPEED=65
+02-27 18:01:41.936 I/WifiHW  (  505): REPLY: NOISE=9999
+02-27 18:01:41.936 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+02-27 18:01:42.366 W/ufoGralloc(  171): registerBuffer() handle 0xb8fd2440/70 didn't require registration
+02-27 18:01:42.366 D/CordovaActivity( 2207): Paused the application!
+02-27 18:01:42.366 D/CordovaWebView( 2207): Handle the pause
+02-27 18:01:42.376 D/WindowManager(  505): adjustConfigurationLw, config:{1.0 ?mcc?mnc ?locale ?layoutDir sw600dp w600dp h888dp 213dpi lrg port ?uimode ?night finger -keyb/v/h -nav/v} mLidState:1 mHasDockFeature:false mHasKeyboardFeature:false mHasHallSensorFeature:true config.hardKeyboardHidden:2
+02-27 18:01:42.376 I/chromium( 2207): [INFO:CONSOLE(1)] "exception firing pause event from native", source:  (1)
+02-27 18:01:42.376 I/ActivityManager(  505): [TopPkgCurBat]	NowPkgName[com.intel.tinywebtestservice]	Battery[4]	TimeTick[1425031302387]	OldPkgName[org.xwalk.webapi_service_tests]
+02-27 18:01:42.416 D/        (32402): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 18:01:42.416 W/IInputConnectionWrapper( 2207): showStatusIcon on inactive InputConnection
+02-27 18:01:42.416 D/XT9IME  (28220): new subtype :zh_CN ,pinyin
+02-27 18:01:42.436 D/BatteryStatsImpl(  505): noteStopWakeLocked system isFromForeground = false
+02-27 18:01:42.446 D/        ( 2207): Surface destroy: ANDROID_NATIVE_WINDOW_MAGIC
+02-27 18:01:42.446 D/        ( 2207): Surface destroy: ANDROID_NATIVE_WINDOW_MAGIC
+02-27 18:01:43.176 D/        ( 2207): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+02-27 18:01:43.186 D/CordovaActivity( 2207): CordovaActivity.onDestroy()
+02-27 18:01:43.186 D/CordovaWebView( 2207): >>> loadUrlNow()
+02-27 18:01:43.186 W/ScreenOrientationListener( 2207): Removing an inexistent observer!
+02-27 18:01:43.276 D/EVENT_THREAD(  186): void CEventThread::run() POLLIN event on Fd (1)
+02-27 18:01:43.276 D/EVENT_THREAD(  186): void CEventThread::run() Do poll with timeout: -1
+02-27 18:01:43.926 D/AndroidRuntime( 2846): 
+02-27 18:01:43.926 D/AndroidRuntime( 2846): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+02-27 18:01:43.926 D/AndroidRuntime( 2846): CheckJNI is OFF
+02-27 18:01:43.926 I/AndroidRuntime( 2846): Kernel Release Version: 3.10.20-gf818079
+02-27 18:01:43.926 I/dalvikvm( 2846): No library specified. The standard exception handler will be used
+02-27 18:01:43.926 I/dalvikvm( 2846): 
+02-27 18:01:43.926 I/dalvikvm( 2846): +++++++++++++ Using PCG. +++++++++++++++++++++
+02-27 18:01:43.936 D/dalvikvm( 2846): Trying to load lib libjavacore.so 0x0
+02-27 18:01:43.936 D/dalvikvm( 2846): Added shared lib libjavacore.so 0x0
+02-27 18:01:43.946 D/dalvikvm( 2846): Trying to load lib libnativehelper.so 0x0
+02-27 18:01:43.946 D/dalvikvm( 2846): Added shared lib libnativehelper.so 0x0
+02-27 18:01:43.946 D/dalvikvm( 2846): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+02-27 18:01:43.946 D/dalvikvm( 2846): Extra Options: not specified
+02-27 18:01:43.976 D/dalvikvm( 2846): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+02-27 18:01:44.046 E/memtrack( 2846): Couldn't load memtrack module (No such file or directory)
+02-27 18:01:44.046 E/android.os.Debug( 2846): failed to load memtrack module: -2
+02-27 18:01:44.096 D/AndroidRuntime( 2846): Calling main entry com.android.commands.am.Am
+02-27 18:01:44.126 I/ActivityManager(  505): Force stopping org.xwalk.webapi_service_tests appid=10327 user=0: from pid 2846
+02-27 18:01:44.126 I/ActivityManager(  505): Killing 2207:org.xwalk.webapi_service_tests/u0a327 (adj 11): stop org.xwalk.webapi_service_tests
+02-27 18:01:44.126 I/SecurityManagerService(  600): SMS received security event: App[STOP/org.xwalk.webapi_service_tests]
+02-27 18:01:44.126 D/AndroidRuntime( 2846): Shutting down VM
+02-27 18:01:44.136 D/dalvikvm( 2846): GC_CONCURRENT freed 112K, 16% free 666K/792K, paused 0ms+0ms, total 1ms
+02-27 18:01:44.136 D/dalvikvm( 2846): Compiler shutdown in progress - discarding request
+02-27 18:01:44.136 D/dalvikvm( 2846): Compiler shutdown in progress - discarding request
+02-27 18:01:44.136 D/dalvikvm( 2846): Compiler shutdown in progress - discarding request
+02-27 18:01:44.136 D/dalvikvm( 2846): Compiler shutdown in progress - discarding request
+02-27 18:01:44.136 D/dalvikvm( 2846): Compiler shutdown in progress - discarding request
+02-27 18:01:44.136 D/dalvikvm( 2846): Compiler shutdown in progress - discarding request
+02-27 18:01:44.136 D/dalvikvm( 2846): Compiler shutdown in progress - discarding request
+02-27 18:01:44.136 D/dalvikvm( 2846): Compiler shutdown in progress - discarding request
+02-27 18:01:44.136 D/dalvikvm( 2846): Compiler shutdown in progress - discarding request
+02-27 18:01:44.136 D/dalvikvm( 2846): Compiler shutdown in progress - discarding request
+02-27 18:01:44.136 D/dalvikvm( 2846): Compiler shutdown in progress - discarding request
+02-27 18:01:44.136 D/dalvikvm( 2846): Compiler shutdown in progress - discarding request
+02-27 18:01:44.136 D/dalvikvm( 2846): Compiler shutdown in progress - discarding request
+02-27 18:01:44.136 D/dalvikvm( 2846): Compiler shutdown in progress - discarding request
+02-27 18:01:44.136 D/dalvikvm( 2846): Compiler shutdown in progress - discarding request
+02-27 18:01:44.136 D/dalvikvm( 2846): Compiler shutdown in progress - discarding request
+02-27 18:01:44.136 D/dalvikvm( 2846): Compiler shutdown in progress - discarding request
+02-27 18:01:44.136 D/dalvikvm( 2846): Compiler shutdown in progress - discarding request
+02-27 18:01:44.136 D/dalvikvm( 2846): Compiler shutdown in progress - discarding request
+02-27 18:01:44.136 D/dalvikvm( 2846): Compiler shutdown in progress - discarding request
+02-27 18:01:44.136 D/dalvikvm( 2846): Compiler shutdown in progress - discarding request
+02-27 18:01:44.136 D/dalvikvm( 2846): Compiler shutdown in progress - discarding request
+02-27 18:01:44.136 D/dalvikvm( 2846): Compiler shutdown in progress - discarding request
+02-27 18:01:44.136 D/dalvikvm( 2846): Compiler shutdown in progress - discarding request
+02-27 18:01:44.136 D/dalvikvm( 2846): Compiler shutdown in progress - discarding request
+02-27 18:01:44.136 D/dalvikvm( 2846): Compiler shutdown in progress - discarding request
+02-27 18:01:44.136 D/dalvikvm( 2846): Compiler shutdown in progress - discarding request
+02-27 18:01:44.136 D/dalvikvm( 2846): Compiler shutdown in progress - discarding request
+02-27 18:01:44.136 D/dalvikvm( 2846): Compiler shutdown in progress - discarding request
+02-27 18:01:44.136 D/dalvikvm( 2846): Compiler shutdown in progress - discarding request
+02-27 18:01:44.136 D/dalvikvm( 2846): Compiler shutdown in progress - discarding request
+02-27 18:01:44.136 D/dalvikvm( 2846): Compiler shutdown in progress - discarding request
+02-27 18:01:44.136 D/dalvikvm( 2846): Compiler shutdown in progress - discarding request
+02-27 18:01:44.136 D/dalvikvm( 2846): Compiler shutdown in progress - discarding request
+02-27 18:01:44.136 D/dalvikvm( 2846): Compiler shutdown in progress - discarding request
+02-27 18:01:44.136 D/dalvikvm( 2846): Compiler shutdown in progress - discarding request
+02-27 18:01:44.136 D/dalvikvm( 2846): Compiler shutdown in progress - discarding request
+02-27 18:01:44.136 D/dalvikvm( 2846): Compiler shutdown in progress - discarding request
+02-27 18:01:44.136 D/dalvikvm( 2846): Compiler shutdown in progress - discarding request
+02-27 18:01:44.146 D/dalvikvm( 2846): Compiler shutdown in progress - discarding request
+02-27 18:01:44.146 D/dalvikvm( 2846): Compiler shutdown in progress - discarding request
+02-27 18:01:44.146 D/dalvikvm( 2846): Compiler shutdown in progress - discarding request
+02-27 18:01:44.146 D/dalvikvm( 2846): Compiler shutdown in progress - discarding request
+02-27 18:01:44.146 D/dalvikvm( 2846): Compiler shutdown in progress - discarding request

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <?xml-stylesheet type="text/xsl" href="testresult.xsl"?>
+<test_definition><environment build_id="" device_id="E6OKCY410928" device_model="" device_name="N/A" host="Linux-3.13.0-39-generic-x86_64-with-Ubuntu-12.04-precise" lite_version="3.1.13" manufacturer="" resolution="N/A" screen_size="N/A"><other /></environment>
+<summary test_plan_name="Empty test_plan_name"><start_at>2015-02-27_10_31_03</start_at><end_at>2015-02-27_10_31_58</end_at></summary>
+  <suite category="Android embedding APIs" name="webapi-embeddingapi-xwalk-tests">
+    <set location="device" name="EmbeddingApiTest" set_debug_msg="N/A" type="androidunit">
+      <testcase component="Crosswalk APIs/Embedding API" execution_type="auto" id="v4.XWalkViewTest/1" purpose="Check if the methods of XWalkView interface can be executed correctly./1" result="PASS" subcase="2">
+        <description>
+          <test_script_entry>org.xwalk.embedding.test.v4.XWalkViewTest</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><stdout>[message]</stdout></result_info></testcase>
+      <testcase component="Crosswalk APIs/Embedding API" execution_type="auto" id="v4.XWalkViewTest/2" purpose="Check if the methods of XWalkView interface can be executed correctly./2" result="PASS" subcase="2">
+        <description>
+          <test_script_entry>org.xwalk.embedding.test.v4.XWalkViewTest</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><stdout>[message]</stdout></result_info></testcase>
+      <testcase component="Crosswalk APIs/Embedding API" execution_type="auto" id="v4.XWalkUIClientTest/1" purpose="Check if the methods of XWalkUIClient interface can be executed correctly./1" result="FAIL" subcase="8">
+        <description>
+          <test_script_entry>org.xwalk.embedding.test.v4.XWalkUIClientTest</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><stdout>[message]junit.framework.AssertionFailedError	at com.test.server.common.CommonTestBundle.assertTrue(CommonTestBundle.java:40)	at com.test.server.ActivityInstrumentationTestCase2.assertTrue(ActivityInstrumentationTestCase2.java:213)	at org.xwalk.embedding.test.v4.XWalkUIClientTest.testOnCreateWindowRequested_navigate_parent(XWalkUIClientTest.java:93)	at java.lang.reflect.Method.invokeNative(Native Method)	at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)	at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)	at com.test.server.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:195)	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:191)	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:176)	at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:554)	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1701)</stdout></result_info></testcase>
+      <testcase component="Crosswalk APIs/Embedding API" execution_type="auto" id="v4.XWalkUIClientTest/2" purpose="Check if the methods of XWalkUIClient interface can be executed correctly./2" result="FAIL" subcase="8">
+        <description>
+          <test_script_entry>org.xwalk.embedding.test.v4.XWalkUIClientTest</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><stdout>[message]junit.framework.AssertionFailedError	at com.test.server.common.CommonTestBundle.assertTrue(CommonTestBundle.java:40)	at com.test.server.ActivityInstrumentationTestCase2.assertTrue(ActivityInstrumentationTestCase2.java:213)	at org.xwalk.embedding.test.v4.XWalkUIClientTest.testOnCreateWindowRequested_navigate_self(XWalkUIClientTest.java:77)	at java.lang.reflect.Method.invokeNative(Native Method)	at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)	at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)	at com.test.server.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:195)	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:191)	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:176)	at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:554)	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1701)</stdout></result_info></testcase>
+      <testcase component="Crosswalk APIs/Embedding API" execution_type="auto" id="v4.XWalkUIClientTest/3" purpose="Check if the methods of XWalkUIClient interface can be executed correctly./3" result="FAIL" subcase="8">
+        <description>
+          <test_script_entry>org.xwalk.embedding.test.v4.XWalkUIClientTest</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><stdout>[message]junit.framework.AssertionFailedError	at com.test.server.common.CommonTestBundle.assertTrue(CommonTestBundle.java:40)	at com.test.server.ActivityInstrumentationTestCase2.assertTrue(ActivityInstrumentationTestCase2.java:213)	at org.xwalk.embedding.test.v4.XWalkUIClientTest.testOnCreateWindowRequested_navigate_top(XWalkUIClientTest.java:109)	at java.lang.reflect.Method.invokeNative(Native Method)	at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)	at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)	at com.test.server.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:195)	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:191)	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:176)	at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:554)	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1701)</stdout></result_info></testcase>
+      <testcase component="Crosswalk APIs/Embedding API" execution_type="auto" id="v4.XWalkUIClientTest/4" purpose="Check if the methods of XWalkUIClient interface can be executed correctly./4" result="FAIL" subcase="8">
+        <description>
+          <test_script_entry>org.xwalk.embedding.test.v4.XWalkUIClientTest</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><stdout>[message]junit.framework.AssertionFailedError	at com.test.server.common.CommonTestBundle.assertTrue(CommonTestBundle.java:40)	at com.test.server.ActivityInstrumentationTestCase2.assertTrue(ActivityInstrumentationTestCase2.java:213)	at org.xwalk.embedding.test.v4.XWalkUIClientTest.testOnCreateWindowRequested_open_parent(XWalkUIClientTest.java:45)	at java.lang.reflect.Method.invokeNative(Native Method)	at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)	at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)	at com.test.server.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:195)	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:191)	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:176)	at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:554)	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1701)</stdout></result_info></testcase>
+      <testcase component="Crosswalk APIs/Embedding API" execution_type="auto" id="v4.XWalkUIClientTest/5" purpose="Check if the methods of XWalkUIClient interface can be executed correctly./5" result="FAIL" subcase="8">
+        <description>
+          <test_script_entry>org.xwalk.embedding.test.v4.XWalkUIClientTest</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><stdout>[message]junit.framework.AssertionFailedError	at com.test.server.common.CommonTestBundle.assertTrue(CommonTestBundle.java:40)	at com.test.server.ActivityInstrumentationTestCase2.assertTrue(ActivityInstrumentationTestCase2.java:213)	at org.xwalk.embedding.test.v4.XWalkUIClientTest.testOnCreateWindowRequested_open_self(XWalkUIClientTest.java:29)	at java.lang.reflect.Method.invokeNative(Native Method)	at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)	at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)	at com.test.server.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:195)	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:191)	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:176)	at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:554)	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1701)</stdout></result_info></testcase>
+      <testcase component="Crosswalk APIs/Embedding API" execution_type="auto" id="v4.XWalkUIClientTest/6" purpose="Check if the methods of XWalkUIClient interface can be executed correctly./6" result="FAIL" subcase="8">
+        <description>
+          <test_script_entry>org.xwalk.embedding.test.v4.XWalkUIClientTest</test_script_entry>
+        </description>
+      <result_info><actual_result>FAIL</actual_result><stdout>[message]junit.framework.AssertionFailedError	at com.test.server.common.CommonTestBundle.assertTrue(CommonTestBundle.java:40)	at com.test.server.ActivityInstrumentationTestCase2.assertTrue(ActivityInstrumentationTestCase2.java:213)	at org.xwalk.embedding.test.v4.XWalkUIClientTest.testOnCreateWindowRequested_open_top(XWalkUIClientTest.java:61)	at java.lang.reflect.Method.invokeNative(Native Method)	at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:214)	at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:199)	at com.test.server.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:195)	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:191)	at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:176)	at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:554)	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1701)</stdout></result_info></testcase>
+      <testcase component="Crosswalk APIs/Embedding API" execution_type="auto" id="v4.XWalkUIClientTest/7" purpose="Check if the methods of XWalkUIClient interface can be executed correctly./7" result="PASS" subcase="8">
+        <description>
+          <test_script_entry>org.xwalk.embedding.test.v4.XWalkUIClientTest</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><stdout>[message]</stdout></result_info></testcase>
+      <testcase component="Crosswalk APIs/Embedding API" execution_type="auto" id="v4.XWalkUIClientTest/8" purpose="Check if the methods of XWalkUIClient interface can be executed correctly./8" result="PASS" subcase="8">
+        <description>
+          <test_script_entry>org.xwalk.embedding.test.v4.XWalkUIClientTest</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><stdout>[message]</stdout></result_info></testcase>
+      <testcase component="Crosswalk APIs/Embedding API" execution_type="auto" id="v4.XWalkResourceClientTest/1" purpose="Check if the methods of XWalkResourceClient interface can be executed correctly./1" result="PASS" subcase="1">
+        <description>
+          <test_script_entry>org.xwalk.embedding.test.v4.XWalkResourceClientTest</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><stdout>[message]</stdout></result_info></testcase>
+    </set>
+  </suite>
+</test_definition>

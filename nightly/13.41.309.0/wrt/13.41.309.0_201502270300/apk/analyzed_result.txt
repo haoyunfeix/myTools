@@ -1,0 +1,4 @@
+Total TCs: 608 , Passed: 606 , Failed: 1 , Blocked: 1 , Run%: 100% , Pass%: 100%
+
+------------ WRT ------------
+Total TCs: 608 , Passed: 606 , Failed: 1 , Blocked: 1 , Run%: 100% , Pass%: 100%

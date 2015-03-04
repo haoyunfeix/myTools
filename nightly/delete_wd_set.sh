@@ -2,7 +2,7 @@
 cp orig_xml/*.xml merge_xml/
 cp rerun_xml/*.xml merge_xml/
 #grep 'type="ref"' -rn orig_xml/*>1.tmp
-grep -E 'type="ref"|type="script"' -rn orig_xml/*>1.tmp
+grep -E 'type="ref"|type="script"|ui-auto="bdd"' -rn orig_xml/*>1.tmp
 while read i ;do
     file=`echo $i|awk -F : '{print $1}'`
     filename=`basename $file`
@@ -34,3 +34,5 @@ result_tct-webstorage-w3c-tests.xml"
 for i in $list;do
     ./merge.py --f1 wd_merge_xml/$i --f2 wd_merge_xml/wd_$i --f3 wd_merge_xml/$i
 done
+rm merge_xml/wd_*
+rm wd_merge_xml/wd_*

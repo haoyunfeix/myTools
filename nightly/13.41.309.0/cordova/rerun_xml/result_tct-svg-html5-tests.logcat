@@ -1,0 +1,1082 @@
+--------- beginning of /dev/log/main
+03-03 10:06:51.293 D/AndroidRuntime(18477): 
+03-03 10:06:51.293 D/AndroidRuntime(18477): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+03-03 10:06:51.293 D/AndroidRuntime(18477): CheckJNI is OFF
+03-03 10:06:51.293 I/AndroidRuntime(18477): Kernel Release Version: 3.10.20-gf818079
+03-03 10:06:51.293 I/dalvikvm(18477): No library specified. The standard exception handler will be used
+03-03 10:06:51.293 I/dalvikvm(18477): 
+03-03 10:06:51.293 I/dalvikvm(18477): +++++++++++++ Using PCG. +++++++++++++++++++++
+03-03 10:06:51.303 D/dalvikvm(18477): Trying to load lib libjavacore.so 0x0
+03-03 10:06:51.303 D/dalvikvm(18477): Added shared lib libjavacore.so 0x0
+03-03 10:06:51.313 D/dalvikvm(18477): Trying to load lib libnativehelper.so 0x0
+03-03 10:06:51.313 D/dalvikvm(18477): Added shared lib libnativehelper.so 0x0
+03-03 10:06:51.313 D/dalvikvm(18477): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+03-03 10:06:51.313 D/dalvikvm(18477): Extra Options: not specified
+03-03 10:06:51.323 D/EVENT_THREAD(  187): void CEventThread::run() POLLIN event on Fd (1)
+03-03 10:06:51.323 I/upi_ug31xx(  167): (11709) update_capacity
+03-03 10:06:51.323 D/EVENT_THREAD(  187): void CEventThread::run() Do poll with timeout: -1
+03-03 10:06:51.323 D/EVENT_THREAD(  187): void CEventThread::run() POLLIN event on Fd (1)
+03-03 10:06:51.323 D/EVENT_THREAD(  187): void CEventThread::run() Do poll with timeout: -1
+03-03 10:06:51.323 I/[UPI]   (  167): <UG31/E>[UpiReadCapacity]: V=4241(4241), T=319(320-379), I=-148, C=-1(-1-0)
+03-03 10:06:51.323 I/[UPI]   (  167): <UG31/E>[UpiReadCapacity]: (0x1002054a) 3584 (3493) / 3602 (3602) = 100
+03-03 10:06:51.323 I/[UPI]   (  167): <UG31/E>[UpiReadCapacity]: (0x1002054a) 3584 (3493) / 3602 (3602) = 100
+03-03 10:06:51.323 I/[UPI]   (  167): <UG31/E>[UpiReadCapacity]: (0x1002054a) 3583 (3583) / 3602 (3602) = 99
+03-03 10:06:51.323 I/[UPI]   (  167): <UG31/E>[RsocFilterCountTime]: (0x1002054a) Step=0(30340), Full=18(2276250), Lock=30340(1920648)
+03-03 10:06:51.323 I/[UPI]   (  167): <UG31/E>[UpiReadCapacity]: (0x1002054a) 3584 (3583) / 3602 (3602) = 100 (-148--148)
+03-03 10:06:51.323 I/[UPI]   (  167): <UG31/E><BATT> M:normal, P:100(100-99)%, V:4241mV, C:-139mA, T:32.0C(379), S:0x1002054a(000), R:3584mAh, F:3602mAh, Q:3246mAh, CC:4, P:30.340(90-0)s, BO:7, 97:615:0-44af-9m:B001-20140514-144301 (16)
+03-03 10:06:51.323 I/upi_ug31xx(  167): (11710) backup_data 
+03-03 10:06:51.323 V/upi_ug31xx(  167): state->check_backup_count = 2
+03-03 10:06:51.333 D/dalvikvm(18477): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+03-03 10:06:51.413 E/memtrack(18477): Couldn't load memtrack module (No such file or directory)
+03-03 10:06:51.413 E/android.os.Debug(18477): failed to load memtrack module: -2
+03-03 10:06:51.453 D/AndroidRuntime(18477): Calling main entry com.android.commands.am.Am
+--------- beginning of /dev/log/system
+03-03 10:06:51.473 I/ActivityManager(  506): Force stopping org.xwalk.webapi_noneservice_tests appid=10358 user=0: from pid 18477
+03-03 10:06:51.483 D/AndroidRuntime(18477): Shutting down VM
+03-03 10:06:51.483 D/dalvikvm(18477): GC_CONCURRENT freed 112K, 16% free 666K/792K, paused 0ms+0ms, total 1ms
+03-03 10:06:51.483 D/dalvikvm(18477): Compiler shutdown in progress - discarding request
+03-03 10:06:51.483 D/dalvikvm(18477): Compiler shutdown in progress - discarding request
+03-03 10:06:51.483 D/dalvikvm(18477): Compiler shutdown in progress - discarding request
+03-03 10:06:51.483 D/dalvikvm(18477): Compiler shutdown in progress - discarding request
+03-03 10:06:51.483 D/dalvikvm(18477): Compiler shutdown in progress - discarding request
+03-03 10:06:51.483 D/dalvikvm(18477): Compiler shutdown in progress - discarding request
+03-03 10:06:51.483 D/dalvikvm(18477): Compiler shutdown in progress - discarding request
+03-03 10:06:51.483 D/dalvikvm(18477): Compiler shutdown in progress - discarding request
+03-03 10:06:51.483 D/dalvikvm(18477): Compiler shutdown in progress - discarding request
+03-03 10:06:51.483 D/dalvikvm(18477): Compiler shutdown in progress - discarding request
+03-03 10:06:51.483 D/dalvikvm(18477): Compiler shutdown in progress - discarding request
+03-03 10:06:51.483 D/dalvikvm(18477): Compiler shutdown in progress - discarding request
+03-03 10:06:51.483 D/dalvikvm(18477): Compiler shutdown in progress - discarding request
+03-03 10:06:51.483 D/dalvikvm(18477): Compiler shutdown in progress - discarding request
+03-03 10:06:51.483 D/dalvikvm(18477): Compiler shutdown in progress - discarding request
+03-03 10:06:51.483 D/dalvikvm(18477): Compiler shutdown in progress - discarding request
+03-03 10:06:51.483 D/dalvikvm(18477): Compiler shutdown in progress - discarding request
+03-03 10:06:51.483 D/dalvikvm(18477): Compiler shutdown in progress - discarding request
+03-03 10:06:51.483 D/dalvikvm(18477): Compiler shutdown in progress - discarding request
+03-03 10:06:51.483 D/dalvikvm(18477): Compiler shutdown in progress - discarding request
+03-03 10:06:51.483 D/dalvikvm(18477): Compiler shutdown in progress - discarding request
+03-03 10:06:51.483 D/dalvikvm(18477): Compiler shutdown in progress - discarding request
+03-03 10:06:51.483 D/dalvikvm(18477): Compiler shutdown in progress - discarding request
+03-03 10:06:51.483 D/dalvikvm(18477): Compiler shutdown in progress - discarding request
+03-03 10:06:51.483 D/dalvikvm(18477): Compiler shutdown in progress - discarding request
+03-03 10:06:51.483 D/dalvikvm(18477): Compiler shutdown in progress - discarding request
+03-03 10:06:51.483 D/dalvikvm(18477): Compiler shutdown in progress - discarding request
+03-03 10:06:51.483 D/dalvikvm(18477): Compiler shutdown in progress - discarding request
+03-03 10:06:51.483 D/dalvikvm(18477): Compiler shutdown in progress - discarding request
+03-03 10:06:51.483 D/dalvikvm(18477): Compiler shutdown in progress - discarding request
+03-03 10:06:51.483 D/dalvikvm(18477): Compiler shutdown in progress - discarding request
+03-03 10:06:51.483 D/dalvikvm(18477): Compiler shutdown in progress - discarding request
+03-03 10:06:51.483 D/dalvikvm(18477): Compiler shutdown in progress - discarding request
+03-03 10:06:51.483 D/dalvikvm(18477): Compiler shutdown in progress - discarding request
+03-03 10:06:51.483 D/dalvikvm(18477): Compiler shutdown in progress - discarding request
+03-03 10:06:51.483 D/dalvikvm(18477): Compiler shutdown in progress - discarding request
+03-03 10:06:51.483 D/dalvikvm(18477): Compiler shutdown in progress - discarding request
+03-03 10:06:51.483 D/dalvikvm(18477): Compiler shutdown in progress - discarding request
+03-03 10:06:51.483 D/dalvikvm(18477): Compiler shutdown in progress - discarding request
+03-03 10:06:51.483 D/dalvikvm(18477): Compiler shutdown in progress - discarding request
+03-03 10:06:51.483 D/dalvikvm(18477): Compiler shutdown in progress - discarding request
+03-03 10:06:51.483 D/dalvikvm(18477): Compiler shutdown in progress - discarding request
+03-03 10:06:51.483 D/dalvikvm(18477): Compiler shutdown in progress - discarding request
+03-03 10:06:51.483 D/dalvikvm(18477): Compiler shutdown in progress - discarding request
+03-03 10:06:51.483 D/dalvikvm(18477): Compiler shutdown in progress - discarding request
+03-03 10:06:51.483 D/dalvikvm(18477): Compiler shutdown in progress - discarding request
+03-03 10:06:52.113 D/AndroidRuntime(18488): 
+03-03 10:06:52.113 D/AndroidRuntime(18488): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+03-03 10:06:52.113 D/AndroidRuntime(18488): CheckJNI is OFF
+03-03 10:06:52.113 I/AndroidRuntime(18488): Kernel Release Version: 3.10.20-gf818079
+03-03 10:06:52.113 I/dalvikvm(18488): No library specified. The standard exception handler will be used
+03-03 10:06:52.113 I/dalvikvm(18488): 
+03-03 10:06:52.113 I/dalvikvm(18488): +++++++++++++ Using PCG. +++++++++++++++++++++
+03-03 10:06:52.123 D/dalvikvm(18488): Trying to load lib libjavacore.so 0x0
+03-03 10:06:52.123 D/dalvikvm(18488): Added shared lib libjavacore.so 0x0
+03-03 10:06:52.123 D/dalvikvm(18488): Trying to load lib libnativehelper.so 0x0
+03-03 10:06:52.123 D/dalvikvm(18488): Added shared lib libnativehelper.so 0x0
+03-03 10:06:52.123 D/dalvikvm(18488): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+03-03 10:06:52.133 D/dalvikvm(18488): Extra Options: not specified
+03-03 10:06:52.143 D/dalvikvm(18488): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+03-03 10:06:52.213 E/memtrack(18488): Couldn't load memtrack module (No such file or directory)
+03-03 10:06:52.213 E/android.os.Debug(18488): failed to load memtrack module: -2
+03-03 10:06:52.253 D/AndroidRuntime(18488): Calling main entry com.android.commands.am.Am
+03-03 10:06:52.283 D/AndroidRuntime(18488): Shutting down VM
+03-03 10:06:52.283 D/dalvikvm(18488): GC_CONCURRENT freed 117K, 16% free 702K/832K, paused 0ms+0ms, total 1ms
+03-03 10:06:52.283 I/ActivityManager(  506): START u0 {flg=0x10000000 cmp=org.xwalk.webapi_noneservice_tests/.webapi_noneservice_testsActivity} from pid 18488
+03-03 10:06:52.293 D/dalvikvm(18488): Compiler shutdown in progress - discarding request
+03-03 10:06:52.293 D/dalvikvm(18488): Compiler shutdown in progress - discarding request
+03-03 10:06:52.293 D/dalvikvm(18488): Compiler shutdown in progress - discarding request
+03-03 10:06:52.293 D/dalvikvm(18488): Compiler shutdown in progress - discarding request
+03-03 10:06:52.293 D/dalvikvm(18488): Compiler shutdown in progress - discarding request
+03-03 10:06:52.293 D/dalvikvm(18488): Compiler shutdown in progress - discarding request
+03-03 10:06:52.293 D/dalvikvm(18488): Compiler shutdown in progress - discarding request
+03-03 10:06:52.293 D/dalvikvm(18488): Compiler shutdown in progress - discarding request
+03-03 10:06:52.293 D/dalvikvm(18488): Compiler shutdown in progress - discarding request
+03-03 10:06:52.293 D/dalvikvm(18488): Compiler shutdown in progress - discarding request
+03-03 10:06:52.293 D/dalvikvm(18488): Compiler shutdown in progress - discarding request
+03-03 10:06:52.293 D/dalvikvm(18488): Compiler shutdown in progress - discarding request
+03-03 10:06:52.293 D/dalvikvm(18488): Compiler shutdown in progress - discarding request
+03-03 10:06:52.293 D/dalvikvm(18488): Compiler shutdown in progress - discarding request
+03-03 10:06:52.293 D/dalvikvm(18488): Compiler shutdown in progress - discarding request
+03-03 10:06:52.293 D/dalvikvm(18488): Compiler shutdown in progress - discarding request
+03-03 10:06:52.293 D/dalvikvm(18488): Compiler shutdown in progress - discarding request
+03-03 10:06:52.293 D/dalvikvm(18488): Compiler shutdown in progress - discarding request
+03-03 10:06:52.293 D/dalvikvm(18488): Compiler shutdown in progress - discarding request
+03-03 10:06:52.293 D/dalvikvm(18488): Compiler shutdown in progress - discarding request
+03-03 10:06:52.293 D/dalvikvm(18488): Compiler shutdown in progress - discarding request
+03-03 10:06:52.293 D/dalvikvm(18488): Compiler shutdown in progress - discarding request
+03-03 10:06:52.293 D/dalvikvm(18488): Compiler shutdown in progress - discarding request
+03-03 10:06:52.293 D/dalvikvm(18488): Compiler shutdown in progress - discarding request
+03-03 10:06:52.293 D/dalvikvm(18488): Compiler shutdown in progress - discarding request
+03-03 10:06:52.293 D/dalvikvm(18488): Compiler shutdown in progress - discarding request
+03-03 10:06:52.293 D/dalvikvm(18488): Compiler shutdown in progress - discarding request
+03-03 10:06:52.293 D/dalvikvm(18488): Compiler shutdown in progress - discarding request
+03-03 10:06:52.293 D/dalvikvm(18488): Compiler shutdown in progress - discarding request
+03-03 10:06:52.293 D/dalvikvm(18488): Compiler shutdown in progress - discarding request
+03-03 10:06:52.293 D/dalvikvm(18488): Compiler shutdown in progress - discarding request
+03-03 10:06:52.293 D/dalvikvm(18488): Compiler shutdown in progress - discarding request
+03-03 10:06:52.293 D/dalvikvm(18488): Compiler shutdown in progress - discarding request
+03-03 10:06:52.293 D/dalvikvm(18488): Compiler shutdown in progress - discarding request
+03-03 10:06:52.293 D/dalvikvm(18488): Compiler shutdown in progress - discarding request
+03-03 10:06:52.293 D/dalvikvm(18488): Compiler shutdown in progress - discarding request
+03-03 10:06:52.293 D/dalvikvm(18488): Compiler shutdown in progress - discarding request
+03-03 10:06:52.293 D/dalvikvm(18488): Compiler shutdown in progress - discarding request
+03-03 10:06:52.293 D/dalvikvm(18488): Compiler shutdown in progress - discarding request
+03-03 10:06:52.293 D/dalvikvm(18488): Compiler shutdown in progress - discarding request
+03-03 10:06:52.293 D/dalvikvm(18488): Compiler shutdown in progress - discarding request
+03-03 10:06:52.293 D/dalvikvm(18488): Compiler shutdown in progress - discarding request
+03-03 10:06:52.293 D/dalvikvm(18488): Compiler shutdown in progress - discarding request
+03-03 10:06:52.293 D/dalvikvm(18488): Compiler shutdown in progress - discarding request
+03-03 10:06:52.293 D/dalvikvm(18488): Compiler shutdown in progress - discarding request
+03-03 10:06:52.583 D/wpa_supplicant(  659): wlan0: Starting AP scan for wildcard SSID
+03-03 10:06:52.583 D/wpa_supplicant(  659): WPS: Building WPS IE for Probe Request
+03-03 10:06:52.583 D/wpa_supplicant(  659): WPS:  * Version (hardcoded 0x10)
+03-03 10:06:52.583 D/wpa_supplicant(  659): WPS:  * Request Type
+03-03 10:06:52.583 D/wpa_supplicant(  659): WPS:  * Config Methods (4288)
+03-03 10:06:52.583 D/wpa_supplicant(  659): WPS:  * UUID-E
+03-03 10:06:52.583 D/wpa_supplicant(  659): WPS:  * Primary Device Type
+03-03 10:06:52.583 D/wpa_supplicant(  659): WPS:  * RF Bands (1)
+03-03 10:06:52.583 D/wpa_supplicant(  659): WPS:  * Association State
+03-03 10:06:52.583 D/wpa_supplicant(  659): WPS:  * Configuration Error (0)
+03-03 10:06:52.583 D/wpa_supplicant(  659): WPS:  * Device Password ID (0)
+03-03 10:06:52.583 D/wpa_supplicant(  659): WPS:  * Manufacturer
+03-03 10:06:52.583 D/wpa_supplicant(  659): WPS:  * Model Name
+03-03 10:06:52.583 D/wpa_supplicant(  659): WPS:  * Model Number
+03-03 10:06:52.583 D/wpa_supplicant(  659): WPS:  * Device Name
+03-03 10:06:52.583 D/wpa_supplicant(  659): WPS:  * Version2 (0x20)
+03-03 10:06:52.583 D/wpa_supplicant(  659): P2P: * P2P IE header
+03-03 10:06:52.583 D/wpa_supplicant(  659): P2P: * Capability dev=25 group=00
+03-03 10:06:52.583 D/wpa_supplicant(  659): P2P: * Listen Channel: Regulatory Class 81 Channel 11
+03-03 10:06:52.583 D/wpa_supplicant(  659): wlan0: nl80211: scan request
+03-03 10:06:52.683 D/wpa_supplicant(  659): Scan requested (ret=0) - scan timeout 30 seconds
+03-03 10:06:52.683 D/wpa_supplicant(  659): nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0
+03-03 10:06:52.683 D/wpa_supplicant(  659): wlan0: nl80211: Scan trigger
+03-03 10:06:52.933 D/AndroidRuntime(18499): 
+03-03 10:06:52.933 D/AndroidRuntime(18499): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+03-03 10:06:52.933 D/AndroidRuntime(18499): CheckJNI is OFF
+03-03 10:06:52.933 I/AndroidRuntime(18499): Kernel Release Version: 3.10.20-gf818079
+03-03 10:06:52.933 I/dalvikvm(18499): No library specified. The standard exception handler will be used
+03-03 10:06:52.933 I/dalvikvm(18499): 
+03-03 10:06:52.933 I/dalvikvm(18499): +++++++++++++ Using PCG. +++++++++++++++++++++
+03-03 10:06:52.953 D/dalvikvm(18499): Trying to load lib libjavacore.so 0x0
+03-03 10:06:52.953 D/dalvikvm(18499): Added shared lib libjavacore.so 0x0
+03-03 10:06:52.953 D/dalvikvm(18499): Trying to load lib libnativehelper.so 0x0
+03-03 10:06:52.953 D/dalvikvm(18499): Added shared lib libnativehelper.so 0x0
+03-03 10:06:52.953 D/dalvikvm(18499): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+03-03 10:06:52.963 D/dalvikvm(18499): Extra Options: not specified
+03-03 10:06:52.973 D/dalvikvm(18499): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+03-03 10:06:53.053 E/memtrack(18499): Couldn't load memtrack module (No such file or directory)
+03-03 10:06:53.053 E/android.os.Debug(18499): failed to load memtrack module: -2
+03-03 10:06:53.083 D/AndroidRuntime(18499): Calling main entry com.android.commands.am.Am
+03-03 10:06:53.113 I/ActivityManager(  506): START u0 {flg=0x10000000 cmp=org.xwalk.webapi_noneservice_tests/.webapi_noneservice_tests} from pid 18499
+03-03 10:06:53.123 D/AndroidRuntime(18499): Shutting down VM
+03-03 10:06:53.123 I/SecurityManagerService(  621): SMS received security event: App[START/org.xwalk.webapi_noneservice_tests]
+03-03 10:06:53.123 D/dalvikvm(18499): GC_CONCURRENT freed 114K, 16% free 701K/832K, paused 0ms+0ms, total 1ms
+03-03 10:06:53.123 D/dalvikvm(18511): Late-enabling CheckJNI
+03-03 10:06:53.123 D/dalvikvm(18511): Try to disable coredump for pid 18511
+03-03 10:06:53.123 D/dalvikvm(18511): Process 18511 nice name: org.xwalk.webapi_noneservice_tests
+03-03 10:06:53.123 D/dalvikvm(18511): Extra Options: not specified
+03-03 10:06:53.123 D/dalvikvm(18499): Compiler shutdown in progress - discarding request
+03-03 10:06:53.123 D/dalvikvm(18499): Compiler shutdown in progress - discarding request
+03-03 10:06:53.123 D/dalvikvm(18499): Compiler shutdown in progress - discarding request
+03-03 10:06:53.123 D/dalvikvm(18499): Compiler shutdown in progress - discarding request
+03-03 10:06:53.123 D/dalvikvm(18499): Compiler shutdown in progress - discarding request
+03-03 10:06:53.123 D/dalvikvm(18499): Compiler shutdown in progress - discarding request
+03-03 10:06:53.123 D/dalvikvm(18499): Compiler shutdown in progress - discarding request
+03-03 10:06:53.123 D/dalvikvm(18499): Compiler shutdown in progress - discarding request
+03-03 10:06:53.123 D/dalvikvm(18499): Compiler shutdown in progress - discarding request
+03-03 10:06:53.123 D/dalvikvm(18499): Compiler shutdown in progress - discarding request
+03-03 10:06:53.123 D/dalvikvm(18499): Compiler shutdown in progress - discarding request
+03-03 10:06:53.123 D/dalvikvm(18499): Compiler shutdown in progress - discarding request
+03-03 10:06:53.123 D/dalvikvm(18499): Compiler shutdown in progress - discarding request
+03-03 10:06:53.123 D/dalvikvm(18499): Compiler shutdown in progress - discarding request
+03-03 10:06:53.123 D/dalvikvm(18499): Compiler shutdown in progress - discarding request
+03-03 10:06:53.123 D/dalvikvm(18499): Compiler shutdown in progress - discarding request
+03-03 10:06:53.123 D/dalvikvm(18499): Compiler shutdown in progress - discarding request
+03-03 10:06:53.123 D/dalvikvm(18499): Compiler shutdown in progress - discarding request
+03-03 10:06:53.123 D/dalvikvm(18499): Compiler shutdown in progress - discarding request
+03-03 10:06:53.123 D/dalvikvm(18499): Compiler shutdown in progress - discarding request
+03-03 10:06:53.123 D/dalvikvm(18499): Compiler shutdown in progress - discarding request
+03-03 10:06:53.123 D/dalvikvm(18499): Compiler shutdown in progress - discarding request
+03-03 10:06:53.123 D/dalvikvm(18499): Compiler shutdown in progress - discarding request
+03-03 10:06:53.123 D/dalvikvm(18499): Compiler shutdown in progress - discarding request
+03-03 10:06:53.123 D/dalvikvm(18499): Compiler shutdown in progress - discarding request
+03-03 10:06:53.123 D/dalvikvm(18499): Compiler shutdown in progress - discarding request
+03-03 10:06:53.123 I/ActivityManager(  506): Start proc org.xwalk.webapi_noneservice_tests for activity org.xwalk.webapi_noneservice_tests/.webapi_noneservice_tests: pid=18511 uid=10358 gids={50358, 3003, 1028, 1015}
+03-03 10:06:53.133 D/dalvikvm(18499): Compiler shutdown in progress - discarding request
+03-03 10:06:53.133 D/dalvikvm(18499): Compiler shutdown in progress - discarding request
+03-03 10:06:53.133 D/dalvikvm(18499): Compiler shutdown in progress - discarding request
+03-03 10:06:53.133 D/dalvikvm(18499): Compiler shutdown in progress - discarding request
+03-03 10:06:53.133 D/dalvikvm(18499): Compiler shutdown in progress - discarding request
+03-03 10:06:53.133 D/dalvikvm(18499): Compiler shutdown in progress - discarding request
+03-03 10:06:53.133 D/dalvikvm(18499): Compiler shutdown in progress - discarding request
+03-03 10:06:53.133 D/dalvikvm(18499): Compiler shutdown in progress - discarding request
+03-03 10:06:53.133 D/dalvikvm(18499): Compiler shutdown in progress - discarding request
+03-03 10:06:53.133 D/dalvikvm(18499): Compiler shutdown in progress - discarding request
+03-03 10:06:53.133 D/dalvikvm(18499): Compiler shutdown in progress - discarding request
+03-03 10:06:53.133 D/dalvikvm(18499): Compiler shutdown in progress - discarding request
+03-03 10:06:53.133 D/dalvikvm(18499): Compiler shutdown in progress - discarding request
+03-03 10:06:53.133 D/dalvikvm(18499): Compiler shutdown in progress - discarding request
+03-03 10:06:53.133 D/dalvikvm(18499): Compiler shutdown in progress - discarding request
+03-03 10:06:53.133 D/dalvikvm(18499): Compiler shutdown in progress - discarding request
+03-03 10:06:53.133 D/dalvikvm(18499): Compiler shutdown in progress - discarding request
+03-03 10:06:53.133 D/dalvikvm(18499): Compiler shutdown in progress - discarding request
+03-03 10:06:53.133 D/dalvikvm(18499): Compiler shutdown in progress - discarding request
+03-03 10:06:53.133 D/dalvikvm(18499): Compiler shutdown in progress - discarding request
+03-03 10:06:53.133 D/dalvikvm(18499): Compiler shutdown in progress - discarding request
+03-03 10:06:53.133 D/dalvikvm(18499): Compiler shutdown in progress - discarding request
+03-03 10:06:53.143 I/UsageStats(  506): Deleting usage file : usage-20150226
+03-03 10:06:53.163 D/WindowManager(  506): adjustConfigurationLw, config:{1.0 ?mcc?mnc ?locale ?layoutDir sw600dp w600dp h888dp 213dpi lrg port ?uimode ?night finger -keyb/v/h -nav/v} mLidState:1 mHasDockFeature:false mHasKeyboardFeature:false mHasHallSensorFeature:true config.hardKeyboardHidden:2
+03-03 10:06:53.163 I/ActivityManager(  506): [TopPkgCurBat]	NowPkgName[org.xwalk.webapi_noneservice_tests]	Battery[100]	TimeTick[1425348413177]	OldPkgName[com.asus.launcher]
+03-03 10:06:53.183 D/        (29985): Surface destroy: ANDROID_NATIVE_WINDOW_MAGIC
+03-03 10:06:53.193 I/CordovaLog(18511): Changing log level to DEBUG(3)
+03-03 10:06:53.193 D/CordovaActivity(18511): CordovaActivity.init()
+03-03 10:06:53.193 D/dalvikvm(18511): Trying to load lib /data/app-lib/org.xwalk.webapi_noneservice_tests-1/libxwalkcore.so 0x43d7f5c0
+03-03 10:06:53.203 D/dalvikvm(18511): Added shared lib /data/app-lib/org.xwalk.webapi_noneservice_tests-1/libxwalkcore.so 0x43d7f5c0
+03-03 10:06:53.203 I/LibraryLoader(18511): Time to load native libraries: 13 ms (timestamps 2443-2456)
+03-03 10:06:53.203 I/LibraryLoader(18511): Expected native library version number "",actual native library version number ""
+03-03 10:06:53.233 I/LibraryLoader(18511): Expected native library version number "",actual native library version number ""
+03-03 10:06:53.233 I/chromium(18511): [INFO:library_loader_hooks.cc(112)] Chromium logging enabled: level = 0, default verbosity = 0
+03-03 10:06:53.233 I/BrowserStartupController(18511): Initializing chromium process, singleProcess=true
+03-03 10:06:53.513 D/ImageWallpaper(  570): onVisibilityChanged: mVisible, visible=true, false
+03-03 10:06:53.513 D/ImageWallpaper(  570): Visibility changed to visible=false
+03-03 10:06:53.513 D/ImageWallpaper(  570): Suppressed drawFrame since redraw is not needed and offsets have not changed.
+03-03 10:06:53.643 W/AudioManagerAndroid(18511): Requires BLUETOOTH permission
+03-03 10:06:53.643 I/ufoGralloc(18511): Hello, this is UFO GRALLOC/Intel Corporation
+03-03 10:06:53.643 D/        (18511): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+03-03 10:06:53.643 D/        (18511): droid_create_context : config id = 1 conf->NativeVisualID=1
+03-03 10:06:53.643 D/        (18511): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+03-03 10:06:53.643 I/        (18511): Requested context : GLES 2.0
+03-03 10:06:53.673 W/chromium(18511): [WARNING:proxy_service.cc(899)] PAC support disabled because there is no system implementation
+03-03 10:06:53.673 W/dalvikvm(18511): VFY: unable to find class referenced in signature (Landroid/view/inputmethod/CursorAnchorInfo;)
+03-03 10:06:53.673 I/dalvikvm(18511): Could not find method android.view.inputmethod.InputMethodManager.updateCursorAnchorInfo, referenced from method org.chromium.content.browser.input.InputMethodManagerWrapper.updateCursorAnchorInfo
+03-03 10:06:53.673 W/dalvikvm(18511): VFY: unable to resolve virtual method 1368: Landroid/view/inputmethod/InputMethodManager;.updateCursorAnchorInfo (Landroid/view/View;Landroid/view/inputmethod/CursorAnchorInfo;)V
+03-03 10:06:53.673 D/dalvikvm(18511): VFY: replacing opcode 0x6e at 0x000a
+03-03 10:06:53.713 E/cutils  (  164): Failed to mkdirat(/Removable/MicroSD): Read-only file system
+03-03 10:06:53.713 W/ContextImpl(18511): Failed to ensure directory: /Removable/MicroSD/Android/data/org.xwalk.webapi_noneservice_tests/cache
+03-03 10:06:53.713 W/Vold    (  164): Returning OperationFailed - no handler for errno 30
+03-03 10:06:53.723 D/CordovaActivity(18511): CordovaActivity.createViews()
+03-03 10:06:53.723 E/chromium(18511): [ERROR:unix_domain_server_socket_posix.cc(106)] Not implemented reached in virtual int net::UnixDomainServerSocket::GetLocalAddress(net::IPEndPoint*) const
+03-03 10:06:53.723 D/CordovaWebView(18511): >>> loadUrl(file:///android_asset/www/index.html)
+03-03 10:06:53.723 D/PluginManager(18511): init()
+03-03 10:06:53.723 E/cutils  (  164): Failed to mkdirat(/Removable/MicroSD): Read-only file system
+03-03 10:06:53.723 W/ContextImpl(18511): Failed to ensure directory: /Removable/MicroSD/Android/data/org.xwalk.webapi_noneservice_tests/files
+03-03 10:06:53.723 E/cutils  (  164): Failed to mkdirat(/Removable/MicroSD): Read-only file system
+03-03 10:06:53.723 W/ContextImpl(18511): Failed to ensure directory: /Removable/MicroSD/Android/data/org.xwalk.webapi_noneservice_tests/cache
+03-03 10:06:53.723 W/Vold    (  164): Returning OperationFailed - no handler for errno 30
+03-03 10:06:53.723 W/Vold    (  164): Returning OperationFailed - no handler for errno 30
+03-03 10:06:53.733 D/CordovaWebView(18511): >>> loadUrlNow()
+03-03 10:06:53.733 I/dalvikvm(18511): Could not find method android.app.Activity.finishAndRemoveTask, referenced from method org.chromium.base.ApiCompatibilityUtils.finishAndRemoveTask
+03-03 10:06:53.733 W/dalvikvm(18511): VFY: unable to resolve virtual method 6: Landroid/app/Activity;.finishAndRemoveTask ()V
+03-03 10:06:53.733 D/dalvikvm(18511): VFY: replacing opcode 0x6e at 0x0006
+03-03 10:06:53.733 I/dalvikvm(18511): Could not find method android.os.PowerManager.isInteractive, referenced from method org.chromium.base.ApiCompatibilityUtils.isInteractive
+03-03 10:06:53.733 W/dalvikvm(18511): VFY: unable to resolve virtual method 874: Landroid/os/PowerManager;.isInteractive ()Z
+03-03 10:06:53.733 D/dalvikvm(18511): VFY: replacing opcode 0x6e at 0x000e
+03-03 10:06:53.733 I/dalvikvm(18511): Could not find method android.view.Window.getNavigationBarColor, referenced from method org.chromium.base.ApiCompatibilityUtils.setStatusBarColor
+03-03 10:06:53.733 W/dalvikvm(18511): VFY: unable to resolve virtual method 1268: Landroid/view/Window;.getNavigationBarColor ()I
+03-03 10:06:53.733 D/dalvikvm(18511): VFY: replacing opcode 0x6e at 0x0010
+03-03 10:06:53.733 I/dalvikvm(18511): Could not find method android.view.Window.setStatusBarColor, referenced from method org.chromium.base.ApiCompatibilityUtils.setStatusBarColor
+03-03 10:06:53.733 W/dalvikvm(18511): VFY: unable to resolve virtual method 1274: Landroid/view/Window;.setStatusBarColor (I)V
+03-03 10:06:53.733 D/dalvikvm(18511): VFY: replacing opcode 0x6e at 0x0019
+03-03 10:06:53.733 E/dalvikvm(18511): Could not find class 'android.app.ActivityManager$TaskDescription', referenced from method org.chromium.base.ApiCompatibilityUtils.setTaskDescription
+03-03 10:06:53.733 W/dalvikvm(18511): VFY: unable to resolve new-instance 13 (Landroid/app/ActivityManager$TaskDescription;) in Lorg/chromium/base/ApiCompatibilityUtils;
+03-03 10:06:53.733 D/dalvikvm(18511): VFY: replacing opcode 0x22 at 0x0006
+03-03 10:06:53.733 D/dalvikvm(18511): DexOpt: unable to opt direct call 0x002f at 0x08 in Lorg/chromium/base/ApiCompatibilityUtils;.setTaskDescription
+03-03 10:06:53.733 I/chromium(18511): [INFO:xwalk_extension_renderer_controller.cc(47)] EXTENSION PROCESS DISABLED.
+03-03 10:06:53.743 D/CordovaActivity(18511): Resuming the App
+03-03 10:06:53.753 D/SoftKeyboardDetect(18511): Ignore this event
+03-03 10:06:53.773 D/        (18511): droid_create_context : config id = 5 conf->NativeVisualID=1
+03-03 10:06:53.773 D/        (18511): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+03-03 10:06:53.773 I/        (18511): Requested context : GLES 2.0
+03-03 10:06:53.773 D/        (18511): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+03-03 10:06:53.773 D/        (18511): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+03-03 10:06:53.773 D/        (18511): droid_create_context : config id = 1 conf->NativeVisualID=1
+03-03 10:06:53.773 D/        (18511): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+03-03 10:06:53.773 I/        (18511): Requested context : GLES 2.0
+03-03 10:06:53.773 D/OpenGLRenderer(18511): Enabling debug mode 0
+03-03 10:06:53.793 D/wpa_supplicant(  659): nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: nl80211: New scan results available
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: Event SCAN_RESULTS (3) received
+03-03 10:06:53.793 D/wpa_supplicant(  659): nl80211: Received scan results (21 BSSes)
+03-03 10:06:53.793 D/wpa_supplicant(  659): nl80211: Survey data missing
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: BSS: Start scan result update 1125
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: BSS: Add new id 2537 BSSID 22:48:9a:ac:31:5b SSID 'dean1'
+03-03 10:06:53.793 D/wpa_supplicant(  659): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: BSS: Add new id 2538 BSSID 7a:24:af:1e:df:58 SSID 'DIRECT-'
+03-03 10:06:53.793 D/wpa_supplicant(  659): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+03-03 10:06:53.793 I/WifiHW  (  506): EVENT: IFNAME=wlan0 CTRL-EVENT-BSS-ADDED 2537 22:48:9a:ac:31:5b
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: BSS: Remove id 2403 BSSID 90:94:e4:03:45:f5 SSID 'DAP-2553_D' due to no match in scan
+03-03 10:06:53.793 D/wpa_supplicant(  659): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: BSS: Remove id 2527 BSSID 2c:b0:5d:7f:f4:24 SSID 'NETGEAR38' due to no match in scan
+03-03 10:06:53.793 D/wpa_supplicant(  659): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+03-03 10:06:53.793 D/wpa_supplicant(  659): BSS: last_scan_res_used=21/32 last_scan_full=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: New scan results available
+03-03 10:06:53.793 I/WifiHW  (  506): EVENT: IFNAME=wlan0 CTRL-EVENT-BSS-ADDED 2538 7a:24:af:1e:df:58
+03-03 10:06:53.793 D/wpa_supplicant(  659): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+03-03 10:06:53.793 D/wpa_supplicant(  659): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+03-03 10:06:53.793 D/wpa_supplicant(  659): Authorize channel 1
+03-03 10:06:53.793 D/wpa_supplicant(  659): Authorize channel 2
+03-03 10:06:53.793 D/wpa_supplicant(  659): Authorize channel 3
+03-03 10:06:53.793 D/wpa_supplicant(  659): Authorize channel 4
+03-03 10:06:53.793 D/wpa_supplicant(  659): Authorize channel 5
+03-03 10:06:53.793 D/wpa_supplicant(  659): Authorize channel 6
+03-03 10:06:53.793 D/wpa_supplicant(  659): Authorize channel 7
+03-03 10:06:53.793 D/wpa_supplicant(  659): Authorize channel 8
+03-03 10:06:53.793 D/wpa_supplicant(  659): Authorize channel 9
+03-03 10:06:53.793 D/wpa_supplicant(  659): Authorize channel 10
+03-03 10:06:53.793 D/wpa_supplicant(  659): Authorize channel 11
+03-03 10:06:53.793 D/wpa_supplicant(  659): Authorize channel 12
+03-03 10:06:53.793 D/wpa_supplicant(  659): Authorize channel 13
+03-03 10:06:53.793 D/wpa_supplicant(  659): Authorize channel 1
+03-03 10:06:53.793 D/wpa_supplicant(  659): Authorize channel 2
+03-03 10:06:53.793 D/wpa_supplicant(  659): Authorize channel 3
+03-03 10:06:53.793 D/wpa_supplicant(  659): Authorize channel 4
+03-03 10:06:53.793 D/wpa_supplicant(  659): Authorize channel 5
+03-03 10:06:53.793 D/wpa_supplicant(  659): Authorize channel 6
+03-03 10:06:53.793 D/wpa_supplicant(  659): Authorize channel 7
+03-03 10:06:53.793 D/wpa_supplicant(  659): Authorize channel 8
+03-03 10:06:53.793 D/wpa_supplicant(  659): Authorize channel 9
+03-03 10:06:53.793 D/wpa_supplicant(  659): Authorize channel 10
+03-03 10:06:53.793 D/wpa_supplicant(  659): Authorize channel 11
+03-03 10:06:53.793 D/wpa_supplicant(  659): Authorize channel 12
+03-03 10:06:53.793 D/wpa_supplicant(  659): Authorize channel 13
+03-03 10:06:53.793 D/wpa_supplicant(  659): Add access point on channel 6
+03-03 10:06:53.793 D/wpa_supplicant(  659): Add access point on channel 6
+03-03 10:06:53.793 D/wpa_supplicant(  659): Add access point on channel 11
+03-03 10:06:53.793 D/wpa_supplicant(  659): Add access point on channel 11
+03-03 10:06:53.793 D/wpa_supplicant(  659): Add access point on channel 1
+03-03 10:06:53.793 D/wpa_supplicant(  659): Add access point on channel 1
+03-03 10:06:53.793 D/wpa_supplicant(  659): Add access point on channel 1
+03-03 10:06:53.793 D/wpa_supplicant(  659): Add access point on channel 11
+03-03 10:06:53.793 D/wpa_supplicant(  659): Add access point on channel 11
+03-03 10:06:53.793 D/wpa_supplicant(  659): Add access point on channel 6
+03-03 10:06:53.793 D/wpa_supplicant(  659): Add access point on channel 6
+03-03 10:06:53.793 D/wpa_supplicant(  659): Add access point on channel 8
+03-03 10:06:53.793 D/wpa_supplicant(  659): Add access point on channel 6
+03-03 10:06:53.793 D/wpa_supplicant(  659): Add access point on channel 6
+03-03 10:06:53.793 D/wpa_supplicant(  659): Add access point on channel 6
+03-03 10:06:53.793 D/wpa_supplicant(  659): Add access point on channel 6
+03-03 10:06:53.793 D/wpa_supplicant(  659): Add access point on channel 2
+03-03 10:06:53.793 D/wpa_supplicant(  659): Add access point on channel 6
+03-03 10:06:53.793 D/wpa_supplicant(  659): Add access point on channel 13
+03-03 10:06:53.793 D/wpa_supplicant(  659): Add access point on channel 6
+03-03 10:06:53.793 D/wpa_supplicant(  659): Add access point on channel 11
+03-03 10:06:53.793 D/wpa_supplicant(  659): Add access point on channel 6
+03-03 10:06:53.793 D/wpa_supplicant(  659): Add access point on channel 6
+03-03 10:06:53.793 D/wpa_supplicant(  659): Add access point on channel 6
+03-03 10:06:53.793 D/wpa_supplicant(  659): Add access point on channel 1
+03-03 10:06:53.793 D/wpa_supplicant(  659): Best Operating channel is = 11
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[0] 28:2c:b2:44:e4:00 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[1] 14:e6:e4:b8:85:76 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[2] 78:a1:06:55:fe:30 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 I/WifiHW  (  506): EVENT: IFNAME=wlan0 CTRL-EVENT-BSS-REMOVED 2403 90:94:e4:03:45:f5
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[3] a8:15:4d:13:9a:08 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[4] 78:54:2e:f5:fb:9e type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[5] 20:dc:e6:3f:eb:f2 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[6] 64:09:80:1e:91:78 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[7] ec:88:8f:6a:0c:a8 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[8] d0:15:4a:15:5d:1a type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[9] 1c:fa:68:11:5a:b6 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[10] 8c:be:be:26:4b:8b type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[11] 64:09:80:15:31:84 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[12] bc:d1:77:f3:0b:28 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[13] c0:61:18:4e:07:fc type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[14] f4:ec:38:6d:cf:d6 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[15] e4:d3:32:0a:fb:34 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[16] 8c:be:be:28:2d:f8 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[17] d8:15:0d:c4:57:de type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[18] 40:16:9f:9b:64:fa type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[19] ec:1a:59:0b:f4:8c type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[20] 10:c3:7b:d2:e5:e0 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[21] 44:94:fc:3d:da:38 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[22] f8:d1:11:e7:99:e8 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[23] cc:34:29:2b:26:4c type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[24] cc:34:29:2c:fb:ec type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[25] 98:fc:11:81:35:fb type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[26] c0:c1:c0:76:81:3c type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[27] 10:9f:a9:dc:b1:fc type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[28] b0:48:7a:51:ff:cc type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[29] e4:d3:32:36:2e:54 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[30] 14:d6:4d:28:ef:c8 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[31] c0:a0:bb:20:3b:84 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[32] 2c:b0:5d:7f:f4:24 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[33] 9c:21:6a:0d:eb:72 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[34] 66:09:80:d9:a2:5d type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[35] 7a:ff:57:00:13:8e type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[36] 7a:ff:57:00:14:32 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[37] 02:13:20:ff:b6:3c type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[38] 02:1e:67:80:2b:36 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: Selecting BSS from priority group 20
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 0: f8:d1:11:e7:99:e8 ssid='videotest' wpa_ie_len=22 rsn_ie_len=20 caps=0x531 level=-43 wps
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 1: c8:d7:19:60:62:f2 ssid='E3000-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-44
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 2: cc:34:29:2b:26:4c ssid='cws-test' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-56 wps
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 3: 10:c3:7b:d2:e5:e0 ssid='ASUS_RT-AC66U-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-57 wps
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 4: cc:34:29:2c:fb:ec ssid='linksys' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-59 wps
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 5: 14:d6:4d:28:ef:c8 ssid='dlink' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-62 wps
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 6: 98:fc:11:81:35:fb ssid='E2000EE' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-64 wps
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 7: 22:48:9a:ac:31:5b ssid='dean1' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-66
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 8: 02:1a:11:f3:82:d3 ssid='io1' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-67
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 9: e4:d3:32:c0:cf:a4 ssid='fast' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-70
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 10: c0:a0:bb:20:3b:84 ssid='dlink-3B84' wpa_ie_len=26 rsn_ie_len=24 caps=0x411 level=-71 wps
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 11: c4:17:fe:3f:4f:fb ssid='cmcm' wpa_ie_len=0 rsn_ie_len=20 caps=0x511 level=-71
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 12: 1c:65:9d:e8:79:44 ssid='WiFi' wpa_ie_len=0 rsn_ie_len=20 caps=0x511 level=-74
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 13: f4:b7:e2:2b:41:b7 ssid='cmscc' wpa_ie_len=0 rsn_ie_len=20 caps=0x31 level=-76
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 14: 00:0f:e2:0f:9f:c1 ssid='321_WAN' wpa_ie_len=28 rsn_ie_len=24 caps=0x411 level=-76
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 15: 44:94:fc:3d:da:38 ssid='6300' wpa_ie_len=0 rsn_ie_len=0 caps=0x411 level=-46
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 16: 7a:24:af:1e:df:58 ssid='DIRECT-' wpa_ie_len=0 rsn_ie_len=0 caps=0x410 level=-48
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 17: 7a:24:af:24:0f:48 ssid='DIRECT-' wpa_ie_len=0 rsn_ie_len=0 caps=0x410 level=-55
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 18: c0:c1:c0:76:81:3c ssid='E2000' wpa_ie_len=0 rsn_ie_len=0 caps=0x401 level=-55 wps
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 19: 50:bd:5f:4b:29:92 ssid='Internet-2' wpa_ie_len=0 rsn_ie_len=0 caps=0x421 level=-67
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 20: e4:d3:32:dd:18:62 ssid='Internet' wpa_ie_len=0 rsn_ie_len=0 caps=0x421 level=-69
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: Selecting BSS from priority group 19
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 0: f8:d1:11:e7:99:e8 ssid='videotest' wpa_ie_len=22 rsn_ie_len=20 caps=0x531 level=-43 wps
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 1: c8:d7:19:60:62:f2 ssid='E3000-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-44
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 2: cc:34:29:2b:26:4c ssid='cws-test' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-56 wps
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 3: 10:c3:7b:d2:e5:e0 ssid='ASUS_RT-AC66U-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-57 wps
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 4: cc:34:29:2c:fb:ec ssid='linksys' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-59 wps
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 5: 14:d6:4d:28:ef:c8 ssid='dlink' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-62 wps
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 6: 98:fc:11:81:35:fb ssid='E2000EE' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-64 wps
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 7: 22:48:9a:ac:31:5b ssid='dean1' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-66
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 8: 02:1a:11:f3:82:d3 ssid='io1' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-67
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 9: e4:d3:32:c0:cf:a4 ssid='fast' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-70
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 10: c0:a0:bb:20:3b:84 ssid='dlink-3B84' wpa_ie_len=26 rsn_ie_len=24 caps=0x411 level=-71 wps
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 11: c4:17:fe:3f:4f:fb ssid='cmcm' wpa_ie_len=0 rsn_ie_len=20 caps=0x511 level=-71
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 12: 1c:65:9d:e8:79:44 ssid='WiFi' wpa_ie_len=0 rsn_ie_len=20 caps=0x511 level=-74
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 13: f4:b7:e2:2b:41:b7 ssid='cmscc' wpa_ie_len=0 rsn_ie_len=20 caps=0x31 level=-76
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 14: 00:0f:e2:0f:9f:c1 ssid='321_WAN' wpa_ie_len=28 rsn_ie_len=24 caps=0x411 level=-76
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 15: 44:94:fc:3d:da:38 ssid='6300' wpa_ie_len=0 rsn_ie_len=0 caps=0x411 level=-46
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 16: 7a:24:af:1e:df:58 ssid='DIRECT-' wpa_ie_len=0 rsn_ie_len=0 caps=0x410 level=-48
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 17: 7a:24:af:24:0f:48 ssid='DIRECT-' wpa_ie_len=0 rsn_ie_len=0 caps=0x410 level=-55
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 18: c0:c1:c0:76:81:3c ssid='E2000' wpa_ie_len=0 rsn_ie_len=0 caps=0x401 level=-55 wps
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 19: 50:bd:5f:4b:29:92 ssid='Internet-2' wpa_ie_len=0 rsn_ie_len=0 caps=0x421 level=-67
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 20: e4:d3:32:dd:18:62 ssid='Internet' wpa_ie_len=0 rsn_ie_len=0 caps=0x421 level=-69
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: Selecting BSS from priority group 18
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 0: f8:d1:11:e7:99:e8 ssid='videotest' wpa_ie_len=22 rsn_ie_len=20 caps=0x531 level=-43 wps
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 1: c8:d7:19:60:62:f2 ssid='E3000-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-44
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 2: cc:34:29:2b:26:4c ssid='cws-test' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-56 wps
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 3: 10:c3:7b:d2:e5:e0 ssid='ASUS_RT-AC66U-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-57 wps
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 4: cc:34:29:2c:fb:ec ssid='linksys' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-59 wps
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 5: 14:d6:4d:28:ef:c8 ssid='dlink' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-62 wps
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 6: 98:fc:11:81:35:fb ssid='E2000EE' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-64 wps
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 7: 22:48:9a:ac:31:5b ssid='dean1' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-66
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 8: 02:1a:11:f3:82:d3 ssid='io1' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-67
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 9: e4:d3:32:c0:cf:a4 ssid='fast' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-70
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 10: c0:a0:bb:20:3b:84 ssid='dlink-3B84' wpa_ie_len=26 rsn_ie_len=24 caps=0x411 level=-71 wps
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 11: c4:17:fe:3f:4f:fb ssid='cmcm' wpa_ie_len=0 rsn_ie_len=20 caps=0x511 level=-71
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 12: 1c:65:9d:e8:79:44 ssid='WiFi' wpa_ie_len=0 rsn_ie_len=20 caps=0x511 level=-74
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 13: f4:b7:e2:2b:41:b7 ssid='cmscc' wpa_ie_len=0 rsn_ie_len=20 caps=0x31 level=-76
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 14: 00:0f:e2:0f:9f:c1 ssid='321_WAN' wpa_ie_len=28 rsn_ie_len=24 caps=0x411 level=-76
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 15: 44:94:fc:3d:da:38 ssid='6300' wpa_ie_len=0 rsn_ie_len=0 caps=0x411 level=-46
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 16: 7a:24:af:1e:df:58 ssid='DIRECT-' wpa_ie_len=0 rsn_ie_len=0 caps=0x410 level=-48
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 17: 7a:24:af:24:0f:48 ssid='DIRECT-' wpa_ie_len=0 rsn_ie_len=0 caps=0x410 level=-55
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 18: c0:c1:c0:76:81:3c ssid='E2000' wpa_ie_len=0 rsn_ie_len=0 caps=0x401 level=-55 wps
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 19: 50:bd:5f:4b:29:92 ssid='Internet-2' wpa_ie_len=0 rsn_ie_len=0 caps=0x421 level=-67
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 20: e4:d3:32:dd:18:62 ssid='Internet' wpa_ie_len=0 rsn_ie_len=0 caps=0x421 level=-69
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: Selecting BSS from priority group 17
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 0: f8:d1:11:e7:99:e8 ssid='videotest' wpa_ie_len=22 rsn_ie_len=20 caps=0x531 level=-43 wps
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 1: c8:d7:19:60:62:f2 ssid='E3000-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-44
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 2: cc:34:29:2b:26:4c ssid='cws-test' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-56 wps
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 3: 10:c3:7b:d2:e5:e0 ssid='ASUS_RT-AC66U-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-57 wps
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 4: cc:34:29:2c:fb:ec ssid='linksys' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-59 wps
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 5: 14:d6:4d:28:ef:c8 ssid='dlink' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-62 wps
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 6: 98:fc:11:81:35:fb ssid='E2000EE' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-64 wps
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 7: 22:48:9a:ac:31:5b ssid='dean1' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-66
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 8: 02:1a:11:f3:82:d3 ssid='io1' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-67
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 9: e4:d3:32:c0:cf:a4 ssid='fast' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-70
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 10: c0:a0:bb:20:3b:84 ssid='dlink-3B84' wpa_ie_len=26 rsn_ie_len=24 caps=0x411 level=-71 wps
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 11: c4:17:fe:3f:4f:fb ssid='cmcm' wpa_ie_len=0 rsn_ie_len=20 caps=0x511 level=-71
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 12: 1c:65:9d:e8:79:44 ssid='WiFi' wpa_ie_len=0 rsn_ie_len=20 caps=0x511 level=-74
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 13: f4:b7:e2:2b:41:b7 ssid='cmscc' wpa_ie_len=0 rsn_ie_len=20 caps=0x31 level=-76
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 14: 00:0f:e2:0f:9f:c1 ssid='321_WAN' wpa_ie_len=28 rsn_ie_len=24 caps=0x411 level=-76
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 15: 44:94:fc:3d:da:38 ssid='6300' wpa_ie_len=0 rsn_ie_len=0 caps=0x411 level=-46
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 16: 7a:24:af:1e:df:58 ssid='DIRECT-' wpa_ie_len=0 rsn_ie_len=0 caps=0x410 level=-48
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 17: 7a:24:af:24:0f:48 ssid='DIRECT-' wpa_ie_len=0 rsn_ie_len=0 caps=0x410 level=-55
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 18: c0:c1:c0:76:81:3c ssid='E2000' wpa_ie_len=0 rsn_ie_len=0 caps=0x401 level=-55 wps
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 19: 50:bd:5f:4b:29:92 ssid='Internet-2' wpa_ie_len=0 rsn_ie_len=0 caps=0x421 level=-67
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 20: e4:d3:32:dd:18:62 ssid='Internet' wpa_ie_len=0 rsn_ie_len=0 caps=0x421 level=-69
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: Selecting BSS from priority group 15
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 0: f8:d1:11:e7:99:e8 ssid='videotest' wpa_ie_len=22 rsn_ie_len=20 caps=0x531 level=-43 wps
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 1: c8:d7:19:60:62:f2 ssid='E3000-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-44
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 2: cc:34:29:2b:26:4c ssid='cws-test' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-56 wps
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 3: 10:c3:7b:d2:e5:e0 ssid='ASUS_RT-AC66U-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-57 wps
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 4: cc:34:29:2c:fb:ec ssid='linksys' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-59 wps
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 5: 14:d6:4d:28:ef:c8 ssid='dlink' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-62 wps
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 6: 98:fc:11:81:35:fb ssid='E2000EE' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-64 wps
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 7: 22:48:9a:ac:31:5b ssid='dean1' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-66
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 8: 02:1a:11:f3:82:d3 ssid='io1' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-67
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 9: e4:d3:32:c0:cf:a4 ssid='fast' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-70
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 10: c0:a0:bb:20:3b:84 ssid='dlink-3B84' wpa_ie_len=26 rsn_ie_len=24 caps=0x411 level=-71 wps
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 11: c4:17:fe:3f:4f:fb ssid='cmcm' wpa_ie_len=0 rsn_ie_len=20 caps=0x511 level=-71
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 12: 1c:65:9d:e8:79:44 ssid='WiFi' wpa_ie_len=0 rsn_ie_len=20 caps=0x511 level=-74
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 13: f4:b7:e2:2b:41:b7 ssid='cmscc' wpa_ie_len=0 rsn_ie_len=20 caps=0x31 level=-76
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 14: 00:0f:e2:0f:9f:c1 ssid='321_WAN' wpa_ie_len=28 rsn_ie_len=24 caps=0x411 level=-76
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 15: 44:94:fc:3d:da:38 ssid='6300' wpa_ie_len=0 rsn_ie_len=0 caps=0x411 level=-46
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 16: 7a:24:af:1e:df:58 ssid='DIRECT-' wpa_ie_len=0 rsn_ie_len=0 caps=0x410 level=-48
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 17: 7a:24:af:24:0f:48 ssid='DIRECT-' wpa_ie_len=0 rsn_ie_len=0 caps=0x410 level=-55
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 18: c0:c1:c0:76:81:3c ssid='E2000' wpa_ie_len=0 rsn_ie_len=0 caps=0x401 level=-55 wps
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 19: 50:bd:5f:4b:29:92 ssid='Internet-2' wpa_ie_len=0 rsn_ie_len=0 caps=0x421 level=-67
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 20: e4:d3:32:dd:18:62 ssid='Internet' wpa_ie_len=0 rsn_ie_len=0 caps=0x421 level=-69
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: Selecting BSS from priority group 4
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 0: f8:d1:11:e7:99:e8 ssid='videotest' wpa_ie_len=22 rsn_ie_len=20 caps=0x531 level=-43 wps
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 1: c8:d7:19:60:62:f2 ssid='E3000-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-44
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 2: cc:34:29:2b:26:4c ssid='cws-test' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-56 wps
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 3: 10:c3:7b:d2:e5:e0 ssid='ASUS_RT-AC66U-2.4G' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-57 wps
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 4: cc:34:29:2c:fb:ec ssid='linksys' wpa_ie_len=22 rsn_ie_len=20 caps=0x431 level=-59 wps
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 5: 14:d6:4d:28:ef:c8 ssid='dlink' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-62 wps
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 6: 98:fc:11:81:35:fb ssid='E2000EE' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-64 wps
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 7: 22:48:9a:ac:31:5b ssid='dean1' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-66
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 8: 02:1a:11:f3:82:d3 ssid='io1' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-67
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 9: e4:d3:32:c0:cf:a4 ssid='fast' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-70
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 10: c0:a0:bb:20:3b:84 ssid='dlink-3B84' wpa_ie_len=26 rsn_ie_len=24 caps=0x411 level=-71 wps
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 11: c4:17:fe:3f:4f:fb ssid='cmcm' wpa_ie_len=0 rsn_ie_len=20 caps=0x511 level=-71
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 12: 1c:65:9d:e8:79:44 ssid='WiFi' wpa_ie_len=0 rsn_ie_len=20 caps=0x511 level=-74
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 13: f4:b7:e2:2b:41:b7 ssid='cmscc' wpa_ie_len=0 rsn_ie_len=20 caps=0x31 level=-76
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 14: 00:0f:e2:0f:9f:c1 ssid='321_WAN' wpa_ie_len=28 rsn_ie_len=24 caps=0x411 level=-76
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 15: 44:94:fc:3d:da:38 ssid='6300' wpa_ie_len=0 rsn_ie_len=0 caps=0x411 level=-46
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 16: 7a:24:af:1e:df:58 ssid='DIRECT-' wpa_ie_len=0 rsn_ie_len=0 caps=0x410 level=-48
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 17: 7a:24:af:24:0f:48 ssid='DIRECT-' wpa_ie_len=0 rsn_ie_len=0 caps=0x410 level=-55
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 18: c0:c1:c0:76:81:3c ssid='E2000' wpa_ie_len=0 rsn_ie_len=0 caps=0x401 level=-55 wps
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 19: 50:bd:5f:4b:29:92 ssid='Internet-2' wpa_ie_len=0 rsn_ie_len=0 caps=0x421 level=-67
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: 20: e4:d3:32:dd:18:62 ssid='Internet' wpa_ie_len=0 rsn_ie_len=0 caps=0x421 level=-69
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0:    skip - SSID mismatch
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: No suitable network found
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: Setting scan request: 40 sec 0 usec
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: Checking for other virtual interfaces sharing same radio (phy0) in event_scan_results
+03-03 10:06:53.793 D/wpa_supplicant(  659): p2p-dev-wlan0: Updating scan results from sibling
+03-03 10:06:53.793 D/wpa_supplicant(  659): nl80211: Received scan results (21 BSSes)
+03-03 10:06:53.793 D/wpa_supplicant(  659): nl80211: Survey data missing
+03-03 10:06:53.793 D/wpa_supplicant(  659): p2p-dev-wlan0: BSS: Start scan result update 1061
+03-03 10:06:53.793 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS f8:d1:11:e7:99:e8 update for P2P interface
+03-03 10:06:53.793 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS c8:d7:19:60:62:f2 update for P2P interface
+03-03 10:06:53.793 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS cc:34:29:2b:26:4c update for P2P interface
+03-03 10:06:53.793 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS 10:c3:7b:d2:e5:e0 update for P2P interface
+03-03 10:06:53.793 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS cc:34:29:2c:fb:ec update for P2P interface
+03-03 10:06:53.793 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS 14:d6:4d:28:ef:c8 update for P2P interface
+03-03 10:06:53.793 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS 98:fc:11:81:35:fb update for P2P interface
+03-03 10:06:53.793 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS 22:48:9a:ac:31:5b update for P2P interface
+03-03 10:06:53.793 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS 02:1a:11:f3:82:d3 update for P2P interface
+03-03 10:06:53.793 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS e4:d3:32:c0:cf:a4 update for P2P interface
+03-03 10:06:53.793 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS c0:a0:bb:20:3b:84 update for P2P interface
+03-03 10:06:53.793 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS c4:17:fe:3f:4f:fb update for P2P interface
+03-03 10:06:53.793 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS 1c:65:9d:e8:79:44 update for P2P interface
+03-03 10:06:53.793 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS f4:b7:e2:2b:41:b7 update for P2P interface
+03-03 10:06:53.793 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS 00:0f:e2:0f:9f:c1 update for P2P interface
+03-03 10:06:53.793 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS 44:94:fc:3d:da:38 update for P2P interface
+03-03 10:06:53.793 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS 7a:24:af:1e:df:58 update for P2P interface
+03-03 10:06:53.793 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS 7a:24:af:24:0f:48 update for P2P interface
+03-03 10:06:53.793 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS c0:c1:c0:76:81:3c update for P2P interface
+03-03 10:06:53.793 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS 50:bd:5f:4b:29:92 update for P2P interface
+03-03 10:06:53.793 D/wpa_supplicant(  659): BSS: No P2P IE - skipping BSS e4:d3:32:dd:18:62 update for P2P interface
+03-03 10:06:53.793 D/wpa_supplicant(  659): BSS: last_scan_res_used=0/32 last_scan_full=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): p2p-dev-wlan0: New scan results available
+03-03 10:06:53.793 D/wpa_supplicant(  659): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[0] c8:d7:19:60:62:f2 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[1] f8:d1:11:e7:99:e8 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[2] cc:34:29:2c:fb:ec type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[3] 10:c3:7b:d2:e5:e0 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[4] cc:34:29:2b:26:4c type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[5] 44:94:fc:3d:da:38 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[6] b0:48:7a:51:ff:cc type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[7] c0:c1:c0:76:81:3c type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[8] 10:9f:a9:dc:b1:fc type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[9] 98:fc:11:81:35:fb type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[10] e4:d3:32:36:2e:54 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[11] c0:a0:bb:20:3b:84 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[12] 14:d6:4d:28:ef:c8 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[13] 2c:b0:5d:7f:f4:24 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[14] 9c:21:6a:0d:eb:72 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[15] 28:2c:b2:44:e4:00 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[16] 78:a1:06:55:fe:30 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[17] c0:61:18:21:8c:ce type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[18] 78:54:2e:f5:fb:9e type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[19] a8:15:4d:13:9a:08 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[20] 20:dc:e6:3f:eb:f2 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[21] 6c:e8:73:29:30:22 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[22] 14:e6:e4:b8:85:76 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[23] 64:09:80:1e:91:78 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[24] ec:88:8f:6a:0c:a8 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[25] d0:15:4a:15:5d:1a type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[26] 1c:fa:68:11:5a:b6 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[27] 8c:be:be:26:4b:8b type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[28] 64:09:80:15:31:84 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[29] bc:d1:77:f3:0b:28 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[30] c0:61:18:4e:07:fc type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[31] f4:ec:38:6d:cf:d6 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[32] e4:d3:32:0a:fb:34 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[33] 8c:be:be:28:2d:f8 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[34] d8:15:0d:c4:57:de type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[35] 40:16:9f:9b:64:fa type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[36] ec:1a:59:0b:f4:8c type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[37] 66:09:80:d9:a2:5d type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[38] 7a:ff:57:00:13:8e type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[39] 7a:ff:57:00:14:32 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[40] 02:13:20:ff:b6:3c type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): WPS: AP[41] 02:1e:67:80:2b:36 type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+03-03 10:06:53.793 D/wpa_supplicant(  659): p2p-dev-wlan0: No suitable network found
+03-03 10:06:53.793 D/wpa_supplicant(  659): p2p-dev-wlan0: Short-circuit new scan request since there are no enabled networks
+03-03 10:06:53.793 D/wpa_supplicant(  659): p2p-dev-wlan0: State: INACTIVE -> INACTIVE
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: P2P: Station mode scan operation not pending anymore (sta_scan_pending=0 p2p_cb_on_scan_complete=0)
+03-03 10:06:53.793 D/wpa_supplicant(  659): RTM_NEWLINK: operstate=0 ifi_flags=0x11003 ([UP][LOWER_UP])
+03-03 10:06:53.793 D/wpa_supplicant(  659): RTM_NEWLINK, IFLA_IFNAME: Interface 'wlan0' added
+03-03 10:06:53.793 D/wpa_supplicant(  659): nl80211: if_removed already cleared - ignore event
+03-03 10:06:53.793 I/WifiHW  (  506): EVENT: IFNAME=wlan0 CTRL-EVENT-BSS-REMOVED 2527 2c:b0:5d:7f:f4:24
+03-03 10:06:53.793 I/WifiHW  (  506): EVENT: IFNAME=wlan0 CTRL-EVENT-SCAN-RESULTS 
+03-03 10:06:53.793 I/WifiHW  (  506): EVENT: IFNAME=wlan0 WPS-AP-AVAILABLE 
+03-03 10:06:53.793 I/WifiHW  (  506): CMD: IFNAME=wlan0 BSS RANGE=0- MASK=0x21987
+03-03 10:06:53.793 I/WifiHW  (  506): EVENT: IFNAME=p2p-dev-wlan0 CTRL-EVENT-SCAN-RESULTS 
+03-03 10:06:53.793 D/wpa_supplicant(  659): RX ctrl_iface - hexdump(len=25): 42 53 53 20 52 41 4e 47 45 3d 30 2d 20 4d 41 53 4b 3d 30 78 32 31 39 38 37
+03-03 10:06:53.793 D/wpa_supplicant(  659): wlan0: Control interface command 'BSS RANGE=0- MASK=0x21987'
+03-03 10:06:53.793 I/WifiHW  (  506): REPLY: id=2398
+03-03 10:06:53.793 I/WifiHW  (  506): REPLY: bssid=f8:d1:11:e7:99:e8
+03-03 10:06:53.793 I/WifiHW  (  506): REPLY: freq=2437
+03-03 10:06:53.793 I/WifiHW  (  506): REPLY: level=-43
+03-03 10:06:53.793 I/WifiHW  (  506): REPLY: tsf=0000261135595672
+03-03 10:06:53.793 I/WifiHW  (  506): REPLY: flags=[WPA-PSK-CCMP][WPA2-PSK-CCMP][WPS][ESS]
+03-03 10:06:53.793 I/WifiHW  (  506): REPLY: ssid=videotest
+03-03 10:06:53.793 I/WifiHW  (  506): REPLY: ====
+03-03 10:06:53.793 I/WifiHW  (  506): REPLY: id=2399
+03-03 10:06:53.793 I/WifiHW  (  506): REPLY: bssid=c8:d7:19:60:62:f2
+03-03 10:06:53.793 I/WifiHW  (  506): REPLY: freq=2437
+03-03 10:06:53.793 I/WifiHW  (  506): REPLY: level=-44
+03-03 10:06:53.793 I/WifiHW  (  506): REPLY: tsf=0000261135595670
+03-03 10:06:53.793 I/WifiHW  (  506): REPLY: flags=[WPA2-EAP-CCMP-preauth][ESS]
+03-03 10:06:53.793 I/WifiHW  (  506): REPLY: ssid=E3000-2.4G
+03-03 10:06:53.793 I/WifiHW  (  506): REPLY: ====
+03-03 10:06:53.793 I/WifiHW  (  506): REPLY: id=2400
+03-03 10:06:53.793 I/WifiHW  (  506): REPLY: bssid=10:c3:7b:d2:e5:e0
+03-03 10:06:53.803 D/XT9IME  (26399): new subtype :en_US ,keyboard
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: freq=2462
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: level=-57
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: tsf=0000261135595688
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: flags=[WPA2-PSK-CCMP][WPS][ESS]
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: ssid=ASUS_RT-AC66U-2.4G
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: ====
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: id=2401
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: bssid=cc:34:29:2b:26:4c
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: freq=2462
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: level=-56
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: tsf=0000261135595686
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: flags=[WPA2-PSK-CCMP][WPS][ESS]
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: ssid=cws-test
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: ====
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: id=2402
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: bssid=cc:34:29:2c:fb:ec
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: freq=2412
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: level=-59
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: tsf=0000261135595646
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: flags=[WPA-PSK-CCMP][WPA2-PSK-CCMP][WPS][ESS]
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: ssid=linksys
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: ====
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: id=2404
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: bssid=98:fc:11:81:35:fb
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: freq=2412
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: level=-64
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: tsf=0000261135595641
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: flags=[WPA2-PSK-CCMP][WPS][ESS]
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: ssid=E2000EE
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: ====
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: id=2410
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: bssid=7a:24:af:24:0f:48
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: freq=2412
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: level=-55
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: tsf=0000261135595691
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: flags=[WEP]
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: ssid=DIRECT-
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: ====
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: id=2411
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: bssid=44:94:fc:3d:da:38
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: freq=2462
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: level=-46
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: tsf=0000261135595681
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: flags=[WEP][ESS]
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: ssid=6300
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: ====
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: id=2412
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: bssid=c0:c1:c0:76:81:3c
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: freq=2462
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: level=-55
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: tsf=0000261135595683
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: flags=[WPS][ESS]
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: ssid=E2000
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: ====
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: id=2498
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: bssid=e4:d3:32:c0:cf:a4
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: freq=2437
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: level=-70
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: tsf=0000261135595665
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: flags=[WPA2-PSK-CCMP][ESS]
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: ssid=fast
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: ====
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: id=2500
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: bssid=c4:17:fe:3f:4f:fb
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: freq=2437
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: level=-71
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: tsf=0000261135595655
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: flags=[WPA2-PSK-CCMP][ESS]
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: ssid=cmcm
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: ====
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: id=2517
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: bssid=cc:b2:55:e2:84:70
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: freq=2447
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: level=-61
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: tsf=0000261094359397
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: flags=[WPA-PSK-TKIP][WPA2-PSK-TKIP][ESS]
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: ssid=DLINK_APK
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: ====
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: id=2518
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: bssid=14:d6:4d:28:ef:c8
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: freq=2437
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: level=-62
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: tsf=0000261135595668
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: flags=[WPA2-PSK-CCMP][WPS][ESS]
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: ssid=dlink
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: ====
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: id=2520
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: bssid=02:1a:11:f3:82:d3
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: freq=2437
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: level=-67
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: tsf=0000261135595650
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: flags=[WPA2-PSK-CCMP][ESS]
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: ssid=io1
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: ====
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: id=2521
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: bssid=1c:65:9d:e8:79:44
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: freq=2437
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: level=-74
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: tsf=0000261135595660
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: flags=[WPA2-PSK-CCMP][ESS]
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: ssid=WiFi
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: ====
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: id=2525
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: bssid=50:bd:5f:4b:29:92
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: freq=2437
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: level=-67
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: tsf=0000261135595652
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: flags=[ESS]
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: ssid=Internet-2
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: ====
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: id=2526
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: bssid=c0:a0:bb:20:3b:84
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: freq=2417
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: level=-71
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: tsf=0000261135595644
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: flags=[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: ssid=dlink-3B84
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: ====
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: id=2529
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: bssid=00:25:86:5c:5e:30
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: freq=2437
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: level=-76
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: tsf=0000261094359371
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: flags=[ESS]
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: ssid=internet
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: ====
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: id=2530
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: bssid=e4:d3:32:36:2e:54
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: freq=2472
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: level=-68
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: tsf=0000261094359464
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: flags=[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][WPS][ESS]
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: ssid=otc
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: ====
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: id=2533
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: bssid=e4:d3:32:dd:18:62
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: freq=2437
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: level=-69
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: tsf=0000261135595657
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: flags=[ESS]
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: ssid=Internet
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: ====
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: id=2534
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: bssid=00:0f:e2:0f:9f:c1
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: freq=2462
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: level=-76
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: tsf=0000261135595678
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: flags=[WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: ssid=321_WAN
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: ====
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: id=2535
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: bssid=7e:7a:91:dc:83:0e
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: freq=2437
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: level=-73
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: tsf=0000261094359352
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: flags=[WPA2-PSK-CCMP][ESS]
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: ssid=Donny
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: ====
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: id=2536
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: bssid=f4:b7:e2:2b:41:b7
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: freq=2437
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: level=-76
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: tsf=0000261135595675
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: flags=[WPA2-PSK-CCMP][ESS]
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: ssid=cmscc
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: ====
+03-03 10:06:53.803 D/SoftKeyboardDetect(18511): Ignore this event
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: id=2537
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: bssid=22:48:9a:ac:31:5b
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: freq=2437
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: level=-66
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: tsf=0000261135595663
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: flags=[WPA2-PSK-CCMP][ESS]
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: ssid=dean1
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: ====
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: id=2538
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: bssid=7a:24:af:1e:df:58
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: freq=2412
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: level=-48
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: tsf=0000261135595694
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: flags=[WEP]
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: ssid=DIRECT-
+03-03 10:06:53.803 I/WifiHW  (  506): REPLY: ####
+03-03 10:06:53.833 D/CordovaActivity(18511): onMessage(onPageStarted,file:///android_asset/www/index.html)
+03-03 10:06:53.833 D/BatteryStatsImpl(  506): noteStopWakeLocked system isFromForeground = false
+03-03 10:06:53.833 W/BindingManager(18511): Cannot call determinedVisibility() - never saw a connection for the pid: 18511
+03-03 10:06:53.833 I/ActivityManager(  506): Displayed org.xwalk.webapi_noneservice_tests/.webapi_noneservice_tests: +716ms
+03-03 10:06:53.893 D/CordovaActivity(18511): onMessage(onPageFinished,file:///android_asset/www/index.html)
+03-03 10:06:54.903 D/CordovaActivity(18511): onMessage(onPageStarted,file:///android_asset/www/index_real.html?testprefix=./)
+03-03 10:06:54.963 W/BindingManager(18511): Cannot call determinedVisibility() - never saw a connection for the pid: 18511
+03-03 10:06:55.183 I/chromium(18511): [INFO:CONSOLE(0)] "Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check http://xhr.spec.whatwg.org/.", source:  (0)
+03-03 10:06:55.253 D/CordovaActivity(18511): onMessage(onPageFinished,file:///android_asset/www/index_real.html?testprefix=./)
+03-03 10:06:55.903 D/CordovaActivity(18511): onMessage(spinner,stop)
+03-03 10:06:55.923 D/        (18511): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+03-03 10:06:55.923 D/        (18511): droid_create_context : config id = 1 conf->NativeVisualID=1
+03-03 10:06:55.923 D/        (18511): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+03-03 10:06:55.923 I/        (18511): Requested context : GLES 2.0
+03-03 10:06:55.963 D/        (18511): Swap interval set to = 1 value
+03-03 10:06:56.033 D/        (18511): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+03-03 10:06:56.033 D/        (18511): droid_create_context : config id = 1 conf->NativeVisualID=1
+03-03 10:06:56.033 D/        (18511): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+03-03 10:06:56.033 I/        (18511): Requested context : GLES 2.0
+03-03 10:06:57.263 D/CordovaActivity(18511): onMessage(spinner,stop)
+03-03 10:06:57.823 W/ufoGralloc(  172): registerBuffer() handle 0xb8343fd0/35 didn't require registration
+03-03 10:06:57.833 D/CordovaActivity(18511): Paused the application!
+03-03 10:06:57.833 D/CordovaWebView(18511): Handle the pause
+03-03 10:06:57.843 D/WindowManager(  506): adjustConfigurationLw, config:{1.0 ?mcc?mnc ?locale ?layoutDir sw600dp w600dp h888dp 213dpi lrg port ?uimode ?night finger -keyb/v/h -nav/v} mLidState:1 mHasDockFeature:false mHasKeyboardFeature:false mHasHallSensorFeature:true config.hardKeyboardHidden:2
+03-03 10:06:57.843 I/ActivityManager(  506): [TopPkgCurBat]	NowPkgName[com.asus.launcher]	Battery[100]	TimeTick[1425348417854]	OldPkgName[org.xwalk.webapi_noneservice_tests]
+03-03 10:06:57.853 I/chromium(18511): [INFO:CONSOLE(1)] "exception firing pause event from native", source:  (1)
+03-03 10:06:57.863 D/        (29985): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+03-03 10:06:57.863 W/IInputConnectionWrapper(18511): showStatusIcon on inactive InputConnection
+03-03 10:06:57.873 D/XT9IME  (26399): new subtype :en_US ,keyboard
+03-03 10:06:57.903 D/ImageWallpaper(  570): onVisibilityChanged: mVisible, visible=false, true
+03-03 10:06:57.903 D/ImageWallpaper(  570): Visibility changed to visible=true
+03-03 10:06:57.903 D/ImageWallpaper(  570): Suppressed drawFrame since redraw is not needed and offsets have not changed.
+03-03 10:06:57.903 D/BatteryStatsImpl(  506): noteStopWakeLocked system isFromForeground = false
+03-03 10:06:57.923 D/        (18511): Surface destroy: ANDROID_NATIVE_WINDOW_MAGIC
+03-03 10:06:57.923 D/        (18511): Surface destroy: ANDROID_NATIVE_WINDOW_MAGIC
+03-03 10:06:58.323 I/ActivityManager(  506): Killing 17543:com.asus.task/u0a9 (adj 15): empty for 36417s
+03-03 10:06:58.323 W/SurfaceFlinger(  172): couldn't log to binary event log: overflow.
+03-03 10:06:58.333 D/        (18511): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+03-03 10:06:58.343 I/SecurityManagerService(  621): SMS received security event: App[STOP/com.asus.task]
+03-03 10:06:58.343 D/CordovaActivity(18511): CordovaActivity.onDestroy()
+03-03 10:06:58.343 D/CordovaWebView(18511): >>> loadUrlNow()
+03-03 10:06:58.343 W/ScreenOrientationListener(18511): Removing an inexistent observer!
+03-03 10:06:59.293 D/AndroidRuntime(18581): 
+03-03 10:06:59.293 D/AndroidRuntime(18581): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+03-03 10:06:59.293 D/AndroidRuntime(18581): CheckJNI is OFF
+03-03 10:06:59.293 I/AndroidRuntime(18581): Kernel Release Version: 3.10.20-gf818079
+03-03 10:06:59.293 I/dalvikvm(18581): No library specified. The standard exception handler will be used
+03-03 10:06:59.293 I/dalvikvm(18581): 
+03-03 10:06:59.293 I/dalvikvm(18581): +++++++++++++ Using PCG. +++++++++++++++++++++
+03-03 10:06:59.303 D/dalvikvm(18581): Trying to load lib libjavacore.so 0x0
+03-03 10:06:59.303 D/dalvikvm(18581): Added shared lib libjavacore.so 0x0
+03-03 10:06:59.303 D/dalvikvm(18581): Trying to load lib libnativehelper.so 0x0
+03-03 10:06:59.303 D/dalvikvm(18581): Added shared lib libnativehelper.so 0x0
+03-03 10:06:59.303 D/dalvikvm(18581): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+03-03 10:06:59.313 D/dalvikvm(18581): Extra Options: not specified
+03-03 10:06:59.323 D/dalvikvm(18581): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+03-03 10:06:59.393 E/memtrack(18581): Couldn't load memtrack module (No such file or directory)
+03-03 10:06:59.393 E/android.os.Debug(18581): failed to load memtrack module: -2
+03-03 10:06:59.433 D/AndroidRuntime(18581): Calling main entry com.android.commands.am.Am
+03-03 10:06:59.453 I/ActivityManager(  506): Force stopping org.xwalk.webapi_noneservice_tests appid=10358 user=0: from pid 18581
+03-03 10:06:59.453 I/SecurityManagerService(  621): SMS received security event: App[STOP/org.xwalk.webapi_noneservice_tests]
+03-03 10:06:59.453 I/ActivityManager(  506): Killing 18511:org.xwalk.webapi_noneservice_tests/u0a358 (adj 9): stop org.xwalk.webapi_noneservice_tests
+03-03 10:06:59.463 D/AndroidRuntime(18581): Shutting down VM
+03-03 10:06:59.463 D/dalvikvm(18581): GC_CONCURRENT freed 112K, 17% free 634K/760K, paused 1ms+0ms, total 2ms
+03-03 10:06:59.473 D/dalvikvm(18581): Compiler shutdown in progress - discarding request
+03-03 10:06:59.473 D/dalvikvm(18581): Compiler shutdown in progress - discarding request
+03-03 10:06:59.473 D/dalvikvm(18581): Compiler shutdown in progress - discarding request
+03-03 10:06:59.473 D/dalvikvm(18581): Compiler shutdown in progress - discarding request
+03-03 10:06:59.473 D/dalvikvm(18581): Compiler shutdown in progress - discarding request
+03-03 10:06:59.473 D/dalvikvm(18581): Compiler shutdown in progress - discarding request
+03-03 10:06:59.473 D/dalvikvm(18581): Compiler shutdown in progress - discarding request
+03-03 10:06:59.473 D/dalvikvm(18581): Compiler shutdown in progress - discarding request
+03-03 10:06:59.473 D/dalvikvm(18581): Compiler shutdown in progress - discarding request
+03-03 10:06:59.473 D/dalvikvm(18581): Compiler shutdown in progress - discarding request
+03-03 10:06:59.473 D/dalvikvm(18581): Compiler shutdown in progress - discarding request
+03-03 10:06:59.473 D/dalvikvm(18581): Compiler shutdown in progress - discarding request
+03-03 10:06:59.473 D/dalvikvm(18581): Compiler shutdown in progress - discarding request
+03-03 10:06:59.473 D/dalvikvm(18581): Compiler shutdown in progress - discarding request
+03-03 10:06:59.473 D/dalvikvm(18581): Compiler shutdown in progress - discarding request
+03-03 10:06:59.473 D/dalvikvm(18581): Compiler shutdown in progress - discarding request
+03-03 10:06:59.473 D/dalvikvm(18581): Compiler shutdown in progress - discarding request
+03-03 10:06:59.473 D/dalvikvm(18581): Compiler shutdown in progress - discarding request
+03-03 10:06:59.473 D/dalvikvm(18581): Compiler shutdown in progress - discarding request
+03-03 10:06:59.473 D/dalvikvm(18581): Compiler shutdown in progress - discarding request
+03-03 10:06:59.473 D/dalvikvm(18581): Compiler shutdown in progress - discarding request
+03-03 10:06:59.473 D/dalvikvm(18581): Compiler shutdown in progress - discarding request
+03-03 10:06:59.473 D/dalvikvm(18581): Compiler shutdown in progress - discarding request
+03-03 10:06:59.473 D/dalvikvm(18581): Compiler shutdown in progress - discarding request
+03-03 10:06:59.473 D/dalvikvm(18581): Compiler shutdown in progress - discarding request
+03-03 10:06:59.473 D/dalvikvm(18581): Compiler shutdown in progress - discarding request
+03-03 10:06:59.473 D/dalvikvm(18581): Compiler shutdown in progress - discarding request
+03-03 10:06:59.473 D/dalvikvm(18581): Compiler shutdown in progress - discarding request
+03-03 10:06:59.473 D/dalvikvm(18581): Compiler shutdown in progress - discarding request
+03-03 10:06:59.473 D/dalvikvm(18581): Compiler shutdown in progress - discarding request
+03-03 10:06:59.473 D/dalvikvm(18581): Compiler shutdown in progress - discarding request
+03-03 10:06:59.473 D/dalvikvm(18581): Compiler shutdown in progress - discarding request
+03-03 10:06:59.473 D/dalvikvm(18581): Compiler shutdown in progress - discarding request
+03-03 10:06:59.473 D/dalvikvm(18581): Compiler shutdown in progress - discarding request
+03-03 10:06:59.473 D/dalvikvm(18581): Compiler shutdown in progress - discarding request
+03-03 10:06:59.473 D/dalvikvm(18581): Compiler shutdown in progress - discarding request
+03-03 10:06:59.473 D/dalvikvm(18581): Compiler shutdown in progress - discarding request
+03-03 10:06:59.473 D/dalvikvm(18581): Compiler shutdown in progress - discarding request
+03-03 10:06:59.473 D/dalvikvm(18581): Compiler shutdown in progress - discarding request
+03-03 10:06:59.473 D/dalvikvm(18581): Compiler shutdown in progress - discarding request
+03-03 10:06:59.473 D/dalvikvm(18581): Compiler shutdown in progress - discarding request
+03-03 10:06:59.473 D/dalvikvm(18581): Compiler shutdown in progress - discarding request
+03-03 10:06:59.473 D/dalvikvm(18581): Compiler shutdown in progress - discarding request
+03-03 10:07:00.003 D/Clock   (  570): ACTION_TIME_TICK
+03-03 10:07:00.003 D/Clock   (  570): update clock:上午10:07
+03-03 10:07:00.043 D/BatteryStatsImpl(  506): noteStopWakeLocked system isFromForeground = false

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <?xml-stylesheet type="text/xsl" href="testresult.xsl"?>
+<test_definition><environment build_id="" device_id="E6OKCY549771" device_model="" device_name="N/A" host="Linux-3.13.0-39-generic-x86_64-with-Ubuntu-12.04-precise" lite_version="3.1.14" manufacturer="" resolution="N/A" screen_size="N/A"><other /></environment>
+<summary test_plan_name="Empty test_plan_name"><start_at>2015-03-02_12_35_39</start_at><end_at>2015-03-02_12_36_03</end_at></summary>
+  <suite category="W3C/HTML5 APIs" name="tct-screenorientation-w3c-tests" widget="webapi-noneservice-tests">
+    <set name="ScreenOrientation" set_debug_msg="N/A" type="js">
+      <testcase component="W3C_HTML5 APIs/Device/The Screen Orientation API" execution_type="auto" id="Screen_exists" purpose="Check if the window.screen exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-screenorientation-w3c-tests/screenorientation/Screen_attributes_tests.html?total_num=10&amp;locator_key=id&amp;value=1</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-03-02 12:37:12</start><end>2015-03-02 12:37:12</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/The Screen Orientation API" execution_type="auto" id="ScreenOrientation_lock_exists" purpose="Check if screen.orientation.lock() exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-screenorientation-w3c-tests/screenorientation/Screen_attributes_tests.html?total_num=10&amp;locator_key=id&amp;value=2</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-03-02 12:37:12</start><end>2015-03-02 12:37:12</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/The Screen Orientation API" execution_type="auto" id="ScreenOrientation_onchange_exists" purpose="Check if screen.orientation.onchange event exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-screenorientation-w3c-tests/screenorientation/Screen_attributes_tests.html?total_num=10&amp;locator_key=id&amp;value=3</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-03-02 12:37:12</start><end>2015-03-02 12:37:13</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/The Screen Orientation API" execution_type="auto" id="Screen_orientation_exists" purpose="Check if screen.orientation attribute exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-screenorientation-w3c-tests/screenorientation/Screen_attributes_tests.html?total_num=10&amp;locator_key=id&amp;value=4</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-03-02 12:37:13</start><end>2015-03-02 12:37:13</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/The Screen Orientation API" execution_type="auto" id="ScreenOrientation_type_exists" purpose="Check if screen.orientation.type attribute exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-screenorientation-w3c-tests/screenorientation/Screen_attributes_tests.html?total_num=10&amp;locator_key=id&amp;value=5</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-03-02 12:37:13</start><end>2015-03-02 12:37:13</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/The Screen Orientation API" execution_type="auto" id="ScreenOrientation_type_returns" purpose="Check that screen.orientation.type returns a String" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-screenorientation-w3c-tests/screenorientation/Screen_attributes_tests.html?total_num=10&amp;locator_key=id&amp;value=6</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-03-02 12:37:13</start><end>2015-03-02 12:37:13</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/The Screen Orientation API" execution_type="auto" id="ScreenOrientation_angle_exists" purpose="Check if screen.orientation.angle attribute exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-screenorientation-w3c-tests/screenorientation/Screen_attributes_tests.html?total_num=10&amp;locator_key=id&amp;value=7</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-03-02 12:37:13</start><end>2015-03-02 12:37:13</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/The Screen Orientation API" execution_type="auto" id="ScreenOrientation_angle_returns" purpose="Check that screen.orientation.angle returns a Number" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-screenorientation-w3c-tests/screenorientation/Screen_attributes_tests.html?total_num=10&amp;locator_key=id&amp;value=8</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-03-02 12:37:13</start><end>2015-03-02 12:37:13</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/The Screen Orientation API" execution_type="auto" id="ScreenOrientation_type_in_currentorientation" purpose="Check that screen.orientation.type must be in current orientation" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-screenorientation-w3c-tests/screenorientation/Screen_attributes_tests.html?total_num=10&amp;locator_key=id&amp;value=9</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-03-02 12:37:13</start><end>2015-03-02 12:37:13</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/The Screen Orientation API" execution_type="auto" id="ScreenOrientation_unlock_exists" purpose="Check if screen.orientation.unlock() exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-screenorientation-w3c-tests/screenorientation/Screen_attributes_tests.html?total_num=10&amp;locator_key=id&amp;value=10</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-03-02 12:37:13</start><end>2015-03-02 12:37:13</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/The Screen Orientation API" execution_type="auto" id="ScreenOrientation_lock_orientation_invalid" purpose="Test checks that screen.lockOrientation(invalid) invoke error callback" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-screenorientation-w3c-tests/screenorientation/ScreenOrientation_lock_orientation_invalid.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-03-02 12:37:13</start><end>2015-03-02 12:37:13</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/The Screen Orientation API" execution_type="auto" id="ScreenOrientation_lock_orientation_null" purpose="Test checks that screen.lockOrientation(null) invoke error callback" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-screenorientation-w3c-tests/screenorientation/ScreenOrientation_lock_orientation_null.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-03-02 12:37:13</start><end>2015-03-02 12:37:13</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/The Screen Orientation API" execution_type="auto" id="ScreenOrientation_onchange_basic" purpose="Test checks that window.onorientationchange is invoked when orientation changes" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/tct-screenorientation-w3c-tests/screenorientation/ScreenOrientation_onchange_basic.html</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-03-02 12:37:13</start><end>2015-03-02 12:37:16</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Device/The Screen Orientation API" execution_type="auto" id="lockOrientation-basic" purpose="Basic screen.lockOrientation() and screen.unlockOrientation() testing" result="BLOCK">
+        <description>
+          <test_script_entry>/opt/tct-screenorientation-w3c-tests/screenorientation/blink/lockOrientation-basic.html</test_script_entry>
+        </description>
+      <result_info><actual_result>BLOCK</actual_result><start>2015-03-02 12:37:16</start><end>2015-03-02 12:37:19</end><stdout>[Message]Timeout</stdout><stderr /></result_info></testcase>
+    </set>
+  </suite>
+</test_definition>

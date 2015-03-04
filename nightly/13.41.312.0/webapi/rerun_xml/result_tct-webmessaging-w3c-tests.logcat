@@ -1,0 +1,776 @@
+--------- beginning of /dev/log/main
+03-04 16:20:41.049 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+03-04 16:20:41.049 D/wpa_supplicant(  694): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+03-04 16:20:41.049 D/wpa_supplicant(  694): wlan0: Control interface command 'SIGNAL_POLL'
+03-04 16:20:41.079 D/wpa_supplicant(  694): nl80211: survey data missing!
+03-04 16:20:41.079 I/WifiHW  (  505): REPLY: RSSI=-58
+03-04 16:20:41.079 I/WifiHW  (  505): REPLY: LINKSPEED=65
+03-04 16:20:41.079 I/WifiHW  (  505): REPLY: NOISE=9999
+03-04 16:20:41.079 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+03-04 16:20:42.099 D/AndroidRuntime(17393): 
+03-04 16:20:42.099 D/AndroidRuntime(17393): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+03-04 16:20:42.099 D/AndroidRuntime(17393): CheckJNI is OFF
+03-04 16:20:42.099 I/AndroidRuntime(17393): Kernel Release Version: 3.10.20-gf818079
+03-04 16:20:42.099 I/dalvikvm(17393): No library specified. The standard exception handler will be used
+03-04 16:20:42.099 I/dalvikvm(17393): 
+03-04 16:20:42.099 I/dalvikvm(17393): +++++++++++++ Using PCG. +++++++++++++++++++++
+03-04 16:20:42.109 D/dalvikvm(17393): Trying to load lib libjavacore.so 0x0
+03-04 16:20:42.109 D/dalvikvm(17393): Added shared lib libjavacore.so 0x0
+03-04 16:20:42.109 D/dalvikvm(17393): Trying to load lib libnativehelper.so 0x0
+03-04 16:20:42.109 D/dalvikvm(17393): Added shared lib libnativehelper.so 0x0
+03-04 16:20:42.109 D/dalvikvm(17393): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+03-04 16:20:42.119 D/dalvikvm(17393): Extra Options: not specified
+03-04 16:20:42.129 D/dalvikvm(17393): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+03-04 16:20:42.199 E/memtrack(17393): Couldn't load memtrack module (No such file or directory)
+03-04 16:20:42.199 E/android.os.Debug(17393): failed to load memtrack module: -2
+03-04 16:20:42.229 D/AndroidRuntime(17393): Calling main entry com.android.commands.am.Am
+--------- beginning of /dev/log/system
+03-04 16:20:42.269 I/ActivityManager(  505): Force stopping org.xwalk.webapi_service_tests appid=10401 user=0: from pid 17393
+03-04 16:20:42.269 D/AndroidRuntime(17393): Shutting down VM
+03-04 16:20:42.279 D/dalvikvm(17393): GC_CONCURRENT freed 108K, 16% free 638K/760K, paused 0ms+1ms, total 1ms
+03-04 16:20:42.279 D/dalvikvm(17393): Compiler shutdown in progress - discarding request
+03-04 16:20:42.279 D/dalvikvm(17393): Compiler shutdown in progress - discarding request
+03-04 16:20:42.279 D/dalvikvm(17393): Compiler shutdown in progress - discarding request
+03-04 16:20:42.279 D/dalvikvm(17393): Compiler shutdown in progress - discarding request
+03-04 16:20:42.279 D/dalvikvm(17393): Compiler shutdown in progress - discarding request
+03-04 16:20:42.279 D/dalvikvm(17393): Compiler shutdown in progress - discarding request
+03-04 16:20:42.279 D/dalvikvm(17393): Compiler shutdown in progress - discarding request
+03-04 16:20:42.279 D/dalvikvm(17393): Compiler shutdown in progress - discarding request
+03-04 16:20:42.279 D/dalvikvm(17393): Compiler shutdown in progress - discarding request
+03-04 16:20:42.279 D/dalvikvm(17393): Compiler shutdown in progress - discarding request
+03-04 16:20:42.279 D/dalvikvm(17393): Compiler shutdown in progress - discarding request
+03-04 16:20:42.279 D/dalvikvm(17393): Compiler shutdown in progress - discarding request
+03-04 16:20:42.279 D/dalvikvm(17393): Compiler shutdown in progress - discarding request
+03-04 16:20:42.279 D/dalvikvm(17393): Compiler shutdown in progress - discarding request
+03-04 16:20:42.279 D/dalvikvm(17393): Compiler shutdown in progress - discarding request
+03-04 16:20:42.279 D/dalvikvm(17393): Compiler shutdown in progress - discarding request
+03-04 16:20:42.279 D/dalvikvm(17393): Compiler shutdown in progress - discarding request
+03-04 16:20:42.279 D/dalvikvm(17393): Compiler shutdown in progress - discarding request
+03-04 16:20:42.279 D/dalvikvm(17393): Compiler shutdown in progress - discarding request
+03-04 16:20:42.279 D/dalvikvm(17393): Compiler shutdown in progress - discarding request
+03-04 16:20:42.279 D/dalvikvm(17393): Compiler shutdown in progress - discarding request
+03-04 16:20:42.279 D/dalvikvm(17393): Compiler shutdown in progress - discarding request
+03-04 16:20:42.279 D/dalvikvm(17393): Compiler shutdown in progress - discarding request
+03-04 16:20:42.279 D/dalvikvm(17393): Compiler shutdown in progress - discarding request
+03-04 16:20:42.279 D/dalvikvm(17393): Compiler shutdown in progress - discarding request
+03-04 16:20:42.279 D/dalvikvm(17393): Compiler shutdown in progress - discarding request
+03-04 16:20:42.279 D/dalvikvm(17393): Compiler shutdown in progress - discarding request
+03-04 16:20:42.279 D/dalvikvm(17393): Compiler shutdown in progress - discarding request
+03-04 16:20:42.279 D/dalvikvm(17393): Compiler shutdown in progress - discarding request
+03-04 16:20:42.279 D/dalvikvm(17393): Compiler shutdown in progress - discarding request
+03-04 16:20:42.279 D/dalvikvm(17393): Compiler shutdown in progress - discarding request
+03-04 16:20:42.279 D/dalvikvm(17393): Compiler shutdown in progress - discarding request
+03-04 16:20:42.279 D/dalvikvm(17393): Compiler shutdown in progress - discarding request
+03-04 16:20:42.279 D/dalvikvm(17393): Compiler shutdown in progress - discarding request
+03-04 16:20:42.279 D/dalvikvm(17393): Compiler shutdown in progress - discarding request
+03-04 16:20:42.279 D/dalvikvm(17393): Compiler shutdown in progress - discarding request
+03-04 16:20:42.279 D/dalvikvm(17393): Compiler shutdown in progress - discarding request
+03-04 16:20:42.279 D/dalvikvm(17393): Compiler shutdown in progress - discarding request
+03-04 16:20:42.279 D/dalvikvm(17393): Compiler shutdown in progress - discarding request
+03-04 16:20:42.279 D/dalvikvm(17393): Compiler shutdown in progress - discarding request
+03-04 16:20:42.279 D/dalvikvm(17393): Compiler shutdown in progress - discarding request
+03-04 16:20:42.279 D/dalvikvm(17393): Compiler shutdown in progress - discarding request
+03-04 16:20:42.279 D/dalvikvm(17393): Compiler shutdown in progress - discarding request
+03-04 16:20:42.279 D/dalvikvm(17393): Compiler shutdown in progress - discarding request
+03-04 16:20:42.739 D/AndroidRuntime(17404): 
+03-04 16:20:42.739 D/AndroidRuntime(17404): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+03-04 16:20:42.739 D/AndroidRuntime(17404): CheckJNI is OFF
+03-04 16:20:42.739 I/AndroidRuntime(17404): Kernel Release Version: 3.10.20-gf818079
+03-04 16:20:42.739 I/dalvikvm(17404): No library specified. The standard exception handler will be used
+03-04 16:20:42.739 I/dalvikvm(17404): 
+03-04 16:20:42.739 I/dalvikvm(17404): +++++++++++++ Using PCG. +++++++++++++++++++++
+03-04 16:20:42.749 D/dalvikvm(17404): Trying to load lib libjavacore.so 0x0
+03-04 16:20:42.749 D/dalvikvm(17404): Added shared lib libjavacore.so 0x0
+03-04 16:20:42.749 D/dalvikvm(17404): Trying to load lib libnativehelper.so 0x0
+03-04 16:20:42.749 D/dalvikvm(17404): Added shared lib libnativehelper.so 0x0
+03-04 16:20:42.749 D/dalvikvm(17404): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+03-04 16:20:42.759 D/dalvikvm(17404): Extra Options: not specified
+03-04 16:20:42.769 D/dalvikvm(17404): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+03-04 16:20:42.839 E/memtrack(17404): Couldn't load memtrack module (No such file or directory)
+03-04 16:20:42.839 E/android.os.Debug(17404): failed to load memtrack module: -2
+03-04 16:20:42.879 D/AndroidRuntime(17404): Calling main entry com.android.commands.am.Am
+03-04 16:20:42.909 D/AndroidRuntime(17404): Shutting down VM
+03-04 16:20:42.909 D/dalvikvm(17404): GC_CONCURRENT freed 112K, 16% free 674K/800K, paused 0ms+0ms, total 1ms
+03-04 16:20:42.909 D/dalvikvm(17404): Compiler shutdown in progress - discarding request
+03-04 16:20:42.909 D/dalvikvm(17404): Compiler shutdown in progress - discarding request
+03-04 16:20:42.909 D/dalvikvm(17404): Compiler shutdown in progress - discarding request
+03-04 16:20:42.909 D/dalvikvm(17404): Compiler shutdown in progress - discarding request
+03-04 16:20:42.909 D/dalvikvm(17404): Compiler shutdown in progress - discarding request
+03-04 16:20:42.909 D/dalvikvm(17404): Compiler shutdown in progress - discarding request
+03-04 16:20:42.909 D/dalvikvm(17404): Compiler shutdown in progress - discarding request
+03-04 16:20:42.909 D/dalvikvm(17404): Compiler shutdown in progress - discarding request
+03-04 16:20:42.909 D/dalvikvm(17404): Compiler shutdown in progress - discarding request
+03-04 16:20:42.909 D/dalvikvm(17404): Compiler shutdown in progress - discarding request
+03-04 16:20:42.909 D/dalvikvm(17404): Compiler shutdown in progress - discarding request
+03-04 16:20:42.909 D/dalvikvm(17404): Compiler shutdown in progress - discarding request
+03-04 16:20:42.909 D/dalvikvm(17404): Compiler shutdown in progress - discarding request
+03-04 16:20:42.909 D/dalvikvm(17404): Compiler shutdown in progress - discarding request
+03-04 16:20:42.909 D/dalvikvm(17404): Compiler shutdown in progress - discarding request
+03-04 16:20:42.909 D/dalvikvm(17404): Compiler shutdown in progress - discarding request
+03-04 16:20:42.909 D/dalvikvm(17404): Compiler shutdown in progress - discarding request
+03-04 16:20:42.909 D/dalvikvm(17404): Compiler shutdown in progress - discarding request
+03-04 16:20:42.909 D/dalvikvm(17404): Compiler shutdown in progress - discarding request
+03-04 16:20:42.909 D/dalvikvm(17404): Compiler shutdown in progress - discarding request
+03-04 16:20:42.909 D/dalvikvm(17404): Compiler shutdown in progress - discarding request
+03-04 16:20:42.909 D/dalvikvm(17404): Compiler shutdown in progress - discarding request
+03-04 16:20:42.909 D/dalvikvm(17404): Compiler shutdown in progress - discarding request
+03-04 16:20:42.909 D/dalvikvm(17404): Compiler shutdown in progress - discarding request
+03-04 16:20:42.909 D/dalvikvm(17404): Compiler shutdown in progress - discarding request
+03-04 16:20:42.909 D/dalvikvm(17404): Compiler shutdown in progress - discarding request
+03-04 16:20:42.909 D/dalvikvm(17404): Compiler shutdown in progress - discarding request
+03-04 16:20:42.909 D/dalvikvm(17404): Compiler shutdown in progress - discarding request
+03-04 16:20:42.909 D/dalvikvm(17404): Compiler shutdown in progress - discarding request
+03-04 16:20:42.909 D/dalvikvm(17404): Compiler shutdown in progress - discarding request
+03-04 16:20:42.909 D/dalvikvm(17404): Compiler shutdown in progress - discarding request
+03-04 16:20:42.909 D/dalvikvm(17404): Compiler shutdown in progress - discarding request
+03-04 16:20:42.909 D/dalvikvm(17404): Compiler shutdown in progress - discarding request
+03-04 16:20:42.909 D/dalvikvm(17404): Compiler shutdown in progress - discarding request
+03-04 16:20:42.909 D/dalvikvm(17404): Compiler shutdown in progress - discarding request
+03-04 16:20:42.909 D/dalvikvm(17404): Compiler shutdown in progress - discarding request
+03-04 16:20:42.909 D/dalvikvm(17404): Compiler shutdown in progress - discarding request
+03-04 16:20:42.909 D/dalvikvm(17404): Compiler shutdown in progress - discarding request
+03-04 16:20:42.909 D/dalvikvm(17404): Compiler shutdown in progress - discarding request
+03-04 16:20:42.909 D/dalvikvm(17404): Compiler shutdown in progress - discarding request
+03-04 16:20:42.909 D/dalvikvm(17404): Compiler shutdown in progress - discarding request
+03-04 16:20:42.909 D/dalvikvm(17404): Compiler shutdown in progress - discarding request
+03-04 16:20:42.909 D/dalvikvm(17404): Compiler shutdown in progress - discarding request
+03-04 16:20:42.909 D/dalvikvm(17404): Compiler shutdown in progress - discarding request
+03-04 16:20:42.909 D/dalvikvm(17404): Compiler shutdown in progress - discarding request
+03-04 16:20:42.909 D/dalvikvm(17404): Compiler shutdown in progress - discarding request
+03-04 16:20:42.909 D/dalvikvm(17404): Compiler shutdown in progress - discarding request
+03-04 16:20:42.909 D/dalvikvm(17404): Compiler shutdown in progress - discarding request
+03-04 16:20:42.909 I/ActivityManager(  505): START u0 {flg=0x10000000 cmp=org.xwalk.webapi_service_tests/.webapi_service_testsActivity} from pid 17404
+03-04 16:20:43.549 D/AndroidRuntime(17415): 
+03-04 16:20:43.549 D/AndroidRuntime(17415): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+03-04 16:20:43.549 D/AndroidRuntime(17415): CheckJNI is OFF
+03-04 16:20:43.549 I/AndroidRuntime(17415): Kernel Release Version: 3.10.20-gf818079
+03-04 16:20:43.549 I/dalvikvm(17415): No library specified. The standard exception handler will be used
+03-04 16:20:43.549 I/dalvikvm(17415): 
+03-04 16:20:43.549 I/dalvikvm(17415): +++++++++++++ Using PCG. +++++++++++++++++++++
+03-04 16:20:43.559 D/dalvikvm(17415): Trying to load lib libjavacore.so 0x0
+03-04 16:20:43.559 D/dalvikvm(17415): Added shared lib libjavacore.so 0x0
+03-04 16:20:43.569 D/dalvikvm(17415): Trying to load lib libnativehelper.so 0x0
+03-04 16:20:43.569 D/dalvikvm(17415): Added shared lib libnativehelper.so 0x0
+03-04 16:20:43.569 D/dalvikvm(17415): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+03-04 16:20:43.569 D/dalvikvm(17415): Extra Options: not specified
+03-04 16:20:43.579 D/dalvikvm(17415): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+03-04 16:20:43.659 E/memtrack(17415): Couldn't load memtrack module (No such file or directory)
+03-04 16:20:43.659 E/android.os.Debug(17415): failed to load memtrack module: -2
+03-04 16:20:43.699 D/AndroidRuntime(17415): Calling main entry com.android.commands.am.Am
+03-04 16:20:43.729 D/AndroidRuntime(17415): Shutting down VM
+03-04 16:20:43.729 D/dalvikvm(17415): GC_CONCURRENT freed 112K, 16% free 674K/800K, paused 0ms+0ms, total 1ms
+03-04 16:20:43.729 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.729 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.729 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.729 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.729 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.729 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.729 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.729 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.729 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.729 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.729 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.729 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.729 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.729 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.729 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.729 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.729 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.729 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.729 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.729 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.729 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.729 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.729 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.729 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.729 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.729 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.729 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.729 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.729 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.729 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.729 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.729 I/ActivityManager(  505): START u0 {flg=0x10000000 cmp=org.xwalk.webapi_service_tests/.webapi_service_tests} from pid 17415
+03-04 16:20:43.739 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.739 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.739 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.739 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.739 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.739 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.739 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.739 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.739 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.739 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.739 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.739 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.739 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.739 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.739 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.739 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.739 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.739 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.739 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:43.739 D/dalvikvm(17415): Compiler shutdown in progress - discarding request
+03-04 16:20:44.089 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+03-04 16:20:44.089 D/wpa_supplicant(  694): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+03-04 16:20:44.089 D/wpa_supplicant(  694): wlan0: Control interface command 'SIGNAL_POLL'
+03-04 16:20:44.119 D/wpa_supplicant(  694): nl80211: survey data missing!
+03-04 16:20:44.119 I/WifiHW  (  505): REPLY: RSSI=-60
+03-04 16:20:44.119 I/WifiHW  (  505): REPLY: LINKSPEED=65
+03-04 16:20:44.119 I/WifiHW  (  505): REPLY: NOISE=9999
+03-04 16:20:44.119 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+03-04 16:20:44.369 D/AndroidRuntime(17426): 
+03-04 16:20:44.369 D/AndroidRuntime(17426): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+03-04 16:20:44.369 D/AndroidRuntime(17426): CheckJNI is OFF
+03-04 16:20:44.369 I/AndroidRuntime(17426): Kernel Release Version: 3.10.20-gf818079
+03-04 16:20:44.369 I/dalvikvm(17426): No library specified. The standard exception handler will be used
+03-04 16:20:44.369 I/dalvikvm(17426): 
+03-04 16:20:44.369 I/dalvikvm(17426): +++++++++++++ Using PCG. +++++++++++++++++++++
+03-04 16:20:44.379 D/dalvikvm(17426): Trying to load lib libjavacore.so 0x0
+03-04 16:20:44.379 D/dalvikvm(17426): Added shared lib libjavacore.so 0x0
+03-04 16:20:44.379 D/dalvikvm(17426): Trying to load lib libnativehelper.so 0x0
+03-04 16:20:44.379 D/dalvikvm(17426): Added shared lib libnativehelper.so 0x0
+03-04 16:20:44.379 D/dalvikvm(17426): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+03-04 16:20:44.389 D/dalvikvm(17426): Extra Options: not specified
+03-04 16:20:44.399 D/dalvikvm(17426): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+03-04 16:20:44.469 E/memtrack(17426): Couldn't load memtrack module (No such file or directory)
+03-04 16:20:44.469 E/android.os.Debug(17426): failed to load memtrack module: -2
+03-04 16:20:44.509 D/AndroidRuntime(17426): Calling main entry com.android.commands.am.Am
+03-04 16:20:44.539 D/AndroidRuntime(17426): Shutting down VM
+03-04 16:20:44.539 V/WeatherTimeProvider( 1102): widget on Visibility Changed
+03-04 16:20:44.539 I/ActivityManager(  505): START u0 {flg=0x10000000 cmp=org.xwalk.webapi_service_tests/.WebapiServiceTestsActivity} from pid 17426
+03-04 16:20:44.549 D/dalvikvm(17426): GC_CONCURRENT freed 114K, 16% free 701K/832K, paused 0ms+0ms, total 3ms
+03-04 16:20:44.549 I/SecurityManagerService(  602): SMS received security event: App[START/org.xwalk.webapi_service_tests]
+03-04 16:20:44.549 D/dalvikvm(17426): Compiler shutdown in progress - discarding request
+03-04 16:20:44.549 D/dalvikvm(17426): Compiler shutdown in progress - discarding request
+03-04 16:20:44.549 D/dalvikvm(17426): Compiler shutdown in progress - discarding request
+03-04 16:20:44.549 D/dalvikvm(17426): Compiler shutdown in progress - discarding request
+03-04 16:20:44.549 D/dalvikvm(17426): Compiler shutdown in progress - discarding request
+03-04 16:20:44.549 D/dalvikvm(17426): Compiler shutdown in progress - discarding request
+03-04 16:20:44.559 D/dalvikvm(17426): Compiler shutdown in progress - discarding request
+03-04 16:20:44.559 D/dalvikvm(17426): Compiler shutdown in progress - discarding request
+03-04 16:20:44.559 D/dalvikvm(17426): Compiler shutdown in progress - discarding request
+03-04 16:20:44.559 D/dalvikvm(17426): Compiler shutdown in progress - discarding request
+03-04 16:20:44.559 D/dalvikvm(17426): Compiler shutdown in progress - discarding request
+03-04 16:20:44.559 D/dalvikvm(17426): Compiler shutdown in progress - discarding request
+03-04 16:20:44.559 D/dalvikvm(17426): Compiler shutdown in progress - discarding request
+03-04 16:20:44.559 D/dalvikvm(17426): Compiler shutdown in progress - discarding request
+03-04 16:20:44.559 D/dalvikvm(17426): Compiler shutdown in progress - discarding request
+03-04 16:20:44.559 D/dalvikvm(17426): Compiler shutdown in progress - discarding request
+03-04 16:20:44.559 D/dalvikvm(17426): Compiler shutdown in progress - discarding request
+03-04 16:20:44.559 D/dalvikvm(17426): Compiler shutdown in progress - discarding request
+03-04 16:20:44.559 D/dalvikvm(17426): Compiler shutdown in progress - discarding request
+03-04 16:20:44.559 D/dalvikvm(17426): Compiler shutdown in progress - discarding request
+03-04 16:20:44.559 D/dalvikvm(17426): Compiler shutdown in progress - discarding request
+03-04 16:20:44.559 D/dalvikvm(17426): Compiler shutdown in progress - discarding request
+03-04 16:20:44.559 D/dalvikvm(17426): Compiler shutdown in progress - discarding request
+03-04 16:20:44.559 D/dalvikvm(17426): Compiler shutdown in progress - discarding request
+03-04 16:20:44.559 D/dalvikvm(17426): Compiler shutdown in progress - discarding request
+03-04 16:20:44.559 D/dalvikvm(17426): Compiler shutdown in progress - discarding request
+03-04 16:20:44.559 D/dalvikvm(17426): Compiler shutdown in progress - discarding request
+03-04 16:20:44.559 D/dalvikvm(17426): Compiler shutdown in progress - discarding request
+03-04 16:20:44.559 D/dalvikvm(17426): Compiler shutdown in progress - discarding request
+03-04 16:20:44.559 D/dalvikvm(17426): Compiler shutdown in progress - discarding request
+03-04 16:20:44.559 D/dalvikvm(17426): Compiler shutdown in progress - discarding request
+03-04 16:20:44.559 D/dalvikvm(17426): Compiler shutdown in progress - discarding request
+03-04 16:20:44.559 D/dalvikvm(17426): Compiler shutdown in progress - discarding request
+03-04 16:20:44.559 D/dalvikvm(17426): Compiler shutdown in progress - discarding request
+03-04 16:20:44.559 D/dalvikvm(17426): Compiler shutdown in progress - discarding request
+03-04 16:20:44.559 D/dalvikvm(17426): Compiler shutdown in progress - discarding request
+03-04 16:20:44.559 D/dalvikvm(17426): Compiler shutdown in progress - discarding request
+03-04 16:20:44.559 D/dalvikvm(17437): Process 17437 nice name: org.xwalk.webapi_service_tests
+03-04 16:20:44.559 D/dalvikvm(17437): Extra Options: not specified
+03-04 16:20:44.559 D/dalvikvm(17426): Compiler shutdown in progress - discarding request
+03-04 16:20:44.559 D/dalvikvm(17426): Compiler shutdown in progress - discarding request
+03-04 16:20:44.559 D/dalvikvm(17426): Compiler shutdown in progress - discarding request
+03-04 16:20:44.559 D/dalvikvm(17426): Compiler shutdown in progress - discarding request
+03-04 16:20:44.559 D/dalvikvm(17426): Compiler shutdown in progress - discarding request
+03-04 16:20:44.559 D/dalvikvm(17426): Compiler shutdown in progress - discarding request
+03-04 16:20:44.559 D/dalvikvm(17426): Compiler shutdown in progress - discarding request
+03-04 16:20:44.559 I/ActivityManager(  505): Start proc org.xwalk.webapi_service_tests for activity org.xwalk.webapi_service_tests/.WebapiServiceTestsActivity: pid=17437 uid=10401 gids={50401, 3003, 1028, 1015}
+03-04 16:20:44.569 D/WindowManager(  505): adjustConfigurationLw, config:{1.0 ?mcc?mnc ?locale ?layoutDir sw600dp w600dp h888dp 213dpi lrg port ?uimode ?night finger -keyb/v/h -nav/v} mLidState:1 mHasDockFeature:false mHasKeyboardFeature:false mHasHallSensorFeature:true config.hardKeyboardHidden:2
+03-04 16:20:44.579 I/ActivityManager(  505): [TopPkgCurBat]	NowPkgName[org.xwalk.webapi_service_tests]	Battery[84]	TimeTick[1425457244590]	OldPkgName[com.asus.launcher]
+03-04 16:20:44.589 D/        (  696): Surface destroy: ANDROID_NATIVE_WINDOW_MAGIC
+03-04 16:20:44.599 D/dalvikvm(17437): Trying to load lib /data/app-lib/org.xwalk.webapi_service_tests-1/libxwalkcore.so 0x43d812e0
+03-04 16:20:44.599 D/dalvikvm(17437): Added shared lib /data/app-lib/org.xwalk.webapi_service_tests-1/libxwalkcore.so 0x43d812e0
+03-04 16:20:44.609 I/LibraryLoader(17437): Time to load native libraries: 12 ms (timestamps 6940-6952)
+03-04 16:20:44.609 I/LibraryLoader(17437): Expected native library version number "",actual native library version number ""
+03-04 16:20:44.629 I/LibraryLoader(17437): Expected native library version number "",actual native library version number ""
+03-04 16:20:44.629 I/chromium(17437): [INFO:library_loader_hooks.cc(112)] Chromium logging enabled: level = 0, default verbosity = 0
+03-04 16:20:44.639 I/BrowserStartupController(17437): Initializing chromium process, singleProcess=true
+03-04 16:20:44.689 W/AudioManagerAndroid(17437): Requires BLUETOOTH permission
+03-04 16:20:44.689 I/ufoGralloc(17437): Hello, this is UFO GRALLOC/Intel Corporation
+03-04 16:20:44.699 D/        (17437): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+03-04 16:20:44.699 D/        (17437): droid_create_context : config id = 1 conf->NativeVisualID=1
+03-04 16:20:44.699 D/        (17437): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+03-04 16:20:44.699 I/        (17437): Requested context : GLES 2.0
+03-04 16:20:44.719 W/chromium(17437): [WARNING:proxy_service.cc(899)] PAC support disabled because there is no system implementation
+03-04 16:20:44.729 W/dalvikvm(17437): VFY: unable to find class referenced in signature (Landroid/view/inputmethod/CursorAnchorInfo;)
+03-04 16:20:44.729 I/dalvikvm(17437): Could not find method android.view.inputmethod.InputMethodManager.updateCursorAnchorInfo, referenced from method org.chromium.content.browser.input.InputMethodManagerWrapper.updateCursorAnchorInfo
+03-04 16:20:44.729 W/dalvikvm(17437): VFY: unable to resolve virtual method 1241: Landroid/view/inputmethod/InputMethodManager;.updateCursorAnchorInfo (Landroid/view/View;Landroid/view/inputmethod/CursorAnchorInfo;)V
+03-04 16:20:44.729 D/dalvikvm(17437): VFY: replacing opcode 0x6e at 0x000a
+03-04 16:20:44.769 E/cutils  (  162): Failed to mkdirat(/Removable/MicroSD): Read-only file system
+03-04 16:20:44.769 W/ContextImpl(17437): Failed to ensure directory: /Removable/MicroSD/Android/data/org.xwalk.webapi_service_tests/cache
+03-04 16:20:44.769 W/XWalkExtensionManager(17437): Failed to read extensions-config.json
+03-04 16:20:44.769 E/chromium(17437): [ERROR:unix_domain_server_socket_posix.cc(106)] Not implemented reached in virtual int net::UnixDomainServerSocket::GetLocalAddress(net::IPEndPoint*) const
+03-04 16:20:44.769 I/dalvikvm(17437): Could not find method android.app.Activity.finishAndRemoveTask, referenced from method org.chromium.base.ApiCompatibilityUtils.finishAndRemoveTask
+03-04 16:20:44.769 W/dalvikvm(17437): VFY: unable to resolve virtual method 4: Landroid/app/Activity;.finishAndRemoveTask ()V
+03-04 16:20:44.769 D/dalvikvm(17437): VFY: replacing opcode 0x6e at 0x0006
+03-04 16:20:44.769 I/dalvikvm(17437): Could not find method android.os.PowerManager.isInteractive, referenced from method org.chromium.base.ApiCompatibilityUtils.isInteractive
+03-04 16:20:44.769 W/dalvikvm(17437): VFY: unable to resolve virtual method 768: Landroid/os/PowerManager;.isInteractive ()Z
+03-04 16:20:44.769 D/dalvikvm(17437): VFY: replacing opcode 0x6e at 0x000e
+03-04 16:20:44.769 W/Vold    (  162): Returning OperationFailed - no handler for errno 30
+03-04 16:20:44.779 I/dalvikvm(17437): Could not find method android.view.Window.getNavigationBarColor, referenced from method org.chromium.base.ApiCompatibilityUtils.setStatusBarColor
+03-04 16:20:44.779 W/dalvikvm(17437): VFY: unable to resolve virtual method 1144: Landroid/view/Window;.getNavigationBarColor ()I
+03-04 16:20:44.779 D/dalvikvm(17437): VFY: replacing opcode 0x6e at 0x0010
+03-04 16:20:44.779 I/dalvikvm(17437): Could not find method android.view.Window.setStatusBarColor, referenced from method org.chromium.base.ApiCompatibilityUtils.setStatusBarColor
+03-04 16:20:44.779 W/dalvikvm(17437): VFY: unable to resolve virtual method 1149: Landroid/view/Window;.setStatusBarColor (I)V
+03-04 16:20:44.779 D/dalvikvm(17437): VFY: replacing opcode 0x6e at 0x0019
+03-04 16:20:44.779 E/dalvikvm(17437): Could not find class 'android.app.ActivityManager$TaskDescription', referenced from method org.chromium.base.ApiCompatibilityUtils.setTaskDescription
+03-04 16:20:44.779 W/dalvikvm(17437): VFY: unable to resolve new-instance 11 (Landroid/app/ActivityManager$TaskDescription;) in Lorg/chromium/base/ApiCompatibilityUtils;
+03-04 16:20:44.779 D/dalvikvm(17437): VFY: replacing opcode 0x22 at 0x0006
+03-04 16:20:44.779 D/dalvikvm(17437): DexOpt: unable to opt direct call 0x001e at 0x08 in Lorg/chromium/base/ApiCompatibilityUtils;.setTaskDescription
+03-04 16:20:44.779 I/chromium(17437): [INFO:xwalk_extension_renderer_controller.cc(47)] EXTENSION PROCESS DISABLED.
+03-04 16:20:44.809 D/        (17437): droid_create_context : config id = 5 conf->NativeVisualID=1
+03-04 16:20:44.809 D/        (17437): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+03-04 16:20:44.809 I/        (17437): Requested context : GLES 2.0
+03-04 16:20:44.819 D/        (17437): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+03-04 16:20:44.829 D/        (17437): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+03-04 16:20:44.829 D/        (17437): droid_create_context : config id = 1 conf->NativeVisualID=1
+03-04 16:20:44.829 D/        (17437): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+03-04 16:20:44.829 I/        (17437): Requested context : GLES 2.0
+03-04 16:20:44.829 D/OpenGLRenderer(17437): Enabling debug mode 0
+03-04 16:20:44.899 I/ActivityManager(  505): Displayed org.xwalk.webapi_service_tests/.WebapiServiceTestsActivity: +359ms
+03-04 16:20:44.909 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:20:44.909 D/XT9IME  (  728): new subtype :en_US ,keyboard
+03-04 16:20:44.919 D/        (17437): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+03-04 16:20:44.919 D/        (17437): droid_create_context : config id = 1 conf->NativeVisualID=1
+03-04 16:20:44.919 D/        (17437): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+03-04 16:20:44.919 I/        (17437): Requested context : GLES 2.0
+03-04 16:20:44.929 D/        (17437): Swap interval set to = 1 value
+03-04 16:20:44.939 D/BatteryStatsImpl(  505): noteStopWakeLocked system isFromForeground = false
+03-04 16:20:44.949 D/ImageWallpaper(  571): onVisibilityChanged: mVisible, visible=true, false
+03-04 16:20:44.949 D/ImageWallpaper(  571): Visibility changed to visible=false
+03-04 16:20:44.949 D/ImageWallpaper(  571): Suppressed drawFrame since redraw is not needed and offsets have not changed.
+03-04 16:20:45.119 D/        (17437): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+03-04 16:20:45.119 D/        (17437): droid_create_context : config id = 1 conf->NativeVisualID=1
+03-04 16:20:45.119 D/        (17437): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+03-04 16:20:45.119 I/        (17437): Requested context : GLES 2.0
+03-04 16:20:45.169 I/chromium(17437): [INFO:CONSOLE(0)] "Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check http://xhr.spec.whatwg.org/.", source:  (0)
+03-04 16:20:47.129 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+03-04 16:20:47.129 D/wpa_supplicant(  694): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+03-04 16:20:47.129 D/wpa_supplicant(  694): wlan0: Control interface command 'SIGNAL_POLL'
+03-04 16:20:47.149 D/wpa_supplicant(  694): nl80211: survey data missing!
+03-04 16:20:47.149 I/WifiHW  (  505): REPLY: RSSI=-52
+03-04 16:20:47.149 I/WifiHW  (  505): REPLY: LINKSPEED=65
+03-04 16:20:47.149 I/WifiHW  (  505): REPLY: NOISE=9999
+03-04 16:20:47.149 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+03-04 16:20:47.159 D/EVENT_THREAD(  182): void CEventThread::run() POLLIN event on Fd (1)
+03-04 16:20:47.159 D/EVENT_THREAD(  182): void CEventThread::run() Do poll with timeout: -1
+03-04 16:20:47.159 D/EVENT_THREAD(  182): void CEventThread::run() POLLIN event on Fd (1)
+03-04 16:20:47.159 D/EVENT_THREAD(  182): void CEventThread::run() Do poll with timeout: -1
+03-04 16:20:47.159 I/upi_ug31xx(  165): (2071) update_capacity
+03-04 16:20:47.159 I/[UPI]   (  165): <UG31/E>[UpiReadCapacity]: V=4025(4023), T=338(336-405), I=-537, C=-3(-3-0)
+03-04 16:20:47.159 I/[UPI]   (  165): <UG31/E>[UpiReadCapacity]: (0x0000254a) 3036 (3032) / 3602 (4027) = 84
+03-04 16:20:47.159 I/[UPI]   (  165): <UG31/E>[UpiReadCapacity]: (0x0000254a) 3036 (3032) / 3602 (4027) = 84
+03-04 16:20:47.159 I/[UPI]   (  165): <UG31/E>[UpiReadCapacity]: (0x0000254a) 3033 (3033) / 3602 (4027) = 84
+03-04 16:20:47.159 I/[UPI]   (  165): <UG31/E>[RsocFilterCountTime]: (0x0000254a) Step=1(91080), Full=1(91080), Lock=91080(1800000)
+03-04 16:20:47.159 I/[UPI]   (  165): <UG31/E>[UpiReadCapacity]: (0x0000254a) 3033 (3033) / 3602 (4027) = 84 (-537--537)
+03-04 16:20:47.159 I/[UPI]   (  165): <UG31/E><BATT> M:normal, P:84(84-84)%, V:4023mV, C:-616mA, T:33.6C(405), S:0x0000254a(000), R:3033mAh, F:3602mAh, Q:743mAh, CC:4, P:30.440(865-0)s, BO:7, 97:615:0-44af-9m:B001-20140514-144301 (16)
+03-04 16:20:47.159 I/upi_ug31xx(  165): (2072) backup_data 
+03-04 16:20:47.159 V/upi_ug31xx(  165): state->check_backup_count = 1
+03-04 16:20:47.889 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:20:49.799 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:20:50.149 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+03-04 16:20:50.149 D/wpa_supplicant(  694): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+03-04 16:20:50.149 D/wpa_supplicant(  694): wlan0: Control interface command 'SIGNAL_POLL'
+03-04 16:20:50.179 D/wpa_supplicant(  694): nl80211: survey data missing!
+03-04 16:20:50.179 I/WifiHW  (  505): REPLY: RSSI=-55
+03-04 16:20:50.179 I/WifiHW  (  505): REPLY: LINKSPEED=65
+03-04 16:20:50.179 I/WifiHW  (  505): REPLY: NOISE=9999
+03-04 16:20:50.179 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+03-04 16:20:50.929 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:20:52.059 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:20:52.679 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:20:53.179 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+03-04 16:20:53.179 D/wpa_supplicant(  694): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+03-04 16:20:53.179 D/wpa_supplicant(  694): wlan0: Control interface command 'SIGNAL_POLL'
+03-04 16:20:53.219 D/wpa_supplicant(  694): nl80211: survey data missing!
+03-04 16:20:53.219 I/WifiHW  (  505): REPLY: RSSI=-51
+03-04 16:20:53.219 I/WifiHW  (  505): REPLY: LINKSPEED=65
+03-04 16:20:53.219 I/WifiHW  (  505): REPLY: NOISE=9999
+03-04 16:20:53.219 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+03-04 16:20:53.569 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:20:54.189 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:20:55.139 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:20:55.779 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:20:56.229 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+03-04 16:20:56.229 D/wpa_supplicant(  694): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+03-04 16:20:56.229 D/wpa_supplicant(  694): wlan0: Control interface command 'SIGNAL_POLL'
+03-04 16:20:56.259 D/wpa_supplicant(  694): nl80211: survey data missing!
+03-04 16:20:56.259 I/WifiHW  (  505): REPLY: RSSI=-53
+03-04 16:20:56.259 I/WifiHW  (  505): REPLY: LINKSPEED=65
+03-04 16:20:56.259 I/WifiHW  (  505): REPLY: NOISE=9999
+03-04 16:20:56.259 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+03-04 16:20:56.669 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:20:57.299 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:20:57.459 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:20:57.639 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:20:57.829 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:20:58.779 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:20:59.279 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+03-04 16:20:59.279 D/wpa_supplicant(  694): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+03-04 16:20:59.279 D/wpa_supplicant(  694): wlan0: Control interface command 'SIGNAL_POLL'
+03-04 16:20:59.299 D/wpa_supplicant(  694): nl80211: survey data missing!
+03-04 16:20:59.309 I/WifiHW  (  505): REPLY: RSSI=-58
+03-04 16:20:59.309 I/WifiHW  (  505): REPLY: LINKSPEED=65
+03-04 16:20:59.309 I/WifiHW  (  505): REPLY: NOISE=9999
+03-04 16:20:59.309 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+03-04 16:20:59.469 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:20:59.989 D/BatteryStatsImpl(  505): noteStopWakeLocked system isFromForeground = false
+03-04 16:20:59.989 D/Clock   (  571): ACTION_TIME_TICK
+03-04 16:20:59.989 D/Clock   (  571): update clock:下午4:21
+03-04 16:21:00.029 D/BatteryStatsImpl(  505): noteStopWakeLocked system isFromForeground = false
+03-04 16:21:00.079 D/BatteryStatsImpl(  505): noteStopWakeLocked system isFromForeground = false
+03-04 16:21:00.829 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:02.049 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:02.309 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+03-04 16:21:02.309 D/wpa_supplicant(  694): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+03-04 16:21:02.309 D/wpa_supplicant(  694): wlan0: Control interface command 'SIGNAL_POLL'
+03-04 16:21:02.339 D/wpa_supplicant(  694): nl80211: survey data missing!
+03-04 16:21:02.339 I/WifiHW  (  505): REPLY: RSSI=-53
+03-04 16:21:02.339 I/WifiHW  (  505): REPLY: LINKSPEED=65
+03-04 16:21:02.339 I/WifiHW  (  505): REPLY: NOISE=9999
+03-04 16:21:02.339 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+03-04 16:21:02.759 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:03.659 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:04.379 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:05.079 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:05.349 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+03-04 16:21:05.349 D/wpa_supplicant(  694): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+03-04 16:21:05.349 D/wpa_supplicant(  694): wlan0: Control interface command 'SIGNAL_POLL'
+03-04 16:21:05.379 D/wpa_supplicant(  694): nl80211: survey data missing!
+03-04 16:21:05.379 I/WifiHW  (  505): REPLY: RSSI=-51
+03-04 16:21:05.379 I/WifiHW  (  505): REPLY: LINKSPEED=65
+03-04 16:21:05.379 I/WifiHW  (  505): REPLY: NOISE=9999
+03-04 16:21:05.379 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+03-04 16:21:05.739 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:06.429 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:07.199 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:07.859 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:08.389 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+03-04 16:21:08.389 D/wpa_supplicant(  694): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+03-04 16:21:08.389 D/wpa_supplicant(  694): wlan0: Control interface command 'SIGNAL_POLL'
+03-04 16:21:08.419 D/wpa_supplicant(  694): nl80211: survey data missing!
+03-04 16:21:08.419 I/WifiHW  (  505): REPLY: RSSI=-52
+03-04 16:21:08.419 I/WifiHW  (  505): REPLY: LINKSPEED=65
+03-04 16:21:08.419 I/WifiHW  (  505): REPLY: NOISE=9999
+03-04 16:21:08.419 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+03-04 16:21:08.649 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:09.459 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:10.149 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:10.849 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:11.429 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+03-04 16:21:11.429 D/wpa_supplicant(  694): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+03-04 16:21:11.429 D/wpa_supplicant(  694): wlan0: Control interface command 'SIGNAL_POLL'
+03-04 16:21:11.449 D/wpa_supplicant(  694): nl80211: survey data missing!
+03-04 16:21:11.449 I/WifiHW  (  505): REPLY: RSSI=-52
+03-04 16:21:11.449 I/WifiHW  (  505): REPLY: LINKSPEED=65
+03-04 16:21:11.449 I/WifiHW  (  505): REPLY: NOISE=9999
+03-04 16:21:11.449 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+03-04 16:21:12.109 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:12.819 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:13.479 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:14.229 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:14.309 I/chromium(17437): [INFO:CONSOLE(0)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('http://foo%20bar') does not match the recipient window's origin ('http://127.0.0.1:8080').", source:  (0)
+03-04 16:21:14.449 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+03-04 16:21:14.449 D/wpa_supplicant(  694): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+03-04 16:21:14.449 D/wpa_supplicant(  694): wlan0: Control interface command 'SIGNAL_POLL'
+03-04 16:21:14.479 D/wpa_supplicant(  694): nl80211: survey data missing!
+03-04 16:21:14.479 I/WifiHW  (  505): REPLY: RSSI=-50
+03-04 16:21:14.479 I/WifiHW  (  505): REPLY: LINKSPEED=65
+03-04 16:21:14.479 I/WifiHW  (  505): REPLY: NOISE=9999
+03-04 16:21:14.479 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+03-04 16:21:14.989 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:15.779 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:16.399 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:16.499 D/EVENT_THREAD(  182): void CEventThread::run() POLLIN event on Fd (1)
+03-04 16:21:16.499 D/EVENT_THREAD(  182): void CEventThread::run() Do poll with timeout: -1
+03-04 16:21:17.079 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:17.489 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+03-04 16:21:17.489 D/wpa_supplicant(  694): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+03-04 16:21:17.489 D/wpa_supplicant(  694): wlan0: Control interface command 'SIGNAL_POLL'
+03-04 16:21:17.519 D/wpa_supplicant(  694): nl80211: survey data missing!
+03-04 16:21:17.519 I/WifiHW  (  505): REPLY: RSSI=-54
+03-04 16:21:17.519 I/WifiHW  (  505): REPLY: LINKSPEED=65
+03-04 16:21:17.519 I/WifiHW  (  505): REPLY: NOISE=9999
+03-04 16:21:17.519 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+03-04 16:21:17.549 D/EVENT_THREAD(  182): void CEventThread::run() POLLIN event on Fd (1)
+03-04 16:21:17.549 D/EVENT_THREAD(  182): void CEventThread::run() Do poll with timeout: -1
+03-04 16:21:17.549 D/EVENT_THREAD(  182): void CEventThread::run() POLLIN event on Fd (1)
+03-04 16:21:17.549 D/EVENT_THREAD(  182): void CEventThread::run() Do poll with timeout: -1
+03-04 16:21:17.549 I/upi_ug31xx(  165): (2073) update_capacity
+03-04 16:21:17.549 I/[UPI]   (  165): <UG31/E>[UpiReadCapacity]: V=4023(4020), T=337(336-406), I=-387, C=-2(-2-0)
+03-04 16:21:17.549 I/[UPI]   (  165): <UG31/E>[UpiReadCapacity]: (0x0000254a) 3033 (3021) / 3602 (4028) = 84
+03-04 16:21:17.549 I/[UPI]   (  165): <UG31/E>[UpiReadCapacity]: (0x0000254a) 3033 (3021) / 3602 (4028) = 84
+03-04 16:21:17.549 I/[UPI]   (  165): <UG31/E>[UpiReadCapacity]: (0x0000254a) 3031 (3031) / 3602 (4028) = 84
+03-04 16:21:17.549 I/[UPI]   (  165): <UG31/E>[RsocFilterCountTime]: (0x0000254a) Step=2(121470), Full=2(121470), Lock=121470(1800000)
+03-04 16:21:17.549 I/[UPI]   (  165): <UG31/E>[UpiReadCapacity]: (0x0000254a) 3031 (3031) / 3602 (4028) = 84 (-387--387)
+03-04 16:21:17.549 I/[UPI]   (  165): <UG31/E><BATT> M:normal, P:84(84-84)%, V:4018mV, C:-363mA, T:33.6C(406), S:0x0000254a(000), R:3031mAh, F:3602mAh, Q:741mAh, CC:4, P:30.390(867-0)s, BO:7, 97:615:0-44af-9m:B001-20140514-144301 (16)
+03-04 16:21:17.549 I/upi_ug31xx(  165): (2074) backup_data 
+03-04 16:21:17.549 V/upi_ug31xx(  165): state->check_backup_count = 2
+03-04 16:21:17.789 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:18.599 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:19.259 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:19.899 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:19.929 I/chromium(17437): [INFO:CONSOLE(0)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('http://example.org') does not match the recipient window's origin ('http://127.0.0.1:8080').", source:  (0)
+03-04 16:21:20.529 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+03-04 16:21:20.529 D/wpa_supplicant(  694): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+03-04 16:21:20.529 D/wpa_supplicant(  694): wlan0: Control interface command 'SIGNAL_POLL'
+03-04 16:21:20.549 D/wpa_supplicant(  694): nl80211: survey data missing!
+03-04 16:21:20.549 I/WifiHW  (  505): REPLY: RSSI=-52
+03-04 16:21:20.549 I/WifiHW  (  505): REPLY: LINKSPEED=65
+03-04 16:21:20.549 I/WifiHW  (  505): REPLY: NOISE=9999
+03-04 16:21:20.549 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+03-04 16:21:20.589 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:21.449 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:22.259 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:23.209 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:23.549 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+03-04 16:21:23.559 D/wpa_supplicant(  694): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+03-04 16:21:23.559 D/wpa_supplicant(  694): wlan0: Control interface command 'SIGNAL_POLL'
+03-04 16:21:23.579 D/wpa_supplicant(  694): nl80211: survey data missing!
+03-04 16:21:23.579 I/WifiHW  (  505): REPLY: RSSI=-52
+03-04 16:21:23.579 I/WifiHW  (  505): REPLY: LINKSPEED=65
+03-04 16:21:23.579 I/WifiHW  (  505): REPLY: NOISE=9999
+03-04 16:21:23.579 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+03-04 16:21:23.999 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:24.079 I/chromium(17437): [INFO:CONSOLE(0)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('http://foo%20bar') does not match the recipient window's origin ('http://127.0.0.1:8080').", source:  (0)
+03-04 16:21:24.819 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:25.569 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:26.249 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:26.589 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+03-04 16:21:26.589 D/wpa_supplicant(  694): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+03-04 16:21:26.589 D/wpa_supplicant(  694): wlan0: Control interface command 'SIGNAL_POLL'
+03-04 16:21:26.619 D/wpa_supplicant(  694): nl80211: survey data missing!
+03-04 16:21:26.619 I/WifiHW  (  505): REPLY: RSSI=-55
+03-04 16:21:26.619 I/WifiHW  (  505): REPLY: LINKSPEED=65
+03-04 16:21:26.619 I/WifiHW  (  505): REPLY: NOISE=9999
+03-04 16:21:26.619 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+03-04 16:21:26.909 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:27.579 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:28.229 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:28.909 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:29.579 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:29.629 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+03-04 16:21:29.629 D/wpa_supplicant(  694): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+03-04 16:21:29.629 D/wpa_supplicant(  694): wlan0: Control interface command 'SIGNAL_POLL'
+03-04 16:21:29.659 D/wpa_supplicant(  694): nl80211: survey data missing!
+03-04 16:21:29.659 I/WifiHW  (  505): REPLY: RSSI=-56
+03-04 16:21:29.659 I/WifiHW  (  505): REPLY: LINKSPEED=65
+03-04 16:21:29.659 I/WifiHW  (  505): REPLY: NOISE=9999
+03-04 16:21:29.659 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+03-04 16:21:30.239 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:30.269 I/chromium(17437): [INFO:CONSOLE(0)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('http://example.org') does not match the recipient window's origin ('http://127.0.0.1:8080').", source:  (0)
+03-04 16:21:30.929 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:31.769 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:32.519 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:32.659 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+03-04 16:21:32.659 D/wpa_supplicant(  694): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+03-04 16:21:32.659 D/wpa_supplicant(  694): wlan0: Control interface command 'SIGNAL_POLL'
+03-04 16:21:32.689 D/wpa_supplicant(  694): nl80211: survey data missing!
+03-04 16:21:32.689 I/WifiHW  (  505): REPLY: RSSI=-54
+03-04 16:21:32.689 I/WifiHW  (  505): REPLY: LINKSPEED=65
+03-04 16:21:32.689 I/WifiHW  (  505): REPLY: NOISE=9999
+03-04 16:21:32.689 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+03-04 16:21:33.409 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:34.199 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:34.899 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:35.629 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:35.689 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+03-04 16:21:35.689 D/wpa_supplicant(  694): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+03-04 16:21:35.689 D/wpa_supplicant(  694): wlan0: Control interface command 'SIGNAL_POLL'
+03-04 16:21:35.719 D/wpa_supplicant(  694): nl80211: survey data missing!
+03-04 16:21:35.719 I/WifiHW  (  505): REPLY: RSSI=-53
+03-04 16:21:35.719 I/WifiHW  (  505): REPLY: LINKSPEED=65
+03-04 16:21:35.719 I/WifiHW  (  505): REPLY: NOISE=9999
+03-04 16:21:35.719 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+03-04 16:21:36.689 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:37.829 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:38.509 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:38.719 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+03-04 16:21:38.719 D/wpa_supplicant(  694): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+03-04 16:21:38.719 D/wpa_supplicant(  694): wlan0: Control interface command 'SIGNAL_POLL'
+03-04 16:21:38.749 D/wpa_supplicant(  694): nl80211: survey data missing!
+03-04 16:21:38.749 I/WifiHW  (  505): REPLY: RSSI=-56
+03-04 16:21:38.749 I/WifiHW  (  505): REPLY: LINKSPEED=65
+03-04 16:21:38.749 I/WifiHW  (  505): REPLY: NOISE=9999
+03-04 16:21:38.749 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+03-04 16:21:39.329 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:40.019 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:40.759 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:41.429 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:41.759 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+03-04 16:21:41.759 D/wpa_supplicant(  694): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+03-04 16:21:41.759 D/wpa_supplicant(  694): wlan0: Control interface command 'SIGNAL_POLL'
+03-04 16:21:41.779 D/wpa_supplicant(  694): nl80211: survey data missing!
+03-04 16:21:41.779 I/WifiHW  (  505): REPLY: RSSI=-55
+03-04 16:21:41.779 I/WifiHW  (  505): REPLY: LINKSPEED=65
+03-04 16:21:41.779 I/WifiHW  (  505): REPLY: NOISE=9999
+03-04 16:21:41.779 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+03-04 16:21:42.159 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:42.889 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:43.589 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:44.299 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:44.789 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+03-04 16:21:44.789 D/wpa_supplicant(  694): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+03-04 16:21:44.789 D/wpa_supplicant(  694): wlan0: Control interface command 'SIGNAL_POLL'
+03-04 16:21:44.819 D/wpa_supplicant(  694): nl80211: survey data missing!
+03-04 16:21:44.819 I/WifiHW  (  505): REPLY: RSSI=-52
+03-04 16:21:44.819 I/WifiHW  (  505): REPLY: LINKSPEED=65
+03-04 16:21:44.819 I/WifiHW  (  505): REPLY: NOISE=9999
+03-04 16:21:44.819 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+03-04 16:21:45.009 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:45.709 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:46.419 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:47.139 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:47.799 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:47.829 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+03-04 16:21:47.829 D/wpa_supplicant(  694): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+03-04 16:21:47.829 D/wpa_supplicant(  694): wlan0: Control interface command 'SIGNAL_POLL'
+03-04 16:21:47.859 D/wpa_supplicant(  694): nl80211: survey data missing!
+03-04 16:21:47.859 I/WifiHW  (  505): REPLY: RSSI=-54
+03-04 16:21:47.859 I/WifiHW  (  505): REPLY: LINKSPEED=65
+03-04 16:21:47.859 I/WifiHW  (  505): REPLY: NOISE=9999
+03-04 16:21:47.859 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+03-04 16:21:47.909 D/EVENT_THREAD(  182): void CEventThread::run() POLLIN event on Fd (1)
+03-04 16:21:47.909 D/EVENT_THREAD(  182): void CEventThread::run() Do poll with timeout: -1
+03-04 16:21:47.909 D/EVENT_THREAD(  182): void CEventThread::run() POLLIN event on Fd (1)
+03-04 16:21:47.909 D/EVENT_THREAD(  182): void CEventThread::run() Do poll with timeout: -1
+03-04 16:21:47.909 I/upi_ug31xx(  165): (2075) update_capacity
+03-04 16:21:47.909 I/[UPI]   (  165): <UG31/E>[UpiReadCapacity]: V=4021(4019), T=336(336-407), I=-339, C=-4(-4-0)
+03-04 16:21:47.909 I/[UPI]   (  165): <UG31/E>[UpiReadCapacity]: (0x0000254a) 3031 (3014) / 3602 (4028) = 84
+03-04 16:21:47.909 I/[UPI]   (  165): <UG31/E>[UpiReadCapacity]: (0x0000254a) 3031 (3014) / 3602 (4028) = 84
+03-04 16:21:47.909 I/[UPI]   (  165): <UG31/E>[UpiReadCapacity]: (0x0000254a) 3027 (3027) / 3602 (4028) = 84
+03-04 16:21:47.909 I/[UPI]   (  165): <UG31/E>[RsocFilterCountTime]: (0x0000254a) Step=2(151830), Full=2(151830), Lock=151830(1800000)
+03-04 16:21:47.909 I/[UPI]   (  165): <UG31/E>[UpiReadCapacity]: (0x0000254a) 3027 (3027) / 3602 (4028) = 84 (-339--339)
+03-04 16:21:47.909 I/[UPI]   (  165): <UG31/E><BATT> M:normal, P:84(84-84)%, V:4018mV, C:-292mA, T:33.6C(407), S:0x0000254a(000), R:3027mAh, F:3602mAh, Q:737mAh, CC:4, P:30.360(871-0)s, BO:7, 97:615:0-44af-9m:B001-20140514-144301 (16)
+03-04 16:21:47.909 I/upi_ug31xx(  165): (2076) backup_data 
+03-04 16:21:47.909 V/upi_ug31xx(  165): state->check_backup_count = 3
+03-04 16:21:48.589 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:49.329 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:50.189 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:50.859 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+03-04 16:21:50.859 D/wpa_supplicant(  694): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+03-04 16:21:50.859 D/wpa_supplicant(  694): wlan0: Control interface command 'SIGNAL_POLL'
+03-04 16:21:50.889 D/wpa_supplicant(  694): nl80211: survey data missing!
+03-04 16:21:50.889 I/WifiHW  (  505): REPLY: RSSI=-56
+03-04 16:21:50.889 I/WifiHW  (  505): REPLY: LINKSPEED=65
+03-04 16:21:50.889 I/WifiHW  (  505): REPLY: NOISE=9999
+03-04 16:21:50.889 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+03-04 16:21:50.939 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:50.999 I/chromium(17437): [INFO:CONSOLE(0)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('http://127.0.0.1:8080') does not match the recipient window's origin ('http://127.0.0.1:8081').", source:  (0)
+03-04 16:21:51.649 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:51.749 I/chromium(17437): [INFO:CONSOLE(0)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('http://www.invalid-domain.com') does not match the recipient window's origin ('http://127.0.0.1:8081').", source:  (0)
+03-04 16:21:51.749 I/chromium(17437): [INFO:CONSOLE(0)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('http://127.0.0.1:8080') does not match the recipient window's origin ('http://127.0.0.1:8081').", source:  (0)
+03-04 16:21:52.369 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:52.429 I/chromium(17437): [INFO:CONSOLE(0)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('http://www.invalid-domain.com') does not match the recipient window's origin ('http://127.0.0.1:8080').", source:  (0)
+03-04 16:21:52.429 I/chromium(17437): [INFO:CONSOLE(0)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('http://127.0.0.1:8081') does not match the recipient window's origin ('http://127.0.0.1:8080').", source:  (0)
+03-04 16:21:53.109 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:53.819 W/BindingManager(17437): Cannot call determinedVisibility() - never saw a connection for the pid: 17437
+03-04 16:21:53.889 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+03-04 16:21:53.889 D/wpa_supplicant(  694): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+03-04 16:21:53.889 D/wpa_supplicant(  694): wlan0: Control interface command 'SIGNAL_POLL'
+03-04 16:21:53.919 D/wpa_supplicant(  694): nl80211: survey data missing!
+03-04 16:21:53.919 I/WifiHW  (  505): REPLY: RSSI=-56
+03-04 16:21:53.919 I/WifiHW  (  505): REPLY: LINKSPEED=65
+03-04 16:21:53.919 I/WifiHW  (  505): REPLY: NOISE=9999
+03-04 16:21:53.919 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+03-04 16:21:55.289 W/ufoGralloc(  170): registerBuffer() handle 0xb961c460/60 didn't require registration
+03-04 16:21:55.319 D/WindowManager(  505): adjustConfigurationLw, config:{1.0 ?mcc?mnc ?locale ?layoutDir sw600dp w600dp h888dp 213dpi lrg port ?uimode ?night finger -keyb/v/h -nav/v} mLidState:1 mHasDockFeature:false mHasKeyboardFeature:false mHasHallSensorFeature:true config.hardKeyboardHidden:2
+03-04 16:21:55.319 I/ActivityManager(  505): [TopPkgCurBat]	NowPkgName[com.asus.launcher]	Battery[84]	TimeTick[1425457315331]	OldPkgName[org.xwalk.webapi_service_tests]
+03-04 16:21:55.329 V/WeatherTimeProvider( 1102): widget on Visibility Changed
+03-04 16:21:55.349 D/        (  696): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+03-04 16:21:55.359 W/IInputConnectionWrapper(17437): showStatusIcon on inactive InputConnection
+03-04 16:21:55.359 D/XT9IME  (  728): new subtype :en_US ,keyboard
+03-04 16:21:55.409 D/ImageWallpaper(  571): onVisibilityChanged: mVisible, visible=false, true
+03-04 16:21:55.409 D/ImageWallpaper(  571): Visibility changed to visible=true
+03-04 16:21:55.409 D/BatteryStatsImpl(  505): noteStopWakeLocked system isFromForeground = false
+03-04 16:21:55.409 D/ImageWallpaper(  571): Suppressed drawFrame since redraw is not needed and offsets have not changed.
+03-04 16:21:55.429 D/        (17437): Surface destroy: ANDROID_NATIVE_WINDOW_MAGIC
+03-04 16:21:55.429 D/        (17437): Surface destroy: ANDROID_NATIVE_WINDOW_MAGIC
+03-04 16:21:55.829 D/        (17437): Pixel Format : GGL_PIXEL_FORMAT_RGBA_8888
+03-04 16:21:55.839 W/SurfaceFlinger(  170): couldn't log to binary event log: overflow.
+03-04 16:21:55.849 W/ScreenOrientationListener(17437): Removing an inexistent observer!
+03-04 16:21:56.929 I/WifiHW  (  505): CMD: IFNAME=wlan0 SIGNAL_POLL
+03-04 16:21:56.929 D/wpa_supplicant(  694): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+03-04 16:21:56.929 D/wpa_supplicant(  694): wlan0: Control interface command 'SIGNAL_POLL'
+03-04 16:21:56.949 D/wpa_supplicant(  694): nl80211: survey data missing!
+03-04 16:21:56.949 I/WifiHW  (  505): REPLY: RSSI=-57
+03-04 16:21:56.949 I/WifiHW  (  505): REPLY: LINKSPEED=65
+03-04 16:21:56.949 I/WifiHW  (  505): REPLY: NOISE=9999
+03-04 16:21:56.949 I/WifiHW  (  505): REPLY: FREQUENCY=2437
+03-04 16:21:57.199 D/AndroidRuntime(18059): 
+03-04 16:21:57.199 D/AndroidRuntime(18059): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+03-04 16:21:57.199 D/AndroidRuntime(18059): CheckJNI is OFF
+03-04 16:21:57.199 I/AndroidRuntime(18059): Kernel Release Version: 3.10.20-gf818079
+03-04 16:21:57.199 I/dalvikvm(18059): No library specified. The standard exception handler will be used
+03-04 16:21:57.199 I/dalvikvm(18059): 
+03-04 16:21:57.199 I/dalvikvm(18059): +++++++++++++ Using PCG. +++++++++++++++++++++
+03-04 16:21:57.209 D/dalvikvm(18059): Trying to load lib libjavacore.so 0x0
+03-04 16:21:57.209 D/dalvikvm(18059): Added shared lib libjavacore.so 0x0
+03-04 16:21:57.209 D/dalvikvm(18059): Trying to load lib libnativehelper.so 0x0
+03-04 16:21:57.209 D/dalvikvm(18059): Added shared lib libnativehelper.so 0x0
+03-04 16:21:57.209 D/dalvikvm(18059): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+03-04 16:21:57.219 D/dalvikvm(18059): Extra Options: not specified
+03-04 16:21:57.229 D/dalvikvm(18059): Note: class Landroid/app/ActivityManagerNative; has 186 unimplemented (abstract) methods
+03-04 16:21:57.299 E/memtrack(18059): Couldn't load memtrack module (No such file or directory)
+03-04 16:21:57.299 E/android.os.Debug(18059): failed to load memtrack module: -2
+03-04 16:21:57.339 D/AndroidRuntime(18059): Calling main entry com.android.commands.am.Am
+03-04 16:21:57.359 I/ActivityManager(  505): Force stopping org.xwalk.webapi_service_tests appid=10401 user=0: from pid 18059
+03-04 16:21:57.359 I/SecurityManagerService(  602): SMS received security event: App[STOP/org.xwalk.webapi_service_tests]
+03-04 16:21:57.359 I/ActivityManager(  505): Killing 17437:org.xwalk.webapi_service_tests/u0a401 (adj 9): stop org.xwalk.webapi_service_tests
+03-04 16:21:57.369 D/AndroidRuntime(18059): Shutting down VM
+03-04 16:21:57.389 D/dalvikvm(18059): GC_CONCURRENT freed 108K, 16% free 638K/760K, paused 0ms+0ms, total 1ms
+03-04 16:21:57.389 D/dalvikvm(18059): Compiler shutdown in progress - discarding request
+03-04 16:21:57.389 D/dalvikvm(18059): Compiler shutdown in progress - discarding request
+03-04 16:21:57.389 D/dalvikvm(18059): Compiler shutdown in progress - discarding request
+03-04 16:21:57.389 D/dalvikvm(18059): Compiler shutdown in progress - discarding request
+03-04 16:21:57.389 D/dalvikvm(18059): Compiler shutdown in progress - discarding request
+03-04 16:21:57.389 D/dalvikvm(18059): Compiler shutdown in progress - discarding request
+03-04 16:21:57.389 D/dalvikvm(18059): Compiler shutdown in progress - discarding request
+03-04 16:21:57.389 D/dalvikvm(18059): Compiler shutdown in progress - discarding request
+03-04 16:21:57.389 D/dalvikvm(18059): Compiler shutdown in progress - discarding request
+03-04 16:21:57.389 D/dalvikvm(18059): Compiler shutdown in progress - discarding request
+03-04 16:21:57.389 D/dalvikvm(18059): Compiler shutdown in progress - discarding request
+03-04 16:21:57.389 D/dalvikvm(18059): Compiler shutdown in progress - discarding request
+03-04 16:21:57.389 D/dalvikvm(18059): Compiler shutdown in progress - discarding request
+03-04 16:21:57.389 D/dalvikvm(18059): Compiler shutdown in progress - discarding request
+03-04 16:21:57.389 D/dalvikvm(18059): Compiler shutdown in progress - discarding request
+03-04 16:21:57.389 D/dalvikvm(18059): Compiler shutdown in progress - discarding request
+03-04 16:21:57.389 D/dalvikvm(18059): Compiler shutdown in progress - discarding request
+03-04 16:21:57.389 D/dalvikvm(18059): Compiler shutdown in progress - discarding request
+03-04 16:21:57.389 D/dalvikvm(18059): Compiler shutdown in progress - discarding request
+03-04 16:21:57.389 D/dalvikvm(18059): Compiler shutdown in progress - discarding request
+03-04 16:21:57.389 D/dalvikvm(18059): Compiler shutdown in progress - discarding request
+03-04 16:21:57.389 D/dalvikvm(18059): Compiler shutdown in progress - discarding request
+03-04 16:21:57.389 D/dalvikvm(18059): Compiler shutdown in progress - discarding request
+03-04 16:21:57.389 D/dalvikvm(18059): Compiler shutdown in progress - discarding request
+03-04 16:21:57.389 D/dalvikvm(18059): Compiler shutdown in progress - discarding request
+03-04 16:21:57.389 D/dalvikvm(18059): Compiler shutdown in progress - discarding request
+03-04 16:21:57.389 D/dalvikvm(18059): Compiler shutdown in progress - discarding request
+03-04 16:21:57.389 D/dalvikvm(18059): Compiler shutdown in progress - discarding request
+03-04 16:21:57.389 D/dalvikvm(18059): Compiler shutdown in progress - discarding request
+03-04 16:21:57.389 D/dalvikvm(18059): Compiler shutdown in progress - discarding request
+03-04 16:21:57.389 D/dalvikvm(18059): Compiler shutdown in progress - discarding request
+03-04 16:21:57.389 D/dalvikvm(18059): Compiler shutdown in progress - discarding request
+03-04 16:21:57.389 D/dalvikvm(18059): Compiler shutdown in progress - discarding request
+03-04 16:21:57.389 D/dalvikvm(18059): Compiler shutdown in progress - discarding request
+03-04 16:21:57.389 D/dalvikvm(18059): Compiler shutdown in progress - discarding request
+03-04 16:21:57.389 D/dalvikvm(18059): Compiler shutdown in progress - discarding request
+03-04 16:21:57.389 D/dalvikvm(18059): Compiler shutdown in progress - discarding request
+03-04 16:21:57.389 D/dalvikvm(18059): Compiler shutdown in progress - discarding request
+03-04 16:21:57.389 D/dalvikvm(18059): Compiler shutdown in progress - discarding request
+03-04 16:21:57.389 D/dalvikvm(18059): Compiler shutdown in progress - discarding request
+03-04 16:21:57.389 D/dalvikvm(18059): Compiler shutdown in progress - discarding request
+03-04 16:21:57.389 D/dalvikvm(18059): Compiler shutdown in progress - discarding request

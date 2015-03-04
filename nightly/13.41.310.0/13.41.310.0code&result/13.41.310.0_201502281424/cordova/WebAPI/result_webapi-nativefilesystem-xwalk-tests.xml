@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <?xml-stylesheet type="text/xsl" href="testresult.xsl"?>
+<test_definition><environment build_id="" device_id="E6OKCY549771" device_model="" device_name="N/A" host="Linux-3.13.0-39-generic-x86_64-with-Ubuntu-12.04-precise" lite_version="3.1.13" manufacturer="" resolution="N/A" screen_size="N/A"><other /></environment>
+<summary test_plan_name="Empty test_plan_name"><start_at>2015-02-28_18_16_12</start_at><end_at>2015-02-28_18_17_01</end_at></summary>
+  <suite category="Native File System API" name="webapi-nativefilesystem-xwalk-tests" widget="webapi-noneservice-tests">
+    <set name="NativeFileAPI" set_debug_msg="N/A" type="js">
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="DirectoryEntry_createReader_exist" purpose="Check if DirectoryEntry.createReader exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/DirectoryEntry_createReader_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:43</start><end>2015-02-28 18:17:44</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="DirectoryEntry_getDirectory_exist" purpose="Check if DirectoryEntry.getDirectory exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/DirectoryEntry_getDirectory_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:44</start><end>2015-02-28 18:17:44</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="DirectoryEntry_getFile_base" purpose="Check if getFile() has all valid arguments that expecting successCallback() to be invoke" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/DirectoryEntry_getFile_base.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:44</start><end>2015-02-28 18:17:45</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="DirectoryEntry_getFile_exist" purpose="Check if DirectoryEntry.getFile exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/DirectoryEntry_getFile_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:45</start><end>2015-02-28 18:17:46</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="DirectoryEntry_removeRecursively_exist" purpose="Check if DirectoryEntry.removeRecursively exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/DirectoryEntry_removeRecursively_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:46</start><end>2015-02-28 18:17:46</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="DirectoryReader_readEntries_exist" purpose="Check if DirectoryReader.readEntries exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/DirectoryReader_readEntries_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:46</start><end>2015-02-28 18:17:47</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="EntriesCallback_handleEvent_entries_type" purpose="Check if the type of the parameter entries is Entry[] in EntryCallback interface" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/EntriesCallback_handleEvent_entries_type.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:47</start><end>2015-02-28 18:17:48</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="EntriesCallback_handleEvent_exist" purpose="Check if EntriesCallback.handleEvent exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/EntriesCallback_handleEvent_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:48</start><end>2015-02-28 18:17:48</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="EntryCallback_handleEvent_entry_type" purpose="Check if the type of the parameter entry is Entry in EntryCallback interface" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/EntryCallback_handleEvent_entry_type.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:48</start><end>2015-02-28 18:17:49</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="EntryCallback_handleEvent_exist" purpose="Check if EntryCallback.handleEvent exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/EntryCallback_handleEvent_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:49</start><end>2015-02-28 18:17:50</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="Entry_copyTo_base" purpose="Check if can copy a file to a different location on the file system" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/Entry_copyTo_base.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:50</start><end>2015-02-28 18:17:50</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="Entry_copyTo_exist" purpose="Check if Entry.copyTo exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/Entry_copyTo_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:50</start><end>2015-02-28 18:17:51</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="Entry_nativefilesystem_exist" purpose="Check if Entry.nativefilesystem exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/Entry_nativefilesystem_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:51</start><end>2015-02-28 18:17:52</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="Entry_nativefilesystem_readonly" purpose="Check if the Entry.nativefilesystem attribute is readonly" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/Entry_nativefilesystem_readonly.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:52</start><end>2015-02-28 18:17:52</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="Entry_nativefilesystem_type" purpose="Check if the type of Entry.nativefilesystem attribute is object" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/Entry_nativefilesystem_type.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:52</start><end>2015-02-28 18:17:53</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="Entry_fullPath_exist" purpose="Check if Entry.fullPath exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/Entry_fullPath_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:53</start><end>2015-02-28 18:17:54</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="Entry_fullPath_readonly" purpose="Check if the Entry.fullPath attribute is readonly" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/Entry_fullPath_readonly.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:54</start><end>2015-02-28 18:17:54</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="Entry_fullPath_type" purpose="Check if the type of Entry.fullPath is DOMString" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/Entry_fullPath_type.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:54</start><end>2015-02-28 18:17:55</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="Entry_getMetadata_exist" purpose="Check if Entry.getMetadata exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/Entry_getMetadata_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:55</start><end>2015-02-28 18:17:56</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="Entry_getParent_exist" purpose="Check if Entry.getParent exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/Entry_getParent_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:56</start><end>2015-02-28 18:17:56</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="Entry_isDirectory_exist" purpose="Check if Entry.isDirectory exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/Entry_isDirectory_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:56</start><end>2015-02-28 18:17:57</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="Entry_isDirectory_false" purpose="Check if the Entry is not a directory" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/Entry_isDirectory_false.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:57</start><end>2015-02-28 18:17:58</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="Entry_isDirectory_readonly" purpose="Check if the Entry.isDirectory attribute is readonly" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/Entry_isDirectory_readonly.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:58</start><end>2015-02-28 18:17:58</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="Entry_isDirectory_true" purpose="Check if the Entry is a directory" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/Entry_isDirectory_true.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:58</start><end>2015-02-28 18:17:59</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="Entry_isDirectory_type" purpose="Check if the type of Entry.isDirectory attribute is boolean" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/Entry_isDirectory_type.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:59</start><end>2015-02-28 18:17:59</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="Entry_isFile_exist" purpose="Check if Entry.isFile exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/Entry_isFile_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:18:00</start><end>2015-02-28 18:18:00</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="Entry_isFile_false" purpose="Check if the Entry is not a file" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/Entry_isFile_false.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:18:00</start><end>2015-02-28 18:18:01</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="Entry_isFile_readonly" purpose="Check if the Entry.isFile attribute is readonly" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/Entry_isFile_readonly.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:18:01</start><end>2015-02-28 18:18:01</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="Entry_isFile_true" purpose="Check if the Entry is a file" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/Entry_isFile_true.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:18:01</start><end>2015-02-28 18:18:02</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="Entry_isFile_type" purpose="Check if the type of Entry.isFile attribute is boolean" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/Entry_isFile_type.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:18:02</start><end>2015-02-28 18:18:03</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="Entry_moveTo_exist" purpose="Check if Entry.moveTo exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/Entry_moveTo_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:18:03</start><end>2015-02-28 18:18:03</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="Entry_name_exist" purpose="Check if Entry.name exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/Entry_name_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:18:03</start><end>2015-02-28 18:18:04</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="Entry_name_readonly" purpose="Check if the type of Entry.name attribute is readonly" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/Entry_name_readonly.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:18:04</start><end>2015-02-28 18:18:05</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="Entry_name_type" purpose="Check if the type of Entry.name attribute is DOMString" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/Entry_name_type.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:18:05</start><end>2015-02-28 18:18:05</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="Entry_remove_exist" purpose="Check if Entry.remove exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/Entry_remove_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:18:05</start><end>2015-02-28 18:18:06</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="Entry_toURL_exist" purpose="Check if Entry.toURL exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/Entry_toURL_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:18:06</start><end>2015-02-28 18:18:07</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="FileCallback_handleEvent_exist" purpose="Check if FileCallback.handleEvent exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/FileCallback_handleEvent_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:18:07</start><end>2015-02-28 18:18:07</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="FileEntry_createWriter_exist" purpose="Check if FileEntry.createWriter exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/FileEntry_createWriter_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:18:07</start><end>2015-02-28 18:18:08</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="FileEntry_file_exist" purpose="Check if FileEntry.file exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/FileEntry_file_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:18:08</start><end>2015-02-28 18:18:09</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="NativeFileSystem_name_base" purpose="Check if NativeFileSystem.name is the name of the file system" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/NativeFileSystem_name_base.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:18:09</start><end>2015-02-28 18:18:09</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="NativeFileSystem_name_exist" purpose="Check if NativeFileSystem.name exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/NativeFileSystem_name_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:18:09</start><end>2015-02-28 18:18:10</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="NativeFileSystem_name_readonly" purpose="Check if the NativeFileSystem.name attribute is readonly" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/NativeFileSystem_name_readonly.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:18:10</start><end>2015-02-28 18:18:11</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="NativeFileSystem_name_type" purpose="Check if the type of NativeFileSystem.name is string" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/NativeFileSystem_name_type.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:18:11</start><end>2015-02-28 18:18:11</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="NativeFileSystem_root_base" purpose="Check if NativeFileSystem.root is the root directory of the file system" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/NativeFileSystem_root_base.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:18:11</start><end>2015-02-28 18:18:12</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="NativeFileSystem_root_readonly" purpose="Check if the NativeFileSystem.root attribute is readonly" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/NativeFileSystem_root_readonly.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:18:12</start><end>2015-02-28 18:18:13</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="NativeFileSystem_root_type" purpose="Check if the type of NativeFileSystem.root is DirectoryEntry" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/NativeFileSystem_root_type.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:18:13</start><end>2015-02-28 18:18:13</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="FileWriterCallback_handleEvent_exist" purpose="Check if FileWriterCallback.handleEvent exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/FileWriterCallback_handleEvent_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:18:13</start><end>2015-02-28 18:18:14</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="MetadataCallback_handleEvent_exist" purpose="Check if MetadataCallback.handleEvent exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/MetadataCallback_handleEvent_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:18:14</start><end>2015-02-28 18:18:15</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="MetadataCallback_handleEvent_metadata_type" purpose="Check if the type of the parameter metadata is Metadata in MetadataCallback interface" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/MetadataCallback_handleEvent_metadata_type.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:18:15</start><end>2015-02-28 18:18:15</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="VoidCallback_handleEvent_exists" purpose="Check if VoidCallback.handleEvent exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/VoidCallback_handleEvent_exists.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:18:15</start><end>2015-02-28 18:18:16</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="NativeFileSystem_requestNativeFileSystem_base" purpose="Check if the requestNativeFileSystem base" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/NativeFileSystem_requestNativeFileSystem_base.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:18:16</start><end>2015-02-28 18:18:17</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="Crosswalk APIs/Native File System" execution_type="auto" id="NativeFileSystem_requestNativeFileSystem_exist" purpose="Check if the requestNativeFileSystem exists" result="PASS">
+        <description>
+          <test_script_entry>/opt/webapi-nativefilesystem-xwalk-tests/nativefilesystem/NativeFileSystem_requestNativeFileSystem_exist.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:18:17</start><end>2015-02-28 18:18:17</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+  </suite>
+</test_definition>

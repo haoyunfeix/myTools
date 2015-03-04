@@ -3169,11 +3169,5 @@
         </description>
       <result_info><actual_result>PASS</actual_result><start>2015-02-28 17:22:02</start><end>2015-02-28 17:22:02</end><stdout>[Message] </stdout><stderr /></result_info></testcase>
     </set>
-    <set name="browsers-bdd" type="js" ui-auto="bdd">
-      </set>
-    <set name="dom-bdd" type="js" ui-auto="bdd">
-      </set>
-    <set name="xhtml5-bdd" type="js" ui-auto="bdd">
-      </set>
     </suite>
 </test_definition>

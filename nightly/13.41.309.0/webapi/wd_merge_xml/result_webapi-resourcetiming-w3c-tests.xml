@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-        <?xml-stylesheet type="text/xsl" href="testresult.xsl"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="testresult.xsl"?>
 <test_definition><environment build_id="" device_id="E6OKCY410829" device_model="" device_name="N/A" host="Linux-3.13.0-39-generic-x86_64-with-Ubuntu-12.04-precise" lite_version="3.1.13" manufacturer="" resolution="N/A" screen_size="N/A"><other /></environment>
 <summary test_plan_name="Empty test_plan_name"><start_at>2015-02-28_11_09_42</start_at><end_at>2015-02-28_11_10_58</end_at></summary>
   <suite category="W3C/HTML5 APIs" name="webapi-resourcetiming-w3c-tests" widget="webapi-service-tests">
@@ -104,7 +104,7 @@
           <test_script_entry>/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_timing.html?total_num=21&amp;amp;locator_key=id&amp;amp;value=18</test_script_entry>
         </description>
       <result_info><actual_result>PASS</actual_result><start>2015-02-28 11:11:13</start><end>2015-02-28 11:11:13</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
-      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="performance_PerformanceEntry_correct_attribute_js" purpose="Test checks that PerformanceEntry returned by window.performance.getEntriesByName('/resource_timing_test0.js') has correct name, initiatorType, startTime, and duration" result="FAIL">
+      <testcase component="W3C_HTML5 APIs/Performance and Optimization/Resource Timing" execution_type="auto" id="performance_PerformanceEntry_correct_attribute_js" purpose="Test checks that PerformanceEntry returned by window.performance.getEntriesByName('/resource_timing_test0.js') has correct name, initiatorType, startTime, and duration" result="PASS">
         <description>
           <test_script_entry>/opt/webapi-resourcetiming-w3c-tests/resourcetiming/w3c/submission/test_resource_timing.html?total_num=21&amp;amp;locator_key=id&amp;amp;value=19</test_script_entry>
         </description>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <?xml-stylesheet type="text/xsl" href="testresult.xsl"?>
+<test_definition><environment build_id="" device_id="localhost" device_model="" device_name="N/A" host="Linux-3.13.0-39-generic-x86_64-with-Ubuntu-12.04-precise" lite_version="3.1.13" manufacturer="" resolution="N/A" screen_size="N/A"><other /></environment>
+<summary test_plan_name="Empty test_plan_name"><start_at>2015-02-27_09_49_26</start_at><end_at>2015-02-27_09_50_34</end_at></summary>
+  <suite category="Crosswalk WRT" name="wrt-security-android-tests">
+    <set name="security" set_debug_msg="result_wrt-security-android-tests.dlog" type="pyunit">
+      <testcase component="Crosswalk WRT/Security" id="test_permission_chinese" purpose="permissiontest.TestSecurityFunctions.test_permission_chinese" result="PASS"><result_info><actual_result>PASS</actual_result><start>2015-02-27 09:49:33</start><end>2015-02-27 09:49:33</end><stdout /><stderr /></result_info></testcase><testcase component="Crosswalk WRT/Security" id="test_permission_noapi" purpose="permissiontest.TestSecurityFunctions.test_permission_noapi" result="PASS"><result_info><actual_result>PASS</actual_result><start>2015-02-27 09:49:33</start><end>2015-02-27 09:49:34</end><stdout /><stderr /></result_info></testcase><testcase component="Crosswalk WRT/Security" id="test_permission_null" purpose="permissiontest.TestSecurityFunctions.test_permission_null" result="PASS"><result_info><actual_result>PASS</actual_result><start>2015-02-27 09:49:34</start><end>2015-02-27 09:50:34</end><stdout /><stderr /></result_info></testcase><testcase component="Crosswalk WRT/Security" id="test_permission_splite" purpose="permissiontest.TestSecurityFunctions.test_permission_splite" result="PASS"><result_info><actual_result>PASS</actual_result><start>2015-02-27 09:50:34</start><end>2015-02-27 09:50:34</end><stdout /><stderr /></result_info></testcase></set>
+  </suite>
+</test_definition>

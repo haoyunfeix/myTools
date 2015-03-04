@@ -1,0 +1,8 @@
+Total TCs: 11351 , Passed: 7978 , Failed: 501 , Blocked: 2872 , Run%: 75% , Pass%: 70%
+
+------------ SampleApp ------------
+Total TCs: 36 , Passed: 3 , Failed: 2 , Blocked: 31 , Run%: 14% , Pass%: 8%
+------------ UseCase ------------
+Total TCs: 31 , Passed: 22 , Failed: 9 , Blocked: 0 , Run%: 100% , Pass%: 71%
+------------ Web API ------------
+Total TCs: 11284 , Passed: 7953 , Failed: 490 , Blocked: 2841 , Run%: 75% , Pass%: 70%

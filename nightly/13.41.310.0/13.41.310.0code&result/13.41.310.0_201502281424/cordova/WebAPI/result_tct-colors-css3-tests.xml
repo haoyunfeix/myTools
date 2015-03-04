@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <?xml-stylesheet type="text/xsl" href="testresult.xsl"?>
+<test_definition><environment build_id="" device_id="E6OKCY549771" device_model="" device_name="N/A" host="Linux-3.13.0-39-generic-x86_64-with-Ubuntu-12.04-precise" lite_version="3.1.13" manufacturer="" resolution="N/A" screen_size="N/A"><other /></environment>
+<summary test_plan_name="Empty test_plan_name"><start_at>2015-02-28_18_15_32</start_at><end_at>2015-02-28_18_15_53</end_at></summary>
+  <suite category="W3C/HTML5 APIs" name="tct-colors-css3-tests" widget="webapi-noneservice-tests">
+    <set name="Colors" set_debug_msg="N/A" type="js">
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Color Module Level 3" execution_type="auto" id="CSS3Colors_color_0F0_2" purpose="Check if the color is set to 'color:#0F0'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_0F0_2.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:03</start><end>2015-02-28 18:17:03</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Color Module Level 3" execution_type="auto" id="CSS3Colors_color_0f0_1" purpose="Check if the color is set to 'color:#0f0'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_0f0_1.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:03</start><end>2015-02-28 18:17:03</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Color Module Level 3" execution_type="auto" id="CSS3Colors_color_00FF00" purpose="Check if the color is set to 'color:#00FF00'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_00FF00.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:03</start><end>2015-02-28 18:17:03</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Color Module Level 3" execution_type="auto" id="CSS3Colors_color_rgb_0_255_0" purpose="Check if the color is set to 'color:rgb(0,255,0)'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_rgb_0_255_0.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:03</start><end>2015-02-28 18:17:03</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Color Module Level 3" execution_type="auto" id="CSS3Colors_color_rgb_0pct_100pct_0pct" purpose="Check if the color is set to 'color:rgb(0%,100%,0%)'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_rgb_0pct_100pct_0pct.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:03</start><end>2015-02-28 18:17:04</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Color Module Level 3" execution_type="auto" id="CSS3Colors_color_blue" purpose="Check if the color is set to 'color:blue'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_blue.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:04</start><end>2015-02-28 18:17:04</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Color Module Level 3" execution_type="auto" id="CSS3Colors_color_00F_2" purpose="Check if the color is set to 'color:#00F'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_00F_2.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:04</start><end>2015-02-28 18:17:04</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Color Module Level 3" execution_type="auto" id="CSS3Colors_color_00f_1" purpose="Check if the color is set to 'color:#00f'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_00f_1.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:04</start><end>2015-02-28 18:17:04</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Color Module Level 3" execution_type="auto" id="CSS3Colors_color_0000FF" purpose="Check if the color is set to 'color:#0000FF'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_0000FF.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:04</start><end>2015-02-28 18:17:04</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Color Module Level 3" execution_type="auto" id="CSS3Colors_color_rgb_0_0_255" purpose="Check if the color is set to 'color:rgb(0,0,255)'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_rgb_0_0_255.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:04</start><end>2015-02-28 18:17:04</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Color Module Level 3" execution_type="auto" id="CSS3Colors_color_rgb_0pct_0pct_100pct" purpose="Check if the color is set to 'color:rgb(0%,0%,100%)'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_rgb_0pct_0pct_100pct.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:04</start><end>2015-02-28 18:17:04</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Color Module Level 3" execution_type="auto" id="CSS3Colors_color_00ffff_1" purpose="Check if the color is set to 'color:#00ffff'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_00ffff_1.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:04</start><end>2015-02-28 18:17:04</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Color Module Level 3" execution_type="auto" id="CSS3Colors_color_00FFFF_2" purpose="Check if the color is set to 'color:#00FFFF'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_00FFFF_2.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:04</start><end>2015-02-28 18:17:04</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Color Module Level 3" execution_type="auto" id="CSS3Colors_color_0ff_1" purpose="Check if the color is set to 'color:#0ff'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_0ff_1.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:04</start><end>2015-02-28 18:17:04</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Color Module Level 3" execution_type="auto" id="CSS3Colors_color_0FF_2" purpose="Check if the color is set to 'color:#0FF'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_0FF_2.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:04</start><end>2015-02-28 18:17:05</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Color Module Level 3" execution_type="auto" id="CSS3Colors_color_rgb_0_255_255" purpose="Check if the color is set to 'color:rgb(0,255,255)'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_rgb_0_255_255.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:05</start><end>2015-02-28 18:17:05</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Color Module Level 3" execution_type="auto" id="CSS3Colors_color_rgb_0pct_100pct_100pct" purpose="Check if the color is set to 'color:rgb(0%,100%,100%)'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_rgb_0pct_100pct_100pct.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:05</start><end>2015-02-28 18:17:05</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Color Module Level 3" execution_type="auto" id="CSS3Colors_color_CCFF00_2" purpose="Check if the color is set to 'color:#CCFF00'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_CCFF00_2.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:05</start><end>2015-02-28 18:17:05</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Color Module Level 3" execution_type="auto" id="CSS3Colors_color_CF0_2" purpose="Check if the color is set to 'color:#CF0'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_CF0_2.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:05</start><end>2015-02-28 18:17:05</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Color Module Level 3" execution_type="auto" id="CSS3Colors_color_cf0_1" purpose="Check if the color is set to 'color:#cf0'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_cf0_1.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:05</start><end>2015-02-28 18:17:05</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Color Module Level 3" execution_type="auto" id="CSS3Colors_color_ccff00_1" purpose="Check if the color is set to 'color:#ccff00'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_ccff00_1.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:05</start><end>2015-02-28 18:17:05</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Color Module Level 3" execution_type="auto" id="CSS3Colors_color_rgb_204_255_0" purpose="Check if the color is set to 'color:rgb(204,255,0)'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_rgb_204_255_0.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:05</start><end>2015-02-28 18:17:05</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Color Module Level 3" execution_type="auto" id="CSS3Colors_color_rgb_80pct_100pct_0pct" purpose="Check if the color is set to 'color:rgb(80%,100%,0%)'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_rgb_80pct_100pct_0pct.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:05</start><end>2015-02-28 18:17:05</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Color Module Level 3" execution_type="auto" id="CSS3Colors_color_CCCC33_2" purpose="Check if the color is set to 'color:#CCCC33'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_CCCC33_2.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:05</start><end>2015-02-28 18:17:06</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Color Module Level 3" execution_type="auto" id="CSS3Colors_color_cccc33_1" purpose="Check if the color is set to 'color:#cccc33'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_cccc33_1.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:06</start><end>2015-02-28 18:17:06</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Color Module Level 3" execution_type="auto" id="CSS3Colors_color_c30_1" purpose="Check if the color is set to 'color:#c30'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_c30_1.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:06</start><end>2015-02-28 18:17:06</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Color Module Level 3" execution_type="auto" id="CSS3Colors_color_C30_2" purpose="Check if the color is set to 'color:#C30'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_C30_2.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:06</start><end>2015-02-28 18:17:06</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Color Module Level 3" execution_type="auto" id="CSS3Colors_color_rgb_204_204_51" purpose="Check if the color is set to 'color:rgb(204,204,51)'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_rgb_204_204_51.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:06</start><end>2015-02-28 18:17:06</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Color Module Level 3" execution_type="auto" id="CSS3Colors_color_rgb_80pct_80pct_20pct" purpose="Check if the color is set to 'color:rgb(80%,80%,20%)'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_rgb_80pct_80pct_20pct.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:06</start><end>2015-02-28 18:17:06</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Color Module Level 3" execution_type="auto" id="CSS3Colors_color_FF00CC_2" purpose="Check if the color is set to 'color:#FF00CC'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_FF00CC_2.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:06</start><end>2015-02-28 18:17:06</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Color Module Level 3" execution_type="auto" id="CSS3Colors_color_F0C_2" purpose="Check if the color is set to 'color:#F0C'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_F0C_2.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:06</start><end>2015-02-28 18:17:06</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Color Module Level 3" execution_type="auto" id="CSS3Colors_color_ff00cc_1" purpose="Check if the color is set to 'color:#ff00cc'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_ff00cc_1.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:06</start><end>2015-02-28 18:17:06</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Color Module Level 3" execution_type="auto" id="CSS3Colors_color_f0c_1" purpose="Check if the color is set to 'color:#f0c'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_f0c_1.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:06</start><end>2015-02-28 18:17:06</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Color Module Level 3" execution_type="auto" id="CSS3Colors_color_rgb_255_0_204" purpose="Check if the color is set to 'color:rgb(255,0,204)'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_rgb_255_0_204.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:07</start><end>2015-02-28 18:17:07</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Color Module Level 3" execution_type="auto" id="CSS3Colors_color_rgb_100pct_0pct_80pct" purpose="Check if the color is set to 'color:rgb(100%,0%,80%)'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_rgb_100pct_0pct_80pct.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:07</start><end>2015-02-28 18:17:07</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Color Module Level 3" execution_type="auto" id="CSS3Colors_color_red" purpose="Check if the color is set to 'color:red'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_red.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:07</start><end>2015-02-28 18:17:07</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Color Module Level 3" execution_type="auto" id="CSS3Colors_color_FF0000_2" purpose="Check if the color is set to 'color:#FF0000'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_FF0000_2.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:07</start><end>2015-02-28 18:17:07</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Color Module Level 3" execution_type="auto" id="CSS3Colors_color_ff0000_1" purpose="Check if the color is set to 'color:#ff0000'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_ff0000_1.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:07</start><end>2015-02-28 18:17:07</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Color Module Level 3" execution_type="auto" id="CSS3Colors_color_rgb_255_0_0" purpose="Check if the color is set to 'color:rgb(255,0,0)'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_rgb_255_0_0.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:07</start><end>2015-02-28 18:17:07</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Color Module Level 3" execution_type="auto" id="CSS3Colors_color_rgb_100pct_0pct_0pct" purpose="Check if the color is set to 'color:rgb(100%,0%,0%)'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_rgb_100pct_0pct_0pct.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:07</start><end>2015-02-28 18:17:07</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Color Module Level 3" execution_type="auto" id="CSS3Colors_color_F00_2" purpose="Check if the color is set to 'color:#F00'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_F00_2.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:07</start><end>2015-02-28 18:17:08</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Color Module Level 3" execution_type="auto" id="CSS3Colors_color_f00_1" purpose="Check if the color is set to 'color:#f00'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_f00_1.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:08</start><end>2015-02-28 18:17:08</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Color Module Level 3" execution_type="auto" id="CSS3Colors_color_black" purpose="Check if the color is set to 'color:black'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_black.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:08</start><end>2015-02-28 18:17:08</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Color Module Level 3" execution_type="auto" id="CSS3Colors_color_000000" purpose="Check if the color is set to 'color:#000000'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_000000.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:08</start><end>2015-02-28 18:17:08</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Color Module Level 3" execution_type="auto" id="CSS3Colors_color_rgb_0_0_0" purpose="Check if the color is set to 'color:rgb(0,0,0)'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_rgb_0_0_0.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:08</start><end>2015-02-28 18:17:08</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/DOM, Forms and Styles/CSS Color Module Level 3" execution_type="auto" id="CSS3Colors_color_000" purpose="Check if the color is set to 'color:#000'" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-colors-css3-tests/colors/CSS3Colors_color_000.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-02-28 18:17:08</start><end>2015-02-28 18:17:08</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      </set>
+    <set name="Colors-ref" type="ref" ui-auto="wd">
+      </set>
+  </suite>
+</test_definition>

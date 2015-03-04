@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="testresult.xsl"?>
+<test_definition><environment build_id="" device_id="E5OKCYC13257" device_model="" device_name="N/A" host="Linux-3.2.0-23-generic-x86_64-with-Ubuntu-12.04-precise" lite_version="3.1.14" manufacturer="" resolution="N/A" screen_size="N/A"><other /></environment>
+<summary test_plan_name="Empty test_plan_name"><start_at>2015-03-03_10_07_27</start_at><end_at>2015-03-03_10_07_45</end_at></summary>
+  <suite category="W3C/HTML5 APIs" name="tct-svg-html5-tests" widget="webapi-noneservice-tests">
+    <set name="SVG" set_debug_msg="N/A" type="js">
+      <testcase component="W3C_HTML5 APIs/Graphics/HTML5 SVG" execution_type="auto" id="foreign_content_ten_circle_rect_svg" purpose="Check if SVG Self Closing tags (circle and rect in svg) is parsed properly" result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/tct-svg-html5-tests/svg/w3c/foreign_content_010.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-03-03 10:06:56</start><end>2015-03-03 10:06:56</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Graphics/HTML5 SVG" execution_type="auto" id="foreign_content_nine_circle_in_rect_svg" purpose="Check if SVG Self Closing tags (circle in rect in svg)  is parsed properly" result="PASS">
+        <description>
+          <test_script_entry test_script_expected_result="0">/opt/tct-svg-html5-tests/svg/w3c/foreign_content_009.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-03-03 10:06:56</start><end>2015-03-03 10:06:56</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+      <testcase component="W3C_HTML5 APIs/Graphics/HTML5 SVG" execution_type="auto" id="svg_support" purpose="Check if SVG suppports" result="PASS">
+        <description>
+          <test_script_entry>/opt/tct-svg-html5-tests/svg/svg_support.html</test_script_entry>
+        </description>
+      <result_info><actual_result>PASS</actual_result><start>2015-03-03 10:06:56</start><end>2015-03-03 10:06:56</end><stdout>[Message]</stdout><stderr /></result_info></testcase>
+    </set>
+    </suite>
+</test_definition>
