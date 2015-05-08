@@ -215,6 +215,28 @@ def count_cases(xml):
     else:
         print 'wrong 1'
 
+def keep_wd_result(xmlpath):
+    if os.path.isdir(xmlpath):
+        file_list = []
+        for root, dirs, files in os.walk(xmlpath):
+            for filename in files:
+                if root == xmlpath:
+                    if filename.endswith('.xml'):
+                        file_list.append(os.path.join(root, filename))
+        for file_real_path in file_list:
+            tree = read_xml(file_real_path)
+            nlist = tree.getroot()
+            for tpn in nlist.findall('suite'):
+                cldren = tpn.getchildren()
+                for cld in cldren:
+                    if cld.get('ui-auto') == None:
+                        tpn.remove(cld)
+                    elif cld.get('ui-auto').find('wd') == -1 and \
+                       cld.get('ui-auto').find('bdd') == -1:
+                        tpn.remove(cld)
+            write_xml(tree, file_real_path)
+
+
 def main():
     global DATA_BASE_PATH 
     DATA_BASE_PATH = "/home/tizen/00_yunfei/temp/nightly.db"
@@ -255,6 +277,11 @@ def main():
             action="store_true",
             help="specify the node to delete")
         opts_parser.add_option(
+            "--notdelete",
+            dest="notdeletevalue",
+            action="store_true",
+            help="specify the node not to delete")
+        opts_parser.add_option(
             "--insert",
             dest="insert",
             action="store_true",
@@ -267,10 +294,19 @@ def main():
             "--count",
             dest="countxml",
             help="specify the flag of count case number")
+        opts_parser.add_option(
+            "--wd",
+            dest="wd",
+            help="specify the flag of webdriver result")
 
         if len(sys.argv) == 1:
 		    sys.argv.append("-h")
         (PARAMETERS, args) = opts_parser.parse_args()
+        # keep webdriver result only
+        if PARAMETERS.wd:
+            keep_wd_result(PARAMETERS.wd)
+            sys.exit(1)
+            
 
         # count the result case number 
         if PARAMETERS.countxml:
@@ -335,7 +371,7 @@ def main():
         if PARAMETERS.changevalue and PARAMETERS.caseid:
             change_result_by_case_id(nodelist, PARAMETERS.caseid, PARAMETERS.changevalue)
             write_xml(tree, PARAMETERS.xmlfile)
-       
+
         if not PARAMETERS.deletevalue and not PARAMETERS.changevalue \
             and PARAMETERS.xmlfile1 and PARAMETERS.xmlfile2:
             #print PARAMETERS.xmlfile1 
