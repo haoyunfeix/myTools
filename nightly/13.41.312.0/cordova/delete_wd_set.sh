@@ -1,1 +1,0 @@
-../../delete_wd_set.sh

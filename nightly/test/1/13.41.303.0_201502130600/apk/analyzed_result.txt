@@ -1,6 +1,0 @@
-Total TCs: 11641 , Passed: 7437 , Failed: 437 , Blocked: 3767 , Run%: 68% , Pass%: 64%
-
------------- UseCase ------------
-Total TCs: 16 , Passed: 0 , Failed: 0 , Blocked: 16 , Run%: 0% , Pass%: 0%
------------- Web API ------------
-Total TCs: 11625 , Passed: 7437 , Failed: 437 , Blocked: 3751 , Run%: 68% , Pass%: 64%

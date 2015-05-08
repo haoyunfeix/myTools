@@ -1,3 +1,0 @@
-cmd204-positive	./
-cmd205-positive	/tmp
-cmd206-positive	apkdir
