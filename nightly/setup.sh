@@ -42,7 +42,7 @@ if test -f /opt/data.conf;then
     cp /opt/data.conf opt/webapi-noneservice-tests/ -a
 fi
 mkdir -p opt/webapi-noneservice-tests/data
-dirList=`sudo find /opt/ -maxdepth 3 -name "data"`
+dirList=`sudo find opt/ -maxdepth 3 -name "data"`
 for dir in $dirList;do
     cp -a $dir/* opt/webapi-noneservice-tests/data
 done

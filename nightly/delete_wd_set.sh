@@ -59,3 +59,16 @@ cp rerun_xml/webdriver_all_xml/*.xml webdriver_all_xml
 mkdir -p other_xml
 cp orig_xml/other_xml/*.xml other_xml
 cp rerun_xml/other_xml/*.xml other_xml
+
+# merge single retest xml to final xmls
+list_stub=`ls rerun_xml/single_xml/|grep xml|grep -v webdriver_single.xml`
+for i in $list_stub;do
+    i_name=${i%%tests_*}tests.xml
+    ./merge.py --f1 stub_xml/$i_name --f2 rerun_xml/single_xml/$i --f3 stub_xml/$i_name
+done
+
+list=`ls rerun_xml/single_xml/|grep xml`
+for i in $list;do
+    i_name=${i%%tests_*}tests.xml
+    ./merge.py --f1 stub_merge_xml/$i_name --f2 rerun_xml/single_xml/$i --f3 stub_merge_xml/$i_name
+done
