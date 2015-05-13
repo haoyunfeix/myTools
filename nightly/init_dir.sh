@@ -13,11 +13,15 @@ function init_sub_folder()
     ln -s ../../move.sh move.sh
     ln -s ../../diff.py diff.py
     ln -s ../../retest.py retest.py
+    ln -s ../../download_result.sh download_result.sh
     ln -s ../../../setup.sh code/setup.sh
+    ln -s ../../../download_code.sh code/download_code.sh
     cd ..
 }
-mkdir -p $1/{cordova/{code,merge_xml,orig_xml/{stub_xml,webdriver_xml,webdriver_all_xml,other_xml},rerun_xml/{stub_xml,webdriver_xml,webdriver_all_xml,other_xml},stub_xml},wrt/{code,merge_xml,orig_xml/webdriver_xml,rerun_xml/{webdriver_xml,webdriver_all_xml}},webapi/{code,merge_xml,orig_xml/{stub_xml,webdriver_xml,webdriver_all_xml,other_xml},rerun_xml/{stub_xml,webdriver_xml,webdriver_all_xml,other_xml},stub_xml}}
+mkdir -p $1/{cordova/{code,merge_xml,orig_xml/{stub_xml,webdriver_xml,webdriver_all_xml,other_xml},rerun_xml/{stub_xml,webdriver_xml,webdriver_all_xml,other_xml},stub_xml},wrt/{code,merge_xml,orig_xml/webdriver_xml,rerun_xml/{webdriver_xml,webdriver_all_xml}},webapi-x86/{code,merge_xml,orig_xml/{stub_xml,webdriver_xml,webdriver_all_xml,other_xml},rerun_xml/{stub_xml,webdriver_xml,webdriver_all_xml,other_xml},stub_xml}}
 cd $1
 init_sub_folder cordova
 init_sub_folder wrt
-init_sub_folder webapi
+init_sub_folder webapi-x86
+cp -a webapi-x86 webapi-arm
+cp -a webapi-x86 webapi-sharemode
